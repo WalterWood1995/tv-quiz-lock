@@ -3,6 +3,8 @@ import configparser
 import json
 import random
 import re
+import shutil
+import subprocess
 import tempfile
 import time
 import unittest
@@ -108,6 +110,16 @@ class GermanBankTest(unittest.TestCase):
         problems, total = check_bank(quiz.DE_BANK_DIR)
         self.assertEqual(problems, [])
         self.assertGreater(total, 500)
+
+    @unittest.skipUnless(shutil.which("node"), "需要 node 检查页面脚本语法")
+    def test_quiz_page_script_parses(self):
+        page = (Path(quiz.__file__).resolve().parent.parent / "assets" / "quiz.html").read_text(encoding="utf-8")
+        script = page[page.index("<script>") + len("<script>"):page.rindex("</script>")]
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "quiz.js"
+            path.write_text(script, encoding="utf-8")
+            r = subprocess.run(["node", "--check", str(path)], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stderr)
 
     def test_hint_goes_out_before_answering_and_more_after(self):
         with tempfile.TemporaryDirectory() as d:
