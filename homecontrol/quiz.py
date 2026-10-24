@@ -13,6 +13,7 @@
 import json
 import random
 import time
+import zlib
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -487,7 +488,8 @@ class QuizEngine:
     def reload_bank(self):
         """题库文件有变化（增删改）就重新读；返回是否重新读了。文件写到一半读不了时先用旧题库。"""
         files = bank_files(self.bank_dir)
-        signature = [(f.name, f.stat().st_mtime_ns, f.stat().st_size) for f in files]
+        # 用内容校验和而不是修改时间：有的文件系统（如安卓）时间精度粗，连着改两次会看不出变化
+        signature = [(f.name, zlib.crc32(f.read_bytes())) for f in files]
         if signature == self.bank_signature:
             return False
         try:
