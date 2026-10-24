@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Quiz</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #05070f; color: #e8f4ff;
+    font-family: "Samsung One", sans-serif; display: flex; align-items: center; justify-content: center; }
+  #msg { font-size: 48px; text-align: center; line-height: 1.6; }
+  small { font-size: 28px; color: #8ea3c0; }
+</style>
+</head>
+<body>
+<div id="msg">Quiz wird geladen …<br><small id="detail"></small></div>
+<script>
+  // 构建时由 tools/build_tv_app.py 替换成电脑的局域网地址
+  var QUIZ = "__QUIZ_URL__";
+
+  // 数字键 1–4 默认不会发给网页，要先登记（方向键和确认键不用）
+  try {
+    ["1", "2", "3", "4"].forEach(function (k) { tizen.tvinputdevice.registerKey(k); });
+  } catch (e) { /* 在电脑浏览器里预览时没有 tizen 对象 */ }
+
+  // 电脑上的答题页可达就跳过去；电脑没开时每 5 秒重试一次
+  function tryOpen() {
+    fetch(QUIZ.replace(/\/quiz$/, "/api/state"), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); location.replace(QUIZ); })
+      .catch(function (e) {
+        document.getElementById("detail").textContent = "Computer nicht erreichbar (" + QUIZ + "), neuer Versuch in 5 Sekunden";
+        setTimeout(tryOpen, 5000);
+      });
+  }
+  tryOpen();
+</script>
+</body>
+</html>

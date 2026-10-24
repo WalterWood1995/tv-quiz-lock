@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="__LANG__">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz</title>
+<style>
+  /* 电视 1920×1080，遥控器操作：大字、强焦点框、不依赖外网资源 */
+  :root {
+    --bg: #05070f; --panel: #0e1424; --line: #1f2a44; --text: #e8f4ff; --muted: #8ea3c0;
+    --accent: #00e5ff; --good: #2bd576; --bad: #ff5a6a; --focus: #ffd34d;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font-family: "Samsung One", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }
+  body { padding: 40px 72px; display: flex; flex-direction: column; gap: 24px; overflow: hidden; }
+  header { display: flex; justify-content: space-between; align-items: baseline; }
+  h1 { margin: 0; font-size: 56px; color: var(--accent); letter-spacing: 4px; }
+  #status { font-size: 32px; color: var(--muted); }
+  #status b { color: var(--text); font-size: 40px; }
+  .row { display: flex; gap: 20px; }
+  .nav { cursor: pointer; border: 4px solid var(--line); background: var(--panel); color: var(--text);
+    border-radius: 18px; font: inherit; outline: none; transition: transform .08s; }
+  .nav:focus { border-color: var(--focus); transform: scale(1.03); box-shadow: 0 0 24px #ffd34d55; }
+  .diff { flex: 1; padding: 14px; font-size: 30px; line-height: 1.3; }
+  .diff.sel { background: #12304a; border-color: var(--accent); }
+  .diff small { display: block; font-size: 24px; color: var(--muted); }
+  #card { background: var(--panel); border: 2px solid var(--line); border-radius: 24px; padding: 28px 36px; }
+  #meta { font-size: 26px; color: var(--muted); }
+  #stem { font-size: 52px; margin-top: 10px; line-height: 1.35; min-height: 140px; }
+  #options { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .opt { padding: 22px 28px; font-size: 42px; text-align: left; min-height: 110px; }
+  .opt .k { color: var(--accent); margin-right: 18px; }
+  .opt.good { border-color: var(--good); background: #0f3324; }
+  .opt.bad { border-color: var(--bad); background: #3a1018; }
+  #feedback { font-size: 34px; min-height: 96px; line-height: 1.4; }
+  #feedback .msg { font-size: 42px; }
+  #feedback.good .msg { color: var(--good); }
+  #feedback.bad .msg { color: var(--bad); }
+  #actions { display: flex; gap: 20px; align-items: center; }
+  #next { padding: 18px 48px; font-size: 36px; }
+  #unlocked { display: none; font-size: 40px; color: var(--good); }
+  #hint { margin-top: auto; font-size: 24px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title"></h1>
+  <div id="status"></div>
+</header>
+
+<div class="row" id="diffs"></div>
+
+<div id="card">
+  <div id="meta"></div>
+  <div id="stem"></div>
+</div>
+
+<div id="options"></div>
+<div id="feedback"></div>
+
+<div id="actions">
+  <button class="nav" id="next"></button>
+  <div id="unlocked"></div>
+</div>
+
+<div id="hint"></div>
+
+<script>
+  // 只用 ES2017，兼容 2022 款三星电视浏览器
+  var LETTERS = ["A", "B", "C", "D"];
+  // 界面语言由电脑在发页面时填进来（[quiz] language）
+  var I18N = {
+    zh: {
+      title: "答题解锁", connecting: "正在连接…", next: "下一题",
+      unlocked: "已解锁！按遥控器上的 ⌂ 主页键继续看电视。",
+      hint: "用遥控器方向键选择，按中间的确认键作答；也可以直接按数字键 1–4 选 A–D。",
+      balance: "余额", minutes: "分钟", usedToday: "今日已用", earned: "答题赚得",
+      diffs: { easy: "简单", medium: "中等", hard: "困难" },
+      wrongMinus: "答错 -", wrongFree: "答错不扣",
+      offline: "连不上电脑，请稍后再试", waiting: "连接不上电脑，请稍等…", why: "讲解："
+    },
+    de: {
+      title: "Quiz-Pause", connecting: "Verbinde …", next: "Nächste Frage",
+      unlocked: "Freigeschaltet! Drücke die ⌂ Home-Taste, um weiterzuschauen.",
+      hint: "Mit den Pfeiltasten auswählen, mit OK antworten – oder die Zifferntasten 1–4 für A–D drücken.",
+      balance: "Guthaben", minutes: "Min.", usedToday: "heute genutzt", earned: "erspielt",
+      diffs: { easy: "Leicht", medium: "Mittel", hard: "Schwer" },
+      wrongMinus: "falsch: -", wrongFree: "falsch: kein Abzug",
+      offline: "Keine Verbindung zum Computer – bitte gleich noch einmal versuchen.",
+      waiting: "Keine Verbindung zum Computer, bitte warten …", why: "Erklärung: "
+    }
+  };
+  var T = I18N["__LANG__"] || I18N.zh;
+  var difficulty = "medium";
+  var question = null;
+  var answered = false;
+  var state = null;
+
+  function $(id) { return document.getElementById(id); }
+
+  function api(method, path, body) {
+    return fetch(path, {
+      method: method,
+      headers: { "Content-Type": "application/json" },
+      body: body ? JSON.stringify(body) : undefined
+    }).then(function (r) { return r.json(); });
+  }
+
+  function renderState(s) {
+    state = s;
+    var html = T.balance + " <b>" + s.remaining + "</b> " + T.minutes + " · " + T.usedToday + " " + s.used + "/" + s.limit;
+    if (s.earnedToday) html += " · " + T.earned + " " + s.earnedToday;
+    $("status").innerHTML = html;
+    $("unlocked").style.display = s.locked ? "none" : "block";
+    renderDiffs();
+  }
+
+  function renderDiffs() {
+    var box = $("diffs");
+    var focusedDiff = document.activeElement && document.activeElement.dataset.diff;
+    box.innerHTML = "";
+    [["easy", T.diffs.easy], ["medium", T.diffs.medium], ["hard", T.diffs.hard]].forEach(function (d) {
+      var b = document.createElement("button");
+      b.className = "nav diff" + (d[0] === difficulty ? " sel" : "");
+      b.dataset.diff = d[0];
+      var reward = state ? state.rewards[d[0]] : "?";
+      var wrong = d[0] === "easy" ? T.wrongMinus + (state ? state.penaltyEasy : "?") : T.wrongFree;
+      b.innerHTML = d[1] + " +" + reward + " " + T.minutes + "<small>" + wrong + "</small>";
+      b.onclick = function () { difficulty = d[0]; renderDiffs(); loadQuestion(); };
+      box.appendChild(b);
+      if (focusedDiff === d[0]) b.focus();
+    });
+  }
+
+  function offline() {
+    var fb = $("feedback");
+    fb.className = "bad";
+    fb.innerHTML = '<div class="msg"></div>';
+    fb.querySelector(".msg").textContent = T.offline;
+  }
+
+  function loadQuestion() {
+    answered = false;
+    $("feedback").className = "";
+    $("feedback").innerHTML = "";
+    api("POST", "/api/question", { difficulty: difficulty }).catch(function () {
+      offline();
+      setTimeout(loadQuestion, 5000);  // 电脑恢复后自动接着出题
+      return { error: "" };
+    }).then(function (q) {
+      if (q.error === "") return;
+      if (q.error) { $("feedback").innerHTML = q.error; return; }
+      question = q;
+      $("meta").textContent = q.subject + " · " + q.difficultyLabel;
+      $("stem").textContent = q.stem;
+      var box = $("options");
+      box.innerHTML = "";
+      q.options.forEach(function (text, i) {
+        var b = document.createElement("button");
+        b.className = "nav opt";
+        b.dataset.choice = i;
+        b.innerHTML = '<span class="k">' + LETTERS[i] + "</span>";
+        b.appendChild(document.createTextNode(text));
+        b.onclick = function () { answer(i); };
+        box.appendChild(b);
+      });
+      box.firstChild.focus();
+    });
+  }
+
+  function answer(choice) {
+    if (!question || answered) return;
+    answered = true;
+    api("POST", "/api/answer", { id: question.id, choice: choice }).then(function (r) {
+      if (r.error) { answered = false; $("feedback").innerHTML = r.error; return; }
+      var buttons = $("options").children;
+      buttons[r.answer].classList.add("good");
+      if (!r.correct) buttons[choice].classList.add("bad");
+      var fb = $("feedback");
+      fb.className = r.correct ? "good" : "bad";
+      fb.innerHTML = '<div class="msg"></div><div class="why"></div>';
+      fb.querySelector(".msg").textContent = r.message;
+      if (r.explanation) fb.querySelector(".why").textContent = T.why + r.explanation;
+      renderState(r.state);
+      $("next").focus();
+    }).catch(function () {
+      answered = false;  // 没送到电脑：这题还能再答
+      offline();
+    });
+  }
+
+  // 方向键在可选元素之间按位置移动焦点
+  function move(dx, dy) {
+    var items = Array.prototype.slice.call(document.querySelectorAll(".nav"))
+      .filter(function (el) { return el.offsetParent !== null; });
+    var cur = document.activeElement;
+    if (items.indexOf(cur) < 0) { items[0].focus(); return; }
+    var a = cur.getBoundingClientRect();
+    var ax = a.left + a.width / 2, ay = a.top + a.height / 2;
+    var best = null, bestScore = Infinity;
+    items.forEach(function (el) {
+      if (el === cur) return;
+      var b = el.getBoundingClientRect();
+      var bx = b.left + b.width / 2, by = b.top + b.height / 2;
+      var along = dx ? (bx - ax) * dx : (by - ay) * dy;
+      var across = dx ? Math.abs(by - ay) : Math.abs(bx - ax);
+      if (along <= 4) return;
+      var score = along + across * 2;
+      if (score < bestScore) { bestScore = score; best = el; }
+    });
+    if (best) best.focus();
+  }
+
+  document.addEventListener("keydown", function (e) {
+    var k = e.keyCode;
+    if (k === 37) move(-1, 0);
+    else if (k === 39) move(1, 0);
+    else if (k === 38) move(0, -1);
+    else if (k === 40) move(0, 1);
+    else if (k === 13) { if (document.activeElement && document.activeElement.click) document.activeElement.click(); }
+    else if (k >= 49 && k <= 52) answer(k - 49);
+    else return;
+    e.preventDefault();
+  });
+
+  $("next").onclick = loadQuestion;
+
+  // 心跳：告诉电脑「答题页还在前台」；切走后浏览器会暂停脚本，电脑据此把页面重新打开
+  function heartbeat() {
+    if (document.visibilityState !== "visible") return;
+    api("POST", "/api/heartbeat").then(renderState).catch(function () {
+      $("status").textContent = T.waiting;
+    });
+  }
+
+  $("title").textContent = T.title;
+  $("status").textContent = T.connecting;
+  $("next").textContent = T.next;
+  $("unlocked").textContent = T.unlocked;
+  $("hint").textContent = T.hint;
+
+  api("GET", "/api/state").then(renderState).catch(function () {
+    $("status").textContent = T.waiting;
+  }).then(loadQuestion);
+  setInterval(heartbeat, 4000);
+</script>
+</body>
+</html>

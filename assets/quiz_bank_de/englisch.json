@@ -1,0 +1,450 @@
+[
+ {
+  "id": "de-englisch-001",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Hund“ auf Englisch?",
+  "options": [
+   "cat",
+   "horse",
+   "duck",
+   "dog"
+  ],
+  "answer": "D",
+  "explanation": "Hund = dog."
+ },
+ {
+  "id": "de-englisch-002",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Katze“ auf Englisch?",
+  "options": [
+   "cat",
+   "cow",
+   "dog",
+   "mouse"
+  ],
+  "answer": "A",
+  "explanation": "Katze = cat."
+ },
+ {
+  "id": "de-englisch-003",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „rot“ auf Englisch?",
+  "options": [
+   "red",
+   "yellow",
+   "blue",
+   "green"
+  ],
+  "answer": "A",
+  "explanation": "rot = red."
+ },
+ {
+  "id": "de-englisch-004",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Apfel“ auf Englisch?",
+  "options": [
+   "apple",
+   "cherry",
+   "pear",
+   "banana"
+  ],
+  "answer": "A",
+  "explanation": "Apfel = apple."
+ },
+ {
+  "id": "de-englisch-005",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „thank you“?",
+  "options": [
+   "danke",
+   "tschüss",
+   "bitte",
+   "hallo"
+  ],
+  "answer": "A",
+  "explanation": "thank you = danke."
+ },
+ {
+  "id": "de-englisch-006",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist „seven“?",
+  "options": [
+   "7",
+   "17",
+   "6",
+   "70"
+  ],
+  "answer": "A",
+  "explanation": "seven = 7."
+ },
+ {
+  "id": "de-englisch-007",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Mutter“ auf Englisch?",
+  "options": [
+   "mother",
+   "brother",
+   "sister",
+   "father"
+  ],
+  "answer": "A",
+  "explanation": "Mutter = mother."
+ },
+ {
+  "id": "de-englisch-008",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Good morning“?",
+  "options": [
+   "Guten Abend",
+   "Auf Wiedersehen",
+   "Gute Nacht",
+   "Guten Morgen"
+  ],
+  "answer": "D",
+  "explanation": "Good morning = Guten Morgen."
+ },
+ {
+  "id": "de-englisch-009",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Schule“ auf Englisch?",
+  "options": [
+   "school",
+   "garden",
+   "house",
+   "street"
+  ],
+  "answer": "A",
+  "explanation": "Schule = school."
+ },
+ {
+  "id": "de-englisch-010",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Montag“ auf Englisch?",
+  "options": [
+   "Sunday",
+   "Tuesday",
+   "Monday",
+   "Friday"
+  ],
+  "answer": "C",
+  "explanation": "Montag = Monday."
+ },
+ {
+  "id": "de-englisch-011",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „blue“?",
+  "options": [
+   "braun",
+   "schwarz",
+   "blau",
+   "grün"
+  ],
+  "answer": "C",
+  "explanation": "blue = blau."
+ },
+ {
+  "id": "de-englisch-012",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie sagst du „Ich heiße Tom“?",
+  "options": [
+   "My Tom is name.",
+   "My name is Tom.",
+   "I am name Tom.",
+   "Name my is Tom."
+  ],
+  "answer": "B",
+  "explanation": "My name is … = Ich heiße …"
+ },
+ {
+  "id": "de-englisch-013",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Wednesday“?",
+  "options": [
+   "Montag",
+   "Donnerstag",
+   "Mittwoch",
+   "Dienstag"
+  ],
+  "answer": "C",
+  "explanation": "Wednesday = Mittwoch."
+ },
+ {
+  "id": "de-englisch-014",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „child“?",
+  "options": [
+   "childs",
+   "childes",
+   "childrens",
+   "children"
+  ],
+  "answer": "D",
+  "explanation": "one child – two children."
+ },
+ {
+  "id": "de-englisch-015",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort passt? „I ___ ten years old.“",
+  "options": [
+   "is",
+   "am",
+   "be",
+   "are"
+  ],
+  "answer": "B",
+  "explanation": "I am, you are, he/she/it is."
+ },
+ {
+  "id": "de-englisch-016",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort passt? „She ___ a cat.“",
+  "options": [
+   "has",
+   "having",
+   "haves",
+   "have"
+  ],
+  "answer": "A",
+  "explanation": "I have, she has."
+ },
+ {
+  "id": "de-englisch-017",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Wie alt bist du?“",
+  "options": [
+   "How are you old?",
+   "Who old are you?",
+   "How old are you?",
+   "What old are you?"
+  ],
+  "answer": "C",
+  "explanation": "How old are you? – I am … years old."
+ },
+ {
+  "id": "de-englisch-018",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „kitchen“?",
+  "options": [
+   "Kinderzimmer",
+   "Keller",
+   "Küche",
+   "Garten"
+  ],
+  "answer": "C",
+  "explanation": "kitchen = Küche."
+ },
+ {
+  "id": "de-englisch-019",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist „twelve“?",
+  "options": [
+   "2",
+   "11",
+   "12",
+   "20"
+  ],
+  "answer": "C",
+  "explanation": "twelve = 12, twenty = 20."
+ },
+ {
+  "id": "de-englisch-020",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „spring“ (Jahreszeit)?",
+  "options": [
+   "Frühling",
+   "Sommer",
+   "Herbst",
+   "Winter"
+  ],
+  "answer": "A",
+  "explanation": "spring = Frühling, summer = Sommer, autumn = Herbst."
+ },
+ {
+  "id": "de-englisch-021",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „big“?",
+  "options": [
+   "small",
+   "long",
+   "fat",
+   "tall"
+  ],
+  "answer": "A",
+  "explanation": "big ↔ small."
+ },
+ {
+  "id": "de-englisch-022",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „They ___ playing football.“",
+  "options": [
+   "am",
+   "be",
+   "is",
+   "are"
+  ],
+  "answer": "D",
+  "explanation": "they are – They are playing football."
+ },
+ {
+  "id": "de-englisch-023",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Frage passt zur Antwort „It's three o'clock.“?",
+  "options": [
+   "What colour is it?",
+   "How old are you?",
+   "Where is it?",
+   "What time is it?"
+  ],
+  "answer": "D",
+  "explanation": "What time is it? – Wie spät ist es?"
+ },
+ {
+  "id": "de-englisch-024",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was heißt „Ich mag keine Bananen.“?",
+  "options": [
+   "I not like bananas.",
+   "I doesn't like bananas.",
+   "I don't like bananas.",
+   "I am not like bananas."
+  ],
+  "answer": "C",
+  "explanation": "Verneinung mit „don't“: I don't like …"
+ },
+ {
+  "id": "de-englisch-025",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „He ___ to school every day.“",
+  "options": [
+   "gos",
+   "going",
+   "go",
+   "goes"
+  ],
+  "answer": "D",
+  "explanation": "he/she/it + s: he goes."
+ },
+ {
+  "id": "de-englisch-026",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „between“?",
+  "options": [
+   "hinter",
+   "unter",
+   "neben",
+   "zwischen"
+  ],
+  "answer": "D",
+  "explanation": "between = zwischen."
+ },
+ {
+  "id": "de-englisch-027",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was heißt „Wo ist meine Tasche?“",
+  "options": [
+   "Who is my bag?",
+   "Where is my bag?",
+   "Where my bag is?",
+   "What is my bag?"
+  ],
+  "answer": "B",
+  "explanation": "where = wo."
+ },
+ {
+  "id": "de-englisch-028",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Tier ist „a squirrel“?",
+  "options": [
+   "Eichhörnchen",
+   "Fuchs",
+   "Eule",
+   "Igel"
+  ],
+  "answer": "A",
+  "explanation": "squirrel = Eichhörnchen."
+ }
+]

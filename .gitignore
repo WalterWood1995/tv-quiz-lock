@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+# 本地配置（含 FRITZ!Box 密码）、运行数据、日志、构建产物
+config.local.ini
+data/
+logs/
+dist/
+# 按本地配置生成的提醒视频/语音（含孩子名字）
+assets/caption.txt
+assets/reminder.mp4
+assets/reminder_voice.mp3

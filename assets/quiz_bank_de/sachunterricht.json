@@ -1,0 +1,722 @@
+[
+ {
+  "id": "de-sachunterricht-001",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Tage hat eine Woche?",
+  "options": [
+   "5",
+   "10",
+   "12",
+   "7"
+  ],
+  "answer": "D",
+  "explanation": "Montag bis Sonntag: sieben Tage."
+ },
+ {
+  "id": "de-sachunterricht-002",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Jahreszeit kommt nach dem Winter?",
+  "options": [
+   "Sommer",
+   "Regenzeit",
+   "Frühling",
+   "Herbst"
+  ],
+  "answer": "C",
+  "explanation": "Frühling, Sommer, Herbst, Winter – dann wieder Frühling."
+ },
+ {
+  "id": "de-sachunterricht-003",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Bei welcher Ampelfarbe darfst du über die Straße gehen?",
+  "options": [
+   "Blau",
+   "Rot",
+   "Grün",
+   "Gelb"
+  ],
+  "answer": "C",
+  "explanation": "Bei Grün darf man gehen – trotzdem links und rechts schauen!"
+ },
+ {
+  "id": "de-sachunterricht-004",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Monate hat ein Jahr?",
+  "options": [
+   "24",
+   "7",
+   "10",
+   "12"
+  ],
+  "answer": "D",
+  "explanation": "Januar bis Dezember: zwölf Monate."
+ },
+ {
+  "id": "de-sachunterricht-005",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Fahrzeug fährt auf Schienen?",
+  "options": [
+   "Lastwagen",
+   "Bus",
+   "Straßenbahn",
+   "Fahrrad"
+  ],
+  "answer": "C",
+  "explanation": "Straßenbahnen und Züge fahren auf Schienen."
+ },
+ {
+  "id": "de-sachunterricht-006",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Tier ist ein Säugetier?",
+  "options": [
+   "Amsel",
+   "Forelle",
+   "Frosch",
+   "Igel"
+  ],
+  "answer": "D",
+  "explanation": "Igel-Mütter säugen ihre Jungen mit Milch."
+ },
+ {
+  "id": "de-sachunterricht-007",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was braucht eine Pflanze zum Wachsen?",
+  "options": [
+   "Zucker und Salz",
+   "Wasser, Licht und Luft",
+   "nur Sand",
+   "nur Dunkelheit"
+  ],
+  "answer": "B",
+  "explanation": "Ohne Wasser, Licht und Luft kann keine Pflanze wachsen."
+ },
+ {
+  "id": "de-sachunterricht-008",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Beine hat ein Insekt?",
+  "options": [
+   "10",
+   "6",
+   "8",
+   "4"
+  ],
+  "answer": "B",
+  "explanation": "Insekten haben sechs Beine. Spinnen haben acht und sind keine Insekten."
+ },
+ {
+  "id": "de-sachunterricht-009",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Beine hat eine Spinne?",
+  "options": [
+   "4",
+   "8",
+   "10",
+   "6"
+  ],
+  "answer": "B",
+  "explanation": "Spinnen haben acht Beine."
+ },
+ {
+  "id": "de-sachunterricht-010",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Nummer rufst du bei Feuer oder einem Unfall an?",
+  "options": [
+   "911",
+   "112",
+   "100",
+   "110"
+  ],
+  "answer": "B",
+  "explanation": "112 = Feuerwehr und Rettungsdienst. 110 = Polizei."
+ },
+ {
+  "id": "de-sachunterricht-011",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Nummer wählst du für die Polizei?",
+  "options": [
+   "911",
+   "110",
+   "112",
+   "119"
+  ],
+  "answer": "B",
+  "explanation": "110 = Polizei."
+ },
+ {
+  "id": "de-sachunterricht-012",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "In welchem Monat ist Weihnachten?",
+  "options": [
+   "November",
+   "Oktober",
+   "Januar",
+   "Dezember"
+  ],
+  "answer": "D",
+  "explanation": "Weihnachten ist am 24. bis 26. Dezember."
+ },
+ {
+  "id": "de-sachunterricht-013",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist gut für die Zähne?",
+  "options": [
+   "zweimal am Tag Zähne putzen",
+   "viele Süßigkeiten essen",
+   "nie zum Zahnarzt gehen",
+   "nur Limo trinken"
+  ],
+  "answer": "A",
+  "explanation": "Morgens und abends putzen schützt vor Karies."
+ },
+ {
+  "id": "de-sachunterricht-014",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Woraus wird ein Schmetterling?",
+  "options": [
+   "aus einem Samen",
+   "aus einer Schnecke",
+   "aus einer Raupe",
+   "aus einer Kaulquappe"
+  ],
+  "answer": "C",
+  "explanation": "Ei → Raupe → Puppe → Schmetterling."
+ },
+ {
+  "id": "de-sachunterricht-015",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Woraus wird ein Frosch?",
+  "options": [
+   "aus einer Raupe",
+   "aus einem Küken",
+   "aus einer Kaulquappe",
+   "aus einer Puppe"
+  ],
+  "answer": "C",
+  "explanation": "Laich → Kaulquappe → Frosch."
+ },
+ {
+  "id": "de-sachunterricht-016",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Form und Farbe hat ein Stoppschild?",
+  "options": [
+   "rund und blau",
+   "dreieckig und gelb",
+   "achteckig und rot",
+   "viereckig und grün"
+  ],
+  "answer": "C",
+  "explanation": "Das Stoppschild ist ein rotes Achteck."
+ },
+ {
+  "id": "de-sachunterricht-017",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist die Hauptstadt von Deutschland?",
+  "options": [
+   "Hamburg",
+   "Bonn",
+   "Berlin",
+   "München"
+  ],
+  "answer": "C",
+  "explanation": "Berlin ist die Hauptstadt Deutschlands."
+ },
+ {
+  "id": "de-sachunterricht-018",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Bundesländer hat Deutschland?",
+  "options": [
+   "20",
+   "16",
+   "12",
+   "10"
+  ],
+  "answer": "B",
+  "explanation": "Deutschland hat 16 Bundesländer."
+ },
+ {
+  "id": "de-sachunterricht-019",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Bei wie viel Grad Celsius gefriert Wasser?",
+  "options": [
+   "0 °C",
+   "-20 °C",
+   "10 °C",
+   "100 °C"
+  ],
+  "answer": "A",
+  "explanation": "Bei 0 °C wird Wasser zu Eis."
+ },
+ {
+  "id": "de-sachunterricht-020",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Bei wie viel Grad Celsius kocht Wasser?",
+  "options": [
+   "200 °C",
+   "50 °C",
+   "0 °C",
+   "100 °C"
+  ],
+  "answer": "D",
+  "explanation": "Wasser kocht bei etwa 100 °C."
+ },
+ {
+  "id": "de-sachunterricht-021",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wohin zeigt die Nadel eines Kompasses?",
+  "options": [
+   "nach Süden",
+   "nach Westen",
+   "nach Norden",
+   "nach Osten"
+  ],
+  "answer": "C",
+  "explanation": "Die Kompassnadel ist ein kleiner Magnet und zeigt nach Norden."
+ },
+ {
+  "id": "de-sachunterricht-022",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wo geht die Sonne auf?",
+  "options": [
+   "im Westen",
+   "im Osten",
+   "im Norden",
+   "im Süden"
+  ],
+  "answer": "B",
+  "explanation": "Im Osten geht die Sonne auf, im Westen geht sie unter."
+ },
+ {
+  "id": "de-sachunterricht-023",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Fluss fließt durch Köln?",
+  "options": [
+   "Spree",
+   "Donau",
+   "Rhein",
+   "Elbe"
+  ],
+  "answer": "C",
+  "explanation": "Köln liegt am Rhein."
+ },
+ {
+  "id": "de-sachunterricht-024",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was gehört in die Biotonne?",
+  "options": [
+   "Batterien",
+   "Joghurtbecher",
+   "Kartoffelschalen",
+   "Glasflaschen"
+  ],
+  "answer": "C",
+  "explanation": "Essensreste und Schalen kommen in den Biomüll."
+ },
+ {
+  "id": "de-sachunterricht-025",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was gehört in den Gelben Sack?",
+  "options": [
+   "leere Joghurtbecher",
+   "Apfelreste",
+   "alte Zeitungen",
+   "Glasflaschen"
+  ],
+  "answer": "A",
+  "explanation": "Verpackungen aus Plastik und Metall kommen in den Gelben Sack."
+ },
+ {
+  "id": "de-sachunterricht-026",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Organ pumpt das Blut durch den Körper?",
+  "options": [
+   "die Lunge",
+   "der Magen",
+   "die Leber",
+   "das Herz"
+  ],
+  "answer": "D",
+  "explanation": "Das Herz ist ein Muskel, der das Blut pumpt."
+ },
+ {
+  "id": "de-sachunterricht-027",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Mit welchem Organ atmen wir?",
+  "options": [
+   "mit der Lunge",
+   "mit dem Herz",
+   "mit der Niere",
+   "mit dem Magen"
+  ],
+  "answer": "A",
+  "explanation": "In der Lunge kommt Sauerstoff ins Blut."
+ },
+ {
+  "id": "de-sachunterricht-028",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche drei Zustände kann Wasser haben?",
+  "options": [
+   "nass, trocken, feucht",
+   "hart, weich, rund",
+   "fest, flüssig, gasförmig",
+   "heiß, kalt, warm"
+  ],
+  "answer": "C",
+  "explanation": "Eis ist fest, Wasser flüssig, Dampf gasförmig."
+ },
+ {
+  "id": "de-sachunterricht-029",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was muss an einem verkehrssicheren Fahrrad sein?",
+  "options": [
+   "ein Tacho",
+   "ein Gepäckkorb",
+   "Klingel und Licht",
+   "ein Wimpel"
+  ],
+  "answer": "C",
+  "explanation": "Vorgeschrieben sind z. B. zwei Bremsen, Klingel, Licht und Reflektoren."
+ },
+ {
+  "id": "de-sachunterricht-030",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "An welchem Baum wachsen Eicheln?",
+  "options": [
+   "an der Buche",
+   "an der Tanne",
+   "an der Eiche",
+   "an der Kastanie"
+  ],
+  "answer": "C",
+  "explanation": "Eicheln sind die Früchte der Eiche."
+ },
+ {
+  "id": "de-sachunterricht-031",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Baum behält im Winter seine Nadeln?",
+  "options": [
+   "Ahorn",
+   "Fichte",
+   "Birke",
+   "Eiche"
+  ],
+  "answer": "B",
+  "explanation": "Fichten sind immergrün. Laubbäume verlieren im Herbst ihre Blätter."
+ },
+ {
+  "id": "de-sachunterricht-032",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Vogel fliegt im Herbst nach Afrika?",
+  "options": [
+   "Storch",
+   "Elster",
+   "Spatz",
+   "Taube"
+  ],
+  "answer": "A",
+  "explanation": "Störche sind Zugvögel und überwintern im Süden."
+ },
+ {
+  "id": "de-sachunterricht-033",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Tier hält Winterschlaf?",
+  "options": [
+   "Reh",
+   "Igel",
+   "Fuchs",
+   "Eichhörnchen"
+  ],
+  "answer": "B",
+  "explanation": "Igel schlafen den ganzen Winter. Eichhörnchen halten nur Winterruhe."
+ },
+ {
+  "id": "de-sachunterricht-034",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Teil der Pflanze nimmt Wasser aus dem Boden auf?",
+  "options": [
+   "die Frucht",
+   "die Blüte",
+   "die Wurzel",
+   "das Blatt"
+  ],
+  "answer": "C",
+  "explanation": "Die Wurzeln saugen Wasser und Nährstoffe aus der Erde."
+ },
+ {
+  "id": "de-sachunterricht-035",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Bundesland ist am größten?",
+  "options": [
+   "Niedersachsen",
+   "Bayern",
+   "Baden-Württemberg",
+   "Nordrhein-Westfalen"
+  ],
+  "answer": "B",
+  "explanation": "Bayern hat die größte Fläche."
+ },
+ {
+  "id": "de-sachunterricht-036",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Bundesland hat die meisten Einwohner?",
+  "options": [
+   "Berlin",
+   "Nordrhein-Westfalen",
+   "Baden-Württemberg",
+   "Bayern"
+  ],
+  "answer": "B",
+  "explanation": "In Nordrhein-Westfalen leben fast 18 Millionen Menschen."
+ },
+ {
+  "id": "de-sachunterricht-037",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche zwei Meere grenzen an Deutschland?",
+  "options": [
+   "Nordsee und Ostsee",
+   "Ostsee und Schwarzes Meer",
+   "Mittelmeer und Nordsee",
+   "Atlantik und Mittelmeer"
+  ],
+  "answer": "A",
+  "explanation": "Im Norden liegen die Nordsee und die Ostsee."
+ },
+ {
+  "id": "de-sachunterricht-038",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher ist der höchste Berg Deutschlands?",
+  "options": [
+   "Brocken",
+   "Zugspitze",
+   "Feldberg",
+   "Watzmann"
+  ],
+  "answer": "B",
+  "explanation": "Die Zugspitze ist fast 3000 m hoch."
+ },
+ {
+  "id": "de-sachunterricht-039",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Farben hat die deutsche Flagge von oben nach unten?",
+  "options": [
+   "Schwarz, Gold, Rot",
+   "Rot, Weiß, Rot",
+   "Schwarz, Rot, Gold",
+   "Blau, Weiß, Rot"
+  ],
+  "answer": "C",
+  "explanation": "Schwarz – Rot – Gold."
+ },
+ {
+  "id": "de-sachunterricht-040",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was zieht ein Magnet an?",
+  "options": [
+   "einen Holzstab",
+   "eine Kupfermünze",
+   "eine Glasmurmel",
+   "einen Eisennagel"
+  ],
+  "answer": "D",
+  "explanation": "Magnete ziehen Eisen an – Holz, Glas und Kupfer nicht."
+ },
+ {
+  "id": "de-sachunterricht-041",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was entsteht in den Blättern, wenn die Sonne scheint?",
+  "options": [
+   "Salz und Öl",
+   "Zucker und Sauerstoff",
+   "Stein und Rauch",
+   "Sand und Wasser"
+  ],
+  "answer": "B",
+  "explanation": "Pflanzen machen aus Wasser und Kohlendioxid mit Licht Zucker und Sauerstoff."
+ },
+ {
+  "id": "de-sachunterricht-042",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wann leuchtet eine Lampe im Stromkreis?",
+  "options": [
+   "wenn nur ein Kabel dran ist",
+   "wenn die Batterie fehlt",
+   "wenn der Stromkreis geschlossen ist",
+   "wenn der Stromkreis offen ist"
+  ],
+  "answer": "C",
+  "explanation": "Strom fließt nur in einem geschlossenen Kreis."
+ },
+ {
+  "id": "de-sachunterricht-043",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Planet ist der Sonne am nächsten?",
+  "options": [
+   "Merkur",
+   "Mars",
+   "Venus",
+   "Erde"
+  ],
+  "answer": "A",
+  "explanation": "Merkur, Venus, Erde, Mars … – Merkur ist der erste."
+ },
+ {
+  "id": "de-sachunterricht-044",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie lange braucht die Erde für eine Runde um die Sonne?",
+  "options": [
+   "einen Monat",
+   "ein Jahr",
+   "einen Tag",
+   "eine Woche"
+  ],
+  "answer": "B",
+  "explanation": "Eine Runde um die Sonne dauert ein Jahr; eine Drehung um sich selbst einen Tag."
+ },
+ {
+  "id": "de-sachunterricht-045",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wer wählt den Bürgermeister oder die Bürgermeisterin?",
+  "options": [
+   "der Bundespräsident",
+   "der Bundeskanzler",
+   "die Lehrerinnen und Lehrer",
+   "die Bürgerinnen und Bürger der Gemeinde"
+  ],
+  "answer": "D",
+  "explanation": "In Deutschland wählen die Menschen der Gemeinde ihre Bürgermeisterin oder ihren Bürgermeister."
+ }
+]

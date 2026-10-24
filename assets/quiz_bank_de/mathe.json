@@ -1,0 +1,290 @@
+[
+ {
+  "id": "de-mathe-001",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Form hat drei Ecken?",
+  "options": [
+   "Viereck",
+   "Kreis",
+   "Rechteck",
+   "Dreieck"
+  ],
+  "answer": "D",
+  "explanation": "Ein Dreieck hat drei Ecken und drei Seiten."
+ },
+ {
+  "id": "de-mathe-002",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Minuten hat eine Stunde?",
+  "options": [
+   "60",
+   "24",
+   "100",
+   "30"
+  ],
+  "answer": "A",
+  "explanation": "1 Stunde = 60 Minuten."
+ },
+ {
+  "id": "de-mathe-003",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Cent sind 1 Euro?",
+  "options": [
+   "50",
+   "100",
+   "1000",
+   "10"
+  ],
+  "answer": "B",
+  "explanation": "1 € = 100 ct."
+ },
+ {
+  "id": "de-mathe-004",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Der große Zeiger steht auf 12, der kleine auf 3. Wie spät ist es?",
+  "options": [
+   "3 Uhr",
+   "Viertel nach 12",
+   "halb 4",
+   "12 Uhr"
+  ],
+  "answer": "A",
+  "explanation": "Der kleine Zeiger zeigt die Stunde: 3 Uhr."
+ },
+ {
+  "id": "de-mathe-005",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Der große Zeiger steht auf 6, der kleine zwischen 7 und 8. Wie spät ist es?",
+  "options": [
+   "halb 8",
+   "Viertel nach 7",
+   "6 Uhr",
+   "halb 7"
+  ],
+  "answer": "A",
+  "explanation": "Großer Zeiger auf 6 = halb. Der kleine Zeiger ist schon fast bei 8: halb 8 (7:30 Uhr)."
+ },
+ {
+  "id": "de-mathe-006",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Zentimeter sind 1 Meter?",
+  "options": [
+   "10",
+   "1000",
+   "60",
+   "100"
+  ],
+  "answer": "D",
+  "explanation": "1 m = 100 cm."
+ },
+ {
+  "id": "de-mathe-007",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Gramm sind 1 Kilogramm?",
+  "options": [
+   "100",
+   "500",
+   "10",
+   "1000"
+  ],
+  "answer": "D",
+  "explanation": "1 kg = 1000 g."
+ },
+ {
+  "id": "de-mathe-008",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Flächen hat ein Würfel?",
+  "options": [
+   "6",
+   "8",
+   "4",
+   "12"
+  ],
+  "answer": "A",
+  "explanation": "Ein Würfel hat 6 gleich große quadratische Flächen."
+ },
+ {
+  "id": "de-mathe-009",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Es ist 10:45 Uhr. Wie spät ist es in 30 Minuten?",
+  "options": [
+   "11:00 Uhr",
+   "11:15 Uhr",
+   "10:75 Uhr",
+   "11:45 Uhr"
+  ],
+  "answer": "B",
+  "explanation": "15 Minuten bis 11:00, dann noch 15 Minuten: 11:15 Uhr."
+ },
+ {
+  "id": "de-mathe-010",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Tage hat der Februar (kein Schaltjahr)?",
+  "options": [
+   "30",
+   "29",
+   "31",
+   "28"
+  ],
+  "answer": "D",
+  "explanation": "Der Februar hat 28 Tage, im Schaltjahr 29."
+ },
+ {
+  "id": "de-mathe-011",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viel sind 2 € und 50 ct zusammen mit 1 € und 50 ct?",
+  "options": [
+   "4 €",
+   "3 €",
+   "3,50 €",
+   "4,50 €"
+  ],
+  "answer": "A",
+  "explanation": "50 ct + 50 ct = 1 €; 2 € + 1 € + 1 € = 4 €."
+ },
+ {
+  "id": "de-mathe-012",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Kanten hat ein Würfel?",
+  "options": [
+   "10",
+   "6",
+   "8",
+   "12"
+  ],
+  "answer": "D",
+  "explanation": "Oben 4, unten 4 und 4 senkrechte Kanten: 12."
+ },
+ {
+  "id": "de-mathe-013",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Ecken hat ein Würfel?",
+  "options": [
+   "8",
+   "12",
+   "6",
+   "4"
+  ],
+  "answer": "A",
+  "explanation": "Oben 4 Ecken und unten 4 Ecken: 8."
+ },
+ {
+  "id": "de-mathe-014",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Rechteck ist 6 cm lang und 4 cm breit. Wie groß ist der Umfang?",
+  "options": [
+   "20 cm",
+   "10 cm",
+   "24 cm",
+   "22 cm"
+  ],
+  "answer": "A",
+  "explanation": "Umfang = 6 + 4 + 6 + 4 = 20 cm."
+ },
+ {
+  "id": "de-mathe-015",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Rechteck ist 6 cm lang und 4 cm breit. Wie groß ist der Flächeninhalt?",
+  "options": [
+   "24 cm",
+   "10 cm²",
+   "24 cm²",
+   "20 cm²"
+  ],
+  "answer": "C",
+  "explanation": "Flächeninhalt = Länge · Breite = 6 · 4 = 24 cm²."
+ },
+ {
+  "id": "de-mathe-016",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Millimeter sind 3 cm?",
+  "options": [
+   "3 mm",
+   "300 mm",
+   "30 mm",
+   "13 mm"
+  ],
+  "answer": "C",
+  "explanation": "1 cm = 10 mm, also 3 cm = 30 mm."
+ },
+ {
+  "id": "de-mathe-017",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Meter sind 2 km?",
+  "options": [
+   "200 m",
+   "20.000 m",
+   "2000 m",
+   "20 m"
+  ],
+  "answer": "C",
+  "explanation": "1 km = 1000 m."
+ },
+ {
+  "id": "de-mathe-018",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Film beginnt um 17:40 Uhr und dauert 1 Stunde 35 Minuten. Wann ist er zu Ende?",
+  "options": [
+   "18:15 Uhr",
+   "19:15 Uhr",
+   "19:05 Uhr",
+   "18:75 Uhr"
+  ],
+  "answer": "B",
+  "explanation": "17:40 + 1 h = 18:40; + 20 min = 19:00; + 15 min = 19:15 Uhr."
+ }
+]

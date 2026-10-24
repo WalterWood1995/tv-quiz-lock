@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 电视答题屏保：一个全屏外壳，打开电脑上的答题页（homecontrol/quizserver.py）。
+     时间用完时 Watcher 通过电视的 REST 接口启动本应用（应用 ID 见 tizen:application）。 -->
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets"
+        id="http://homecontrol.local/quizlock" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="ShuaTiQz01.QuizLock" package="ShuaTiQz01" required_version="5.5"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>答题解锁</name>
+    <access origin="*" subdomains="true"/>
+    <tizen:allow-navigation>*</tizen:allow-navigation>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+    <tizen:profile name="tv-samsung"/>
+    <!-- 不写的话 Tizen 默认禁止页面里的内联 <style>/<script>（实测：页面黑屏、脚本不执行） -->
+    <tizen:content-security-policy>default-src * 'unsafe-inline' 'unsafe-eval' data: blob:</tizen:content-security-policy>
+    <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable"
+                   encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
