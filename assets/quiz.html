@@ -357,10 +357,8 @@
 
   // 讲解：答案解释 + 引申的相关知识
   function explain(r, intro) {
-    var text = (intro ? intro + "
-" : "") + (r.explanation || "");
-    if (r.more) text += "
-" + T.more + r.more;
+    var text = (intro ? intro + "\n" : "") + (r.explanation || "");
+    if (r.more) text += "\n" + T.more + r.more;
     robotSay(text);
   }
 
