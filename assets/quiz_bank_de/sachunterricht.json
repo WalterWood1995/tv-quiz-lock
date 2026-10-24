@@ -13,6 +13,7 @@
    "7"
   ],
   "answer": "D",
+  "hint": "Zähle von Montag bis Sonntag.",
   "explanation": "Montag bis Sonntag: sieben Tage."
  },
  {
@@ -29,6 +30,7 @@
    "Herbst"
   ],
   "answer": "C",
+  "hint": "Denk an die Zeit, in der die ersten Blumen blühen und es wärmer wird.",
   "explanation": "Frühling, Sommer, Herbst, Winter – dann wieder Frühling."
  },
  {
@@ -45,6 +47,7 @@
    "Gelb"
   ],
   "answer": "C",
+  "hint": "Es ist dieselbe Farbe wie frisches Gras.",
   "explanation": "Bei Grün darf man gehen – trotzdem links und rechts schauen!"
  },
  {
@@ -61,6 +64,7 @@
    "12"
   ],
   "answer": "D",
+  "hint": "Zähle von Januar bis Dezember.",
   "explanation": "Januar bis Dezember: zwölf Monate."
  },
  {
@@ -77,6 +81,7 @@
    "Fahrrad"
   ],
   "answer": "C",
+  "hint": "Denk an ein Fahrzeug, das in der Stadt an einer Oberleitung fährt.",
   "explanation": "Straßenbahnen und Züge fahren auf Schienen."
  },
  {
@@ -93,6 +98,7 @@
    "Igel"
   ],
   "answer": "D",
+  "hint": "Welches Tier trinkt als Baby Milch bei seiner Mutter?",
   "explanation": "Igel-Mütter säugen ihre Jungen mit Milch."
  },
  {
@@ -109,6 +115,7 @@
    "nur Dunkelheit"
   ],
   "answer": "B",
+  "hint": "Denk daran, was du einer Zimmerpflanze gibst und wo du sie hinstellst.",
   "explanation": "Ohne Wasser, Licht und Luft kann keine Pflanze wachsen."
  },
  {
@@ -125,6 +132,7 @@
    "4"
   ],
   "answer": "B",
+  "hint": "Zähle die Beine eines Käfers oder einer Ameise.",
   "explanation": "Insekten haben sechs Beine. Spinnen haben acht und sind keine Insekten."
  },
  {
@@ -141,6 +149,7 @@
    "6"
   ],
   "answer": "B",
+  "hint": "Spinnen haben mehr Beine als Insekten.",
   "explanation": "Spinnen haben acht Beine."
  },
  {
@@ -157,6 +166,7 @@
    "110"
   ],
   "answer": "B",
+  "hint": "Es ist die europaweite Notrufnummer für Feuerwehr und Rettungsdienst.",
   "explanation": "112 = Feuerwehr und Rettungsdienst. 110 = Polizei."
  },
  {
@@ -173,6 +183,7 @@
    "119"
   ],
   "answer": "B",
+  "hint": "Diese Nummer beginnt wie die Feuerwehr-Nummer, endet aber mit einer Null.",
   "explanation": "110 = Polizei."
  },
  {
@@ -189,6 +200,7 @@
    "Dezember"
   ],
   "answer": "D",
+  "hint": "Es ist der letzte Monat im Jahr.",
   "explanation": "Weihnachten ist am 24. bis 26. Dezember."
  },
  {
@@ -205,6 +217,7 @@
    "nur Limo trinken"
   ],
   "answer": "A",
+  "hint": "Denk an das, was du morgens und abends im Bad machst.",
   "explanation": "Morgens und abends putzen schützt vor Karies."
  },
  {
@@ -221,6 +234,7 @@
    "aus einer Kaulquappe"
   ],
   "answer": "C",
+  "hint": "Das Tier frisst zuerst viele Blätter und verpuppt sich dann.",
   "explanation": "Ei → Raupe → Puppe → Schmetterling."
  },
  {
@@ -237,6 +251,7 @@
    "aus einer Puppe"
   ],
   "answer": "C",
+  "hint": "Im Teich schlüpfen zuerst kleine Tiere mit Schwanz aus dem Laich.",
   "explanation": "Laich → Kaulquappe → Frosch."
  },
  {
@@ -253,6 +268,7 @@
    "viereckig und grün"
   ],
   "answer": "C",
+  "hint": "Es hat mehr Ecken als ein Viereck und die Farbe der Warnung.",
   "explanation": "Das Stoppschild ist ein rotes Achteck."
  },
  {
@@ -269,6 +285,7 @@
    "München"
   ],
   "answer": "C",
+  "hint": "Dort steht das Brandenburger Tor.",
   "explanation": "Berlin ist die Hauptstadt Deutschlands."
  },
  {
@@ -285,6 +302,7 @@
    "10"
   ],
   "answer": "B",
+  "hint": "Es sind mehr als zwölf, aber weniger als zwanzig.",
   "explanation": "Deutschland hat 16 Bundesländer."
  },
  {
@@ -301,6 +319,7 @@
    "100 °C"
   ],
   "answer": "A",
+  "hint": "Denk an die Temperatur, bei der aus Wasser Eis wird.",
   "explanation": "Bei 0 °C wird Wasser zu Eis."
  },
  {
@@ -317,6 +336,7 @@
    "100 °C"
   ],
   "answer": "D",
+  "hint": "Es ist eine ganz runde, dreistellige Zahl.",
   "explanation": "Wasser kocht bei etwa 100 °C."
  },
  {
@@ -333,6 +353,7 @@
    "nach Osten"
   ],
   "answer": "C",
+  "hint": "Die Kompassnadel ist ein kleiner Magnet und zeigt zum Nordpol der Erde.",
   "explanation": "Die Kompassnadel ist ein kleiner Magnet und zeigt nach Norden."
  },
  {
@@ -349,6 +370,7 @@
    "im Süden"
   ],
   "answer": "B",
+  "hint": "Die Sonne geht auf der Seite auf, die auf der Karte rechts liegt.",
   "explanation": "Im Osten geht die Sonne auf, im Westen geht sie unter."
  },
  {
@@ -365,6 +387,7 @@
    "Elbe"
   ],
   "answer": "C",
+  "hint": "Es ist einer der längsten Flüsse Deutschlands und fließt durch viele große Städte im Westen.",
   "explanation": "Köln liegt am Rhein."
  },
  {
@@ -381,6 +404,7 @@
    "Glasflaschen"
   ],
   "answer": "C",
+  "hint": "In die Biotonne kommt alles, was verrotten kann.",
   "explanation": "Essensreste und Schalen kommen in den Biomüll."
  },
  {
@@ -397,6 +421,7 @@
    "Glasflaschen"
   ],
   "answer": "A",
+  "hint": "In den Gelben Sack gehören Verpackungen aus Kunststoff und Metall.",
   "explanation": "Verpackungen aus Plastik und Metall kommen in den Gelben Sack."
  },
  {
@@ -413,6 +438,7 @@
    "das Herz"
   ],
   "answer": "D",
+  "hint": "Du kannst es schlagen spüren, wenn du die Hand auf die Brust legst.",
   "explanation": "Das Herz ist ein Muskel, der das Blut pumpt."
  },
  {
@@ -429,6 +455,7 @@
    "mit dem Magen"
   ],
   "answer": "A",
+  "hint": "Dieses Organ füllt sich mit Luft, wenn du tief einatmest.",
   "explanation": "In der Lunge kommt Sauerstoff ins Blut."
  },
  {
@@ -445,6 +472,7 @@
    "heiß, kalt, warm"
   ],
   "answer": "C",
+  "hint": "Denk an Eis, Wasser und Dampf.",
   "explanation": "Eis ist fest, Wasser flüssig, Dampf gasförmig."
  },
  {
@@ -461,6 +489,7 @@
    "ein Wimpel"
   ],
   "answer": "C",
+  "hint": "Damit kann man andere warnen und im Dunkeln gesehen werden.",
   "explanation": "Vorgeschrieben sind z. B. zwei Bremsen, Klingel, Licht und Reflektoren."
  },
  {
@@ -477,6 +506,7 @@
    "an der Kastanie"
   ],
   "answer": "C",
+  "hint": "Der Name der Frucht klingt fast wie der Name des Baumes.",
   "explanation": "Eicheln sind die Früchte der Eiche."
  },
  {
@@ -493,6 +523,7 @@
    "Eiche"
   ],
   "answer": "B",
+  "hint": "Es ist ein Nadelbaum.",
   "explanation": "Fichten sind immergrün. Laubbäume verlieren im Herbst ihre Blätter."
  },
  {
@@ -509,6 +540,7 @@
    "Taube"
   ],
   "answer": "A",
+  "hint": "Dieser große Vogel hat lange rote Beine und baut sein Nest gern auf Dächern.",
   "explanation": "Störche sind Zugvögel und überwintern im Süden."
  },
  {
@@ -525,6 +557,7 @@
    "Eichhörnchen"
   ],
   "answer": "B",
+  "hint": "Dieses Tier hat Stacheln und schläft in einem Laubhaufen.",
   "explanation": "Igel schlafen den ganzen Winter. Eichhörnchen halten nur Winterruhe."
  },
  {
@@ -541,6 +574,7 @@
    "das Blatt"
   ],
   "answer": "C",
+  "hint": "Dieser Teil steckt in der Erde.",
   "explanation": "Die Wurzeln saugen Wasser und Nährstoffe aus der Erde."
  },
  {
@@ -557,6 +591,7 @@
    "Nordrhein-Westfalen"
   ],
   "answer": "B",
+  "hint": "Dort liegen die Alpen und die Stadt München.",
   "explanation": "Bayern hat die größte Fläche."
  },
  {
@@ -573,6 +608,7 @@
    "Bayern"
   ],
   "answer": "B",
+  "hint": "In diesem Land liegen Köln, Düsseldorf und das Ruhrgebiet.",
   "explanation": "In Nordrhein-Westfalen leben fast 18 Millionen Menschen."
  },
  {
@@ -589,6 +625,7 @@
    "Atlantik und Mittelmeer"
   ],
   "answer": "A",
+  "hint": "Ein Meer liegt im Nordwesten, das andere im Nordosten.",
   "explanation": "Im Norden liegen die Nordsee und die Ostsee."
  },
  {
@@ -605,6 +642,7 @@
    "Watzmann"
   ],
   "answer": "B",
+  "hint": "Der Berg liegt in den Alpen an der Grenze zu Österreich.",
   "explanation": "Die Zugspitze ist fast 3000 m hoch."
  },
  {
@@ -621,6 +659,7 @@
    "Blau, Weiß, Rot"
   ],
   "answer": "C",
+  "hint": "Oben ist die dunkelste Farbe.",
   "explanation": "Schwarz – Rot – Gold."
  },
  {
@@ -637,6 +676,7 @@
    "einen Eisennagel"
   ],
   "answer": "D",
+  "hint": "Magnete ziehen Dinge aus Eisen an.",
   "explanation": "Magnete ziehen Eisen an – Holz, Glas und Kupfer nicht."
  },
  {
@@ -653,6 +693,7 @@
    "Sand und Wasser"
   ],
   "answer": "B",
+  "hint": "Die Pflanze stellt Nahrung her und gibt etwas ab, das wir zum Atmen brauchen.",
   "explanation": "Pflanzen machen aus Wasser und Kohlendioxid mit Licht Zucker und Sauerstoff."
  },
  {
@@ -669,6 +710,7 @@
    "wenn der Stromkreis offen ist"
   ],
   "answer": "C",
+  "hint": "Der Strom muss ohne Lücke im Kreis fließen können.",
   "explanation": "Strom fließt nur in einem geschlossenen Kreis."
  },
  {
@@ -685,6 +727,7 @@
    "Erde"
   ],
   "answer": "A",
+  "hint": "Es ist der kleinste Planet unseres Sonnensystems.",
   "explanation": "Merkur, Venus, Erde, Mars … – Merkur ist der erste."
  },
  {
@@ -701,6 +744,7 @@
    "eine Woche"
   ],
   "answer": "B",
+  "hint": "Deshalb feiern wir nach jeder Runde Geburtstag.",
   "explanation": "Eine Runde um die Sonne dauert ein Jahr; eine Drehung um sich selbst einen Tag."
  },
  {
@@ -717,6 +761,1962 @@
    "die Bürgerinnen und Bürger der Gemeinde"
   ],
   "answer": "D",
+  "hint": "In einer Demokratie bestimmen die Menschen, die dort wohnen.",
   "explanation": "In Deutschland wählen die Menschen der Gemeinde ihre Bürgermeisterin oder ihren Bürgermeister."
+ },
+ {
+  "id": "de-sachunterricht-046",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Mit welchem Sinnesorgan hörst du?",
+  "options": [
+   "mit der Zunge",
+   "mit den Augen",
+   "mit der Nase",
+   "mit den Ohren"
+  ],
+  "answer": "D",
+  "hint": "Dieses Sinnesorgan sitzt an beiden Seiten deines Kopfes.",
+  "explanation": "Mit den Ohren hören wir Geräusche, Musik und Stimmen."
+ },
+ {
+  "id": "de-sachunterricht-047",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Mit welchem Sinnesorgan riechst du?",
+  "options": [
+   "mit den Augen",
+   "mit den Ohren",
+   "mit der Nase",
+   "mit den Händen"
+  ],
+  "answer": "C",
+  "hint": "Es sitzt mitten in deinem Gesicht.",
+  "explanation": "Mit der Nase riechen wir Düfte, zum Beispiel Blumen oder frisches Brot."
+ },
+ {
+  "id": "de-sachunterricht-048",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Mit welchem Sinnesorgan schmeckst du süß und sauer?",
+  "options": [
+   "mit den Augen",
+   "mit den Ohren",
+   "mit den Haaren",
+   "mit der Zunge"
+  ],
+  "answer": "D",
+  "hint": "Es liegt in deinem Mund.",
+  "explanation": "Auf der Zunge schmecken wir süß, sauer, salzig und bitter."
+ },
+ {
+  "id": "de-sachunterricht-049",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was hilft gegen Krankheitserreger an deinen Händen?",
+  "options": [
+   "in die Hände klatschen",
+   "in die Hände pusten",
+   "Hände an der Hose abwischen",
+   "Hände mit Seife waschen"
+  ],
+  "answer": "D",
+  "hint": "Du brauchst dafür Wasser und etwas, das schäumt.",
+  "explanation": "Mit Seife und Wasser werden Bakterien und Viren abgewaschen."
+ },
+ {
+  "id": "de-sachunterricht-050",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Obst ist gelb und krumm?",
+  "options": [
+   "Banane",
+   "Pflaume",
+   "Weintraube",
+   "Kirsche"
+  ],
+  "answer": "A",
+  "hint": "Affen fressen es gern.",
+  "explanation": "Die Banane ist gelb und krumm."
+ },
+ {
+  "id": "de-sachunterricht-051",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Getränk ist am besten gegen Durst?",
+  "options": [
+   "Cola",
+   "Wasser",
+   "Eistee",
+   "Limonade"
+  ],
+  "answer": "B",
+  "hint": "Es hat keinen Zucker und keine Farbe.",
+  "explanation": "Wasser löscht den Durst und enthält keinen Zucker."
+ },
+ {
+  "id": "de-sachunterricht-052",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Tier bellt?",
+  "options": [
+   "Hund",
+   "Pferd",
+   "Katze",
+   "Kuh"
+  ],
+  "answer": "A",
+  "hint": "Dieses Haustier geht gern mit dir Gassi.",
+  "explanation": "Hunde bellen, Katzen miauen und Kühe muhen."
+ },
+ {
+  "id": "de-sachunterricht-053",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Tier legt Eier, aus denen Küken schlüpfen?",
+  "options": [
+   "Schaf",
+   "Schwein",
+   "Huhn",
+   "Kuh"
+  ],
+  "answer": "C",
+  "hint": "Es lebt auf dem Bauernhof und gackert.",
+  "explanation": "Aus den Eiern vom Huhn schlüpfen Küken."
+ },
+ {
+  "id": "de-sachunterricht-054",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Tier gibt uns Milch?",
+  "options": [
+   "Hund",
+   "Kuh",
+   "Katze",
+   "Huhn"
+  ],
+  "answer": "B",
+  "hint": "Es steht auf der Weide und macht „Muh“.",
+  "explanation": "Die Kuh gibt Milch, aus der man auch Käse und Joghurt macht."
+ },
+ {
+  "id": "de-sachunterricht-055",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie heißt das Junge vom Pferd?",
+  "options": [
+   "Fohlen",
+   "Lamm",
+   "Ferkel",
+   "Kalb"
+  ],
+  "answer": "A",
+  "hint": "Das Wort beginnt mit F.",
+  "explanation": "Ein junges Pferd heißt Fohlen."
+ },
+ {
+  "id": "de-sachunterricht-056",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie heißt das Junge vom Schaf?",
+  "options": [
+   "Kalb",
+   "Lamm",
+   "Fohlen",
+   "Küken"
+  ],
+  "answer": "B",
+  "hint": "Es hat weiche Wolle und blökt leise.",
+  "explanation": "Ein junges Schaf heißt Lamm."
+ },
+ {
+  "id": "de-sachunterricht-057",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "In welcher Jahreszeit fallen die Blätter von vielen Bäumen?",
+  "options": [
+   "im Frühling",
+   "im Sommer",
+   "im Winter",
+   "im Herbst"
+  ],
+  "answer": "D",
+  "hint": "In dieser Jahreszeit sammelt man bunte Blätter und Kastanien.",
+  "explanation": "Im Herbst werden die Blätter bunt und fallen ab."
+ },
+ {
+  "id": "de-sachunterricht-058",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "In welcher Jahreszeit ist es meistens am wärmsten?",
+  "options": [
+   "im Winter",
+   "im Frühling",
+   "im Sommer",
+   "im Herbst"
+  ],
+  "answer": "C",
+  "hint": "Dann gibt es große Ferien und man geht ins Freibad.",
+  "explanation": "Im Sommer scheint die Sonne lange und es ist warm."
+ },
+ {
+  "id": "de-sachunterricht-059",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was brauchst du, wenn es regnet?",
+  "options": [
+   "einen Schlitten",
+   "eine Badehose",
+   "einen Regenschirm",
+   "eine Sonnenbrille"
+  ],
+  "answer": "C",
+  "hint": "Den spannst du über deinem Kopf auf.",
+  "explanation": "Ein Regenschirm hält dich trocken."
+ },
+ {
+  "id": "de-sachunterricht-060",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was ist Schnee?",
+  "options": [
+   "Wolle von Schafen",
+   "Salz aus dem Meer",
+   "gefrorenes Wasser",
+   "weißer Zucker"
+  ],
+  "answer": "C",
+  "hint": "Er entsteht, wenn es in den Wolken sehr kalt ist.",
+  "explanation": "Schneeflocken sind kleine Kristalle aus Eis – also gefrorenes Wasser."
+ },
+ {
+  "id": "de-sachunterricht-061",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Tag kommt nach Montag?",
+  "options": [
+   "Dienstag",
+   "Sonntag",
+   "Freitag",
+   "Mittwoch"
+  ],
+  "answer": "A",
+  "hint": "Es ist der zweite Tag der Woche.",
+  "explanation": "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+ },
+ {
+  "id": "de-sachunterricht-062",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Tage gehören zum Wochenende?",
+  "options": [
+   "Samstag und Sonntag",
+   "Freitag und Montag",
+   "Montag und Dienstag",
+   "Mittwoch und Donnerstag"
+  ],
+  "answer": "A",
+  "hint": "An diesen beiden Tagen ist meistens keine Schule.",
+  "explanation": "Samstag und Sonntag sind das Wochenende."
+ },
+ {
+  "id": "de-sachunterricht-063",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Stunden hat ein Tag?",
+  "options": [
+   "24",
+   "60",
+   "10",
+   "12"
+  ],
+  "answer": "A",
+  "hint": "Es sind zweimal zwölf.",
+  "explanation": "Ein Tag mit Nacht hat 24 Stunden."
+ },
+ {
+  "id": "de-sachunterricht-064",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was zeigt der kleine Zeiger der Uhr?",
+  "options": [
+   "die Sekunden",
+   "die Minuten",
+   "das Datum",
+   "die Stunden"
+  ],
+  "answer": "D",
+  "hint": "Der kleine Zeiger ist langsam und braucht einen halben Tag für eine Runde.",
+  "explanation": "Der kleine Zeiger zeigt die Stunden, der große die Minuten."
+ },
+ {
+  "id": "de-sachunterricht-065",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wo kannst du als Fußgänger sicher über die Straße gehen?",
+  "options": [
+   "zwischen parkenden Autos",
+   "am Zebrastreifen",
+   "mitten auf der Kreuzung",
+   "hinter einer Kurve"
+  ],
+  "answer": "B",
+  "hint": "Dort sind weiße Streifen auf der Straße.",
+  "explanation": "Am Zebrastreifen müssen Autos anhalten, wenn du rübergehen willst."
+ },
+ {
+  "id": "de-sachunterricht-066",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was solltest du beim Fahrradfahren tragen?",
+  "options": [
+   "einen Schal",
+   "einen Helm",
+   "eine Sonnenbrille",
+   "eine Krone"
+  ],
+  "answer": "B",
+  "hint": "Er schützt deinen Kopf, wenn du stürzt.",
+  "explanation": "Ein Fahrradhelm schützt den Kopf bei einem Sturz."
+ },
+ {
+  "id": "de-sachunterricht-067",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was ist kein Spielzeug, weil es gefährlich ist?",
+  "options": [
+   "Bauklötze",
+   "Streichhölzer",
+   "Ball",
+   "Puzzle"
+  ],
+  "answer": "B",
+  "hint": "Damit kann man Feuer machen.",
+  "explanation": "Mit Streichhölzern kann schnell ein Brand entstehen."
+ },
+ {
+  "id": "de-sachunterricht-068",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Farbe haben Feuerwehrautos in Deutschland meistens?",
+  "options": [
+   "Blau",
+   "Rot",
+   "Grün",
+   "Gelb"
+  ],
+  "answer": "B",
+  "hint": "Es ist die Farbe einer reifen Erdbeere.",
+  "explanation": "Feuerwehrautos sind meist rot, damit man sie gut sieht."
+ },
+ {
+  "id": "de-sachunterricht-069",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wohin bringt man ein leeres Marmeladenglas?",
+  "options": [
+   "in den Gelben Sack",
+   "in den Wald",
+   "in den Altglascontainer",
+   "in die Biotonne"
+  ],
+  "answer": "C",
+  "hint": "Dort klirrt es, wenn man etwas einwirft.",
+  "explanation": "Glas kommt in den Altglascontainer und wird wieder eingeschmolzen."
+ },
+ {
+  "id": "de-sachunterricht-070",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wohin gehört alte Zeitung?",
+  "options": [
+   "in die Biotonne",
+   "in den Gelben Sack",
+   "in die Papiertonne",
+   "in den Glascontainer"
+  ],
+  "answer": "C",
+  "hint": "Diese Tonne ist meistens blau.",
+  "explanation": "Aus Altpapier kann neues Papier gemacht werden."
+ },
+ {
+  "id": "de-sachunterricht-071",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was macht ein Bäcker?",
+  "options": [
+   "Er backt Brot und Brötchen.",
+   "Er repariert Autos.",
+   "Er schneidet Haare.",
+   "Er löscht Feuer."
+  ],
+  "answer": "A",
+  "hint": "Er steht schon sehr früh am Morgen am Ofen.",
+  "explanation": "Der Bäcker backt Brot, Brötchen und Kuchen."
+ },
+ {
+  "id": "de-sachunterricht-072",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wer hilft dir, wenn du Zahnschmerzen hast?",
+  "options": [
+   "der Bäcker",
+   "die Zahnärztin oder der Zahnarzt",
+   "der Tierarzt",
+   "die Friseurin"
+  ],
+  "answer": "B",
+  "hint": "Diese Person schaut dir in den Mund.",
+  "explanation": "Die Zahnärztin oder der Zahnarzt behandelt kranke Zähne."
+ },
+ {
+  "id": "de-sachunterricht-073",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wer kümmert sich um kranke Tiere?",
+  "options": [
+   "die Tierärztin oder der Tierarzt",
+   "der Zahnarzt",
+   "die Pilotin",
+   "der Koch"
+  ],
+  "answer": "A",
+  "hint": "Man bringt Hund oder Katze in ihre Praxis.",
+  "explanation": "Tierärztinnen und Tierärzte machen kranke Tiere wieder gesund."
+ },
+ {
+  "id": "de-sachunterricht-074",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Tier kann fliegen?",
+  "options": [
+   "Maus",
+   "Hase",
+   "Amsel",
+   "Igel"
+  ],
+  "answer": "C",
+  "hint": "Es hat Federn und Flügel.",
+  "explanation": "Die Amsel ist ein Vogel und kann fliegen."
+ },
+ {
+  "id": "de-sachunterricht-075",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wo lebt ein Fisch?",
+  "options": [
+   "in der Erde",
+   "in der Wüste",
+   "im Baum",
+   "im Wasser"
+  ],
+  "answer": "D",
+  "hint": "Er atmet mit Kiemen und schwimmt mit Flossen.",
+  "explanation": "Fische leben im Wasser, in Seen, Flüssen und im Meer."
+ },
+ {
+  "id": "de-sachunterricht-076",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was gibt uns am Tag Licht und Wärme?",
+  "options": [
+   "die Wolken",
+   "die Sonne",
+   "der Mond",
+   "die Sterne"
+  ],
+  "answer": "B",
+  "hint": "Sie steht hoch am Himmel – schau nie direkt hinein!",
+  "explanation": "Die Sonne schenkt der Erde Licht und Wärme."
+ },
+ {
+  "id": "de-sachunterricht-077",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was siehst du oft nachts am Himmel?",
+  "options": [
+   "viele Schmetterlinge",
+   "die Mittagssonne",
+   "einen Regenbogen",
+   "den Mond und die Sterne"
+  ],
+  "answer": "D",
+  "hint": "Sie leuchten im Dunkeln weit weg am Himmel.",
+  "explanation": "Nachts sieht man oft den Mond und viele Sterne."
+ },
+ {
+  "id": "de-sachunterricht-078",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Farbe haben die meisten Blätter im Sommer?",
+  "options": [
+   "Schwarz",
+   "Grün",
+   "Blau",
+   "Lila"
+  ],
+  "answer": "B",
+  "hint": "Es ist dieselbe Farbe wie Gras.",
+  "explanation": "Im Sommer sind die meisten Blätter grün."
+ },
+ {
+  "id": "de-sachunterricht-079",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Gemüse ist orange und wächst in der Erde?",
+  "options": [
+   "Möhre",
+   "Tomate",
+   "Salat",
+   "Gurke"
+  ],
+  "answer": "A",
+  "hint": "Hasen knabbern sie gern.",
+  "explanation": "Die Möhre (Karotte) wächst als Wurzel in der Erde."
+ },
+ {
+  "id": "de-sachunterricht-080",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was tust du, bevor du über die Straße gehst?",
+  "options": [
+   "links, rechts und wieder links schauen",
+   "auf das Handy schauen",
+   "schnell losrennen",
+   "die Augen zumachen"
+  ],
+  "answer": "A",
+  "hint": "Du musst prüfen, ob ein Auto kommt.",
+  "explanation": "Erst schauen, dann gehen – so bleibst du sicher."
+ },
+ {
+  "id": "de-sachunterricht-081",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie heißen die ersten Zähne eines Kindes?",
+  "options": [
+   "Milchzähne",
+   "Goldzähne",
+   "Weisheitszähne",
+   "Steinzähne"
+  ],
+  "answer": "A",
+  "hint": "Sie heißen wie ein weißes Getränk.",
+  "explanation": "Die Milchzähne fallen aus und bleibende Zähne wachsen nach."
+ },
+ {
+  "id": "de-sachunterricht-082",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie lange solltest du deine Zähne putzen?",
+  "options": [
+   "etwa 30 Minuten",
+   "etwa 10 Sekunden",
+   "etwa 2 bis 3 Minuten",
+   "etwa eine Stunde"
+  ],
+  "answer": "C",
+  "hint": "Ein kurzes Lied ist ungefähr so lang.",
+  "explanation": "Zwei bis drei Minuten gründlich putzen hält die Zähne gesund."
+ },
+ {
+  "id": "de-sachunterricht-083",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Lebensmittel enthält viele Vitamine?",
+  "options": [
+   "Chips",
+   "Cola",
+   "Gummibärchen",
+   "Apfel"
+  ],
+  "answer": "D",
+  "hint": "Es ist ein Obst und wächst am Baum.",
+  "explanation": "Obst und Gemüse haben viele Vitamine."
+ },
+ {
+  "id": "de-sachunterricht-084",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was gibt deinem Körper Halt?",
+  "options": [
+   "das Blut",
+   "die Haare",
+   "die Fingernägel",
+   "das Skelett"
+  ],
+  "answer": "D",
+  "hint": "Es besteht aus vielen Knochen.",
+  "explanation": "Das Skelett aus Knochen stützt den Körper."
+ },
+ {
+  "id": "de-sachunterricht-085",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Tier ist ein Vogel?",
+  "options": [
+   "Biene",
+   "Schmetterling",
+   "Pinguin",
+   "Fledermaus"
+  ],
+  "answer": "C",
+  "hint": "Es hat Federn, auch wenn es nicht fliegen kann.",
+  "explanation": "Pinguine haben Federn und legen Eier – sie sind Vögel."
+ },
+ {
+  "id": "de-sachunterricht-086",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was frisst ein Eichhörnchen vor allem?",
+  "options": [
+   "Nüsse und Samen",
+   "Gras und Heu",
+   "Blätter von Brennnesseln",
+   "Fische"
+  ],
+  "answer": "A",
+  "hint": "Im Herbst versteckt es Vorräte im Boden.",
+  "explanation": "Eichhörnchen fressen gern Nüsse, Bucheckern und Samen von Zapfen."
+ },
+ {
+  "id": "de-sachunterricht-087",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was macht ein Eichhörnchen im Winter?",
+  "options": [
+   "Es lebt unter Wasser.",
+   "Es fliegt nach Afrika.",
+   "Es hält Winterruhe und frisst von seinen Vorräten.",
+   "Es schläft ohne Pause bis zum Frühling."
+  ],
+  "answer": "C",
+  "hint": "Es wacht ab und zu auf und sucht seine versteckten Nüsse.",
+  "explanation": "Eichhörnchen halten Winterruhe, keinen Winterschlaf – sie wachen oft auf und fressen."
+ },
+ {
+  "id": "de-sachunterricht-088",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wo legen Frösche ihren Laich ab?",
+  "options": [
+   "in einer Baumhöhle",
+   "im Wasser",
+   "im Sand der Wüste",
+   "in einem Vogelnest"
+  ],
+  "answer": "B",
+  "hint": "Kaulquappen müssen schwimmen können.",
+  "explanation": "Frösche legen ihren Laich in Teiche und Tümpel."
+ },
+ {
+  "id": "de-sachunterricht-089",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Tier ist ein Insekt?",
+  "options": [
+   "Spinne",
+   "Schnecke",
+   "Marienkäfer",
+   "Regenwurm"
+  ],
+  "answer": "C",
+  "hint": "Es hat sechs Beine und rote Flügel mit Punkten.",
+  "explanation": "Der Marienkäfer hat sechs Beine – er ist ein Insekt."
+ },
+ {
+  "id": "de-sachunterricht-090",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was sammeln Bienen in den Blüten?",
+  "options": [
+   "Sand und Steine",
+   "Nektar und Pollen",
+   "Holz und Blätter",
+   "Salz und Wasser"
+  ],
+  "answer": "B",
+  "hint": "Daraus machen sie Honig und Futter.",
+  "explanation": "Aus Nektar machen Bienen Honig, Pollen ist Futter für die Larven."
+ },
+ {
+  "id": "de-sachunterricht-091",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Blume ist ein Frühblüher?",
+  "options": [
+   "Rose",
+   "Aster",
+   "Schneeglöckchen",
+   "Sonnenblume"
+  ],
+  "answer": "C",
+  "hint": "Sie blüht schon, wenn manchmal noch Schnee liegt.",
+  "explanation": "Schneeglöckchen blühen schon im Februar oder März."
+ },
+ {
+  "id": "de-sachunterricht-092",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Woraus wächst eine neue Bohnenpflanze?",
+  "options": [
+   "aus einer Muschel",
+   "aus einem Samen",
+   "aus einer Feder",
+   "aus einem Stein"
+  ],
+  "answer": "B",
+  "hint": "Man steckt ihn in die Erde und gießt ihn.",
+  "explanation": "Aus dem Samen keimt eine neue Pflanze."
+ },
+ {
+  "id": "de-sachunterricht-093",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Teile hat ein Baum?",
+  "options": [
+   "Räder, Motor und Dach",
+   "Wurzeln, Stamm und Krone",
+   "Kopf, Arme und Beine",
+   "Flossen, Kiemen und Schuppen"
+  ],
+  "answer": "B",
+  "hint": "Ein Teil ist unter der Erde, einer ist dick und braun, einer trägt Blätter.",
+  "explanation": "Ein Baum hat Wurzeln, einen Stamm und eine Krone mit Ästen und Blättern."
+ },
+ {
+  "id": "de-sachunterricht-094",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Woran erkennt man das Alter eines gefällten Baumes?",
+  "options": [
+   "an der Länge der Wurzeln",
+   "an der Farbe der Blätter",
+   "an der Zahl der Äste",
+   "an den Jahresringen"
+  ],
+  "answer": "D",
+  "hint": "Man zählt Kreise im Baumstumpf.",
+  "explanation": "Jedes Jahr wächst ein neuer Ring im Holz."
+ },
+ {
+  "id": "de-sachunterricht-095",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was misst ein Thermometer?",
+  "options": [
+   "die Länge",
+   "das Gewicht",
+   "die Temperatur",
+   "die Uhrzeit"
+  ],
+  "answer": "C",
+  "hint": "Damit siehst du, wie warm oder kalt es ist.",
+  "explanation": "Ein Thermometer zeigt die Temperatur in Grad Celsius an."
+ },
+ {
+  "id": "de-sachunterricht-096",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was gehört zu einem Gewitter?",
+  "options": [
+   "Laub und Kastanien",
+   "Sternschnuppen und Mondlicht",
+   "Nebel und Tau",
+   "Blitz und Donner"
+  ],
+  "answer": "D",
+  "hint": "Man sieht ein helles Licht und hört danach ein lautes Krachen.",
+  "explanation": "Bei einem Gewitter blitzt und donnert es."
+ },
+ {
+  "id": "de-sachunterricht-097",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was brauchen Menschen und Tiere zum Atmen?",
+  "options": [
+   "Saft",
+   "Steine",
+   "Sand",
+   "Luft"
+  ],
+  "answer": "D",
+  "hint": "Man kann sie nicht sehen, aber im Wind spüren.",
+  "explanation": "Wir atmen Luft ein, weil wir den Sauerstoff darin brauchen."
+ },
+ {
+  "id": "de-sachunterricht-098",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wann kannst du draußen deinen Schatten sehen?",
+  "options": [
+   "wenn es ganz dunkel ist",
+   "wenn du die Augen schließt",
+   "nur wenn es schneit",
+   "wenn die Sonne scheint"
+  ],
+  "answer": "D",
+  "hint": "Für einen Schatten brauchst du Licht.",
+  "explanation": "Dein Körper hält das Sonnenlicht auf – dahinter entsteht ein Schatten."
+ },
+ {
+  "id": "de-sachunterricht-099",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Auf welcher Straßenseite fahren Autos in Deutschland?",
+  "options": [
+   "in der Mitte",
+   "links",
+   "rechts",
+   "auf dem Gehweg"
+  ],
+  "answer": "C",
+  "hint": "Es ist die Seite, mit der die meisten Kinder schreiben.",
+  "explanation": "In Deutschland gilt Rechtsverkehr."
+ },
+ {
+  "id": "de-sachunterricht-100",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was bedeutet ein rundes blaues Schild mit einem weißen Fahrrad?",
+  "options": [
+   "Hier ist ein Radweg.",
+   "Hier ist Radfahren verboten.",
+   "Hier ist ein Fahrradladen.",
+   "Hier ist ein Parkplatz."
+  ],
+  "answer": "A",
+  "hint": "Runde blaue Schilder sagen, was man hier benutzen muss.",
+  "explanation": "Das Schild zeigt einen Radweg, den Radfahrer benutzen müssen."
+ },
+ {
+  "id": "de-sachunterricht-101",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Tage hat der Februar in einem normalen Jahr?",
+  "options": [
+   "28",
+   "30",
+   "31",
+   "25"
+  ],
+  "answer": "A",
+  "hint": "Er ist der kürzeste Monat.",
+  "explanation": "Der Februar hat 28 Tage, im Schaltjahr 29."
+ },
+ {
+  "id": "de-sachunterricht-102",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welcher Monat kommt nach dem Juli?",
+  "options": [
+   "Mai",
+   "August",
+   "September",
+   "Juni"
+  ],
+  "answer": "B",
+  "hint": "In diesem Monat sind oft noch Sommerferien.",
+  "explanation": "Juni, Juli, August – dann kommt der September."
+ },
+ {
+  "id": "de-sachunterricht-103",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Minuten hat eine Stunde?",
+  "options": [
+   "24",
+   "30",
+   "100",
+   "60"
+  ],
+  "answer": "D",
+  "hint": "Der große Zeiger läuft dafür einmal ganz herum.",
+  "explanation": "Eine Stunde hat 60 Minuten."
+ },
+ {
+  "id": "de-sachunterricht-104",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was bedeutet Recycling?",
+  "options": [
+   "Müll ins Meer werfen",
+   "aus Altem etwas Neues machen",
+   "Müll im Wald vergraben",
+   "neue Dinge sofort wegwerfen"
+  ],
+  "answer": "B",
+  "hint": "Aus alten Flaschen werden zum Beispiel neue Flaschen.",
+  "explanation": "Beim Recycling werden Stoffe aus Abfall wiederverwendet."
+ },
+ {
+  "id": "de-sachunterricht-105",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie kannst du Müll vermeiden?",
+  "options": [
+   "jeden Tag neue Becher kaufen",
+   "eine Brotdose statt Alufolie benutzen",
+   "alles in Plastiktüten packen",
+   "jedes Brot einzeln verpacken"
+  ],
+  "answer": "B",
+  "hint": "Denk an etwas, das man immer wieder benutzen kann.",
+  "explanation": "Dinge, die man oft benutzen kann, sparen viel Müll."
+ },
+ {
+  "id": "de-sachunterricht-106",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist eine Aufgabe der Polizei?",
+  "options": [
+   "Sie sorgt für Sicherheit und hilft bei Unfällen.",
+   "Sie verkauft Gemüse.",
+   "Sie baut Häuser.",
+   "Sie backt Brot."
+  ],
+  "answer": "A",
+  "hint": "Ihre Autos haben Blaulicht, und du erreichst sie mit 110.",
+  "explanation": "Die Polizei schützt die Menschen und regelt den Verkehr."
+ },
+ {
+  "id": "de-sachunterricht-107",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Recht haben alle Kinder?",
+  "options": [
+   "das Recht, nie zu schlafen",
+   "das Recht, Auto zu fahren",
+   "das Recht, nur Süßigkeiten zu essen",
+   "das Recht auf Bildung"
+  ],
+  "answer": "D",
+  "hint": "Jedes Kind darf lernen und zur Schule gehen.",
+  "explanation": "Die Kinderrechte sagen: Jedes Kind hat ein Recht auf Bildung."
+ },
+ {
+  "id": "de-sachunterricht-108",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Tier lebt bei uns im Wald?",
+  "options": [
+   "Löwe",
+   "Pinguin",
+   "Kamel",
+   "Reh"
+  ],
+  "answer": "D",
+  "hint": "Es ist braun und scheu, und der Bock trägt ein Geweih.",
+  "explanation": "Rehe leben in unseren Wäldern und auf Wiesen am Waldrand."
+ },
+ {
+  "id": "de-sachunterricht-109",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Haustier ist nachts munter und läuft gern im Laufrad?",
+  "options": [
+   "Wellensittich",
+   "Hund",
+   "Goldfisch",
+   "Hamster"
+  ],
+  "answer": "D",
+  "hint": "Es ist ein kleines Nagetier mit dicken Backentaschen.",
+  "explanation": "Hamster schlafen tagsüber und werden abends aktiv."
+ },
+ {
+  "id": "de-sachunterricht-110",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie heißt der Weg des Wassers: verdunsten, Wolken bilden, regnen und wieder von vorn?",
+  "options": [
+   "Jahreskreis",
+   "Stromkreis",
+   "Blutkreislauf",
+   "Wasserkreislauf"
+  ],
+  "answer": "D",
+  "hint": "Das Wasser auf der Erde ist immer unterwegs: hoch, runter, hoch.",
+  "explanation": "Im Wasserkreislauf verdunstet Wasser, bildet Wolken und fällt als Regen zurück."
+ },
+ {
+  "id": "de-sachunterricht-111",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was passiert, wenn Wasser verdunstet?",
+  "options": [
+   "Es wird zu Eis.",
+   "Es wird schwerer.",
+   "Es wird zu Sand.",
+   "Es wird zu Wasserdampf."
+  ],
+  "answer": "D",
+  "hint": "Denk an eine Pfütze, die in der Sonne verschwindet.",
+  "explanation": "Beim Verdunsten wird flüssiges Wasser zu unsichtbarem Wasserdampf."
+ },
+ {
+  "id": "de-sachunterricht-112",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie heißt es, wenn flüssiges Wasser zu Eis wird?",
+  "options": [
+   "Kondensieren",
+   "Gefrieren",
+   "Schmelzen",
+   "Verdunsten"
+  ],
+  "answer": "B",
+  "hint": "Das passiert im Winter mit Pfützen.",
+  "explanation": "Bei 0 °C gefriert Wasser zu Eis."
+ },
+ {
+  "id": "de-sachunterricht-113",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Gegenstand leitet Strom?",
+  "options": [
+   "eine Büroklammer aus Metall",
+   "ein Holzlöffel",
+   "ein Stück Pappe",
+   "ein Radiergummi"
+  ],
+  "answer": "A",
+  "hint": "In Kabeln stecken Drähte aus diesem Material.",
+  "explanation": "Metalle leiten Strom, Holz, Gummi und Pappe nicht."
+ },
+ {
+  "id": "de-sachunterricht-114",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Warum darfst du nie etwas in eine Steckdose stecken?",
+  "options": [
+   "Der Strom kann lebensgefährlich sein.",
+   "Dann geht nur das Licht aus.",
+   "Die Steckdose wird schmutzig.",
+   "Es wird zu laut."
+  ],
+  "answer": "A",
+  "hint": "Strom aus der Steckdose ist viel stärker als Strom aus einer Batterie.",
+  "explanation": "Strom aus der Steckdose kann schwere Verletzungen verursachen."
+ },
+ {
+  "id": "de-sachunterricht-115",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was brauchst du für einen einfachen Stromkreis mit Lämpchen?",
+  "options": [
+   "Batterie, Kabel und Lämpchen",
+   "Magnet, Holz und Lämpchen",
+   "Papier, Schnur und Lämpchen",
+   "Wasser, Kabel und Lämpchen"
+  ],
+  "answer": "A",
+  "hint": "Du brauchst eine Stromquelle und Leitungen.",
+  "explanation": "Die Batterie liefert Strom, die Kabel leiten ihn zum Lämpchen."
+ },
+ {
+  "id": "de-sachunterricht-116",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie entsteht ein Schatten?",
+  "options": [
+   "Der Wind bläst das Licht weg.",
+   "Ein Gegenstand hält das Licht auf.",
+   "Der Boden wird dunkel angemalt.",
+   "Das Licht wird lauter."
+  ],
+  "answer": "B",
+  "hint": "Licht kann nicht durch alles hindurchscheinen.",
+  "explanation": "Hinter einem Gegenstand, der Licht aufhält, entsteht ein Schatten."
+ },
+ {
+  "id": "de-sachunterricht-117",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wann ist dein Schatten an einem sonnigen Tag am kürzesten?",
+  "options": [
+   "kurz vor Sonnenuntergang",
+   "abends",
+   "morgens",
+   "mittags"
+  ],
+  "answer": "D",
+  "hint": "Dann steht die Sonne am höchsten.",
+  "explanation": "Steht die Sonne hoch, ist der Schatten kurz."
+ },
+ {
+  "id": "de-sachunterricht-118",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist Schall?",
+  "options": [
+   "ein besonderer Stein",
+   "ein Gas zum Atmen",
+   "Schwingungen, die man hören kann",
+   "Licht, das man sehen kann"
+  ],
+  "answer": "C",
+  "hint": "Lege die Hand an den Hals, wenn du summst – es kribbelt.",
+  "explanation": "Schall entsteht durch Schwingungen, die durch die Luft zu unseren Ohren wandern."
+ },
+ {
+  "id": "de-sachunterricht-119",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was braucht ein Feuer zum Brennen?",
+  "options": [
+   "Brennstoff, Sauerstoff und Wärme",
+   "nur Wasser",
+   "Wasser, Sand und Eis",
+   "Erde und Steine"
+  ],
+  "answer": "A",
+  "hint": "Man spricht vom Verbrennungsdreieck.",
+  "explanation": "Fehlt einer der drei Teile, geht das Feuer aus."
+ },
+ {
+  "id": "de-sachunterricht-120",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was tust du, wenn Fett in der Pfanne brennt?",
+  "options": [
+   "Wasser hineinschütten",
+   "mit einem Handtuch wedeln",
+   "kräftig hineinpusten",
+   "einen Deckel darauflegen"
+  ],
+  "answer": "D",
+  "hint": "Dem Feuer muss die Luft weggenommen werden.",
+  "explanation": "Ein Deckel erstickt das Feuer. Wasser auf brennendes Fett ist sehr gefährlich!"
+ },
+ {
+  "id": "de-sachunterricht-121",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was tust du bei Feueralarm in der Schule?",
+  "options": [
+   "erst in Ruhe den Ranzen packen",
+   "ruhig mit der Klasse zum Sammelplatz gehen",
+   "mich im Schrank verstecken",
+   "mit dem Aufzug fahren"
+  ],
+  "answer": "B",
+  "hint": "Lass alles liegen und folge deiner Lehrerin oder deinem Lehrer.",
+  "explanation": "Bei Feueralarm verlässt man ruhig und zügig das Gebäude und geht zum Sammelplatz."
+ },
+ {
+  "id": "de-sachunterricht-122",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Woran erkennt man Säugetiere?",
+  "options": [
+   "Die Jungen trinken Milch bei der Mutter.",
+   "Sie haben Schuppen und Kiemen.",
+   "Sie haben alle Federn.",
+   "Sie haben alle sechs Beine."
+  ],
+  "answer": "A",
+  "hint": "Denk an ein Kälbchen bei der Kuh.",
+  "explanation": "Säugetiere säugen ihre Jungen mit Milch."
+ },
+ {
+  "id": "de-sachunterricht-123",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was haben alle Vögel?",
+  "options": [
+   "sechs Beine",
+   "Fell und Zähne",
+   "Federn und einen Schnabel",
+   "Schuppen und Kiemen"
+  ],
+  "answer": "C",
+  "hint": "Denk an eine Amsel oder einen Spatz.",
+  "explanation": "Alle Vögel haben Federn und einen Schnabel und legen Eier."
+ },
+ {
+  "id": "de-sachunterricht-124",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "In welcher Reihenfolge entwickelt sich ein Frosch?",
+  "options": [
+   "Laich – Kaulquappe – Frosch",
+   "Laich – Raupe – Frosch",
+   "Kaulquappe – Laich – Frosch",
+   "Frosch – Raupe – Kaulquappe"
+  ],
+  "answer": "A",
+  "hint": "Am Anfang liegen viele kleine Eier im Wasser.",
+  "explanation": "Aus dem Laich schlüpfen Kaulquappen, die sich zu Fröschen entwickeln."
+ },
+ {
+  "id": "de-sachunterricht-125",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist die Hauptstadt von Bayern?",
+  "options": [
+   "Nürnberg",
+   "Stuttgart",
+   "Augsburg",
+   "München"
+  ],
+  "answer": "D",
+  "hint": "In dieser Stadt findet jedes Jahr das Oktoberfest statt.",
+  "explanation": "München ist die Landeshauptstadt von Bayern."
+ },
+ {
+  "id": "de-sachunterricht-126",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Fluss fließt durch Hamburg?",
+  "options": [
+   "Main",
+   "Donau",
+   "Rhein",
+   "Elbe"
+  ],
+  "answer": "D",
+  "hint": "Dieser Fluss kommt aus Tschechien und fließt in die Nordsee.",
+  "explanation": "Die Elbe fließt durch Dresden, Magdeburg und Hamburg."
+ },
+ {
+  "id": "de-sachunterricht-127",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Fluss fließt durch Regensburg und Passau?",
+  "options": [
+   "Rhein",
+   "Weser",
+   "Elbe",
+   "Donau"
+  ],
+  "answer": "D",
+  "hint": "Dieser Fluss fließt nach Osten bis ins Schwarze Meer.",
+  "explanation": "Die Donau entspringt im Schwarzwald und mündet ins Schwarze Meer."
+ },
+ {
+  "id": "de-sachunterricht-128",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Himmelsrichtung liegt Norden genau gegenüber?",
+  "options": [
+   "Westen",
+   "Osten",
+   "Nordosten",
+   "Süden"
+  ],
+  "answer": "D",
+  "hint": "Auf dem Kompass ist es die Richtung genau entgegengesetzt.",
+  "explanation": "Norden und Süden liegen sich gegenüber, ebenso Osten und Westen."
+ },
+ {
+  "id": "de-sachunterricht-129",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was erklärt die Legende einer Landkarte?",
+  "options": [
+   "wer die Karte gemalt hat",
+   "wie alt die Karte ist",
+   "was die Zeichen und Farben bedeuten",
+   "ein Märchen über das Land"
+  ],
+  "answer": "C",
+  "hint": "Ohne sie wüsstest du nicht, was die Symbole heißen.",
+  "explanation": "Die Legende erklärt die Zeichen und Farben auf der Karte."
+ },
+ {
+  "id": "de-sachunterricht-130",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie lange braucht die Erde, um sich einmal um sich selbst zu drehen?",
+  "options": [
+   "einen Monat",
+   "ein Jahr",
+   "eine Woche",
+   "einen Tag"
+  ],
+  "answer": "D",
+  "hint": "Dadurch ist es auf einer Seite hell und auf der anderen dunkel.",
+  "explanation": "Die Erde dreht sich in etwa 24 Stunden einmal – so entstehen Tag und Nacht."
+ },
+ {
+  "id": "de-sachunterricht-131",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist der Mond?",
+  "options": [
+   "ein Planet, der um den Mars kreist",
+   "eine Wolke aus Eis",
+   "ein Stern, der selbst leuchtet",
+   "ein Himmelskörper, der um die Erde kreist"
+  ],
+  "answer": "D",
+  "hint": "Er leuchtet nicht selbst, sondern wird von der Sonne angestrahlt.",
+  "explanation": "Der Mond kreist um die Erde und wird von der Sonne beleuchtet."
+ },
+ {
+  "id": "de-sachunterricht-132",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Planeten hat unser Sonnensystem?",
+  "options": [
+   "9",
+   "7",
+   "12",
+   "8"
+  ],
+  "answer": "D",
+  "hint": "Pluto zählt seit 2006 nicht mehr dazu.",
+  "explanation": "Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun."
+ },
+ {
+  "id": "de-sachunterricht-133",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Planet ist der größte in unserem Sonnensystem?",
+  "options": [
+   "Erde",
+   "Saturn",
+   "Jupiter",
+   "Mars"
+  ],
+  "answer": "C",
+  "hint": "Er hat einen riesigen roten Wirbelsturm, den Großen Roten Fleck.",
+  "explanation": "Jupiter ist der größte Planet – über 1000 Erden würden hineinpassen."
+ },
+ {
+  "id": "de-sachunterricht-134",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Planet wird „der Rote Planet“ genannt?",
+  "options": [
+   "Mars",
+   "Venus",
+   "Jupiter",
+   "Neptun"
+  ],
+  "answer": "A",
+  "hint": "Sein Boden enthält viel rostiges Eisen.",
+  "explanation": "Der Mars sieht durch Eisenoxid (Rost) rötlich aus."
+ },
+ {
+  "id": "de-sachunterricht-135",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Sonne?",
+  "options": [
+   "ein Stern",
+   "ein Planet",
+   "ein Mond",
+   "ein Komet"
+  ],
+  "answer": "A",
+  "hint": "Sie leuchtet selbst, so wie die Punkte am Nachthimmel.",
+  "explanation": "Die Sonne ist ein Stern – der uns am nächsten liegende."
+ },
+ {
+  "id": "de-sachunterricht-136",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Warum sieht der Mond mal rund und mal wie eine Sichel aus?",
+  "options": [
+   "Der Mond wird kleiner und wieder größer.",
+   "Wolken verdecken immer einen Teil.",
+   "Er kreist um die Erde, und wir sehen verschieden viel von seiner beleuchteten Seite.",
+   "Der Schatten der Erde fällt jede Nacht auf ihn."
+  ],
+  "answer": "C",
+  "hint": "Eine Hälfte des Mondes wird immer von der Sonne beleuchtet.",
+  "explanation": "Je nach Stellung von Sonne, Erde und Mond sehen wir mehr oder weniger von der hellen Hälfte."
+ },
+ {
+  "id": "de-sachunterricht-137",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Land ist kein Nachbarland von Deutschland?",
+  "options": [
+   "Frankreich",
+   "Österreich",
+   "Polen",
+   "Italien"
+  ],
+  "answer": "D",
+  "hint": "Dieses Land liegt südlich der Alpen hinter Österreich und der Schweiz.",
+  "explanation": "Italien grenzt nicht an Deutschland."
+ },
+ {
+  "id": "de-sachunterricht-138",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Nachbarländer hat Deutschland?",
+  "options": [
+   "7",
+   "9",
+   "5",
+   "12"
+  ],
+  "answer": "B",
+  "hint": "Es sind mehr als sieben und weniger als zehn.",
+  "explanation": "Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg, Belgien und die Niederlande."
+ },
+ {
+  "id": "de-sachunterricht-139",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Nachbarland liegt im Norden von Deutschland?",
+  "options": [
+   "Schweiz",
+   "Polen",
+   "Dänemark",
+   "Belgien"
+  ],
+  "answer": "C",
+  "hint": "Aus diesem Land kommen die LEGO-Steine.",
+  "explanation": "Dänemark ist der einzige Nachbar im Norden."
+ },
+ {
+  "id": "de-sachunterricht-140",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Landeshauptstadt von Nordrhein-Westfalen?",
+  "options": [
+   "Bonn",
+   "Köln",
+   "Dortmund",
+   "Düsseldorf"
+  ],
+  "answer": "D",
+  "hint": "Es ist nicht die größte Stadt des Landes, aber sie liegt auch am Rhein.",
+  "explanation": "Düsseldorf ist die Hauptstadt, Köln die größte Stadt von NRW."
+ },
+ {
+  "id": "de-sachunterricht-141",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Bundesland ist ein Stadtstaat?",
+  "options": [
+   "Bremen",
+   "Hessen",
+   "Thüringen",
+   "Sachsen"
+  ],
+  "answer": "A",
+  "hint": "Zu ihm gehört auch Bremerhaven an der Nordsee.",
+  "explanation": "Die Stadtstaaten sind Berlin, Hamburg und Bremen."
+ },
+ {
+  "id": "de-sachunterricht-142",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "In welche Himmelsrichtung fließt der Rhein in Deutschland hauptsächlich?",
+  "options": [
+   "nach Norden",
+   "nach Westen",
+   "nach Süden",
+   "nach Osten"
+  ],
+  "answer": "A",
+  "hint": "Er fließt von den Alpen bis zur Nordsee.",
+  "explanation": "Der Rhein kommt aus den Schweizer Alpen und mündet in den Niederlanden in die Nordsee."
+ },
+ {
+  "id": "de-sachunterricht-143",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was zeigt der Maßstab auf einer Landkarte?",
+  "options": [
+   "wie das Wetter wird",
+   "wie stark die Wirklichkeit verkleinert ist",
+   "wo Norden ist",
+   "wie alt die Karte ist"
+  ],
+  "answer": "B",
+  "hint": "Bei 1 : 100 000 ist 1 cm auf der Karte in Wirklichkeit 1 km.",
+  "explanation": "Mit dem Maßstab kann man echte Entfernungen ausrechnen."
+ },
+ {
+  "id": "de-sachunterricht-144",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was passiert, wenn du zwei Nordpole von Magneten zusammenhältst?",
+  "options": [
+   "Sie ziehen sich an.",
+   "Sie stoßen sich ab.",
+   "Sie werden heiß.",
+   "Sie fangen an zu leuchten."
+  ],
+  "answer": "B",
+  "hint": "Gleiche Pole mögen sich nicht.",
+  "explanation": "Gleiche Pole stoßen sich ab, verschiedene Pole ziehen sich an."
+ },
+ {
+  "id": "de-sachunterricht-145",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Stoff leitet keinen Strom?",
+  "options": [
+   "Gummi",
+   "Kupfer",
+   "Aluminium",
+   "Eisen"
+  ],
+  "answer": "A",
+  "hint": "Damit oder mit Kunststoff sind Kabel außen umhüllt.",
+  "explanation": "Gummi ist ein Isolator, Metalle sind Leiter."
+ },
+ {
+  "id": "de-sachunterricht-146",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wozu dienen Reflektoren am Fahrrad?",
+  "options": [
+   "Sie werfen Licht zurück, damit man dich im Dunkeln sieht.",
+   "Sie messen die Geschwindigkeit.",
+   "Sie laden die Lampe auf.",
+   "Sie machen das Fahrrad schneller."
+  ],
+  "answer": "A",
+  "hint": "Wenn Autoscheinwerfer darauf fallen, blitzen sie hell auf.",
+  "explanation": "Reflektoren machen Radfahrer im Dunkeln für andere sichtbar."
+ },
+ {
+  "id": "de-sachunterricht-147",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Farbe hat das Rücklicht am Fahrrad?",
+  "options": [
+   "Rot",
+   "Weiß",
+   "Blau",
+   "Grün"
+  ],
+  "answer": "A",
+  "hint": "Es hat dieselbe Farbe wie die Bremslichter beim Auto.",
+  "explanation": "Vorne leuchtet das Licht weiß, hinten rot."
+ },
+ {
+  "id": "de-sachunterricht-148",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet ein dreieckiges Schild mit rotem Rand, dessen Spitze nach unten zeigt?",
+  "options": [
+   "Spielstraße",
+   "Radweg",
+   "Vorfahrt gewähren",
+   "Parken erlaubt"
+  ],
+  "answer": "C",
+  "hint": "Du musst die anderen zuerst fahren lassen.",
+  "explanation": "Bei diesem Schild hat der Verkehr auf der anderen Straße Vorfahrt."
+ },
+ {
+  "id": "de-sachunterricht-149",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Warum hörst du den Donner erst nach dem Blitz?",
+  "options": [
+   "Licht ist viel schneller als Schall.",
+   "Der Donner entsteht in einer anderen Wolke.",
+   "Schall ist schneller als Licht.",
+   "Die Ohren arbeiten langsamer als die Augen."
+  ],
+  "answer": "A",
+  "hint": "Vergleiche, wie schnell Licht und Geräusche unterwegs sind.",
+  "explanation": "Das Licht ist fast sofort da, der Schall braucht etwa 3 Sekunden für einen Kilometer."
+ },
+ {
+  "id": "de-sachunterricht-150",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was passiert mit Luft, wenn sie erwärmt wird?",
+  "options": [
+   "Sie wird zu Wasser.",
+   "Sie wird schwerer und sinkt.",
+   "Sie dehnt sich aus und steigt nach oben.",
+   "Sie verschwindet ganz."
+  ],
+  "answer": "C",
+  "hint": "Denk an einen Heißluftballon.",
+  "explanation": "Warme Luft ist leichter als kalte und steigt deshalb auf."
+ },
+ {
+  "id": "de-sachunterricht-151",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Gas ist am häufigsten in der Luft?",
+  "options": [
+   "Kohlenstoffdioxid",
+   "Stickstoff",
+   "Sauerstoff",
+   "Wasserstoff"
+  ],
+  "answer": "B",
+  "hint": "Es ist nicht das Gas, das wir zum Atmen brauchen.",
+  "explanation": "Luft besteht zu etwa 78 % aus Stickstoff und zu etwa 21 % aus Sauerstoff."
+ },
+ {
+  "id": "de-sachunterricht-152",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt der Schlauch, der das Essen vom Mund in den Magen bringt?",
+  "options": [
+   "Speiseröhre",
+   "Ader",
+   "Luftröhre",
+   "Darm"
+  ],
+  "answer": "A",
+  "hint": "Der Name hat etwas mit Essen zu tun.",
+  "explanation": "Die Speiseröhre transportiert die Nahrung in den Magen."
+ },
+ {
+  "id": "de-sachunterricht-153",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Knochen hat ein erwachsener Mensch ungefähr?",
+  "options": [
+   "etwa 50",
+   "etwa 20",
+   "etwa 206",
+   "etwa 1000"
+  ],
+  "answer": "C",
+  "hint": "Es sind mehr als 200.",
+  "explanation": "Ein Erwachsener hat etwa 206 Knochen, ein Baby sogar mehr."
+ },
+ {
+  "id": "de-sachunterricht-154",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Aufgabe haben die roten Blutkörperchen?",
+  "options": [
+   "Sie lassen die Haare wachsen.",
+   "Sie hören Geräusche.",
+   "Sie verdauen das Essen.",
+   "Sie transportieren Sauerstoff."
+  ],
+  "answer": "D",
+  "hint": "Sie holen in der Lunge etwas ab und bringen es überall hin.",
+  "explanation": "Rote Blutkörperchen bringen Sauerstoff von der Lunge in den ganzen Körper."
+ },
+ {
+  "id": "de-sachunterricht-155",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Woraus machten Menschen in der Steinzeit Faustkeile?",
+  "options": [
+   "aus Feuerstein",
+   "aus Glas",
+   "aus Stahl",
+   "aus Plastik"
+  ],
+  "answer": "A",
+  "hint": "Der Name der Zeit verrät es schon.",
+  "explanation": "Feuerstein ist hart und lässt sich zu scharfen Kanten schlagen."
+ },
+ {
+  "id": "de-sachunterricht-156",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wovon lebten die Menschen in der Altsteinzeit?",
+  "options": [
+   "vom Jagen und Sammeln",
+   "von der Arbeit in Fabriken",
+   "vom Einkaufen im Supermarkt",
+   "vom Verkauf von Computern"
+  ],
+  "answer": "A",
+  "hint": "Sie zogen Tieren hinterher und suchten Beeren und Wurzeln.",
+  "explanation": "Die Menschen der Altsteinzeit waren Jäger und Sammler."
+ },
+ {
+  "id": "de-sachunterricht-157",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie hieß ein Junge, der als Helfer eines Ritters zum Ritter ausgebildet wurde?",
+  "options": [
+   "Bauer",
+   "Mönch",
+   "Händler",
+   "Knappe"
+  ],
+  "answer": "D",
+  "hint": "Er half dem Ritter, die Rüstung anzulegen.",
+  "explanation": "Erst war man Page, dann Knappe und schließlich Ritter."
+ },
+ {
+  "id": "de-sachunterricht-158",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie nennt man die Zeremonie, mit der ein Knappe zum Ritter wurde?",
+  "options": [
+   "Krönung",
+   "Ritterschlag",
+   "Hochzeit",
+   "Taufe"
+  ],
+  "answer": "B",
+  "hint": "Dabei berührte ein Schwert seine Schulter.",
+  "explanation": "Beim Ritterschlag wurde der Knappe feierlich zum Ritter ernannt."
+ },
+ {
+  "id": "de-sachunterricht-159",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt das Parlament in Berlin, das die Gesetze für Deutschland beschließt?",
+  "options": [
+   "Bundestag",
+   "Landratsamt",
+   "Klassenrat",
+   "Rathaus"
+  ],
+  "answer": "A",
+  "hint": "Es tagt im Reichstagsgebäude mit der Glaskuppel.",
+  "explanation": "Die Abgeordneten im Bundestag werden vom Volk gewählt."
+ },
+ {
+  "id": "de-sachunterricht-160",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ab welchem Alter darf man in Deutschland den Bundestag wählen?",
+  "options": [
+   "14",
+   "18",
+   "25",
+   "12"
+  ],
+  "answer": "B",
+  "hint": "Dann ist man volljährig.",
+  "explanation": "Bei der Bundestagswahl darf man ab 18 Jahren wählen."
  }
 ]

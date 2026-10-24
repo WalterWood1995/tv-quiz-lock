@@ -6,6 +6,9 @@ import json
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import parse_qs, urlsplit
+
+from .speech import speak
 
 PAGE = Path(__file__).resolve().parent.parent / "assets" / "quiz.html"
 
@@ -44,6 +47,12 @@ class QuizHandler(BaseHTTPRequestHandler):
             self._send(200, page, "text/html; charset=utf-8")
         elif path == "/api/state":
             self._json(self.host.quiz_state())
+        elif path == "/api/tts":
+            text = parse_qs(urlsplit(self.path).query).get("text", [""])[0]
+            try:
+                self._send(200, speak(text, self.host.quiz_lang), "audio/mpeg")
+            except Exception as e:  # 没网或没装 edge-tts：页面不出声，照常答题
+                self._json({"error": str(e)}, 503)
         else:
             self._json({"error": "not found"}, 404)
 

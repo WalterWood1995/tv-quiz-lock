@@ -7,64 +7,167 @@
 <style>
   /* 电视 1920×1080，遥控器操作：大字、强焦点框、不依赖外网资源 */
   :root {
-    --bg: #05070f; --panel: #0e1424; --line: #1f2a44; --text: #e8f4ff; --muted: #8ea3c0;
-    --accent: #00e5ff; --good: #2bd576; --bad: #ff5a6a; --focus: #ffd34d;
+    --bg1: #1b1350; --bg2: #0b2a5c; --panel: rgba(255,255,255,0.10); --line: rgba(255,255,255,0.22);
+    --text: #ffffff; --muted: #c9d4ff; --accent: #ffcf3f; --good: #3ee08a; --bad: #ff6b7d; --focus: #ffe066;
+    --robot: #7fd8ff; --robot-dark: #3aa6dd;
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+  html, body { margin: 0; height: 100%; color: var(--text);
     font-family: "Samsung One", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }
-  body { padding: 40px 72px; display: flex; flex-direction: column; gap: 24px; overflow: hidden; }
-  header { display: flex; justify-content: space-between; align-items: baseline; }
-  h1 { margin: 0; font-size: 56px; color: var(--accent); letter-spacing: 4px; }
-  #status { font-size: 32px; color: var(--muted); }
-  #status b { color: var(--text); font-size: 40px; }
-  .row { display: flex; gap: 20px; }
-  .nav { cursor: pointer; border: 4px solid var(--line); background: var(--panel); color: var(--text);
-    border-radius: 18px; font: inherit; outline: none; transition: transform .08s; }
-  .nav:focus { border-color: var(--focus); transform: scale(1.03); box-shadow: 0 0 24px #ffd34d55; }
-  .diff { flex: 1; padding: 14px; font-size: 30px; line-height: 1.3; }
-  .diff.sel { background: #12304a; border-color: var(--accent); }
-  .diff small { display: block; font-size: 24px; color: var(--muted); }
-  #card { background: var(--panel); border: 2px solid var(--line); border-radius: 24px; padding: 28px 36px; }
-  #meta { font-size: 26px; color: var(--muted); }
-  #stem { font-size: 52px; margin-top: 10px; line-height: 1.35; min-height: 140px; }
-  #options { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-  .opt { padding: 22px 28px; font-size: 42px; text-align: left; min-height: 110px; }
-  .opt .k { color: var(--accent); margin-right: 18px; }
-  .opt.good { border-color: var(--good); background: #0f3324; }
-  .opt.bad { border-color: var(--bad); background: #3a1018; }
-  #feedback { font-size: 34px; min-height: 96px; line-height: 1.4; }
-  #feedback .msg { font-size: 42px; }
-  #feedback.good .msg { color: var(--good); }
-  #feedback.bad .msg { color: var(--bad); }
-  #actions { display: flex; gap: 20px; align-items: center; }
-  #next { padding: 18px 48px; font-size: 36px; }
-  #unlocked { display: none; font-size: 40px; color: var(--good); }
-  #hint { margin-top: auto; font-size: 24px; color: var(--muted); }
+  body { overflow: hidden; background: radial-gradient(1200px 800px at 15% 20%, #3b2a9a 0%, transparent 60%),
+    radial-gradient(1000px 700px at 90% 90%, #0f5aa0 0%, transparent 60%), linear-gradient(135deg, var(--bg1), var(--bg2)); }
+  #sky { position: fixed; inset: 0; pointer-events: none; }
+  .star { position: absolute; width: 6px; height: 6px; border-radius: 50%; background: #fff; opacity: .5;
+    animation: twinkle 3s ease-in-out infinite; }
+  @keyframes twinkle { 0%,100% { opacity: .15; } 50% { opacity: .8; } }
+
+  #app { position: relative; display: flex; height: 100%; padding: 36px 56px; gap: 40px; }
+
+  /* 左边：小机器人和对话气泡 */
+  #buddy { width: 520px; flex: none; display: none; flex-direction: column; align-items: center; }
+  body.robot #buddy { display: flex; animation: slidein .45s ease-out; }
+  @keyframes slidein { from { transform: translateX(-600px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+  #bubble { position: relative; width: 100%; min-height: 230px; background: #fff; color: #1d2150; border-radius: 36px;
+    padding: 28px 34px; font-size: 32px; line-height: 1.4; white-space: pre-line; box-shadow: 0 12px 0 rgba(0,0,0,.18); }
+  #bubble:after { content: ""; position: absolute; left: 50%; bottom: -34px; margin-left: -30px;
+    border: 34px solid transparent; border-top-color: #fff; border-bottom: 0; }
+  #bubble .name { display: block; font-size: 24px; color: #6b5cff; font-weight: bold; margin-bottom: 6px; }
+  #robot { width: 440px; height: 520px; margin-top: 40px; animation: float 3.2s ease-in-out infinite; }
+  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-16px); } }
+  #robot.happy { animation: jump .5s ease-in-out 3; }
+  @keyframes jump { 0%,100% { transform: translateY(0) rotate(0); } 40% { transform: translateY(-70px) rotate(-6deg); }
+    70% { transform: translateY(-30px) rotate(5deg); } }
+  #robot.sad { animation: shake .6s ease-in-out 2; }
+  @keyframes shake { 0%,100% { transform: rotate(0); } 25% { transform: rotate(-5deg); } 75% { transform: rotate(5deg); } }
+  #eyes { animation: blink 4s infinite; transform-origin: 220px 190px; }
+  @keyframes blink { 0%,94%,100% { transform: scaleY(1); } 97% { transform: scaleY(.1); } }
+  #mouth-talk { display: none; }
+  #robot.talking #mouth-talk { display: inline; animation: talk .22s ease-in-out infinite alternate; transform-origin: 220px 262px; }
+  #robot.talking #mouth-smile { display: none; }
+  @keyframes talk { from { transform: scaleY(.25); } to { transform: scaleY(1); } }
+  #bulb { animation: glow 1.6s ease-in-out infinite alternate; }
+  @keyframes glow { from { fill: #ffcf3f; } to { fill: #ff7ad9; } }
+  #robot.sad #bulb { animation: none; fill: #8899aa; }
+  #robot.sad #cheeks { opacity: 0; }
+  #arm-r { transform-origin: 340px 330px; }
+  #robot.happy #arm-r { animation: wave .25s ease-in-out infinite alternate; }
+  @keyframes wave { from { transform: rotate(0); } to { transform: rotate(-35deg); } }
+
+  /* 右边：答题区 */
+  #main { flex: 1; display: flex; flex-direction: column; gap: 22px; min-width: 0; }
+  header { display: flex; justify-content: space-between; align-items: center; }
+  h1 { margin: 0; font-size: 56px; color: var(--accent); letter-spacing: 3px; text-shadow: 0 5px 0 rgba(0,0,0,.25); }
+  #status { font-size: 30px; color: var(--muted); text-align: right; }
+  #status b { color: var(--text); font-size: 44px; }
+  #stars { font-size: 30px; color: var(--accent); letter-spacing: 4px; min-height: 36px; }
+  .row { display: flex; gap: 18px; }
+  .nav { cursor: pointer; border: 5px solid var(--line); background: var(--panel); color: var(--text);
+    border-radius: 24px; font: inherit; outline: none; transition: transform .1s, box-shadow .1s; }
+  .nav:focus { border-color: var(--focus); transform: scale(1.04); box-shadow: 0 0 0 6px rgba(255,224,102,.25), 0 0 40px rgba(255,224,102,.5); }
+  .diff { flex: 1; padding: 12px; font-size: 30px; line-height: 1.3; }
+  .diff.sel { background: rgba(255,207,63,.25); border-color: var(--accent); }
+  .diff small { display: block; font-size: 22px; color: var(--muted); }
+  #card { background: rgba(255,255,255,.95); color: #1d2150; border-radius: 32px; padding: 26px 36px;
+    box-shadow: 0 10px 0 rgba(0,0,0,.2); }
+  #meta { font-size: 26px; color: #6b5cff; font-weight: bold; }
+  #stem { font-size: 50px; margin-top: 8px; line-height: 1.3; min-height: 130px; }
+  #options { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .opt { padding: 18px 26px; font-size: 40px; text-align: left; min-height: 104px; display: flex; align-items: center; }
+  .opt .k { flex: none; display: inline-block; width: 64px; height: 64px; line-height: 64px; text-align: center;
+    border-radius: 50%; margin-right: 20px; font-size: 34px; font-weight: bold; color: #1d2150; }
+  .opt:nth-child(1) .k { background: #ff8fab; } .opt:nth-child(2) .k { background: #7fd8ff; }
+  .opt:nth-child(3) .k { background: #ffd166; } .opt:nth-child(4) .k { background: #8ef0a8; }
+  .opt.good { border-color: var(--good); background: rgba(62,224,138,.35); }
+  .opt.bad { border-color: var(--bad); background: rgba(255,107,125,.35); }
+  #actions { display: flex; gap: 18px; align-items: center; }
+  .act { padding: 16px 34px; font-size: 32px; white-space: nowrap; }
+  #next { background: rgba(255,207,63,.3); }
+  #unlocked { display: none; font-size: 34px; color: var(--good); }
+  #feedback { font-size: 40px; min-height: 52px; font-weight: bold; }
+  #feedback.good { color: var(--good); } #feedback.bad { color: var(--bad); }
+  #explain { display: none; }
+  #hint { margin-top: auto; font-size: 22px; color: var(--muted); }
+
+  /* 答对的彩纸 */
+  .confetti { position: fixed; top: -30px; width: 18px; height: 28px; border-radius: 4px; pointer-events: none;
+    animation: fall linear forwards; }
+  @keyframes fall { to { transform: translateY(1150px) rotate(720deg); opacity: .8; } }
 </style>
 </head>
 <body>
-<header>
-  <h1 id="title"></h1>
-  <div id="status"></div>
-</header>
+<div id="sky"></div>
+<div id="app">
+  <div id="buddy">
+    <div id="bubble"><span class="name" id="robotName"></span><span id="say"></span></div>
+    <svg id="robot" viewBox="0 0 440 520" aria-hidden="true">
+      <!-- 天线 -->
+      <line x1="220" y1="40" x2="220" y2="92" stroke="#3aa6dd" stroke-width="10" stroke-linecap="round"/>
+      <circle id="bulb" cx="220" cy="34" r="20" fill="#ffcf3f"/>
+      <!-- 耳朵 -->
+      <rect x="62" y="160" width="40" height="80" rx="16" fill="#3aa6dd"/>
+      <rect x="338" y="160" width="40" height="80" rx="16" fill="#3aa6dd"/>
+      <!-- 头 -->
+      <rect x="92" y="88" width="256" height="216" rx="70" fill="#7fd8ff" stroke="#3aa6dd" stroke-width="8"/>
+      <rect x="122" y="130" width="196" height="150" rx="50" fill="#1d2150"/>
+      <g id="eyes">
+        <ellipse cx="180" cy="190" rx="24" ry="30" fill="#7ff7ff"/>
+        <ellipse cx="260" cy="190" rx="24" ry="30" fill="#7ff7ff"/>
+        <circle cx="188" cy="180" r="8" fill="#fff"/>
+        <circle cx="268" cy="180" r="8" fill="#fff"/>
+      </g>
+      <g id="cheeks">
+        <ellipse cx="146" cy="244" rx="16" ry="9" fill="#ff8fab" opacity=".8"/>
+        <ellipse cx="294" cy="244" rx="16" ry="9" fill="#ff8fab" opacity=".8"/>
+      </g>
+      <path id="mouth-smile" d="M190 252 Q220 280 250 252" stroke="#7ff7ff" stroke-width="8" fill="none" stroke-linecap="round"/>
+      <ellipse id="mouth-talk" cx="220" cy="262" rx="22" ry="16" fill="#7ff7ff"/>
+      <!-- 身体 -->
+      <rect x="196" y="300" width="48" height="24" fill="#3aa6dd"/>
+      <rect x="112" y="318" width="216" height="150" rx="46" fill="#7fd8ff" stroke="#3aa6dd" stroke-width="8"/>
+      <rect x="160" y="350" width="120" height="70" rx="20" fill="#1d2150"/>
+      <circle cx="190" cy="385" r="12" fill="#ff8fab"/>
+      <circle cx="220" cy="385" r="12" fill="#ffd166"/>
+      <circle cx="250" cy="385" r="12" fill="#8ef0a8"/>
+      <!-- 手臂 -->
+      <path d="M112 340 Q60 380 74 430" stroke="#3aa6dd" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <circle cx="74" cy="440" r="22" fill="#7fd8ff" stroke="#3aa6dd" stroke-width="6"/>
+      <g id="arm-r">
+        <path d="M328 340 Q380 380 366 430" stroke="#3aa6dd" stroke-width="22" fill="none" stroke-linecap="round"/>
+        <circle cx="366" cy="440" r="22" fill="#7fd8ff" stroke="#3aa6dd" stroke-width="6"/>
+      </g>
+      <!-- 脚 -->
+      <rect x="146" y="462" width="56" height="40" rx="16" fill="#3aa6dd"/>
+      <rect x="238" y="462" width="56" height="40" rx="16" fill="#3aa6dd"/>
+    </svg>
+  </div>
 
-<div class="row" id="diffs"></div>
+  <div id="main">
+    <header>
+      <h1 id="title"></h1>
+      <div><div id="status"></div><div id="stars"></div></div>
+    </header>
 
-<div id="card">
-  <div id="meta"></div>
-  <div id="stem"></div>
+    <div class="row" id="diffs"></div>
+
+    <div id="card">
+      <div id="meta"></div>
+      <div id="stem"></div>
+    </div>
+
+    <div id="options"></div>
+    <div id="feedback"></div>
+
+    <div id="actions">
+      <button class="nav act" id="tip"></button>
+      <button class="nav act" id="read"></button>
+      <button class="nav act" id="explain"></button>
+      <button class="nav act" id="next"></button>
+      <div id="unlocked"></div>
+    </div>
+
+    <div id="hint"></div>
+  </div>
 </div>
-
-<div id="options"></div>
-<div id="feedback"></div>
-
-<div id="actions">
-  <button class="nav" id="next"></button>
-  <div id="unlocked"></div>
-</div>
-
-<div id="hint"></div>
 
 <script>
   // 只用 ES2017，兼容 2022 款三星电视浏览器
@@ -72,32 +175,44 @@
   // 界面语言由电脑在发页面时填进来（[quiz] language）
   var I18N = {
     zh: {
-      title: "答题解锁", connecting: "正在连接…", next: "下一题",
+      title: "答题解锁", robot: "小 Robo", connecting: "正在连接…", next: "下一题 ➜", tip: "💡 提示", read: "🔊 读题", explain: "🤖 讲一讲", more: "顺便说一句：",
       unlocked: "已解锁！按遥控器上的 ⌂ 主页键继续看电视。",
-      hint: "用遥控器方向键选择，按中间的确认键作答；也可以直接按数字键 1–4 选 A–D。",
+      hint: "方向键选择，确认键作答；数字键 1–4 直接选 A–D。",
       balance: "余额", minutes: "分钟", usedToday: "今日已用", earned: "答题赚得",
       diffs: { easy: "简单", medium: "中等", hard: "困难" },
       wrongMinus: "答错 -", wrongFree: "答错不扣",
-      offline: "连不上电脑，请稍后再试", waiting: "连接不上电脑，请稍等…", why: "讲解："
+      offline: "连不上电脑，请稍后再试", waiting: "连接不上电脑，请稍等…",
+      noTip: "仔细读题，一步一步想。你可以的！", tipIntro: "小提示：",
+      cheer: ["太棒了！", "你真聪明！", "完全正确！", "厉害！"], comfort: ["没关系，我们一起看看。", "差一点点！听我讲讲。"],
+      streak: "连对 "
     },
     de: {
-      title: "Quiz-Pause", connecting: "Verbinde …", next: "Nächste Frage",
+      title: "Quiz-Pause", robot: "Robo", connecting: "Verbinde …", next: "Weiter ➜", tip: "💡 Tipp", read: "🔊 Vorlesen", explain: "🤖 Erklär mal", more: "Übrigens: ",
       unlocked: "Freigeschaltet! Drücke die ⌂ Home-Taste, um weiterzuschauen.",
-      hint: "Mit den Pfeiltasten auswählen, mit OK antworten – oder die Zifferntasten 1–4 für A–D drücken.",
+      hint: "Pfeiltasten zum Auswählen, OK zum Antworten – oder Zifferntasten 1–4 für A–D.",
       balance: "Guthaben", minutes: "Min.", usedToday: "heute genutzt", earned: "erspielt",
       diffs: { easy: "Leicht", medium: "Mittel", hard: "Schwer" },
       wrongMinus: "falsch: -", wrongFree: "falsch: kein Abzug",
       offline: "Keine Verbindung zum Computer – bitte gleich noch einmal versuchen.",
-      waiting: "Keine Verbindung zum Computer, bitte warten …", why: "Erklärung: "
+      waiting: "Keine Verbindung zum Computer, bitte warten …",
+      noTip: "Lies die Frage ganz genau und denk Schritt für Schritt. Du schaffst das!", tipIntro: "Mein Tipp: ",
+      cheer: ["Super gemacht!", "Klasse!", "Genau richtig!", "Du bist ein Profi!"],
+      comfort: ["Nicht schlimm, schauen wir es uns zusammen an.", "Knapp daneben! Ich erkläre es dir."],
+      streak: "Serie "
     }
   };
-  var T = I18N["__LANG__"] || I18N.zh;
+  var LANG = "__LANG__";
+  var T = I18N[LANG] || I18N.zh;
   var difficulty = "medium";
   var question = null;
   var answered = false;
   var state = null;
+  var streak = 0;
+  var audio = null;
+  var lastResult = null;
 
   function $(id) { return document.getElementById(id); }
+  function pickOne(list) { return list[Math.floor(Math.random() * list.length)]; }
 
   function api(method, path, body) {
     return fetch(path, {
@@ -107,13 +222,72 @@
     }).then(function (r) { return r.json(); });
   }
 
+  // 只在讲解时请出小机器人：滑出来，气泡里显示文字并读出来，读的时候嘴巴动
+  function robotSay(text, spoken) {
+    document.body.classList.add("robot");
+    $("say").textContent = text;
+    speak(spoken || text);
+  }
+
+  function hideRobot() {
+    document.body.classList.remove("robot");
+    stopAudio();
+  }
+
+  function stopAudio() {
+    if (audio) { audio.pause(); audio = null; }
+    $("robot").classList.remove("talking");
+  }
+
+  function feedback(text, cls) {
+    $("feedback").className = cls || "";
+    $("feedback").textContent = text || "";
+  }
+
+  function speak(text) {
+    stopAudio();
+    var robot = $("robot");
+    var a = new Audio("/api/tts?text=" + encodeURIComponent(text));
+    audio = a;
+    a.onplaying = function () { if (audio === a) robot.classList.add("talking"); };
+    a.onended = a.onerror = a.onpause = function () { if (audio === a) robot.classList.remove("talking"); };
+    var p = a.play();
+    if (p && p.catch) p.catch(function () { robot.classList.remove("talking"); });
+  }
+
+  function mood(name) {
+    var robot = $("robot");
+    robot.classList.remove("happy", "sad");
+    void robot.offsetWidth;  // 重新触发动画
+    if (name) robot.classList.add(name);
+  }
+
+  function confetti() {
+    var colors = ["#ff8fab", "#7fd8ff", "#ffd166", "#8ef0a8", "#c3a6ff"];
+    for (var i = 0; i < 40; i++) {
+      var c = document.createElement("div");
+      c.className = "confetti";
+      c.style.left = Math.random() * 100 + "vw";
+      c.style.background = pickOne(colors);
+      c.style.animationDuration = (1.6 + Math.random() * 1.4) + "s";
+      c.style.animationDelay = Math.random() * 0.4 + "s";
+      document.body.appendChild(c);
+      setTimeout(function (el) { el.remove(); }, 3600, c);
+    }
+  }
+
   function renderState(s) {
     state = s;
-    var html = T.balance + " <b>" + s.remaining + "</b> " + T.minutes + " · " + T.usedToday + " " + s.used + "/" + s.limit;
+    var html = T.balance + " <b>" + s.remaining + "</b> " + T.minutes + "<br>" + T.usedToday + " " + s.used + "/" + s.limit;
     if (s.earnedToday) html += " · " + T.earned + " " + s.earnedToday;
     $("status").innerHTML = html;
     $("unlocked").style.display = s.locked ? "none" : "block";
     renderDiffs();
+  }
+
+  function renderStreak() {
+    var n = Math.min(streak, 10);
+    $("stars").textContent = streak ? T.streak + streak + " " + new Array(n + 1).join("★") : "";
   }
 
   function renderDiffs() {
@@ -134,23 +308,23 @@
   }
 
   function offline() {
-    var fb = $("feedback");
-    fb.className = "bad";
-    fb.innerHTML = '<div class="msg"></div>';
-    fb.querySelector(".msg").textContent = T.offline;
+    feedback(T.offline, "bad");
   }
 
   function loadQuestion() {
     answered = false;
-    $("feedback").className = "";
-    $("feedback").innerHTML = "";
+    lastResult = null;
+    hideRobot();
+    mood(null);
+    feedback("");
+    $("explain").style.display = "none";
     api("POST", "/api/question", { difficulty: difficulty }).catch(function () {
       offline();
       setTimeout(loadQuestion, 5000);  // 电脑恢复后自动接着出题
       return { error: "" };
     }).then(function (q) {
       if (q.error === "") return;
-      if (q.error) { $("feedback").innerHTML = q.error; return; }
+      if (q.error) { feedback(q.error, "bad"); return; }
       question = q;
       $("meta").textContent = q.subject + " · " + q.difficultyLabel;
       $("stem").textContent = q.stem;
@@ -169,19 +343,49 @@
     });
   }
 
+  function readQuestion() {
+    if (!question) return;
+    var spoken = question.stem + " " + question.options.map(function (o, i) { return LETTERS[i] + ": " + o; }).join(". ");
+    speak(spoken);  // 只读题，不请机器人
+  }
+
+  function showTip() {
+    if (!question) return;
+    mood(null);
+    robotSay(T.tipIntro + (question.hint || T.noTip));
+  }
+
+  // 讲解：答案解释 + 引申的相关知识
+  function explain(r, intro) {
+    var text = (intro ? intro + "
+" : "") + (r.explanation || "");
+    if (r.more) text += "
+" + T.more + r.more;
+    robotSay(text);
+  }
+
   function answer(choice) {
     if (!question || answered) return;
     answered = true;
     api("POST", "/api/answer", { id: question.id, choice: choice }).then(function (r) {
-      if (r.error) { answered = false; $("feedback").innerHTML = r.error; return; }
+      if (r.error) { answered = false; feedback(r.error, "bad"); return; }
       var buttons = $("options").children;
       buttons[r.answer].classList.add("good");
       if (!r.correct) buttons[choice].classList.add("bad");
-      var fb = $("feedback");
-      fb.className = r.correct ? "good" : "bad";
-      fb.innerHTML = '<div class="msg"></div><div class="why"></div>';
-      fb.querySelector(".msg").textContent = r.message;
-      if (r.explanation) fb.querySelector(".why").textContent = T.why + r.explanation;
+      lastResult = r;
+      if (r.correct) {
+        // 答对：不打扰，只有彩纸和一行字；想听讲解可以按「讲一讲」
+        streak += 1;
+        confetti();
+        feedback(pickOne(T.cheer) + " " + r.message, "good");
+        if (r.explanation || r.more) $("explain").style.display = "";
+      } else {
+        streak = 0;
+        feedback(r.message, "bad");
+        mood("sad");
+        explain(r, pickOne(T.comfort));
+      }
+      renderStreak();
       renderState(r.state);
       $("next").focus();
     }).catch(function () {
@@ -225,6 +429,9 @@
   });
 
   $("next").onclick = loadQuestion;
+  $("tip").onclick = showTip;
+  $("read").onclick = readQuestion;
+  $("explain").onclick = function () { if (lastResult) { mood("happy"); explain(lastResult); } };
 
   // 心跳：告诉电脑「答题页还在前台」；切走后浏览器会暂停脚本，电脑据此把页面重新打开
   function heartbeat() {
@@ -234,9 +441,23 @@
     });
   }
 
+  // 背景星星
+  for (var i = 0; i < 40; i++) {
+    var s = document.createElement("div");
+    s.className = "star";
+    s.style.left = Math.random() * 100 + "vw";
+    s.style.top = Math.random() * 100 + "vh";
+    s.style.animationDelay = Math.random() * 3 + "s";
+    $("sky").appendChild(s);
+  }
+
   $("title").textContent = T.title;
+  $("robotName").textContent = T.robot;
   $("status").textContent = T.connecting;
   $("next").textContent = T.next;
+  $("tip").textContent = T.tip;
+  $("read").textContent = T.read;
+  $("explain").textContent = T.explain;
   $("unlocked").textContent = T.unlocked;
   $("hint").textContent = T.hint;
 

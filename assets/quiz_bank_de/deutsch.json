@@ -13,6 +13,7 @@
    "laufen"
   ],
   "answer": "C",
+  "hint": "Namenwörter für Menschen, Tiere und Dinge schreibt man groß.",
   "explanation": "Nomen (Namenwörter) schreibt man groß: der Hund."
  },
  {
@@ -29,6 +30,7 @@
    "den"
   ],
   "answer": "C",
+  "hint": "Sprich jeden Begleiter laut vor dem Wort und hör genau hin.",
   "explanation": "Es heißt: die Sonne."
  },
  {
@@ -45,6 +47,7 @@
    "die"
   ],
   "answer": "C",
+  "hint": "Probiere jeden Begleiter laut vor dem Wort aus.",
   "explanation": "Es heißt: das Auto."
  },
  {
@@ -61,6 +64,7 @@
    "das"
   ],
   "answer": "A",
+  "hint": "Sag die Begleiter laut vor dem Wort – was klingt richtig?",
   "explanation": "Es heißt: der Baum."
  },
  {
@@ -77,6 +81,7 @@
    "Hut"
   ],
   "answer": "A",
+  "hint": "Hör auf das Ende des Wortes – es muss gleich klingen.",
   "explanation": "Haus – Maus: Das Ende „-aus“ klingt gleich."
  },
  {
@@ -93,6 +98,7 @@
    "Wind"
   ],
   "answer": "D",
+  "hint": "Reimwörter klingen am Ende gleich.",
   "explanation": "Kind – Wind: Das Ende „-ind“ klingt gleich."
  },
  {
@@ -109,6 +115,7 @@
    "1"
   ],
   "answer": "B",
+  "hint": "Klatsche bei jeder Silbe einmal in die Hände.",
   "explanation": "Ba-na-ne: drei Silben. Klatsch mit!"
  },
  {
@@ -125,6 +132,7 @@
    "2"
   ],
   "answer": "A",
+  "hint": "Sprich das Wort langsam und klatsche die Silben mit.",
   "explanation": "Schmet-ter-ling: drei Silben."
  },
  {
@@ -141,6 +149,7 @@
    "Buche"
   ],
   "answer": "A",
+  "hint": "Sag: ein …, viele … – oft ändert sich auch der Selbstlaut.",
   "explanation": "ein Buch – viele Bücher."
  },
  {
@@ -157,6 +166,7 @@
    "Mauses"
   ],
   "answer": "A",
+  "hint": "Sag: eine …, viele … – aus „au“ wird oft ein anderer Laut.",
   "explanation": "eine Maus – viele Mäuse."
  },
  {
@@ -173,6 +183,7 @@
    "Kinds"
   ],
   "answer": "B",
+  "hint": "Sag laut: ein …, viele …",
   "explanation": "ein Kind – viele Kinder."
  },
  {
@@ -189,6 +200,7 @@
    "grün"
   ],
   "answer": "C",
+  "hint": "Ein Tunwort sagt, was man machen kann.",
   "explanation": "Verben sagen, was jemand tut: springen."
  },
  {
@@ -205,6 +217,7 @@
    "unter"
   ],
   "answer": "C",
+  "hint": "Ein Wiewort sagt, wie etwas ist.",
   "explanation": "Adjektive beschreiben, wie etwas ist: groß."
  },
  {
@@ -221,6 +234,7 @@
    "Freundschaft"
   ],
   "answer": "D",
+  "hint": "Vor ein Namenwort kann man der, die oder das setzen.",
   "explanation": "Nomen haben einen Artikel: die Freundschaft."
  },
  {
@@ -237,6 +251,7 @@
    "."
   ],
   "answer": "A",
+  "hint": "Überlege: Will der Satz etwas wissen?",
   "explanation": "Eine Frage endet mit einem Fragezeichen."
  },
  {
@@ -253,6 +268,7 @@
    "Farrad"
   ],
   "answer": "B",
+  "hint": "Aus welchen zwei Wörtern ist das Wort gemacht?",
   "explanation": "Fahrrad kommt von fahren + Rad."
  },
  {
@@ -269,6 +285,7 @@
    "hell"
   ],
   "answer": "A",
+  "hint": "Denk an Sommer und Winter.",
   "explanation": "warm ↔ kalt."
  },
  {
@@ -285,6 +302,7 @@
    "stark"
   ],
   "answer": "C",
+  "hint": "Denk an eine Maus, die ganz still ist.",
   "explanation": "laut ↔ leise."
  },
  {
@@ -301,6 +319,7 @@
    "Kirsche"
   ],
   "answer": "C",
+  "hint": "Drei Dinge gehören zu einer Gruppe – eins nicht.",
   "explanation": "Die Karotte ist ein Gemüse, die anderen sind Obst."
  },
  {
@@ -317,6 +336,7 @@
    "Bär, Affe, Esel"
   ],
   "answer": "C",
+  "hint": "Schau auf die ersten Buchstaben und denk an das ABC.",
   "explanation": "A kommt vor B, B kommt vor E."
  },
  {
@@ -333,6 +353,7 @@
    "Perfekt (2. Vergangenheit)"
   ],
   "answer": "B",
+  "hint": "Ist es jetzt, früher oder später passiert?",
   "explanation": "„spielte“ ist das Präteritum von „spielen“."
  },
  {
@@ -349,6 +370,7 @@
    "ich gegangen"
   ],
   "answer": "C",
+  "hint": "„gehen“ ist unregelmäßig – das Wort ändert sich stark.",
   "explanation": "„gehen“ ist unregelmäßig: ich ging."
  },
  {
@@ -365,6 +387,7 @@
    "wir sind gelauft"
   ],
   "answer": "B",
+  "hint": "Bei Verben der Bewegung braucht man im Perfekt oft „sein“.",
   "explanation": "Bei Bewegungen bildet man das Perfekt meist mit „sein“: wir sind gelaufen."
  },
  {
@@ -381,6 +404,7 @@
    "Der Hund"
   ],
   "answer": "D",
+  "hint": "Frag: Wer oder was tut etwas?",
   "explanation": "Wer oder was bellt? – Der Hund."
  },
  {
@@ -397,6 +421,7 @@
    "Buch"
   ],
   "answer": "B",
+  "hint": "Frag: Was tut jemand? Das ist das Verb.",
   "explanation": "Was tut Lena? – Sie liest. Das Prädikat ist das Verb."
  },
  {
@@ -413,6 +438,7 @@
    "Brihf"
   ],
   "answer": "C",
+  "hint": "Sprich das Wort: Man hört ein langes i.",
   "explanation": "Das lange i schreibt man meistens „ie“: Brief."
  },
  {
@@ -429,6 +455,7 @@
    "Straße"
   ],
   "answer": "D",
+  "hint": "Ist das a lang oder kurz?",
   "explanation": "Nach einem langen Selbstlaut schreibt man oft „ß“: Straße."
  },
  {
@@ -445,6 +472,7 @@
    "Wassa"
   ],
   "answer": "A",
+  "hint": "Ist das a kurz oder lang?",
   "explanation": "Nach einem kurzen Selbstlaut folgt oft ein doppelter Mitlaut: Wasser."
  },
  {
@@ -461,6 +489,7 @@
    "gut – besser – am besten"
   ],
   "answer": "D",
+  "hint": "Bei diesem Wort ändert sich beim Steigern das ganze Wort.",
   "explanation": "„gut“ wird unregelmäßig gesteigert: besser, am besten."
  },
  {
@@ -477,6 +506,7 @@
    "Haus"
   ],
   "answer": "C",
+  "hint": "Suche ein Wort, das aus zwei Nomen besteht.",
   "explanation": "Haus + Tür = Haustür."
  },
  {
@@ -493,6 +523,7 @@
    "Nomen"
   ],
   "answer": "B",
+  "hint": "Das Wort sagt, wo etwas liegt.",
   "explanation": "„unter“ sagt, wo etwas ist: unter dem Tisch."
  },
  {
@@ -509,6 +540,7 @@
    "Farbe"
   ],
   "answer": "B",
+  "hint": "Wörter einer Familie haben denselben Wortstamm.",
   "explanation": "Fahrer, Fahrrad, Abfahrt – alle kommen von „fahren“."
  },
  {
@@ -525,6 +557,7 @@
    "Ich bin müde."
   ],
   "answer": "C",
+  "hint": "Welcher Satz klingt wie ein Ruf oder eine Warnung?",
   "explanation": "Ausrufe und Aufforderungen enden mit „!“."
  },
  {
@@ -541,6 +574,7 @@
    "dt"
   ],
   "answer": "A",
+  "hint": "Verlängere das Wort, dann hörst du den Laut.",
   "explanation": "Verlängern hilft: die Wälder – man hört das d."
  },
  {
@@ -557,6 +591,7 @@
    "gk"
   ],
   "answer": "B",
+  "hint": "Verlängere das Wort mit der Mehrzahl.",
   "explanation": "Verlängern hilft: die Berge – man hört das g."
  },
  {
@@ -573,6 +608,7 @@
    "bp"
   ],
   "answer": "C",
+  "hint": "Sag die Mehrzahl, dann hörst du den Laut deutlich.",
   "explanation": "Verlängern hilft: die Körbe – man hört das b."
  },
  {
@@ -589,6 +625,7 @@
    "a"
   ],
   "answer": "C",
+  "hint": "Gibt es ein verwandtes Wort mit a?",
   "explanation": "Ableiten: Blatt → Blätter, deshalb ä."
  },
  {
@@ -605,6 +642,7 @@
    "oi"
   ],
   "answer": "C",
+  "hint": "Gibt es ein verwandtes Wort mit au?",
   "explanation": "Ableiten: Haus → Häuser, deshalb äu."
  },
  {
@@ -621,6 +659,7 @@
    "Nur Meister dürfen üben."
   ],
   "answer": "C",
+  "hint": "Was passiert, wenn man etwas sehr oft macht?",
   "explanation": "Je öfter man etwas übt, desto besser kann man es."
  },
  {
@@ -637,6 +676,7 @@
    "Dativ (3. Fall)"
   ],
   "answer": "D",
+  "hint": "Frag: Wem helfe ich?",
   "explanation": "Wem helfe ich? – dem Lehrer: Dativ."
  },
  {
@@ -653,6 +693,7 @@
    "Akkusativ (4. Fall)"
   ],
   "answer": "D",
+  "hint": "Frag: Wen oder was wirft Tim?",
   "explanation": "Wen oder was wirft Tim? – den Ball: Akkusativ."
  },
  {
@@ -669,6 +710,7 @@
    "ich habe geschrieben"
   ],
   "answer": "A",
+  "hint": "Das Futur bildet man mit „werden“.",
   "explanation": "Futur: werden + Grundform des Verbs."
  },
  {
@@ -685,6 +727,7 @@
    "nach „Ich“"
   ],
   "answer": "B",
+  "hint": "Ein Nebensatz wird durch ein Komma abgetrennt.",
   "explanation": "Vor „weil“ beginnt ein Nebensatz – davor steht ein Komma."
  },
  {
@@ -701,6 +744,7 @@
    "Sonne"
   ],
   "answer": "B",
+  "hint": "Ein Fürwort steht für ein Nomen.",
   "explanation": "Pronomen stehen für ein Nomen: ich, du, er, sie, es …"
  },
  {
@@ -717,6 +761,7 @@
    "dass"
   ],
   "answer": "D",
+  "hint": "Kannst du „dieses“ oder „welches“ einsetzen?",
   "explanation": "Kann man „dieses“ oder „welches“ einsetzen? Nein → „dass“."
  },
  {
@@ -733,6 +778,7 @@
    "des"
   ],
   "answer": "A",
+  "hint": "Kannst du „welches“ einsetzen?",
   "explanation": "Man kann „welches“ einsetzen → „das“."
  },
  {
@@ -749,6 +795,7 @@
    "Mia sagt: Ich komme mit.“"
   ],
   "answer": "C",
+  "hint": "Achte auf Doppelpunkt, Anführungszeichen und den großen Anfang.",
   "explanation": "Doppelpunkt, Anführungszeichen unten und oben, Satzanfang groß."
  },
  {
@@ -765,6 +812,7 @@
    "dort"
   ],
   "answer": "A",
+  "hint": "Frag: Wann passiert es?",
   "explanation": "„morgen“ ist eine Zeitangabe."
  },
  {
@@ -781,6 +829,7 @@
    "-lich"
   ],
   "answer": "C",
+  "hint": "Mit welcher Nachsilbe wird aus einem Wort ein Namenwort?",
   "explanation": "frei → die Freiheit."
  },
  {
@@ -797,6 +846,7 @@
    "ver"
   ],
   "answer": "D",
+  "hint": "Was macht man auf dem Flohmarkt mit alten Sachen?",
   "explanation": "verkaufen = gegen Geld weggeben."
  },
  {
@@ -813,6 +863,1860 @@
    "Am Montag"
   ],
   "answer": "B",
+  "hint": "Frag: Wo spielen wir?",
   "explanation": "Wo spielen wir? – im Park."
+ },
+ {
+  "id": "de-deutsch-052",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort ist ein Name und wird großgeschrieben?",
+  "options": [
+   "lacht",
+   "Lisa",
+   "leise",
+   "lieb"
+  ],
+  "answer": "B",
+  "hint": "Namen von Menschen schreibt man immer groß.",
+  "explanation": "Lisa ist ein Name – Namen schreibt man groß."
+ },
+ {
+  "id": "de-deutsch-053",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Begleiter passt? „___ Katze schläft.“",
+  "options": [
+   "Der",
+   "Das",
+   "Den",
+   "Die"
+  ],
+  "answer": "D",
+  "hint": "Sag laut: eine Katze – welcher Begleiter gehört dazu?",
+  "explanation": "Es heißt: die Katze."
+ },
+ {
+  "id": "de-deutsch-054",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Begleiter passt? „___ Haus ist groß.“",
+  "options": [
+   "Das",
+   "Der",
+   "Die",
+   "Dem"
+  ],
+  "answer": "A",
+  "hint": "Sag laut: ein Haus – welcher Begleiter gehört dazu?",
+  "explanation": "Es heißt: das Haus."
+ },
+ {
+  "id": "de-deutsch-055",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Begleiter passt? „___ Mond scheint hell.“",
+  "options": [
+   "Die",
+   "Das",
+   "Der",
+   "Den"
+  ],
+  "answer": "C",
+  "hint": "Sprich jeden Begleiter vor dem Wort und hör genau hin.",
+  "explanation": "Es heißt: der Mond."
+ },
+ {
+  "id": "de-deutsch-056",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort reimt sich auf „Hose“?",
+  "options": [
+   "Hase",
+   "Hand",
+   "Rose",
+   "Haus"
+  ],
+  "answer": "C",
+  "hint": "Hör auf das Ende des Wortes.",
+  "explanation": "Hose – Rose: Das Ende „-ose“ klingt gleich."
+ },
+ {
+  "id": "de-deutsch-057",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort reimt sich auf „Tisch“?",
+  "options": [
+   "Fisch",
+   "Tasche",
+   "Teller",
+   "Tor"
+  ],
+  "answer": "A",
+  "hint": "Reimwörter klingen am Ende gleich.",
+  "explanation": "Tisch – Fisch: Das Ende „-isch“ klingt gleich."
+ },
+ {
+  "id": "de-deutsch-058",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort reimt sich auf „Ball“?",
+  "options": [
+   "Bein",
+   "Bild",
+   "Boot",
+   "Stall"
+  ],
+  "answer": "D",
+  "hint": "Achte nicht auf den Anfang, sondern auf das Ende.",
+  "explanation": "Ball – Stall: Das Ende „-all“ klingt gleich."
+ },
+ {
+  "id": "de-deutsch-059",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort reimt sich auf „Bein“?",
+  "options": [
+   "Bus",
+   "Baum",
+   "Stein",
+   "Brot"
+  ],
+  "answer": "C",
+  "hint": "Sprich beide Wörter und hör auf das Ende.",
+  "explanation": "Bein – Stein: Das Ende „-ein“ klingt gleich."
+ },
+ {
+  "id": "de-deutsch-060",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Silben hat das Wort „Tomate“?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "1"
+  ],
+  "answer": "B",
+  "hint": "Klatsche das Wort langsam mit.",
+  "explanation": "To-ma-te: drei Silben."
+ },
+ {
+  "id": "de-deutsch-061",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Silben hat das Wort „Sonne“?",
+  "options": [
+   "1",
+   "3",
+   "4",
+   "2"
+  ],
+  "answer": "D",
+  "hint": "Klatsche bei jeder Silbe einmal.",
+  "explanation": "Son-ne: zwei Silben."
+ },
+ {
+  "id": "de-deutsch-062",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Silben hat das Wort „Ball“?",
+  "options": [
+   "2",
+   "3",
+   "1",
+   "4"
+  ],
+  "answer": "C",
+  "hint": "Sprich das Wort und klatsche mit – wie oft klatschst du?",
+  "explanation": "Ball hat nur eine Silbe."
+ },
+ {
+  "id": "de-deutsch-063",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Mit welchem Buchstaben beginnt das Wort „Apfel“?",
+  "options": [
+   "E",
+   "O",
+   "A",
+   "P"
+  ],
+  "answer": "C",
+  "hint": "Sprich das Wort langsam: Was hörst du ganz am Anfang?",
+  "explanation": "Apfel beginnt mit A."
+ },
+ {
+  "id": "de-deutsch-064",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Buchstabe kommt im ABC direkt nach „D“?",
+  "options": [
+   "C",
+   "F",
+   "B",
+   "E"
+  ],
+  "answer": "D",
+  "hint": "Sag das ABC von vorne auf.",
+  "explanation": "A, B, C, D, E – nach D kommt E."
+ },
+ {
+  "id": "de-deutsch-065",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Buchstabe kommt im ABC direkt vor „M“?",
+  "options": [
+   "L",
+   "N",
+   "K",
+   "O"
+  ],
+  "answer": "A",
+  "hint": "Sag das ABC auf und halte beim M an.",
+  "explanation": "… K, L, M – vor M kommt L."
+ },
+ {
+  "id": "de-deutsch-066",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort beginnt mit „Sch“?",
+  "options": [
+   "Sonne",
+   "Schule",
+   "Tasche",
+   "Fisch"
+  ],
+  "answer": "B",
+  "hint": "Hör genau auf den Anfang des Wortes.",
+  "explanation": "Schule beginnt mit „Sch“. Bei Tasche und Fisch steht „sch“ weiter hinten."
+ },
+ {
+  "id": "de-deutsch-067",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Buchstabe ist ein Selbstlaut (Vokal)?",
+  "options": [
+   "M",
+   "T",
+   "R",
+   "U"
+  ],
+  "answer": "D",
+  "hint": "Denk an die fünf Selbstlaute im ABC – welcher ist hier dabei?",
+  "explanation": "U ist ein Selbstlaut, M, T und R sind Mitlaute."
+ },
+ {
+  "id": "de-deutsch-068",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort hat genau 4 Buchstaben?",
+  "options": [
+   "Katze",
+   "Pferd",
+   "Vogel",
+   "Hund"
+  ],
+  "answer": "D",
+  "hint": "Zähle die Buchstaben mit dem Finger.",
+  "explanation": "H-u-n-d: vier Buchstaben. Die anderen haben fünf."
+ },
+ {
+  "id": "de-deutsch-069",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Zeichen passt ans Ende? „Ich habe einen Hund_“",
+  "options": [
+   "?",
+   ",",
+   ":",
+   "."
+  ],
+  "answer": "D",
+  "hint": "Der Satz erzählt etwas und fragt nichts.",
+  "explanation": "Ein Erzählsatz endet mit einem Punkt."
+ },
+ {
+  "id": "de-deutsch-070",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „groß“?",
+  "options": [
+   "lang",
+   "dick",
+   "klein",
+   "hoch"
+  ],
+  "answer": "C",
+  "hint": "Denk an eine Maus und einen Elefanten.",
+  "explanation": "groß ↔ klein."
+ },
+ {
+  "id": "de-deutsch-071",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „Tag“?",
+  "options": [
+   "Nacht",
+   "Morgen",
+   "Sonne",
+   "Woche"
+  ],
+  "answer": "A",
+  "hint": "Wann schläfst du und es ist dunkel?",
+  "explanation": "Tag ↔ Nacht."
+ },
+ {
+  "id": "de-deutsch-072",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „oben“?",
+  "options": [
+   "vorne",
+   "links",
+   "innen",
+   "unten"
+  ],
+  "answer": "D",
+  "hint": "Denk an einen Turm: Wo ist der Boden?",
+  "explanation": "oben ↔ unten."
+ },
+ {
+  "id": "de-deutsch-073",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort passt nicht in die Reihe? rot, blau, Hund, gelb",
+  "options": [
+   "rot",
+   "blau",
+   "Hund",
+   "gelb"
+  ],
+  "answer": "C",
+  "hint": "Drei Wörter sind Farben – eins nicht.",
+  "explanation": "Der Hund ist ein Tier, die anderen Wörter sind Farben."
+ },
+ {
+  "id": "de-deutsch-074",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort passt nicht in die Reihe? Hund, Katze, Tisch, Pferd",
+  "options": [
+   "Hund",
+   "Tisch",
+   "Katze",
+   "Pferd"
+  ],
+  "answer": "B",
+  "hint": "Drei Wörter sind Tiere – eins nicht.",
+  "explanation": "Der Tisch ist ein Möbelstück, die anderen sind Tiere."
+ },
+ {
+  "id": "de-deutsch-075",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Ein Ball, zwei …?",
+  "options": [
+   "Bälle",
+   "Balls",
+   "Baller",
+   "Balle"
+  ],
+  "answer": "A",
+  "hint": "Bei der Mehrzahl ändert sich oft das a.",
+  "explanation": "ein Ball – zwei Bälle."
+ },
+ {
+  "id": "de-deutsch-076",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Tom hat einen Hund. Der Hund heißt Bello. Wie heißt der Hund?",
+  "options": [
+   "Bello",
+   "Tom",
+   "Hund",
+   "Max"
+  ],
+  "answer": "A",
+  "hint": "Lies den zweiten Satz noch einmal genau.",
+  "explanation": "Im Text steht: Der Hund heißt Bello."
+ },
+ {
+  "id": "de-deutsch-077",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Mia isst einen roten Apfel. Welche Farbe hat der Apfel?",
+  "options": [
+   "rot",
+   "grün",
+   "gelb",
+   "blau"
+  ],
+  "answer": "A",
+  "hint": "Im Satz steht, wie der Apfel aussieht.",
+  "explanation": "Im Satz steht: einen roten Apfel."
+ },
+ {
+  "id": "de-deutsch-078",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort ist richtig geschrieben?",
+  "options": [
+   "Sonne",
+   "Sone",
+   "Sonnne",
+   "Zonne"
+  ],
+  "answer": "A",
+  "hint": "Sprich das Wort langsam: Das o ist kurz.",
+  "explanation": "Sonne schreibt man mit nn."
+ },
+ {
+  "id": "de-deutsch-079",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Satz ist richtig geschrieben?",
+  "options": [
+   "der Hund bellt.",
+   "Der Hund bellt.",
+   "Der hund bellt.",
+   "der hund bellt."
+  ],
+  "answer": "B",
+  "hint": "Denk an den Satzanfang und an das Namenwort.",
+  "explanation": "Der Satzanfang und das Nomen „Hund“ werden großgeschrieben."
+ },
+ {
+  "id": "de-deutsch-080",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Wörter hat der Satz „Ich mag Eis.“?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answer": "B",
+  "hint": "Zeige auf jedes Wort und zähle.",
+  "explanation": "Ich – mag – Eis: drei Wörter."
+ },
+ {
+  "id": "de-deutsch-081",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort beginnt mit dem gleichen Laut wie „Mond“?",
+  "options": [
+   "Maus",
+   "Hund",
+   "Nase",
+   "Wolke"
+  ],
+  "answer": "A",
+  "hint": "Hör genau auf den ersten Laut.",
+  "explanation": "Mond und Maus beginnen beide mit M."
+ },
+ {
+  "id": "de-deutsch-082",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "In welchem Wort hörst du „ei“?",
+  "options": [
+   "Eis",
+   "Auto",
+   "Ofen",
+   "Uhr"
+  ],
+  "answer": "A",
+  "hint": "Sprich jedes Wort langsam und hör hin.",
+  "explanation": "Eis beginnt mit „ei“."
+ },
+ {
+  "id": "de-deutsch-083",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was macht man mit einem Buch?",
+  "options": [
+   "essen",
+   "trinken",
+   "schwimmen",
+   "lesen"
+  ],
+  "answer": "D",
+  "hint": "Denk an die Bücherei.",
+  "explanation": "Ein Buch liest man."
+ },
+ {
+  "id": "de-deutsch-084",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Zahn + Bürste = ?",
+  "options": [
+   "Bürstenzahn",
+   "Zahnbürste",
+   "Zahnbürst",
+   "Zahbürste"
+  ],
+  "answer": "B",
+  "hint": "Setze die zwei Wörter einfach in dieser Reihenfolge zusammen.",
+  "explanation": "Zahn + Bürste = Zahnbürste."
+ },
+ {
+  "id": "de-deutsch-085",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „Apfel“?",
+  "options": [
+   "Apfels",
+   "Äpfel",
+   "Äpfeln",
+   "Apfeln"
+  ],
+  "answer": "B",
+  "hint": "Sag: ein …, viele … – achte auf den ersten Buchstaben.",
+  "explanation": "ein Apfel – viele Äpfel."
+ },
+ {
+  "id": "de-deutsch-086",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „Baum“?",
+  "options": [
+   "Bäume",
+   "Baumen",
+   "Bäumer",
+   "Baums"
+  ],
+  "answer": "A",
+  "hint": "Aus „au“ wird in der Mehrzahl oft ein anderer Laut.",
+  "explanation": "ein Baum – viele Bäume."
+ },
+ {
+  "id": "de-deutsch-087",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist die Einzahl von „Hände“?",
+  "options": [
+   "Händ",
+   "Hande",
+   "Hand",
+   "Handes"
+  ],
+  "answer": "C",
+  "hint": "Sag: viele Hände – aber nur eine …",
+  "explanation": "viele Hände – eine Hand."
+ },
+ {
+  "id": "de-deutsch-088",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „Auto“?",
+  "options": [
+   "Autoen",
+   "Autoe",
+   "Äutos",
+   "Autos"
+  ],
+  "answer": "D",
+  "hint": "Bei Wörtern, die auf o enden, hängt man oft nur einen Buchstaben an.",
+  "explanation": "ein Auto – viele Autos."
+ },
+ {
+  "id": "de-deutsch-089",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort ist KEIN Verb (Tunwort)?",
+  "options": [
+   "lachen",
+   "singen",
+   "Lampe",
+   "malen"
+  ],
+  "answer": "C",
+  "hint": "Drei Wörter sagen, was man tun kann.",
+  "explanation": "Lampe ist ein Nomen: die Lampe."
+ },
+ {
+  "id": "de-deutsch-090",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort im Satz ist ein Adjektiv? „Die rote Blume blüht.“",
+  "options": [
+   "Die",
+   "Blume",
+   "blüht",
+   "rote"
+  ],
+  "answer": "D",
+  "hint": "Frag: Wie ist die Blume?",
+  "explanation": "„rote“ beschreibt, wie die Blume ist."
+ },
+ {
+  "id": "de-deutsch-091",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort im Satz ist ein Nomen? „Der kleine Junge spielt.“",
+  "options": [
+   "Junge",
+   "kleine",
+   "spielt",
+   "Der"
+  ],
+  "answer": "A",
+  "hint": "Vor ein Nomen kann man der, die oder das setzen.",
+  "explanation": "der Junge – Junge ist ein Nomen."
+ },
+ {
+  "id": "de-deutsch-092",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort kommt im ABC zuerst?",
+  "options": [
+   "Igel",
+   "Hut",
+   "Kuh",
+   "Löwe"
+  ],
+  "answer": "B",
+  "hint": "Vergleiche die ersten Buchstaben.",
+  "explanation": "H kommt im ABC vor I, K und L."
+ },
+ {
+  "id": "de-deutsch-093",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort steht im Wörterbuch zuerst?",
+  "options": [
+   "Berg",
+   "Blatt",
+   "Brot",
+   "Bank"
+  ],
+  "answer": "D",
+  "hint": "Alle beginnen mit B – schau auf den zweiten Buchstaben.",
+  "explanation": "a kommt vor e, l und r. Deshalb steht Bank zuerst."
+ },
+ {
+  "id": "de-deutsch-094",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „alt“ bei einem Menschen?",
+  "options": [
+   "jung",
+   "krank",
+   "klein",
+   "langsam"
+  ],
+  "answer": "A",
+  "hint": "Denk an ein Baby und eine Uroma.",
+  "explanation": "Ein Mensch ist alt ↔ jung."
+ },
+ {
+  "id": "de-deutsch-095",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „schnell“?",
+  "options": [
+   "langsam",
+   "laut",
+   "weit",
+   "schwer"
+  ],
+  "answer": "A",
+  "hint": "Denk an eine Schnecke.",
+  "explanation": "schnell ↔ langsam."
+ },
+ {
+  "id": "de-deutsch-096",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort bedeutet fast das Gleiche wie „schnell“?",
+  "options": [
+   "rasch",
+   "langsam",
+   "müde",
+   "leise"
+  ],
+  "answer": "A",
+  "hint": "Gesucht ist kein Gegenteil, sondern ein ähnliches Wort.",
+  "explanation": "rasch und schnell bedeuten fast das Gleiche."
+ },
+ {
+  "id": "de-deutsch-097",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Satzzeichen passt? „Komm sofort her_“",
+  "options": [
+   "?",
+   ",",
+   ":",
+   "!"
+  ],
+  "answer": "D",
+  "hint": "Der Satz ist eine Aufforderung.",
+  "explanation": "Nach einer Aufforderung steht ein Ausrufezeichen."
+ },
+ {
+  "id": "de-deutsch-098",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welcher Satz ist ein Fragesatz?",
+  "options": [
+   "Ich komme mit.",
+   "Komm mit!",
+   "Kommst du mit?",
+   "Er kommt mit."
+  ],
+  "answer": "C",
+  "hint": "Achte auf das Zeichen am Ende und wo das Verb steht.",
+  "explanation": "Ein Fragesatz endet mit einem Fragezeichen."
+ },
+ {
+  "id": "de-deutsch-099",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Schnee + Mann = ?",
+  "options": [
+   "Mannschnee",
+   "Schnemann",
+   "Schneeman",
+   "Schneemann"
+  ],
+  "answer": "D",
+  "hint": "Beide Wörter bleiben ganz erhalten.",
+  "explanation": "Schnee + Mann = Schneemann – mit ee und nn."
+ },
+ {
+  "id": "de-deutsch-100",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort ist richtig geschrieben?",
+  "options": [
+   "Spil",
+   "Spihl",
+   "Speil",
+   "Spiel"
+  ],
+  "answer": "D",
+  "hint": "Man hört ein langes i.",
+  "explanation": "Das lange i schreibt man meistens „ie“: Spiel."
+ },
+ {
+  "id": "de-deutsch-101",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort ist richtig geschrieben?",
+  "options": [
+   "Muter",
+   "Mutta",
+   "Mutter",
+   "Muttr"
+  ],
+  "answer": "C",
+  "hint": "Das u ist kurz – was folgt dann oft?",
+  "explanation": "Nach dem kurzen u folgt ein doppeltes t: Mutter."
+ },
+ {
+  "id": "de-deutsch-102",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "„ich spiele mit dem ball.“ Welche Wörter muss man großschreiben?",
+  "options": [
+   "spiele und ball",
+   "mit und dem",
+   "dem und ball",
+   "ich und ball"
+  ],
+  "answer": "D",
+  "hint": "Denk an den Satzanfang und an Namenwörter.",
+  "explanation": "Das erste Wort im Satz und das Nomen Ball schreibt man groß: Ich spiele mit dem Ball."
+ },
+ {
+  "id": "de-deutsch-103",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Silben hat das Wort „Schokolade“?",
+  "options": [
+   "4",
+   "3",
+   "5",
+   "2"
+  ],
+  "answer": "A",
+  "hint": "Klatsche das Wort langsam mit.",
+  "explanation": "Scho-ko-la-de: vier Silben."
+ },
+ {
+  "id": "de-deutsch-104",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie trennt man „Fenster“ richtig?",
+  "options": [
+   "Fe-nster",
+   "Fenst-er",
+   "F-enster",
+   "Fens-ter"
+  ],
+  "answer": "D",
+  "hint": "Sprich das Wort in Silben und klatsche mit.",
+  "explanation": "Fens-ter: s und t werden getrennt."
+ },
+ {
+  "id": "de-deutsch-105",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort reimt sich auf „Katze“?",
+  "options": [
+   "Kerze",
+   "Kasse",
+   "Tasche",
+   "Tatze"
+  ],
+  "answer": "D",
+  "hint": "Hör genau auf das Ende des Wortes.",
+  "explanation": "Katze – Tatze: Das Ende „-atze“ klingt gleich."
+ },
+ {
+  "id": "de-deutsch-106",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Paul geht in den Zoo. Dort sieht er einen Elefanten und zwei Affen. Wie viele Affen sieht Paul?",
+  "options": [
+   "einen",
+   "zwei",
+   "drei",
+   "keinen"
+  ],
+  "answer": "B",
+  "hint": "Lies noch einmal genau, was Paul im Zoo sieht.",
+  "explanation": "Im Text steht: zwei Affen."
+ },
+ {
+  "id": "de-deutsch-107",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Es regnet. Lea nimmt ihren Schirm mit. Warum nimmt Lea den Schirm mit?",
+  "options": [
+   "Weil die Sonne scheint.",
+   "Weil es regnet.",
+   "Weil es schneit.",
+   "Weil sie Durst hat."
+  ],
+  "answer": "B",
+  "hint": "Lies den ersten Satz noch einmal.",
+  "explanation": "Ein Schirm schützt vor Regen – und es regnet."
+ },
+ {
+  "id": "de-deutsch-108",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Form passt? „Du ___ ein Lied.“",
+  "options": [
+   "singt",
+   "singe",
+   "singst",
+   "singen"
+  ],
+  "answer": "C",
+  "hint": "Zu „du“ gehört meistens die Endung „-st“.",
+  "explanation": "du singst."
+ },
+ {
+  "id": "de-deutsch-109",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort passt? „Tom spielt. ___ lacht.“",
+  "options": [
+   "Er",
+   "Sie",
+   "Es",
+   "Wir"
+  ],
+  "answer": "A",
+  "hint": "Tom ist ein Junge – welches Fürwort passt zu ihm?",
+  "explanation": "Für einen Jungen sagt man: er."
+ },
+ {
+  "id": "de-deutsch-110",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort gehört zum Wortfeld „sagen“?",
+  "options": [
+   "rennen",
+   "flüstern",
+   "schlafen",
+   "malen"
+  ],
+  "answer": "B",
+  "hint": "Gesucht ist ein Wort, das mit Sprechen zu tun hat.",
+  "explanation": "Flüstern ist leises Sagen."
+ },
+ {
+  "id": "de-deutsch-111",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Reihe ist nach dem ABC geordnet?",
+  "options": [
+   "Gabel, Hose, Igel",
+   "Hose, Gabel, Igel",
+   "Igel, Hose, Gabel",
+   "Gabel, Igel, Hose"
+  ],
+  "answer": "A",
+  "hint": "Schau auf die ersten Buchstaben: G, H und I.",
+  "explanation": "G kommt vor H, H kommt vor I."
+ },
+ {
+  "id": "de-deutsch-112",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "In welcher Zeitform steht: „Wir essen Pizza.“?",
+  "options": [
+   "Präteritum (1. Vergangenheit)",
+   "Präsens (Gegenwart)",
+   "Perfekt (2. Vergangenheit)",
+   "Futur (Zukunft)"
+  ],
+  "answer": "B",
+  "hint": "Passiert es jetzt, früher oder später?",
+  "explanation": "„essen“ steht hier in der Gegenwart: Es passiert jetzt."
+ },
+ {
+  "id": "de-deutsch-113",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "In welcher Zeitform steht: „Ich habe gemalt.“?",
+  "options": [
+   "Präsens (Gegenwart)",
+   "Präteritum (1. Vergangenheit)",
+   "Perfekt (2. Vergangenheit)",
+   "Futur (Zukunft)"
+  ],
+  "answer": "C",
+  "hint": "Achte auf das Hilfsverb und das Wort mit „ge-“.",
+  "explanation": "„habe gemalt“: haben + Partizip – das ist das Perfekt."
+ },
+ {
+  "id": "de-deutsch-114",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie heißt „er sieht“ im Präteritum?",
+  "options": [
+   "er sehte",
+   "er sah",
+   "er gesehen",
+   "er sahte"
+  ],
+  "answer": "B",
+  "hint": "„sehen“ ist unregelmäßig.",
+  "explanation": "sehen – er sah – er hat gesehen."
+ },
+ {
+  "id": "de-deutsch-115",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie heißt „wir essen“ im Perfekt?",
+  "options": [
+   "wir sind gegessen",
+   "wir haben gegessen",
+   "wir haben geesst",
+   "wir haben gessen"
+  ],
+  "answer": "B",
+  "hint": "Essen ist keine Bewegung – welches Hilfsverb passt?",
+  "explanation": "Perfekt: wir haben gegessen."
+ },
+ {
+  "id": "de-deutsch-116",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist das Objekt im Satz „Oma backt einen Kuchen.“?",
+  "options": [
+   "Oma",
+   "backt",
+   "Oma backt",
+   "einen Kuchen"
+  ],
+  "answer": "D",
+  "hint": "Frag: Wen oder was backt Oma?",
+  "explanation": "Wen oder was backt Oma? – einen Kuchen."
+ },
+ {
+  "id": "de-deutsch-117",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist das Subjekt im Satz „Am Morgen singt der Vogel.“?",
+  "options": [
+   "Am Morgen",
+   "der Vogel",
+   "singt",
+   "Morgen"
+  ],
+  "answer": "B",
+  "hint": "Frag: Wer oder was singt?",
+  "explanation": "Wer oder was singt? – der Vogel. Das Subjekt steht nicht immer vorne."
+ },
+ {
+  "id": "de-deutsch-118",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Satzglieder hat der Satz „Die Kinder spielen im Garten.“?",
+  "options": [
+   "2",
+   "4",
+   "5",
+   "3"
+  ],
+  "answer": "D",
+  "hint": "Mach die Umstellprobe: Welche Wörter bleiben immer zusammen?",
+  "explanation": "Die Kinder | spielen | im Garten – drei Satzglieder."
+ },
+ {
+  "id": "de-deutsch-119",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort gehört NICHT zur Wortfamilie „spielen“?",
+  "options": [
+   "Spieler",
+   "Spiegel",
+   "Spielzeug",
+   "verspielt"
+  ],
+  "answer": "B",
+  "hint": "Suche das Wort ohne den Stamm „spiel“.",
+  "explanation": "Spiegel klingt ähnlich, hat aber nichts mit spielen zu tun."
+ },
+ {
+  "id": "de-deutsch-120",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort gehört zur Wortfamilie „backen“?",
+  "options": [
+   "Bach",
+   "Bäckerei",
+   "Becken",
+   "Bank"
+  ],
+  "answer": "B",
+  "hint": "Wo wird gebacken?",
+  "explanation": "In der Bäckerei wird gebacken – sie hat den Stamm „back“."
+ },
+ {
+  "id": "de-deutsch-121",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort ist richtig geschrieben?",
+  "options": [
+   "Fuss",
+   "Fuß",
+   "Fus",
+   "Fuhs"
+  ],
+  "answer": "B",
+  "hint": "Ist das u lang oder kurz?",
+  "explanation": "Nach dem langen u schreibt man ß: Fuß."
+ },
+ {
+  "id": "de-deutsch-122",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "ss oder ß? „Wir e_en Nudeln.“",
+  "options": [
+   "ß",
+   "s",
+   "ss",
+   "sz"
+  ],
+  "answer": "C",
+  "hint": "Ist das e kurz oder lang?",
+  "explanation": "Nach dem kurzen e schreibt man ss: essen."
+ },
+ {
+  "id": "de-deutsch-123",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "ss oder ß? „der Gru_“",
+  "options": [
+   "ss",
+   "s",
+   "ß",
+   "z"
+  ],
+  "answer": "C",
+  "hint": "Ist das u in diesem Wort lang oder kurz?",
+  "explanation": "Nach dem langen u schreibt man ß: der Gruß."
+ },
+ {
+  "id": "de-deutsch-124",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "ie oder i? „die K_rsche“",
+  "options": [
+   "ie",
+   "ih",
+   "ee",
+   "i"
+  ],
+  "answer": "D",
+  "hint": "Sprich das Wort: Ist das i kurz oder lang?",
+  "explanation": "Das i in Kirsche ist kurz, deshalb nur i."
+ },
+ {
+  "id": "de-deutsch-125",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort ist richtig geschrieben?",
+  "options": [
+   "Teler",
+   "Teller",
+   "Tehler",
+   "Tellr"
+  ],
+  "answer": "B",
+  "hint": "Das e ist kurz – was folgt dann oft?",
+  "explanation": "Nach dem kurzen e folgt ein doppeltes l: Teller."
+ },
+ {
+  "id": "de-deutsch-126",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "k oder ck? „der Ro_“ (ein Kleidungsstück)",
+  "options": [
+   "ck",
+   "k",
+   "kk",
+   "gg"
+  ],
+  "answer": "A",
+  "hint": "Ist das o kurz oder lang?",
+  "explanation": "Nach einem kurzen Selbstlaut schreibt man ck: der Rock."
+ },
+ {
+  "id": "de-deutsch-127",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie steigert man „klein“ richtig?",
+  "options": [
+   "klein – kleiner – am kleiner",
+   "klein – mehr klein – am meisten klein",
+   "klein – kleinste – am kleiner",
+   "klein – kleiner – am kleinsten"
+  ],
+  "answer": "D",
+  "hint": "Die zweite Stufe endet auf „-er“, die dritte beginnt mit „am“.",
+  "explanation": "klein – kleiner – am kleinsten."
+ },
+ {
+  "id": "de-deutsch-128",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie steigert man „viel“ richtig?",
+  "options": [
+   "viel – vieler – am vielsten",
+   "viel – mehr – am mehrsten",
+   "viel – vieler – am meisten",
+   "viel – mehr – am meisten"
+  ],
+  "answer": "D",
+  "hint": "Bei diesem Wort ändert sich beim Steigern das ganze Wort.",
+  "explanation": "„viel“ wird unregelmäßig gesteigert: mehr, am meisten."
+ },
+ {
+  "id": "de-deutsch-129",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort bedeutet fast dasselbe wie „beginnen“?",
+  "options": [
+   "anfangen",
+   "aufhören",
+   "enden",
+   "warten"
+  ],
+  "answer": "A",
+  "hint": "Gesucht ist ein ähnliches Wort, kein Gegenteil.",
+  "explanation": "beginnen = anfangen."
+ },
+ {
+  "id": "de-deutsch-130",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet das Sprichwort „Ohne Fleiß kein Preis“?",
+  "options": [
+   "Preise gibt es nur im Laden.",
+   "Man soll nie fleißig sein.",
+   "Wer sich anstrengt, wird belohnt.",
+   "Fleiß kostet viel Geld."
+  ],
+  "answer": "C",
+  "hint": "Fleiß heißt: sich Mühe geben.",
+  "explanation": "Nur wer sich Mühe gibt, erreicht etwas."
+ },
+ {
+  "id": "de-deutsch-131",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Ben hat Geburtstag. Er wird neun Jahre alt. Auf dem Kuchen stehen aber nur acht Kerzen, weil eine fehlt. Wie alt wird Ben?",
+  "options": [
+   "acht",
+   "neun",
+   "zehn",
+   "sieben"
+  ],
+  "answer": "B",
+  "hint": "Lies genau, was über Bens Alter steht.",
+  "explanation": "Im Text steht: Er wird neun Jahre alt. Eine Kerze fehlt nur."
+ },
+ {
+  "id": "de-deutsch-132",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Die Klasse 3b macht einen Ausflug in den Wald. Dort finden die Kinder Pilze. Sie dürfen die Pilze aber nicht essen. Warum essen die Kinder die Pilze nicht?",
+  "options": [
+   "Weil sie keinen Hunger haben.",
+   "Weil die Pilze zu klein sind.",
+   "Weil sie es nicht dürfen.",
+   "Weil sie keine Pilze finden."
+  ],
+  "answer": "C",
+  "hint": "Lies den letzten Satz noch einmal.",
+  "explanation": "Im Text steht: Sie dürfen die Pilze nicht essen."
+ },
+ {
+  "id": "de-deutsch-133",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "In welcher Zeitform steht: „Morgen werden wir schwimmen.“?",
+  "options": [
+   "Präsens (Gegenwart)",
+   "Futur (Zukunft)",
+   "Präteritum (1. Vergangenheit)",
+   "Perfekt (2. Vergangenheit)"
+  ],
+  "answer": "B",
+  "hint": "Achte auf das Wort „werden“ und auf „morgen“.",
+  "explanation": "werden + Grundform zeigt die Zukunft: Futur."
+ },
+ {
+  "id": "de-deutsch-134",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt „sie fährt“ im Perfekt?",
+  "options": [
+   "sie ist gefahren",
+   "sie hat gefahren",
+   "sie fuhr",
+   "sie ist gefahrt"
+  ],
+  "answer": "A",
+  "hint": "Fahren ist eine Bewegung – welches Hilfsverb passt?",
+  "explanation": "Perfekt mit „sein“: sie ist gefahren."
+ },
+ {
+  "id": "de-deutsch-135",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt „ich bringe“ im Präteritum?",
+  "options": [
+   "ich bringte",
+   "ich brung",
+   "ich gebracht",
+   "ich brachte"
+  ],
+  "answer": "D",
+  "hint": "„bringen“ ist ein unregelmäßiges Verb.",
+  "explanation": "bringen – ich brachte – ich habe gebracht."
+ },
+ {
+  "id": "de-deutsch-136",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Satz steht im Präteritum?",
+  "options": [
+   "Der Hund rennt weg.",
+   "Der Hund rannte weg.",
+   "Der Hund ist weggerannt.",
+   "Der Hund wird wegrennen."
+  ],
+  "answer": "B",
+  "hint": "Gesucht ist die Vergangenheit, die aus nur einem Verb besteht.",
+  "explanation": "„rannte“ ist das Präteritum von „rennen“."
+ },
+ {
+  "id": "de-deutsch-137",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "„das“ oder „dass“? „___ Fahrrad ist neu.“",
+  "options": [
+   "Dass",
+   "Des",
+   "Da",
+   "Das"
+  ],
+  "answer": "D",
+  "hint": "Kannst du „dieses“ einsetzen?",
+  "explanation": "Man kann „Dieses Fahrrad“ sagen – also ist es der Artikel."
+ },
+ {
+  "id": "de-deutsch-138",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "„das“ oder „dass“? „Er sagt, ___ es morgen regnet.“",
+  "options": [
+   "dass",
+   "das",
+   "was",
+   "des"
+  ],
+  "answer": "A",
+  "hint": "Kannst du hier „dieses“ oder „welches“ einsetzen?",
+  "explanation": "Man kann weder „dieses“ noch „welches“ einsetzen – also „dass“."
+ },
+ {
+  "id": "de-deutsch-139",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Satz ist richtig?",
+  "options": [
+   "Ich weiß, das du müde bist.",
+   "Ich weiß dass, du müde bist.",
+   "Ich weiß, dass du müde bist.",
+   "Ich weiß das, du müde bist."
+  ],
+  "answer": "C",
+  "hint": "Prüfe das Komma und ob man „welches“ einsetzen kann.",
+  "explanation": "Vor „dass“ steht ein Komma, und hier schreibt man „dass“ mit ss."
+ },
+ {
+  "id": "de-deutsch-140",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Satz mit wörtlicher Rede ist richtig?",
+  "options": [
+   "„Komm schnell!“ ruft Paul.",
+   "„Komm schnell“! ruft Paul.",
+   "„Komm schnell!“, Ruft Paul.",
+   "„Komm schnell!“, ruft Paul."
+  ],
+  "answer": "D",
+  "hint": "Achte auf das Komma nach den Anführungszeichen.",
+  "explanation": "Nach der wörtlichen Rede folgt ein Komma, dann der Begleitsatz klein."
+ },
+ {
+  "id": "de-deutsch-141",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist der Begleitsatz? „Ich habe Hunger“, sagt Lina.",
+  "options": [
+   "Ich habe Hunger",
+   "Hunger",
+   "Ich",
+   "sagt Lina"
+  ],
+  "answer": "D",
+  "hint": "Der Begleitsatz verrät, wer spricht.",
+  "explanation": "„sagt Lina“ steht außerhalb der Anführungszeichen und sagt, wer spricht."
+ },
+ {
+  "id": "de-deutsch-142",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Dativobjekt? „Lukas schenkt seiner Schwester ein Buch.“",
+  "options": [
+   "seiner Schwester",
+   "ein Buch",
+   "Lukas",
+   "schenkt"
+  ],
+  "answer": "A",
+  "hint": "Frag: Wem schenkt Lukas etwas?",
+  "explanation": "Wem schenkt Lukas etwas? – seiner Schwester: Dativobjekt."
+ },
+ {
+  "id": "de-deutsch-143",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Akkusativobjekt? „Die Katze fängt eine Maus.“",
+  "options": [
+   "Die Katze",
+   "fängt",
+   "Die Katze fängt",
+   "eine Maus"
+  ],
+  "answer": "D",
+  "hint": "Frag: Wen oder was fängt die Katze?",
+  "explanation": "Wen oder was fängt die Katze? – eine Maus: Akkusativobjekt."
+ },
+ {
+  "id": "de-deutsch-144",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Prädikat? „Wir haben den Film gesehen.“",
+  "options": [
+   "Wir",
+   "den Film",
+   "den Film gesehen",
+   "haben … gesehen"
+  ],
+  "answer": "D",
+  "hint": "Im Perfekt besteht das Prädikat aus zwei Teilen.",
+  "explanation": "Das Prädikat ist zweiteilig: haben … gesehen."
+ },
+ {
+  "id": "de-deutsch-145",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Pronomen ersetzt „Die Kinder“? „Die Kinder spielen.“",
+  "options": [
+   "Er",
+   "Es",
+   "Sie",
+   "Ihr"
+  ],
+  "answer": "C",
+  "hint": "Es sind mehrere Kinder.",
+  "explanation": "Für mehrere Personen sagt man: sie spielen."
+ },
+ {
+  "id": "de-deutsch-146",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „Das Fahrrad gehört mir. Es ist ___ Fahrrad.“",
+  "options": [
+   "mein",
+   "meine",
+   "meinen",
+   "meiner"
+  ],
+  "answer": "A",
+  "hint": "Achte auf den Artikel: das Fahrrad.",
+  "explanation": "das Fahrrad → mein Fahrrad."
+ },
+ {
+  "id": "de-deutsch-147",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Wortart ist „schnelle“ in „der schnelle Hund“?",
+  "options": [
+   "Adjektiv",
+   "Nomen",
+   "Verb",
+   "Pronomen"
+  ],
+  "answer": "A",
+  "hint": "Frag: Wie ist der Hund?",
+  "explanation": "„schnelle“ beschreibt den Hund – es ist ein Adjektiv."
+ },
+ {
+  "id": "de-deutsch-148",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Satz ist richtig geschrieben?",
+  "options": [
+   "Beim lesen vergesse ich die Zeit.",
+   "beim Lesen vergesse ich die zeit.",
+   "Beim Lesen vergesse ich die Zeit.",
+   "Beim Lesen Vergesse ich die Zeit."
+  ],
+  "answer": "C",
+  "hint": "Steht vor einem Verb „beim“, wird es zum Namenwort.",
+  "explanation": "Nach „beim“ wird das Verb zum Nomen: das Lesen."
+ },
+ {
+  "id": "de-deutsch-149",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wo fehlt ein Komma? „Ich kaufe Äpfel Birnen und Bananen.“",
+  "options": [
+   "nach „Birnen“",
+   "vor „Äpfel“",
+   "nach „und“",
+   "nach „Äpfel“"
+  ],
+  "answer": "D",
+  "hint": "Bei Aufzählungen trennt man mit Komma – aber nicht vor „und“.",
+  "explanation": "Ich kaufe Äpfel, Birnen und Bananen."
+ },
+ {
+  "id": "de-deutsch-150",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wo fehlt das Komma? „Mama freut sich dass wir helfen.“",
+  "options": [
+   "nach „dass“",
+   "nach „Mama“",
+   "vor „dass“",
+   "vor „helfen“"
+  ],
+  "answer": "C",
+  "hint": "Wo beginnt der Nebensatz?",
+  "explanation": "Vor „dass“ beginnt ein Nebensatz, deshalb steht davor ein Komma."
+ },
+ {
+  "id": "de-deutsch-151",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort bedeutet fast dasselbe wie „klug“?",
+  "options": [
+   "dumm",
+   "faul",
+   "schlau",
+   "frech"
+  ],
+  "answer": "C",
+  "hint": "Gesucht ist ein ähnliches Wort, kein Gegenteil.",
+  "explanation": "klug und schlau bedeuten fast das Gleiche."
+ },
+ {
+  "id": "de-deutsch-152",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „ehrlich“?",
+  "options": [
+   "unehrlich",
+   "freundlich",
+   "fröhlich",
+   "ehrgeizig"
+  ],
+  "answer": "A",
+  "hint": "Die Vorsilbe „un-“ kann ein Wort ins Gegenteil drehen.",
+  "explanation": "ehrlich ↔ unehrlich."
+ },
+ {
+  "id": "de-deutsch-153",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „Morgenstund hat Gold im Mund“?",
+  "options": [
+   "Man soll morgens Gold essen.",
+   "Wer früh aufsteht, schafft viel.",
+   "Am Morgen ist man immer müde.",
+   "Gold liegt im Mund."
+  ],
+  "answer": "B",
+  "hint": "Das Sprichwort meint nicht echtes Gold.",
+  "explanation": "Am frühen Morgen kann man viel erledigen."
+ },
+ {
+  "id": "de-deutsch-154",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „Wer anderen eine Grube gräbt, fällt selbst hinein“?",
+  "options": [
+   "Man soll keine Löcher graben.",
+   "Wer anderen schaden will, schadet oft sich selbst.",
+   "Gärtner fallen oft in Gruben.",
+   "Wer gräbt, findet einen Schatz."
+  ],
+  "answer": "B",
+  "hint": "Die Grube ist nur ein Bild für etwas Gemeines.",
+  "explanation": "Wer anderen etwas Böses tun will, dem passiert es oft selbst."
+ },
+ {
+  "id": "de-deutsch-155",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Im Herbst sammeln Eichhörnchen Nüsse. Sie verstecken sie im Boden. Im Winter suchen sie die Verstecke wieder. Warum verstecken Eichhörnchen Nüsse?",
+  "options": [
+   "Weil sie Nüsse nicht mögen.",
+   "Damit sie im Winter Futter haben.",
+   "Damit andere Tiere sie finden.",
+   "Weil der Boden warm ist."
+  ],
+  "answer": "B",
+  "hint": "Lies, was im Winter passiert.",
+  "explanation": "Im Winter finden die Eichhörnchen wenig Futter, deshalb legen sie Vorräte an."
+ },
+ {
+  "id": "de-deutsch-156",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Anna ist älter als Ben. Ben ist älter als Clara. Wer ist am jüngsten?",
+  "options": [
+   "Anna",
+   "Clara",
+   "Ben",
+   "Alle sind gleich alt."
+  ],
+  "answer": "B",
+  "hint": "Ordne die drei Kinder nach dem Alter.",
+  "explanation": "Anna ist die Älteste, dann kommt Ben, Clara ist am jüngsten."
+ },
+ {
+  "id": "de-deutsch-157",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort ist aus einem Verb und einem Nomen zusammengesetzt?",
+  "options": [
+   "Haustür",
+   "Großstadt",
+   "Sonnenschein",
+   "Schreibtisch"
+  ],
+  "answer": "D",
+  "hint": "Prüfe bei jedem Wort, aus welchen Wortarten die Teile sind.",
+  "explanation": "schreiben + Tisch = Schreibtisch."
+ },
+ {
+  "id": "de-deutsch-158",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie trennt man „Zucker“ richtig?",
+  "options": [
+   "Zu-cker",
+   "Zuc-ker",
+   "Zuck-er",
+   "Z-ucker"
+  ],
+  "answer": "A",
+  "hint": "„ck“ wird beim Trennen nicht auseinandergerissen.",
+  "explanation": "ck bleibt zusammen: Zu-cker."
+ },
+ {
+  "id": "de-deutsch-159",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt die höchste Stufe (Superlativ) von „hoch“?",
+  "options": [
+   "am höchsten",
+   "am hochsten",
+   "am höhesten",
+   "höher"
+  ],
+  "answer": "A",
+  "hint": "Bei „hoch“ bekommt das o zwei Punkte.",
+  "explanation": "hoch – höher – am höchsten."
+ },
+ {
+  "id": "de-deutsch-160",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort gehört zur Wortfamilie „Kraft“?",
+  "options": [
+   "kratzen",
+   "kräftig",
+   "Kragen",
+   "krank"
+  ],
+  "answer": "B",
+  "hint": "Suche den Wortstamm „kraft“ – auch mit ä.",
+  "explanation": "kräftig kommt von Kraft."
  }
 ]

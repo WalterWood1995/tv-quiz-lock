@@ -13,7 +13,9 @@
    "dog"
   ],
   "answer": "D",
-  "explanation": "Hund = dog."
+  "hint": "Das Tier bellt laut – das englische Wort fängt mit „d“ an.",
+  "explanation": "Hund = dog.",
+  "more": "Ein Hundebaby heißt auf Englisch puppy. Und wenn ein Hund bellt, sagt man im Englischen „woof woof“ statt „wau wau“!"
  },
  {
   "id": "de-englisch-002",
@@ -29,7 +31,9 @@
    "mouse"
   ],
   "answer": "A",
-  "explanation": "Katze = cat."
+  "hint": "Das Tier miaut – das Wort hat nur drei Buchstaben und ein „a“ in der Mitte.",
+  "explanation": "Katze = cat.",
+  "more": "Ein Katzenbaby heißt kitten. Englische Katzen sagen „meow“ – und wenn sie zufrieden schnurren, heißt das purr."
  },
  {
   "id": "de-englisch-003",
@@ -45,7 +49,9 @@
    "green"
   ],
   "answer": "A",
-  "explanation": "rot = red."
+  "hint": "Denk an die Ampel: Das ist die Farbe für Stopp.",
+  "explanation": "rot = red.",
+  "more": "Eine Erdbeere heißt strawberry und eine Tomate tomato – beide sind red. Und wer vor Scham rot wird, der „goes red“."
  },
  {
   "id": "de-englisch-004",
@@ -61,7 +67,9 @@
    "banana"
   ],
   "answer": "A",
-  "explanation": "Apfel = apple."
+  "hint": "Das Wort klingt fast wie das deutsche Wort, nur mit „pp“.",
+  "explanation": "Apfel = apple.",
+  "more": "Ein englisches Sprichwort lautet: „An apple a day keeps the doctor away.“ Ein Apfel am Tag hält den Doktor fern!"
  },
  {
   "id": "de-englisch-005",
@@ -77,7 +85,9 @@
    "hallo"
   ],
   "answer": "A",
-  "explanation": "thank you = danke."
+  "hint": "Das sagst du, wenn dir jemand etwas schenkt.",
+  "explanation": "thank you = danke.",
+  "more": "Die passende Antwort auf thank you ist „You're welcome!“ – das bedeutet „Gern geschehen!“."
  },
  {
   "id": "de-englisch-006",
@@ -93,7 +103,9 @@
    "70"
   ],
   "answer": "A",
-  "explanation": "seven = 7."
+  "hint": "Zähle auf Englisch: five, six, … – welche Zahl kommt danach?",
+  "explanation": "seven = 7.",
+  "more": "Die Woche hat seven days. Und Schneewittchen wohnt bei den seven dwarfs – den sieben Zwergen!"
  },
  {
   "id": "de-englisch-007",
@@ -109,7 +121,9 @@
    "father"
   ],
   "answer": "A",
-  "explanation": "Mutter = mother."
+  "hint": "Das Wort beginnt mit dem gleichen Buchstaben wie „Mama“.",
+  "explanation": "Mutter = mother.",
+  "more": "Kinder sagen zur Mutter oft mum. Am Muttertag schreibt man in England „Happy Mother's Day“ auf die Karte."
  },
  {
   "id": "de-englisch-008",
@@ -125,7 +139,9 @@
    "Guten Morgen"
   ],
   "answer": "D",
-  "explanation": "Good morning = Guten Morgen."
+  "hint": "„morning“ ist die Tageszeit, wenn du aufstehst.",
+  "explanation": "Good morning = Guten Morgen.",
+  "more": "Am Nachmittag sagt man „Good afternoon“, am Abend „Good evening“. „Good night“ sagt man nur vor dem Schlafengehen!"
  },
  {
   "id": "de-englisch-009",
@@ -141,7 +157,9 @@
    "street"
   ],
   "answer": "A",
-  "explanation": "Schule = school."
+  "hint": "Das Wort klingt fast wie das deutsche Wort, nur anders geschrieben.",
+  "explanation": "Schule = school.",
+  "more": "Ein Lehrer heißt teacher und ein Schüler pupil. In England tragen viele Kinder eine school uniform, eine Schuluniform!"
  },
  {
   "id": "de-englisch-010",
@@ -157,7 +175,9 @@
    "Friday"
   ],
   "answer": "C",
-  "explanation": "Montag = Monday."
+  "hint": "In diesem Wochentag steckt der Mond – auf Englisch „moon“.",
+  "explanation": "Montag = Monday.",
+  "more": "Monday kommt von moon, dem Mond: Es ist der Mondtag – wie Montag im Deutschen. Englische Wochentage schreibt man immer groß!"
  },
  {
   "id": "de-englisch-011",
@@ -173,7 +193,9 @@
    "grün"
   ],
   "answer": "C",
-  "explanation": "blue = blau."
+  "hint": "Das ist die Farbe vom Himmel und vom Meer.",
+  "explanation": "blue = blau.",
+  "more": "Der Himmel ist blue und das Meer auch. Lustig: „I feel blue“ heißt nicht „Ich bin blau“, sondern „Ich bin traurig“."
  },
  {
   "id": "de-englisch-012",
@@ -189,7 +211,9 @@
    "Name my is Tom."
   ],
   "answer": "B",
-  "explanation": "My name is … = Ich heiße …"
+  "hint": "Im Englischen steht „name“ direkt nach „My“.",
+  "explanation": "My name is … = Ich heiße …",
+  "more": "Mit „What's your name?“ fragst du jemanden nach seinem Namen. Antworten kannst du auch kurz: „I'm Lena.“"
  },
  {
   "id": "de-englisch-013",
@@ -205,7 +229,9 @@
    "Dienstag"
   ],
   "answer": "C",
-  "explanation": "Wednesday = Mittwoch."
+  "hint": "Dieser Tag liegt genau in der Mitte der Woche.",
+  "explanation": "Wednesday = Mittwoch.",
+  "more": "Wednesday hat ein stummes d: Man sagt „Wensday“. Schreib-Trick: Wed – nes – day langsam in drei Teilen buchstabieren!"
  },
  {
   "id": "de-englisch-014",
@@ -221,7 +247,9 @@
    "children"
   ],
   "answer": "D",
-  "explanation": "one child – two children."
+  "hint": "Diese Mehrzahl ist unregelmäßig und endet auf „-ren“.",
+  "explanation": "one child – two children.",
+  "more": "Auch man wird zu men und woman zu women – diese Wörter haben ganz eigene Mehrzahlformen."
  },
  {
   "id": "de-englisch-015",
@@ -237,7 +265,9 @@
    "are"
   ],
   "answer": "B",
-  "explanation": "I am, you are, he/she/it is."
+  "hint": "Zu „I“ gehört immer eine ganz besondere Form von „to be“.",
+  "explanation": "I am, you are, he/she/it is.",
+  "more": "Kurz sagt man oft I'm, you're und she's. Bei we und they heißt es ebenfalls are: we are, they are."
  },
  {
   "id": "de-englisch-016",
@@ -253,7 +283,9 @@
    "have"
   ],
   "answer": "A",
-  "explanation": "I have, she has."
+  "hint": "Bei „she“ verändert sich „have“ – das „ve“ fällt weg.",
+  "explanation": "I have, she has.",
+  "more": "In Großbritannien sagt man sehr oft have got: I have got a dog – kurz: I've got a dog. Bei she heißt es: She has got."
  },
  {
   "id": "de-englisch-017",
@@ -269,7 +301,9 @@
    "What old are you?"
   ],
   "answer": "C",
-  "explanation": "How old are you? – I am … years old."
+  "hint": "Beginne mit dem Fragewort für „wie“ und stell „old“ direkt dahinter.",
+  "explanation": "How old are you? – I am … years old.",
+  "more": "Wenn du Geburtstag hast, singen alle „Happy birthday to you!“. Und auf die Torte kommen candles, also Kerzen."
  },
  {
   "id": "de-englisch-018",
@@ -285,7 +319,9 @@
    "Garten"
   ],
   "answer": "C",
-  "explanation": "kitchen = Küche."
+  "hint": "In diesem Raum wird gekocht – das Wort fängt sogar ähnlich an.",
+  "explanation": "kitchen = Küche.",
+  "more": "Zur Küche passen fridge (Kühlschrank), cooker (Herd) und cup (Tasse). Wer kocht, ist ein cook!"
  },
  {
   "id": "de-englisch-019",
@@ -301,7 +337,9 @@
    "20"
   ],
   "answer": "C",
-  "explanation": "twelve = 12, twenty = 20."
+  "hint": "Denk an ein Dutzend Eier.",
+  "explanation": "twelve = 12, twenty = 20.",
+  "more": "Bei thirteen bis nineteen hörst du am Ende ein „teen“. Deshalb heißen Jugendliche zwischen 13 und 19 teenagers!"
  },
  {
   "id": "de-englisch-020",
@@ -317,7 +355,9 @@
    "Winter"
   ],
   "answer": "A",
-  "explanation": "spring = Frühling, summer = Sommer, autumn = Herbst."
+  "hint": "In dieser Jahreszeit blühen die ersten Blumen.",
+  "explanation": "spring = Frühling, summer = Sommer, autumn = Herbst.",
+  "more": "Der Winter heißt winter. In Amerika sagt man zum Herbst fall – weil dann die Blätter fallen!"
  },
  {
   "id": "de-englisch-021",
@@ -333,7 +373,9 @@
    "tall"
   ],
   "answer": "A",
-  "explanation": "big ↔ small."
+  "hint": "Denk an etwas Winziges wie eine Maus.",
+  "explanation": "big ↔ small.",
+  "more": "Statt big kann man auch large sagen, für riesig sogar huge. Und ganz winzig ist tiny!"
  },
  {
   "id": "de-englisch-022",
@@ -349,7 +391,9 @@
    "are"
   ],
   "answer": "D",
-  "explanation": "they are – They are playing football."
+  "hint": "„They“ ist Mehrzahl – nimm dieselbe Form wie bei „we“ und „you“.",
+  "explanation": "they are – They are playing football.",
+  "more": "Fußball heißt in England football, in Amerika aber soccer. Dort ist mit football ein ganz anderes Spiel gemeint!"
  },
  {
   "id": "de-englisch-023",
@@ -365,7 +409,9 @@
    "What time is it?"
   ],
   "answer": "D",
-  "explanation": "What time is it? – Wie spät ist es?"
+  "hint": "Die Antwort nennt eine Uhrzeit.",
+  "explanation": "What time is it? – Wie spät ist es?",
+  "more": "Die Antwort könnte sein: „It's three o'clock.“ – Es ist drei Uhr. Eine Uhr am Arm heißt watch, an der Wand clock."
  },
  {
   "id": "de-englisch-024",
@@ -381,7 +427,9 @@
    "I am not like bananas."
   ],
   "answer": "C",
-  "explanation": "Verneinung mit „don't“: I don't like …"
+  "hint": "Bei „I“ verneint man mit der Kurzform von „do not“.",
+  "explanation": "Verneinung mit „don't“: I don't like …",
+  "more": "Don't ist die Kurzform von do not. Wenn du etwas ganz toll findest, sagst du: „I love bananas!“"
  },
  {
   "id": "de-englisch-025",
@@ -397,7 +445,9 @@
    "goes"
   ],
   "answer": "D",
-  "explanation": "he/she/it + s: he goes."
+  "hint": "Bei he/she/it bekommt das Verb eine Endung – bei „go“ ist sie zwei Buchstaben lang.",
+  "explanation": "he/she/it + s: he goes.",
+  "more": "Merke dir: he, she, it – das s muss mit! Also auch: she runs, it jumps, he sings."
  },
  {
   "id": "de-englisch-026",
@@ -413,7 +463,9 @@
    "zwischen"
   ],
   "answer": "D",
-  "explanation": "between = zwischen."
+  "hint": "Denk an etwas, das in der Mitte von zwei Dingen liegt.",
+  "explanation": "between = zwischen.",
+  "more": "Weitere Lagewörter: next to heißt neben und opposite heißt gegenüber. Damit kannst du jeden Weg beschreiben!"
  },
  {
   "id": "de-englisch-027",
@@ -429,7 +481,9 @@
    "What is my bag?"
   ],
   "answer": "B",
-  "explanation": "where = wo."
+  "hint": "Im englischen Fragesatz steht das Verb direkt nach dem Fragewort.",
+  "explanation": "where = wo.",
+  "more": "„Where are you from?“ fragt, woher du kommst. Antwort zum Beispiel: „I'm from Germany.“"
  },
  {
   "id": "de-englisch-028",
@@ -445,6 +499,1844 @@
    "Igel"
   ],
   "answer": "A",
-  "explanation": "squirrel = Eichhörnchen."
+  "hint": "Dieses Tier klettert auf Bäume und sammelt Nüsse.",
+  "explanation": "squirrel = Eichhörnchen.",
+  "more": "In England leben vor allem graue Eichhörnchen – die grey squirrels. Die roten red squirrels sind dort selten geworden."
+ },
+ {
+  "id": "de-englisch-029",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „grün“ auf Englisch?",
+  "options": [
+   "green",
+   "brown",
+   "yellow",
+   "grey"
+  ],
+  "answer": "A",
+  "hint": "Das ist die Farbe von Gras und Blättern.",
+  "explanation": "grün = green.",
+  "more": "Irland nennt man auch die Emerald Isle, die Smaragdinsel, weil es dort so viele grüne Wiesen gibt."
+ },
+ {
+  "id": "de-englisch-030",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „gelb“ auf Englisch?",
+  "options": [
+   "pink",
+   "white",
+   "orange",
+   "yellow"
+  ],
+  "answer": "D",
+  "hint": "Das ist die Farbe der Sonne und von Bananen.",
+  "explanation": "gelb = yellow.",
+  "more": "Die Sonne ist yellow, und die Zitrone, lemon, auch. Die berühmten Schulbusse in Amerika sind ebenfalls yellow!"
+ },
+ {
+  "id": "de-englisch-031",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „black“?",
+  "options": [
+   "schwarz",
+   "weiß",
+   "braun",
+   "grau"
+  ],
+  "answer": "A",
+  "hint": "Das ist die Farbe der Nacht.",
+  "explanation": "black = schwarz.",
+  "more": "Ein Zebra ist black and white. Und eine Schultafel heißt blackboard – eine schwarze Tafel."
+ },
+ {
+  "id": "de-englisch-032",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „white“?",
+  "options": [
+   "schwarz",
+   "weiß",
+   "lila",
+   "rosa"
+  ],
+  "answer": "B",
+  "hint": "Das ist die Farbe von Schnee.",
+  "explanation": "white = weiß.",
+  "more": "Schnee heißt snow und ist white. Ein Schneemann heißt snowman – das passt doch super zusammen!"
+ },
+ {
+  "id": "de-englisch-033",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist „three“?",
+  "options": [
+   "30",
+   "8",
+   "13",
+   "3"
+  ],
+  "answer": "D",
+  "hint": "Zähle: one, two, … – die nächste Zahl.",
+  "explanation": "three = 3.",
+  "more": "Ein Dreieck heißt triangle – darin steckt „tri“ für drei. Und ein Dreirad heißt tricycle!"
+ },
+ {
+  "id": "de-englisch-034",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist „ten“?",
+  "options": [
+   "12",
+   "2",
+   "10",
+   "100"
+  ],
+  "answer": "C",
+  "hint": "So viele Finger hast du an beiden Händen zusammen.",
+  "explanation": "ten = 10.",
+  "more": "Du hast ten fingers und ten toes – zehn Finger und zehn Zehen. Toes sind nämlich die Zehen!"
+ },
+ {
+  "id": "de-englisch-035",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Vogel“ auf Englisch?",
+  "options": [
+   "bear",
+   "frog",
+   "bird",
+   "fish"
+  ],
+  "answer": "C",
+  "hint": "Dieses Tier hat Federn und kann fliegen.",
+  "explanation": "Vogel = bird.",
+  "more": "Ein Vogelnest heißt nest, und ein Vogel singt „tweet tweet“. Ein ganzer Vogelschwarm heißt flock."
+ },
+ {
+  "id": "de-englisch-036",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Pferd“ auf Englisch?",
+  "options": [
+   "house",
+   "pig",
+   "mouse",
+   "horse"
+  ],
+  "answer": "D",
+  "hint": "Auf diesem Tier kann man reiten.",
+  "explanation": "Pferd = horse. Achtung: house = Haus.",
+  "more": "Ein kleines Pferd heißt pony. Und Pferde wiehern auf Englisch nicht „hüü“, sondern „neigh“!"
+ },
+ {
+  "id": "de-englisch-037",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Fisch“ auf Englisch?",
+  "options": [
+   "fish",
+   "bird",
+   "frog",
+   "fox"
+  ],
+  "answer": "A",
+  "hint": "Dieses Tier hat Flossen und Schuppen.",
+  "explanation": "Fisch = fish.",
+  "more": "In England isst man gern „fish and chips“ – Fisch mit dicken Pommes. Witzig: Mehrere Fische heißen auch fish!"
+ },
+ {
+  "id": "de-englisch-038",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Vater“ auf Englisch?",
+  "options": [
+   "father",
+   "sister",
+   "mother",
+   "uncle"
+  ],
+  "answer": "A",
+  "hint": "Das ist der Papa in der Familie.",
+  "explanation": "Vater = father.",
+  "more": "Kinder sagen zum Vater oft dad oder daddy. Mutter und Vater zusammen heißen parents – die Eltern."
+ },
+ {
+  "id": "de-englisch-039",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Schwester“ auf Englisch?",
+  "options": [
+   "brother",
+   "aunt",
+   "baby",
+   "sister"
+  ],
+  "answer": "D",
+  "hint": "Das ist ein Mädchen, das dieselben Eltern hat wie du.",
+  "explanation": "Schwester = sister, Bruder = brother.",
+  "more": "Geschwister heißen auf Englisch siblings. Die große Schwester ist die big sister, die kleine die little sister."
+ },
+ {
+  "id": "de-englisch-040",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „head“?",
+  "options": [
+   "Fuß",
+   "Haar",
+   "Kopf",
+   "Hand"
+  ],
+  "answer": "C",
+  "hint": "Darauf setzt du eine Mütze.",
+  "explanation": "head = Kopf.",
+  "more": "Kopfschmerzen heißen headache. Mit hair (Haare), eyes (Augen) und mouth (Mund) beschreibst du dein ganzes Gesicht."
+ },
+ {
+  "id": "de-englisch-041",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Nase“ auf Englisch?",
+  "options": [
+   "ear",
+   "mouth",
+   "eye",
+   "nose"
+  ],
+  "answer": "D",
+  "hint": "Damit riechst du.",
+  "explanation": "Nase = nose.",
+  "more": "Mit der nose riechst du – das heißt smell. Und wer erkältet ist, hat eine runny nose, eine laufende Nase!"
+ },
+ {
+  "id": "de-englisch-042",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „ear“?",
+  "options": [
+   "Auge",
+   "Arm",
+   "Bein",
+   "Ohr"
+  ],
+  "answer": "D",
+  "hint": "Damit hörst du.",
+  "explanation": "ear = Ohr.",
+  "more": "Mit den ears hörst du, und das heißt hear. Merktrick: In hear steckt ear – das Ohr hört!"
+ },
+ {
+  "id": "de-englisch-043",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Hose“ auf Englisch?",
+  "options": [
+   "jacket",
+   "trousers",
+   "shoes",
+   "socks"
+  ],
+  "answer": "B",
+  "hint": "Dieses Kleidungsstück hat zwei lange Beine.",
+  "explanation": "Hose = trousers.",
+  "more": "Trousers hat immer ein s, auch wenn es nur eine Hose ist: „My trousers are blue.“ Kurze Hosen heißen shorts."
+ },
+ {
+  "id": "de-englisch-044",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „hat“?",
+  "options": [
+   "Schal",
+   "Hemd",
+   "Hose",
+   "Hut"
+  ],
+  "answer": "D",
+  "hint": "Das trägst du auf dem Kopf.",
+  "explanation": "hat = Hut.",
+  "more": "Eine Schirmmütze heißt cap und eine Wollmütze woolly hat. Beim Pferderennen in Ascot tragen viele Damen riesige, bunte Hüte!"
+ },
+ {
+  "id": "de-englisch-045",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Milch“ auf Englisch?",
+  "options": [
+   "juice",
+   "milk",
+   "tea",
+   "water"
+  ],
+  "answer": "B",
+  "hint": "Dieses weiße Getränk kommt von der Kuh.",
+  "explanation": "Milch = milk.",
+  "more": "Eine Kuh heißt cow und gibt milk. Und ein Milchshake heißt auch auf Englisch milkshake!"
+ },
+ {
+  "id": "de-englisch-046",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Brot“ auf Englisch?",
+  "options": [
+   "cheese",
+   "butter",
+   "bread",
+   "cake"
+  ],
+  "answer": "C",
+  "hint": "Daraus macht man ein Sandwich.",
+  "explanation": "Brot = bread.",
+  "more": "Brot mit Butter heißt bread and butter. Ein belegtes Brot heißt sandwich – angeblich benannt nach einem englischen Grafen!"
+ },
+ {
+  "id": "de-englisch-047",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Banane“ auf Englisch?",
+  "options": [
+   "lemon",
+   "plum",
+   "orange",
+   "banana"
+  ],
+  "answer": "D",
+  "hint": "Diese Frucht ist gelb und krumm.",
+  "explanation": "Banane = banana.",
+  "more": "Bananen wachsen in Büscheln, auf Englisch bunches. Und Affen heißen monkeys – die mögen Bananen besonders gern!"
+ },
+ {
+  "id": "de-englisch-048",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „pencil“?",
+  "options": [
+   "Lineal",
+   "Bleistift",
+   "Schere",
+   "Radiergummi"
+  ],
+  "answer": "B",
+  "hint": "Damit schreibst du, und man kann es wieder wegradieren.",
+  "explanation": "pencil = Bleistift.",
+  "more": "Ein Füller heißt pen, ein Radiergummi rubber und ein Lineal ruler. Dein Mäppchen ist der pencil case!"
+ },
+ {
+  "id": "de-englisch-049",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Buch“ auf Englisch?",
+  "options": [
+   "bag",
+   "pen",
+   "box",
+   "book"
+  ],
+  "answer": "D",
+  "hint": "Darin kannst du Geschichten lesen.",
+  "explanation": "Buch = book.",
+  "more": "Eine Bücherei heißt library – Achtung, das ist kein Buchladen! Ein Buchladen heißt bookshop."
+ },
+ {
+  "id": "de-englisch-050",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Sonntag“ auf Englisch?",
+  "options": [
+   "Thursday",
+   "Saturday",
+   "Monday",
+   "Sunday"
+  ],
+  "answer": "D",
+  "hint": "In diesem Tag steckt die Sonne – auf Englisch „sun“.",
+  "explanation": "Sonntag = Sunday.",
+  "more": "Sunday kommt von sun, der Sonne. Saturday und Sunday zusammen heißen weekend – das Wochenende!"
+ },
+ {
+  "id": "de-englisch-051",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „sunny“?",
+  "options": [
+   "windig",
+   "regnerisch",
+   "neblig",
+   "sonnig"
+  ],
+  "answer": "D",
+  "hint": "Bei diesem Wetter brauchst du eine Sonnenbrille.",
+  "explanation": "sunny = sonnig.",
+  "more": "Viele Wetterwörter enden auf -y: sunny, cloudy, windy, rainy und snowy. So kannst du jedes Wetter beschreiben!"
+ },
+ {
+  "id": "de-englisch-052",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Puppe“ auf Englisch?",
+  "options": [
+   "ball",
+   "doll",
+   "kite",
+   "car"
+  ],
+  "answer": "B",
+  "hint": "Dieses Spielzeug sieht aus wie ein kleiner Mensch.",
+  "explanation": "Puppe = doll.",
+  "more": "Ein Teddy heißt teddy bear – benannt nach dem US-Präsidenten Theodore „Teddy“ Roosevelt!"
+ },
+ {
+  "id": "de-englisch-053",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „bed“?",
+  "options": [
+   "Bad",
+   "Bett",
+   "Stuhl",
+   "Tisch"
+  ],
+  "answer": "B",
+  "hint": "Darin schläfst du nachts.",
+  "explanation": "bed = Bett.",
+  "more": "Ins Bett gehen heißt „go to bed“. Und „Sleep well!“ bedeutet: Schlaf gut!"
+ },
+ {
+  "id": "de-englisch-054",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „happy“?",
+  "options": [
+   "fröhlich",
+   "wütend",
+   "traurig",
+   "müde"
+  ],
+  "answer": "A",
+  "hint": "So fühlst du dich an deinem Geburtstag.",
+  "explanation": "happy = fröhlich, glücklich.",
+  "more": "Ein bekanntes Kinderlied heißt „If you're happy and you know it, clap your hands!“ – dabei klatscht man in die Hände."
+ },
+ {
+  "id": "de-englisch-055",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Goodbye“?",
+  "options": [
+   "Hallo",
+   "Danke",
+   "Auf Wiedersehen",
+   "Bitte"
+  ],
+  "answer": "C",
+  "hint": "Das sagst du, wenn du gehst.",
+  "explanation": "Goodbye = Auf Wiedersehen, tschüss.",
+  "more": "Ganz locker sagt man auch „Bye!“ oder „See you!“ – das heißt „Bis bald!“."
+ },
+ {
+  "id": "de-englisch-056",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was antwortest du auf „How are you?“",
+  "options": [
+   "I'm ten.",
+   "Yes, I can.",
+   "I'm fine, thank you.",
+   "My name is Anna."
+  ],
+  "answer": "C",
+  "hint": "Die Frage will wissen, wie es dir geht.",
+  "explanation": "How are you? = Wie geht es dir? – I'm fine = Mir geht es gut.",
+  "more": "Statt „I'm fine“ kannst du auch „I'm great!“ sagen, wenn es dir super geht, oder „Not so good“, wenn nicht."
+ },
+ {
+  "id": "de-englisch-057",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist „fifteen“?",
+  "options": [
+   "51",
+   "50",
+   "5",
+   "15"
+  ],
+  "answer": "D",
+  "hint": "„-teen“ am Ende bedeutet: Die Zahl liegt zwischen 13 und 19.",
+  "explanation": "fifteen = 15, fifty = 50.",
+  "more": "Hör-Trick: Bei fifteen betont man das lange „tiin“ am Ende, bei fifty das „fif“ am Anfang. Gut hinhören hilft!"
+ },
+ {
+  "id": "de-englisch-058",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist „forty“?",
+  "options": [
+   "40",
+   "4",
+   "44",
+   "14"
+  ],
+  "answer": "A",
+  "hint": "„-ty“ am Ende bedeutet Zehner.",
+  "explanation": "forty = 40, fourteen = 14.",
+  "more": "Achtung, Schreibfalle: four schreibt man mit u, aber forty ohne u! Fourteen hat das u dagegen wieder."
+ },
+ {
+  "id": "de-englisch-059",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Juli“ auf Englisch?",
+  "options": [
+   "July",
+   "April",
+   "June",
+   "January"
+  ],
+  "answer": "A",
+  "hint": "Der Monat endet auf „y“ und hat vier Buchstaben.",
+  "explanation": "Juli = July, Juni = June.",
+  "more": "Der July ist nach Julius Caesar benannt und der August nach Kaiser Augustus – zwei berühmte Römer!"
+ },
+ {
+  "id": "de-englisch-060",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „autumn“?",
+  "options": [
+   "Frühling",
+   "Winter",
+   "Herbst",
+   "Sommer"
+  ],
+  "answer": "C",
+  "hint": "In dieser Jahreszeit fallen die Blätter von den Bäumen.",
+  "explanation": "autumn = Herbst.",
+  "more": "Im autumn fallen die Blätter von den Bäumen. Ein Blatt heißt leaf, viele Blätter heißen leaves."
+ },
+ {
+  "id": "de-englisch-061",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „It's raining.“?",
+  "options": [
+   "Es ist windig.",
+   "Es regnet.",
+   "Es schneit.",
+   "Die Sonne scheint."
+  ],
+  "answer": "B",
+  "hint": "Bei diesem Wetter brauchst du einen Regenschirm.",
+  "explanation": "rain = Regen, It's raining = Es regnet.",
+  "more": "Ein Regenbogen heißt rainbow und ein Regenschirm umbrella. In England regnet es oft – da ist ein umbrella praktisch!"
+ },
+ {
+  "id": "de-englisch-062",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Großmutter“ auf Englisch?",
+  "options": [
+   "aunt",
+   "grandmother",
+   "grandfather",
+   "cousin"
+  ],
+  "answer": "B",
+  "hint": "Das ist die Mutter von deiner Mama oder deinem Papa.",
+  "explanation": "Großmutter = grandmother, Großvater = grandfather.",
+  "more": "Oma und Opa heißen ganz lieb grandma und grandpa. Und Enkelkinder heißen grandchildren."
+ },
+ {
+  "id": "de-englisch-063",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Tante“ auf Englisch?",
+  "options": [
+   "sister",
+   "aunt",
+   "niece",
+   "uncle"
+  ],
+  "answer": "B",
+  "hint": "Das ist die Schwester von Mama oder Papa.",
+  "explanation": "Tante = aunt, Onkel = uncle.",
+  "more": "Die Kinder von Tante und Onkel sind deine cousins – das Wort gilt für Cousin und Cousine gleich."
+ },
+ {
+  "id": "de-englisch-064",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Can I have an apple, please?“",
+  "options": [
+   "Magst du Äpfel?",
+   "Kann ich bitte einen Apfel haben?",
+   "Ich habe einen Apfel.",
+   "Wo ist der Apfel?"
+  ],
+  "answer": "B",
+  "hint": "„Can I …?“ ist eine höfliche Bitte.",
+  "explanation": "Can I have …, please? = Kann ich bitte … haben?",
+  "more": "Höflich bist du mit please und thank you. Im Café sagt man auch: „I'd like a hot chocolate, please.“"
+ },
+ {
+  "id": "de-englisch-065",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie sagst du „Ich mag Pizza.“?",
+  "options": [
+   "Me like pizza.",
+   "I like pizza.",
+   "I am pizza.",
+   "I have pizza."
+  ],
+  "answer": "B",
+  "hint": "„mögen“ heißt auf Englisch „like“, und der Satz beginnt mit „I“.",
+  "explanation": "I like … = Ich mag …",
+  "more": "Wenn du etwas nicht magst, sagst du: „I don't like spiders.“ Und für ganz doll mögen: „I love pizza!“"
+ },
+ {
+  "id": "de-englisch-066",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „dog“?",
+  "options": [
+   "dogies",
+   "doggs",
+   "doges",
+   "dogs"
+  ],
+  "answer": "D",
+  "hint": "Meistens hängt man im Englischen nur einen Buchstaben an.",
+  "explanation": "one dog – two dogs.",
+  "more": "Die meisten Wörter bekommen in der Mehrzahl einfach ein -s: cat – cats, book – books. Ganz einfach!"
+ },
+ {
+  "id": "de-englisch-067",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „box“?",
+  "options": [
+   "boxs",
+   "boxen",
+   "boxies",
+   "boxes"
+  ],
+  "answer": "D",
+  "hint": "Nach einem „x“ hängt man zwei Buchstaben an.",
+  "explanation": "Nach x, s, sh, ch hängt man -es an: boxes.",
+  "more": "Genauso geht es bei bus – buses und dish – dishes. Das -es hört man dabei als extra Silbe."
+ },
+ {
+  "id": "de-englisch-068",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort passt? „___ apple“",
+  "options": [
+   "are",
+   "a",
+   "an",
+   "is"
+  ],
+  "answer": "C",
+  "hint": "Das Wort „apple“ beginnt mit einem Vokal (a, e, i, o, u).",
+  "explanation": "Vor Vokalen sagt man „an“: an apple.",
+  "more": "Die Vokale sind a, e, i, o, u. Also sagt man auch an egg, an ice cream und an owl."
+ },
+ {
+  "id": "de-englisch-069",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort passt? „___ banana“",
+  "options": [
+   "is",
+   "are",
+   "a",
+   "an"
+  ],
+  "answer": "C",
+  "hint": "„banana“ beginnt mit einem Mitlaut.",
+  "explanation": "Vor Mitlauten sagt man „a“: a banana.",
+  "more": "Es kommt auf den Klang an: Man sagt an hour, weil das h stumm ist – das Wort beginnt also mit einem Vokal-Laut!"
+ },
+ {
+  "id": "de-englisch-070",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Die Katze liegt auf dem Tisch. „The cat is ___ the table.“",
+  "options": [
+   "behind",
+   "on",
+   "under",
+   "in"
+  ],
+  "answer": "B",
+  "hint": "Die Katze liegt oben drauf.",
+  "explanation": "on = auf, in = in, under = unter.",
+  "more": "Over heißt über und behind hinter. „The cat is under the table“ – die Katze ist unter dem Tisch."
+ },
+ {
+  "id": "de-englisch-071",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Der Ball liegt unter dem Bett. „The ball is ___ the bed.“",
+  "options": [
+   "in",
+   "behind",
+   "on",
+   "under"
+  ],
+  "answer": "D",
+  "hint": "Der Ball liegt ganz unten, du musst dich bücken.",
+  "explanation": "under = unter.",
+  "more": "Unter der Erde fährt in London die U-Bahn. Die Londoner nennen sie liebevoll „the Tube“, die Röhre!"
+ },
+ {
+  "id": "de-englisch-072",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „sad“?",
+  "options": [
+   "froh",
+   "traurig",
+   "hungrig",
+   "müde"
+  ],
+  "answer": "B",
+  "hint": "So fühlst du dich, wenn du weinst.",
+  "explanation": "sad = traurig, happy = froh.",
+  "more": "Wer traurig ist, weint manchmal – das heißt cry. Und Tränen heißen tears."
+ },
+ {
+  "id": "de-englisch-073",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „bathroom“?",
+  "options": [
+   "Küche",
+   "Badezimmer",
+   "Wohnzimmer",
+   "Schlafzimmer"
+  ],
+  "answer": "B",
+  "hint": "Dort steht die Badewanne.",
+  "explanation": "bathroom = Badezimmer, bedroom = Schlafzimmer.",
+  "more": "Ein Bad nehmen heißt „have a bath“, duschen heißt „have a shower“. Und das Waschbecken ist das washbasin."
+ },
+ {
+  "id": "de-englisch-074",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Stuhl“ auf Englisch?",
+  "options": [
+   "table",
+   "chair",
+   "sofa",
+   "shelf"
+  ],
+  "answer": "B",
+  "hint": "Darauf sitzt du am Tisch.",
+  "explanation": "Stuhl = chair, Tisch = table.",
+  "more": "Zu den Möbeln gehören auch sofa, shelf (Regal) und cupboard (Schrank). Ein Sessel heißt armchair."
+ },
+ {
+  "id": "de-englisch-075",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie spät ist es? „It's half past two.“",
+  "options": [
+   "2:15 Uhr",
+   "1:30 Uhr",
+   "3:30 Uhr",
+   "2:30 Uhr"
+  ],
+  "answer": "D",
+  "hint": "„half past“ heißt: eine halbe Stunde nach der genannten Stunde.",
+  "explanation": "half past two = halb drei = 2:30 Uhr.",
+  "more": "Vorsicht beim Uhrzeit-Sagen: „half past two“ heißt wörtlich halb NACH zwei. Engländer denken an die zwei, wir an die drei!"
+ },
+ {
+  "id": "de-englisch-076",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „hot“?",
+  "options": [
+   "warm",
+   "cold",
+   "wet",
+   "old"
+  ],
+  "answer": "B",
+  "hint": "Denk an Eis und Schnee.",
+  "explanation": "hot = heiß ↔ cold = kalt.",
+  "more": "Etwas Warmes ist warm, etwas Kühles cool. „Cool!“ sagen Kinder auch, wenn etwas super ist!"
+ },
+ {
+  "id": "de-englisch-077",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Who is that?“",
+  "options": [
+   "Wer ist das?",
+   "Wie ist das?",
+   "Was ist das?",
+   "Wo ist das?"
+  ],
+  "answer": "A",
+  "hint": "„who“ fragt nach einer Person.",
+  "explanation": "who = wer, what = was, where = wo.",
+  "more": "Weitere Fragewörter: when heißt wann, why heißt warum und how heißt wie. Fast alle fangen mit wh an!"
+ },
+ {
+  "id": "de-englisch-078",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „I can swim.“?",
+  "options": [
+   "Ich kann nicht schwimmen.",
+   "Ich muss schwimmen.",
+   "Ich kann schwimmen.",
+   "Ich schwimme gern."
+  ],
+  "answer": "C",
+  "hint": "„can“ sagt, dass jemand etwas kann – hier ohne „not“.",
+  "explanation": "I can … = Ich kann …",
+  "more": "Wenn du etwas nicht kannst, sagst du: „I can't swim.“ Can't ist die Kurzform von cannot."
+ },
+ {
+  "id": "de-englisch-079",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl ist „sixty-five“?",
+  "options": [
+   "56",
+   "65",
+   "615",
+   "75"
+  ],
+  "answer": "B",
+  "hint": "Im Englischen kommen zuerst die Zehner, dann die Einer.",
+  "explanation": "sixty-five = 65.",
+  "more": "Zahlen wie 65 bekommen einen Bindestrich: twenty-one, thirty-two, sixty-five. Den nicht vergessen!"
+ },
+ {
+  "id": "de-englisch-080",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl ist „one hundred“?",
+  "options": [
+   "200",
+   "1000",
+   "10",
+   "100"
+  ],
+  "answer": "D",
+  "hint": "Das ist zehnmal zehn.",
+  "explanation": "one hundred = 100.",
+  "more": "Tausend heißt one thousand. Und eine Million heißt fast genauso wie auf Deutsch: one million!"
+ },
+ {
+  "id": "de-englisch-081",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was heißt „Dezember“ auf Englisch?",
+  "options": [
+   "October",
+   "November",
+   "December",
+   "September"
+  ],
+  "answer": "C",
+  "hint": "In diesem Monat ist Weihnachten.",
+  "explanation": "Dezember = December.",
+  "more": "Am 25. December ist Christmas Day. In England packt man die Geschenke am Morgen aus – nicht am Abend davor!"
+ },
+ {
+  "id": "de-englisch-082",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Tag kommt nach „Thursday“?",
+  "options": [
+   "Wednesday",
+   "Tuesday",
+   "Friday",
+   "Saturday"
+  ],
+  "answer": "C",
+  "hint": "Das ist der letzte Schultag der Woche.",
+  "explanation": "Thursday (Donnerstag) → Friday (Freitag).",
+  "more": "Freitag und Friday sind beide nach der Göttin Frigg benannt. Viele freuen sich und sagen: „Hooray, it's Friday!“"
+ },
+ {
+  "id": "de-englisch-083",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „This is my brother.“?",
+  "options": [
+   "Das ist mein Bruder.",
+   "Das ist dein Bruder.",
+   "Das ist sein Bruder.",
+   "Das ist meine Schwester."
+  ],
+  "answer": "A",
+  "hint": "Achte auf „my“ und auf das Familienwort.",
+  "explanation": "my = mein, brother = Bruder.",
+  "more": "Weitere besitzanzeigende Wörter: your heißt dein, his sein und her ihr. Also: his brother, her sister."
+ },
+ {
+  "id": "de-englisch-084",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Du zeigst auf ein Buch, das weit weg liegt. „___ is a book.“",
+  "options": [
+   "This",
+   "That",
+   "Those",
+   "These"
+  ],
+  "answer": "B",
+  "hint": "Es ist nur ein Buch, und es ist weit weg von dir.",
+  "explanation": "this = nah, that = weit weg; these/those = Mehrzahl.",
+  "more": "Merktrick: this und these sind HIER bei mir, that und those sind DORT drüben. Ganz einfach zu zeigen!"
+ },
+ {
+  "id": "de-englisch-085",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „mouse“?",
+  "options": [
+   "mice",
+   "mouses",
+   "meese",
+   "mousen"
+  ],
+  "answer": "A",
+  "hint": "Diese Mehrzahl ist unregelmäßig und reimt sich auf „nice“.",
+  "explanation": "one mouse – two mice.",
+  "more": "Eine Hausmaus heißt house mouse. Und Mäuse piepsen auf Englisch nicht „piep“, sondern „squeak“!"
+ },
+ {
+  "id": "de-englisch-086",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „foot“?",
+  "options": [
+   "footes",
+   "feets",
+   "feet",
+   "foots"
+  ],
+  "answer": "C",
+  "hint": "Diese Mehrzahl ist unregelmäßig und bekommt kein „s“.",
+  "explanation": "one foot – two feet.",
+  "more": "Ein Fußabdruck heißt footprint. Und weil man den Ball mit dem foot kickt, heißt das Spiel football!"
+ },
+ {
+  "id": "de-englisch-087",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „My sister ___ the piano.“",
+  "options": [
+   "play",
+   "plays",
+   "plaies",
+   "playing"
+  ],
+  "answer": "B",
+  "hint": "„my sister“ ist wie „she“ – denk an die he/she/it-Regel.",
+  "explanation": "he/she/it + s: she plays.",
+  "more": "Genauso geht es mit he reads und it rains. Bei he, she, it hängt immer ein s am Verb!"
+ },
+ {
+  "id": "de-englisch-088",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was heißt „Ich habe Hunger.“?",
+  "options": [
+   "I'm angry.",
+   "I'm thirsty.",
+   "I'm hungry.",
+   "I'm tired."
+  ],
+  "answer": "C",
+  "hint": "Du möchtest jetzt dringend etwas essen.",
+  "explanation": "hungry = hungrig, thirsty = durstig.",
+  "more": "Wenn du hungrig bist, kannst du sagen: „I'm hungry. Can I have a snack, please?“ Snack heißt kleiner Imbiss."
+ },
+ {
+  "id": "de-englisch-089",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „thirsty“?",
+  "options": [
+   "krank",
+   "durstig",
+   "hungrig",
+   "müde"
+  ],
+  "answer": "B",
+  "hint": "So fühlst du dich, wenn du etwas trinken möchtest.",
+  "explanation": "thirsty = durstig.",
+  "more": "Wer durstig ist, fragt: „Can I have a glass of water, please?“ – Kann ich bitte ein Glas Wasser haben?"
+ },
+ {
+  "id": "de-englisch-090",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Die Uhr zeigt 7:00 Uhr. Was sagst du?",
+  "options": [
+   "It's o'clock seven.",
+   "It's half past seven.",
+   "It's seven o'clock.",
+   "It's seven past."
+  ],
+  "answer": "C",
+  "hint": "Zur vollen Stunde sagt man die Zahl und dann „o'clock“.",
+  "explanation": "volle Stunde = … o'clock.",
+  "more": "O'clock ist eine Abkürzung für „of the clock“. Mittag heißt noon und Mitternacht midnight."
+ },
+ {
+  "id": "de-englisch-091",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Fragewort passt? „___ is your favourite colour?“",
+  "options": [
+   "Who",
+   "How old",
+   "What",
+   "Where"
+  ],
+  "answer": "C",
+  "hint": "Du fragst nach einer Sache, nicht nach einer Person oder einem Ort.",
+  "explanation": "what = was: What is your favourite colour?",
+  "more": "Engländer schreiben favourite und colour mit ou, Amerikaner favorite und color ohne u. Im britischen Englisch also mit ou!"
+ },
+ {
+  "id": "de-englisch-092",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „old“ bei einem Fahrrad?",
+  "options": [
+   "long",
+   "small",
+   "new",
+   "slow"
+  ],
+  "answer": "C",
+  "hint": "Wie ist ein Fahrrad, das du gerade erst im Laden gekauft hast?",
+  "explanation": "old ↔ new (bei Sachen).",
+  "more": "Bei Menschen ist das Gegenteil von old nicht new, sondern young. Neu kann nur eine Sache sein!"
+ },
+ {
+  "id": "de-englisch-093",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „fast“?",
+  "options": [
+   "high",
+   "loud",
+   "slow",
+   "quick"
+  ],
+  "answer": "C",
+  "hint": "Denk an eine Schnecke.",
+  "explanation": "fast = schnell ↔ slow = langsam.",
+  "more": "Ein Läufer heißt runner. Und die Schnecke heißt snail – sie ist very, very slow!"
+ },
+ {
+  "id": "de-englisch-094",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „living room“?",
+  "options": [
+   "Wohnzimmer",
+   "Esszimmer",
+   "Flur",
+   "Kinderzimmer"
+  ],
+  "answer": "A",
+  "hint": "Dort sitzt die Familie oft auf dem Sofa.",
+  "explanation": "living room = Wohnzimmer.",
+  "more": "Ein Wohnzimmer nennt man in England auch lounge. Dort stehen meist ein sofa und oft ein fireplace, ein Kamin."
+ },
+ {
+  "id": "de-englisch-095",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was heißt „Ich spiele gern Fußball.“?",
+  "options": [
+   "I like playing football.",
+   "I playing football like.",
+   "I likes playing football.",
+   "I am like football."
+  ],
+  "answer": "A",
+  "hint": "Nach „I“ bekommt das Verb kein „s“, und das Spielen bekommt „-ing“.",
+  "explanation": "I like playing … = Ich … gern.",
+  "more": "Nach like steht oft eine -ing-Form: I like swimming, I like reading. So erzählst du von deinen Hobbys!"
+ },
+ {
+  "id": "de-englisch-096",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „Where ___ you live?“",
+  "options": [
+   "are",
+   "do",
+   "does",
+   "is"
+  ],
+  "answer": "B",
+  "hint": "Bei „you“ bildet man die Frage mit der Grundform des Hilfsverbs.",
+  "explanation": "Fragen mit you: Where do you live?",
+  "more": "„Where do you live?“ beantwortest du mit „I live in Berlin.“ Bei he heißt es: He lives in London."
+ },
+ {
+  "id": "de-englisch-097",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „___ he like chocolate?“",
+  "options": [
+   "Is",
+   "Do",
+   "Are",
+   "Does"
+  ],
+  "answer": "D",
+  "hint": "Bei he/she/it bekommt das Hilfsverb in der Frage eine Endung.",
+  "explanation": "he/she/it: Does he like …?",
+  "more": "Kurz antworten geht so: „Yes, he does.“ oder „No, he doesn't.“ – ganz ohne das Verb zu wiederholen."
+ },
+ {
+  "id": "de-englisch-098",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „She ___ not like spiders.“",
+  "options": [
+   "does",
+   "do",
+   "has",
+   "is"
+  ],
+  "answer": "A",
+  "hint": "Bei „she“ steht in der Verneinung eine besondere Form von „do“.",
+  "explanation": "she does not (doesn't) like …",
+  "more": "Doesn't ist die Kurzform von does not. Danach kommt das Verb ohne s: She doesn't like cheese."
+ },
+ {
+  "id": "de-englisch-099",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „The children ___ in the garden.“",
+  "options": [
+   "are",
+   "be",
+   "is",
+   "am"
+  ],
+  "answer": "A",
+  "hint": "„children“ ist Mehrzahl.",
+  "explanation": "Mehrzahl: they/the children are.",
+  "more": "Children (Kinder) und people (Leute) sind beide schon Mehrzahl. Darum sagt man: People are nice."
+ },
+ {
+  "id": "de-englisch-100",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „Tom ___ his teeth every morning.“",
+  "options": [
+   "brushes",
+   "brushs",
+   "brushing",
+   "brush"
+  ],
+  "answer": "A",
+  "hint": "Nach „sh“ hängt man bei he/she/it zwei Buchstaben an.",
+  "explanation": "Nach sh, ch, x, s: -es → he brushes.",
+  "more": "Zähneputzen heißt „brush your teeth“ und die Zahnbürste toothbrush. Haare bürsten heißt „brush your hair“."
+ },
+ {
+  "id": "de-englisch-101",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „My dad ___ TV in the evening.“",
+  "options": [
+   "watching",
+   "watch",
+   "watchs",
+   "watches"
+  ],
+  "answer": "D",
+  "hint": "Nach „ch“ braucht man bei he/she/it eine Endung mit zwei Buchstaben.",
+  "explanation": "he watches – nach ch kommt -es.",
+  "more": "Auch bei teach und catch kommt -es dazu: she teaches, he catches. Fernsehen heißt watch TV."
+ },
+ {
+  "id": "de-englisch-102",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „I ___ my homework after school.“",
+  "options": [
+   "does",
+   "dos",
+   "doing",
+   "do"
+  ],
+  "answer": "D",
+  "hint": "Nach „I“ bleibt das Verb in der Grundform.",
+  "explanation": "I do, he does.",
+  "more": "Do und does helfen auch bei Fragen: „Do you like pizza?“ – „Does she like pizza?“"
+ },
+ {
+  "id": "de-englisch-103",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „baby“?",
+  "options": [
+   "babis",
+   "babies",
+   "babys",
+   "babyes"
+  ],
+  "answer": "B",
+  "hint": "Steht vor dem „y“ ein Mitlaut, verwandelt sich das „y“.",
+  "explanation": "Mitlaut + y → -ies: babies.",
+  "more": "Steht ein Vokal vor dem y, bleibt es: boy – boys, day – days. Nur nach Mitlaut wird es zu -ies: lady – ladies."
+ },
+ {
+  "id": "de-englisch-104",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „tooth“?",
+  "options": [
+   "tooths",
+   "teeth",
+   "toothes",
+   "teeths"
+  ],
+  "answer": "B",
+  "hint": "Diese Mehrzahl ist unregelmäßig – genau wie bei foot und feet.",
+  "explanation": "one tooth – two teeth.",
+  "more": "Ein Zahnarzt heißt dentist. Und für jeden Wackelzahn bringt in England die tooth fairy, die Zahnfee, eine Münze!"
+ },
+ {
+  "id": "de-englisch-105",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Ausdruck ist richtig?",
+  "options": [
+   "an elephant",
+   "a elephant",
+   "an dog",
+   "a orange"
+  ],
+  "answer": "A",
+  "hint": "„an“ steht nur vor Wörtern, die mit a, e, i, o, u anfangen.",
+  "explanation": "an + Vokal: an elephant, an orange; a dog.",
+  "more": "Elefanten haben einen trunk, einen Rüssel. Merke: an elephant, aber a big elephant – das nächste Wort zählt!"
+ },
+ {
+  "id": "de-englisch-106",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „I have ___ umbrella.“",
+  "options": [
+   "am",
+   "are",
+   "an",
+   "a"
+  ],
+  "answer": "C",
+  "hint": "„umbrella“ beginnt mit einem Vokal.",
+  "explanation": "Vor Vokalen: an umbrella.",
+  "more": "Ein Regenschirm heißt umbrella, ein Sonnenschirm parasol. Und Regenstiefel heißen in England wellies!"
+ },
+ {
+  "id": "de-englisch-107",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie spät ist es? „It's quarter past four.“",
+  "options": [
+   "4:30 Uhr",
+   "3:45 Uhr",
+   "4:45 Uhr",
+   "4:15 Uhr"
+  ],
+  "answer": "D",
+  "hint": "„quarter“ ist eine Viertelstunde, „past“ bedeutet danach.",
+  "explanation": "quarter past four = Viertel nach vier = 4:15 Uhr.",
+  "more": "Viertel heißt quarter, halb heißt half. Mit past und to kannst du damit jede Uhrzeit sagen!"
+ },
+ {
+  "id": "de-englisch-108",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie spät ist es? „It's quarter to nine.“",
+  "options": [
+   "9:15 Uhr",
+   "8:45 Uhr",
+   "9:45 Uhr",
+   "8:15 Uhr"
+  ],
+  "answer": "B",
+  "hint": "„to“ bedeutet: Bis zur genannten Stunde fehlt noch eine Viertelstunde.",
+  "explanation": "quarter to nine = Viertel vor neun = 8:45 Uhr.",
+  "more": "Merktrick: to bedeutet hin zur nächsten Stunde, past bedeutet schon vorbei. Quarter past nine ist also 9:15 Uhr."
+ },
+ {
+  "id": "de-englisch-109",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Fragewort passt? „___ is your birthday?“ – „In May.“",
+  "options": [
+   "Where",
+   "Who",
+   "When",
+   "What colour"
+  ],
+  "answer": "C",
+  "hint": "Die Antwort nennt einen Monat, also fragst du nach der Zeit.",
+  "explanation": "when = wann.",
+  "more": "Mit when fragst du nach Zeiten: „When is your birthday?“ – „My birthday is in May.“"
+ },
+ {
+  "id": "de-englisch-110",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Fragewort passt? „___ are you?“ – „I'm at home.“",
+  "options": [
+   "When",
+   "Who",
+   "Where",
+   "How old"
+  ],
+  "answer": "C",
+  "hint": "Die Antwort nennt einen Ort.",
+  "explanation": "where = wo.",
+  "more": "Mit „Where is …?“ fragst du nach dem Weg: „Excuse me, where is the station?“ – Entschuldigung, wo ist der Bahnhof?"
+ },
+ {
+  "id": "de-englisch-111",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Fragewort passt? „___ is your teacher?“ – „Mrs Smith.“",
+  "options": [
+   "Who",
+   "Where",
+   "When",
+   "What"
+  ],
+  "answer": "A",
+  "hint": "Die Antwort ist der Name einer Person.",
+  "explanation": "who = wer.",
+  "more": "Mit who fragt man nach Personen: „Who is your best friend?“ – Wer ist dein bester Freund?"
+ },
+ {
+  "id": "de-englisch-112",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Beine hat eine Spinne? Wähle das englische Wort.",
+  "options": [
+   "eight",
+   "four",
+   "ten",
+   "six"
+  ],
+  "answer": "A",
+  "hint": "Es sind doppelt so viele wie vier.",
+  "explanation": "Eine Spinne hat 8 Beine: eight.",
+  "more": "Ein Tintenfisch heißt octopus und hat sogar eight arms. „Octo“ bedeutet acht – wie bei Oktopus im Deutschen!"
+ },
+ {
+  "id": "de-englisch-113",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist „seven + six“?",
+  "options": [
+   "thirty",
+   "thirteen",
+   "twelve",
+   "fourteen"
+  ],
+  "answer": "B",
+  "hint": "Rechne erst auf Deutsch und denk dann an die „-teen“-Zahlen.",
+  "explanation": "7 + 6 = 13 = thirteen.",
+  "more": "Schreib-Trick: thirteen, nicht threeteen! Und fifteen schreibt man mit f statt five."
+ },
+ {
+  "id": "de-englisch-114",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl ist „eighty-nine“?",
+  "options": [
+   "809",
+   "89",
+   "19",
+   "98"
+  ],
+  "answer": "B",
+  "hint": "Erst kommen die Zehner, dann die Einer.",
+  "explanation": "eighty-nine = 89.",
+  "more": "Bei großen Zahlen kommt im britischen Englisch ein and dazu: 189 = one hundred and eighty-nine."
+ },
+ {
+  "id": "de-englisch-115",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt nicht in die Reihe „red, dog, blue, green“?",
+  "options": [
+   "red",
+   "blue",
+   "dog",
+   "green"
+  ],
+  "answer": "C",
+  "hint": "Drei Wörter sind Farben.",
+  "explanation": "red, blue, green sind Farben – dog ist ein Tier.",
+  "more": "Haustiere heißen pets. Typische pets sind dog, cat, rabbit und hamster."
+ },
+ {
+  "id": "de-englisch-116",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt nicht in die Reihe „Monday, Friday, March, Sunday“?",
+  "options": [
+   "Sunday",
+   "March",
+   "Friday",
+   "Monday"
+  ],
+  "answer": "B",
+  "hint": "Drei Wörter sind Wochentage.",
+  "explanation": "Monday, Friday, Sunday sind Tage – March ist ein Monat.",
+  "more": "Die Monate schreibt man wie die Tage groß: January, February, March … Zusammen heißen sie months."
+ },
+ {
+  "id": "de-englisch-117",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt nicht in die Reihe „shirt, carrot, skirt, jacket“?",
+  "options": [
+   "skirt",
+   "shirt",
+   "jacket",
+   "carrot"
+  ],
+  "answer": "D",
+  "hint": "Drei Wörter sind Kleidungsstücke.",
+  "explanation": "shirt, skirt, jacket sind Kleidung – carrot (Karotte) ist Essen.",
+  "more": "Eine Möhre heißt carrot. Kaninchen, rabbits, knabbern sie gern – und Schneemänner bekommen sie als Nase!"
+ },
+ {
+  "id": "de-englisch-118",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Monat kommt nach „August“?",
+  "options": [
+   "July",
+   "October",
+   "November",
+   "September"
+  ],
+  "answer": "D",
+  "hint": "Mit diesem Monat beginnt der Herbst.",
+  "explanation": "August → September.",
+  "more": "Nach September kommt October. Merktrick: Die Monate am Jahresende enden alle auf -ber: September, October, November, December!"
+ },
+ {
+  "id": "de-englisch-119",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Tag kommt vor „Wednesday“?",
+  "options": [
+   "Thursday",
+   "Monday",
+   "Tuesday",
+   "Friday"
+  ],
+  "answer": "C",
+  "hint": "Zähle die Wochentage auf Englisch einen Schritt rückwärts.",
+  "explanation": "Tuesday (Dienstag) → Wednesday (Mittwoch).",
+  "more": "Achtung, Verwechslungsgefahr: Tuesday ist Dienstag, Thursday ist Donnerstag. Thursday beginnt mit th – wie Thor, der Donnergott!"
+ },
+ {
+  "id": "de-englisch-120",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Satz mit „can“ ist richtig?",
+  "options": [
+   "He can swim.",
+   "He can to swim.",
+   "He can swims.",
+   "He cans swim."
+  ],
+  "answer": "A",
+  "hint": "Nach „can“ steht das Verb immer in der Grundform.",
+  "explanation": "can + Grundform, ohne s: He can swim.",
+  "more": "Genauso: She can sing, it can fly. Can bleibt bei allen Personen gleich – kein s und kein to danach!"
+ },
+ {
+  "id": "de-englisch-121",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Satz über die Katzen ist richtig?",
+  "options": [
+   "There am three cats.",
+   "There are three cats.",
+   "There is three cats.",
+   "There are three cat."
+  ],
+  "answer": "B",
+  "hint": "Bei mehreren Dingen braucht man „are“ und ein Plural-„s“.",
+  "explanation": "Mehrzahl: There are … cats.",
+  "more": "Für eine Sache sagt man there is: „There is a cat.“ Für mehrere there are: „There are two cats.“"
+ },
+ {
+  "id": "de-englisch-122",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was heißt „Kann ich bitte ein Glas Wasser haben?“",
+  "options": [
+   "Can I have a glass of water, please?",
+   "Can I a glass water have?",
+   "Have I can a glass of water?",
+   "I can have glass of water?"
+  ],
+  "answer": "A",
+  "hint": "Im Englischen steht „have“ direkt nach „Can I“.",
+  "explanation": "Can I have …, please? = Kann ich bitte … haben?",
+  "more": "Noch höflicher klingt „Could I have …, please?“. Und mit „May I …?“ fragst du, ob du etwas darfst."
+ },
+ {
+  "id": "de-englisch-123",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Antwort passt? „Do you like apples?“",
+  "options": [
+   "Yes, I am.",
+   "Yes, I like.",
+   "Yes, I does.",
+   "Yes, I do."
+  ],
+  "answer": "D",
+  "hint": "In der Kurzantwort wiederholt man das Hilfsverb aus der Frage.",
+  "explanation": "Do you …? – Yes, I do. / No, I don't.",
+  "more": "Bei he und she antwortest du mit does: „Does he swim?“ – „Yes, he does.“"
+ },
+ {
+  "id": "de-englisch-124",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Antwort passt? „Is your sister ten?“",
+  "options": [
+   "No, she aren't.",
+   "No, she isn't.",
+   "No, she not.",
+   "No, she doesn't."
+  ],
+  "answer": "B",
+  "hint": "Gefragt wird mit „is“ – die Kurzantwort nimmt dasselbe Verb.",
+  "explanation": "Is she …? – No, she isn't.",
+  "more": "Isn't ist die Kurzform von is not, aren't von are not. Bei I sagt man aber: „No, I'm not.“"
+ },
+ {
+  "id": "de-englisch-125",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „The book is behind the box.“?",
+  "options": [
+   "Das Buch ist neben der Kiste.",
+   "Das Buch ist hinter der Kiste.",
+   "Das Buch ist vor der Kiste.",
+   "Das Buch ist in der Kiste."
+  ],
+  "answer": "B",
+  "hint": "„behind“ ist das Gegenteil von „in front of“.",
+  "explanation": "behind = hinter, in front of = vor.",
+  "more": "In England stellen sich die Leute ordentlich in eine Schlange – das heißt queue. Wer vorne steht, ist in front!"
+ },
+ {
+  "id": "de-englisch-126",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „next to“?",
+  "options": [
+   "neben",
+   "zwischen",
+   "über",
+   "hinter"
+  ],
+  "answer": "A",
+  "hint": "So sitzt du in der Schule zu deinem Sitznachbarn.",
+  "explanation": "next to = neben.",
+  "more": "Ein Nachbar heißt neighbour – er wohnt next door, also direkt nebenan. Britisch schreibt man neighbour mit ou!"
+ },
+ {
+  "id": "de-englisch-127",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was heißt „Mein Lieblingstier ist der Elefant.“?",
+  "options": [
+   "My animal favourite is the elephant.",
+   "My favourite is animal the elephant.",
+   "My favourite animal is the elephant.",
+   "Favourite my animal is the elephant."
+  ],
+  "answer": "C",
+  "hint": "„favourite“ steht vor dem Nomen, genau wie „Lieblings-“ im Deutschen.",
+  "explanation": "favourite = Lieblings-: my favourite animal.",
+  "more": "Lieblingsfarbe heißt favourite colour und Lieblingsessen favourite food. Was ist dein favourite animal?"
+ },
+ {
+  "id": "de-englisch-128",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Die Schuhe stehen direkt vor dir. „___ are my shoes.“",
+  "options": [
+   "This",
+   "That",
+   "Is",
+   "These"
+  ],
+  "answer": "D",
+  "hint": "„shoes“ ist Mehrzahl, und die Schuhe sind nah bei dir.",
+  "explanation": "Mehrzahl + nah = these; Einzahl + nah = this.",
+  "more": "Merke: this book, aber these books. Bei Dingen weit weg: that car – those cars."
+ },
+ {
+  "id": "de-englisch-129",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „early“?",
+  "options": [
+   "last",
+   "slow",
+   "late",
+   "quick"
+  ],
+  "answer": "C",
+  "hint": "Wer den Bus verpasst, kommt zu spät.",
+  "explanation": "early = früh ↔ late = spät.",
+  "more": "Zu spät kommen heißt „be late“. Wer zu spät kommt, sagt höflich: „Sorry I'm late!“"
+ },
+ {
+  "id": "de-englisch-130",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „I'm afraid of dogs.“?",
+  "options": [
+   "Ich habe Angst vor Hunden.",
+   "Ich habe einen Hund.",
+   "Ich mag Hunde.",
+   "Ich bin allergisch gegen Hunde."
+  ],
+  "answer": "A",
+  "hint": "„afraid“ beschreibt ein Gefühl, das man bei Gefahr hat.",
+  "explanation": "be afraid of = Angst haben vor.",
+  "more": "Ein Angsthase heißt scaredy-cat – also eine ängstliche Katze! Und Spinnenangst? „I'm afraid of spiders.“"
  }
 ]

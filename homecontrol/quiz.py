@@ -67,13 +67,15 @@ class Question:
     answer: int  # 正确选项的下标
     explanation: str = ""
     grade: int = 7
+    hint: str = ""
+    more: str = ""  # 讲解后再引申的相关知识点
 
     def public(self, lang="zh"):
         """发给电视的版本：不含答案。"""
         texts = LANGUAGES[lang]
         return {"id": self.id, "subject": texts["subjects"].get(self.subject, self.subject),
                 "difficulty": self.difficulty, "difficultyLabel": texts["difficulties"][self.difficulty],
-                "stem": self.stem, "options": self.options}
+                "stem": self.stem, "options": self.options, "hint": self.hint}
 
 
 def bank_files(bank_dir):
@@ -89,7 +91,8 @@ def load_bank(bank_dir, subjects=None):
             if q["type"] != "choice" or (subjects is not None and q["subject"] not in subjects):
                 continue
             questions.append(Question(q["id"], q["subject"], q["difficulty"], q["stem"], q["options"],
-                                      ord(q["answer"]) - ord("A"), q.get("explanation", ""), q.get("grade", 7)))
+                                      ord(q["answer"]) - ord("A"), q.get("explanation", ""), q.get("grade", 7),
+                                      q.get("hint", ""), q.get("more", "")))
     return questions
 
 
@@ -538,5 +541,5 @@ class QuizEngine:
             self.wrong_streak = 0
             self.cooldown_until = time.time() + self.COOLDOWN
             message += self.lang["msg"]["streak"]
-        return {"correct": correct, "answer": q.answer, "explanation": q.explanation,
+        return {"correct": correct, "answer": q.answer, "explanation": q.explanation, "more": q.more,
                 "delta": delta, "message": message, "cooldown": self.cooling_down()}

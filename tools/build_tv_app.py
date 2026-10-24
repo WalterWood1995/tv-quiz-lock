@@ -6,7 +6,7 @@ Prerequisites (one-time):
   - TV in Developer Mode with this PC's IP entered as Host PC IP
 
 Usage:
-  .venv\\Scripts\\python tools\\build_tv_app.py --profile <证书配置名> [--tv 192.168.178.25] [--no-install]
+  .venv\\Scripts\\python tools\\build_tv_app.py --profile <证书配置名> [--tv 192.168.178.25] [--host <答题服务IP>] [--no-install]
 """
 import argparse
 import os
@@ -45,6 +45,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--profile", required=True, help="Certificate Manager 里的证书配置名")
     ap.add_argument("--tv", default="192.168.178.25")
+    ap.add_argument("--host", help="运行答题服务的机器的 IP（默认本机，例如常开的平板）")
     ap.add_argument("--no-install", action="store_true")
     args = ap.parse_args()
     for tool in (TIZEN, SDB):
@@ -53,7 +54,7 @@ def main():
 
     cfg = load_config()
     port = cfg.getint("quiz", "port", fallback=QUIZ_PORT)
-    url = f"http://{local_ip(args.tv)}:{port}/quiz"
+    url = f"http://{args.host or local_ip(args.tv)}:{port}/quiz"
 
     build = Path(tempfile.mkdtemp()) / "QuizLock"
     shutil.copytree(ROOT / "tvapp", build)

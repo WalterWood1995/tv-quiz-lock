@@ -103,6 +103,28 @@ class GermanBankTest(unittest.TestCase):
             self.assertEqual(len(set(q.options)), 4, q.stem)
             self.assertIn(q.grade, (1, 2, 3, 4))
 
+    def test_bank_passes_checker(self):
+        from tools.check_bank import check_bank
+        problems, total = check_bank(quiz.DE_BANK_DIR)
+        self.assertEqual(problems, [])
+        self.assertGreater(total, 500)
+
+    def test_hint_goes_out_before_answering_and_more_after(self):
+        with tempfile.TemporaryDirectory() as d:
+            item = {"id": "h1", "subject": "deutsch", "difficulty": "easy", "grade": 2, "type": "choice",
+                    "stem": "?", "options": ["a", "b", "c", "d"], "answer": "A",
+                    "hint": "Denk nach.", "explanation": "Weil.", "more": "Noch etwas."}
+            (Path(d) / "deutsch.json").write_text(json.dumps([item]), encoding="utf-8")
+            engine = quiz.QuizEngine(quiz.Rules(language="de", grade=4, subjects=["deutsch"]), d,
+                                     rng=random.Random(1))
+            q = engine.next_question("easy")
+            public = q.public("de")
+            self.assertEqual(public["hint"], "Denk nach.")
+            self.assertNotIn("more", public)
+            engine.pending[q.id] = (q, time.time() - 10)
+            r = engine.answer(q.id, 0, 0, 0)
+            self.assertEqual((r["explanation"], r["more"]), ("Weil.", "Noch etwas."))
+
     def test_engine_speaks_german_and_reloads_changed_bank(self):
         with tempfile.TemporaryDirectory() as d:
             item = {"id": "x1", "subject": "deutsch", "difficulty": "easy", "grade": 2, "type": "choice",

@@ -13,7 +13,9 @@
    "Dreieck"
   ],
   "answer": "D",
-  "explanation": "Ein Dreieck hat drei Ecken und drei Seiten."
+  "hint": "Zähle die Ecken jeder Form im Kopf.",
+  "explanation": "Ein Dreieck hat drei Ecken und drei Seiten.",
+  "more": "Dreiecke sind besonders stabil, darum stecken sie in Brücken, Kränen und Fahrradrahmen. Bienenwaben dagegen sind Sechsecke mit sechs Ecken."
  },
  {
   "id": "de-mathe-002",
@@ -29,7 +31,9 @@
    "30"
   ],
   "answer": "A",
-  "explanation": "1 Stunde = 60 Minuten."
+  "hint": "Denk an den großen Zeiger: Er läuft in einer Stunde einmal ganz herum.",
+  "explanation": "1 Stunde = 60 Minuten.",
+  "more": "Diese 60 haben sich schon die Babylonier vor rund 4.000 Jahren ausgedacht. Ein ganzer Tag hat 24 · 60 = 1.440 Minuten."
  },
  {
   "id": "de-mathe-003",
@@ -45,7 +49,9 @@
    "10"
   ],
   "answer": "B",
-  "explanation": "1 € = 100 ct."
+  "hint": "Überlege, wie viele 1-Cent-Münzen in einen Euro passen.",
+  "explanation": "1 € = 100 ct.",
+  "more": "In Deutschland gibt es 8 Münzen: 1, 2, 5, 10, 20 und 50 Cent sowie 1 und 2 Euro. Auch beim Meter steckt die 100 drin: 1 m = 100 cm."
  },
  {
   "id": "de-mathe-004",
@@ -61,7 +67,9 @@
    "12 Uhr"
   ],
   "answer": "A",
-  "explanation": "Der kleine Zeiger zeigt die Stunde: 3 Uhr."
+  "hint": "Der kleine Zeiger zeigt die Stunde, der große die Minuten.",
+  "explanation": "Der kleine Zeiger zeigt die Stunde: 3 Uhr.",
+  "more": "Um 3 Uhr bilden die beiden Zeiger genau einen rechten Winkel, wie die Ecke eines Heftes. Um 6 Uhr zeigen sie in entgegengesetzte Richtungen."
  },
  {
   "id": "de-mathe-005",
@@ -77,7 +85,9 @@
    "halb 7"
   ],
   "answer": "A",
-  "explanation": "Großer Zeiger auf 6 = halb. Der kleine Zeiger ist schon fast bei 8: halb 8 (7:30 Uhr)."
+  "hint": "Steht der große Zeiger auf 6, ist es halb – schau, zu welcher Stunde der kleine Zeiger geht.",
+  "explanation": "Großer Zeiger auf 6 = halb. Der kleine Zeiger ist schon fast bei 8: halb 8 (7:30 Uhr).",
+  "more": "Auf der Digitaluhr steht halb 8 als 7:30 oder abends als 19:30. Für die Abendzeit rechnest du einfach 12 Stunden dazu."
  },
  {
   "id": "de-mathe-006",
@@ -93,7 +103,9 @@
    "100"
   ],
   "answer": "D",
-  "explanation": "1 m = 100 cm."
+  "hint": "Denk an ein Metermaß: Es ist in Zentimeter eingeteilt.",
+  "explanation": "1 m = 100 cm.",
+  "more": "Mit ausgebreiteten Armen bist du ungefähr so breit, wie du groß bist. Viele Kinder in der 4. Klasse sind um die 1,40 m, also 140 cm groß."
  },
  {
   "id": "de-mathe-007",
@@ -109,7 +121,9 @@
    "1000"
   ],
   "answer": "D",
-  "explanation": "1 kg = 1000 g."
+  "hint": "Kilo heißt: tausendmal so viel.",
+  "explanation": "1 kg = 1000 g.",
+  "more": "„Kilo“ bedeutet tausend – darum hat auch ein Kilometer 1.000 Meter. Ein Liter Wasser wiegt ziemlich genau 1 kg."
  },
  {
   "id": "de-mathe-008",
@@ -125,7 +139,9 @@
    "12"
   ],
   "answer": "A",
-  "explanation": "Ein Würfel hat 6 gleich große quadratische Flächen."
+  "hint": "Stell dir einen Spielwürfel vor und zähle die Seiten mit Augen.",
+  "explanation": "Ein Würfel hat 6 gleich große quadratische Flächen.",
+  "more": "Bei einem Spielwürfel ergeben gegenüberliegende Seiten immer zusammen 7: 1 und 6, 2 und 5, 3 und 4. Prüf das mal nach!"
  },
  {
   "id": "de-mathe-009",
@@ -141,7 +157,9 @@
    "11:45 Uhr"
   ],
   "answer": "B",
-  "explanation": "15 Minuten bis 11:00, dann noch 15 Minuten: 11:15 Uhr."
+  "hint": "Rechne erst bis zur vollen Stunde, dann den Rest.",
+  "explanation": "15 Minuten bis 11:00, dann noch 15 Minuten: 11:15 Uhr.",
+  "more": "Rechne bei Uhrzeiten erst bis zur vollen Stunde und dann den Rest dazu. So passiert kein Fehler wie „10:75 Uhr“, denn eine Stunde hat nur 60 Minuten."
  },
  {
   "id": "de-mathe-010",
@@ -157,7 +175,9 @@
    "28"
   ],
   "answer": "D",
-  "explanation": "Der Februar hat 28 Tage, im Schaltjahr 29."
+  "hint": "Der Februar ist der kürzeste Monat im Jahr.",
+  "explanation": "Der Februar hat 28 Tage, im Schaltjahr 29.",
+  "more": "Ein Schaltjahr kommt alle 4 Jahre, zum Beispiel 2024 und 2028. Mit der Faust merkst du dir die Monate: Knöchel-Monate haben 31 Tage."
  },
  {
   "id": "de-mathe-011",
@@ -173,7 +193,9 @@
    "4,50 €"
   ],
   "answer": "A",
-  "explanation": "50 ct + 50 ct = 1 €; 2 € + 1 € + 1 € = 4 €."
+  "hint": "Rechne Euro und Cent getrennt zusammen.",
+  "explanation": "50 ct + 50 ct = 1 €; 2 € + 1 € + 1 € = 4 €.",
+  "more": "Zähle beim Geldrechnen erst die Euro, dann die Cent zusammen. Werden es 100 Cent oder mehr, tauschst du 100 Cent in 1 Euro um – wie beim Zehnerübergang."
  },
  {
   "id": "de-mathe-012",
@@ -189,7 +211,9 @@
    "12"
   ],
   "answer": "D",
-  "explanation": "Oben 4, unten 4 und 4 senkrechte Kanten: 12."
+  "hint": "Zähle die Kanten oben, unten und an den Seiten.",
+  "explanation": "Oben 4, unten 4 und 4 senkrechte Kanten: 12.",
+  "more": "Für ein Kantenmodell aus Strohhalmen brauchst du also 12 Halme. Ein Quader hat genau gleich viele Kanten wie ein Würfel."
  },
  {
   "id": "de-mathe-013",
@@ -205,7 +229,9 @@
    "4"
   ],
   "answer": "A",
-  "explanation": "Oben 4 Ecken und unten 4 Ecken: 8."
+  "hint": "Zähle die Ecken oben und unten getrennt.",
+  "explanation": "Oben 4 Ecken und unten 4 Ecken: 8.",
+  "more": "Ein toller Zähltrick: Ecken + Flächen − Kanten = 2. Beim Würfel ist das 8 + 6 − 12 = 2, und das klappt sogar bei Pyramiden!"
  },
  {
   "id": "de-mathe-014",
@@ -221,7 +247,9 @@
    "22 cm"
   ],
   "answer": "A",
-  "explanation": "Umfang = 6 + 4 + 6 + 4 = 20 cm."
+  "hint": "Der Umfang ist der Weg einmal um das Rechteck herum.",
+  "explanation": "Umfang = 6 + 4 + 6 + 4 = 20 cm.",
+  "more": "Den Umfang braucht man, wenn man einen Zaun um ein Beet baut. Schneller gerechnet: (6 + 4) · 2 = 20 cm."
  },
  {
   "id": "de-mathe-015",
@@ -237,7 +265,9 @@
    "20 cm²"
   ],
   "answer": "C",
-  "explanation": "Flächeninhalt = Länge · Breite = 6 · 4 = 24 cm²."
+  "hint": "Flächeninhalt = Länge mal Breite, und die Einheit ist cm².",
+  "explanation": "Flächeninhalt = Länge · Breite = 6 · 4 = 24 cm².",
+  "more": "Ein Quadratzentimeter ist ein kleines Quadrat mit 1 cm Seitenlänge – in das Rechteck passen 24 davon. So berechnet man auch, wie viele Fliesen ein Boden braucht."
  },
  {
   "id": "de-mathe-016",
@@ -253,7 +283,9 @@
    "13 mm"
   ],
   "answer": "C",
-  "explanation": "1 cm = 10 mm, also 3 cm = 30 mm."
+  "hint": "1 cm hat 10 mm.",
+  "explanation": "1 cm = 10 mm, also 3 cm = 30 mm.",
+  "more": "Auf dem Lineal sind Millimeter die kleinsten Striche – zwischen zwei Zentimetern liegen 10 davon. Eine Ameise ist oft nur wenige Millimeter lang."
  },
  {
   "id": "de-mathe-017",
@@ -269,7 +301,9 @@
    "20 m"
   ],
   "answer": "C",
-  "explanation": "1 km = 1000 m."
+  "hint": "1 km hat 1.000 m.",
+  "explanation": "1 km = 1000 m.",
+  "more": "Zu Fuß brauchst du für einen Kilometer ungefähr 10 bis 15 Minuten. Ein Marathon ist sogar gut 42 km lang, das sind über 42.000 m!"
  },
  {
   "id": "de-mathe-018",
@@ -285,6 +319,1682 @@
    "18:75 Uhr"
   ],
   "answer": "B",
-  "explanation": "17:40 + 1 h = 18:40; + 20 min = 19:00; + 15 min = 19:15 Uhr."
+  "hint": "Rechne erst die volle Stunde dazu, dann die Minuten.",
+  "explanation": "17:40 + 1 h = 18:40; + 20 min = 19:00; + 15 min = 19:15 Uhr.",
+  "more": "Genauso rechnet man mit Fahrplänen: erst die vollen Stunden, dann die Minuten. Viele Kinofilme dauern 90 bis 120 Minuten, also 1½ bis 2 Stunden."
+ },
+ {
+  "id": "de-mathe-019",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Lisa hat 5 Äpfel. Sie bekommt 3 dazu. Wie viele Äpfel hat sie jetzt?",
+  "options": [
+   "9",
+   "7",
+   "8",
+   "2"
+  ],
+  "answer": "C",
+  "hint": "Dazubekommen heißt: plus rechnen.",
+  "explanation": "5 + 3 = 8.",
+  "more": "Tauschaufgaben haben dasselbe Ergebnis: 5 + 3 = 3 + 5 = 8. Am leichtesten ist es, mit der größeren Zahl anzufangen und weiterzuzählen."
+ },
+ {
+  "id": "de-mathe-020",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Zahl ist gerade?",
+  "options": [
+   "9",
+   "12",
+   "15",
+   "7"
+  ],
+  "answer": "B",
+  "hint": "Gerade Zahlen kann man in zwei gleich große Teile teilen.",
+  "explanation": "12 endet auf 2, also ist 12 gerade.",
+  "more": "Gerade Zahlen kann man immer in zwei gleiche Hälften teilen: 12 = 6 + 6. Zwei gerade Zahlen zusammen ergeben immer wieder eine gerade Zahl."
+ },
+ {
+  "id": "de-mathe-021",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Ecken hat ein Viereck?",
+  "options": [
+   "5",
+   "3",
+   "4",
+   "6"
+  ],
+  "answer": "C",
+  "hint": "Der Name der Form verrät es dir schon.",
+  "explanation": "Ein Viereck hat 4 Ecken.",
+  "more": "Quadrat, Rechteck, Raute und Drachen sind alles Vierecke. Bücher, Tafeln und Fenster sind oft Vierecke – schau dich mal im Zimmer um!"
+ },
+ {
+  "id": "de-mathe-022",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Form hat keine Ecken?",
+  "options": [
+   "Quadrat",
+   "Kreis",
+   "Rechteck",
+   "Dreieck"
+  ],
+  "answer": "B",
+  "hint": "Denk an eine runde Pizza.",
+  "explanation": "Ein Kreis ist rund und hat keine Ecken.",
+  "more": "Räder sind rund, weil der Rand überall gleich weit von der Achse in der Mitte entfernt ist. Diesen Abstand nennt man Radius."
+ },
+ {
+  "id": "de-mathe-023",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Zahl kommt als Nächstes? 2, 4, 6, 8, …",
+  "options": [
+   "11",
+   "9",
+   "10",
+   "12"
+  ],
+  "answer": "C",
+  "hint": "Schau, um wie viel die Zahl jedes Mal größer wird.",
+  "explanation": "Immer +2: 8 + 2 = 10.",
+  "more": "In Zweierschritten triffst du nur gerade Zahlen. So zählt man auch schnell Paare, zum Beispiel Schuhe oder Socken."
+ },
+ {
+  "id": "de-mathe-024",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Tom hat 10 Bonbons. Er isst 4 davon. Wie viele hat er noch?",
+  "options": [
+   "7",
+   "6",
+   "5",
+   "14"
+  ],
+  "answer": "B",
+  "hint": "Essen heißt: Es werden weniger, also minus rechnen.",
+  "explanation": "10 − 4 = 6.",
+  "more": "Die Probe geht mit Plus: 6 + 4 = 10, also stimmt das Ergebnis. Plus und Minus sind Umkehraufgaben voneinander."
+ },
+ {
+  "id": "de-mathe-025",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Tage hat eine Woche?",
+  "options": [
+   "10",
+   "5",
+   "12",
+   "7"
+  ],
+  "answer": "D",
+  "hint": "Zähle von Montag bis Sonntag.",
+  "explanation": "Montag bis Sonntag sind 7 Tage.",
+  "more": "Ein Jahr hat 52 Wochen und noch 1 oder 2 Tage. „Mittwoch“ heißt Mitte der Woche – früher begann die Woche nämlich am Sonntag."
+ },
+ {
+  "id": "de-mathe-026",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Tag kommt nach Mittwoch?",
+  "options": [
+   "Freitag",
+   "Donnerstag",
+   "Dienstag",
+   "Montag"
+  ],
+  "answer": "B",
+  "hint": "Sag die Wochentage der Reihe nach auf.",
+  "explanation": "Montag, Dienstag, Mittwoch, Donnerstag – nach Mittwoch kommt Donnerstag.",
+  "more": "Die Wochentage wiederholen sich immer nach 7 Tagen. Ist heute Mittwoch, dann ist in 8 Tagen Donnerstag."
+ },
+ {
+  "id": "de-mathe-027",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Zahl ist ungerade?",
+  "options": [
+   "10",
+   "8",
+   "4",
+   "7"
+  ],
+  "answer": "D",
+  "hint": "Bei ungeraden Zahlen bleibt beim Teilen durch 2 einer übrig.",
+  "explanation": "7 = 3 + 3 + 1, es bleibt einer übrig. 7 ist ungerade.",
+  "more": "Ungerade Zahlen enden immer auf 1, 3, 5, 7 oder 9. Lustig: Zwei ungerade Zahlen zusammen ergeben immer eine gerade Zahl, etwa 7 + 3 = 10."
+ },
+ {
+  "id": "de-mathe-028",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Zahl ist größer: 38 oder 83?",
+  "options": [
+   "beide sind gleich groß",
+   "38",
+   "83",
+   "das kann man nicht sagen"
+  ],
+  "answer": "C",
+  "hint": "Vergleiche zuerst die Zehner.",
+  "explanation": "83 hat 8 Zehner, 38 nur 3 Zehner. 83 ist größer.",
+  "more": "Beim Vergleichen schaust du zuerst auf die Stelle ganz links, denn sie ist am meisten wert. 38 und 83 sind Zahlendreher – gleiche Ziffern, ganz anderer Wert!"
+ },
+ {
+  "id": "de-mathe-029",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Zehner hat die Zahl 47?",
+  "options": [
+   "11",
+   "7",
+   "4",
+   "47"
+  ],
+  "answer": "C",
+  "hint": "Die Zehner stehen vorne, die Einer hinten.",
+  "explanation": "47 = 4 Zehner und 7 Einer.",
+  "more": "Beim Geld ist das genauso: 47 € kannst du mit 4 Zehn-Euro-Scheinen und 7 Ein-Euro-Münzen bezahlen."
+ },
+ {
+  "id": "de-mathe-030",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Du hast eine 2-€-Münze und eine 1-€-Münze. Wie viel Geld ist das?",
+  "options": [
+   "4 €",
+   "21 €",
+   "2 €",
+   "3 €"
+  ],
+  "answer": "D",
+  "hint": "Zähle die Euro zusammen.",
+  "explanation": "2 € + 1 € = 3 €.",
+  "more": "Euro-Münzen gibt es bis 2 €, ab 5 € kommen Scheine. Mit 1-€- und 2-€-Münzen kannst du jeden ganzen Euro-Betrag legen."
+ },
+ {
+  "id": "de-mathe-031",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Mia hat 3 Tüten mit je 2 Murmeln. Wie viele Murmeln sind das?",
+  "options": [
+   "6",
+   "32",
+   "8",
+   "5"
+  ],
+  "answer": "A",
+  "hint": "Zähle 2 und 2 und 2.",
+  "explanation": "2 + 2 + 2 = 6.",
+  "more": "Das ist schon Malrechnen: 3 · 2 = 6. Mal ist eine Abkürzung für Plusaufgaben mit lauter gleichen Zahlen."
+ },
+ {
+  "id": "de-mathe-032",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was ist die Hälfte von 8?",
+  "options": [
+   "2",
+   "4",
+   "6",
+   "16"
+  ],
+  "answer": "B",
+  "hint": "Teile in zwei gleich große Teile.",
+  "explanation": "8 = 4 + 4, die Hälfte ist 4.",
+  "more": "Halbieren ist das Gegenteil von Verdoppeln: Das Doppelte von 4 ist 8. So teilst du gerecht – zum Beispiel 8 Kekse für 2 Kinder."
+ },
+ {
+  "id": "de-mathe-033",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Zahl fehlt? 10, 20, 30, __, 50",
+  "options": [
+   "40",
+   "31",
+   "35",
+   "60"
+  ],
+  "answer": "A",
+  "hint": "Hier wird in Zehnerschritten gezählt.",
+  "explanation": "30 + 10 = 40.",
+  "more": "Mit Zehn-Cent-Münzen zählst du genauso: 10, 20, 30, 40, 50 Cent. Zehn Zehner ergeben zusammen 100."
+ },
+ {
+  "id": "de-mathe-034",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Auf dem Teich schwimmen 6 Enten. 2 fliegen weg, dann kommen 3 dazu. Wie viele Enten sind jetzt da?",
+  "options": [
+   "11",
+   "5",
+   "7",
+   "1"
+  ],
+  "answer": "C",
+  "hint": "Rechne Schritt für Schritt: erst weg, dann dazu.",
+  "explanation": "6 − 2 = 4; 4 + 3 = 7.",
+  "more": "Man kann auch erst zusammenfassen: 2 weg und 3 dazu ist insgesamt 1 mehr. Also 6 + 1 = 7."
+ },
+ {
+  "id": "de-mathe-035",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Körper kann in jede Richtung rollen?",
+  "options": [
+   "Würfel",
+   "Pyramide",
+   "Quader",
+   "Kugel"
+  ],
+  "answer": "D",
+  "hint": "Denk an einen Fußball.",
+  "explanation": "Die Kugel ist rundherum rund und rollt in jede Richtung.",
+  "more": "Bälle, Murmeln und sogar unsere Erde haben fast die Form einer Kugel. Ein Zylinder, wie eine Dose, rollt dagegen nur geradeaus."
+ },
+ {
+  "id": "de-mathe-036",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welcher Monat kommt nach Mai?",
+  "options": [
+   "März",
+   "Juni",
+   "April",
+   "Juli"
+  ],
+  "answer": "B",
+  "hint": "Sag die Monate der Reihe nach auf.",
+  "explanation": "Januar, Februar, März, April, Mai, Juni – nach Mai kommt Juni.",
+  "more": "Der Juni ist der 6. Monat und hat 30 Tage. Um den 21. Juni herum ist der längste Tag des Jahres – da ist es abends lange hell."
+ },
+ {
+  "id": "de-mathe-037",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Im Bus sitzen 9 Kinder. An der Haltestelle steigen 5 aus. Wie viele Kinder sitzen noch im Bus?",
+  "options": [
+   "5",
+   "4",
+   "14",
+   "3"
+  ],
+  "answer": "B",
+  "hint": "Aussteigen heißt: Es werden weniger.",
+  "explanation": "9 − 5 = 4.",
+  "more": "Rückwärts zählen hilft: Von 9 aus 5 Schritte zurück landest du bei 4. Die Probe: 4 + 5 = 9."
+ },
+ {
+  "id": "de-mathe-038",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Zahl liegt zwischen 59 und 61?",
+  "options": [
+   "60",
+   "58",
+   "62",
+   "69"
+  ],
+  "answer": "A",
+  "hint": "Zähle von der kleineren Zahl einen Schritt weiter.",
+  "explanation": "59, 60, 61 – die 60 liegt dazwischen.",
+  "more": "Die Zahl direkt davor heißt Vorgänger, die Zahl danach Nachfolger. 59 ist der Vorgänger und 61 der Nachfolger von 60."
+ },
+ {
+  "id": "de-mathe-039",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Ein Stift kostet 1 €. Wie viel kosten 4 Stifte?",
+  "options": [
+   "5 €",
+   "1 €",
+   "3 €",
+   "4 €"
+  ],
+  "answer": "D",
+  "hint": "Zähle 1 € für jeden Stift.",
+  "explanation": "4 · 1 € = 4 €.",
+  "more": "Würde ein Stift 2 € kosten, wären 4 Stifte doppelt so teuer, also 8 €. An der Kasse hilft dir das Einmaleins beim Überschlagen."
+ },
+ {
+  "id": "de-mathe-040",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Paul hat 2 T-Shirts und 3 Hosen. Wie viele verschiedene Kombinationen aus T-Shirt und Hose kann er anziehen?",
+  "options": [
+   "3",
+   "5",
+   "6",
+   "8"
+  ],
+  "answer": "C",
+  "hint": "Kombiniere jedes T-Shirt mit jeder Hose.",
+  "explanation": "Jedes T-Shirt passt zu 3 Hosen: 2 · 3 = 6 Kombinationen.",
+  "more": "Hätte Paul 3 T-Shirts, wären es schon 3 · 3 = 9 Kombinationen. Ein Baumdiagramm zeigt alle Möglichkeiten, ohne eine zu vergessen."
+ },
+ {
+  "id": "de-mathe-041",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Stunden hat ein Tag?",
+  "options": [
+   "24",
+   "12",
+   "60",
+   "100"
+  ],
+  "answer": "A",
+  "hint": "Denk an Tag und Nacht zusammen.",
+  "explanation": "Ein ganzer Tag mit Nacht hat 24 Stunden.",
+  "more": "Die Erde dreht sich in ungefähr 24 Stunden einmal um sich selbst – so entstehen Tag und Nacht. Darum ist 15 Uhr dasselbe wie 3 Uhr nachmittags."
+ },
+ {
+  "id": "de-mathe-042",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Es ist 8:00 Uhr. Die Schule beginnt in einer halben Stunde. Wann beginnt die Schule?",
+  "options": [
+   "8:15 Uhr",
+   "8:30 Uhr",
+   "8:50 Uhr",
+   "9:00 Uhr"
+  ],
+  "answer": "B",
+  "hint": "Eine halbe Stunde hat 30 Minuten.",
+  "explanation": "8:00 Uhr + 30 Minuten = 8:30 Uhr.",
+  "more": "Eine halbe Stunde hat 30 Minuten, eine Viertelstunde 15. Um halb steht der große Zeiger genau auf der 6."
+ },
+ {
+  "id": "de-mathe-043",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Anna kauft ein Heft für 70 ct und bezahlt mit 1 €. Wie viel Wechselgeld bekommt sie?",
+  "options": [
+   "40 ct",
+   "70 ct",
+   "1,70 €",
+   "30 ct"
+  ],
+  "answer": "D",
+  "hint": "Rechne von 70 ct bis 100 ct weiter.",
+  "explanation": "1 € = 100 ct; 100 ct − 70 ct = 30 ct.",
+  "more": "Kassierer zählen Wechselgeld gern nach oben: von 70 ct in Zehnerschritten auf 80, 90, 100 ct. Das heißt Ergänzen und klappt bei jedem Einkauf."
+ },
+ {
+  "id": "de-mathe-044",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Schätze: Wie lang ist ein Lineal aus dem Federmäppchen ungefähr?",
+  "options": [
+   "3 cm",
+   "3 m",
+   "30 cm",
+   "300 m"
+  ],
+  "answer": "C",
+  "hint": "Vergleiche mit der Länge deines Unterarms.",
+  "explanation": "Ein Schullineal ist meistens 30 cm lang.",
+  "more": "Gute Schätzhilfen: Dein Daumennagel ist ungefähr 1 cm breit, eine Tür etwa 2 m hoch. Mit solchen Vergleichen kannst du fast alles schätzen."
+ },
+ {
+  "id": "de-mathe-045",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Zahl hat 6 Zehner und 3 Einer?",
+  "options": [
+   "36",
+   "9",
+   "63",
+   "603"
+  ],
+  "answer": "C",
+  "hint": "Die Zehner kommen nach vorne, die Einer nach hinten.",
+  "explanation": "6 Zehner = 60, dazu 3 Einer: 63.",
+  "more": "Im Deutschen sprechen wir die Einer zuerst: drei-und-sechzig. Geschrieben stehen aber die Zehner vorn – deshalb passieren leicht Zahlendreher."
+ },
+ {
+  "id": "de-mathe-046",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Zahl kommt als Nächstes? 5, 10, 15, 20, …",
+  "options": [
+   "21",
+   "22",
+   "30",
+   "25"
+  ],
+  "answer": "D",
+  "hint": "Wie groß ist jeder Sprung?",
+  "explanation": "Immer +5: 20 + 5 = 25.",
+  "more": "Alle Zahlen der Fünferreihe enden auf 5 oder 0. Auch die Uhr zählt in Fünferschritten: Jede Zahl auf dem Zifferblatt steht für 5 Minuten mehr."
+ },
+ {
+  "id": "de-mathe-047",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist ein Viertel von 12?",
+  "options": [
+   "3",
+   "8",
+   "6",
+   "4"
+  ],
+  "answer": "A",
+  "hint": "Teile in vier gleich große Teile.",
+  "explanation": "12 : 4 = 3.",
+  "more": "Ein Viertel bekommst du auch durch zweimal Halbieren: 12 → 6 → 3. Eine Viertelstunde ist ein Viertel von 60 Minuten, also 15 Minuten."
+ },
+ {
+  "id": "de-mathe-048",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Eine Pizza wird in 4 gleich große Stücke geschnitten. Ben isst 2 Stücke. Welchen Teil der Pizza hat er gegessen?",
+  "options": [
+   "ein Drittel",
+   "die Hälfte",
+   "ein Viertel",
+   "die ganze Pizza"
+  ],
+  "answer": "B",
+  "hint": "Vergleiche die gegessenen Stücke mit den übrigen Stücken.",
+  "explanation": "2 von 4 Stücken sind genau die Hälfte.",
+  "more": "2 Viertel sind gleich viel wie 1 Halbes – Brüche können verschieden aussehen und trotzdem gleich groß sein. Bei 8 Stücken wären es 4 Stücke."
+ },
+ {
+  "id": "de-mathe-049",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Form hat 4 gleich lange Seiten und 4 rechte Winkel?",
+  "options": [
+   "Quadrat",
+   "Rechteck mit verschieden langen Seiten",
+   "Dreieck",
+   "Kreis"
+  ],
+  "answer": "A",
+  "hint": "Bei dieser Form sind wirklich alle Seiten gleich lang.",
+  "explanation": "Ein Quadrat hat 4 gleich lange Seiten und 4 rechte Winkel.",
+  "more": "Jedes Quadrat ist auch ein Rechteck, denn es hat 4 rechte Winkel. Aber nicht jedes Rechteck ist ein Quadrat!"
+ },
+ {
+  "id": "de-mathe-050",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welcher Großbuchstabe ist achsensymmetrisch (links und rechts gleich)?",
+  "options": [
+   "F",
+   "G",
+   "R",
+   "A"
+  ],
+  "answer": "D",
+  "hint": "Stell dir einen Spiegel genau in der Mitte vor.",
+  "explanation": "Beim A sind linke und rechte Hälfte Spiegelbilder.",
+  "more": "Mit einem Spiegel auf der Mittellinie kannst du Symmetrie prüfen. Auch H, M, O, T und U sind achsensymmetrisch – und viele Schmetterlinge ebenso."
+ },
+ {
+  "id": "de-mathe-051",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Ein Bleistift kostet 45 ct, ein Radiergummi 35 ct. Wie viel kostet beides zusammen?",
+  "options": [
+   "70 ct",
+   "10 ct",
+   "80 ct",
+   "90 ct"
+  ],
+  "answer": "C",
+  "hint": "Rechne erst die Zehner, dann die Einer zusammen.",
+  "explanation": "45 ct + 35 ct = 80 ct.",
+  "more": "Rechne erst die Zehner, 40 + 30 = 70, dann die Einer, 5 + 5 = 10. Zwei Fünfer ergeben immer einen glatten Zehner!"
+ },
+ {
+  "id": "de-mathe-052",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "In der Klasse 2b mögen 8 Kinder am liebsten Eis, 5 Kinder Kuchen und 11 Kinder Obst. Was mögen die meisten Kinder?",
+  "options": [
+   "alles gleich viel",
+   "Obst",
+   "Kuchen",
+   "Eis"
+  ],
+  "answer": "B",
+  "hint": "Suche die größte Zahl.",
+  "explanation": "11 ist mehr als 8 und 5, also mögen die meisten Kinder Obst.",
+  "more": "Solche Umfragen stellt man gern als Strichliste oder Säulendiagramm dar. Die höchste Säule zeigt sofort, was am beliebtesten ist."
+ },
+ {
+  "id": "de-mathe-053",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Minuten sind eine Viertelstunde?",
+  "options": [
+   "4",
+   "30",
+   "15",
+   "25"
+  ],
+  "answer": "C",
+  "hint": "Teile eine Stunde in vier gleiche Teile.",
+  "explanation": "60 Minuten : 4 = 15 Minuten.",
+  "more": "Drei Viertelstunden sind 45 Minuten – so lange dauert auch eine Halbzeit beim Profi-Fußball."
+ },
+ {
+  "id": "de-mathe-054",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Ist 35 gerade oder ungerade?",
+  "options": [
+   "beides",
+   "ungerade",
+   "weder noch",
+   "gerade"
+  ],
+  "answer": "B",
+  "hint": "Schau auf die Einerstelle.",
+  "explanation": "35 endet auf 5, also ist 35 ungerade.",
+  "more": "Ob eine Zahl gerade ist, verrät nur die letzte Ziffer – egal wie groß die Zahl ist. Darum ist auch 1.000.035 ungerade!"
+ },
+ {
+  "id": "de-mathe-055",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was wiegt ungefähr 1 kg?",
+  "options": [
+   "ein Auto",
+   "ein Blatt Papier",
+   "eine Feder",
+   "eine Packung Mehl"
+  ],
+  "answer": "D",
+  "hint": "1 kg ist so schwer wie 1.000 g.",
+  "explanation": "Eine Packung Mehl wiegt meistens 1 kg.",
+  "more": "Ein Liter Milch wiegt auch ungefähr 1 kg. Ein Auto wiegt dagegen etwa 1.000 bis 2.000 kg, also 1 bis 2 Tonnen."
+ },
+ {
+  "id": "de-mathe-056",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Zahl ist um 10 größer als 57?",
+  "options": [
+   "67",
+   "58",
+   "157",
+   "47"
+  ],
+  "answer": "A",
+  "hint": "Bei +10 ändert sich nur der Zehner.",
+  "explanation": "57 + 10 = 67.",
+  "more": "Bei plus 10 ändert sich nur die Zehnerziffer, die Einer bleiben gleich. Auf der Hundertertafel springst du dafür genau eine Reihe nach unten."
+ },
+ {
+  "id": "de-mathe-057",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Leon hat 20 €. Er kauft ein Buch für 8 €. Wie viel Geld hat er noch?",
+  "options": [
+   "12 €",
+   "11 €",
+   "13 €",
+   "28 €"
+  ],
+  "answer": "A",
+  "hint": "Kaufen heißt: Das Geld wird weniger.",
+  "explanation": "20 € − 8 € = 12 €.",
+  "more": "Rechentrick: Erst 10 abziehen, dann 2 wieder dazugeben: 20 − 10 + 2 = 12. Das klappt immer, wenn man eine Zahl knapp unter 10 abzieht."
+ },
+ {
+  "id": "de-mathe-058",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Der Ausflug dauert von 8:00 Uhr bis 9:30 Uhr. Wie lange dauert er?",
+  "options": [
+   "1 Stunde",
+   "2 Stunden 30 Minuten",
+   "1 Stunde 30 Minuten",
+   "90 Stunden"
+  ],
+  "answer": "C",
+  "hint": "Zähle erst die ganzen Stunden, dann die Minuten.",
+  "explanation": "8:00 bis 9:00 Uhr = 1 Stunde, bis 9:30 Uhr noch 30 Minuten.",
+  "more": "90 Minuten, also 1 Stunde 30 Minuten, dauert auch ein Fußballspiel ohne Pause. Für Zeitspannen hilft ein Zeitstrahl."
+ },
+ {
+  "id": "de-mathe-059",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Zeichen passt? 45 __ 54",
+  "options": [
+   ">",
+   "<",
+   "+",
+   "="
+  ],
+  "answer": "B",
+  "hint": "Vergleiche zuerst die Zehner.",
+  "explanation": "45 ist kleiner als 54, also 45 < 54.",
+  "more": "Merkhilfe: Das Zeichen ist wie ein Krokodilmaul, das immer die größere Zahl fressen will. Die Spitze zeigt zur kleineren Zahl."
+ },
+ {
+  "id": "de-mathe-060",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Beine haben 3 Hunde zusammen?",
+  "options": [
+   "7",
+   "15",
+   "9",
+   "12"
+  ],
+  "answer": "D",
+  "hint": "Ein Hund hat 4 Beine.",
+  "explanation": "3 · 4 = 12 Beine.",
+  "more": "Vögel haben 2 Beine, Insekten 6 und Spinnen sogar 8. 3 Spinnen hätten zusammen schon 24 Beine!"
+ },
+ {
+  "id": "de-mathe-061",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welche Zahl fehlt? 30, 27, 24, __, 18",
+  "options": [
+   "22",
+   "21",
+   "23",
+   "20"
+  ],
+  "answer": "B",
+  "hint": "Hier wird jedes Mal gleich viel weggenommen.",
+  "explanation": "Immer −3: 24 − 3 = 21.",
+  "more": "Das ist die Dreierreihe rückwärts: 30, 27, 24, 21, 18. Alle diese Zahlen sind durch 3 teilbar."
+ },
+ {
+  "id": "de-mathe-062",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Monate hat ein Jahr?",
+  "options": [
+   "12",
+   "7",
+   "52",
+   "10"
+  ],
+  "answer": "A",
+  "hint": "Zähle von Januar bis Dezember.",
+  "explanation": "Ein Jahr hat 12 Monate.",
+  "more": "Ein Jahr hat 365 Tage, ein Schaltjahr 366. Die Monate sind verschieden lang: Der Januar hat 31 Tage, der April nur 30."
+ },
+ {
+  "id": "de-mathe-063",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Milliliter sind 1 Liter?",
+  "options": [
+   "60",
+   "10",
+   "1.000",
+   "100"
+  ],
+  "answer": "C",
+  "hint": "Milli bedeutet: ein Tausendstel.",
+  "explanation": "1 l = 1.000 ml.",
+  "more": "Ein Trinkpäckchen hat oft 200 ml, also ergeben 5 davon einen Liter. „Milli“ bedeutet Tausendstel, genau wie beim Millimeter."
+ },
+ {
+  "id": "de-mathe-064",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Eine Flasche enthält 1 l Saft. Wie viele Gläser zu 250 ml kann man damit füllen?",
+  "options": [
+   "2",
+   "250",
+   "5",
+   "4"
+  ],
+  "answer": "D",
+  "hint": "Rechne den Liter zuerst in Milliliter um.",
+  "explanation": "1 l = 1.000 ml; 1.000 : 250 = 4 Gläser.",
+  "more": "250 ml nennt man auch einen Viertelliter, 500 ml einen halben Liter. In der Küche misst man das mit einem Messbecher ab."
+ },
+ {
+  "id": "de-mathe-065",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl hat 3 Hunderter, 0 Zehner und 7 Einer?",
+  "options": [
+   "307",
+   "3.007",
+   "37",
+   "370"
+  ],
+  "answer": "A",
+  "hint": "Schreibe die Stellen der Reihe nach: H, Z, E.",
+  "explanation": "3 H, 0 Z, 7 E = 307.",
+  "more": "Die Null ist ein wichtiger Platzhalter: Ohne sie würde aus 307 die 37. Die Römer kannten keine Null und schrieben 307 als CCCVII."
+ },
+ {
+  "id": "de-mathe-066",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist durch 5 teilbar?",
+  "options": [
+   "84",
+   "53",
+   "92",
+   "135"
+  ],
+  "answer": "D",
+  "hint": "Zahlen, die durch 5 teilbar sind, enden auf 0 oder 5.",
+  "explanation": "135 endet auf 5: 135 : 5 = 27.",
+  "more": "Durch 5 teilbar sind alle Zahlen, die auf 0 oder 5 enden. Durch 10 teilbar ist eine Zahl nur, wenn sie auf 0 endet."
+ },
+ {
+  "id": "de-mathe-067",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Herr Meier fährt um 7:50 Uhr los und kommt um 8:25 Uhr an. Wie lange ist er unterwegs?",
+  "options": [
+   "75 Minuten",
+   "35 Minuten",
+   "25 Minuten",
+   "45 Minuten"
+  ],
+  "answer": "B",
+  "hint": "Rechne zuerst bis zur vollen Stunde.",
+  "explanation": "7:50 bis 8:00 Uhr = 10 min, bis 8:25 Uhr noch 25 min: 35 Minuten.",
+  "more": "Ein Zeitstrahl hilft: ein Sprung bis zur vollen Stunde und einer danach. So liest man auch am Fahrplan ab, wie lange eine Fahrt dauert."
+ },
+ {
+  "id": "de-mathe-068",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Ein Kilogramm Äpfel kostet 2,40 €. Wie viel kosten 2 kg?",
+  "options": [
+   "4,40 €",
+   "2,42 €",
+   "4,80 €",
+   "4,08 €"
+  ],
+  "answer": "C",
+  "hint": "Verdopple den Preis.",
+  "explanation": "2,40 € + 2,40 € = 4,80 €.",
+  "more": "Verdopple Euro und Cent einzeln: 2 € werden 4 € und 40 ct werden 80 ct. So rechnest du beim Einkaufen blitzschnell im Kopf."
+ },
+ {
+  "id": "de-mathe-069",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Sara kauft für 3,60 € ein und bezahlt mit 5 €. Wie viel Wechselgeld bekommt sie?",
+  "options": [
+   "2,40 €",
+   "8,60 €",
+   "1,60 €",
+   "1,40 €"
+  ],
+  "answer": "D",
+  "hint": "Ergänze vom Preis bis 5 €.",
+  "explanation": "3,60 € + 0,40 € = 4 €; + 1 € = 5 €. Zusammen 1,40 €.",
+  "more": "Mit möglichst wenigen Münzen bekommst du 1,40 € als 1 €, 20 ct und noch einmal 20 ct. Das Ergänzen bis zum nächsten Euro ist der Kassen-Trick."
+ },
+ {
+  "id": "de-mathe-070",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Meter sind 3 km 200 m?",
+  "options": [
+   "3.200 m",
+   "320 m",
+   "32.000 m",
+   "3.020 m"
+  ],
+  "answer": "A",
+  "hint": "1 km hat 1.000 m.",
+  "explanation": "3 km = 3.000 m; 3.000 m + 200 m = 3.200 m.",
+  "more": "Auf Wanderschildern steht oft „3,2 km“ – das ist dasselbe wie 3 km 200 m. Das Komma trennt die Kilometer von den Metern."
+ },
+ {
+  "id": "de-mathe-071",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Ecken hat ein Quader?",
+  "options": [
+   "12",
+   "8",
+   "4",
+   "6"
+  ],
+  "answer": "B",
+  "hint": "Zähle die Ecken oben und unten getrennt.",
+  "explanation": "Oben 4 und unten 4 Ecken: 8.",
+  "more": "Schuhkartons, Ziegelsteine und Milchtüten haben die Form eines Quaders. Ein Würfel ist ein besonderer Quader mit lauter gleich langen Kanten."
+ },
+ {
+  "id": "de-mathe-072",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Flächen hat ein Quader?",
+  "options": [
+   "12",
+   "4",
+   "6",
+   "8"
+  ],
+  "answer": "C",
+  "hint": "Denk an einen Schuhkarton mit Deckel.",
+  "explanation": "Oben, unten, vorne, hinten, links, rechts: 6 Flächen.",
+  "more": "Gegenüberliegende Flächen eines Quaders sind immer gleich groß. Aus einem passenden Netz mit 6 Rechtecken kannst du einen Quader falten."
+ },
+ {
+  "id": "de-mathe-073",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Ein Bus hat 48 Sitzplätze. 29 sind besetzt. Wie viele Plätze sind noch frei?",
+  "options": [
+   "19",
+   "18",
+   "21",
+   "77"
+  ],
+  "answer": "A",
+  "hint": "Ziehe die besetzten Plätze von allen Plätzen ab.",
+  "explanation": "48 − 29 = 19.",
+  "more": "Trick: Ziehe 30 ab und gib 1 wieder dazu: 48 − 30 + 1 = 19. Mit runden Zahlen rechnet es sich viel leichter."
+ },
+ {
+  "id": "de-mathe-074",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl kommt als Nächstes? 1, 2, 4, 8, 16, …",
+  "options": [
+   "24",
+   "32",
+   "20",
+   "18"
+  ],
+  "answer": "B",
+  "hint": "Schau, womit jede Zahl malgenommen wird.",
+  "explanation": "Immer verdoppeln: 16 · 2 = 32.",
+  "more": "Weiter verdoppelt wird es schnell riesig: Nach 10 Schritten von 1 aus bist du schon bei 1.024. Computer rechnen genau mit diesen Zweierzahlen."
+ },
+ {
+  "id": "de-mathe-075",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist ein Drittel von 18?",
+  "options": [
+   "15",
+   "9",
+   "6",
+   "3"
+  ],
+  "answer": "C",
+  "hint": "Teile in drei gleich große Teile.",
+  "explanation": "18 : 3 = 6.",
+  "more": "Ein Drittel bekommt jedes Kind, wenn 3 Kinder gerecht teilen. Drei Drittel sind wieder das Ganze: 6 + 6 + 6 = 18."
+ },
+ {
+  "id": "de-mathe-076",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist ein Vielfaches von 7?",
+  "options": [
+   "17",
+   "57",
+   "27",
+   "49"
+  ],
+  "answer": "D",
+  "hint": "Denk an die Siebenerreihe.",
+  "explanation": "7 · 7 = 49.",
+  "more": "Die Siebenerreihe lautet 7, 14, 21, 28, 35, 42, 49, 56, 63, 70. Weil die Woche 7 Tage hat, begegnet sie dir ständig im Kalender."
+ },
+ {
+  "id": "de-mathe-077",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Sekunden hat eine Minute?",
+  "options": [
+   "100",
+   "60",
+   "30",
+   "24"
+  ],
+  "answer": "B",
+  "hint": "Es sind genauso viele wie Minuten in einer Stunde.",
+  "explanation": "1 min = 60 s.",
+  "more": "Eine Stunde hat 60 · 60 = 3.600 Sekunden. Zum Sekundenzählen sagst du „einundzwanzig, zweiundzwanzig“ – jedes Wort dauert etwa eine Sekunde."
+ },
+ {
+  "id": "de-mathe-078",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Tage sind 3 Wochen?",
+  "options": [
+   "10",
+   "18",
+   "21",
+   "24"
+  ],
+  "answer": "C",
+  "hint": "Eine Woche hat 7 Tage.",
+  "explanation": "3 · 7 = 21 Tage.",
+  "more": "Wochen in Tage umrechnen ist die Siebenerreihe: 4 Wochen sind 28 Tage. Die Sommerferien dauern meist 6 Wochen, also 42 Tage."
+ },
+ {
+  "id": "de-mathe-079",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Lena darf 2 verschiedene Kugeln Eis aus Vanille, Schoko und Erdbeere wählen. Die Reihenfolge ist egal. Wie viele Möglichkeiten gibt es?",
+  "options": [
+   "9",
+   "2",
+   "6",
+   "3"
+  ],
+  "answer": "D",
+  "hint": "Schreibe alle Paare mit den Anfangsbuchstaben auf.",
+  "explanation": "V+S, V+E, S+E: 3 Möglichkeiten.",
+  "more": "Wäre die Reihenfolge wichtig, gäbe es 6 Möglichkeiten, denn V+S und S+V zählen dann einzeln. Darf man zweimal dieselbe Sorte nehmen, kommen noch 3 dazu."
+ },
+ {
+  "id": "de-mathe-080",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Ein Diagramm zeigt die Besucher einer Bücherei: Montag 12, Dienstag 18, Mittwoch 9. Wie viele Besucher kamen an den drei Tagen zusammen?",
+  "options": [
+   "39",
+   "30",
+   "49",
+   "38"
+  ],
+  "answer": "A",
+  "hint": "Addiere alle drei Werte.",
+  "explanation": "12 + 18 + 9 = 39.",
+  "more": "Suche Paare, die leicht gehen: 12 + 18 = 30, dann + 9 = 39. Im Diagramm siehst du außerdem sofort, dass Dienstag der beliebteste Tag war."
+ },
+ {
+  "id": "de-mathe-081",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Gramm sind ein halbes Kilogramm?",
+  "options": [
+   "5.000 g",
+   "50 g",
+   "200 g",
+   "500 g"
+  ],
+  "answer": "D",
+  "hint": "Ein ganzes Kilogramm hat 1.000 g.",
+  "explanation": "1.000 g : 2 = 500 g.",
+  "more": "Ein Pfund sind 500 g – so sagen viele noch beim Bäcker oder auf dem Markt. Ein Päckchen Butter wiegt meist 250 g, also ein Viertelkilo."
+ },
+ {
+  "id": "de-mathe-082",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Ein Quadrat hat eine Seitenlänge von 5 cm. Wie groß ist der Umfang?",
+  "options": [
+   "20 cm",
+   "15 cm",
+   "10 cm",
+   "25 cm"
+  ],
+  "answer": "A",
+  "hint": "Ein Quadrat hat vier gleich lange Seiten.",
+  "explanation": "4 · 5 cm = 20 cm.",
+  "more": "Für ein quadratisches Beet mit 5 m Seitenlänge brauchst du 20 m Zaun. Beim Quadrat gilt immer: Umfang = 4 · Seitenlänge."
+ },
+ {
+  "id": "de-mathe-083",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl liegt genau in der Mitte zwischen 300 und 400?",
+  "options": [
+   "360",
+   "340",
+   "350",
+   "305"
+  ],
+  "answer": "C",
+  "hint": "Die Mitte ist die Hälfte des Abstands.",
+  "explanation": "Der Abstand ist 100, die Hälfte ist 50: 300 + 50 = 350.",
+  "more": "Die Mitte findest du auch so: beide Zahlen addieren und halbieren, (300 + 400) : 2 = 350. Das klappt bei allen Zahlenpaaren."
+ },
+ {
+  "id": "de-mathe-084",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele rechte Winkel hat ein Rechteck?",
+  "options": [
+   "1",
+   "4",
+   "0",
+   "2"
+  ],
+  "answer": "B",
+  "hint": "Schau dir jede Ecke einzeln an.",
+  "explanation": "Jede der 4 Ecken eines Rechtecks ist ein rechter Winkel.",
+  "more": "Einen rechten Winkel bastelst du, indem du ein Blatt zweimal faltest. Rechte Winkel stecken in Fenstern, Türen und Buchseiten."
+ },
+ {
+  "id": "de-mathe-085",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl ist um 10.000 größer als 245.380?",
+  "options": [
+   "345.380",
+   "255.380",
+   "246.380",
+   "245.390"
+  ],
+  "answer": "B",
+  "hint": "Überlege, welche Stelle sich ändert.",
+  "explanation": "Die Zehntausenderstelle wird um 1 größer: 245.380 + 10.000 = 255.380.",
+  "more": "Meist ändert sich bei plus 10.000 nur eine Stelle – außer es gibt einen Übertrag: 295.380 + 10.000 = 305.380."
+ },
+ {
+  "id": "de-mathe-086",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welchen Wert hat die Ziffer 7 in der Zahl 372.405?",
+  "options": [
+   "7",
+   "7.000",
+   "700.000",
+   "70.000"
+  ],
+  "answer": "D",
+  "hint": "Zähle die Stellen von rechts: E, Z, H, T, ZT, HT.",
+  "explanation": "Die 7 steht an der Zehntausenderstelle: 70.000.",
+  "more": "Eine Stellenwerttafel hilft: HT, ZT, T, H, Z, E. Jede Stelle weiter links ist 10-mal so viel wert wie die Stelle rechts daneben."
+ },
+ {
+  "id": "de-mathe-087",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie schreibt man „dreihunderttausendvierzig“ als Zahl?",
+  "options": [
+   "300.400",
+   "340.000",
+   "300.040",
+   "3.000.040"
+  ],
+  "answer": "C",
+  "hint": "Schreibe zuerst die Tausender, dann den Rest dreistellig.",
+  "explanation": "300 Tausender und 40 Einer: 300.040.",
+  "more": "Große Zahlen liest man in Dreierpäckchen von rechts, der Punkt trennt die Tausender ab. Eine Million hat schon 6 Nullen: 1.000.000."
+ },
+ {
+  "id": "de-mathe-088",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl ist die größte?",
+  "options": [
+   "540.030",
+   "450.300",
+   "504.300",
+   "54.300"
+  ],
+  "answer": "A",
+  "hint": "Vergleiche die Stellen von links nach rechts.",
+  "explanation": "540.030 und 504.300 haben beide 5 Hunderttausender, aber 540.030 hat 4 Zehntausender statt 0.",
+  "more": "Zähle zuerst die Stellen: 54.300 hat nur 5 Stellen und ist deshalb sofort kleiner. Bei gleich vielen Stellen vergleichst du von links nach rechts."
+ },
+ {
+  "id": "de-mathe-089",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Rechteck hat einen Umfang von 30 cm und ist 9 cm lang. Wie breit ist es?",
+  "options": [
+   "12 cm",
+   "21 cm",
+   "6 cm",
+   "3 cm"
+  ],
+  "answer": "C",
+  "hint": "Die Hälfte des Umfangs ist Länge plus Breite.",
+  "explanation": "30 cm : 2 = 15 cm; 15 cm − 9 cm = 6 cm.",
+  "more": "Rückwärtsrechnen ist Detektivarbeit: Der halbe Umfang ist immer Länge + Breite. Die Probe: (9 + 6) · 2 = 30 cm."
+ },
+ {
+  "id": "de-mathe-090",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Quadrat hat einen Flächeninhalt von 36 cm². Wie lang ist eine Seite?",
+  "options": [
+   "18 cm",
+   "4 cm",
+   "9 cm",
+   "6 cm"
+  ],
+  "answer": "D",
+  "hint": "Welche Zahl mal sich selbst ergibt den Flächeninhalt?",
+  "explanation": "6 · 6 = 36, also ist eine Seite 6 cm lang.",
+  "more": "Zahlen wie 36 heißen Quadratzahlen, weil man sie als Quadrat legen kann: 1, 4, 9, 16, 25, 36 … Mit 36 Plättchen legst du 6 Reihen zu je 6."
+ },
+ {
+  "id": "de-mathe-091",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Garten ist 12 m lang und 8 m breit. Wie groß ist seine Fläche?",
+  "options": [
+   "20 m²",
+   "96 m²",
+   "40 m²",
+   "96 m"
+  ],
+  "answer": "B",
+  "hint": "Flächeninhalt = Länge mal Breite.",
+  "explanation": "12 · 8 = 96, also 96 m².",
+  "more": "Ein Quadratmeter ist ein Quadrat mit 1 m Seitenlänge, etwa so groß wie ein kleiner Tisch. Rasensamen kauft man genau nach Quadratmetern."
+ },
+ {
+  "id": "de-mathe-092",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Lkw wiegt 7 t 400 kg. Wie viele Kilogramm sind das?",
+  "options": [
+   "7.400 kg",
+   "740 kg",
+   "7.040 kg",
+   "74.000 kg"
+  ],
+  "answer": "A",
+  "hint": "1 t hat 1.000 kg.",
+  "explanation": "7 t = 7.000 kg; 7.000 kg + 400 kg = 7.400 kg.",
+  "more": "Eine Tonne sind 1.000 kg – so viel wiegt ungefähr ein kleines Auto. Ein ausgewachsener Elefant kann 5 bis 6 Tonnen schwer sein."
+ },
+ {
+  "id": "de-mathe-093",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Paket wiegt 2,5 kg. Wie viele Gramm sind das?",
+  "options": [
+   "2.050 g",
+   "250 g",
+   "2.500 g",
+   "25.000 g"
+  ],
+  "answer": "C",
+  "hint": "Ein halbes Kilogramm sind 500 g.",
+  "explanation": "2 kg = 2.000 g und 0,5 kg = 500 g: 2.500 g.",
+  "more": "0,5 kg ist dasselbe wie ein halbes Kilo, also 500 g. Auf Paketen steht das Gewicht, weil schwere Pakete beim Versand mehr kosten."
+ },
+ {
+  "id": "de-mathe-094",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Eimer fasst 10 l. Wie viele Flaschen mit je 500 ml braucht man, um ihn zu füllen?",
+  "options": [
+   "20",
+   "5",
+   "2",
+   "50"
+  ],
+  "answer": "A",
+  "hint": "Überlege zuerst, wie viele dieser Flaschen 1 l ergeben.",
+  "explanation": "2 Flaschen zu 500 ml = 1 l, also 10 · 2 = 20 Flaschen.",
+  "more": "Ein voller Eimer mit 10 Litern Wasser wiegt etwa 10 kg – deshalb ist er so schwer. Eine Badewanne fasst sogar 150 Liter oder mehr."
+ },
+ {
+  "id": "de-mathe-095",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Läufer läuft jeden Tag 2,5 km. Wie viele Meter läuft er in einer Woche?",
+  "options": [
+   "14.500 m",
+   "175.000 m",
+   "1.750 m",
+   "17.500 m"
+  ],
+  "answer": "D",
+  "hint": "Rechne zuerst die Kilometer in Meter um.",
+  "explanation": "2,5 km = 2.500 m; 7 · 2.500 m = 17.500 m.",
+  "more": "Andersherum geht es auch: 17.500 m sind 17,5 km. Ein Marathon ist mit gut 42 km mehr als doppelt so lang."
+ },
+ {
+  "id": "de-mathe-096",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Zug fährt um 14:38 Uhr ab und kommt um 16:12 Uhr an. Wie lange dauert die Fahrt?",
+  "options": [
+   "2 Stunden 26 Minuten",
+   "1 Stunde 34 Minuten",
+   "1 Stunde 74 Minuten",
+   "2 Stunden 34 Minuten"
+  ],
+  "answer": "B",
+  "hint": "Rechne erst bis zur nächsten vollen Stunde.",
+  "explanation": "14:38 bis 15:00 Uhr = 22 min, bis 16:00 Uhr = 1 h, bis 16:12 Uhr = 12 min: 1 h 34 min.",
+  "more": "Genau so rechnest du mit Zugfahrplänen, auf denen nur Abfahrt und Ankunft stehen. Denk dran: Minuten gehen nur bis 59, dann beginnt eine neue Stunde."
+ },
+ {
+  "id": "de-mathe-097",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Minuten sind 3 Stunden 15 Minuten?",
+  "options": [
+   "180",
+   "215",
+   "195",
+   "315"
+  ],
+  "answer": "C",
+  "hint": "1 Stunde hat 60 Minuten.",
+  "explanation": "3 · 60 = 180; 180 + 15 = 195 Minuten.",
+  "more": "Ein Schultag mit 6 Stunden zu je 45 Minuten hat 6 · 45 = 270 Minuten Unterricht. Das sind 4 Stunden und 30 Minuten."
+ },
+ {
+  "id": "de-mathe-098",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Stunden sind 3 Tage?",
+  "options": [
+   "72",
+   "84",
+   "48",
+   "36"
+  ],
+  "answer": "A",
+  "hint": "Ein Tag hat 24 Stunden.",
+  "explanation": "3 · 24 = 72 Stunden.",
+  "more": "Eine ganze Woche hat 7 · 24 = 168 Stunden. Schläfst du jede Nacht 10 Stunden, sind davon 70 Stunden Schlaf!"
+ },
+ {
+  "id": "de-mathe-099",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Eine Kinokarte kostet 7,50 €. Wie viel kosten 4 Karten?",
+  "options": [
+   "30,50 €",
+   "30,00 €",
+   "28,00 €",
+   "28,50 €"
+  ],
+  "answer": "B",
+  "hint": "Rechne erst 4 · 7 € und dann 4 · 50 ct.",
+  "explanation": "4 · 7 € = 28 €; 4 · 50 ct = 2 €; zusammen 30,00 €.",
+  "more": "Noch schneller: 7,50 € ist ein Viertel von 30 €, darum kosten 4 Karten genau 30 €. Genauso gilt 4 · 25 ct = 1 €."
+ },
+ {
+  "id": "de-mathe-100",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Jonas kauft 3 Hefte zu je 1,20 € und einen Stift für 2,50 €. Er bezahlt mit 10 €. Wie viel Wechselgeld bekommt er?",
+  "options": [
+   "4,90 €",
+   "6,10 €",
+   "6,30 €",
+   "3,90 €"
+  ],
+  "answer": "D",
+  "hint": "Rechne erst den Gesamtpreis, dann den Rest bis 10 €.",
+  "explanation": "3 · 1,20 € = 3,60 €; 3,60 € + 2,50 € = 6,10 €; 10 € − 6,10 € = 3,90 €.",
+  "more": "Die Cent-Beträge 10 und 90 ergänzen sich zu 100 ct, darum passt 6,10 € + 3,90 € = 10 €. So kannst du jedes Wechselgeld prüfen."
+ },
+ {
+  "id": "de-mathe-101",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl ist durch 3 teilbar?",
+  "options": [
+   "124",
+   "251",
+   "410",
+   "342"
+  ],
+  "answer": "D",
+  "hint": "Bilde die Quersumme: Ist sie durch 3 teilbar, ist es auch die Zahl.",
+  "explanation": "Quersumme 3 + 4 + 2 = 9, und 9 ist durch 3 teilbar (342 : 3 = 114).",
+  "more": "Mit der Quersumme prüfst du auch, ob eine Zahl durch 9 teilbar ist: 342 hat die Quersumme 9, also gilt 342 : 9 = 38."
+ },
+ {
+  "id": "de-mathe-102",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl ist durch 4 teilbar?",
+  "options": [
+   "226",
+   "714",
+   "516",
+   "318"
+  ],
+  "answer": "C",
+  "hint": "Prüfe, ob die letzten zwei Ziffern durch 4 teilbar sind.",
+  "explanation": "16 ist durch 4 teilbar, also auch 516 (516 : 4 = 129).",
+  "more": "Die Regel: Sind die letzten beiden Ziffern durch 4 teilbar, dann auch die ganze Zahl. Schaltjahre wie 2024 sind immer durch 4 teilbar."
+ },
+ {
+  "id": "de-mathe-103",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl ist ein gemeinsames Vielfaches von 4 und 6?",
+  "options": [
+   "18",
+   "12",
+   "10",
+   "16"
+  ],
+  "answer": "B",
+  "hint": "Schreibe die Vierer- und die Sechserreihe auf und suche eine Zahl, die in beiden vorkommt.",
+  "explanation": "12 = 3 · 4 und 12 = 2 · 6.",
+  "more": "12 ist sogar das kleinste gemeinsame Vielfache von 4 und 6. Weitere gemeinsame Vielfache sind 24, 36 und 48 – alles Vielfache von 12."
+ },
+ {
+  "id": "de-mathe-104",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl kommt als Nächstes? 3, 6, 11, 18, 27, …",
+  "options": [
+   "38",
+   "45",
+   "37",
+   "36"
+  ],
+  "answer": "A",
+  "hint": "Schau dir die Abstände zwischen den Zahlen an.",
+  "explanation": "Die Abstände sind 3, 5, 7, 9 – also jetzt +11: 27 + 11 = 38.",
+  "more": "Die Abstände sind die ungeraden Zahlen. Ziehst du von jeder Zahl 2 ab, erhältst du 1, 4, 9, 16, 25 – die Quadratzahlen!"
+ },
+ {
+  "id": "de-mathe-105",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Mit den Ziffern 1, 2 und 3 sollen dreistellige Zahlen gebildet werden, jede Ziffer genau einmal. Wie viele verschiedene Zahlen gibt es?",
+  "options": [
+   "27",
+   "9",
+   "6",
+   "3"
+  ],
+  "answer": "C",
+  "hint": "Überlege, wie viele Ziffern für die erste, zweite und dritte Stelle übrig bleiben.",
+  "explanation": "3 · 2 · 1 = 6 (123, 132, 213, 231, 312, 321).",
+  "more": "Mit 4 Ziffern wären es schon 4 · 3 · 2 · 1 = 24 Zahlen. Genauso viele Möglichkeiten gibt es, 4 Kinder in einer Reihe aufzustellen."
+ },
+ {
+  "id": "de-mathe-106",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "4 Kinder geben sich zur Begrüßung gegenseitig einmal die Hand. Wie viele Handschläge sind das?",
+  "options": [
+   "16",
+   "6",
+   "8",
+   "12"
+  ],
+  "answer": "B",
+  "hint": "Jedes Paar gibt sich nur einmal die Hand.",
+  "explanation": "Das erste Kind gibt 3, das zweite noch 2, das dritte noch 1 Hand: 3 + 2 + 1 = 6.",
+  "more": "Bei 5 Kindern wären es 4 + 3 + 2 + 1 = 10 Handschläge. In einer Klasse mit 25 Kindern kämen sogar 300 Handschläge zusammen!"
+ },
+ {
+  "id": "de-mathe-107",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Säulendiagramm zeigt verkaufte Brezeln: Montag 40, Dienstag 55, Mittwoch 35, Donnerstag 50. Wie viele wurden am besten Tag mehr verkauft als am schlechtesten?",
+  "options": [
+   "20",
+   "5",
+   "90",
+   "15"
+  ],
+  "answer": "A",
+  "hint": "Suche den größten und den kleinsten Wert.",
+  "explanation": "Dienstag 55, Mittwoch 35: 55 − 35 = 20.",
+  "more": "Den Unterschied zwischen größtem und kleinstem Wert nennt man Spannweite. Zusammen wurden 40 + 55 + 35 + 50 = 180 Brezeln verkauft."
+ },
+ {
+  "id": "de-mathe-108",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was sind drei Viertel von 20?",
+  "options": [
+   "12",
+   "60",
+   "5",
+   "15"
+  ],
+  "answer": "D",
+  "hint": "Rechne erst ein Viertel aus und nimm es dann dreimal.",
+  "explanation": "20 : 4 = 5; 3 · 5 = 15.",
+  "more": "Drei Viertel einer Stunde rechnest du genauso: 60 : 4 = 15, dann 3 · 15 = 45 Minuten. Zum Ganzen fehlt dann noch ein Viertel."
+ },
+ {
+  "id": "de-mathe-109",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Schätze: Wie lang ist ein Fußballfeld ungefähr?",
+  "options": [
+   "10 m",
+   "100 m",
+   "1 km",
+   "1.000 cm"
+  ],
+  "answer": "B",
+  "hint": "Ein schneller Läufer rennt diese Strecke in etwa 10 bis 15 Sekunden.",
+  "explanation": "Ein Fußballfeld ist etwa 100 bis 110 m lang.",
+  "more": "Ein Fußballfeld ist meist etwa 105 m lang und 68 m breit. Mit gut 7.000 m² ist es so groß wie ungefähr 100 Klassenzimmer."
+ },
+ {
+  "id": "de-mathe-110",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Würfel hat eine Kantenlänge von 3 cm. Wie lang sind alle Kanten zusammen?",
+  "options": [
+   "27 cm",
+   "18 cm",
+   "24 cm",
+   "36 cm"
+  ],
+  "answer": "D",
+  "hint": "Überlege zuerst, wie viele Kanten ein Würfel hat.",
+  "explanation": "Ein Würfel hat 12 Kanten: 12 · 3 cm = 36 cm.",
+  "more": "Für ein Kantenmodell bräuchtest du also 36 cm Draht. Ein Quader mit 3 cm, 4 cm und 5 cm Kanten hat von jeder Länge 4: zusammen 48 cm."
+ },
+ {
+  "id": "de-mathe-111",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Symmetrieachsen hat ein Quadrat?",
+  "options": [
+   "4",
+   "1",
+   "8",
+   "2"
+  ],
+  "answer": "A",
+  "hint": "Denk an Faltlinien durch die Seitenmitten und durch die Ecken.",
+  "explanation": "2 Achsen durch die Seitenmitten und 2 durch die Ecken: 4.",
+  "more": "Ein Rechteck, das kein Quadrat ist, hat nur 2 Symmetrieachsen, ein gleichseitiges Dreieck 3 und ein Kreis sogar unendlich viele."
  }
 ]
