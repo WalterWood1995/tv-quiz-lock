@@ -14,7 +14,8 @@
   ],
   "answer": "D",
   "hint": "Zähle von Montag bis Sonntag.",
-  "explanation": "Montag bis Sonntag: sieben Tage."
+  "explanation": "Montag bis Sonntag: sieben Tage.",
+  "more": "Viele Wochentage haben spannende Namen: Der Sonntag ist nach der Sonne benannt und der Montag nach dem Mond."
  },
  {
   "id": "de-sachunterricht-002",
@@ -31,7 +32,8 @@
   ],
   "answer": "C",
   "hint": "Denk an die Zeit, in der die ersten Blumen blühen und es wärmer wird.",
-  "explanation": "Frühling, Sommer, Herbst, Winter – dann wieder Frühling."
+  "explanation": "Frühling, Sommer, Herbst, Winter – dann wieder Frühling.",
+  "more": "Jahreszeiten gibt es, weil die Erdachse schief steht. Deshalb ist in Australien Sommer, wenn bei uns Winter ist – dort feiert man Weihnachten oft am Strand!"
  },
  {
   "id": "de-sachunterricht-003",
@@ -48,7 +50,8 @@
   ],
   "answer": "C",
   "hint": "Es ist dieselbe Farbe wie frisches Gras.",
-  "explanation": "Bei Grün darf man gehen – trotzdem links und rechts schauen!"
+  "explanation": "Bei Grün darf man gehen – trotzdem links und rechts schauen!",
+  "more": "In Ostdeutschland siehst du oft ein besonderes Ampelmännchen: Es trägt einen Hut und ist in Berlin sogar ein beliebtes Souvenir."
  },
  {
   "id": "de-sachunterricht-004",
@@ -65,7 +68,8 @@
   ],
   "answer": "D",
   "hint": "Zähle von Januar bis Dezember.",
-  "explanation": "Januar bis Dezember: zwölf Monate."
+  "explanation": "Januar bis Dezember: zwölf Monate.",
+  "more": "Bei den alten Römern begann das Jahr früher im März. Darum steckt im Namen September das lateinische Wort „septem“ – das heißt sieben."
  },
  {
   "id": "de-sachunterricht-005",
@@ -82,7 +86,8 @@
   ],
   "answer": "C",
   "hint": "Denk an ein Fahrzeug, das in der Stadt an einer Oberleitung fährt.",
-  "explanation": "Straßenbahnen und Züge fahren auf Schienen."
+  "explanation": "Straßenbahnen und Züge fahren auf Schienen.",
+  "more": "Die erste elektrische Straßenbahn der Welt fuhr schon 1881 in Berlin. Vorher wurden Straßenbahnen oft von Pferden gezogen!"
  },
  {
   "id": "de-sachunterricht-006",
@@ -99,7 +104,8 @@
   ],
   "answer": "D",
   "hint": "Welches Tier trinkt als Baby Milch bei seiner Mutter?",
-  "explanation": "Igel-Mütter säugen ihre Jungen mit Milch."
+  "explanation": "Igel-Mütter säugen ihre Jungen mit Milch.",
+  "more": "Ein erwachsener Igel hat etwa 6000 bis 8000 Stacheln. Bei Gefahr rollt er sich zu einer stacheligen Kugel zusammen."
  },
  {
   "id": "de-sachunterricht-007",
@@ -116,7 +122,8 @@
   ],
   "answer": "B",
   "hint": "Denk daran, was du einer Zimmerpflanze gibst und wo du sie hinstellst.",
-  "explanation": "Ohne Wasser, Licht und Luft kann keine Pflanze wachsen."
+  "explanation": "Ohne Wasser, Licht und Luft kann keine Pflanze wachsen.",
+  "more": "Pflanzen wachsen zum Licht hin. Stell eine Bohnenpflanze ans Fenster und beobachte, wie sie sich nach ein paar Tagen zur Scheibe biegt."
  },
  {
   "id": "de-sachunterricht-008",
@@ -133,7 +140,8 @@
   ],
   "answer": "B",
   "hint": "Zähle die Beine eines Käfers oder einer Ameise.",
-  "explanation": "Insekten haben sechs Beine. Spinnen haben acht und sind keine Insekten."
+  "explanation": "Insekten haben sechs Beine. Spinnen haben acht und sind keine Insekten.",
+  "more": "Der Körper eines Insekts hat drei Teile: Kopf, Brust und Hinterleib. Daher kommt auch der Name – „Insekt“ heißt „eingeschnitten“."
  },
  {
   "id": "de-sachunterricht-009",
@@ -150,7 +158,8 @@
   ],
   "answer": "B",
   "hint": "Spinnen haben mehr Beine als Insekten.",
-  "explanation": "Spinnen haben acht Beine."
+  "explanation": "Spinnen haben acht Beine.",
+  "more": "Die meisten Spinnen haben nicht nur acht Beine, sondern auch acht Augen. Und ihr Spinnenfaden ist für seine Dicke erstaunlich reißfest."
  },
  {
   "id": "de-sachunterricht-010",
@@ -167,7 +176,8 @@
   ],
   "answer": "B",
   "hint": "Es ist die europaweite Notrufnummer für Feuerwehr und Rettungsdienst.",
-  "explanation": "112 = Feuerwehr und Rettungsdienst. 110 = Polizei."
+  "explanation": "112 = Feuerwehr und Rettungsdienst. 110 = Polizei.",
+  "more": "Die 112 funktioniert in allen Ländern der Europäischen Union – und sie kostet nichts, auch vom Handy aus."
  },
  {
   "id": "de-sachunterricht-011",
@@ -184,7 +194,8 @@
   ],
   "answer": "B",
   "hint": "Diese Nummer beginnt wie die Feuerwehr-Nummer, endet aber mit einer Null.",
-  "explanation": "110 = Polizei."
+  "explanation": "110 = Polizei.",
+  "more": "Bei einem Notruf helfen die W-Fragen: Wo ist es passiert? Was ist passiert? Wie viele sind verletzt? Und dann auf Rückfragen warten."
  },
  {
   "id": "de-sachunterricht-012",
@@ -201,7 +212,8 @@
   ],
   "answer": "D",
   "hint": "Es ist der letzte Monat im Jahr.",
-  "explanation": "Weihnachten ist am 24. bis 26. Dezember."
+  "explanation": "Weihnachten ist am 24. bis 26. Dezember.",
+  "more": "Der Adventskranz hat vier Kerzen – an jedem Adventssonntag vor Weihnachten wird eine weitere angezündet."
  },
  {
   "id": "de-sachunterricht-013",
@@ -218,7 +230,8 @@
   ],
   "answer": "A",
   "hint": "Denk an das, was du morgens und abends im Bad machst.",
-  "explanation": "Morgens und abends putzen schützt vor Karies."
+  "explanation": "Morgens und abends putzen schützt vor Karies.",
+  "more": "Der Zahnschmelz ist der härteste Stoff in deinem ganzen Körper – sogar härter als Knochen. Trotzdem können Zucker und Säure ihm schaden."
  },
  {
   "id": "de-sachunterricht-014",
@@ -235,7 +248,8 @@
   ],
   "answer": "C",
   "hint": "Das Tier frisst zuerst viele Blätter und verpuppt sich dann.",
-  "explanation": "Ei → Raupe → Puppe → Schmetterling."
+  "explanation": "Ei → Raupe → Puppe → Schmetterling.",
+  "more": "Schmetterlinge schmecken mit ihren Füßen! Landen sie auf einer Blüte, merken sie sofort, ob es dort leckeren Nektar gibt."
  },
  {
   "id": "de-sachunterricht-015",
@@ -252,7 +266,8 @@
   ],
   "answer": "C",
   "hint": "Im Teich schlüpfen zuerst kleine Tiere mit Schwanz aus dem Laich.",
-  "explanation": "Laich → Kaulquappe → Frosch."
+  "explanation": "Laich → Kaulquappe → Frosch.",
+  "more": "Frösche trinken nicht mit dem Mund. Sie nehmen Wasser einfach über ihre dünne Haut auf."
  },
  {
   "id": "de-sachunterricht-016",
@@ -269,7 +284,8 @@
   ],
   "answer": "C",
   "hint": "Es hat mehr Ecken als ein Viereck und die Farbe der Warnung.",
-  "explanation": "Das Stoppschild ist ein rotes Achteck."
+  "explanation": "Das Stoppschild ist ein rotes Achteck.",
+  "more": "Das Stoppschild hat als einziges Verkehrsschild acht Ecken. So erkennt man es sogar von hinten oder wenn Schnee darauf liegt."
  },
  {
   "id": "de-sachunterricht-017",
@@ -286,7 +302,8 @@
   ],
   "answer": "C",
   "hint": "Dort steht das Brandenburger Tor.",
-  "explanation": "Berlin ist die Hauptstadt Deutschlands."
+  "explanation": "Berlin ist die Hauptstadt Deutschlands.",
+  "more": "Der Berliner Fernsehturm ist mit 368 Metern das höchste Bauwerk Deutschlands. Von oben kann man bei klarem Wetter sehr weit sehen."
  },
  {
   "id": "de-sachunterricht-018",
@@ -303,7 +320,8 @@
   ],
   "answer": "B",
   "hint": "Es sind mehr als zwölf, aber weniger als zwanzig.",
-  "explanation": "Deutschland hat 16 Bundesländer."
+  "explanation": "Deutschland hat 16 Bundesländer.",
+  "more": "Jedes Bundesland hat seine eigene Landeshauptstadt und legt sogar selbst fest, wann die Schulferien sind."
  },
  {
   "id": "de-sachunterricht-019",
@@ -320,7 +338,8 @@
   ],
   "answer": "A",
   "hint": "Denk an die Temperatur, bei der aus Wasser Eis wird.",
-  "explanation": "Bei 0 °C wird Wasser zu Eis."
+  "explanation": "Bei 0 °C wird Wasser zu Eis.",
+  "more": "Eis ist leichter als Wasser und schwimmt deshalb oben. Darum frieren Seen von oben zu, und die Fische können darunter überwintern."
  },
  {
   "id": "de-sachunterricht-020",
@@ -337,7 +356,8 @@
   ],
   "answer": "D",
   "hint": "Es ist eine ganz runde, dreistellige Zahl.",
-  "explanation": "Wasser kocht bei etwa 100 °C."
+  "explanation": "Wasser kocht bei etwa 100 °C.",
+  "more": "Auf hohen Bergen kocht Wasser schon früher: Auf der Zugspitze sprudelt es bei etwa 90 °C, weil dort die Luft dünner ist."
  },
  {
   "id": "de-sachunterricht-021",
@@ -354,7 +374,8 @@
   ],
   "answer": "C",
   "hint": "Die Kompassnadel ist ein kleiner Magnet und zeigt zum Nordpol der Erde.",
-  "explanation": "Die Kompassnadel ist ein kleiner Magnet und zeigt nach Norden."
+  "explanation": "Die Kompassnadel ist ein kleiner Magnet und zeigt nach Norden.",
+  "more": "Die ganze Erde ist wie ein riesiger Magnet. Deshalb richtet sich die Kompassnadel überall auf der Welt nach Norden aus."
  },
  {
   "id": "de-sachunterricht-022",
@@ -371,7 +392,8 @@
   ],
   "answer": "B",
   "hint": "Die Sonne geht auf der Seite auf, die auf der Karte rechts liegt.",
-  "explanation": "Im Osten geht die Sonne auf, im Westen geht sie unter."
+  "explanation": "Im Osten geht die Sonne auf, im Westen geht sie unter.",
+  "more": "Mittags steht die Sonne bei uns im Süden. Mit diesem Wissen findest du die Himmelsrichtungen auch ohne Kompass."
  },
  {
   "id": "de-sachunterricht-023",
@@ -388,7 +410,8 @@
   ],
   "answer": "C",
   "hint": "Es ist einer der längsten Flüsse Deutschlands und fließt durch viele große Städte im Westen.",
-  "explanation": "Köln liegt am Rhein."
+  "explanation": "Köln liegt am Rhein.",
+  "more": "Auf dem Rhein fahren viele große Frachtschiffe. Er ist einer der wichtigsten Wasserwege Europas."
  },
  {
   "id": "de-sachunterricht-024",
@@ -405,7 +428,8 @@
   ],
   "answer": "C",
   "hint": "In die Biotonne kommt alles, was verrotten kann.",
-  "explanation": "Essensreste und Schalen kommen in den Biomüll."
+  "explanation": "Essensreste und Schalen kommen in den Biomüll.",
+  "more": "Aus Biomüll wird Kompost – das ist wertvolle Erde für Gärten. Regenwürmer und winzige Lebewesen helfen dabei, die Reste zu zersetzen."
  },
  {
   "id": "de-sachunterricht-025",
@@ -422,7 +446,8 @@
   ],
   "answer": "A",
   "hint": "In den Gelben Sack gehören Verpackungen aus Kunststoff und Metall.",
-  "explanation": "Verpackungen aus Plastik und Metall kommen in den Gelben Sack."
+  "explanation": "Verpackungen aus Plastik und Metall kommen in den Gelben Sack.",
+  "more": "Aus recyceltem Plastik können neue Dinge werden, zum Beispiel Eimer, Blumentöpfe oder sogar Parkbänke."
  },
  {
   "id": "de-sachunterricht-026",
@@ -439,7 +464,8 @@
   ],
   "answer": "D",
   "hint": "Du kannst es schlagen spüren, wenn du die Hand auf die Brust legst.",
-  "explanation": "Das Herz ist ein Muskel, der das Blut pumpt."
+  "explanation": "Das Herz ist ein Muskel, der das Blut pumpt.",
+  "more": "Dein Herz ist ungefähr so groß wie deine Faust. Bei Erwachsenen schlägt es etwa 100.000 Mal am Tag!"
  },
  {
   "id": "de-sachunterricht-027",
@@ -456,7 +482,8 @@
   ],
   "answer": "A",
   "hint": "Dieses Organ füllt sich mit Luft, wenn du tief einatmest.",
-  "explanation": "In der Lunge kommt Sauerstoff ins Blut."
+  "explanation": "In der Lunge kommt Sauerstoff ins Blut.",
+  "more": "Die Lunge selbst hat keine Muskeln. Ein Muskel darunter, das Zwerchfell, zieht sie auseinander – leg die Hand auf den Bauch und spür es beim Einatmen."
  },
  {
   "id": "de-sachunterricht-028",
@@ -473,7 +500,8 @@
   ],
   "answer": "C",
   "hint": "Denk an Eis, Wasser und Dampf.",
-  "explanation": "Eis ist fest, Wasser flüssig, Dampf gasförmig."
+  "explanation": "Eis ist fest, Wasser flüssig, Dampf gasförmig.",
+  "more": "Echter Wasserdampf ist unsichtbar! Die weiße Wolke über dem Kochtopf besteht schon wieder aus winzigen Wassertröpfchen."
  },
  {
   "id": "de-sachunterricht-029",
@@ -490,7 +518,8 @@
   ],
   "answer": "C",
   "hint": "Damit kann man andere warnen und im Dunkeln gesehen werden.",
-  "explanation": "Vorgeschrieben sind z. B. zwei Bremsen, Klingel, Licht und Reflektoren."
+  "explanation": "Vorgeschrieben sind z. B. zwei Bremsen, Klingel, Licht und Reflektoren.",
+  "more": "Kinder bis acht Jahre müssen in Deutschland mit dem Fahrrad auf dem Gehweg fahren, bis zehn Jahre dürfen sie es noch."
  },
  {
   "id": "de-sachunterricht-030",
@@ -507,7 +536,8 @@
   ],
   "answer": "C",
   "hint": "Der Name der Frucht klingt fast wie der Name des Baumes.",
-  "explanation": "Eicheln sind die Früchte der Eiche."
+  "explanation": "Eicheln sind die Früchte der Eiche.",
+  "more": "Eichelhäher verstecken Eicheln als Wintervorrat. Aus vergessenen Eicheln wachsen neue Eichen – die Vögel pflanzen also ganz nebenbei Bäume."
  },
  {
   "id": "de-sachunterricht-031",
@@ -524,7 +554,8 @@
   ],
   "answer": "B",
   "hint": "Es ist ein Nadelbaum.",
-  "explanation": "Fichten sind immergrün. Laubbäume verlieren im Herbst ihre Blätter."
+  "explanation": "Fichten sind immergrün. Laubbäume verlieren im Herbst ihre Blätter.",
+  "more": "Ein Merkspruch hilft: „Die Fichte sticht, die Tanne nicht.“ Die Nadeln der Fichte sind spitz, die der Tanne eher weich."
  },
  {
   "id": "de-sachunterricht-032",
@@ -541,7 +572,8 @@
   ],
   "answer": "A",
   "hint": "Dieser große Vogel hat lange rote Beine und baut sein Nest gern auf Dächern.",
-  "explanation": "Störche sind Zugvögel und überwintern im Süden."
+  "explanation": "Störche sind Zugvögel und überwintern im Süden.",
+  "more": "Störche singen nicht. Sie verständigen sich, indem sie laut mit ihrem Schnabel klappern."
  },
  {
   "id": "de-sachunterricht-033",
@@ -558,7 +590,8 @@
   ],
   "answer": "B",
   "hint": "Dieses Tier hat Stacheln und schläft in einem Laubhaufen.",
-  "explanation": "Igel schlafen den ganzen Winter. Eichhörnchen halten nur Winterruhe."
+  "explanation": "Igel schlafen den ganzen Winter. Eichhörnchen halten nur Winterruhe.",
+  "more": "Im Winterschlaf schlägt das Igelherz viel langsamer, und seine Körpertemperatur sinkt auf nur wenige Grad. So spart er Energie."
  },
  {
   "id": "de-sachunterricht-034",
@@ -575,7 +608,8 @@
   ],
   "answer": "C",
   "hint": "Dieser Teil steckt in der Erde.",
-  "explanation": "Die Wurzeln saugen Wasser und Nährstoffe aus der Erde."
+  "explanation": "Die Wurzeln saugen Wasser und Nährstoffe aus der Erde.",
+  "more": "Probier es aus: Stell eine weiße Blume in Wasser mit Lebensmittelfarbe. Nach einiger Zeit färben sich die Blüten, weil das Wasser nach oben wandert."
  },
  {
   "id": "de-sachunterricht-035",
@@ -592,7 +626,8 @@
   ],
   "answer": "B",
   "hint": "Dort liegen die Alpen und die Stadt München.",
-  "explanation": "Bayern hat die größte Fläche."
+  "explanation": "Bayern hat die größte Fläche.",
+  "more": "Bayern ist sogar größer als die Schweiz oder die Niederlande. Dort liegen auch die Alpen mit Deutschlands höchsten Bergen."
  },
  {
   "id": "de-sachunterricht-036",
@@ -609,7 +644,8 @@
   ],
   "answer": "B",
   "hint": "In diesem Land liegen Köln, Düsseldorf und das Ruhrgebiet.",
-  "explanation": "In Nordrhein-Westfalen leben fast 18 Millionen Menschen."
+  "explanation": "In Nordrhein-Westfalen leben fast 18 Millionen Menschen.",
+  "more": "Im Ruhrgebiet in Nordrhein-Westfalen wurde früher sehr viel Steinkohle aus der Erde geholt. Die letzte Zeche schloss im Jahr 2018."
  },
  {
   "id": "de-sachunterricht-037",
@@ -626,7 +662,8 @@
   ],
   "answer": "A",
   "hint": "Ein Meer liegt im Nordwesten, das andere im Nordosten.",
-  "explanation": "Im Norden liegen die Nordsee und die Ostsee."
+  "explanation": "Im Norden liegen die Nordsee und die Ostsee.",
+  "more": "An der Nordsee gibt es Ebbe und Flut. Bei Ebbe kann man über das Wattenmeer laufen – es gehört zum Weltnaturerbe."
  },
  {
   "id": "de-sachunterricht-038",
@@ -643,7 +680,8 @@
   ],
   "answer": "B",
   "hint": "Der Berg liegt in den Alpen an der Grenze zu Österreich.",
-  "explanation": "Die Zugspitze ist fast 3000 m hoch."
+  "explanation": "Die Zugspitze ist fast 3000 m hoch.",
+  "more": "Über den Gipfel der Zugspitze verläuft die Grenze zu Österreich. Ganz oben steht ein goldenes Gipfelkreuz."
  },
  {
   "id": "de-sachunterricht-039",
@@ -660,7 +698,8 @@
   ],
   "answer": "C",
   "hint": "Oben ist die dunkelste Farbe.",
-  "explanation": "Schwarz – Rot – Gold."
+  "explanation": "Schwarz – Rot – Gold.",
+  "more": "Schon vor fast 200 Jahren trugen Menschen Schwarz-Rot-Gold, als sie für Freiheit und ein gemeinsames Deutschland eintraten."
  },
  {
   "id": "de-sachunterricht-040",
@@ -677,7 +716,8 @@
   ],
   "answer": "D",
   "hint": "Magnete ziehen Dinge aus Eisen an.",
-  "explanation": "Magnete ziehen Eisen an – Holz, Glas und Kupfer nicht."
+  "explanation": "Magnete ziehen Eisen an – Holz, Glas und Kupfer nicht.",
+  "more": "Teste mal Münzen: 1-, 2- und 5-Cent-Stücke bleiben am Magneten hängen, weil in ihnen Stahl steckt, der nur mit Kupfer überzogen ist."
  },
  {
   "id": "de-sachunterricht-041",
@@ -694,7 +734,8 @@
   ],
   "answer": "B",
   "hint": "Die Pflanze stellt Nahrung her und gibt etwas ab, das wir zum Atmen brauchen.",
-  "explanation": "Pflanzen machen aus Wasser und Kohlendioxid mit Licht Zucker und Sauerstoff."
+  "explanation": "Pflanzen machen aus Wasser und Kohlendioxid mit Licht Zucker und Sauerstoff.",
+  "more": "Auch im Meer wird viel Sauerstoff gemacht: Winzige Algen stellen ungefähr die Hälfte des Sauerstoffs auf der Erde her."
  },
  {
   "id": "de-sachunterricht-042",
@@ -711,7 +752,8 @@
   ],
   "answer": "C",
   "hint": "Der Strom muss ohne Lücke im Kreis fließen können.",
-  "explanation": "Strom fließt nur in einem geschlossenen Kreis."
+  "explanation": "Strom fließt nur in einem geschlossenen Kreis.",
+  "more": "Ein Lichtschalter macht genau das: Er schließt den Stromkreis, und die Lampe geht an. Schaltest du aus, wird der Kreis unterbrochen."
  },
  {
   "id": "de-sachunterricht-043",
@@ -728,7 +770,8 @@
   ],
   "answer": "A",
   "hint": "Es ist der kleinste Planet unseres Sonnensystems.",
-  "explanation": "Merkur, Venus, Erde, Mars … – Merkur ist der erste."
+  "explanation": "Merkur, Venus, Erde, Mars … – Merkur ist der erste.",
+  "more": "Auf dem Merkur dauert ein Jahr nur 88 Erdentage, so schnell saust er um die Sonne. Einen Mond hat er nicht."
  },
  {
   "id": "de-sachunterricht-044",
@@ -745,7 +788,8 @@
   ],
   "answer": "B",
   "hint": "Deshalb feiern wir nach jeder Runde Geburtstag.",
-  "explanation": "Eine Runde um die Sonne dauert ein Jahr; eine Drehung um sich selbst einen Tag."
+  "explanation": "Eine Runde um die Sonne dauert ein Jahr; eine Drehung um sich selbst einen Tag.",
+  "more": "Die Erde braucht genau genommen etwa 365 und einen Vierteltag. Darum gibt es alle vier Jahre ein Schaltjahr mit dem 29. Februar."
  },
  {
   "id": "de-sachunterricht-045",
@@ -762,7 +806,8 @@
   ],
   "answer": "D",
   "hint": "In einer Demokratie bestimmen die Menschen, die dort wohnen.",
-  "explanation": "In Deutschland wählen die Menschen der Gemeinde ihre Bürgermeisterin oder ihren Bürgermeister."
+  "explanation": "In Deutschland wählen die Menschen der Gemeinde ihre Bürgermeisterin oder ihren Bürgermeister.",
+  "more": "In vielen Bundesländern dürfen Jugendliche schon ab 16 Jahren bei der Wahl in ihrer Gemeinde mitbestimmen."
  },
  {
   "id": "de-sachunterricht-046",
@@ -779,7 +824,8 @@
   ],
   "answer": "D",
   "hint": "Dieses Sinnesorgan sitzt an beiden Seiten deines Kopfes.",
-  "explanation": "Mit den Ohren hören wir Geräusche, Musik und Stimmen."
+  "explanation": "Mit den Ohren hören wir Geräusche, Musik und Stimmen.",
+  "more": "Im Ohr sitzt der kleinste Knochen deines Körpers: der Steigbügel. Er ist nur etwa so groß wie ein Reiskorn."
  },
  {
   "id": "de-sachunterricht-047",
@@ -796,7 +842,8 @@
   ],
   "answer": "C",
   "hint": "Es sitzt mitten in deinem Gesicht.",
-  "explanation": "Mit der Nase riechen wir Düfte, zum Beispiel Blumen oder frisches Brot."
+  "explanation": "Mit der Nase riechen wir Düfte, zum Beispiel Blumen oder frisches Brot.",
+  "more": "Halt dir beim Essen mal die Nase zu: Vieles schmeckt dann fade, weil ein großer Teil des Geschmacks eigentlich über die Nase kommt."
  },
  {
   "id": "de-sachunterricht-048",
@@ -813,7 +860,8 @@
   ],
   "answer": "D",
   "hint": "Es liegt in deinem Mund.",
-  "explanation": "Auf der Zunge schmecken wir süß, sauer, salzig und bitter."
+  "explanation": "Auf der Zunge schmecken wir süß, sauer, salzig und bitter.",
+  "more": "Es gibt noch einen fünften Geschmack: „umami“, das heißt herzhaft. Den schmeckst du zum Beispiel in Tomaten oder Käse."
  },
  {
   "id": "de-sachunterricht-049",
@@ -830,7 +878,8 @@
   ],
   "answer": "D",
   "hint": "Du brauchst dafür Wasser und etwas, das schäumt.",
-  "explanation": "Mit Seife und Wasser werden Bakterien und Viren abgewaschen."
+  "explanation": "Mit Seife und Wasser werden Bakterien und Viren abgewaschen.",
+  "more": "Gründliches Händewaschen dauert etwa 20 bis 30 Sekunden – ungefähr so lange, wie du zweimal „Happy Birthday“ summst."
  },
  {
   "id": "de-sachunterricht-050",
@@ -847,7 +896,8 @@
   ],
   "answer": "A",
   "hint": "Affen fressen es gern.",
-  "explanation": "Die Banane ist gelb und krumm."
+  "explanation": "Die Banane ist gelb und krumm.",
+  "more": "Bananen wachsen an der Staude nach oben dem Licht entgegen – deshalb werden sie krumm. Die Bananenpflanze ist gar kein Baum, sondern eine riesige Staude."
  },
  {
   "id": "de-sachunterricht-051",
@@ -864,7 +914,8 @@
   ],
   "answer": "B",
   "hint": "Es hat keinen Zucker und keine Farbe.",
-  "explanation": "Wasser löscht den Durst und enthält keinen Zucker."
+  "explanation": "Wasser löscht den Durst und enthält keinen Zucker.",
+  "more": "Dein Körper besteht zu mehr als der Hälfte aus Wasser. Darum ist regelmäßiges Trinken so wichtig, besonders beim Toben und bei Hitze."
  },
  {
   "id": "de-sachunterricht-052",
@@ -881,7 +932,8 @@
   ],
   "answer": "A",
   "hint": "Dieses Haustier geht gern mit dir Gassi.",
-  "explanation": "Hunde bellen, Katzen miauen und Kühe muhen."
+  "explanation": "Hunde bellen, Katzen miauen und Kühe muhen.",
+  "more": "Hunde riechen viel besser als Menschen. Und jeder Hund hat einen eigenen Nasenabdruck – so einzigartig wie dein Fingerabdruck."
  },
  {
   "id": "de-sachunterricht-053",
@@ -898,7 +950,8 @@
   ],
   "answer": "C",
   "hint": "Es lebt auf dem Bauernhof und gackert.",
-  "explanation": "Aus den Eiern vom Huhn schlüpfen Küken."
+  "explanation": "Aus den Eiern vom Huhn schlüpfen Küken.",
+  "more": "Ein Küken braucht etwa 21 Tage im Ei. Zum Schlüpfen hat es einen kleinen Eizahn am Schnabel, mit dem es die Schale aufpickt."
  },
  {
   "id": "de-sachunterricht-054",
@@ -915,7 +968,8 @@
   ],
   "answer": "B",
   "hint": "Es steht auf der Weide und macht „Muh“.",
-  "explanation": "Die Kuh gibt Milch, aus der man auch Käse und Joghurt macht."
+  "explanation": "Die Kuh gibt Milch, aus der man auch Käse und Joghurt macht.",
+  "more": "Kühe sind Wiederkäuer: Ihr Magen hat vier Kammern, und sie kauen ihr Futter später noch einmal durch."
  },
  {
   "id": "de-sachunterricht-055",
@@ -932,7 +986,8 @@
   ],
   "answer": "A",
   "hint": "Das Wort beginnt mit F.",
-  "explanation": "Ein junges Pferd heißt Fohlen."
+  "explanation": "Ein junges Pferd heißt Fohlen.",
+  "more": "Ein Fohlen kann schon kurz nach der Geburt aufstehen und laufen. In der Natur ist das wichtig, damit es mit der Herde mitkommt."
  },
  {
   "id": "de-sachunterricht-056",
@@ -949,7 +1004,8 @@
   ],
   "answer": "B",
   "hint": "Es hat weiche Wolle und blökt leise.",
-  "explanation": "Ein junges Schaf heißt Lamm."
+  "explanation": "Ein junges Schaf heißt Lamm.",
+  "more": "Bei vielen Hausschafen wächst die Wolle immer weiter. Darum werden sie geschoren – aus der Wolle entstehen dann Pullis und Socken."
  },
  {
   "id": "de-sachunterricht-057",
@@ -966,7 +1022,8 @@
   ],
   "answer": "D",
   "hint": "In dieser Jahreszeit sammelt man bunte Blätter und Kastanien.",
-  "explanation": "Im Herbst werden die Blätter bunt und fallen ab."
+  "explanation": "Im Herbst werden die Blätter bunt und fallen ab.",
+  "more": "Das Gelb und Orange war schon den ganzen Sommer in den Blättern versteckt. Im Herbst baut der Baum das Grün ab, und die anderen Farben erscheinen."
  },
  {
   "id": "de-sachunterricht-058",
@@ -983,7 +1040,8 @@
   ],
   "answer": "C",
   "hint": "Dann gibt es große Ferien und man geht ins Freibad.",
-  "explanation": "Im Sommer scheint die Sonne lange und es ist warm."
+  "explanation": "Im Sommer scheint die Sonne lange und es ist warm.",
+  "more": "Um den 21. Juni ist der längste Tag des Jahres. Dann ist es bei uns rund 16 bis 17 Stunden lang hell."
  },
  {
   "id": "de-sachunterricht-059",
@@ -1000,7 +1058,8 @@
   ],
   "answer": "C",
   "hint": "Den spannst du über deinem Kopf auf.",
-  "explanation": "Ein Regenschirm hält dich trocken."
+  "explanation": "Ein Regenschirm hält dich trocken.",
+  "more": "Einen Regenbogen siehst du, wenn die Sonne hinter dir scheint und vor dir Regen fällt. Die Tropfen zerlegen das Licht in bunte Farben."
  },
  {
   "id": "de-sachunterricht-060",
@@ -1017,7 +1076,8 @@
   ],
   "answer": "C",
   "hint": "Er entsteht, wenn es in den Wolken sehr kalt ist.",
-  "explanation": "Schneeflocken sind kleine Kristalle aus Eis – also gefrorenes Wasser."
+  "explanation": "Schneeflocken sind kleine Kristalle aus Eis – also gefrorenes Wasser.",
+  "more": "Fast alle Schneeflocken haben sechs Arme oder sechs Ecken. Fang mal welche auf einem dunklen Handschuh und schau sie dir genau an."
  },
  {
   "id": "de-sachunterricht-061",
@@ -1034,7 +1094,8 @@
   ],
   "answer": "A",
   "hint": "Es ist der zweite Tag der Woche.",
-  "explanation": "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+  "explanation": "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag.",
+  "more": "Der Donnerstag ist nach Donar benannt, dem germanischen Gott des Donners. Und der Mittwoch liegt genau in der Mitte der Woche."
  },
  {
   "id": "de-sachunterricht-062",
@@ -1051,7 +1112,8 @@
   ],
   "answer": "A",
   "hint": "An diesen beiden Tagen ist meistens keine Schule.",
-  "explanation": "Samstag und Sonntag sind das Wochenende."
+  "explanation": "Samstag und Sonntag sind das Wochenende.",
+  "more": "Im Norden Deutschlands sagen viele Menschen statt Samstag „Sonnabend“ – das meint denselben Tag."
  },
  {
   "id": "de-sachunterricht-063",
@@ -1068,7 +1130,8 @@
   ],
   "answer": "A",
   "hint": "Es sind zweimal zwölf.",
-  "explanation": "Ein Tag mit Nacht hat 24 Stunden."
+  "explanation": "Ein Tag mit Nacht hat 24 Stunden.",
+  "more": "Weil sich die Erde dreht, ist nicht überall gleichzeitig Tag. Wenn du morgens frühstückst, ist es in New York noch mitten in der Nacht."
  },
  {
   "id": "de-sachunterricht-064",
@@ -1085,7 +1148,8 @@
   ],
   "answer": "D",
   "hint": "Der kleine Zeiger ist langsam und braucht einen halben Tag für eine Runde.",
-  "explanation": "Der kleine Zeiger zeigt die Stunden, der große die Minuten."
+  "explanation": "Der kleine Zeiger zeigt die Stunden, der große die Minuten.",
+  "more": "Die ersten Uhren waren Sonnenuhren: Der Schatten eines Stabes wandert mit der Sonne mit und zeigt so die Zeit an."
  },
  {
   "id": "de-sachunterricht-065",
@@ -1102,7 +1166,8 @@
   ],
   "answer": "B",
   "hint": "Dort sind weiße Streifen auf der Straße.",
-  "explanation": "Am Zebrastreifen müssen Autos anhalten, wenn du rübergehen willst."
+  "explanation": "Am Zebrastreifen müssen Autos anhalten, wenn du rübergehen willst.",
+  "more": "Der Zebrastreifen heißt so, weil er gestreift ist wie ein Zebra. Offiziell nennt man ihn „Fußgängerüberweg“."
  },
  {
   "id": "de-sachunterricht-066",
@@ -1119,7 +1184,8 @@
   ],
   "answer": "B",
   "hint": "Er schützt deinen Kopf, wenn du stürzt.",
-  "explanation": "Ein Fahrradhelm schützt den Kopf bei einem Sturz."
+  "explanation": "Ein Fahrradhelm schützt den Kopf bei einem Sturz.",
+  "more": "Ein Helm schützt nur, wenn er richtig sitzt: Er darf nicht wackeln, und der Kinnriemen muss geschlossen sein."
  },
  {
   "id": "de-sachunterricht-067",
@@ -1136,7 +1202,8 @@
   ],
   "answer": "B",
   "hint": "Damit kann man Feuer machen.",
-  "explanation": "Mit Streichhölzern kann schnell ein Brand entstehen."
+  "explanation": "Mit Streichhölzern kann schnell ein Brand entstehen.",
+  "more": "Sicherheitsstreichhölzer zünden nur an der Reibfläche der Schachtel, weil dort ein besonderer Stoff steckt: roter Phosphor."
  },
  {
   "id": "de-sachunterricht-068",
@@ -1153,7 +1220,8 @@
   ],
   "answer": "B",
   "hint": "Es ist die Farbe einer reifen Erdbeere.",
-  "explanation": "Feuerwehrautos sind meist rot, damit man sie gut sieht."
+  "explanation": "Feuerwehrautos sind meist rot, damit man sie gut sieht.",
+  "more": "Die meisten Feuerwehrleute in Deutschland helfen freiwillig – neben ihrem normalen Beruf. Sie kommen, sobald der Alarm piept."
  },
  {
   "id": "de-sachunterricht-069",
@@ -1170,7 +1238,8 @@
   ],
   "answer": "C",
   "hint": "Dort klirrt es, wenn man etwas einwirft.",
-  "explanation": "Glas kommt in den Altglascontainer und wird wieder eingeschmolzen."
+  "explanation": "Glas kommt in den Altglascontainer und wird wieder eingeschmolzen.",
+  "more": "Altglas wird nach Farben sortiert: Weiß, Grün und Braun. Glas kann man immer wieder einschmelzen, ohne dass es schlechter wird."
  },
  {
   "id": "de-sachunterricht-070",
@@ -1187,7 +1256,8 @@
   ],
   "answer": "C",
   "hint": "Diese Tonne ist meistens blau.",
-  "explanation": "Aus Altpapier kann neues Papier gemacht werden."
+  "explanation": "Aus Altpapier kann neues Papier gemacht werden.",
+  "more": "Papier wird aus Holzfasern gemacht. Jedes Mal, wenn Altpapier wiederverwendet wird, spart das Bäume, Wasser und Energie."
  },
  {
   "id": "de-sachunterricht-071",
@@ -1204,7 +1274,8 @@
   ],
   "answer": "A",
   "hint": "Er steht schon sehr früh am Morgen am Ofen.",
-  "explanation": "Der Bäcker backt Brot, Brötchen und Kuchen."
+  "explanation": "Der Bäcker backt Brot, Brötchen und Kuchen.",
+  "more": "Damit Brot schön locker wird, kommt oft Hefe in den Teig. Hefe sind winzige Pilze, die Gasbläschen machen und den Teig aufgehen lassen."
  },
  {
   "id": "de-sachunterricht-072",
@@ -1221,7 +1292,8 @@
   ],
   "answer": "B",
   "hint": "Diese Person schaut dir in den Mund.",
-  "explanation": "Die Zahnärztin oder der Zahnarzt behandelt kranke Zähne."
+  "explanation": "Die Zahnärztin oder der Zahnarzt behandelt kranke Zähne.",
+  "more": "Mit einem kleinen Spiegel kann die Zahnärztin auch hinter deine Zähne schauen. Zur Kontrolle geht man am besten zweimal im Jahr."
  },
  {
   "id": "de-sachunterricht-073",
@@ -1238,7 +1310,8 @@
   ],
   "answer": "A",
   "hint": "Man bringt Hund oder Katze in ihre Praxis.",
-  "explanation": "Tierärztinnen und Tierärzte machen kranke Tiere wieder gesund."
+  "explanation": "Tierärztinnen und Tierärzte machen kranke Tiere wieder gesund.",
+  "more": "Manche Tierärztinnen und Tierärzte arbeiten im Zoo – sie behandeln sogar Elefanten, Giraffen oder Löwen."
  },
  {
   "id": "de-sachunterricht-074",
@@ -1255,7 +1328,8 @@
   ],
   "answer": "C",
   "hint": "Es hat Federn und Flügel.",
-  "explanation": "Die Amsel ist ein Vogel und kann fliegen."
+  "explanation": "Die Amsel ist ein Vogel und kann fliegen.",
+  "more": "Bei den Amseln ist das Männchen schwarz mit gelbem Schnabel, das Weibchen ist braun. Amseln singen oft schon früh am Morgen."
  },
  {
   "id": "de-sachunterricht-075",
@@ -1272,7 +1346,8 @@
   ],
   "answer": "D",
   "hint": "Er atmet mit Kiemen und schwimmt mit Flossen.",
-  "explanation": "Fische leben im Wasser, in Seen, Flüssen und im Meer."
+  "explanation": "Fische leben im Wasser, in Seen, Flüssen und im Meer.",
+  "more": "Fische atmen mit Kiemen. Damit holen sie den Sauerstoff aus dem Wasser, in dem er gelöst ist."
  },
  {
   "id": "de-sachunterricht-076",
@@ -1289,7 +1364,8 @@
   ],
   "answer": "B",
   "hint": "Sie steht hoch am Himmel – schau nie direkt hinein!",
-  "explanation": "Die Sonne schenkt der Erde Licht und Wärme."
+  "explanation": "Die Sonne schenkt der Erde Licht und Wärme.",
+  "more": "Das Sonnenlicht braucht etwa acht Minuten, bis es bei uns auf der Erde ankommt – obwohl es unglaublich schnell ist."
  },
  {
   "id": "de-sachunterricht-077",
@@ -1306,7 +1382,8 @@
   ],
   "answer": "D",
   "hint": "Sie leuchten im Dunkeln weit weg am Himmel.",
-  "explanation": "Nachts sieht man oft den Mond und viele Sterne."
+  "explanation": "Nachts sieht man oft den Mond und viele Sterne.",
+  "more": "Die Sterne sind riesige Sonnen. Sie sind nur so weit weg, dass sie für uns wie winzige Lichtpünktchen aussehen."
  },
  {
   "id": "de-sachunterricht-078",
@@ -1323,7 +1400,8 @@
   ],
   "answer": "B",
   "hint": "Es ist dieselbe Farbe wie Gras.",
-  "explanation": "Im Sommer sind die meisten Blätter grün."
+  "explanation": "Im Sommer sind die meisten Blätter grün.",
+  "more": "Blätter schlucken vor allem rotes und blaues Licht. Das grüne Licht werfen sie zurück – deshalb sehen sie für uns grün aus."
  },
  {
   "id": "de-sachunterricht-079",
@@ -1340,7 +1418,8 @@
   ],
   "answer": "A",
   "hint": "Hasen knabbern sie gern.",
-  "explanation": "Die Möhre (Karotte) wächst als Wurzel in der Erde."
+  "explanation": "Die Möhre (Karotte) wächst als Wurzel in der Erde.",
+  "more": "Früher gab es vor allem lila und gelbe Möhren. Die orangen Möhren wurden erst vor einigen hundert Jahren gezüchtet."
  },
  {
   "id": "de-sachunterricht-080",
@@ -1357,7 +1436,8 @@
   ],
   "answer": "A",
   "hint": "Du musst prüfen, ob ein Auto kommt.",
-  "explanation": "Erst schauen, dann gehen – so bleibst du sicher."
+  "explanation": "Erst schauen, dann gehen – so bleibst du sicher.",
+  "more": "Zwischen parkenden Autos sehen dich Autofahrer schlecht. Geh lieber an einer Stelle über die Straße, wo du gut sehen und gesehen werden kannst."
  },
  {
   "id": "de-sachunterricht-081",
@@ -1374,7 +1454,8 @@
   ],
   "answer": "A",
   "hint": "Sie heißen wie ein weißes Getränk.",
-  "explanation": "Die Milchzähne fallen aus und bleibende Zähne wachsen nach."
+  "explanation": "Die Milchzähne fallen aus und bleibende Zähne wachsen nach.",
+  "more": "Kinder haben 20 Milchzähne. Ein Erwachsener hat später bis zu 32 bleibende Zähne – mit den Weisheitszähnen."
  },
  {
   "id": "de-sachunterricht-082",
@@ -1391,7 +1472,8 @@
   ],
   "answer": "C",
   "hint": "Ein kurzes Lied ist ungefähr so lang.",
-  "explanation": "Zwei bis drei Minuten gründlich putzen hält die Zähne gesund."
+  "explanation": "Zwei bis drei Minuten gründlich putzen hält die Zähne gesund.",
+  "more": "Auch die Zahnbürste braucht Pflege: Etwa alle drei Monate, oder wenn die Borsten abstehen, sollte eine neue her."
  },
  {
   "id": "de-sachunterricht-083",
@@ -1408,7 +1490,8 @@
   ],
   "answer": "D",
   "hint": "Es ist ein Obst und wächst am Baum.",
-  "explanation": "Obst und Gemüse haben viele Vitamine."
+  "explanation": "Obst und Gemüse haben viele Vitamine.",
+  "more": "Eine rote Paprika hat sogar mehr Vitamin C als eine Zitrone. Vitamin C hilft deinem Körper, gesund zu bleiben."
  },
  {
   "id": "de-sachunterricht-084",
@@ -1425,7 +1508,8 @@
   ],
   "answer": "D",
   "hint": "Es besteht aus vielen Knochen.",
-  "explanation": "Das Skelett aus Knochen stützt den Körper."
+  "explanation": "Das Skelett aus Knochen stützt den Körper.",
+  "more": "Der längste Knochen in deinem Körper ist der Oberschenkelknochen. Er ist sehr stark und trägt dein Gewicht beim Laufen und Springen."
  },
  {
   "id": "de-sachunterricht-085",
@@ -1442,7 +1526,8 @@
   ],
   "answer": "C",
   "hint": "Es hat Federn, auch wenn es nicht fliegen kann.",
-  "explanation": "Pinguine haben Federn und legen Eier – sie sind Vögel."
+  "explanation": "Pinguine haben Federn und legen Eier – sie sind Vögel.",
+  "more": "Pinguine können nicht fliegen, aber super schwimmen: Ihre Flügel benutzen sie wie Flossen. Fast alle Pinguine leben auf der Südhalbkugel."
  },
  {
   "id": "de-sachunterricht-086",
@@ -1459,7 +1544,8 @@
   ],
   "answer": "A",
   "hint": "Im Herbst versteckt es Vorräte im Boden.",
-  "explanation": "Eichhörnchen fressen gern Nüsse, Bucheckern und Samen von Zapfen."
+  "explanation": "Eichhörnchen fressen gern Nüsse, Bucheckern und Samen von Zapfen.",
+  "more": "Eichhörnchen vergraben viele Nüsse und finden nicht alle wieder. Aus den vergessenen Vorräten können neue Bäume wachsen."
  },
  {
   "id": "de-sachunterricht-087",
@@ -1476,7 +1562,8 @@
   ],
   "answer": "C",
   "hint": "Es wacht ab und zu auf und sucht seine versteckten Nüsse.",
-  "explanation": "Eichhörnchen halten Winterruhe, keinen Winterschlaf – sie wachen oft auf und fressen."
+  "explanation": "Eichhörnchen halten Winterruhe, keinen Winterschlaf – sie wachen oft auf und fressen.",
+  "more": "Das Nest eines Eichhörnchens heißt Kobel. Es ist eine Kugel aus Zweigen, innen weich gepolstert mit Moos und Gras."
  },
  {
   "id": "de-sachunterricht-088",
@@ -1493,7 +1580,8 @@
   ],
   "answer": "B",
   "hint": "Kaulquappen müssen schwimmen können.",
-  "explanation": "Frösche legen ihren Laich in Teiche und Tümpel."
+  "explanation": "Frösche legen ihren Laich in Teiche und Tümpel.",
+  "more": "Im Frühling wandern Kröten oft zu dem Teich, in dem sie selbst einmal geschlüpft sind. Krötenzäune an Straßen schützen sie auf dem Weg."
  },
  {
   "id": "de-sachunterricht-089",
@@ -1510,7 +1598,8 @@
   ],
   "answer": "C",
   "hint": "Es hat sechs Beine und rote Flügel mit Punkten.",
-  "explanation": "Der Marienkäfer hat sechs Beine – er ist ein Insekt."
+  "explanation": "Der Marienkäfer hat sechs Beine – er ist ein Insekt.",
+  "more": "Die Punkte des Marienkäfers verraten nicht sein Alter – das ist ein Irrtum. Sie zeigen die Art. Marienkäfer fressen gern Blattläuse."
  },
  {
   "id": "de-sachunterricht-090",
@@ -1527,7 +1616,8 @@
   ],
   "answer": "B",
   "hint": "Daraus machen sie Honig und Futter.",
-  "explanation": "Aus Nektar machen Bienen Honig, Pollen ist Futter für die Larven."
+  "explanation": "Aus Nektar machen Bienen Honig, Pollen ist Futter für die Larven.",
+  "more": "Bienen zeigen sich mit einem Tanz, wo es Futter gibt: Beim Schwänzeltanz verraten sie Richtung und Entfernung zu den Blüten."
  },
  {
   "id": "de-sachunterricht-091",
@@ -1544,7 +1634,8 @@
   ],
   "answer": "C",
   "hint": "Sie blüht schon, wenn manchmal noch Schnee liegt.",
-  "explanation": "Schneeglöckchen blühen schon im Februar oder März."
+  "explanation": "Schneeglöckchen blühen schon im Februar oder März.",
+  "more": "Frühblüher haben Vorräte in ihrer Zwiebel oder Knolle. So können sie blühen, bevor die Bäume Blätter bekommen und ihnen das Licht wegnehmen."
  },
  {
   "id": "de-sachunterricht-092",
@@ -1561,7 +1652,8 @@
   ],
   "answer": "B",
   "hint": "Man steckt ihn in die Erde und gießt ihn.",
-  "explanation": "Aus dem Samen keimt eine neue Pflanze."
+  "explanation": "Aus dem Samen keimt eine neue Pflanze.",
+  "more": "Probier es aus: Leg eine Bohne auf feuchte Watte in ein Glas. Nach einigen Tagen siehst du, wie zuerst die Wurzel herauswächst."
  },
  {
   "id": "de-sachunterricht-093",
@@ -1578,7 +1670,8 @@
   ],
   "answer": "B",
   "hint": "Ein Teil ist unter der Erde, einer ist dick und braun, einer trägt Blätter.",
-  "explanation": "Ein Baum hat Wurzeln, einen Stamm und eine Krone mit Ästen und Blättern."
+  "explanation": "Ein Baum hat Wurzeln, einen Stamm und eine Krone mit Ästen und Blättern.",
+  "more": "Die Blätter in der Krone verdunsten Wasser. Deshalb ist es unter Bäumen an heißen Tagen angenehm kühl."
  },
  {
   "id": "de-sachunterricht-094",
@@ -1595,7 +1688,8 @@
   ],
   "answer": "D",
   "hint": "Man zählt Kreise im Baumstumpf.",
-  "explanation": "Jedes Jahr wächst ein neuer Ring im Holz."
+  "explanation": "Jedes Jahr wächst ein neuer Ring im Holz.",
+  "more": "Breite Jahresringe zeigen ein gutes Jahr mit viel Regen und Wärme, schmale Ringe ein schweres, trockenes Jahr."
  },
  {
   "id": "de-sachunterricht-095",
@@ -1612,7 +1706,8 @@
   ],
   "answer": "C",
   "hint": "Damit siehst du, wie warm oder kalt es ist.",
-  "explanation": "Ein Thermometer zeigt die Temperatur in Grad Celsius an."
+  "explanation": "Ein Thermometer zeigt die Temperatur in Grad Celsius an.",
+  "more": "Die Celsius-Skala ist nach dem Schweden Anders Celsius benannt. Wenn du gesund bist, ist dein Körper etwa 37 °C warm."
  },
  {
   "id": "de-sachunterricht-096",
@@ -1629,7 +1724,8 @@
   ],
   "answer": "D",
   "hint": "Man sieht ein helles Licht und hört danach ein lautes Krachen.",
-  "explanation": "Bei einem Gewitter blitzt und donnert es."
+  "explanation": "Bei einem Gewitter blitzt und donnert es.",
+  "more": "Ein Blitz ist mehrere Male heißer als die Oberfläche der Sonne. Bei Gewitter bist du im Haus oder im Auto gut geschützt."
  },
  {
   "id": "de-sachunterricht-097",
@@ -1646,7 +1742,8 @@
   ],
   "answer": "D",
   "hint": "Man kann sie nicht sehen, aber im Wind spüren.",
-  "explanation": "Wir atmen Luft ein, weil wir den Sauerstoff darin brauchen."
+  "explanation": "Wir atmen Luft ein, weil wir den Sauerstoff darin brauchen.",
+  "more": "Ein Erwachsener atmet in Ruhe etwa 12- bis 20-mal pro Minute. Beim Rennen atmest du viel schneller, weil die Muskeln mehr Sauerstoff brauchen."
  },
  {
   "id": "de-sachunterricht-098",
@@ -1663,7 +1760,8 @@
   ],
   "answer": "D",
   "hint": "Für einen Schatten brauchst du Licht.",
-  "explanation": "Dein Körper hält das Sonnenlicht auf – dahinter entsteht ein Schatten."
+  "explanation": "Dein Körper hält das Sonnenlicht auf – dahinter entsteht ein Schatten.",
+  "more": "Mit einer Taschenlampe kannst du Schattentiere an die Wand zaubern. Je näher deine Hand an der Lampe ist, desto größer wird der Schatten."
  },
  {
   "id": "de-sachunterricht-099",
@@ -1680,7 +1778,8 @@
   ],
   "answer": "C",
   "hint": "Es ist die Seite, mit der die meisten Kinder schreiben.",
-  "explanation": "In Deutschland gilt Rechtsverkehr."
+  "explanation": "In Deutschland gilt Rechtsverkehr.",
+  "more": "In Großbritannien ist es umgekehrt: Dort fahren die Autos links, und das Lenkrad sitzt meist rechts im Auto."
  },
  {
   "id": "de-sachunterricht-100",
@@ -1697,7 +1796,8 @@
   ],
   "answer": "A",
   "hint": "Runde blaue Schilder sagen, was man hier benutzen muss.",
-  "explanation": "Das Schild zeigt einen Radweg, den Radfahrer benutzen müssen."
+  "explanation": "Das Schild zeigt einen Radweg, den Radfahrer benutzen müssen.",
+  "more": "Runde blaue Schilder sagen dir, was du tun musst. Runde Schilder mit rotem Rand sagen dir dagegen, was verboten ist."
  },
  {
   "id": "de-sachunterricht-101",
@@ -1714,7 +1814,8 @@
   ],
   "answer": "A",
   "hint": "Er ist der kürzeste Monat.",
-  "explanation": "Der Februar hat 28 Tage, im Schaltjahr 29."
+  "explanation": "Der Februar hat 28 Tage, im Schaltjahr 29.",
+  "more": "Wer am 29. Februar geboren ist, hat nur alle vier Jahre an seinem echten Datum Geburtstag. Dazwischen feiert man meist am 28. Februar oder 1. März."
  },
  {
   "id": "de-sachunterricht-102",
@@ -1731,7 +1832,8 @@
   ],
   "answer": "B",
   "hint": "In diesem Monat sind oft noch Sommerferien.",
-  "explanation": "Juni, Juli, August – dann kommt der September."
+  "explanation": "Juni, Juli, August – dann kommt der September.",
+  "more": "Der August ist nach dem römischen Kaiser Augustus benannt. Der Juli trägt den Namen von Julius Caesar."
  },
  {
   "id": "de-sachunterricht-103",
@@ -1748,7 +1850,8 @@
   ],
   "answer": "D",
   "hint": "Der große Zeiger läuft dafür einmal ganz herum.",
-  "explanation": "Eine Stunde hat 60 Minuten."
+  "explanation": "Eine Stunde hat 60 Minuten.",
+  "more": "Dass eine Stunde 60 Minuten hat, geht auf die alten Babylonier zurück. Sie rechneten gern mit der Zahl 60."
  },
  {
   "id": "de-sachunterricht-104",
@@ -1765,7 +1868,8 @@
   ],
   "answer": "B",
   "hint": "Aus alten Flaschen werden zum Beispiel neue Flaschen.",
-  "explanation": "Beim Recycling werden Stoffe aus Abfall wiederverwendet."
+  "explanation": "Beim Recycling werden Stoffe aus Abfall wiederverwendet.",
+  "more": "Aus alten Plastikflaschen kann man sogar Kleidung herstellen, zum Beispiel kuschelige Fleecepullis."
  },
  {
   "id": "de-sachunterricht-105",
@@ -1782,7 +1886,8 @@
   ],
   "answer": "B",
   "hint": "Denk an etwas, das man immer wieder benutzen kann.",
-  "explanation": "Dinge, die man oft benutzen kann, sparen viel Müll."
+  "explanation": "Dinge, die man oft benutzen kann, sparen viel Müll.",
+  "more": "Auch Leitungswasser spart Müll: In Deutschland wird es streng kontrolliert, und du musst keine Flaschen dafür kaufen."
  },
  {
   "id": "de-sachunterricht-106",
@@ -1799,7 +1904,8 @@
   ],
   "answer": "A",
   "hint": "Ihre Autos haben Blaulicht, und du erreichst sie mit 110.",
-  "explanation": "Die Polizei schützt die Menschen und regelt den Verkehr."
+  "explanation": "Die Polizei schützt die Menschen und regelt den Verkehr.",
+  "more": "Wenn du dich verlaufen hast oder Hilfe brauchst, darfst du Polizistinnen und Polizisten immer ansprechen. Sie sind für dich da."
  },
  {
   "id": "de-sachunterricht-107",
@@ -1816,7 +1922,8 @@
   ],
   "answer": "D",
   "hint": "Jedes Kind darf lernen und zur Schule gehen.",
-  "explanation": "Die Kinderrechte sagen: Jedes Kind hat ein Recht auf Bildung."
+  "explanation": "Die Kinderrechte sagen: Jedes Kind hat ein Recht auf Bildung.",
+  "more": "Die Kinderrechte wurden 1989 von den Vereinten Nationen beschlossen. In Deutschland feiert man am 20. September den Weltkindertag."
  },
  {
   "id": "de-sachunterricht-108",
@@ -1833,7 +1940,8 @@
   ],
   "answer": "D",
   "hint": "Es ist braun und scheu, und der Bock trägt ein Geweih.",
-  "explanation": "Rehe leben in unseren Wäldern und auf Wiesen am Waldrand."
+  "explanation": "Rehe leben in unseren Wäldern und auf Wiesen am Waldrand.",
+  "more": "Ein Reh ist nicht die Frau vom Hirsch – das ist ein Irrtum! Rehe sind eine eigene Art. Der Rehbock trägt ein kleines Geweih, das er jedes Jahr abwirft."
  },
  {
   "id": "de-sachunterricht-109",
@@ -1850,7 +1958,8 @@
   ],
   "answer": "D",
   "hint": "Es ist ein kleines Nagetier mit dicken Backentaschen.",
-  "explanation": "Hamster schlafen tagsüber und werden abends aktiv."
+  "explanation": "Hamster schlafen tagsüber und werden abends aktiv.",
+  "more": "Hamster haben Backentaschen. Darin können sie viel Futter transportieren und in ihr Versteck bringen."
  },
  {
   "id": "de-sachunterricht-110",
@@ -1867,7 +1976,8 @@
   ],
   "answer": "D",
   "hint": "Das Wasser auf der Erde ist immer unterwegs: hoch, runter, hoch.",
-  "explanation": "Im Wasserkreislauf verdunstet Wasser, bildet Wolken und fällt als Regen zurück."
+  "explanation": "Im Wasserkreislauf verdunstet Wasser, bildet Wolken und fällt als Regen zurück.",
+  "more": "Der Motor des Wasserkreislaufs ist die Sonne: Ihre Wärme lässt Wasser aus Meeren, Seen und Pfützen verdunsten."
  },
  {
   "id": "de-sachunterricht-111",
@@ -1884,7 +1994,8 @@
   ],
   "answer": "D",
   "hint": "Denk an eine Pfütze, die in der Sonne verschwindet.",
-  "explanation": "Beim Verdunsten wird flüssiges Wasser zu unsichtbarem Wasserdampf."
+  "explanation": "Beim Verdunsten wird flüssiges Wasser zu unsichtbarem Wasserdampf.",
+  "more": "Wäsche trocknet besonders schnell, wenn es warm und windig ist. Dann verdunstet das Wasser aus dem Stoff schneller."
  },
  {
   "id": "de-sachunterricht-112",
@@ -1901,7 +2012,8 @@
   ],
   "answer": "B",
   "hint": "Das passiert im Winter mit Pfützen.",
-  "explanation": "Bei 0 °C gefriert Wasser zu Eis."
+  "explanation": "Bei 0 °C gefriert Wasser zu Eis.",
+  "more": "Wasser dehnt sich beim Gefrieren aus. Darum kann eine volle Glasflasche im Gefrierfach platzen – also lieber nicht hineinlegen."
  },
  {
   "id": "de-sachunterricht-113",
@@ -1918,7 +2030,8 @@
   ],
   "answer": "A",
   "hint": "In Kabeln stecken Drähte aus diesem Material.",
-  "explanation": "Metalle leiten Strom, Holz, Gummi und Pappe nicht."
+  "explanation": "Metalle leiten Strom, Holz, Gummi und Pappe nicht.",
+  "more": "In Kabeln steckt meist Kupfer, ein Metall, das Strom sehr gut leitet. Außen herum schützt eine Hülle aus Kunststoff."
  },
  {
   "id": "de-sachunterricht-114",
@@ -1935,7 +2048,8 @@
   ],
   "answer": "A",
   "hint": "Strom aus der Steckdose ist viel stärker als Strom aus einer Batterie.",
-  "explanation": "Strom aus der Steckdose kann schwere Verletzungen verursachen."
+  "explanation": "Strom aus der Steckdose kann schwere Verletzungen verursachen.",
+  "more": "Vögel auf Stromleitungen passiert nichts, weil sie nur ein Kabel berühren. Für Menschen gilt: Immer großen Abstand zu Stromleitungen halten!"
  },
  {
   "id": "de-sachunterricht-115",
@@ -1952,7 +2066,8 @@
   ],
   "answer": "A",
   "hint": "Du brauchst eine Stromquelle und Leitungen.",
-  "explanation": "Die Batterie liefert Strom, die Kabel leiten ihn zum Lämpchen."
+  "explanation": "Die Batterie liefert Strom, die Kabel leiten ihn zum Lämpchen.",
+  "more": "Die erste Batterie baute vor über 200 Jahren der Italiener Alessandro Volta. Nach ihm ist die Einheit „Volt“ benannt."
  },
  {
   "id": "de-sachunterricht-116",
@@ -1969,7 +2084,8 @@
   ],
   "answer": "B",
   "hint": "Licht kann nicht durch alles hindurchscheinen.",
-  "explanation": "Hinter einem Gegenstand, der Licht aufhält, entsteht ein Schatten."
+  "explanation": "Hinter einem Gegenstand, der Licht aufhält, entsteht ein Schatten.",
+  "more": "Auch der Mond kann einen Schatten werfen: Bei einer Sonnenfinsternis fällt sein Schatten auf die Erde, und es wird mitten am Tag dunkel."
  },
  {
   "id": "de-sachunterricht-117",
@@ -1986,7 +2102,8 @@
   ],
   "answer": "D",
   "hint": "Dann steht die Sonne am höchsten.",
-  "explanation": "Steht die Sonne hoch, ist der Schatten kurz."
+  "explanation": "Steht die Sonne hoch, ist der Schatten kurz.",
+  "more": "Morgens und abends sind Schatten sehr lang. Mittags zeigt dein Schatten bei uns ungefähr nach Norden."
  },
  {
   "id": "de-sachunterricht-118",
@@ -2003,7 +2120,8 @@
   ],
   "answer": "C",
   "hint": "Lege die Hand an den Hals, wenn du summst – es kribbelt.",
-  "explanation": "Schall entsteht durch Schwingungen, die durch die Luft zu unseren Ohren wandern."
+  "explanation": "Schall entsteht durch Schwingungen, die durch die Luft zu unseren Ohren wandern.",
+  "more": "Im Weltall ist es ganz still, weil dort keine Luft den Schall weiterträgt. Im Wasser dagegen ist Schall sogar schneller als in der Luft."
  },
  {
   "id": "de-sachunterricht-119",
@@ -2020,7 +2138,8 @@
   ],
   "answer": "A",
   "hint": "Man spricht vom Verbrennungsdreieck.",
-  "explanation": "Fehlt einer der drei Teile, geht das Feuer aus."
+  "explanation": "Fehlt einer der drei Teile, geht das Feuer aus.",
+  "more": "Darum geht eine Kerze aus, wenn man ein Glas darüberstülpt: Die Flamme bekommt keinen frischen Sauerstoff mehr. Solche Versuche nur mit Erwachsenen!"
  },
  {
   "id": "de-sachunterricht-120",
@@ -2037,7 +2156,8 @@
   ],
   "answer": "D",
   "hint": "Dem Feuer muss die Luft weggenommen werden.",
-  "explanation": "Ein Deckel erstickt das Feuer. Wasser auf brennendes Fett ist sehr gefährlich!"
+  "explanation": "Ein Deckel erstickt das Feuer. Wasser auf brennendes Fett ist sehr gefährlich!",
+  "more": "Feuerlöscher tragen Buchstaben für die Brandart. Das „F“ steht für Fettbrände, wie sie in der Küche entstehen können."
  },
  {
   "id": "de-sachunterricht-121",
@@ -2054,7 +2174,8 @@
   ],
   "answer": "B",
   "hint": "Lass alles liegen und folge deiner Lehrerin oder deinem Lehrer.",
-  "explanation": "Bei Feueralarm verlässt man ruhig und zügig das Gebäude und geht zum Sammelplatz."
+  "explanation": "Bei Feueralarm verlässt man ruhig und zügig das Gebäude und geht zum Sammelplatz.",
+  "more": "Rauch steigt nach oben. Ist ein Raum verraucht, gehst du am besten gebückt oder krabbelst – unten ist die Luft besser."
  },
  {
   "id": "de-sachunterricht-122",
@@ -2071,7 +2192,8 @@
   ],
   "answer": "A",
   "hint": "Denk an ein Kälbchen bei der Kuh.",
-  "explanation": "Säugetiere säugen ihre Jungen mit Milch."
+  "explanation": "Säugetiere säugen ihre Jungen mit Milch.",
+  "more": "Auch Wale und Fledermäuse sind Säugetiere. Und das Schnabeltier legt sogar Eier, säugt seine Jungen aber trotzdem mit Milch."
  },
  {
   "id": "de-sachunterricht-123",
@@ -2088,7 +2210,8 @@
   ],
   "answer": "C",
   "hint": "Denk an eine Amsel oder einen Spatz.",
-  "explanation": "Alle Vögel haben Federn und einen Schnabel und legen Eier."
+  "explanation": "Alle Vögel haben Federn und einen Schnabel und legen Eier.",
+  "more": "Vögel stammen von Dinosauriern ab. Wenn du eine Amsel beobachtest, siehst du also einen entfernten Verwandten der Dinos!"
  },
  {
   "id": "de-sachunterricht-124",
@@ -2105,7 +2228,8 @@
   ],
   "answer": "A",
   "hint": "Am Anfang liegen viele kleine Eier im Wasser.",
-  "explanation": "Aus dem Laich schlüpfen Kaulquappen, die sich zu Fröschen entwickeln."
+  "explanation": "Aus dem Laich schlüpfen Kaulquappen, die sich zu Fröschen entwickeln.",
+  "more": "Kaulquappen atmen zuerst mit Kiemen wie Fische. Der fertige Frosch atmet dann mit Lungen und zusätzlich über seine Haut."
  },
  {
   "id": "de-sachunterricht-125",
@@ -2122,7 +2246,8 @@
   ],
   "answer": "D",
   "hint": "In dieser Stadt findet jedes Jahr das Oktoberfest statt.",
-  "explanation": "München ist die Landeshauptstadt von Bayern."
+  "explanation": "München ist die Landeshauptstadt von Bayern.",
+  "more": "München liegt an der Isar. 1972 fanden dort sogar die Olympischen Spiele statt – das Olympiastadion kann man heute noch besuchen."
  },
  {
   "id": "de-sachunterricht-126",
@@ -2139,7 +2264,8 @@
   ],
   "answer": "D",
   "hint": "Dieser Fluss kommt aus Tschechien und fließt in die Nordsee.",
-  "explanation": "Die Elbe fließt durch Dresden, Magdeburg und Hamburg."
+  "explanation": "Die Elbe fließt durch Dresden, Magdeburg und Hamburg.",
+  "more": "Hamburg hat über 2000 Brücken – mehr als Venedig! Der Hamburger Hafen ist einer der größten Häfen Europas."
  },
  {
   "id": "de-sachunterricht-127",
@@ -2156,7 +2282,8 @@
   ],
   "answer": "D",
   "hint": "Dieser Fluss fließt nach Osten bis ins Schwarze Meer.",
-  "explanation": "Die Donau entspringt im Schwarzwald und mündet ins Schwarze Meer."
+  "explanation": "Die Donau entspringt im Schwarzwald und mündet ins Schwarze Meer.",
+  "more": "Die Donau fließt durch zehn Länder – so viele wie kein anderer Fluss der Welt."
  },
  {
   "id": "de-sachunterricht-128",
@@ -2173,7 +2300,8 @@
   ],
   "answer": "D",
   "hint": "Auf dem Kompass ist es die Richtung genau entgegengesetzt.",
-  "explanation": "Norden und Süden liegen sich gegenüber, ebenso Osten und Westen."
+  "explanation": "Norden und Süden liegen sich gegenüber, ebenso Osten und Westen.",
+  "more": "Merk dir die Himmelsrichtungen im Uhrzeigersinn mit: „Nie Ohne Seife Waschen“ – Norden, Osten, Süden, Westen."
  },
  {
   "id": "de-sachunterricht-129",
@@ -2190,7 +2318,8 @@
   ],
   "answer": "C",
   "hint": "Ohne sie wüsstest du nicht, was die Symbole heißen.",
-  "explanation": "Die Legende erklärt die Zeichen und Farben auf der Karte."
+  "explanation": "Die Legende erklärt die Zeichen und Farben auf der Karte.",
+  "more": "Auf vielen Karten bedeutet Blau Wasser, Grün flaches Land und Braun Berge. Je dunkler das Braun, desto höher ist das Gebirge."
  },
  {
   "id": "de-sachunterricht-130",
@@ -2207,7 +2336,8 @@
   ],
   "answer": "D",
   "hint": "Dadurch ist es auf einer Seite hell und auf der anderen dunkel.",
-  "explanation": "Die Erde dreht sich in etwa 24 Stunden einmal – so entstehen Tag und Nacht."
+  "explanation": "Die Erde dreht sich in etwa 24 Stunden einmal – so entstehen Tag und Nacht.",
+  "more": "Die Erde dreht sich ganz schön schnell: Am Äquator saust der Boden mit über 1600 Kilometern pro Stunde herum – und wir merken nichts davon."
  },
  {
   "id": "de-sachunterricht-131",
@@ -2224,7 +2354,8 @@
   ],
   "answer": "D",
   "hint": "Er leuchtet nicht selbst, sondern wird von der Sonne angestrahlt.",
-  "explanation": "Der Mond kreist um die Erde und wird von der Sonne beleuchtet."
+  "explanation": "Der Mond kreist um die Erde und wird von der Sonne beleuchtet.",
+  "more": "1969 betrat Neil Armstrong als erster Mensch den Mond. Weil es dort keinen Wind gibt, bleiben Fußspuren sehr lange erhalten."
  },
  {
   "id": "de-sachunterricht-132",
@@ -2241,7 +2372,8 @@
   ],
   "answer": "D",
   "hint": "Pluto zählt seit 2006 nicht mehr dazu.",
-  "explanation": "Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun."
+  "explanation": "Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun.",
+  "more": "Mit diesem Satz merkst du dir die Reihenfolge: „Mein Vater erklärt mir jeden Sonntag unseren Nachthimmel.“ Pluto zählt seit 2006 als Zwergplanet."
  },
  {
   "id": "de-sachunterricht-133",
@@ -2258,7 +2390,8 @@
   ],
   "answer": "C",
   "hint": "Er hat einen riesigen roten Wirbelsturm, den Großen Roten Fleck.",
-  "explanation": "Jupiter ist der größte Planet – über 1000 Erden würden hineinpassen."
+  "explanation": "Jupiter ist der größte Planet – über 1000 Erden würden hineinpassen.",
+  "more": "Auf dem Jupiter tobt ein riesiger Sturm, der Große Rote Fleck. Er ist größer als die ganze Erde und schon seit Jahrhunderten zu sehen."
  },
  {
   "id": "de-sachunterricht-134",
@@ -2275,7 +2408,8 @@
   ],
   "answer": "A",
   "hint": "Sein Boden enthält viel rostiges Eisen.",
-  "explanation": "Der Mars sieht durch Eisenoxid (Rost) rötlich aus."
+  "explanation": "Der Mars sieht durch Eisenoxid (Rost) rötlich aus.",
+  "more": "Auf dem Mars steht der höchste bekannte Vulkan im Sonnensystem, der Olympus Mons. Er ist mehr als doppelt so hoch wie der Mount Everest."
  },
  {
   "id": "de-sachunterricht-135",
@@ -2292,7 +2426,8 @@
   ],
   "answer": "A",
   "hint": "Sie leuchtet selbst, so wie die Punkte am Nachthimmel.",
-  "explanation": "Die Sonne ist ein Stern – der uns am nächsten liegende."
+  "explanation": "Die Sonne ist ein Stern – der uns am nächsten liegende.",
+  "more": "In die Sonne würden über eine Million Erden hineinpassen. Schau aber niemals direkt in die Sonne – das schadet deinen Augen!"
  },
  {
   "id": "de-sachunterricht-136",
@@ -2309,7 +2444,8 @@
   ],
   "answer": "C",
   "hint": "Eine Hälfte des Mondes wird immer von der Sonne beleuchtet.",
-  "explanation": "Je nach Stellung von Sonne, Erde und Mond sehen wir mehr oder weniger von der hellen Hälfte."
+  "explanation": "Je nach Stellung von Sonne, Erde und Mond sehen wir mehr oder weniger von der hellen Hälfte.",
+  "more": "Der Mond zeigt uns immer dieselbe Seite. Seine Rückseite kann man von der Erde aus nie sehen."
  },
  {
   "id": "de-sachunterricht-137",
@@ -2326,7 +2462,8 @@
   ],
   "answer": "D",
   "hint": "Dieses Land liegt südlich der Alpen hinter Österreich und der Schweiz.",
-  "explanation": "Italien grenzt nicht an Deutschland."
+  "explanation": "Italien grenzt nicht an Deutschland.",
+  "more": "Zwischen Deutschland und Italien liegen die Alpen. Wer mit dem Auto nach Italien fährt, kommt meist durch Österreich oder die Schweiz."
  },
  {
   "id": "de-sachunterricht-138",
@@ -2343,7 +2480,8 @@
   ],
   "answer": "B",
   "hint": "Es sind mehr als sieben und weniger als zehn.",
-  "explanation": "Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg, Belgien und die Niederlande."
+  "explanation": "Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg, Belgien und die Niederlande.",
+  "more": "Kein anderes Land der Europäischen Union hat so viele Nachbarländer wie Deutschland."
  },
  {
   "id": "de-sachunterricht-139",
@@ -2360,7 +2498,8 @@
   ],
   "answer": "C",
   "hint": "Aus diesem Land kommen die LEGO-Steine.",
-  "explanation": "Dänemark ist der einzige Nachbar im Norden."
+  "explanation": "Dänemark ist der einzige Nachbar im Norden.",
+  "more": "Aus Dänemark kommen die bekannten LEGO-Steine. Der Name kommt von „leg godt“, das heißt auf Dänisch „spiel gut“."
  },
  {
   "id": "de-sachunterricht-140",
@@ -2377,7 +2516,8 @@
   ],
   "answer": "D",
   "hint": "Es ist nicht die größte Stadt des Landes, aber sie liegt auch am Rhein.",
-  "explanation": "Düsseldorf ist die Hauptstadt, Köln die größte Stadt von NRW."
+  "explanation": "Düsseldorf ist die Hauptstadt, Köln die größte Stadt von NRW.",
+  "more": "In Nordrhein-Westfalen liegt auch Bonn. Bis 1990 war Bonn die Hauptstadt der Bundesrepublik Deutschland."
  },
  {
   "id": "de-sachunterricht-141",
@@ -2394,7 +2534,8 @@
   ],
   "answer": "A",
   "hint": "Zu ihm gehört auch Bremerhaven an der Nordsee.",
-  "explanation": "Die Stadtstaaten sind Berlin, Hamburg und Bremen."
+  "explanation": "Die Stadtstaaten sind Berlin, Hamburg und Bremen.",
+  "more": "Zum Bundesland Bremen gehören zwei Städte: Bremen und Bremerhaven. Berühmt sind die Bremer Stadtmusikanten aus dem Märchen der Brüder Grimm."
  },
  {
   "id": "de-sachunterricht-142",
@@ -2411,7 +2552,8 @@
   ],
   "answer": "A",
   "hint": "Er fließt von den Alpen bis zur Nordsee.",
-  "explanation": "Der Rhein kommt aus den Schweizer Alpen und mündet in den Niederlanden in die Nordsee."
+  "explanation": "Der Rhein kommt aus den Schweizer Alpen und mündet in den Niederlanden in die Nordsee.",
+  "more": "In der Schweiz stürzt der junge Rhein den Rheinfall hinunter – einen der größten Wasserfälle Europas."
  },
  {
   "id": "de-sachunterricht-143",
@@ -2428,7 +2570,8 @@
   ],
   "answer": "B",
   "hint": "Bei 1 : 100 000 ist 1 cm auf der Karte in Wirklichkeit 1 km.",
-  "explanation": "Mit dem Maßstab kann man echte Entfernungen ausrechnen."
+  "explanation": "Mit dem Maßstab kann man echte Entfernungen ausrechnen.",
+  "more": "Bei einem Maßstab von 1 zu 100.000 ist ein Zentimeter auf der Karte in Wirklichkeit ein ganzer Kilometer."
  },
  {
   "id": "de-sachunterricht-144",
@@ -2445,7 +2588,8 @@
   ],
   "answer": "B",
   "hint": "Gleiche Pole mögen sich nicht.",
-  "explanation": "Gleiche Pole stoßen sich ab, verschiedene Pole ziehen sich an."
+  "explanation": "Gleiche Pole stoßen sich ab, verschiedene Pole ziehen sich an.",
+  "more": "Brichst du einen Magneten durch, hat jedes Stück wieder einen eigenen Nordpol und Südpol."
  },
  {
   "id": "de-sachunterricht-145",
@@ -2462,7 +2606,8 @@
   ],
   "answer": "A",
   "hint": "Damit oder mit Kunststoff sind Kabel außen umhüllt.",
-  "explanation": "Gummi ist ein Isolator, Metalle sind Leiter."
+  "explanation": "Gummi ist ein Isolator, Metalle sind Leiter.",
+  "more": "Elektrikerinnen und Elektriker benutzen Werkzeuge mit Griffen aus Kunststoff oder Gummi. Die isolieren und schützen vor Strom."
  },
  {
   "id": "de-sachunterricht-146",
@@ -2479,7 +2624,8 @@
   ],
   "answer": "A",
   "hint": "Wenn Autoscheinwerfer darauf fallen, blitzen sie hell auf.",
-  "explanation": "Reflektoren machen Radfahrer im Dunkeln für andere sichtbar."
+  "explanation": "Reflektoren machen Radfahrer im Dunkeln für andere sichtbar.",
+  "more": "Reflektoren nennt man auch Katzenaugen. Echte Katzenaugen leuchten im Dunkeln, weil hinter ihrer Netzhaut eine Schicht das Licht zurückwirft."
  },
  {
   "id": "de-sachunterricht-147",
@@ -2496,7 +2642,8 @@
   ],
   "answer": "A",
   "hint": "Es hat dieselbe Farbe wie die Bremslichter beim Auto.",
-  "explanation": "Vorne leuchtet das Licht weiß, hinten rot."
+  "explanation": "Vorne leuchtet das Licht weiß, hinten rot.",
+  "more": "Auch Autos haben vorne helle und hinten rote Lichter. So erkennt man im Dunkeln sofort, ob ein Fahrzeug entgegenkommt oder vor dir herfährt."
  },
  {
   "id": "de-sachunterricht-148",
@@ -2513,7 +2660,8 @@
   ],
   "answer": "C",
   "hint": "Du musst die anderen zuerst fahren lassen.",
-  "explanation": "Bei diesem Schild hat der Verkehr auf der anderen Straße Vorfahrt."
+  "explanation": "Bei diesem Schild hat der Verkehr auf der anderen Straße Vorfahrt.",
+  "more": "Gibt es keine Schilder und keine Ampel, gilt an Kreuzungen „rechts vor links“: Wer von rechts kommt, darf zuerst fahren."
  },
  {
   "id": "de-sachunterricht-149",
@@ -2530,7 +2678,8 @@
   ],
   "answer": "A",
   "hint": "Vergleiche, wie schnell Licht und Geräusche unterwegs sind.",
-  "explanation": "Das Licht ist fast sofort da, der Schall braucht etwa 3 Sekunden für einen Kilometer."
+  "explanation": "Das Licht ist fast sofort da, der Schall braucht etwa 3 Sekunden für einen Kilometer.",
+  "more": "Zähl beim nächsten Gewitter die Sekunden zwischen Blitz und Donner und teile durch drei. So weißt du ungefähr, wie viele Kilometer es entfernt ist."
  },
  {
   "id": "de-sachunterricht-150",
@@ -2547,7 +2696,8 @@
   ],
   "answer": "C",
   "hint": "Denk an einen Heißluftballon.",
-  "explanation": "Warme Luft ist leichter als kalte und steigt deshalb auf."
+  "explanation": "Warme Luft ist leichter als kalte und steigt deshalb auf.",
+  "more": "Deshalb fliegt ein Heißluftballon: Ein Brenner erhitzt die Luft im Ballon, und die warme Luft trägt ihn nach oben."
  },
  {
   "id": "de-sachunterricht-151",
@@ -2564,7 +2714,8 @@
   ],
   "answer": "B",
   "hint": "Es ist nicht das Gas, das wir zum Atmen brauchen.",
-  "explanation": "Luft besteht zu etwa 78 % aus Stickstoff und zu etwa 21 % aus Sauerstoff."
+  "explanation": "Luft besteht zu etwa 78 % aus Stickstoff und zu etwa 21 % aus Sauerstoff.",
+  "more": "Den Stickstoff atmen wir ein und gleich wieder aus, ohne ihn zu benutzen. In Chipstüten kommt er oft hinein, damit die Chips länger frisch bleiben."
  },
  {
   "id": "de-sachunterricht-152",
@@ -2581,7 +2732,8 @@
   ],
   "answer": "A",
   "hint": "Der Name hat etwas mit Essen zu tun.",
-  "explanation": "Die Speiseröhre transportiert die Nahrung in den Magen."
+  "explanation": "Die Speiseröhre transportiert die Nahrung in den Magen.",
+  "more": "Die Speiseröhre schiebt das Essen mit Muskeln nach unten. Deshalb klappt das Schlucken sogar im Handstand oder bei Astronauten im Weltall."
  },
  {
   "id": "de-sachunterricht-153",
@@ -2598,7 +2750,8 @@
   ],
   "answer": "C",
   "hint": "Es sind mehr als 200.",
-  "explanation": "Ein Erwachsener hat etwa 206 Knochen, ein Baby sogar mehr."
+  "explanation": "Ein Erwachsener hat etwa 206 Knochen, ein Baby sogar mehr.",
+  "more": "Mehr als die Hälfte deiner Knochen steckt in deinen Händen und Füßen. Allein eine Hand hat 27 Knochen."
  },
  {
   "id": "de-sachunterricht-154",
@@ -2615,7 +2768,8 @@
   ],
   "answer": "D",
   "hint": "Sie holen in der Lunge etwas ab und bringen es überall hin.",
-  "explanation": "Rote Blutkörperchen bringen Sauerstoff von der Lunge in den ganzen Körper."
+  "explanation": "Rote Blutkörperchen bringen Sauerstoff von der Lunge in den ganzen Körper.",
+  "more": "Ein Erwachsener hat etwa fünf Liter Blut. Rot ist es wegen eines eisenhaltigen Stoffes in den roten Blutkörperchen."
  },
  {
   "id": "de-sachunterricht-155",
@@ -2632,7 +2786,8 @@
   ],
   "answer": "A",
   "hint": "Der Name der Zeit verrät es schon.",
-  "explanation": "Feuerstein ist hart und lässt sich zu scharfen Kanten schlagen."
+  "explanation": "Feuerstein ist hart und lässt sich zu scharfen Kanten schlagen.",
+  "more": "Ötzi, der Mann aus dem Eis, lebte vor über 5000 Jahren. Bei ihm fand man einen Dolch mit einer Klinge aus Feuerstein."
  },
  {
   "id": "de-sachunterricht-156",
@@ -2649,7 +2804,8 @@
   ],
   "answer": "A",
   "hint": "Sie zogen Tieren hinterher und suchten Beeren und Wurzeln.",
-  "explanation": "Die Menschen der Altsteinzeit waren Jäger und Sammler."
+  "explanation": "Die Menschen der Altsteinzeit waren Jäger und Sammler.",
+  "more": "Menschen der Steinzeit malten Tiere wie Pferde und Mammuts an Höhlenwände. Manche dieser Bilder sind über 30.000 Jahre alt."
  },
  {
   "id": "de-sachunterricht-157",
@@ -2666,7 +2822,8 @@
   ],
   "answer": "D",
   "hint": "Er half dem Ritter, die Rüstung anzulegen.",
-  "explanation": "Erst war man Page, dann Knappe und schließlich Ritter."
+  "explanation": "Erst war man Page, dann Knappe und schließlich Ritter.",
+  "more": "Die Ausbildung begann früh: Mit etwa sieben Jahren wurde ein Junge Page, mit etwa vierzehn dann Knappe."
  },
  {
   "id": "de-sachunterricht-158",
@@ -2683,7 +2840,8 @@
   ],
   "answer": "B",
   "hint": "Dabei berührte ein Schwert seine Schulter.",
-  "explanation": "Beim Ritterschlag wurde der Knappe feierlich zum Ritter ernannt."
+  "explanation": "Beim Ritterschlag wurde der Knappe feierlich zum Ritter ernannt.",
+  "more": "Eine Ritterrüstung wog etwa 20 bis 30 Kilo. Trotzdem konnten geübte Ritter darin laufen und ohne Hilfe aufs Pferd steigen."
  },
  {
   "id": "de-sachunterricht-159",
@@ -2700,7 +2858,8 @@
   ],
   "answer": "A",
   "hint": "Es tagt im Reichstagsgebäude mit der Glaskuppel.",
-  "explanation": "Die Abgeordneten im Bundestag werden vom Volk gewählt."
+  "explanation": "Die Abgeordneten im Bundestag werden vom Volk gewählt.",
+  "more": "Der Bundestag tagt im Reichstagsgebäude in Berlin. Auf seine große Glaskuppel kann man hinaufsteigen und von oben in den Plenarsaal schauen."
  },
  {
   "id": "de-sachunterricht-160",
@@ -2717,6 +2876,7 @@
   ],
   "answer": "B",
   "hint": "Dann ist man volljährig.",
-  "explanation": "Bei der Bundestagswahl darf man ab 18 Jahren wählen."
+  "explanation": "Bei der Bundestagswahl darf man ab 18 Jahren wählen.",
+  "more": "Bei der Europawahl dürfen in Deutschland schon 16-Jährige mitwählen."
  }
 ]

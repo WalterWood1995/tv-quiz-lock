@@ -14,7 +14,8 @@
   ],
   "answer": "C",
   "hint": "Namenwörter für Menschen, Tiere und Dinge schreibt man groß.",
-  "explanation": "Nomen (Namenwörter) schreibt man groß: der Hund."
+  "explanation": "Nomen (Namenwörter) schreibt man groß: der Hund.",
+  "more": "Auch Dinge, die man nicht anfassen kann, wie Angst, Freude oder Mut, sind Nomen. Ein Trick: Passt „der“, „die“ oder „das“ davor, ist es meist ein Nomen."
  },
  {
   "id": "de-deutsch-002",
@@ -31,7 +32,8 @@
   ],
   "answer": "C",
   "hint": "Sprich jeden Begleiter laut vor dem Wort und hör genau hin.",
-  "explanation": "Es heißt: die Sonne."
+  "explanation": "Es heißt: die Sonne.",
+  "more": "Im Deutschen ist die Sonne weiblich und der Mond männlich – im Französischen ist es genau umgekehrt: le soleil und la lune!"
  },
  {
   "id": "de-deutsch-003",
@@ -48,7 +50,8 @@
   ],
   "answer": "C",
   "hint": "Probiere jeden Begleiter laut vor dem Wort aus.",
-  "explanation": "Es heißt: das Auto."
+  "explanation": "Es heißt: das Auto.",
+  "more": "„Auto“ ist die Kurzform von „Automobil“. Das Wort kommt aus dem Griechischen und Lateinischen und bedeutet ungefähr „selbst beweglich“."
  },
  {
   "id": "de-deutsch-004",
@@ -65,7 +68,8 @@
   ],
   "answer": "A",
   "hint": "Sag die Begleiter laut vor dem Wort – was klingt richtig?",
-  "explanation": "Es heißt: der Baum."
+  "explanation": "Es heißt: der Baum.",
+  "more": "Viele Baumarten haben den Artikel „die“: die Eiche, die Buche, die Tanne, die Linde. Nur der Baum selbst ist männlich."
  },
  {
   "id": "de-deutsch-005",
@@ -82,7 +86,8 @@
   ],
   "answer": "A",
   "hint": "Hör auf das Ende des Wortes – es muss gleich klingen.",
-  "explanation": "Haus – Maus: Das Ende „-aus“ klingt gleich."
+  "explanation": "Haus – Maus: Das Ende „-aus“ klingt gleich.",
+  "more": "Auf Haus reimen sich noch mehr Wörter: raus, Laus und Applaus! Dichter mögen Reime, weil man sich Gedichte damit viel leichter merken kann."
  },
  {
   "id": "de-deutsch-006",
@@ -99,7 +104,8 @@
   ],
   "answer": "D",
   "hint": "Reimwörter klingen am Ende gleich.",
-  "explanation": "Kind – Wind: Das Ende „-ind“ klingt gleich."
+  "explanation": "Kind – Wind: Das Ende „-ind“ klingt gleich.",
+  "more": "Auch „blind“ und „sind“ reimen sich auf Kind. Bei Kind und Wind hört man am Ende ein t, schreibt aber d – das verrät die Mehrzahl „Kinder“."
  },
  {
   "id": "de-deutsch-007",
@@ -116,7 +122,8 @@
   ],
   "answer": "B",
   "hint": "Klatsche bei jeder Silbe einmal in die Hände.",
-  "explanation": "Ba-na-ne: drei Silben. Klatsch mit!"
+  "explanation": "Ba-na-ne: drei Silben. Klatsch mit!",
+  "more": "In jeder Silbe steckt ein Selbstlaut: Ba-na-ne hat a, a und e. So kannst du Silben auch zählen, ohne zu klatschen."
  },
  {
   "id": "de-deutsch-008",
@@ -133,7 +140,8 @@
   ],
   "answer": "A",
   "hint": "Sprich das Wort langsam und klatsche die Silben mit.",
-  "explanation": "Schmet-ter-ling: drei Silben."
+  "explanation": "Schmet-ter-ling: drei Silben.",
+  "more": "Ein anderes Wort für Schmetterling ist Falter. Sein Name kommt vom alten Wort „Schmetten“ für Sahne – früher glaubte man, Falter naschen gern Sahne."
  },
  {
   "id": "de-deutsch-009",
@@ -150,7 +158,8 @@
   ],
   "answer": "A",
   "hint": "Sag: ein …, viele … – oft ändert sich auch der Selbstlaut.",
-  "explanation": "ein Buch – viele Bücher."
+  "explanation": "ein Buch – viele Bücher.",
+  "more": "Ein Ort mit vielen Büchern heißt Bücherei oder Bibliothek. „Biblion“ ist Griechisch und bedeutet „Buch“."
  },
  {
   "id": "de-deutsch-010",
@@ -167,7 +176,8 @@
   ],
   "answer": "A",
   "hint": "Sag: eine …, viele … – aus „au“ wird oft ein anderer Laut.",
-  "explanation": "eine Maus – viele Mäuse."
+  "explanation": "eine Maus – viele Mäuse.",
+  "more": "Genauso geht es bei Laus – Läuse. Aber Achtung: Bei Haus heißt die Mehrzahl Häuser, nicht Häuse!"
  },
  {
   "id": "de-deutsch-011",
@@ -184,7 +194,8 @@
   ],
   "answer": "B",
   "hint": "Sag laut: ein …, viele …",
-  "explanation": "ein Kind – viele Kinder."
+  "explanation": "ein Kind – viele Kinder.",
+  "more": "Viele Wörter bilden die Mehrzahl mit -er, zum Beispiel Bild – Bilder oder Lied – Lieder. Manchmal kommt noch ein Umlaut dazu: Wald – Wälder."
  },
  {
   "id": "de-deutsch-012",
@@ -201,7 +212,8 @@
   ],
   "answer": "C",
   "hint": "Ein Tunwort sagt, was man machen kann.",
-  "explanation": "Verben sagen, was jemand tut: springen."
+  "explanation": "Verben sagen, was jemand tut: springen.",
+  "more": "Verben kann man verändern: ich springe, du springst, er springt. Die Grundform eines Verbs endet fast immer auf -en oder -n, wie springen oder klettern."
  },
  {
   "id": "de-deutsch-013",
@@ -218,7 +230,8 @@
   ],
   "answer": "C",
   "hint": "Ein Wiewort sagt, wie etwas ist.",
-  "explanation": "Adjektive beschreiben, wie etwas ist: groß."
+  "explanation": "Adjektive beschreiben, wie etwas ist: groß.",
+  "more": "Mit Adjektiven kann man vergleichen: groß, größer, am größten. Du findest sie mit der Frage: Wie ist etwas?"
  },
  {
   "id": "de-deutsch-014",
@@ -235,7 +248,8 @@
   ],
   "answer": "D",
   "hint": "Vor ein Namenwort kann man der, die oder das setzen.",
-  "explanation": "Nomen haben einen Artikel: die Freundschaft."
+  "explanation": "Nomen haben einen Artikel: die Freundschaft.",
+  "more": "Wörter mit den Endungen -schaft, -heit, -keit und -ung sind immer Nomen und haben den Artikel „die“: die Freiheit, die Übung."
  },
  {
   "id": "de-deutsch-015",
@@ -252,7 +266,8 @@
   ],
   "answer": "A",
   "hint": "Überlege: Will der Satz etwas wissen?",
-  "explanation": "Eine Frage endet mit einem Fragezeichen."
+  "explanation": "Eine Frage endet mit einem Fragezeichen.",
+  "more": "Fragen mit wer, wie, wo oder warum heißen W-Fragen. Fragen ohne W-Wort kann man meist mit Ja oder Nein beantworten: Kommst du mit?"
  },
  {
   "id": "de-deutsch-016",
@@ -269,7 +284,8 @@
   ],
   "answer": "B",
   "hint": "Aus welchen zwei Wörtern ist das Wort gemacht?",
-  "explanation": "Fahrrad kommt von fahren + Rad."
+  "explanation": "Fahrrad kommt von fahren + Rad.",
+  "more": "In der Schweiz sagt man zum Fahrrad oft „Velo“. Das kommt vom französischen „vélocipède“, was ungefähr „Schnellfuß“ heißt."
  },
  {
   "id": "de-deutsch-017",
@@ -286,7 +302,8 @@
   ],
   "answer": "A",
   "hint": "Denk an Sommer und Winter.",
-  "explanation": "warm ↔ kalt."
+  "explanation": "warm ↔ kalt.",
+  "more": "Zwischen warm und kalt gibt es noch Wörter wie lauwarm oder kühl. Gegenteile nennt man auch Antonyme."
  },
  {
   "id": "de-deutsch-018",
@@ -303,7 +320,8 @@
   ],
   "answer": "C",
   "hint": "Denk an eine Maus, die ganz still ist.",
-  "explanation": "laut ↔ leise."
+  "explanation": "laut ↔ leise.",
+  "more": "Für leise sagt man in der Musik „piano“. Das Klavier hieß früher Pianoforte – also „leise-laut“, weil man darauf beides spielen kann!"
  },
  {
   "id": "de-deutsch-019",
@@ -320,7 +338,8 @@
   ],
   "answer": "C",
   "hint": "Drei Dinge gehören zu einer Gruppe – eins nicht.",
-  "explanation": "Die Karotte ist ein Gemüse, die anderen sind Obst."
+  "explanation": "Die Karotte ist ein Gemüse, die anderen sind Obst.",
+  "more": "Die Karotte hat viele Namen: Möhre, Mohrrübe oder Gelbe Rübe. Sie wächst unter der Erde – wir essen also die Wurzel der Pflanze."
  },
  {
   "id": "de-deutsch-020",
@@ -337,7 +356,8 @@
   ],
   "answer": "C",
   "hint": "Schau auf die ersten Buchstaben und denk an das ABC.",
-  "explanation": "A kommt vor B, B kommt vor E."
+  "explanation": "A kommt vor B, B kommt vor E.",
+  "more": "Im Wörterbuch, im Lexikon und in Namenslisten sind alle Wörter nach dem ABC geordnet. So findet man alles ganz schnell."
  },
  {
   "id": "de-deutsch-021",
@@ -354,7 +374,8 @@
   ],
   "answer": "B",
   "hint": "Ist es jetzt, früher oder später passiert?",
-  "explanation": "„spielte“ ist das Präteritum von „spielen“."
+  "explanation": "„spielte“ ist das Präteritum von „spielen“.",
+  "more": "Das Präteritum benutzt man vor allem beim Schreiben, zum Beispiel in Märchen: „Es war einmal …“. Beim Erzählen sagt man öfter das Perfekt: „Ich habe gespielt.“"
  },
  {
   "id": "de-deutsch-022",
@@ -371,7 +392,8 @@
   ],
   "answer": "C",
   "hint": "„gehen“ ist unregelmäßig – das Wort ändert sich stark.",
-  "explanation": "„gehen“ ist unregelmäßig: ich ging."
+  "explanation": "„gehen“ ist unregelmäßig: ich ging.",
+  "more": "Unregelmäßige Verben ändern oft ihren Selbstlaut: singen – sang, finden – fand. Die muss man sich merken, aber mit Übung klappt das!"
  },
  {
   "id": "de-deutsch-023",
@@ -388,7 +410,8 @@
   ],
   "answer": "B",
   "hint": "Bei Verben der Bewegung braucht man im Perfekt oft „sein“.",
-  "explanation": "Bei Bewegungen bildet man das Perfekt meist mit „sein“: wir sind gelaufen."
+  "explanation": "Bei Bewegungen bildet man das Perfekt meist mit „sein“: wir sind gelaufen.",
+  "more": "Auch „ich bin geschwommen“ und „ich bin gefahren“ bildet man mit sein, weil man sich fortbewegt. Bei „ich habe gelesen“ bleibt man dagegen sitzen."
  },
  {
   "id": "de-deutsch-024",
@@ -405,7 +428,8 @@
   ],
   "answer": "D",
   "hint": "Frag: Wer oder was tut etwas?",
-  "explanation": "Wer oder was bellt? – Der Hund."
+  "explanation": "Wer oder was bellt? – Der Hund.",
+  "more": "Subjekt und Verb passen immer zusammen: der Hund bellt, die Hunde bellen. Steht das Subjekt in der Mehrzahl, ändert sich auch das Verb."
  },
  {
   "id": "de-deutsch-025",
@@ -422,7 +446,8 @@
   ],
   "answer": "B",
   "hint": "Frag: Was tut jemand? Das ist das Verb.",
-  "explanation": "Was tut Lena? – Sie liest. Das Prädikat ist das Verb."
+  "explanation": "Was tut Lena? – Sie liest. Das Prädikat ist das Verb.",
+  "more": "Im Aussagesatz steht das Prädikat immer an zweiter Stelle: Lena liest ein Buch. Ein Buch liest Lena. Probier es aus!"
  },
  {
   "id": "de-deutsch-026",
@@ -439,7 +464,8 @@
   ],
   "answer": "C",
   "hint": "Sprich das Wort: Man hört ein langes i.",
-  "explanation": "Das lange i schreibt man meistens „ie“: Brief."
+  "explanation": "Das lange i schreibt man meistens „ie“: Brief.",
+  "more": "Es gibt auch Ausnahmen: Tiger, Igel und Krokodil haben ein langes i, aber kein ie. Diese Merkwörter muss man sich einprägen."
  },
  {
   "id": "de-deutsch-027",
@@ -456,7 +482,8 @@
   ],
   "answer": "D",
   "hint": "Ist das a lang oder kurz?",
-  "explanation": "Nach einem langen Selbstlaut schreibt man oft „ß“: Straße."
+  "explanation": "Nach einem langen Selbstlaut schreibt man oft „ß“: Straße.",
+  "more": "In der Schweiz gibt es gar kein ß – dort schreibt man immer „Strasse“. Das ß heißt auch „Eszett“ oder „scharfes S“."
  },
  {
   "id": "de-deutsch-028",
@@ -473,7 +500,8 @@
   ],
   "answer": "A",
   "hint": "Ist das a kurz oder lang?",
-  "explanation": "Nach einem kurzen Selbstlaut folgt oft ein doppelter Mitlaut: Wasser."
+  "explanation": "Nach einem kurzen Selbstlaut folgt oft ein doppelter Mitlaut: Wasser.",
+  "more": "Wasser hat viele Verwandte: wässrig, Gewässer und Wasserfall. In allen bleibt das ss, weil der Selbstlaut kurz ist."
  },
  {
   "id": "de-deutsch-029",
@@ -490,7 +518,8 @@
   ],
   "answer": "D",
   "hint": "Bei diesem Wort ändert sich beim Steigern das ganze Wort.",
-  "explanation": "„gut“ wird unregelmäßig gesteigert: besser, am besten."
+  "explanation": "„gut“ wird unregelmäßig gesteigert: besser, am besten.",
+  "more": "Auch „gern“ ist so ein Sonderfall: gern – lieber – am liebsten. Im Englischen gibt es das auch: good – better – best."
  },
  {
   "id": "de-deutsch-030",
@@ -507,7 +536,8 @@
   ],
   "answer": "C",
   "hint": "Suche ein Wort, das aus zwei Nomen besteht.",
-  "explanation": "Haus + Tür = Haustür."
+  "explanation": "Haus + Tür = Haustür.",
+  "more": "Bei zusammengesetzten Nomen bestimmt immer das letzte Wort den Artikel: das Haus + die Tür = die Haustür."
  },
  {
   "id": "de-deutsch-031",
@@ -524,7 +554,8 @@
   ],
   "answer": "B",
   "hint": "Das Wort sagt, wo etwas liegt.",
-  "explanation": "„unter“ sagt, wo etwas ist: unter dem Tisch."
+  "explanation": "„unter“ sagt, wo etwas ist: unter dem Tisch.",
+  "more": "Präpositionen wie auf, unter, neben, hinter und zwischen zeigen, wo etwas ist. Mit „unter“ kann man auch Wörter bauen: Unterhose, Untertasse, Unterschrift."
  },
  {
   "id": "de-deutsch-032",
@@ -541,7 +572,8 @@
   ],
   "answer": "B",
   "hint": "Wörter einer Familie haben denselben Wortstamm.",
-  "explanation": "Fahrer, Fahrrad, Abfahrt – alle kommen von „fahren“."
+  "explanation": "Fahrer, Fahrrad, Abfahrt – alle kommen von „fahren“.",
+  "more": "Zu einer Wortfamilie gehören alle Wörter mit demselben Wortstamm. Bei „fahren“ sind das auch Fahrt, Fähre, Fahrkarte und Vorfahrt."
  },
  {
   "id": "de-deutsch-033",
@@ -558,7 +590,8 @@
   ],
   "answer": "C",
   "hint": "Welcher Satz klingt wie ein Ruf oder eine Warnung?",
-  "explanation": "Ausrufe und Aufforderungen enden mit „!“."
+  "explanation": "Ausrufe und Aufforderungen enden mit „!“.",
+  "more": "Ein Ausrufezeichen kann auch Gefühle zeigen, etwa Freude oder Schreck: „Hurra!“ oder „Au!“ Solche Ausrufewörter heißen Interjektionen."
  },
  {
   "id": "de-deutsch-034",
@@ -575,7 +608,8 @@
   ],
   "answer": "A",
   "hint": "Verlängere das Wort, dann hörst du den Laut.",
-  "explanation": "Verlängern hilft: die Wälder – man hört das d."
+  "explanation": "Verlängern hilft: die Wälder – man hört das d.",
+  "more": "Der Verlängern-Trick klappt auch bei Hund – Hunde und Bild – Bilder. Am Wortende klingt d nämlich immer wie t."
  },
  {
   "id": "de-deutsch-035",
@@ -592,7 +626,8 @@
   ],
   "answer": "B",
   "hint": "Verlängere das Wort mit der Mehrzahl.",
-  "explanation": "Verlängern hilft: die Berge – man hört das g."
+  "explanation": "Verlängern hilft: die Berge – man hört das g.",
+  "more": "Berg und Burg sind sprachlich verwandt – Burgen baute man früher gern hoch oben auf Bergen, damit man Feinde früh sah."
  },
  {
   "id": "de-deutsch-036",
@@ -609,7 +644,8 @@
   ],
   "answer": "C",
   "hint": "Sag die Mehrzahl, dann hörst du den Laut deutlich.",
-  "explanation": "Verlängern hilft: die Körbe – man hört das b."
+  "explanation": "Verlängern hilft: die Körbe – man hört das b.",
+  "more": "Verlängern hilft auch bei „gelb“ – gelbe und bei „Dieb“ – Diebe. So hörst du das b ganz deutlich."
  },
  {
   "id": "de-deutsch-037",
@@ -626,7 +662,8 @@
   ],
   "answer": "C",
   "hint": "Gibt es ein verwandtes Wort mit a?",
-  "explanation": "Ableiten: Blatt → Blätter, deshalb ä."
+  "explanation": "Ableiten: Blatt → Blätter, deshalb ä.",
+  "more": "Auch bei „Kälte“ hilft Ableiten: Es kommt von kalt. Merke: Gibt es ein verwandtes Wort mit a, schreibt man ä."
  },
  {
   "id": "de-deutsch-038",
@@ -643,7 +680,8 @@
   ],
   "answer": "C",
   "hint": "Gibt es ein verwandtes Wort mit au?",
-  "explanation": "Ableiten: Haus → Häuser, deshalb äu."
+  "explanation": "Ableiten: Haus → Häuser, deshalb äu.",
+  "more": "Das klappt auch bei „Bäume“ von Baum und „läuft“ von laufen. Gibt es kein verwandtes Wort mit au, schreibt man eu – wie bei Freund oder heute."
  },
  {
   "id": "de-deutsch-039",
@@ -660,7 +698,8 @@
   ],
   "answer": "C",
   "hint": "Was passiert, wenn man etwas sehr oft macht?",
-  "explanation": "Je öfter man etwas übt, desto besser kann man es."
+  "explanation": "Je öfter man etwas übt, desto besser kann man es.",
+  "more": "Ein Meister war früher jemand, der sein Handwerk perfekt konnte, zum Beispiel ein Bäckermeister. Ähnlich sagt man: „Es ist noch kein Meister vom Himmel gefallen.“"
  },
  {
   "id": "de-deutsch-040",
@@ -677,7 +716,8 @@
   ],
   "answer": "D",
   "hint": "Frag: Wem helfe ich?",
-  "explanation": "Wem helfe ich? – dem Lehrer: Dativ."
+  "explanation": "Wem helfe ich? – dem Lehrer: Dativ.",
+  "more": "Manche Verben wollen immer den Dativ: helfen, danken, gratulieren. Man sagt also: Ich danke dir – und nicht: Ich danke dich."
  },
  {
   "id": "de-deutsch-041",
@@ -694,7 +734,8 @@
   ],
   "answer": "D",
   "hint": "Frag: Wen oder was wirft Tim?",
-  "explanation": "Wen oder was wirft Tim? – den Ball: Akkusativ."
+  "explanation": "Wen oder was wirft Tim? – den Ball: Akkusativ.",
+  "more": "Nur bei männlichen Nomen sieht man den Akkusativ am Artikel: aus der Ball wird den Ball. Bei die Puppe und das Auto bleibt der Artikel gleich."
  },
  {
   "id": "de-deutsch-042",
@@ -711,7 +752,8 @@
   ],
   "answer": "A",
   "hint": "Das Futur bildet man mit „werden“.",
-  "explanation": "Futur: werden + Grundform des Verbs."
+  "explanation": "Futur: werden + Grundform des Verbs.",
+  "more": "Oft drückt man die Zukunft auch einfach mit dem Präsens und einer Zeitangabe aus: „Morgen schreibe ich einen Brief.“ Das verstehen alle sofort."
  },
  {
   "id": "de-deutsch-043",
@@ -728,7 +770,8 @@
   ],
   "answer": "B",
   "hint": "Ein Nebensatz wird durch ein Komma abgetrennt.",
-  "explanation": "Vor „weil“ beginnt ein Nebensatz – davor steht ein Komma."
+  "explanation": "Vor „weil“ beginnt ein Nebensatz – davor steht ein Komma.",
+  "more": "Im weil-Satz rutscht das Verb ganz ans Ende: „… weil ich krank bin.“ Das gilt auch für Nebensätze mit dass, wenn und ob."
  },
  {
   "id": "de-deutsch-044",
@@ -745,7 +788,8 @@
   ],
   "answer": "B",
   "hint": "Ein Fürwort steht für ein Nomen.",
-  "explanation": "Pronomen stehen für ein Nomen: ich, du, er, sie, es …"
+  "explanation": "Pronomen stehen für ein Nomen: ich, du, er, sie, es …",
+  "more": "„Pronomen“ kommt aus dem Lateinischen: „pro“ heißt „für“, „nomen“ heißt „Name“. Ein Pronomen ist also ein Für-Wort – genau wie sein deutscher Name!"
  },
  {
   "id": "de-deutsch-045",
@@ -762,7 +806,8 @@
   ],
   "answer": "D",
   "hint": "Kannst du „dieses“ oder „welches“ einsetzen?",
-  "explanation": "Kann man „dieses“ oder „welches“ einsetzen? Nein → „dass“."
+  "explanation": "Kann man „dieses“ oder „welches“ einsetzen? Nein → „dass“.",
+  "more": "„dass“ steht oft nach Verben wie hoffen, wissen, glauben oder sagen. Vor dem dass-Satz steht ein Komma."
  },
  {
   "id": "de-deutsch-046",
@@ -779,7 +824,8 @@
   ],
   "answer": "A",
   "hint": "Kannst du „welches“ einsetzen?",
-  "explanation": "Man kann „welches“ einsetzen → „das“."
+  "explanation": "Man kann „welches“ einsetzen → „das“.",
+  "more": "Ein „das“, für das man „welches“ einsetzen kann, heißt Relativpronomen. Es bezieht sich auf ein Nomen davor – hier auf „das Buch“."
  },
  {
   "id": "de-deutsch-047",
@@ -796,7 +842,8 @@
   ],
   "answer": "C",
   "hint": "Achte auf Doppelpunkt, Anführungszeichen und den großen Anfang.",
-  "explanation": "Doppelpunkt, Anführungszeichen unten und oben, Satzanfang groß."
+  "explanation": "Doppelpunkt, Anführungszeichen unten und oben, Satzanfang groß.",
+  "more": "Wörtliche Rede findest du in fast jeder Geschichte. In Comics stehen die gesprochenen Worte allerdings in Sprechblasen statt in Anführungszeichen."
  },
  {
   "id": "de-deutsch-048",
@@ -813,7 +860,8 @@
   ],
   "answer": "A",
   "hint": "Frag: Wann passiert es?",
-  "explanation": "„morgen“ ist eine Zeitangabe."
+  "explanation": "„morgen“ ist eine Zeitangabe.",
+  "more": "Achtung: „morgen“ klein heißt „am nächsten Tag“, „der Morgen“ groß ist die Tageszeit. Darum schreibt man: morgen früh, aber am Morgen."
  },
  {
   "id": "de-deutsch-049",
@@ -830,7 +878,8 @@
   ],
   "answer": "C",
   "hint": "Mit welcher Nachsilbe wird aus einem Wort ein Namenwort?",
-  "explanation": "frei → die Freiheit."
+  "explanation": "frei → die Freiheit.",
+  "more": "Mit -keit klappt das auch: freundlich – die Freundlichkeit, ehrlich – die Ehrlichkeit. Und mit -ung: hoffen – die Hoffnung."
  },
  {
   "id": "de-deutsch-050",
@@ -847,7 +896,8 @@
   ],
   "answer": "D",
   "hint": "Was macht man auf dem Flohmarkt mit alten Sachen?",
-  "explanation": "verkaufen = gegen Geld weggeben."
+  "explanation": "verkaufen = gegen Geld weggeben.",
+  "more": "Vorsilben verändern die Bedeutung: kaufen, verkaufen, einkaufen. Mit „ver-“ kann auch etwas schiefgehen: sich verlaufen oder sich verschreiben!"
  },
  {
   "id": "de-deutsch-051",
@@ -864,7 +914,8 @@
   ],
   "answer": "B",
   "hint": "Frag: Wo spielen wir?",
-  "explanation": "Wo spielen wir? – im Park."
+  "explanation": "Wo spielen wir? – im Park.",
+  "more": "Die Zeitangabe in diesem Satz ist „Am Montag“ – sie sagt, wann. Mit den Fragen Wo?, Wann? und Wie? findest du solche Angaben."
  },
  {
   "id": "de-deutsch-052",
@@ -881,7 +932,8 @@
   ],
   "answer": "B",
   "hint": "Namen von Menschen schreibt man immer groß.",
-  "explanation": "Lisa ist ein Name – Namen schreibt man groß."
+  "explanation": "Lisa ist ein Name – Namen schreibt man groß.",
+  "more": "Auch Namen von Städten, Ländern und Flüssen schreibt man groß, zum Beispiel Berlin, Deutschland und der Rhein."
  },
  {
   "id": "de-deutsch-053",
@@ -898,7 +950,8 @@
   ],
   "answer": "D",
   "hint": "Sag laut: eine Katze – welcher Begleiter gehört dazu?",
-  "explanation": "Es heißt: die Katze."
+  "explanation": "Es heißt: die Katze.",
+  "more": "Eine männliche Katze heißt Kater, ein Katzenbaby Kätzchen. Wörter mit -chen haben immer den Artikel „das“: das Kätzchen."
  },
  {
   "id": "de-deutsch-054",
@@ -915,7 +968,8 @@
   ],
   "answer": "A",
   "hint": "Sag laut: ein Haus – welcher Begleiter gehört dazu?",
-  "explanation": "Es heißt: das Haus."
+  "explanation": "Es heißt: das Haus.",
+  "more": "Auch in Krankenhaus, Baumhaus und Schneckenhaus steckt das Haus – und alle haben den Artikel „das“, weil „Haus“ am Ende steht."
  },
  {
   "id": "de-deutsch-055",
@@ -932,7 +986,8 @@
   ],
   "answer": "C",
   "hint": "Sprich jeden Begleiter vor dem Wort und hör genau hin.",
-  "explanation": "Es heißt: der Mond."
+  "explanation": "Es heißt: der Mond.",
+  "more": "Der Montag hat seinen Namen vom Mond – er ist der „Tag des Mondes“. Und der Sonntag ist der Tag der Sonne."
  },
  {
   "id": "de-deutsch-056",
@@ -949,7 +1004,8 @@
   ],
   "answer": "C",
   "hint": "Hör auf das Ende des Wortes.",
-  "explanation": "Hose – Rose: Das Ende „-ose“ klingt gleich."
+  "explanation": "Hose – Rose: Das Ende „-ose“ klingt gleich.",
+  "more": "Auf Hose reimen sich auch Dose und lose. Bei Reimen zählt der Klang, nicht die Schreibung – darum reimen sich auch Mai und Ei."
  },
  {
   "id": "de-deutsch-057",
@@ -966,7 +1022,8 @@
   ],
   "answer": "A",
   "hint": "Reimwörter klingen am Ende gleich.",
-  "explanation": "Tisch – Fisch: Das Ende „-isch“ klingt gleich."
+  "explanation": "Tisch – Fisch: Das Ende „-isch“ klingt gleich.",
+  "more": "Der Tintenfisch heißt zwar Fisch, ist aber gar keiner – er ist ein Weichtier, verwandt mit den Schnecken!"
  },
  {
   "id": "de-deutsch-058",
@@ -983,7 +1040,8 @@
   ],
   "answer": "D",
   "hint": "Achte nicht auf den Anfang, sondern auf das Ende.",
-  "explanation": "Ball – Stall: Das Ende „-all“ klingt gleich."
+  "explanation": "Ball – Stall: Das Ende „-all“ klingt gleich.",
+  "more": "Ein Ball kann auch ein großes Tanzfest sein, zum Beispiel ein Maskenball. Gleiche Wörter mit verschiedenen Bedeutungen nennt man Teekesselchen."
  },
  {
   "id": "de-deutsch-059",
@@ -1000,7 +1058,8 @@
   ],
   "answer": "C",
   "hint": "Sprich beide Wörter und hör auf das Ende.",
-  "explanation": "Bein – Stein: Das Ende „-ein“ klingt gleich."
+  "explanation": "Bein – Stein: Das Ende „-ein“ klingt gleich.",
+  "more": "„Hals- und Beinbruch!“ wünscht man jemandem vor einer Prüfung oder einem Auftritt. Das ist nett gemeint und heißt: Viel Glück!"
  },
  {
   "id": "de-deutsch-060",
@@ -1017,7 +1076,8 @@
   ],
   "answer": "B",
   "hint": "Klatsche das Wort langsam mit.",
-  "explanation": "To-ma-te: drei Silben."
+  "explanation": "To-ma-te: drei Silben.",
+  "more": "Das Wort Tomate kommt aus der Sprache der Azteken in Mexiko: „tomatl“. In Österreich sagt man auch Paradeiser."
  },
  {
   "id": "de-deutsch-061",
@@ -1034,7 +1094,8 @@
   ],
   "answer": "D",
   "hint": "Klatsche bei jeder Silbe einmal.",
-  "explanation": "Son-ne: zwei Silben."
+  "explanation": "Son-ne: zwei Silben.",
+  "more": "Beim Trennen kommt der doppelte Mitlaut auseinander: Son-ne, Was-ser, Tel-ler. So siehst du die Silben auch beim Schreiben."
  },
  {
   "id": "de-deutsch-062",
@@ -1051,7 +1112,8 @@
   ],
   "answer": "C",
   "hint": "Sprich das Wort und klatsche mit – wie oft klatschst du?",
-  "explanation": "Ball hat nur eine Silbe."
+  "explanation": "Ball hat nur eine Silbe.",
+  "more": "Viele kurze Wörter haben nur eine Silbe, wie Hund, Baum oder Ball. Einsilbige Wörter kann man nicht trennen."
  },
  {
   "id": "de-deutsch-063",
@@ -1068,7 +1130,8 @@
   ],
   "answer": "C",
   "hint": "Sprich das Wort langsam: Was hörst du ganz am Anfang?",
-  "explanation": "Apfel beginnt mit A."
+  "explanation": "Apfel beginnt mit A.",
+  "more": "A ist der erste Buchstabe im Alphabet. Das Wort Alphabet kommt von den ersten beiden griechischen Buchstaben: Alpha und Beta."
  },
  {
   "id": "de-deutsch-064",
@@ -1085,7 +1148,8 @@
   ],
   "answer": "D",
   "hint": "Sag das ABC von vorne auf.",
-  "explanation": "A, B, C, D, E – nach D kommt E."
+  "explanation": "A, B, C, D, E – nach D kommt E.",
+  "more": "E ist der häufigste Buchstabe in deutschen Texten. Zähl mal auf einer Buchseite nach – du wirst staunen, wie oft er vorkommt!"
  },
  {
   "id": "de-deutsch-065",
@@ -1102,7 +1166,8 @@
   ],
   "answer": "A",
   "hint": "Sag das ABC auf und halte beim M an.",
-  "explanation": "… K, L, M – vor M kommt L."
+  "explanation": "… K, L, M – vor M kommt L.",
+  "more": "Das deutsche ABC hat 26 Buchstaben, dazu kommen ä, ö, ü und ß. M und N stehen genau in der Mitte des Alphabets."
  },
  {
   "id": "de-deutsch-066",
@@ -1119,7 +1184,8 @@
   ],
   "answer": "B",
   "hint": "Hör genau auf den Anfang des Wortes.",
-  "explanation": "Schule beginnt mit „Sch“. Bei Tasche und Fisch steht „sch“ weiter hinten."
+  "explanation": "Schule beginnt mit „Sch“. Bei Tasche und Fisch steht „sch“ weiter hinten.",
+  "more": "„sch“ sind drei Buchstaben, aber man hört nur einen Laut! Auch bei „ch“ in Buch ist es so: zwei Buchstaben, ein Laut."
  },
  {
   "id": "de-deutsch-067",
@@ -1136,7 +1202,8 @@
   ],
   "answer": "D",
   "hint": "Denk an die fünf Selbstlaute im ABC – welcher ist hier dabei?",
-  "explanation": "U ist ein Selbstlaut, M, T und R sind Mitlaute."
+  "explanation": "U ist ein Selbstlaut, M, T und R sind Mitlaute.",
+  "more": "Selbstlaute heißen so, weil sie von selbst klingen. Mitlaute brauchen einen Selbstlaut zum Klingen – das B spricht man zum Beispiel „Be“."
  },
  {
   "id": "de-deutsch-068",
@@ -1153,7 +1220,8 @@
   ],
   "answer": "D",
   "hint": "Zähle die Buchstaben mit dem Finger.",
-  "explanation": "H-u-n-d: vier Buchstaben. Die anderen haben fünf."
+  "explanation": "H-u-n-d: vier Buchstaben. Die anderen haben fünf.",
+  "more": "Hängt man an Hund ein e, bekommt man die Mehrzahl „Hunde“ – dann hat das Wort fünf Buchstaben. Ein Hundebaby heißt Welpe."
  },
  {
   "id": "de-deutsch-069",
@@ -1170,7 +1238,8 @@
   ],
   "answer": "D",
   "hint": "Der Satz erzählt etwas und fragt nichts.",
-  "explanation": "Ein Erzählsatz endet mit einem Punkt."
+  "explanation": "Ein Erzählsatz endet mit einem Punkt.",
+  "more": "Nach einem Punkt geht es mit einem großen Buchstaben weiter. Beim Vorlesen zeigt der Punkt: Hier kurz Pause machen!"
  },
  {
   "id": "de-deutsch-070",
@@ -1187,7 +1256,8 @@
   ],
   "answer": "C",
   "hint": "Denk an eine Maus und einen Elefanten.",
-  "explanation": "groß ↔ klein."
+  "explanation": "groß ↔ klein.",
+  "more": "Manchmal bildet man Gegenteile mit „un-“: freundlich – unfreundlich. Bei groß klappt das nicht: Es heißt nicht „ungroß“, sondern klein."
  },
  {
   "id": "de-deutsch-071",
@@ -1204,7 +1274,8 @@
   ],
   "answer": "A",
   "hint": "Wann schläfst du und es ist dunkel?",
-  "explanation": "Tag ↔ Nacht."
+  "explanation": "Tag ↔ Nacht.",
+  "more": "Den Übergang vom Tag zur Nacht nennt man Abenddämmerung, den von der Nacht zum Tag Morgendämmerung. Eulen sind nachts wach und schlafen am Tag."
  },
  {
   "id": "de-deutsch-072",
@@ -1221,7 +1292,8 @@
   ],
   "answer": "D",
   "hint": "Denk an einen Turm: Wo ist der Boden?",
-  "explanation": "oben ↔ unten."
+  "explanation": "oben ↔ unten.",
+  "more": "Ähnliche Gegensatzpaare sind vorne – hinten und links – rechts. Mit solchen Wörtern kannst du genau beschreiben, wo etwas ist."
  },
  {
   "id": "de-deutsch-073",
@@ -1238,7 +1310,8 @@
   ],
   "answer": "C",
   "hint": "Drei Wörter sind Farben – eins nicht.",
-  "explanation": "Der Hund ist ein Tier, die anderen Wörter sind Farben."
+  "explanation": "Der Hund ist ein Tier, die anderen Wörter sind Farben.",
+  "more": "Die Grundfarben im Malkasten sind Rot, Gelb und Blau. Mischst du Gelb und Blau, bekommst du Grün!"
  },
  {
   "id": "de-deutsch-074",
@@ -1255,7 +1328,8 @@
   ],
   "answer": "B",
   "hint": "Drei Wörter sind Tiere – eins nicht.",
-  "explanation": "Der Tisch ist ein Möbelstück, die anderen sind Tiere."
+  "explanation": "Der Tisch ist ein Möbelstück, die anderen sind Tiere.",
+  "more": "Ein Oberbegriff fasst Wörter zusammen: Hund, Katze und Pferd sind Tiere. Tisch, Stuhl und Schrank sind Möbel."
  },
  {
   "id": "de-deutsch-075",
@@ -1272,7 +1346,8 @@
   ],
   "answer": "A",
   "hint": "Bei der Mehrzahl ändert sich oft das a.",
-  "explanation": "ein Ball – zwei Bälle."
+  "explanation": "ein Ball – zwei Bälle.",
+  "more": "Aus a wird in der Mehrzahl oft ä: Ball – Bälle, Hand – Hände, Bart – Bärte. Die zwei Pünktchen machen daraus einen Umlaut."
  },
  {
   "id": "de-deutsch-076",
@@ -1289,7 +1364,8 @@
   ],
   "answer": "A",
   "hint": "Lies den zweiten Satz noch einmal genau.",
-  "explanation": "Im Text steht: Der Hund heißt Bello."
+  "explanation": "Im Text steht: Der Hund heißt Bello.",
+  "more": "Bello ist ein typischer Hundename, er erinnert an „bellen“. Beim Lesen hilft es, das Schlüsselwort aus der Frage im Text zu suchen – hier „heißt“."
  },
  {
   "id": "de-deutsch-077",
@@ -1306,7 +1382,8 @@
   ],
   "answer": "A",
   "hint": "Im Satz steht, wie der Apfel aussieht.",
-  "explanation": "Im Satz steht: einen roten Apfel."
+  "explanation": "Im Satz steht: einen roten Apfel.",
+  "more": "Ein guter Lesetrick: Die Antwort steht oft direkt neben dem Wort aus der Frage – hier steht „roten“ direkt vor „Apfel“."
  },
  {
   "id": "de-deutsch-078",
@@ -1323,7 +1400,8 @@
   ],
   "answer": "A",
   "hint": "Sprich das Wort langsam: Das o ist kurz.",
-  "explanation": "Sonne schreibt man mit nn."
+  "explanation": "Sonne schreibt man mit nn.",
+  "more": "Zur Wortfamilie von Sonne gehören auch sonnig, Sonnenbrille und sogar Sonntag. Das nn bleibt dabei immer erhalten."
  },
  {
   "id": "de-deutsch-079",
@@ -1340,7 +1418,8 @@
   ],
   "answer": "B",
   "hint": "Denk an den Satzanfang und an das Namenwort.",
-  "explanation": "Der Satzanfang und das Nomen „Hund“ werden großgeschrieben."
+  "explanation": "Der Satzanfang und das Nomen „Hund“ werden großgeschrieben.",
+  "more": "Jeder Satz beginnt groß – auch wenn das erste Wort sonst klein ist, wie „heute“ oder „ich“: Heute scheint die Sonne."
  },
  {
   "id": "de-deutsch-080",
@@ -1357,7 +1436,8 @@
   ],
   "answer": "B",
   "hint": "Zeige auf jedes Wort und zähle.",
-  "explanation": "Ich – mag – Eis: drei Wörter."
+  "explanation": "Ich – mag – Eis: drei Wörter.",
+  "more": "Zwischen Wörtern lässt man beim Schreiben eine Lücke. Bei den alten Römern schrieb man oft ohne Lücken – das war ganz schön schwer zu lesen!"
  },
  {
   "id": "de-deutsch-081",
@@ -1374,7 +1454,8 @@
   ],
   "answer": "A",
   "hint": "Hör genau auf den ersten Laut.",
-  "explanation": "Mond und Maus beginnen beide mit M."
+  "explanation": "Mond und Maus beginnen beide mit M.",
+  "more": "Beginnen viele Wörter mit dem gleichen Laut, klingt das lustig. So entstehen Zungenbrecher wie „Fischers Fritz fischt frische Fische“."
  },
  {
   "id": "de-deutsch-082",
@@ -1391,7 +1472,8 @@
   ],
   "answer": "A",
   "hint": "Sprich jedes Wort langsam und hör hin.",
-  "explanation": "Eis beginnt mit „ei“."
+  "explanation": "Eis beginnt mit „ei“.",
+  "more": "„ei“ und „ai“ klingen gleich! Mit ai schreibt man nur wenige Wörter, zum Beispiel Mai, Hai, Kaiser und Mais."
  },
  {
   "id": "de-deutsch-083",
@@ -1408,7 +1490,8 @@
   ],
   "answer": "D",
   "hint": "Denk an die Bücherei.",
-  "explanation": "Ein Buch liest man."
+  "explanation": "Ein Buch liest man.",
+  "more": "Bücher kann man auch hören: Hörbücher werden vorgelesen. Wer ein Buch geschrieben hat, heißt Autor oder Autorin."
  },
  {
   "id": "de-deutsch-084",
@@ -1425,7 +1508,8 @@
   ],
   "answer": "B",
   "hint": "Setze die zwei Wörter einfach in dieser Reihenfolge zusammen.",
-  "explanation": "Zahn + Bürste = Zahnbürste."
+  "explanation": "Zahn + Bürste = Zahnbürste.",
+  "more": "Auch Zahnarzt, Zahnpasta und Milchzahn sind zusammengesetzte Nomen mit „Zahn“. Kinder haben 20 Milchzähne."
  },
  {
   "id": "de-deutsch-085",
@@ -1442,7 +1526,8 @@
   ],
   "answer": "B",
   "hint": "Sag: ein …, viele … – achte auf den ersten Buchstaben.",
-  "explanation": "ein Apfel – viele Äpfel."
+  "explanation": "ein Apfel – viele Äpfel.",
+  "more": "Ein bekanntes Sprichwort lautet: „Der Apfel fällt nicht weit vom Stamm.“ Das heißt: Kinder sind ihren Eltern oft ähnlich."
  },
  {
   "id": "de-deutsch-086",
@@ -1459,7 +1544,8 @@
   ],
   "answer": "A",
   "hint": "Aus „au“ wird in der Mehrzahl oft ein anderer Laut.",
-  "explanation": "ein Baum – viele Bäume."
+  "explanation": "ein Baum – viele Bäume.",
+  "more": "Ein Ort mit ganz vielen Bäumen heißt Wald. An einem Baumstumpf kann man Jahresringe zählen – jeder Ring steht für ein Jahr."
  },
  {
   "id": "de-deutsch-087",
@@ -1476,7 +1562,8 @@
   ],
   "answer": "C",
   "hint": "Sag: viele Hände – aber nur eine …",
-  "explanation": "viele Hände – eine Hand."
+  "explanation": "viele Hände – eine Hand.",
+  "more": "Bei „Hand“ hört man am Ende ein t, schreibt aber d – das verrät die Mehrzahl „Hände“."
  },
  {
   "id": "de-deutsch-088",
@@ -1493,7 +1580,8 @@
   ],
   "answer": "D",
   "hint": "Bei Wörtern, die auf o enden, hängt man oft nur einen Buchstaben an.",
-  "explanation": "ein Auto – viele Autos."
+  "explanation": "ein Auto – viele Autos.",
+  "more": "Wörter, die auf a, i, o oder u enden, bekommen in der Mehrzahl oft ein -s: Oma – Omas, Taxi – Taxis, Kino – Kinos, Uhu – Uhus."
  },
  {
   "id": "de-deutsch-089",
@@ -1510,7 +1598,8 @@
   ],
   "answer": "C",
   "hint": "Drei Wörter sagen, was man tun kann.",
-  "explanation": "Lampe ist ein Nomen: die Lampe."
+  "explanation": "Lampe ist ein Nomen: die Lampe.",
+  "more": "Manche Wörter gibt es als Nomen und als Verb: das Spiel – spielen, der Traum – träumen. Zu Lampe gibt es kein passendes Verb."
  },
  {
   "id": "de-deutsch-090",
@@ -1527,7 +1616,8 @@
   ],
   "answer": "D",
   "hint": "Frag: Wie ist die Blume?",
-  "explanation": "„rote“ beschreibt, wie die Blume ist."
+  "explanation": "„rote“ beschreibt, wie die Blume ist.",
+  "more": "Steht ein Adjektiv vor dem Nomen, bekommt es eine Endung: die rote Blume, ein roter Ball. Steht es hinten, bleibt es ohne: Die Blume ist rot."
  },
  {
   "id": "de-deutsch-091",
@@ -1544,7 +1634,8 @@
   ],
   "answer": "A",
   "hint": "Vor ein Nomen kann man der, die oder das setzen.",
-  "explanation": "der Junge – Junge ist ein Nomen."
+  "explanation": "der Junge – Junge ist ein Nomen.",
+  "more": "Das Gegenstück zum Jungen ist das Mädchen. Witzig: „Mädchen“ hat den Artikel „das“, weil alle Wörter mit -chen sächlich sind."
  },
  {
   "id": "de-deutsch-092",
@@ -1561,7 +1652,8 @@
   ],
   "answer": "B",
   "hint": "Vergleiche die ersten Buchstaben.",
-  "explanation": "H kommt im ABC vor I, K und L."
+  "explanation": "H kommt im ABC vor I, K und L.",
+  "more": "Beginnen Wörter mit dem gleichen Buchstaben, schaut man auf den zweiten: Haus kommt vor Hut, weil a vor u kommt."
  },
  {
   "id": "de-deutsch-093",
@@ -1578,7 +1670,8 @@
   ],
   "answer": "D",
   "hint": "Alle beginnen mit B – schau auf den zweiten Buchstaben.",
-  "explanation": "a kommt vor e, l und r. Deshalb steht Bank zuerst."
+  "explanation": "a kommt vor e, l und r. Deshalb steht Bank zuerst.",
+  "more": "Bank ist ein Teekesselchen: Auf einer Bank sitzt man, in einer Bank liegt Geld. Die Mehrzahl ist verschieden: Bänke und Banken!"
  },
  {
   "id": "de-deutsch-094",
@@ -1595,7 +1688,8 @@
   ],
   "answer": "A",
   "hint": "Denk an ein Baby und eine Uroma.",
-  "explanation": "Ein Mensch ist alt ↔ jung."
+  "explanation": "Ein Mensch ist alt ↔ jung.",
+  "more": "Bei Sachen ist das Gegenteil von alt nicht jung, sondern neu: ein altes Fahrrad – ein neues Fahrrad. Ein Wort kann also mehrere Gegenteile haben."
  },
  {
   "id": "de-deutsch-095",
@@ -1612,7 +1706,8 @@
   ],
   "answer": "A",
   "hint": "Denk an eine Schnecke.",
-  "explanation": "schnell ↔ langsam."
+  "explanation": "schnell ↔ langsam.",
+  "more": "Das schnellste Landtier ist der Gepard – er schafft über 90 km/h. Sehr langsam ist dagegen das Faultier, das fast den ganzen Tag hängt und schläft."
  },
  {
   "id": "de-deutsch-096",
@@ -1629,7 +1724,8 @@
   ],
   "answer": "A",
   "hint": "Gesucht ist kein Gegenteil, sondern ein ähnliches Wort.",
-  "explanation": "rasch und schnell bedeuten fast das Gleiche."
+  "explanation": "rasch und schnell bedeuten fast das Gleiche.",
+  "more": "Wörter mit fast gleicher Bedeutung heißen Synonyme. Für schnell gibt es viele: flink, zügig, flott oder geschwind."
  },
  {
   "id": "de-deutsch-097",
@@ -1646,7 +1742,8 @@
   ],
   "answer": "D",
   "hint": "Der Satz ist eine Aufforderung.",
-  "explanation": "Nach einer Aufforderung steht ein Ausrufezeichen."
+  "explanation": "Nach einer Aufforderung steht ein Ausrufezeichen.",
+  "more": "Sätze, mit denen man jemanden auffordert, heißen Aufforderungssätze. Das Verb steht dabei ganz vorne: Komm her! Hör zu! Setz dich!"
  },
  {
   "id": "de-deutsch-098",
@@ -1663,7 +1760,8 @@
   ],
   "answer": "C",
   "hint": "Achte auf das Zeichen am Ende und wo das Verb steht.",
-  "explanation": "Ein Fragesatz endet mit einem Fragezeichen."
+  "explanation": "Ein Fragesatz endet mit einem Fragezeichen.",
+  "more": "Bei Ja-Nein-Fragen steht das Verb ganz vorne: Kommst du mit? Beim Sprechen geht die Stimme am Ende nach oben."
  },
  {
   "id": "de-deutsch-099",
@@ -1680,7 +1778,8 @@
   ],
   "answer": "D",
   "hint": "Beide Wörter bleiben ganz erhalten.",
-  "explanation": "Schnee + Mann = Schneemann – mit ee und nn."
+  "explanation": "Schnee + Mann = Schneemann – mit ee und nn.",
+  "more": "Seit der Rechtschreibreform schreibt man auch drei gleiche Buchstaben hintereinander: Schneeeule, Kaffeeernte, Schifffahrt."
  },
  {
   "id": "de-deutsch-100",
@@ -1697,7 +1796,8 @@
   ],
   "answer": "D",
   "hint": "Man hört ein langes i.",
-  "explanation": "Das lange i schreibt man meistens „ie“: Spiel."
+  "explanation": "Das lange i schreibt man meistens „ie“: Spiel.",
+  "more": "Selten schreibt man das lange i auch als ih oder ieh: ihr, ihm, ihn – oder ziehen und Vieh."
  },
  {
   "id": "de-deutsch-101",
@@ -1714,7 +1814,8 @@
   ],
   "answer": "C",
   "hint": "Das u ist kurz – was folgt dann oft?",
-  "explanation": "Nach dem kurzen u folgt ein doppeltes t: Mutter."
+  "explanation": "Nach dem kurzen u folgt ein doppeltes t: Mutter.",
+  "more": "Mutter, Vater, Bruder und Schwester enden alle auf -er. In anderen Sprachen klingt Mutter ähnlich: „mother“ auf Englisch, „moeder“ auf Niederländisch."
  },
  {
   "id": "de-deutsch-102",
@@ -1731,7 +1832,8 @@
   ],
   "answer": "D",
   "hint": "Denk an den Satzanfang und an Namenwörter.",
-  "explanation": "Das erste Wort im Satz und das Nomen Ball schreibt man groß: Ich spiele mit dem Ball."
+  "explanation": "Das erste Wort im Satz und das Nomen Ball schreibt man groß: Ich spiele mit dem Ball.",
+  "more": "In Briefen und Nachrichten darf man die Anrede „du“ auch großschreiben: Wie geht es Dir? Klein ist aber genauso richtig."
  },
  {
   "id": "de-deutsch-103",
@@ -1748,7 +1850,8 @@
   ],
   "answer": "A",
   "hint": "Klatsche das Wort langsam mit.",
-  "explanation": "Scho-ko-la-de: vier Silben."
+  "explanation": "Scho-ko-la-de: vier Silben.",
+  "more": "Schokolade macht man aus den Bohnen des Kakaobaums. Das Wort stammt aus einer alten Sprache aus Mittelamerika."
  },
  {
   "id": "de-deutsch-104",
@@ -1765,7 +1868,8 @@
   ],
   "answer": "D",
   "hint": "Sprich das Wort in Silben und klatsche mit.",
-  "explanation": "Fens-ter: s und t werden getrennt."
+  "explanation": "Fens-ter: s und t werden getrennt.",
+  "more": "Früher galt: „Trenne nie st, denn es tut ihm weh.“ Seit der Rechtschreibreform 1996 trennt man st aber doch: Fens-ter, Kis-te."
  },
  {
   "id": "de-deutsch-105",
@@ -1782,7 +1886,8 @@
   ],
   "answer": "D",
   "hint": "Hör genau auf das Ende des Wortes.",
-  "explanation": "Katze – Tatze: Das Ende „-atze“ klingt gleich."
+  "explanation": "Katze – Tatze: Das Ende „-atze“ klingt gleich.",
+  "more": "Eine Tatze ist die Pfote eines Tieres, zum Beispiel eines Bären. Katzen können ihre Krallen in den Pfoten einziehen und wieder ausfahren."
  },
  {
   "id": "de-deutsch-106",
@@ -1799,7 +1904,8 @@
   ],
   "answer": "B",
   "hint": "Lies noch einmal genau, was Paul im Zoo sieht.",
-  "explanation": "Im Text steht: zwei Affen."
+  "explanation": "Im Text steht: zwei Affen.",
+  "more": "Elefanten benutzen ihren Rüssel zum Riechen, Greifen und Wasser-Aufsaugen. Bei Fragen nach Zahlen hilft es, im Text alle Zahlwörter zu unterstreichen."
  },
  {
   "id": "de-deutsch-107",
@@ -1816,7 +1922,8 @@
   ],
   "answer": "B",
   "hint": "Lies den ersten Satz noch einmal.",
-  "explanation": "Ein Schirm schützt vor Regen – und es regnet."
+  "explanation": "Ein Schirm schützt vor Regen – und es regnet.",
+  "more": "Auf eine Warum-Frage antwortet man oft mit „Weil …“. Den Grund findest du im Text manchmal schon vorher – hier im ersten Satz: Es regnet."
  },
  {
   "id": "de-deutsch-108",
@@ -1833,7 +1940,8 @@
   ],
   "answer": "C",
   "hint": "Zu „du“ gehört meistens die Endung „-st“.",
-  "explanation": "du singst."
+  "explanation": "du singst.",
+  "more": "Bei „du“ endet das Verb fast immer auf -st: du spielst, du lachst. Bei „er“ oder „sie“ endet es auf -t: er singt."
  },
  {
   "id": "de-deutsch-109",
@@ -1850,7 +1958,8 @@
   ],
   "answer": "A",
   "hint": "Tom ist ein Junge – welches Fürwort passt zu ihm?",
-  "explanation": "Für einen Jungen sagt man: er."
+  "explanation": "Für einen Jungen sagt man: er.",
+  "more": "Für Mädchen sagt man sie, für Dinge richtet sich das Pronomen nach dem Artikel: der Ball – er, die Tasche – sie, das Buch – es."
  },
  {
   "id": "de-deutsch-110",
@@ -1867,7 +1976,8 @@
   ],
   "answer": "B",
   "hint": "Gesucht ist ein Wort, das mit Sprechen zu tun hat.",
-  "explanation": "Flüstern ist leises Sagen."
+  "explanation": "Flüstern ist leises Sagen.",
+  "more": "Zum Wortfeld „sagen“ gehören noch viele Wörter: rufen, schreien, murmeln, erzählen. Mit ihnen werden Geschichten viel spannender!"
  },
  {
   "id": "de-deutsch-111",
@@ -1884,7 +1994,8 @@
   ],
   "answer": "A",
   "hint": "Schau auf die ersten Buchstaben: G, H und I.",
-  "explanation": "G kommt vor H, H kommt vor I."
+  "explanation": "G kommt vor H, H kommt vor I.",
+  "more": "Wer das ABC-Lied im Kopf mitsingt, findet die Reihenfolge schnell. Profis üben das schnelle Nachschlagen im Wörterbuch – probier es mal mit einer Stoppuhr!"
  },
  {
   "id": "de-deutsch-112",
@@ -1901,7 +2012,8 @@
   ],
   "answer": "B",
   "hint": "Passiert es jetzt, früher oder später?",
-  "explanation": "„essen“ steht hier in der Gegenwart: Es passiert jetzt."
+  "explanation": "„essen“ steht hier in der Gegenwart: Es passiert jetzt.",
+  "more": "Das Präsens benutzt man auch für Dinge, die immer gelten: Die Erde dreht sich um die Sonne. Und für Gewohnheiten: Freitags essen wir Pizza."
  },
  {
   "id": "de-deutsch-113",
@@ -1918,7 +2030,8 @@
   ],
   "answer": "C",
   "hint": "Achte auf das Hilfsverb und das Wort mit „ge-“.",
-  "explanation": "„habe gemalt“: haben + Partizip – das ist das Perfekt."
+  "explanation": "„habe gemalt“: haben + Partizip – das ist das Perfekt.",
+  "more": "Das Perfekt benutzt man am liebsten beim Erzählen: „Ich habe gemalt.“ Es hat immer zwei Teile: haben oder sein plus Partizip."
  },
  {
   "id": "de-deutsch-114",
@@ -1935,7 +2048,8 @@
   ],
   "answer": "B",
   "hint": "„sehen“ ist unregelmäßig.",
-  "explanation": "sehen – er sah – er hat gesehen."
+  "explanation": "sehen – er sah – er hat gesehen.",
+  "more": "Genauso ändern sich lesen – las und geben – gab. Aus dem e wird im Präteritum oft ein a."
  },
  {
   "id": "de-deutsch-115",
@@ -1952,7 +2066,8 @@
   ],
   "answer": "B",
   "hint": "Essen ist keine Bewegung – welches Hilfsverb passt?",
-  "explanation": "Perfekt: wir haben gegessen."
+  "explanation": "Perfekt: wir haben gegessen.",
+  "more": "In „gegessen“ steckt ein Extra-g: ge-g-essen. Diese Besonderheit gibt es nur bei „essen“."
  },
  {
   "id": "de-deutsch-116",
@@ -1969,7 +2084,8 @@
   ],
   "answer": "D",
   "hint": "Frag: Wen oder was backt Oma?",
-  "explanation": "Wen oder was backt Oma? – einen Kuchen."
+  "explanation": "Wen oder was backt Oma? – einen Kuchen.",
+  "more": "Das Akkusativobjekt findet man mit „Wen oder was?“. Bei männlichen Nomen erkennt man es am Begleiter „den“ oder „einen“: einen Kuchen."
  },
  {
   "id": "de-deutsch-117",
@@ -1986,7 +2102,8 @@
   ],
   "answer": "B",
   "hint": "Frag: Wer oder was singt?",
-  "explanation": "Wer oder was singt? – der Vogel. Das Subjekt steht nicht immer vorne."
+  "explanation": "Wer oder was singt? – der Vogel. Das Subjekt steht nicht immer vorne.",
+  "more": "In Fragesätzen steht das Subjekt oft hinter dem Verb: Singt der Vogel? Frag deshalb immer: Wer oder was tut etwas?"
  },
  {
   "id": "de-deutsch-118",
@@ -2003,7 +2120,8 @@
   ],
   "answer": "D",
   "hint": "Mach die Umstellprobe: Welche Wörter bleiben immer zusammen?",
-  "explanation": "Die Kinder | spielen | im Garten – drei Satzglieder."
+  "explanation": "Die Kinder | spielen | im Garten – drei Satzglieder.",
+  "more": "Ein Satzglied kann aus einem oder mehreren Wörtern bestehen: „spielen“ ist ein Wort, „im Garten“ sind zwei. Was beim Umstellen zusammenbleibt, gehört zusammen."
  },
  {
   "id": "de-deutsch-119",
@@ -2020,7 +2138,8 @@
   ],
   "answer": "B",
   "hint": "Suche das Wort ohne den Stamm „spiel“.",
-  "explanation": "Spiegel klingt ähnlich, hat aber nichts mit spielen zu tun."
+  "explanation": "Spiegel klingt ähnlich, hat aber nichts mit spielen zu tun.",
+  "more": "Das Wort Spiegel kommt vom lateinischen „speculum“. Im Spiegel ist alles seitenverkehrt – schreib mal deinen Namen und halte ihn davor!"
  },
  {
   "id": "de-deutsch-120",
@@ -2037,7 +2156,8 @@
   ],
   "answer": "B",
   "hint": "Wo wird gebacken?",
-  "explanation": "In der Bäckerei wird gebacken – sie hat den Stamm „back“."
+  "explanation": "In der Bäckerei wird gebacken – sie hat den Stamm „back“.",
+  "more": "Mit -ei werden oft Orte gebildet, an denen gearbeitet wird: Bäckerei, Metzgerei, Gärtnerei. Aus a wird dabei oft ä, wie bei backen – Bäcker."
  },
  {
   "id": "de-deutsch-121",
@@ -2054,7 +2174,8 @@
   ],
   "answer": "B",
   "hint": "Ist das u lang oder kurz?",
-  "explanation": "Nach dem langen u schreibt man ß: Fuß."
+  "explanation": "Nach dem langen u schreibt man ß: Fuß.",
+  "more": "Auch in der Mehrzahl bleibt das ß: die Füße, denn das ü ist lang. Daraus wird auch Fußball – die beliebteste Sportart in Deutschland."
  },
  {
   "id": "de-deutsch-122",
@@ -2071,7 +2192,8 @@
   ],
   "answer": "C",
   "hint": "Ist das e kurz oder lang?",
-  "explanation": "Nach dem kurzen e schreibt man ss: essen."
+  "explanation": "Nach dem kurzen e schreibt man ss: essen.",
+  "more": "Im Präteritum wird das a lang, deshalb wird aus ss ein ß: wir essen – wir aßen. Die Länge des Selbstlauts entscheidet!"
  },
  {
   "id": "de-deutsch-123",
@@ -2088,7 +2210,8 @@
   ],
   "answer": "C",
   "hint": "Ist das u in diesem Wort lang oder kurz?",
-  "explanation": "Nach dem langen u schreibt man ß: der Gruß."
+  "explanation": "Nach dem langen u schreibt man ß: der Gruß.",
+  "more": "Am Ende eines Briefes schreibt man oft „Viele Grüße“. Auch in grüßen und Begrüßung bleibt das ß, weil das ü lang ist."
  },
  {
   "id": "de-deutsch-124",
@@ -2105,7 +2228,8 @@
   ],
   "answer": "D",
   "hint": "Sprich das Wort: Ist das i kurz oder lang?",
-  "explanation": "Das i in Kirsche ist kurz, deshalb nur i."
+  "explanation": "Das i in Kirsche ist kurz, deshalb nur i.",
+  "more": "Auch Fisch, Kind und Kiste haben ein kurzes i ohne e. Ein Tipp: Sprich das Wort langsam und hör genau hin, ob das i kurz oder lang ist."
  },
  {
   "id": "de-deutsch-125",
@@ -2122,7 +2246,8 @@
   ],
   "answer": "B",
   "hint": "Das e ist kurz – was folgt dann oft?",
-  "explanation": "Nach dem kurzen e folgt ein doppeltes l: Teller."
+  "explanation": "Nach dem kurzen e folgt ein doppeltes l: Teller.",
+  "more": "Auch Keller, heller und schneller schreibt man mit ll – und sie reimen sich alle auf Teller!"
  },
  {
   "id": "de-deutsch-126",
@@ -2139,7 +2264,8 @@
   ],
   "answer": "A",
   "hint": "Ist das o kurz oder lang?",
-  "explanation": "Nach einem kurzen Selbstlaut schreibt man ck: der Rock."
+  "explanation": "Nach einem kurzen Selbstlaut schreibt man ck: der Rock.",
+  "more": "Nach l, n und r steht nie ck, sondern nur k: Volk, Bank, stark. Ein Merkspruch: Nach l, n, r, das merke ja, steht nie tz und nie ck!"
  },
  {
   "id": "de-deutsch-127",
@@ -2156,7 +2282,8 @@
   ],
   "answer": "D",
   "hint": "Die zweite Stufe endet auf „-er“, die dritte beginnt mit „am“.",
-  "explanation": "klein – kleiner – am kleinsten."
+  "explanation": "klein – kleiner – am kleinsten.",
+  "more": "Bei „groß“ kommt beim Steigern noch ein Umlaut dazu: groß – größer – am größten. Den Superlativ erkennst du an „am“ und der Endung -sten."
  },
  {
   "id": "de-deutsch-128",
@@ -2173,7 +2300,8 @@
   ],
   "answer": "D",
   "hint": "Bei diesem Wort ändert sich beim Steigern das ganze Wort.",
-  "explanation": "„viel“ wird unregelmäßig gesteigert: mehr, am meisten."
+  "explanation": "„viel“ wird unregelmäßig gesteigert: mehr, am meisten.",
+  "more": "Das Gegenteil wird ganz normal gesteigert: wenig – weniger – am wenigsten. Und „mehr“ bekommt nie eine Endung: mehr Kinder, mehr Wasser."
  },
  {
   "id": "de-deutsch-129",
@@ -2190,7 +2318,8 @@
   ],
   "answer": "A",
   "hint": "Gesucht ist ein ähnliches Wort, kein Gegenteil.",
-  "explanation": "beginnen = anfangen."
+  "explanation": "beginnen = anfangen.",
+  "more": "Das Gegenteil von anfangen ist aufhören oder beenden. Ein bekanntes Sprichwort lautet: „Aller Anfang ist schwer.“"
  },
  {
   "id": "de-deutsch-130",
@@ -2207,7 +2336,8 @@
   ],
   "answer": "C",
   "hint": "Fleiß heißt: sich Mühe geben.",
-  "explanation": "Nur wer sich Mühe gibt, erreicht etwas."
+  "explanation": "Nur wer sich Mühe gibt, erreicht etwas.",
+  "more": "Ein Preis ist hier eine Belohnung, nicht das, was etwas im Laden kostet. Einen Preis kann man also gewinnen oder bezahlen!"
  },
  {
   "id": "de-deutsch-131",
@@ -2224,7 +2354,8 @@
   ],
   "answer": "B",
   "hint": "Lies genau, was über Bens Alter steht.",
-  "explanation": "Im Text steht: Er wird neun Jahre alt. Eine Kerze fehlt nur."
+  "explanation": "Im Text steht: Er wird neun Jahre alt. Eine Kerze fehlt nur.",
+  "more": "In Textaufgaben stehen oft Zahlen, die nur ablenken – wie hier die acht Kerzen. Lies deshalb die Frage genau und dann noch einmal den Text."
  },
  {
   "id": "de-deutsch-132",
@@ -2241,7 +2372,8 @@
   ],
   "answer": "C",
   "hint": "Lies den letzten Satz noch einmal.",
-  "explanation": "Im Text steht: Sie dürfen die Pilze nicht essen."
+  "explanation": "Im Text steht: Sie dürfen die Pilze nicht essen.",
+  "more": "Manche Pilze sind sehr giftig, zum Beispiel der Fliegenpilz mit dem roten Hut und den weißen Punkten. Pilze sammelt man nur mit Erwachsenen, die sich auskennen."
  },
  {
   "id": "de-deutsch-133",
@@ -2258,7 +2390,8 @@
   ],
   "answer": "B",
   "hint": "Achte auf das Wort „werden“ und auf „morgen“.",
-  "explanation": "werden + Grundform zeigt die Zukunft: Futur."
+  "explanation": "werden + Grundform zeigt die Zukunft: Futur.",
+  "more": "„werden“ verändert sich ganz schön: ich werde, du wirst, er wird, wir werden. Bei „du wirst“ und „er wird“ fällt sogar ein Buchstabe weg!"
  },
  {
   "id": "de-deutsch-134",
@@ -2275,7 +2408,8 @@
   ],
   "answer": "A",
   "hint": "Fahren ist eine Bewegung – welches Hilfsverb passt?",
-  "explanation": "Perfekt mit „sein“: sie ist gefahren."
+  "explanation": "Perfekt mit „sein“: sie ist gefahren.",
+  "more": "Lenkt man selbst ein Fahrzeug und nennt es, geht auch haben: „Sie hat das Auto gefahren.“ Ohne Objekt sagt man: „Sie ist gefahren.“"
  },
  {
   "id": "de-deutsch-135",
@@ -2292,7 +2426,8 @@
   ],
   "answer": "D",
   "hint": "„bringen“ ist ein unregelmäßiges Verb.",
-  "explanation": "bringen – ich brachte – ich habe gebracht."
+  "explanation": "bringen – ich brachte – ich habe gebracht.",
+  "more": "Bei „bringen“ wird aus ing ein ach: brachte. Ähnlich ist „denken – dachte“. Solche Verben nennt man gemischte Verben."
  },
  {
   "id": "de-deutsch-136",
@@ -2309,7 +2444,8 @@
   ],
   "answer": "B",
   "hint": "Gesucht ist die Vergangenheit, die aus nur einem Verb besteht.",
-  "explanation": "„rannte“ ist das Präteritum von „rennen“."
+  "explanation": "„rannte“ ist das Präteritum von „rennen“.",
+  "more": "Ähnlich geht es bei „brennen – brannte“ und „kennen – kannte“. Das e wird zum a, und hinten kommt -te dran."
  },
  {
   "id": "de-deutsch-137",
@@ -2326,7 +2462,8 @@
   ],
   "answer": "D",
   "hint": "Kannst du „dieses“ einsetzen?",
-  "explanation": "Man kann „Dieses Fahrrad“ sagen – also ist es der Artikel."
+  "explanation": "Man kann „Dieses Fahrrad“ sagen – also ist es der Artikel.",
+  "more": "„das“ kann auch ein hinweisendes Fürwort sein, wie in „Das ist toll!“. „dass“ mit ss leitet dagegen immer einen Nebensatz ein."
  },
  {
   "id": "de-deutsch-138",
@@ -2343,7 +2480,8 @@
   ],
   "answer": "A",
   "hint": "Kannst du hier „dieses“ oder „welches“ einsetzen?",
-  "explanation": "Man kann weder „dieses“ noch „welches“ einsetzen – also „dass“."
+  "explanation": "Man kann weder „dieses“ noch „welches“ einsetzen – also „dass“.",
+  "more": "Früher schrieb man „daß“ mit ß. Seit der Rechtschreibreform 1996 schreibt man „dass“ mit ss, weil das a kurz ist."
  },
  {
   "id": "de-deutsch-139",
@@ -2360,7 +2498,8 @@
   ],
   "answer": "C",
   "hint": "Prüfe das Komma und ob man „welches“ einsetzen kann.",
-  "explanation": "Vor „dass“ steht ein Komma, und hier schreibt man „dass“ mit ss."
+  "explanation": "Vor „dass“ steht ein Komma, und hier schreibt man „dass“ mit ss.",
+  "more": "Man kann auch sagen: „Ich weiß, du bist müde.“ Dann fällt „dass“ weg, und das Verb rutscht vom Ende wieder nach vorne."
  },
  {
   "id": "de-deutsch-140",
@@ -2377,7 +2516,8 @@
   ],
   "answer": "D",
   "hint": "Achte auf das Komma nach den Anführungszeichen.",
-  "explanation": "Nach der wörtlichen Rede folgt ein Komma, dann der Begleitsatz klein."
+  "explanation": "Nach der wörtlichen Rede folgt ein Komma, dann der Begleitsatz klein.",
+  "more": "Steht der Begleitsatz vorne, kommt ein Doppelpunkt: Paul ruft: „Komm schnell!“ Steht er hinten, bleiben Ausrufe- und Fragezeichen in der Rede."
  },
  {
   "id": "de-deutsch-141",
@@ -2394,7 +2534,8 @@
   ],
   "answer": "D",
   "hint": "Der Begleitsatz verrät, wer spricht.",
-  "explanation": "„sagt Lina“ steht außerhalb der Anführungszeichen und sagt, wer spricht."
+  "explanation": "„sagt Lina“ steht außerhalb der Anführungszeichen und sagt, wer spricht.",
+  "more": "Der Begleitsatz kann auch in der Mitte stehen: „Ich habe“, sagt Lina, „großen Hunger.“ Dann wird die Rede einfach geteilt."
  },
  {
   "id": "de-deutsch-142",
@@ -2411,7 +2552,8 @@
   ],
   "answer": "A",
   "hint": "Frag: Wem schenkt Lukas etwas?",
-  "explanation": "Wem schenkt Lukas etwas? – seiner Schwester: Dativobjekt."
+  "explanation": "Wem schenkt Lukas etwas? – seiner Schwester: Dativobjekt.",
+  "more": "Sätze mit „schenken“, „geben“ oder „zeigen“ haben oft zwei Objekte: Wem? – seiner Schwester. Was? – ein Buch."
  },
  {
   "id": "de-deutsch-143",
@@ -2428,7 +2570,8 @@
   ],
   "answer": "D",
   "hint": "Frag: Wen oder was fängt die Katze?",
-  "explanation": "Wen oder was fängt die Katze? – eine Maus: Akkusativobjekt."
+  "explanation": "Wen oder was fängt die Katze? – eine Maus: Akkusativobjekt.",
+  "more": "Bei männlichen Nomen sieht man den Akkusativ: Der Hund jagt den Kater. Bei „eine Maus“ sieht man ihn nicht, da hilft nur die Frage „Wen oder was?“."
  },
  {
   "id": "de-deutsch-144",
@@ -2445,7 +2588,8 @@
   ],
   "answer": "D",
   "hint": "Im Perfekt besteht das Prädikat aus zwei Teilen.",
-  "explanation": "Das Prädikat ist zweiteilig: haben … gesehen."
+  "explanation": "Das Prädikat ist zweiteilig: haben … gesehen.",
+  "more": "Ein zweiteiliges Prädikat bildet eine Satzklammer: Ein Teil steht vorne, der andere am Ende. Das gibt es auch bei Verben wie „anrufen“: Ich rufe dich an."
  },
  {
   "id": "de-deutsch-145",
@@ -2462,7 +2606,8 @@
   ],
   "answer": "C",
   "hint": "Es sind mehrere Kinder.",
-  "explanation": "Für mehrere Personen sagt man: sie spielen."
+  "explanation": "Für mehrere Personen sagt man: sie spielen.",
+  "more": "Großes „Sie“ mitten im Satz ist die höfliche Anrede für Erwachsene: Können Sie mir helfen? Kleines „sie“ meint andere Personen."
  },
  {
   "id": "de-deutsch-146",
@@ -2479,7 +2624,8 @@
   ],
   "answer": "A",
   "hint": "Achte auf den Artikel: das Fahrrad.",
-  "explanation": "das Fahrrad → mein Fahrrad."
+  "explanation": "das Fahrrad → mein Fahrrad.",
+  "more": "Mein, dein, sein, ihr, unser und euer zeigen, wem etwas gehört. Sie heißen besitzanzeigende Fürwörter oder Possessivpronomen."
  },
  {
   "id": "de-deutsch-147",
@@ -2496,7 +2642,8 @@
   ],
   "answer": "A",
   "hint": "Frag: Wie ist der Hund?",
-  "explanation": "„schnelle“ beschreibt den Hund – es ist ein Adjektiv."
+  "explanation": "„schnelle“ beschreibt den Hund – es ist ein Adjektiv.",
+  "more": "Viele Adjektive erkennt man an ihren Endungen -ig, -lich und -isch, wie in lustig, freundlich und tierisch."
  },
  {
   "id": "de-deutsch-148",
@@ -2513,7 +2660,8 @@
   ],
   "answer": "C",
   "hint": "Steht vor einem Verb „beim“, wird es zum Namenwort.",
-  "explanation": "Nach „beim“ wird das Verb zum Nomen: das Lesen."
+  "explanation": "Nach „beim“ wird das Verb zum Nomen: das Lesen.",
+  "more": "Auch nach „zum“ und „am“ werden Verben zu Nomen: zum Spielen, am Schwimmen. Ein Trick: Steht am, beim oder zum davor, schreibt man groß."
  },
  {
   "id": "de-deutsch-149",
@@ -2530,7 +2678,8 @@
   ],
   "answer": "D",
   "hint": "Bei Aufzählungen trennt man mit Komma – aber nicht vor „und“.",
-  "explanation": "Ich kaufe Äpfel, Birnen und Bananen."
+  "explanation": "Ich kaufe Äpfel, Birnen und Bananen.",
+  "more": "Vor „und“ und „oder“ steht in einer Aufzählung kein Komma: Äpfel, Birnen und Bananen. Das Komma ersetzt sozusagen das „und“ dazwischen."
  },
  {
   "id": "de-deutsch-150",
@@ -2547,7 +2696,8 @@
   ],
   "answer": "C",
   "hint": "Wo beginnt der Nebensatz?",
-  "explanation": "Vor „dass“ beginnt ein Nebensatz, deshalb steht davor ein Komma."
+  "explanation": "Vor „dass“ beginnt ein Nebensatz, deshalb steht davor ein Komma.",
+  "more": "Steht der dass-Satz vorne, kommt das Komma danach: „Dass wir helfen, freut Mama.“ Haupt- und Nebensatz trennt man immer mit einem Komma."
  },
  {
   "id": "de-deutsch-151",
@@ -2564,7 +2714,8 @@
   ],
   "answer": "C",
   "hint": "Gesucht ist ein ähnliches Wort, kein Gegenteil.",
-  "explanation": "klug und schlau bedeuten fast das Gleiche."
+  "explanation": "klug und schlau bedeuten fast das Gleiche.",
+  "more": "In Märchen und Fabeln gilt der Fuchs als besonders schlau. Gegenteile von klug sind dumm oder töricht."
  },
  {
   "id": "de-deutsch-152",
@@ -2581,7 +2732,8 @@
   ],
   "answer": "A",
   "hint": "Die Vorsilbe „un-“ kann ein Wort ins Gegenteil drehen.",
-  "explanation": "ehrlich ↔ unehrlich."
+  "explanation": "ehrlich ↔ unehrlich.",
+  "more": "Mit „un-“ entstehen viele Gegenteile: glücklich – unglücklich, freundlich – unfreundlich. Über das Lügen sagt ein Sprichwort: „Lügen haben kurze Beine.“"
  },
  {
   "id": "de-deutsch-153",
@@ -2598,7 +2750,8 @@
   ],
   "answer": "B",
   "hint": "Das Sprichwort meint nicht echtes Gold.",
-  "explanation": "Am frühen Morgen kann man viel erledigen."
+  "explanation": "Am frühen Morgen kann man viel erledigen.",
+  "more": "Das Sprichwort ist sehr alt, darum fehlt bei „Morgenstund“ das e am Ende. Menschen, die lieber lange wach bleiben, nennt man Nachteulen."
  },
  {
   "id": "de-deutsch-154",
@@ -2615,7 +2768,8 @@
   ],
   "answer": "B",
   "hint": "Die Grube ist nur ein Bild für etwas Gemeines.",
-  "explanation": "Wer anderen etwas Böses tun will, dem passiert es oft selbst."
+  "explanation": "Wer anderen etwas Böses tun will, dem passiert es oft selbst.",
+  "more": "Dieses Sprichwort stammt aus der Bibel. Ein ähnliches lautet: „Wie man in den Wald hineinruft, so schallt es heraus.“"
  },
  {
   "id": "de-deutsch-155",
@@ -2632,7 +2786,8 @@
   ],
   "answer": "B",
   "hint": "Lies, was im Winter passiert.",
-  "explanation": "Im Winter finden die Eichhörnchen wenig Futter, deshalb legen sie Vorräte an."
+  "explanation": "Im Winter finden die Eichhörnchen wenig Futter, deshalb legen sie Vorräte an.",
+  "more": "Eichhörnchen vergessen manche Verstecke – aus den Nüssen und Samen wachsen dann neue Bäume. So pflanzen sie ganz nebenbei Wälder!"
  },
  {
   "id": "de-deutsch-156",
@@ -2649,7 +2804,8 @@
   ],
   "answer": "B",
   "hint": "Ordne die drei Kinder nach dem Alter.",
-  "explanation": "Anna ist die Älteste, dann kommt Ben, Clara ist am jüngsten."
+  "explanation": "Anna ist die Älteste, dann kommt Ben, Clara ist am jüngsten.",
+  "more": "Solche Rätsel löst man gut mit einer Reihe auf dem Papier: Anna – Ben – Clara. Das Gegenteil von „am jüngsten“ ist „am ältesten“."
  },
  {
   "id": "de-deutsch-157",
@@ -2666,7 +2822,8 @@
   ],
   "answer": "D",
   "hint": "Prüfe bei jedem Wort, aus welchen Wortarten die Teile sind.",
-  "explanation": "schreiben + Tisch = Schreibtisch."
+  "explanation": "schreiben + Tisch = Schreibtisch.",
+  "more": "Beim Zusammensetzen fällt die Endung -en vom Verb weg: schreiben – Schreibtisch, waschen – Waschmaschine, schwimmen – Schwimmbad."
  },
  {
   "id": "de-deutsch-158",
@@ -2683,7 +2840,8 @@
   ],
   "answer": "A",
   "hint": "„ck“ wird beim Trennen nicht auseinandergerissen.",
-  "explanation": "ck bleibt zusammen: Zu-cker."
+  "explanation": "ck bleibt zusammen: Zu-cker.",
+  "more": "Früher trennte man ck als k-k: Zuk-ker. Seit der Rechtschreibreform 1996 bleibt ck zusammen, genau wie ch und sch."
  },
  {
   "id": "de-deutsch-159",
@@ -2700,7 +2858,8 @@
   ],
   "answer": "A",
   "hint": "Bei „hoch“ bekommt das o zwei Punkte.",
-  "explanation": "hoch – höher – am höchsten."
+  "explanation": "hoch – höher – am höchsten.",
+  "more": "Bei „hoch“ verschwindet das c, wenn eine Endung dazukommt: das hohe Haus. Der höchste Berg Deutschlands ist die Zugspitze."
  },
  {
   "id": "de-deutsch-160",
@@ -2717,6 +2876,7 @@
   ],
   "answer": "B",
   "hint": "Suche den Wortstamm „kraft“ – auch mit ä.",
-  "explanation": "kräftig kommt von Kraft."
+  "explanation": "kräftig kommt von Kraft.",
+  "more": "Mit -ig werden aus Nomen Adjektive: Kraft – kräftig, Saft – saftig, Sonne – sonnig. Manchmal kommt dabei ein Umlaut dazu."
  }
 ]

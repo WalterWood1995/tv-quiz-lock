@@ -171,6 +171,7 @@ class RulesTest(unittest.TestCase):
 
 
 class EngineTest(unittest.TestCase):
+    @unittest.skipUnless(quiz.DEFAULT_BANK_DIR.is_dir(), "中文题库（刷题解锁 App）不在本机")
     def test_app_bank_is_loaded_as_choice_questions(self):
         bank = quiz.load_bank(quiz.DEFAULT_BANK_DIR)
         self.assertGreater(len(bank), 40)
