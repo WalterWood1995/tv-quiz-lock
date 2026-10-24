@@ -17,7 +17,7 @@ while true; do
   pid=$!
   last=$(date +%s)
   while kill -0 "$pid" 2>/dev/null; do
-    sleep 60
+    sleep 5  # 看门狗退出后几秒内就重启，电视上的答题页不会断太久
     if [ $(( $(date +%s) - last )) -ge $PULL_EVERY ]; then
       last=$(date +%s)
       before=$(git rev-parse HEAD)
