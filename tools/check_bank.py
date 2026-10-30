@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SUBJECTS = {"mathe", "deutsch", "sachunterricht", "englisch", "math", "english", "chinese"}
+SUBJECTS = {"mathe", "deutsch", "sachunterricht", "englisch", "franzoesisch", "englisch_alltag", "math", "english", "chinese"}
 DIFFICULTIES = {"easy", "medium", "hard"}
 REQUIRED = ("id", "subject", "difficulty", "grade", "type", "stem", "options", "answer", "explanation")
 

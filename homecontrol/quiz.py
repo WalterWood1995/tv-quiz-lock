@@ -39,7 +39,10 @@ LANGUAGES = {
         },
     },
     "de": {
-        "subjects": {"mathe": "Mathe", "deutsch": "Deutsch", "sachunterricht": "Sachunterricht", "englisch": "Englisch"},
+        "subjects": {"mathe": "Mathe", "deutsch": "Deutsch", "sachunterricht": "Sachunterricht", "englisch": "Englisch",
+                     "franzoesisch": "Französisch", "englisch_alltag": "Englisch Alltag"},
+        # 外语口语按德国 8–9 年级进度，不受小学年级 grade 限制
+        "subject_grades": {"franzoesisch": 9, "englisch_alltag": 9},
         "difficulties": {"easy": "Leicht", "medium": "Mittel", "hard": "Schwer"},
         "math": "mathe", "bank": DE_BANK_DIR, "grade": 4,
         "msg": {
@@ -496,7 +499,8 @@ class QuizEngine:
             bank = load_bank(self.bank_dir, self.rules.subjects)
         except (ValueError, KeyError, OSError):
             return False
-        self.static = [q for q in bank if q.grade <= self.rules.grade]
+        limits = self.lang.get("subject_grades", {})
+        self.static = [q for q in bank if q.grade <= limits.get(q.subject, self.rules.grade)]
         self.bank_signature = signature
         return True
 

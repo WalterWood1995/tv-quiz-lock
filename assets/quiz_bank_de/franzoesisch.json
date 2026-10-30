@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "de-franzoesisch-001",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du triffst morgens deine Französischlehrerin auf dem Schulhof. Was sagst du?",
+  "options": [
+   "Bonjour, madame !",
+   "Bonne nuit, madame !",
+   "Merci, madame !",
+   "Au revoir, madame !"
+  ],
+  "answer": "A",
+  "hint": "Es ist der erste Kontakt an diesem Tag und du möchtest grüßen.",
+  "explanation": "„Bonjour“ ist der Gruß für den Tag, und Erwachsene sprichst du höflich mit „madame“ oder „monsieur“ an.",
+  "more": "Abends wechselt man zu „bonsoir“. „Bonne nuit“ sagt man erst, wenn jemand schlafen geht."
+ },
+ {
+  "id": "de-franzoesisch-002",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein französischer Austauschschüler fragt: „Comment tu t'appelles ?“ Was antwortest du?",
+  "options": [
+   "Ça va bien.",
+   "J'ai quatorze ans.",
+   "Je m'appelle Lena.",
+   "J'habite à Berlin."
+  ],
+  "answer": "C",
+  "hint": "Er möchte wissen, wie du heißt.",
+  "explanation": "„Comment tu t'appelles ?“ fragt nach dem Namen, und „Je m'appelle …“ ist die passende Antwort.",
+  "more": "Wörtlich heißt „je m'appelle“ ich rufe mich. Ein bisschen so, als würdest du dich selbst beim Namen rufen!"
+ },
+ {
+  "id": "de-franzoesisch-003",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Jemand fragt dich: „Quel âge as-tu ?“ Was passt?",
+  "options": [
+   "Je m'appelle Tom.",
+   "Il est deux heures.",
+   "J'ai quatorze ans.",
+   "J'habite à Cologne."
+  ],
+  "answer": "C",
+  "hint": "Im Französischen „hat“ man sein Alter.",
+  "explanation": "Die Frage zielt auf das Alter, und man bildet es mit „avoir“: j'ai … ans.",
+  "more": "Das ist eine typische Falle für Deutsche: Niemals „je suis 14“ sagen. Auf Französisch besitzt man seine Jahre sozusagen."
+ },
+ {
+  "id": "de-franzoesisch-004",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Deine Freundin fragt: „Ça va ?“ Was antwortest du?",
+  "options": [
+   "J'ai un frère.",
+   "Ça va bien, merci.",
+   "C'est deux euros.",
+   "Je m'appelle Marie."
+  ],
+  "answer": "B",
+  "hint": "Sie will wissen, wie es dir geht.",
+  "explanation": "„Ça va ?“ heißt „Wie geht's?“, also antwortest du mit deinem Befinden.",
+  "more": "„Ça va“ ist ein Alleskönner: Es ist Frage und Antwort zugleich. Zwei Freunde können sich einfach „Ça va ? – Ça va !“ zurufen."
+ },
+ {
+  "id": "de-franzoesisch-005",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Nach der Schule verabschiedest du dich von einem Freund, den du morgen wiedersiehst. Was sagst du?",
+  "options": [
+   "À demain !",
+   "Pardon !",
+   "Bonjour !",
+   "Merci !"
+  ],
+  "answer": "A",
+  "hint": "Du nennst in der Verabschiedung den Tag, an dem ihr euch wiederseht.",
+  "explanation": "„À demain !“ bedeutet „Bis morgen!“.",
+  "more": "Das Muster klappt mit vielen Zeitangaben: „à lundi“ heißt bis Montag und „à tout à l'heure“ bis gleich."
+ },
+ {
+  "id": "de-franzoesisch-006",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Brieffreundin fragt: „Où habites-tu ?“ Was passt?",
+  "options": [
+   "J'ai deux sœurs.",
+   "Je vais bien.",
+   "Il fait beau.",
+   "J'habite à Hambourg."
+  ],
+  "answer": "D",
+  "hint": "„Où“ fragt nach einem Ort.",
+  "explanation": "Sie fragt nach deinem Wohnort, und „J'habite à …“ nennt ihn.",
+  "more": "Vor Städten steht „à“: à Paris, à Berlin. Bei den meisten Ländern heißt es „en“, zum Beispiel „en Allemagne“."
+ },
+ {
+  "id": "de-franzoesisch-007",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du erzählst, dass du einen Bruder hast. Was sagst du?",
+  "options": [
+   "Je n'ai pas de frère.",
+   "J'ai un frère.",
+   "J'ai une sœur.",
+   "Je suis ton frère."
+  ],
+  "answer": "B",
+  "hint": "Bruder ist männlich und du sagst, dass es ihn gibt.",
+  "explanation": "„Le frère“ ist der Bruder, und „j'ai“ heißt „ich habe“.",
+  "more": "Zwillinge heißen auf Französisch „des jumeaux“, bei zwei Mädchen „des jumelles“."
+ },
+ {
+  "id": "de-franzoesisch-008",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du stellst einem Gast deine Mutter vor. Was sagst du?",
+  "options": [
+   "Voici ma grand-mère.",
+   "Voici ma mère.",
+   "Voici mon père.",
+   "Voici ma sœur."
+  ],
+  "answer": "B",
+  "hint": "Gesucht ist das französische Wort für Mutter.",
+  "explanation": "„La mère“ ist die Mutter, und „voici“ bedeutet „hier ist“.",
+  "more": "Zu Hause sagen französische Kinder meist „maman“ und „papa“, also fast wie im Deutschen."
+ },
+ {
+  "id": "de-franzoesisch-009",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Lieblingsfach ist Mathe. Wie sagst du das?",
+  "options": [
+   "Ma matière préférée, c'est l'anglais.",
+   "Je n'ai pas de maths.",
+   "Ma matière préférée, c'est les maths.",
+   "Je déteste les maths."
+  ],
+  "answer": "C",
+  "hint": "„Préféré“ heißt so viel wie „am liebsten gemocht“.",
+  "explanation": "„La matière préférée“ ist das Lieblingsfach, und Mathe heißt „les maths“.",
+  "more": "„Les maths“ steht immer im Plural. In Frankreich wirkt Mathe also schon sprachlich nach ganz schön viel!"
+ },
+ {
+  "id": "de-franzoesisch-010",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du hast dein Heft zu Hause vergessen. Was sagst du dem Lehrer?",
+  "options": [
+   "J'ai trouvé mon cahier.",
+   "J'ai oublié mon cahier.",
+   "J'aime mon cahier.",
+   "Je vends mon cahier."
+  ],
+  "answer": "B",
+  "hint": "Du erklärst, dass das Heft zu Hause liegt, weil du nicht daran gedacht hast.",
+  "explanation": "„Oublier“ heißt „vergessen“, und „le cahier“ ist das Heft.",
+  "more": "Der Füller heißt „le stylo“, und das Mäppchen „la trousse“. Beides lässt sich leider auch vergessen."
+ },
+ {
+  "id": "de-franzoesisch-011",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du spielst in deiner Freizeit Fußball. Wie sagst du das?",
+  "options": [
+   "Je joue au foot.",
+   "Je nage.",
+   "Je lis.",
+   "Je joue du piano."
+  ],
+  "answer": "A",
+  "hint": "Bei Ballsportarten steht „jouer à“.",
+  "explanation": "„Jouer à“ steht bei Spielen und Sport, und „le foot“ ist die Kurzform von Fußball.",
+  "more": "Musikinstrumente spielt man dagegen mit „de“: „Je joue de la guitare.“ Aus „à + le“ wird dabei „au“ und aus „de + le“ wird „du“."
+ },
+ {
+  "id": "de-franzoesisch-012",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du hörst sehr gern Musik. Was sagst du?",
+  "options": [
+   "J'adore la musique.",
+   "Je déteste la musique.",
+   "Je n'ai pas de musique.",
+   "Je n'aime pas la musique."
+  ],
+  "answer": "A",
+  "hint": "Gesucht ist die stärkste positive Aussage.",
+  "explanation": "„Adorer“ bedeutet „sehr gern mögen, lieben“.",
+  "more": "Franzosen sagen „j'adore“ auch über Pizza oder Filme. Es klingt groß, ist im Alltag aber ganz normal."
+ },
+ {
+  "id": "de-franzoesisch-013",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Die Uhr zeigt genau 8:00 Uhr. Was sagst du?",
+  "options": [
+   "Il a huit ans.",
+   "J'ai huit euros.",
+   "Il est huit heures.",
+   "Il est neuf heures."
+  ],
+  "answer": "C",
+  "hint": "Uhrzeiten beginnen mit „Il est“.",
+  "explanation": "Die Uhrzeit nennt man mit „Il est … heures“, und „huit“ bedeutet acht.",
+  "more": "Um 12 Uhr heißt es nicht „douze heures“ im Alltag, sondern „il est midi“. Um Mitternacht sagt man „il est minuit“."
+ },
+ {
+  "id": "de-franzoesisch-014",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du möchtest wissen, wie spät es ist. Was fragst du?",
+  "options": [
+   "Quel âge as-tu ?",
+   "Où est la gare ?",
+   "Quelle heure est-il ?",
+   "Comment ça va ?"
+  ],
+  "answer": "C",
+  "hint": "Das Wort für „Stunde“ muss in der Frage vorkommen.",
+  "explanation": "„Quelle heure est-il ?“ ist die Frage nach der Uhrzeit.",
+  "more": "Locker geht es auch so: „Il est quelle heure ?“ So hörst du es von Jugendlichen in Frankreich besonders oft."
+ },
+ {
+  "id": "de-franzoesisch-015",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du sitzt im Café und möchtest eine Cola bestellen. Was sagst du?",
+  "options": [
+   "Voilà un coca, monsieur.",
+   "J'ai bu un coca, merci.",
+   "Je voudrais un coca, s'il vous plaît.",
+   "Je n'aime pas le coca."
+  ],
+  "answer": "C",
+  "hint": "„Ich hätte gern“ ist die höfliche Form zum Bestellen.",
+  "explanation": "„Je voudrais …“ heißt „ich hätte gern“, und „s'il vous plaît“ macht es höflich.",
+  "more": "Den Kellner ruft man in Frankreich nicht mit „garçon“, das gilt als altmodisch. Sag lieber „Monsieur, s'il vous plaît !“."
+ },
+ {
+  "id": "de-franzoesisch-016",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du möchtest im Café bezahlen. Was sagst du?",
+  "options": [
+   "Bon appétit !",
+   "L'addition, s'il vous plaît.",
+   "Un café, s'il vous plaît.",
+   "La carte, s'il vous plaît."
+  ],
+  "answer": "B",
+  "hint": "Du bittest um den Zettel, auf dem die Summe steht.",
+  "explanation": "„L'addition“ ist die Rechnung im Café oder Restaurant.",
+  "more": "Das Wort passt gut: Auf der Rechnung wird ja alles addiert. Oft bringt man sie erst, wenn man danach fragt."
+ },
+ {
+  "id": "de-franzoesisch-017",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du siehst im Laden ein T-Shirt und willst den Preis wissen. Was fragst du?",
+  "options": [
+   "C'est quand ?",
+   "C'est où ?",
+   "C'est combien ?",
+   "C'est qui ?"
+  ],
+  "answer": "C",
+  "hint": "Gesucht ist das Fragewort für „wie viel“.",
+  "explanation": "„Combien“ bedeutet „wie viel“, also „Was kostet das?“.",
+  "more": "Ebenso üblich ist „Ça coûte combien ?“. Beim Bäcker hörst du als Antwort dann zum Beispiel „Ça fait un euro vingt“."
+ },
+ {
+  "id": "de-franzoesisch-018",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Die Sonne scheint und der Himmel ist blau. Wie beschreibst du das Wetter?",
+  "options": [
+   "Il fait beau.",
+   "Il fait froid.",
+   "Il pleut.",
+   "Il neige."
+  ],
+  "answer": "A",
+  "hint": "Das Adjektiv bedeutet auch „schön“.",
+  "explanation": "„Il fait beau“ heißt „Es ist schönes Wetter“.",
+  "more": "Fürs Wetter benutzen Franzosen oft „faire“. Wörtlich „macht“ es also schön, kalt oder warm."
+ },
+ {
+  "id": "de-franzoesisch-019",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Es regnet draußen. Wie sagst du das?",
+  "options": [
+   "Il pleut.",
+   "Il neige.",
+   "Il y a du soleil.",
+   "Il fait chaud."
+  ],
+  "answer": "A",
+  "hint": "Das Verb gehört zu „la pluie“.",
+  "explanation": "„Il pleut“ bedeutet „Es regnet“.",
+  "more": "Wenn es richtig schüttet, sagt man „Il pleut des cordes“. Wörtlich regnet es dann Seile!"
+ },
+ {
+  "id": "de-franzoesisch-020",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du suchst in einer fremden Stadt den Bahnhof und sprichst jemanden an. Was fragst du?",
+  "options": [
+   "Où est la gare, s'il vous plaît ?",
+   "Tu aimes la gare ?",
+   "Quand arrive ton frère ?",
+   "Comment est la gare ?"
+  ],
+  "answer": "A",
+  "hint": "Du fragst nach einem Ort.",
+  "explanation": "„Où est … ?“ fragt, wo etwas ist, und „la gare“ ist der Bahnhof.",
+  "more": "In Paris gibt es mehrere große Bahnhöfe. Viele Züge nach Deutschland fahren ab der „Gare de l'Est“."
+ },
+ {
+  "id": "de-franzoesisch-021",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du erklärst jemandem höflich, dass er geradeaus gehen soll. Was sagst du?",
+  "options": [
+   "Tournez à gauche.",
+   "Arrêtez-vous ici.",
+   "Tournez à droite.",
+   "Allez tout droit."
+  ],
+  "answer": "D",
+  "hint": "Es geht nicht ums Abbiegen.",
+  "explanation": "„Tout droit“ bedeutet „geradeaus“.",
+  "more": "Vorsicht: „à droite“ heißt rechts, „tout droit“ geradeaus. Die beiden klingen ähnlich, und schon läufst du falsch!"
+ },
+ {
+  "id": "de-franzoesisch-022",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du hast Bauchschmerzen und sagst es deiner Gastmutter. Was sagst du?",
+  "options": [
+   "J'ai mal au ventre.",
+   "J'ai faim.",
+   "J'ai mal aux dents.",
+   "J'ai mal à la tête."
+  ],
+  "answer": "A",
+  "hint": "„Avoir mal à“ nennt die Stelle, die wehtut.",
+  "explanation": "„Le ventre“ ist der Bauch, also bedeutet es „Ich habe Bauchschmerzen“.",
+  "more": "Mit „J'ai mal au cœur“ meinen Franzosen nicht das Herz, sondern dass ihnen übel ist."
+ },
+ {
+  "id": "de-franzoesisch-023",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Jemand sagt zu dir: „Merci beaucoup !“ Was antwortest du?",
+  "options": [
+   "À table !",
+   "De rien.",
+   "Je ne sais pas.",
+   "Pardon."
+  ],
+  "answer": "B",
+  "hint": "Auf Deutsch sagt man hier „Gern geschehen“.",
+  "explanation": "„De rien“ heißt wörtlich „von nichts“, also „keine Ursache“.",
+  "more": "Sehr höflich klingt auch „Je vous en prie“. Unter Freunden reicht ein schnelles „De rien“."
+ },
+ {
+  "id": "de-franzoesisch-024",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du rufst deine Brieffreundin an und meldest dich. Was sagst du?",
+  "options": [
+   "Merci, c'est Lena.",
+   "Au revoir, c'est Lena.",
+   "Allô, c'est Lena.",
+   "Bon appétit, c'est Lena."
+  ],
+  "answer": "C",
+  "hint": "Am Telefon gibt es ein eigenes Begrüßungswort.",
+  "explanation": "„Allô“ benutzt man nur am Telefon, und „c'est …“ nennt, wer dran ist.",
+  "more": "„Allô“ sagt man wirklich nur am Telefon. Auf der Straße würde jeder dich damit schief ansehen."
+ },
+ {
+  "id": "de-franzoesisch-025",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Im Sommer fährst du immer ans Meer. Wie sagst du das?",
+  "options": [
+   "En été, je vais à l'école.",
+   "En été, je vais à la montagne.",
+   "En hiver, je vais à la mer.",
+   "En été, je vais à la mer."
+  ],
+  "answer": "D",
+  "hint": "Achte auf Jahreszeit und Ziel.",
+  "explanation": "„En été“ heißt „im Sommer“, und „la mer“ ist das Meer.",
+  "more": "Bei „la mer“ aufpassen: „la mère“ ist die Mutter. Beide klingen genau gleich, nur der Zusammenhang hilft."
+ },
+ {
+  "id": "de-franzoesisch-026",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du bist Einzelkind. Wie sagst du das richtig?",
+  "options": [
+   "J'ai des frères et sœurs.",
+   "Je n'ai pas de frères et sœurs.",
+   "Je ne suis pas de frères et sœurs.",
+   "Je n'ai pas des frères et sœurs."
+  ],
+  "answer": "B",
+  "hint": "Nach einer Verneinung ändert sich das Teilungs- oder Mengenwort.",
+  "explanation": "Nach „ne … pas“ wird „des“ zu „de“, und Besitz drückt man mit „avoir“ aus.",
+  "more": "„Einzelkind“ heißt auf Französisch „enfant unique“, also wörtlich einzigartiges Kind. Klingt doch ganz gut!"
+ },
+ {
+  "id": "de-franzoesisch-027",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Freund sagt: „Je te présente ma cousine Julie.“ Was sagst du zu Julie?",
+  "options": [
+   "Au revoir Julie, à demain !",
+   "Merci Julie, c'est combien ?",
+   "Pardon Julie, où est la gare ?",
+   "Salut Julie, enchanté !"
+  ],
+  "answer": "D",
+  "hint": "Ihr lernt euch gerade kennen.",
+  "explanation": "„Enchanté“ heißt „Freut mich“ und passt, wenn man jemanden neu kennenlernt.",
+  "more": "Unter Jugendlichen gibt es in vielen Gegenden Küsschen auf die Wange zur Begrüßung, „la bise“. Die Anzahl hängt von der Region ab."
+ },
+ {
+  "id": "de-franzoesisch-028",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Vater arbeitet als Arzt im Krankenhaus. Wie sagst du das?",
+  "options": [
+   "Mon père est professeur.",
+   "Ma mère est médecin.",
+   "Mon père est boulanger.",
+   "Mon père est médecin."
+  ],
+  "answer": "D",
+  "hint": "Der Arztberuf klingt ähnlich wie „Medizin“.",
+  "explanation": "„Le médecin“ ist der Arzt, und bei Berufen steht nach „être“ kein Artikel.",
+  "more": "Das Krankenhaus heißt „l'hôpital“. Der Akzent ersetzt hier ein altes s, wie im deutschen „Hospital“."
+ },
+ {
+  "id": "de-franzoesisch-029",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Mitschülerin fragt: „Qu'est-ce que tu as le lundi matin ?“ Was passt?",
+  "options": [
+   "J'ai quatorze ans.",
+   "J'ai maths et français.",
+   "Je vais très bien.",
+   "Il fait chaud."
+  ],
+  "answer": "B",
+  "hint": "Sie fragt nach deinem Stundenplan.",
+  "explanation": "Mit „avoir“ nennt man auch die Fächer, die man an einem Tag hat.",
+  "more": "In Frankreich dauert ein Schultag oft bis 16 oder 17 Uhr. Dafür ist der Mittwochnachmittag meist frei."
+ },
+ {
+  "id": "de-franzoesisch-030",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Freund fragt: „Tu manges à la cantine à midi ?“ Was passt?",
+  "options": [
+   "Oui, j'ai mal à la tête.",
+   "Oui, je mange à la cantine.",
+   "Non, je suis en quatrième.",
+   "Oui, le train part à midi."
+  ],
+  "answer": "B",
+  "hint": "Die Antwort sollte das Essen in der Schule betreffen.",
+  "explanation": "Die Frage lautet, ob du mittags in der Kantine isst, und die Antwort greift das auf.",
+  "more": "Französische Kantinen servieren oft mehrere Gänge, manchmal sogar mit Käse. Die Mittagspause dauert auch länger als bei uns."
+ },
+ {
+  "id": "de-franzoesisch-031",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du fährst in deiner Freizeit gern Rad. Wie sagst du das richtig?",
+  "options": [
+   "Je suis un vélo.",
+   "Je joue au vélo.",
+   "Je vais au vélo.",
+   "Je fais du vélo."
+  ],
+  "answer": "D",
+  "hint": "Bei vielen Sportarten benutzt man „faire de“.",
+  "explanation": "Für Aktivitäten wie Radfahren steht „faire de“, also „faire du vélo“.",
+  "more": "Jedes Jahr im Juli schaut ganz Frankreich auf die Tour de France, das berühmteste Radrennen der Welt."
+ },
+ {
+  "id": "de-franzoesisch-032",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Freund fragt: „Tu viens au cinéma samedi ?“ Du hast keine Zeit. Was sagst du?",
+  "options": [
+   "D'accord, à samedi !",
+   "Oui, avec plaisir !",
+   "Désolé, je ne peux pas.",
+   "Bonne idée !"
+  ],
+  "answer": "C",
+  "hint": "Du musst freundlich absagen.",
+  "explanation": "„Désolé“ heißt „Tut mir leid“, und „je ne peux pas“ bedeutet „ich kann nicht“.",
+  "more": "Mädchen schreiben „désolée“ mit zwei e. Hören kann man den Unterschied nicht, sehen aber schon."
+ },
+ {
+  "id": "de-franzoesisch-033",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Freundin schlägt vor: „On va au ciné ?“ Du hast Lust. Was sagst du?",
+  "options": [
+   "Non merci, je suis malade.",
+   "Non, je ne veux pas.",
+   "D'accord, bonne idée !",
+   "Désolée, je n'ai pas le temps."
+  ],
+  "answer": "C",
+  "hint": "Du möchtest zusagen.",
+  "explanation": "„D'accord“ heißt „einverstanden“ und „bonne idée“ bedeutet „gute Idee“.",
+  "more": "Im Alltag wird „d'accord“ gern zu „OK“ oder zu „d'ac“ verkürzt. „On“ bedeutet hier wir, das hörst du ständig."
+ },
+ {
+  "id": "de-franzoesisch-034",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ihr wollt euch treffen, doch die Uhrzeit fehlt noch. Was fragst du?",
+  "options": [
+   "Pourquoi tu viens ?",
+   "On se retrouve où ?",
+   "Tu viens avec qui ?",
+   "On se retrouve à quelle heure ?"
+  ],
+  "answer": "D",
+  "hint": "Du fragst nach der Zeit, nicht nach dem Ort.",
+  "explanation": "„À quelle heure ?“ fragt nach dem Zeitpunkt.",
+  "more": "Treffpunkt in Frankreich ist oft „devant le cinéma“, also vor dem Kino. Praktisch, das kann man kaum verfehlen!"
+ },
+ {
+  "id": "de-franzoesisch-035",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Es ist 14:30 Uhr und du sagst die Uhrzeit im Alltag. Was ist richtig?",
+  "options": [
+   "Il est trois heures et demie.",
+   "Il est deux heures et quart.",
+   "Il est deux heures moins le quart.",
+   "Il est deux heures et demie."
+  ],
+  "answer": "D",
+  "hint": "Im Alltag zählt man nur bis zwölf, und es geht um die Hälfte.",
+  "explanation": "„Et demie“ bedeutet „halb“ im Sinne von dreißig Minuten nach der vollen Stunde.",
+  "more": "Achtung, deutsche Falle: „halb drei“ heißt nicht „trois heures et demie“. Auf Französisch rechnet man von der vergangenen Stunde weiter."
+ },
+ {
+  "id": "de-franzoesisch-036",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Es ist 7:45 Uhr. Wie sagst du das auf Französisch?",
+  "options": [
+   "Il est huit heures moins le quart.",
+   "Il est huit heures et quart.",
+   "Il est sept heures et quart.",
+   "Il est sept heures moins le quart."
+  ],
+  "answer": "A",
+  "hint": "Denke an „Viertel vor“ und schau, welche Stunde gleich beginnt.",
+  "explanation": "„Moins le quart“ heißt „Viertel vor“, also Viertel vor acht.",
+  "more": "Bei „et quart“ fehlt das „le“, bei „moins le quart“ ist es da. Merkwürdig, aber so sagen es alle."
+ },
+ {
+  "id": "de-franzoesisch-037",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Der Kellner fragt: „Vous avez choisi ?“ Was passt?",
+  "options": [
+   "Oui, j'ai quinze ans.",
+   "Oui, il est midi.",
+   "Oui, je prends le steak-frites.",
+   "Non, je n'habite pas ici."
+  ],
+  "answer": "C",
+  "hint": "Er möchte deine Bestellung aufnehmen.",
+  "explanation": "„Vous avez choisi ?“ heißt „Haben Sie gewählt?“, und mit „je prends“ bestellst du.",
+  "more": "Beim Steak fragt man dich nach der Garstufe: „saignant“ ist blutig, „à point“ medium und „bien cuit“ gut durch."
+ },
+ {
+  "id": "de-franzoesisch-038",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du isst vegetarisch und erklärst das im Restaurant. Was sagst du?",
+  "options": [
+   "Je voudrais de la viande.",
+   "Je mange beaucoup de viande.",
+   "Je ne mange pas de viande.",
+   "J'adore la viande."
+  ],
+  "answer": "C",
+  "hint": "Du brauchst hier eine Verneinung.",
+  "explanation": "„La viande“ ist das Fleisch, und nach „ne … pas“ steht „de“.",
+  "more": "„Je suis végétarien“ oder „végétarienne“ hilft auch. In Frankreich wird es trotzdem manchmal knapp, denn viele Klassiker enthalten Fleisch."
+ },
+ {
+  "id": "de-franzoesisch-039",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du bist in der Bäckerei und möchtest zwei Baguettes. Was sagst du?",
+  "options": [
+   "Je voudrais une baguette, s'il vous plaît.",
+   "Je vends deux baguettes, s'il vous plaît.",
+   "Je voudrais deux baguettes, s'il vous plaît.",
+   "Je voudrais deux croissants, s'il vous plaît."
+  ],
+  "answer": "C",
+  "hint": "Achte auf die Menge und auf das Gebäck.",
+  "explanation": "„Deux baguettes“ ist die gewünschte Menge, und „je voudrais“ die höfliche Bitte.",
+  "more": "Viele Franzosen holen ihr Baguette frisch beim Bäcker. Die Backtradition steht sogar auf der UNESCO-Liste des Kulturerbes!"
+ },
+ {
+  "id": "de-franzoesisch-040",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Auf dem Markt möchtest du ein Kilo Äpfel. Was ist richtig?",
+  "options": [
+   "Un kilo des pommes, s'il vous plaît.",
+   "Un kilo de pommes, s'il vous plaît.",
+   "Une bouteille de pommes, s'il vous plaît.",
+   "Un litre de pommes, s'il vous plaît."
+  ],
+  "answer": "B",
+  "hint": "Nach Mengenangaben steht immer dieselbe kurze Form.",
+  "explanation": "Nach Mengen wie „un kilo“ steht einfach „de“, und „la pomme“ ist der Apfel.",
+  "more": "„La pomme de terre“, die Erdapfel-Kartoffel, heißt wörtlich Apfel der Erde. Gibt es so auch in Österreich!"
+ },
+ {
+  "id": "de-franzoesisch-041",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Die Verkäuferin sagt: „Ça fait douze euros.“ Wie viel musst du zahlen?",
+  "options": [
+   "12 Euro",
+   "10 Euro",
+   "20 Euro",
+   "2 Euro"
+  ],
+  "answer": "A",
+  "hint": "„Douze“ ähnelt dem englischen „dozen“.",
+  "explanation": "„Douze“ bedeutet zwölf.",
+  "more": "Französisch zählen wird bei 70 lustig: „soixante-dix“ heißt wörtlich sechzig-zehn. Bei 80 rechnet man sogar vier mal zwanzig."
+ },
+ {
+  "id": "de-franzoesisch-042",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du probierst einen Pullover an, aber er passt nicht, weil er dir zu groß ist. Was sagst du?",
+  "options": [
+   "Ce pull est trop cher.",
+   "Ce pull est très beau.",
+   "Ce pull est trop grand.",
+   "Ce pull est trop petit."
+  ],
+  "answer": "C",
+  "hint": "„Trop“ heißt „zu“.",
+  "explanation": "„Trop grand“ heißt „zu groß“.",
+  "more": "„Le pull“ kommt vom englischen „pullover“. Französisch hat einiges aus dem Englischen geborgt, zum Beispiel auch „le week-end“."
+ },
+ {
+  "id": "de-franzoesisch-043",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Passantin sagt: „Prenez la deuxième rue à droite.“ Was sollst du tun?",
+  "options": [
+   "Die erste Straße links nehmen",
+   "Die zweite Straße links nehmen",
+   "Die erste Straße rechts nehmen",
+   "Die zweite Straße rechts nehmen"
+  ],
+  "answer": "D",
+  "hint": "„Deuxième“ kommt von „deux“, und „droite“ ist nicht links.",
+  "explanation": "„Deuxième“ heißt „zweite“, „rue“ heißt „Straße“ und „à droite“ heißt „rechts“.",
+  "more": "Merkhilfe: „gauche“ heißt links und wird auch im Englischen für ungeschickt benutzt. Die rechte Seite ist „droite“."
+ },
+ {
+  "id": "de-franzoesisch-044",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Am Schalter möchtest du eine einfache Fahrkarte nach Lyon, ohne Rückfahrt. Was sagst du?",
+  "options": [
+   "Un café à Lyon, s'il vous plaît.",
+   "Un plan de Lyon, s'il vous plaît.",
+   "Un aller-retour pour Lyon, s'il vous plaît.",
+   "Un aller simple pour Lyon, s'il vous plaît."
+  ],
+  "answer": "D",
+  "hint": "„Simple“ ist hier ein guter Hinweis.",
+  "explanation": "„Un aller simple“ ist die einfache Fahrt, „un aller-retour“ wäre hin und zurück.",
+  "more": "Der TGV ist Frankreichs Hochgeschwindigkeitszug und schafft rund 320 km/h. Von Paris nach Lyon braucht er nur etwa zwei Stunden."
+ },
+ {
+  "id": "de-franzoesisch-045",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du stehst am Bahnhof und möchtest wissen, von welchem Gleis dein Zug fährt. Was fragst du?",
+  "options": [
+   "Le train part de quelle voie ?",
+   "Le train part à quelle heure ?",
+   "Le train est-il rapide ?",
+   "Le billet coûte combien ?"
+  ],
+  "answer": "A",
+  "hint": "Du fragst nach einem Ort im Bahnhof.",
+  "explanation": "„La voie“ ist das Gleis, und „de quelle voie“ heißt „von welchem Gleis“.",
+  "more": "An französischen Bahnhöfen wird das Gleis oft erst kurz vor der Abfahrt angezeigt. Dann rennen alle gleichzeitig los!"
+ },
+ {
+  "id": "de-franzoesisch-046",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Am Telefon fragt jemand: „Je peux parler à Marie ?“ Marie ist nicht zu Hause. Was sagst du?",
+  "options": [
+   "Désolé, elle n'est pas là.",
+   "Oui, elle a quinze ans.",
+   "Non, je n'aime pas Marie.",
+   "Oui, il est trois heures."
+  ],
+  "answer": "A",
+  "hint": "„Là“ bedeutet „da“.",
+  "explanation": "„Elle n'est pas là“ heißt „Sie ist nicht da“.",
+  "more": "Praktisch ist der Zusatz „Elle peut vous rappeler ?“. Das heißt: Kann sie Sie zurückrufen?"
+ },
+ {
+  "id": "de-franzoesisch-047",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Freund aus Frankreich fragt: „Quel temps fait-il chez toi ?“ Was passt?",
+  "options": [
+   "J'ai deux heures de maths.",
+   "Il fait froid et il neige.",
+   "Il a dix ans.",
+   "Il est huit heures."
+  ],
+  "answer": "B",
+  "hint": "„Le temps“ heißt hier nicht Zeit.",
+  "explanation": "Mit „temps“ ist das Wetter gemeint, also passt eine Wetterangabe.",
+  "more": "„Le temps“ bedeutet sowohl Zeit als auch Wetter. Dafür sagt nur der Satz drumherum, was gemeint ist."
+ },
+ {
+  "id": "de-franzoesisch-048",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Der Arzt fragt, was du hast. Du hast erhöhte Temperatur. Was sagst du?",
+  "options": [
+   "J'ai de la fièvre.",
+   "J'ai faim.",
+   "Je suis de la fièvre.",
+   "Je fais de la fièvre."
+  ],
+  "answer": "A",
+  "hint": "Krankheiten und Beschwerden „hat“ man.",
+  "explanation": "„La fièvre“ ist das Fieber, und es steht mit „avoir“.",
+  "more": "Hat jemand Fieber, ist er vielleicht „malade“. Gute Besserung heißt „Bon rétablissement !“."
+ },
+ {
+  "id": "de-franzoesisch-049",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Tom erzählt von gestern: Er war im Kino. Welcher Satz ist richtig?",
+  "options": [
+   "Hier, je vais allé au cinéma.",
+   "Hier, je suis allé au cinéma.",
+   "Hier, j'ai allé au cinéma.",
+   "Hier, je suis aller au cinéma."
+  ],
+  "answer": "B",
+  "hint": "Verben der Bewegung bilden das Passé composé mit „être“.",
+  "explanation": "„Aller“ bildet das Passé composé mit „être“, und das Partizip heißt „allé“.",
+  "more": "Die Gebrüder Lumière zeigten 1895 in Paris eine der ersten öffentlichen Filmvorführungen. Frankreich gilt deshalb als Kinoland."
+ },
+ {
+  "id": "de-franzoesisch-050",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du erzählst, was du morgen vorhast: Paris besichtigen. Welcher Satz ist richtig?",
+  "options": [
+   "Hier, j'ai visité Paris.",
+   "Demain, je vais visité Paris.",
+   "Demain, je suis visité Paris.",
+   "Demain, je vais visiter Paris."
+  ],
+  "answer": "D",
+  "hint": "Für die nahe Zukunft nimmst du „aller“ plus Grundform.",
+  "explanation": "Das Futur composé besteht aus der Form von „aller“ und dem Infinitiv.",
+  "more": "Es ist fast wie im Englischen: „I'm going to visit“ und „je vais visiter“. Wer eine Zukunft plant, kommt damit sehr weit."
+ },
+ {
+  "id": "de-franzoesisch-051",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Austauschpartner fragt: „Où es-tu allé pendant les vacances ?“ Was passt?",
+  "options": [
+   "Je suis allé en Espagne.",
+   "Je suis en quatrième.",
+   "J'ai allé en Espagne.",
+   "Je vais aller en Espagne."
+  ],
+  "answer": "A",
+  "hint": "Er fragt nach der Vergangenheit.",
+  "explanation": "Die Frage steht im Passé composé, und „aller“ braucht dabei „être“.",
+  "more": "Frankreich hat im Sommer rund acht Wochen Ferien. Viele reisen dann gleichzeitig, und auf den Autobahnen wird es eng!"
+ },
+ {
+  "id": "de-franzoesisch-052",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du erzählst, dass Marie gestern abgereist ist. Welcher Satz ist richtig?",
+  "options": [
+   "Marie a parti hier.",
+   "Marie est parti hier.",
+   "Marie va parti hier.",
+   "Marie est partie hier."
+  ],
+  "answer": "D",
+  "hint": "Bei „être“ richtet sich das Partizip nach der Person.",
+  "explanation": "„Partir“ steht mit „être“, und bei einer Frau bekommt das Partizip ein e.",
+  "more": "Das e bei „partie“ hörst du nicht. Beim Schreiben verrät es aber, dass eine Frau abgereist ist."
+ },
+ {
+  "id": "de-franzoesisch-053",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Eine Freundin fragt: „Tu connais Paul ?“ Was antwortest du richtig?",
+  "options": [
+   "Oui, je les connais.",
+   "Oui, je le connais.",
+   "Oui, je lui connais.",
+   "Oui, je la connais."
+  ],
+  "answer": "B",
+  "hint": "Paul ist männlich, einzeln und direktes Objekt.",
+  "explanation": "„Connaître“ hat ein direktes Objekt, und „le“ ersetzt eine männliche Person.",
+  "more": "„Connaître“ nutzt man für Menschen und Orte, die man kennt. Fürs Können und Wissen gibt es dagegen „savoir“."
+ },
+ {
+  "id": "de-franzoesisch-054",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Vater fragt: „Tu téléphones à Marie ?“ Was antwortest du richtig?",
+  "options": [
+   "Oui, je la téléphone.",
+   "Oui, je le téléphone.",
+   "Oui, je lui téléphone.",
+   "Oui, je leur téléphone."
+  ],
+  "answer": "C",
+  "hint": "„Téléphoner à“ verlangt ein indirektes Objekt.",
+  "explanation": "Nach „téléphoner à“ steht das indirekte Pronomen, und für eine Person heißt es „lui“.",
+  "more": "Unter Jugendlichen klingt es lockerer: „Je l'appelle“ heißt ich rufe sie an, und „appeler“ hat ein direktes Objekt."
+ },
+ {
+  "id": "de-franzoesisch-055",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Freund fragt: „Tu vas à la piscine ?“ Was antwortest du richtig?",
+  "options": [
+   "Oui, je la vais.",
+   "Oui, je lui vais.",
+   "Oui, j'y vais.",
+   "Oui, j'en vais."
+  ],
+  "answer": "C",
+  "hint": "Ein kleines Pronomen ersetzt den Ort.",
+  "explanation": "„Y“ ersetzt Ortsangaben mit „à“, also „à la piscine“.",
+  "more": "Das sehr häufige „On y va !“ heißt „Los geht's!“. Das wirst du in Frankreich sicher oft hören."
+ },
+ {
+  "id": "de-franzoesisch-056",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Deine Gastmutter fragt: „Tu veux du gâteau ?“ Du möchtest gern. Was antwortest du?",
+  "options": [
+   "Oui, je les veux bien.",
+   "Oui, j'en veux bien.",
+   "Oui, j'y veux bien.",
+   "Oui, je lui veux bien."
+  ],
+  "answer": "B",
+  "hint": "Ein Pronomen ersetzt die Menge von etwas.",
+  "explanation": "„En“ ersetzt eine Menge oder einen Teil, hier „du gâteau“.",
+  "more": "Beim Essen kannst du auch sagen: „Encore un peu, s'il vous plaît.“ Das heißt noch ein bisschen – und freut die Gastmutter!"
+ },
+ {
+  "id": "de-franzoesisch-057",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du gehst nie ins Stadion. Welcher Satz drückt das aus?",
+  "options": [
+   "Je vais toujours au stade.",
+   "Je vais souvent au stade.",
+   "Je ne vais plus au stade.",
+   "Je ne vais jamais au stade."
+  ],
+  "answer": "D",
+  "hint": "Gesucht ist „nie“.",
+  "explanation": "„Ne … jamais“ heißt „nie“.",
+  "more": "Pass auf: „Tu viens ? – Jamais !“ wirkt sehr hart. Es bedeutet „Nie im Leben!“ und klingt fast wie aus einem Film."
+ },
+ {
+  "id": "de-franzoesisch-058",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Die Bäckerin sagt: „Désolée, il n'y a plus de pain.“ Was bedeutet das?",
+  "options": [
+   "Es gibt nur frisches Brot.",
+   "Es gibt noch viel Brot.",
+   "Es gibt kein Brot mehr.",
+   "Das Brot ist sehr teuer."
+  ],
+  "answer": "C",
+  "hint": "„Ne … plus“ ist eine besondere Verneinung.",
+  "explanation": "„Ne … plus“ heißt „nicht mehr, kein … mehr“.",
+  "more": "Der Satz ist tückisch: „plus“ ohne „ne“ bedeutet mehr, mit „ne“ dagegen nicht mehr. Da hilft nur genaues Hinhören."
+ },
+ {
+  "id": "de-franzoesisch-059",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Deine Mutter fragt: „Qu'est-ce que tu as acheté ?“ Du hast nichts gekauft. Was ist richtig?",
+  "options": [
+   "Je n'ai pas rien acheté.",
+   "J'ai acheté ne rien.",
+   "Je ne rien ai acheté.",
+   "Je n'ai rien acheté."
+  ],
+  "answer": "D",
+  "hint": "„Rien“ ersetzt „pas“ und steht vor dem Partizip.",
+  "explanation": "„Ne … rien“ umschließt im Passé composé das Hilfsverb.",
+  "more": "„Ça ne fait rien“ heißt „Das macht nichts“. Der Satz rettet viele peinliche Momente beim Reisen."
+ },
+ {
+  "id": "de-franzoesisch-060",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du möchtest deiner Freundin vorschlagen, schwimmen zu gehen. Was fragst du?",
+  "options": [
+   "Pourquoi la piscine est fermée ?",
+   "Ça te dit d'aller à la piscine ?",
+   "Où est la piscine, madame ?",
+   "Tu es allée à la piscine hier ?"
+  ],
+  "answer": "B",
+  "hint": "Gesucht ist die umgangssprachliche Formel für „Hast du Lust“.",
+  "explanation": "„Ça te dit de … ?“ fragt, ob jemand Lust auf etwas hat.",
+  "more": "Eine andere gängige Formel lautet „Ça te dit ?“. Sie passt auf fast alles: Kino, Pizza oder Ausflug."
+ },
+ {
+  "id": "de-franzoesisch-061",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Am Samstag kannst du nicht und schlägst Sonntag vor. Was sagst du?",
+  "options": [
+   "Je ne viens jamais le dimanche.",
+   "Dimanche, c'est trop tard pour lundi.",
+   "On peut se voir dimanche plutôt ?",
+   "On s'est vus dimanche dernier."
+  ],
+  "answer": "C",
+  "hint": "„Plutôt“ heißt „lieber, stattdessen“.",
+  "explanation": "Der Satz schlägt mit „plutôt“ einen anderen Termin vor.",
+  "more": "Sonntags sind in Frankreich viele Geschäfte zu. Die Bäckerei hat aber vormittags oft geöffnet – das frische Croissant ist also gesichert."
+ },
+ {
+  "id": "de-franzoesisch-062",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du kommst zehn Minuten zu spät zur Verabredung. Was sagst du?",
+  "options": [
+   "Je suis à l'heure, voilà.",
+   "Bonne nuit, je suis fatigué.",
+   "Désolé, je suis en retard.",
+   "Désolé, je suis en avance."
+  ],
+  "answer": "C",
+  "hint": "Du entschuldigst dich und gibst die Verspätung zu.",
+  "explanation": "„En retard“ heißt „zu spät, verspätet“.",
+  "more": "Das Gegenteil ist „en avance“. Bei Einladungen zum Essen kommt man in Frankreich aber lieber ein Viertelstündchen später."
+ },
+ {
+  "id": "de-franzoesisch-063",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du rufst im Restaurant an und willst einen Tisch für vier Personen bestellen. Was sagst du?",
+  "options": [
+   "J'ai mangé à une table pour quatre personnes.",
+   "Je voudrais réserver une table pour quatre personnes.",
+   "Je voudrais acheter une table pour quatre personnes.",
+   "Je voudrais payer une table pour quatre personnes."
+  ],
+  "answer": "B",
+  "hint": "Das passende Verb gibt es fast genauso auf Deutsch.",
+  "explanation": "„Réserver une table“ heißt „einen Tisch reservieren“.",
+  "more": "Frag noch nach der Uhrzeit: „À quelle heure ?“ In Frankreich isst man abends meist erst gegen 20 Uhr."
+ },
+ {
+  "id": "de-franzoesisch-064",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Im Restaurant fehlt dir ein Messer. Was sagst du dem Kellner?",
+  "options": [
+   "Excusez-moi, je manque un couteau.",
+   "Excusez-moi, j'ai cassé un couteau.",
+   "Excusez-moi, j'ai trop de couteaux.",
+   "Excusez-moi, il me manque un couteau."
+  ],
+  "answer": "D",
+  "hint": "„Manquer“ funktioniert hier mit „il“ und einem Pronomen.",
+  "explanation": "„Il me manque …“ heißt „Mir fehlt …“, und „le couteau“ ist das Messer.",
+  "more": "„Tu me manques“ ist einer der schönsten Sätze: Er heißt „Du fehlst mir“. Wörtlich bist du also der, der fehlt."
+ },
+ {
+  "id": "de-franzoesisch-065",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Im Laden möchtest du eine Jeans anprobieren. Was fragst du?",
+  "options": [
+   "Vous avez vendu ce jean ?",
+   "Je peux laver ce jean ?",
+   "Je peux essayer ce jean ?",
+   "Je peux rendre ce jean ?"
+  ],
+  "answer": "C",
+  "hint": "Das Verb bedeutet auch „versuchen“.",
+  "explanation": "„Essayer“ heißt „ausprobieren, anprobieren“.",
+  "more": "Die Umkleide heißt „la cabine d'essayage“. Klingt fast wie ein Raum für Experimente, und so fühlt es sich oft auch an."
+ },
+ {
+  "id": "de-franzoesisch-066",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Der Verkäufer fragt: „Quelle taille faites-vous ?“ Was passt?",
+  "options": [
+   "Je fais du 38.",
+   "Ça coûte 38 euros.",
+   "Je fais du vélo.",
+   "J'ai 38 ans."
+  ],
+  "answer": "A",
+  "hint": "„La taille“ ist die Kleidergröße.",
+  "explanation": "Er fragt nach der Größe, und die nennt man mit „faire du …“.",
+  "more": "Bei den Schuhen fragt man hingegen „Quelle pointure ?“. Für Kleidung und Schuhe gibt es also unterschiedliche Wörter."
+ },
+ {
+  "id": "de-franzoesisch-067",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Im Laden findest du eine Jacke schön, aber sie kostet 200 Euro. Das ist dir zu viel. Was sagst du?",
+  "options": [
+   "C'est trop cher pour moi.",
+   "C'est très bon marché.",
+   "C'est en solde, je la prends.",
+   "C'est trop grand pour moi."
+  ],
+  "answer": "A",
+  "hint": "Es geht um den Preis, und du lehnst ab.",
+  "explanation": "„Cher“ bedeutet „teuer“, und „trop“ heißt „zu“.",
+  "more": "Zum Glück gibt es zweimal im Jahr „les soldes“. Das sind staatlich festgelegte Schlussverkäufe, auf die viele sehnlich warten."
+ },
+ {
+  "id": "de-franzoesisch-068",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du brauchst eine Apotheke und fragst nach einer in der Nähe. Was sagst du?",
+  "options": [
+   "Est-ce qu'il y a une pharmacie près d'ici ?",
+   "Est-ce que la pharmacie est chère ?",
+   "Est-ce qu'il y a une piscine près d'ici ?",
+   "Est-ce que tu aimes la pharmacie ?"
+  ],
+  "answer": "A",
+  "hint": "„Près d'ici“ heißt „hier in der Nähe“.",
+  "explanation": "„Est-ce qu'il y a … ?“ fragt, ob es etwas gibt, und „la pharmacie“ ist die Apotheke.",
+  "more": "Apotheken erkennst du in Frankreich an einem grünen, oft blinkenden Leuchtkreuz. Das siehst du schon von Weitem."
+ },
+ {
+  "id": "de-franzoesisch-069",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du fragst: „C'est loin ?“ Was ist eine passende Antwort?",
+  "options": [
+   "Non, c'est à cinq minutes à pied.",
+   "Oui, ça coûte cinq euros.",
+   "Non, il est cinq heures.",
+   "Oui, j'ai cinq ans."
+  ],
+  "answer": "A",
+  "hint": "Du möchtest die Entfernung erfahren.",
+  "explanation": "„À cinq minutes à pied“ heißt „fünf Minuten zu Fuß“.",
+  "more": "„À pied“ heißt zu Fuß, „à vélo“ mit dem Rad. Mit dem Auto oder der Bahn sagt man dagegen „en voiture“ oder „en train“."
+ },
+ {
+  "id": "de-franzoesisch-070",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Am Bahnhof möchtest du wissen, ob du umsteigen musst. Was fragst du?",
+  "options": [
+   "Est-ce que je peux manger dans le train ?",
+   "Est-ce que le train est en retard ?",
+   "Est-ce que vous vendez des billets ?",
+   "Est-ce que je dois changer de train ?"
+  ],
+  "answer": "D",
+  "hint": "„Wechseln“ ist hier das Stichwort.",
+  "explanation": "„Changer de train“ heißt „umsteigen“.",
+  "more": "Vergiss vor der Fahrt nicht die Sitzplatzreservierung: Im TGV ist sie meist Pflicht und bereits im Preis enthalten."
+ },
+ {
+  "id": "de-franzoesisch-071",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Am Bahnhof hörst du: „Le train a vingt minutes de retard.“ Was bedeutet das?",
+  "options": [
+   "Der Zug ist 20 Minuten zu früh.",
+   "Der Zug hat 20 Minuten Verspätung.",
+   "Die Fahrt dauert 20 Minuten.",
+   "Der Zug fährt in 20 Minuten ab."
+  ],
+  "answer": "B",
+  "hint": "„Retard“ kennst du vom Zuspätkommen.",
+  "explanation": "„Avoir du retard“ bedeutet „Verspätung haben“.",
+  "more": "Das kennen auch die Deutschen gut. In Frankreich gibt es bei langen Verspätungen im TGV oft eine Teilerstattung."
+ },
+ {
+  "id": "de-franzoesisch-072",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du erreichst am Telefon nur den Bruder deiner Freundin und möchtest ihr etwas ausrichten lassen. Was fragst du?",
+  "options": [
+   "Je peux avoir ton âge ?",
+   "Je peux laisser un message ?",
+   "Je peux venir demain ?",
+   "Je peux parler plus fort ?"
+  ],
+  "answer": "B",
+  "hint": "„Laisser“ heißt „hinterlassen“.",
+  "explanation": "„Laisser un message“ bedeutet „eine Nachricht hinterlassen“.",
+  "more": "Ein Handy heißt in Frankreich „un portable“. Einen schnellen SMS-Gruß nennt man dort „un texto“."
+ },
+ {
+  "id": "de-franzoesisch-073",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Jemand ruft bei dir an und möchte eine dir unbekannte Person sprechen. Was sagst du?",
+  "options": [
+   "Vous vous êtes trompé de numéro.",
+   "Oui, c'est moi, ne quittez pas.",
+   "Je vais vous donner mon âge.",
+   "Vous avez un beau numéro."
+  ],
+  "answer": "A",
+  "hint": "Der Anrufer hat sich verwählt.",
+  "explanation": "„Se tromper de numéro“ heißt „sich verwählen“.",
+  "more": "Französische Festnetznummern haben zehn Ziffern, die man paarweise spricht: „zéro un, vingt-trois, quarante-cinq …“."
+ },
+ {
+  "id": "de-franzoesisch-074",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du hast den Wetterbericht für morgen gehört: Regen. Was sagst du?",
+  "options": [
+   "Hier, il a plu.",
+   "Demain, il va faire beau.",
+   "Demain, il va pleuvoir.",
+   "Maintenant, il pleut."
+  ],
+  "answer": "C",
+  "hint": "Du sprichst über die Zukunft und über Regen.",
+  "explanation": "„Il va pleuvoir“ ist das Futur composé von „pleuvoir“.",
+  "more": "Französische Wetterberichte sprechen von den Regionen: In der Bretagne regnet es angeblich oft, und im Süden scheint meist die Sonne."
+ },
+ {
+  "id": "de-franzoesisch-075",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Die Ärztin fragt: „Depuis quand avez-vous mal ?“ Was passt?",
+  "options": [
+   "Pour deux euros.",
+   "Depuis deux jours.",
+   "À deux heures.",
+   "Dans deux jours."
+  ],
+  "answer": "B",
+  "hint": "Sie möchte wissen, seit wann es wehtut.",
+  "explanation": "„Depuis“ bedeutet „seit“.",
+  "more": "Beim Arzt hörst du oft auch „Où avez-vous mal ?“, also „Wo tut es weh?“. Zeigen hilft dabei immer!"
+ },
+ {
+  "id": "de-franzoesisch-076",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du erzählst, was du als Kind regelmäßig gemacht hast. Welcher Satz ist richtig?",
+  "options": [
+   "Quand je suis petit, je suis allais à la mer.",
+   "Quand je serai petit, j'irai à la mer.",
+   "Quand j'étais petit, j'allais souvent à la mer.",
+   "Quand j'ai été petit, j'ai allé à la mer."
+  ],
+  "answer": "C",
+  "hint": "Für Gewohnheiten in der Vergangenheit gibt es eine eigene Zeitform.",
+  "explanation": "Das Imparfait beschreibt Zustände und Gewohnheiten früher.",
+  "more": "„L'imparfait“ heißt wörtlich unvollendet. Es malt den Hintergrund einer Geschichte, das Passé composé erzählt die Ereignisse."
+ },
+ {
+  "id": "de-franzoesisch-077",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Eine Freundin fragt: „Tu as vu Marie ?“ Welche Antwort ist richtig geschrieben?",
+  "options": [
+   "Oui, je lui ai vue.",
+   "Oui, je l'ai vu.",
+   "Oui, je la ai vue.",
+   "Oui, je l'ai vue."
+  ],
+  "answer": "D",
+  "hint": "Steht das direkte Objekt vor dem Partizip, richtet sich das Partizip danach.",
+  "explanation": "„L'“ steht für Marie, also richtet sich das Partizip nach ihr und bekommt ein e.",
+  "more": "Ausgesprochen sind „vu“ und „vue“ gleich. Selbst Franzosen stolpern beim Diktat oft über diese Regel."
+ },
+ {
+  "id": "de-franzoesisch-078",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Freund fragt: „Tu as appelé Paul ?“ Du verneinst. Welcher Satz ist richtig?",
+  "options": [
+   "Non, je l'ai ne pas appelé.",
+   "Non, je ne lui pas appelé.",
+   "Non, je n'ai pas l'appelé.",
+   "Non, je ne l'ai pas appelé."
+  ],
+  "answer": "D",
+  "hint": "Das Pronomen steht vor dem Hilfsverb, die Verneinung umschließt beides.",
+  "explanation": "Die Stellung ist „ne“ + Pronomen + Hilfsverb + „pas“ + Partizip.",
+  "more": "Im Alltag fällt das „ne“ oft weg: „Je l'ai pas appelé.“ Das hörst du ständig, in der Klassenarbeit bleibt es aber bitte dran!"
+ },
+ {
+  "id": "de-franzoesisch-079",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Deine Schwester fragt: „Tu vas inviter Léa ?“ Welche Antwort ist richtig?",
+  "options": [
+   "Oui, je vais inviter la.",
+   "Oui, je la vais inviter.",
+   "Oui, je vais l'inviter.",
+   "Oui, je vais lui inviter."
+  ],
+  "answer": "C",
+  "hint": "Im Futur composé steht das Pronomen direkt vor dem Infinitiv.",
+  "explanation": "„Inviter“ hat ein direktes Objekt, und das Pronomen steht vor dem Infinitiv.",
+  "more": "Zum Geburtstag sagen Franzosen „Bon anniversaire !“. Dazu singen sie oft „Joyeux anniversaire“ zur selben Melodie wie bei uns."
+ },
+ {
+  "id": "de-franzoesisch-080",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du bittest eine Freundin: „Ruf mich an!“ Welcher Satz ist richtig?",
+  "options": [
+   "Appelle-moi !",
+   "Appelles-moi !",
+   "Me appelle !",
+   "Appelle-je !"
+  ],
+  "answer": "A",
+  "hint": "Beim bejahten Imperativ steht das Pronomen hinter dem Verb, und das s der Du-Form fällt bei -er-Verben weg.",
+  "explanation": "Beim bejahten Imperativ gilt die Stellung Verb-Pronomen, und aus „me“ wird „moi“.",
+  "more": "Auf Französisch hört man oft auch „Tiens-moi au courant !“. Das heißt „Halte mich auf dem Laufenden!“."
+ },
+ {
+  "id": "de-franzoesisch-081",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Deine Freundin macht sich vor einer Prüfung Sorgen. Du möchtest sie beruhigen. Was ist richtig?",
+  "options": [
+   "Ne inquiète pas !",
+   "Tu ne t'inquiète !",
+   "Ne t'inquiète pas !",
+   "Inquiète-toi !"
+  ],
+  "answer": "C",
+  "hint": "Bei verneinten Befehlen bleibt das Pronomen vor dem Verb.",
+  "explanation": "„S'inquiéter“ ist reflexiv, und im verneinten Imperativ steht „te“ vor dem Verb.",
+  "more": "Noch lässiger sagen Jugendliche „T'inquiète !“, oft einfach ohne „ne“ und „pas“. Das heißt ungefähr „Keine Sorge!“."
+ },
+ {
+  "id": "de-franzoesisch-082",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Lena erzählt, sie sei heute um sieben aufgestanden. Welcher Satz ist richtig?",
+  "options": [
+   "Je me suis levée à sept heures.",
+   "Je me vais levée à sept heures.",
+   "Je suis levée me à sept heures.",
+   "Je m'ai levée à sept heures."
+  ],
+  "answer": "A",
+  "hint": "Reflexive Verben bilden das Passé composé immer mit demselben Hilfsverb.",
+  "explanation": "Reflexive Verben stehen mit „être“, und bei Lena bekommt das Partizip ein e.",
+  "more": "„Se lever du pied gauche“ heißt mit dem linken Fuß aufstehen. Auf Deutsch wäre das „mit dem falschen Fuß“."
+ },
+ {
+  "id": "de-franzoesisch-083",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du lernst seit zwei Jahren Französisch und bist noch dabei. Was sagst du?",
+  "options": [
+   "J'ai appris le français dans deux ans.",
+   "J'apprends le français dans deux ans.",
+   "J'apprends le français il y a deux ans.",
+   "J'apprends le français depuis deux ans."
+  ],
+  "answer": "D",
+  "hint": "Die Handlung läuft noch, also hält das Wort für „seit“ die Lösung.",
+  "explanation": "„Depuis“ mit Präsens drückt aus, dass etwas begonnen hat und noch andauert.",
+  "more": "Auch Deutsch nutzt hier das Präsens: Ich lerne seit zwei Jahren. Hier denken beide Sprachen zum Glück gleich."
+ },
+ {
+  "id": "de-franzoesisch-084",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du bist vor zwei Tagen in Paris angekommen. Was sagst du?",
+  "options": [
+   "Je suis arrivé pour deux jours.",
+   "Je suis arrivé depuis deux jours.",
+   "Je suis arrivé dans deux jours.",
+   "Je suis arrivé il y a deux jours."
+  ],
+  "answer": "D",
+  "hint": "Es geht um einen abgeschlossenen Zeitpunkt in der Vergangenheit.",
+  "explanation": "„Il y a“ mit Zeitangabe bedeutet „vor“.",
+  "more": "Hier trickst dich „il y a“ aus: Sonst heißt es „es gibt“. Vor einer Zeitangabe wird daraus aber ein Rückblick."
+ },
+ {
+  "id": "de-franzoesisch-085",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du sagst: „Wenn es regnet, bleiben wir zu Hause.“ Welcher Satz ist richtig?",
+  "options": [
+   "Si il pleut, on reste à la maison.",
+   "S'il pleut, on reste à la maison.",
+   "Si pleut, on reste à la maison.",
+   "S'il pleuvra, on reste à la maison."
+  ],
+  "answer": "B",
+  "hint": "Vor „il“ wird das Wörtchen für „wenn“ verkürzt.",
+  "explanation": "Vor „il“ wird „si“ zu „s'“, und danach steht das Präsens.",
+  "more": "Vor „elle“ bleibt „si“ aber unverändert: „Si elle vient …“. Der Apostroph kommt also nur bei „il“ und „ils“ vor."
+ },
+ {
+  "id": "de-franzoesisch-086",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du bittest eine fremde ältere Dame sehr höflich um Hilfe. Welcher Satz ist am passendsten?",
+  "options": [
+   "Vous devez m'aider !",
+   "Aide-moi tout de suite !",
+   "Tu peux m'aider, s'il te plaît ?",
+   "Pourriez-vous m'aider, s'il vous plaît ?"
+  ],
+  "answer": "D",
+  "hint": "Gesucht sind die Sie-Form und ein höflicher Konjunktiv.",
+  "explanation": "Das Konditional „pourriez-vous“ ist besonders höflich und passt bei Fremden.",
+  "more": "Das Siezen, „le vouvoiement“, ist in Frankreich wichtig. Duzen darfst du erst, wenn dir jemand anbietet: „On se tutoie ?“."
+ },
+ {
+  "id": "de-franzoesisch-087",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du zeigst auf einen Jungen: „Das ist der Junge, der Gitarre spielt.“ Was ist richtig?",
+  "options": [
+   "C'est le garçon qui joue de la guitare.",
+   "C'est le garçon que joue de la guitare.",
+   "C'est le garçon où joue de la guitare.",
+   "C'est le garçon dont joue de la guitare."
+  ],
+  "answer": "A",
+  "hint": "Der Junge ist das Subjekt des Nebensatzes.",
+  "explanation": "„Qui“ ist das Relativpronomen für das Subjekt.",
+  "more": "Merke dir: Hinter „qui“ kommt oft direkt ein Verb. Hinter „que“ folgt dagegen eher eine Person, die etwas tut."
+ },
+ {
+  "id": "de-franzoesisch-088",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du empfiehlst einen Film: „Der Film, den ich gesehen habe, ist super.“ Was ist richtig?",
+  "options": [
+   "Le film que j'ai vu est super.",
+   "Le film qui j'ai vu est super.",
+   "Le film où j'ai vu est super.",
+   "Le film dont j'ai vu est super."
+  ],
+  "answer": "A",
+  "hint": "Der Film ist hier das Objekt des Nebensatzes.",
+  "explanation": "„Que“ ist das Relativpronomen für das direkte Objekt.",
+  "more": "Das französische Kino wird in Cannes gefeiert. Beim berühmten Filmfestival gewinnt der beste Film die „Goldene Palme“."
+ },
+ {
+  "id": "de-franzoesisch-089",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du vergleichst zwei Cafés: Das hier ist besser. Was ist richtig?",
+  "options": [
+   "Ce café est le bon que l'autre.",
+   "Ce café est meilleur que l'autre.",
+   "Ce café est plus bon que l'autre.",
+   "Ce café est mieux bon que l'autre."
+  ],
+  "answer": "B",
+  "hint": "„Bon“ hat wie „gut“ eine unregelmäßige Steigerung.",
+  "explanation": "Die Steigerung von „bon“ ist „meilleur“.",
+  "more": "Wie deutsch „gut, besser“ ist auch „bon, meilleur“ unregelmäßig. „Plus bon“ würde jeden Franzosen zusammenzucken lassen!"
+ },
+ {
+  "id": "de-franzoesisch-090",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Nach einer Erkältung geht es dir besser. Was sagst du?",
+  "options": [
+   "Je vais plus mal.",
+   "Je vais plus bien.",
+   "Je vais meilleur.",
+   "Je vais mieux."
+  ],
+  "answer": "D",
+  "hint": "„Aller“ wird durch ein Adverb ergänzt, nicht durch ein Adjektiv.",
+  "explanation": "„Mieux“ ist die Steigerung des Adverbs „bien“.",
+  "more": "Merkhilfe: „meilleur“ gehört zu Dingen wie Essen, „mieux“ zu Tätigkeiten und zum Befinden."
+ },
+ {
+  "id": "de-franzoesisch-091",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Der Arzt sagt: „Je vais vous faire une ordonnance.“ Was bekommst du?",
+  "options": [
+   "Eine Rechnung",
+   "Ein Rezept",
+   "Einen Termin",
+   "Eine Spritze"
+  ],
+  "answer": "B",
+  "hint": "Damit gehst du anschließend in die Apotheke.",
+  "explanation": "„L'ordonnance“ ist das ärztliche Rezept.",
+  "more": "Ein Kochrezept heißt dagegen „la recette“. Verwechsle die beiden lieber nicht, sonst wird der Apotheker staunen!"
+ },
+ {
+  "id": "de-franzoesisch-092",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "In der Apotheke hörst du: „Prenez ce médicament trois fois par jour.“ Was sollst du tun?",
+  "options": [
+   "Das Medikament drei Tage lang nehmen",
+   "Das Medikament alle drei Tage nehmen",
+   "Drei Medikamente auf einmal nehmen",
+   "Das Medikament dreimal täglich nehmen"
+  ],
+  "answer": "D",
+  "hint": "„Fois“ zählt, wie oft etwas geschieht, „par jour“ bezieht sich auf den Tag.",
+  "explanation": "„Trois fois par jour“ bedeutet „dreimal am Tag“.",
+  "more": "Französische Apotheker beraten auch bei kleinen Beschwerden und helfen oft weiter, ohne dass du zum Arzt musst."
+ },
+ {
+  "id": "de-franzoesisch-093",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Die Kassiererin fragt: „Vous avez de la monnaie ?“ Was will sie wissen?",
+  "options": [
+   "Ob du eine Tüte brauchst",
+   "Ob du eine Kreditkarte hast",
+   "Ob du einen Beleg willst",
+   "Ob du Kleingeld hast"
+  ],
+  "answer": "D",
+  "hint": "„Monnaie“ ist nicht einfach das Geld im Allgemeinen.",
+  "explanation": "„La monnaie“ bedeutet hier Kleingeld oder Wechselgeld.",
+  "more": "Geld allgemein heißt „l'argent“, was auch Silber bedeutet. Umgangssprachlich sagen viele Jugendliche „le fric“."
+ },
+ {
+  "id": "de-franzoesisch-094",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Am Bahnhof hörst du: „Le prochain train part à seize heures quarante.“ Wann fährt der Zug?",
+  "options": [
+   "Um 17:20 Uhr",
+   "Um 16:40 Uhr",
+   "Um 16:14 Uhr",
+   "Um 6:40 Uhr"
+  ],
+  "answer": "B",
+  "hint": "„Seize“ und „quarante“ sind die beiden Zahlen, auf die es ankommt.",
+  "explanation": "„Seize“ ist 16, und „quarante“ ist 40.",
+  "more": "Durchsagen und Fahrpläne nutzen die 24-Stunden-Zählung. Im Alltag sagt man nachmittags eher „cinq heures moins vingt“."
+ },
+ {
+  "id": "de-franzoesisch-095",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du sprichst auf der Straße eine dir fremde Frau an und fragst nach der Post. Was ist angemessen?",
+  "options": [
+   "Excusez-moi, madame, vous savez où est la poste ?",
+   "Eh, toi, elle est où, la poste ?",
+   "Salut, tu sais où est la poste ?",
+   "Dis donc, tu connais la poste ?"
+  ],
+  "answer": "A",
+  "hint": "Fremde Erwachsene spricht man mit „vous“ an.",
+  "explanation": "Bei Fremden gehören „excusez-moi“, „madame“ und die Sie-Form dazu.",
+  "more": "Eine Regel in Frankreich: Erst „Bonjour“ sagen, dann fragen. Wer direkt losredet, gilt schnell als unhöflich."
+ },
+ {
+  "id": "de-franzoesisch-096",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du erzählst, dass du schwimmen gelernt hast und es kannst. Welcher Satz ist richtig?",
+  "options": [
+   "Je connais nager.",
+   "Je sais nager.",
+   "Je dois nager.",
+   "Je veux nager."
+  ],
+  "answer": "B",
+  "hint": "Hier geht es um eine erlernte Fähigkeit.",
+  "explanation": "„Savoir“ + Infinitiv drückt aus, was man gelernt hat und kann.",
+  "more": "„Pouvoir“ heißt dagegen können im Sinne von dürfen oder die Möglichkeit haben. Das Deutsche macht diesen Unterschied nicht."
+ },
+ {
+  "id": "de-franzoesisch-097",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Gesprächspartner spricht sehr schnell und du verstehst nichts. Wie reagierst du höflich?",
+  "options": [
+   "Merci, j'ai tout compris.",
+   "Non, je ne veux pas vous parler.",
+   "Pardon, vous pouvez répéter, s'il vous plaît ?",
+   "Pardon, vous pouvez partir, s'il vous plaît ?"
+  ],
+  "answer": "C",
+  "hint": "Du bittest um eine Wiederholung.",
+  "explanation": "„Répéter“ heißt „wiederholen“, und „pardon“ leitet die Bitte höflich ein.",
+  "more": "Noch nützlicher ist: „Vous pouvez parler plus lentement ?“ Das bedeutet „Können Sie langsamer sprechen?“."
+ },
+ {
+  "id": "de-franzoesisch-098",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du gibst deine Meinung zu einem langweiligen Film ab. Welcher Satz ist richtig?",
+  "options": [
+   "Dans mon avis, ce film est ennuyeux.",
+   "À ma avis, ce film est ennuyeux.",
+   "Pour mon avis, ce film est ennuyeux.",
+   "À mon avis, ce film est ennuyeux."
+  ],
+  "answer": "D",
+  "hint": "Achte auf die feste Wendung und das Geschlecht von „avis“.",
+  "explanation": "Die feste Wendung für „meiner Meinung nach“ lautet „à mon avis“.",
+  "more": "Auch gut: „Je trouve que …“. Eine lebhafte Diskussion gilt in Frankreich als Zeichen von Interesse, nicht von Streit."
+ },
+ {
+  "id": "de-franzoesisch-099",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du berichtest von den Ferien: Ihr wart am Meer und habt gesurft. Welcher Satz ist richtig?",
+  "options": [
+   "Nous sommes allés au bord de la mer et nous avons fait du surf.",
+   "Nous sommes allés au bord de la mer et nous sommes fait du surf.",
+   "Nous avons allés au bord de la mer et nous sommes fait du surf.",
+   "Nous avons allé au bord de la mer et nous avons fait du surf."
+  ],
+  "answer": "A",
+  "hint": "Die beiden Verben brauchen unterschiedliche Hilfsverben.",
+  "explanation": "„Aller“ steht mit „être“ und „faire“ mit „avoir“.",
+  "more": "Biarritz am Atlantik gilt als Wiege des Surfens in Europa. Dort wurde schon in den 1950er-Jahren gesurft."
+ },
+ {
+  "id": "de-franzoesisch-100",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ein Freund fragt: „Tu pars quand en vacances ?“ Du fährst in drei Tagen los. Was sagst du?",
+  "options": [
+   "Je pars depuis trois jours.",
+   "Je pars dans trois jours.",
+   "Je suis parti dans trois jours.",
+   "Je pars il y a trois jours."
+  ],
+  "answer": "B",
+  "hint": "Gesucht ist ein Zeitpunkt in der Zukunft, von heute aus gerechnet.",
+  "explanation": "„Dans“ mit Zeitangabe bedeutet „in“ im Sinne von „nach Ablauf von“.",
+  "more": "Vor der Abfahrt wünschen sich Franzosen „Bonnes vacances !“ und „Bon voyage !“. Oft kommt noch eine Postkarte vom Strand."
+ }
+]

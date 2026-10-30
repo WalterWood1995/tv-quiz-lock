@@ -4,7 +4,6 @@ import shutil
 import subprocess
 from pathlib import Path
 
-import edge_tts
 
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
@@ -29,6 +28,7 @@ def build_video(text=DEFAULT_TEXT, voice=DEFAULT_VOICE, avatar=None, voice_file=
     if voice_file:
         audio = Path(voice_file)
     else:
+        import edge_tts  # 只有合成提醒语音时才需要
         asyncio.run(edge_tts.Communicate(text, voice).save(str(audio)))
 
     caption = ASSETS / "caption.txt"

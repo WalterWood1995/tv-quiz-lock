@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "de-englisch-alltag-001",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Jemand sagt zu dir: „Nice to meet you.“ Was antwortest du?",
+  "options": [
+   "See you yesterday.",
+   "I'm sorry to hear that.",
+   "You're welcome.",
+   "Nice to meet you too."
+  ],
+  "answer": "D",
+  "hint": "Du gibst die freundliche Begrüßung einfach zurück.",
+  "explanation": "Beim ersten Treffen gibt man den Satz mit einem angehängten „too“ zurück.",
+  "more": "Beim zweiten Treffen sagt man eher „Nice to see you“, denn kennengelernt habt ihr euch ja schon."
+ },
+ {
+  "id": "de-englisch-alltag-002",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Freund fragt: „How are you?“ Dir geht es gut. Was sagst du?",
+  "options": [
+   "I'm fine, thanks. And you?",
+   "I'm from Hamburg.",
+   "It's ten o'clock.",
+   "I'm fifteen, thanks."
+  ],
+  "answer": "A",
+  "hint": "Die Frage zielt auf dein Befinden.",
+  "explanation": "„How are you?“ fragt nach dem Befinden, darum passt „I'm fine, thanks“ mit einer Gegenfrage.",
+  "more": "In Großbritannien ist „How are you?“ oft nur ein Gruß, niemand erwartet dabei deine ganze Krankengeschichte."
+ },
+ {
+  "id": "de-englisch-alltag-003",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du möchtest höflich um Hilfe bitten. Was sagst du?",
+  "options": [
+   "You must help me.",
+   "Could you help me, please?",
+   "Why do you help me?",
+   "Help me now!"
+  ],
+  "answer": "B",
+  "hint": "Achte auf ein höfliches Modalverb und ein kleines Zauberwort.",
+  "explanation": "„Could you …, please?“ ist eine höfliche Bitte, die anderen Sätze klingen wie ein Befehl oder passen nicht.",
+  "more": "Noch etwas höflicher klingt „Would you mind helping me?“, darauf antwortet man mit „Not at all“, wenn man gern hilft."
+ },
+ {
+  "id": "de-englisch-alltag-004",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du trittst im Bus jemandem aus Versehen auf den Fuß. Was sagst du?",
+  "options": [
+   "Oh, what a pity for you!",
+   "Oh, you're welcome!",
+   "Oh, congratulations!",
+   "Oh, I'm so sorry!"
+  ],
+  "answer": "D",
+  "hint": "Hier ist eine Entschuldigung gefragt.",
+  "explanation": "Für ein kleines Missgeschick entschuldigt man sich mit „I'm sorry“.",
+  "more": "Briten sagen so oft „sorry“, dass manche sich sogar entschuldigen, wenn ihnen selbst jemand auf den Fuß tritt."
+ },
+ {
+  "id": "de-englisch-alltag-005",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Jemand bedankt sich: „Thank you so much!“ Was antwortest du?",
+  "options": [
+   "You're welcome.",
+   "Thank you too much.",
+   "I'm welcome.",
+   "Yes, please."
+  ],
+  "answer": "A",
+  "hint": "Gesucht ist die englische Entsprechung von „Gern geschehen“.",
+  "explanation": "Auf einen Dank antwortet man mit „You're welcome“, also „Gern geschehen“.",
+  "more": "Locker geht auch „No worries“ oder „No problem“, unter Freunden hörst du das ständig."
+ },
+ {
+  "id": "de-englisch-alltag-006",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Im Café möchtest du etwas bestellen. Was sagst du?",
+  "options": [
+   "Can I have a hot chocolate, please?",
+   "Do you want a hot chocolate?",
+   "Give me a hot chocolate.",
+   "I have a hot chocolate, please."
+  ],
+  "answer": "A",
+  "hint": "Es ist eine höfliche Frage mit „please“ am Ende.",
+  "explanation": "„Can I have …, please?“ ist die übliche höfliche Art zu bestellen.",
+  "more": "Im britischen Pub bestellst du meist direkt an der Bar, Kellner kommen dort selten an den Tisch."
+ },
+ {
+  "id": "de-englisch-alltag-007",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du willst im Geschäft den Preis eines T-Shirts wissen. Was fragst du?",
+  "options": [
+   "How long is this T-shirt?",
+   "How many is this T-shirt?",
+   "How old is this T-shirt?",
+   "How much is this T-shirt?"
+  ],
+  "answer": "D",
+  "hint": "Nach Preisen fragt man mit einem festen Fragewort-Paar.",
+  "explanation": "Nach dem Preis fragt man mit „How much is …?“, „how many“ steht nur bei zählbaren Mengen.",
+  "more": "In Großbritannien zahlst du mit Pfund und Pence, und „quid“ ist das umgangssprachliche Wort für Pfund."
+ },
+ {
+  "id": "de-englisch-alltag-008",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Tourist fragt: „Excuse me, where's the station?“ Welche Antwort passt?",
+  "options": [
+   "Go straight on and turn left.",
+   "I went there by bus last year.",
+   "Yes, I like trains.",
+   "It's half past three."
+  ],
+  "answer": "A",
+  "hint": "Der Tourist braucht eine Wegbeschreibung.",
+  "explanation": "Auf die Frage nach dem Ort antwortet man mit einer Wegbeschreibung wie „Go straight on“.",
+  "more": "Falls du den Weg nicht kennst, sag einfach: „Sorry, I'm not from around here.“"
+ },
+ {
+  "id": "de-englisch-alltag-009",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du möchtest wissen, wie spät es ist. Was fragst du?",
+  "options": [
+   "How late are you?",
+   "How much time do you have old?",
+   "What's the time, please?",
+   "When is your watch?"
+  ],
+  "answer": "C",
+  "hint": "Im Deutschen würdest du „Wie spät ist es?“ fragen, aber wörtlich geht das nicht.",
+  "explanation": "Nach der Uhrzeit fragt man mit „What's the time?“ oder „What time is it?“.",
+  "more": "Bei der Uhrzeit sagen Briten „half past six“ für 6:30, also nicht wie das deutsche „halb sieben“."
+ },
+ {
+  "id": "de-englisch-alltag-010",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du verabschiedest dich von einer Freundin, die du morgen in der Schule siehst. Was sagst du?",
+  "options": [
+   "Good night, sir!",
+   "See you tomorrow!",
+   "Nice to meet you!",
+   "See you yesterday!"
+  ],
+  "answer": "B",
+  "hint": "Der Abschied bezieht sich auf den nächsten Tag.",
+  "explanation": "„See you tomorrow!“ heißt „Bis morgen!“ und passt genau zu dieser Situation.",
+  "more": "Britische Jugendliche sagen oft nur „See ya!“ oder „Cheers!“, Letzteres bedeutet auch „danke“."
+ },
+ {
+  "id": "de-englisch-alltag-011",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein neuer Mitschüler fragt: „Where are you from?“ Welche Antwort passt?",
+  "options": [
+   "I'm fourteen.",
+   "I'm from Germany.",
+   "I'm from yesterday.",
+   "I'm in the kitchen."
+  ],
+  "answer": "B",
+  "hint": "Gefragt ist nach deiner Herkunft.",
+  "explanation": "„Where are you from?“ fragt nach der Herkunft, also passt ein Land oder eine Stadt.",
+  "more": "„Germany“ ist das Land, „German“ die Sprache und Nationalität, das wird gern verwechselt."
+ },
+ {
+  "id": "de-englisch-alltag-012",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du rufst bei einer Freundin an und ihr Vater geht ans Telefon. Was sagst du?",
+  "options": [
+   "Hello, who is Emma, please?",
+   "Hello, could I speak to Emma, please?",
+   "Hello, give the telephone quickly!",
+   "Hello, I am Emma, please."
+  ],
+  "answer": "B",
+  "hint": "Du bittest höflich darum, mit jemandem verbunden zu werden.",
+  "explanation": "Am Telefon fragt man höflich mit „Could I speak to …, please?“.",
+  "more": "Wenn jemand fragt, wer dran ist, sagst du „This is Lena“ oder „It's Lena“, nicht „I am Lena“."
+ },
+ {
+  "id": "de-englisch-alltag-013",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du fühlst dich krank. Der Arzt fragt: „What's the matter?“ Was antwortest du?",
+  "options": [
+   "I've got a new bike.",
+   "I'm a very good doctor.",
+   "It's a matter of time.",
+   "I've got a terrible headache."
+  ],
+  "answer": "D",
+  "hint": "Der Arzt möchte wissen, was dir fehlt.",
+  "explanation": "„What's the matter?“ fragt nach dem Problem, also nennst du deine Beschwerden.",
+  "more": "Beschwerden bauen oft auf „-ache“ auf: stomach ache, toothache und earache funktionieren alle gleich."
+ },
+ {
+  "id": "de-englisch-alltag-014",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du lädst einen Freund ins Kino ein. Was passt?",
+  "options": [
+   "Were you at the cinema like?",
+   "You like go cinema yes?",
+   "Would you like to go to the cinema?",
+   "Do you be going to the cinema?"
+  ],
+  "answer": "C",
+  "hint": "Es ist die übliche höfliche Einladung mit „would“.",
+  "explanation": "Mit „Would you like to …?“ lädt man höflich jemanden ein.",
+  "more": "Briten gehen in den „cinema“ und schauen einen „film“, Amerikaner gehen eher ins „movie theater“."
+ },
+ {
+  "id": "de-englisch-alltag-015",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Freund sagt: „I've got two tickets for the concert. Do you want to come?“ Du möchtest gern. Was sagst du?",
+  "options": [
+   "Yes, I'd love to!",
+   "Yes, I've come yesterday!",
+   "Sorry, you're welcome!",
+   "No, I'd love to!"
+  ],
+  "answer": "A",
+  "hint": "Zeig Begeisterung und sag zu.",
+  "explanation": "„I'd love to“ ist eine freundliche, begeisterte Zusage.",
+  "more": "Bist du nicht sicher, sag lieber „Let me check and get back to you“, dann bleibt alles offen."
+ },
+ {
+  "id": "de-englisch-alltag-016",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Im Restaurant möchtest du zahlen. Was sagst du zur Bedienung?",
+  "options": [
+   "Could we have the menu again, please?",
+   "Could we cook the bill, please?",
+   "Could we pay the waiter's birthday?",
+   "Could we have the bill, please?"
+  ],
+  "answer": "D",
+  "hint": "Gesucht ist das britische Wort für die Rechnung.",
+  "explanation": "Die Rechnung heißt im britischen Englisch „bill“, und man fragt höflich mit „could“.",
+  "more": "Amerikaner sagen „check“. In britischen Restaurants gibt man oft rund zehn Prozent Trinkgeld, falls es nicht schon enthalten ist."
+ },
+ {
+  "id": "de-englisch-alltag-017",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du verstehst deine englische Gastmutter nicht. Was sagst du?",
+  "options": [
+   "Sorry, could you stop talking, please?",
+   "Sorry, could you say that again, please?",
+   "Sorry, I understand everything.",
+   "Sorry, could you go away, please?"
+  ],
+  "answer": "B",
+  "hint": "Du bittest um eine Wiederholung.",
+  "explanation": "„Could you say that again?“ ist eine höfliche Bitte um Wiederholung.",
+  "more": "Kurz und höflich geht auch einfach „Pardon?“ oder „Sorry?“ mit fragender Stimme."
+ },
+ {
+  "id": "de-englisch-alltag-018",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Antwort passt zu „Have you got any brothers or sisters?“",
+  "options": [
+   "Yes, I've got one sister.",
+   "Yes, they go to London.",
+   "No, I've got a brother.",
+   "Yes, I'm one sister."
+  ],
+  "answer": "A",
+  "hint": "Antworte passend mit „have got“ und achte auf Ja oder Nein.",
+  "explanation": "Die Frage mit „have got“ beantwortet man mit „Yes, I've got …“ und einer Angabe.",
+  "more": "Ein Einzelkind heißt auf Englisch „an only child“, das klingt gar nicht einsam."
+ },
+ {
+  "id": "de-englisch-alltag-019",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Es regnet in Strömen. Welcher Satz passt für Small Talk?",
+  "options": [
+   "What a dry summer this is!",
+   "What a lovely sunny day!",
+   "What a hot and sunny morning!",
+   "What terrible weather today!"
+  ],
+  "answer": "D",
+  "hint": "Der Satz muss zum Regen passen.",
+  "explanation": "Bei Dauerregen passt nur ein Satz, der das schlechte Wetter benennt.",
+  "more": "Das Wetter ist das britische Small-Talk-Thema Nummer eins, und „It's raining cats and dogs“ heißt: Es schüttet."
+ },
+ {
+  "id": "de-englisch-alltag-020",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du möchtest im Unterricht das Fenster öffnen. Wie fragst du die Lehrerin?",
+  "options": [
+   "Do I open you the window?",
+   "Must you open the window, please?",
+   "May I open the window, please?",
+   "Open the window for me, you!"
+  ],
+  "answer": "C",
+  "hint": "Du bittest um Erlaubnis.",
+  "explanation": "Mit „May I …?“ bittet man besonders höflich um Erlaubnis.",
+  "more": "Britische Lehrkräfte spricht man oft mit „Miss“ oder „Sir“ an, auch ganz ohne Nachnamen."
+ },
+ {
+  "id": "de-englisch-alltag-021",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du möchtest wissen, ob es im Laden noch Milch gibt. Was fragst du?",
+  "options": [
+   "Have you got any milk?",
+   "Are you got some milks?",
+   "Have you got a milks?",
+   "Have you got many milk?"
+  ],
+  "answer": "A",
+  "hint": "In Fragen steht bei unzählbaren Dingen meist ein bestimmtes kleines Wort.",
+  "explanation": "In Fragen nimmt man meist „any“, und „milk“ ist unzählbar, daher kein Plural.",
+  "more": "Wenn du etwas anbietest, nimmst du in der Frage „some“: „Would you like some milk?“"
+ },
+ {
+  "id": "de-englisch-alltag-022",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Am Flughafen fragt die Mitarbeiterin: „Can I see your passport, please?“ Was sagst du beim Überreichen?",
+  "options": [
+   "Yes, it's raining here.",
+   "Of course not. Good night.",
+   "No, thank you. I'm full.",
+   "Yes, of course. Here you are."
+  ],
+  "answer": "D",
+  "hint": "Du gibst ihr das Dokument.",
+  "explanation": "Beim Überreichen sagt man „Here you are“, also „Bitte schön“.",
+  "more": "Das deutsche „Bitte“ hat im Englischen viele Formen: „please“, „here you are“, „you're welcome“ und „pardon“."
+ },
+ {
+  "id": "de-englisch-alltag-023",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du wünschst deiner Freundin Glück vor einer Klassenarbeit. Was sagst du?",
+  "options": [
+   "Good luck!",
+   "Happy birthday!",
+   "Good night!",
+   "Get well soon!"
+  ],
+  "answer": "A",
+  "hint": "Das ist ein kurzer Wunsch für den Erfolg.",
+  "explanation": "„Good luck!“ heißt „Viel Glück!“ und passt vor einer Prüfung.",
+  "more": "Vor einem Theaterauftritt sagt man dagegen „Break a leg!“, das ist natürlich nicht wörtlich gemeint."
+ },
+ {
+  "id": "de-englisch-alltag-024",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Mitschülerin sagt: „I think pizza is the best food in the world.“ Du siehst das genauso. Was sagst du?",
+  "options": [
+   "I agree with you!",
+   "I don't agree at all!",
+   "I'm afraid you're wrong!",
+   "That's rubbish!"
+  ],
+  "answer": "A",
+  "hint": "Du stimmst ihr zu.",
+  "explanation": "Mit „I agree with you“ stimmt man zu, und zwar ohne „am“ wie im Deutschen „ich bin einverstanden“.",
+  "more": "Achtung, typischer Fehler: „I am agree“ gibt es nicht. Ganz locker sagst du auch „Absolutely!“."
+ },
+ {
+  "id": "de-englisch-alltag-025",
+  "subject": "englisch_alltag",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du suchst den Bahnhof und sprichst jemanden an. Wie beginnst du höflich?",
+  "options": [
+   "Excuse me, can you tell me the way to the station?",
+   "Excuse me, I know the way to the station.",
+   "Hey you, the station, where it is?",
+   "Sorry, you must go to the station."
+  ],
+  "answer": "A",
+  "hint": "Du fragst nach dem Weg und beginnst mit einer höflichen Anrede.",
+  "explanation": "„Excuse me“ spricht einen Fremden höflich an, danach folgt die Frage nach dem Weg.",
+  "more": "„Excuse me“ sagst du vorher, um jemanden anzusprechen, „sorry“ eher hinterher, wenn etwas passiert ist."
+ },
+ {
+  "id": "de-englisch-alltag-026",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Freund fragt: „Have you ever been to London?“ Du warst 2023 dort. Welche Antwort stimmt?",
+  "options": [
+   "Yes, I go there in 2023.",
+   "Yes, I have gone there in 2023.",
+   "Yes, I went there in 2023.",
+   "Yes, I was going there since 2023."
+  ],
+  "answer": "C",
+  "hint": "Eine genaue Jahreszahl entscheidet über die Zeitform.",
+  "explanation": "Bei einer genauen Zeitangabe wie „in 2023“ steht das simple past.",
+  "more": "Wörter wie „yesterday“, „last week“ und „ago“ sind Signale für das simple past, „ever“ und „never“ eher für das present perfect."
+ },
+ {
+  "id": "de-englisch-alltag-027",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du planst schon seit Wochen, im Sommer deine Tante zu besuchen. Was sagst du?",
+  "options": [
+   "I visit my aunt last summer.",
+   "I visited my aunt this summer next.",
+   "I'm going to visit my aunt this summer.",
+   "I've been visiting my aunt tomorrow."
+  ],
+  "answer": "C",
+  "hint": "Für feste Pläne gibt es eine eigene Zukunftsform.",
+  "explanation": "Für schon gefasste Pläne verwendet man „going to“.",
+  "more": "Spontane Entscheidungen klingen dagegen so: „The phone's ringing. I'll get it!“"
+ },
+ {
+  "id": "de-englisch-alltag-028",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Das Telefon klingelt, und du entscheidest dich spontan ranzugehen. Was sagst du?",
+  "options": [
+   "I answered it tomorrow!",
+   "I've answered it since Monday!",
+   "I'm going to answer it next year!",
+   "I'll answer it!"
+  ],
+  "answer": "D",
+  "hint": "Spontane Entschlüsse brauchen eine kurze Zukunftsform.",
+  "explanation": "Für spontane Entscheidungen im Moment des Sprechens verwendet man „will“.",
+  "more": "Am britischen Telefon meldet man sich oft nur mit „Hello?“ statt wie in Deutschland mit dem Nachnamen."
+ },
+ {
+  "id": "de-englisch-alltag-029",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ergänze: „If it rains tomorrow, we ___ at home.“",
+  "options": [
+   "would stayed",
+   "will stay",
+   "stayed",
+   "have stayed"
+  ],
+  "answer": "B",
+  "hint": "Das ist ein if-Satz vom Typ I.",
+  "explanation": "Beim conditional I steht im if-Teil das simple present und im Hauptsatz „will“ plus Grundform.",
+  "more": "Im if-Satz selbst steht kein „will“: „If it will rain“ ist ein beliebter Fehler von Deutschsprachigen."
+ },
+ {
+  "id": "de-englisch-alltag-030",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Im Restaurant fragt der Kellner: „Are you ready to order?“ Du brauchst noch etwas Zeit. Was sagst du?",
+  "options": [
+   "Yes, the bill was very good, thanks.",
+   "Not yet, we've already eaten everything.",
+   "Yes, we'll pay for the steak now.",
+   "Not yet, could we have a few more minutes?"
+  ],
+  "answer": "D",
+  "hint": "Du möchtest das Bestellen aufschieben.",
+  "explanation": "Mit „Not yet“ und einer höflichen Bitte um mehr Zeit bleibst du freundlich.",
+  "more": "Bestellst du dann, klingt „I'll have the fish, please“ ganz natürlich."
+ },
+ {
+  "id": "de-englisch-alltag-031",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Im Laden fragt die Verkäuferin: „Can I help you?“ Du schaust dich nur um. Was sagst du?",
+  "options": [
+   "Yes, you can look at me.",
+   "No, thanks. I'm just looking.",
+   "No, thanks. I'm just buying it.",
+   "Yes, I'm the shop assistant."
+  ],
+  "answer": "B",
+  "hint": "Du brauchst gerade keine Hilfe.",
+  "explanation": "„I'm just looking“ ist die feste Wendung für „Ich schaue mich nur um“.",
+  "more": "Willst du etwas anprobieren, fragst du: „Can I try this on, please?“ Die Kabine heißt „fitting room“."
+ },
+ {
+  "id": "de-englisch-alltag-032",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Der Pulli ist dir zu klein. Was fragst du im Laden?",
+  "options": [
+   "Have you got this in a bigger size?",
+   "Have you got this in a bigger price?",
+   "Are you this in a bigger size?",
+   "Have you got this in a smaller size?"
+  ],
+  "answer": "A",
+  "hint": "Es geht um die Größe, und du brauchst mehr Platz.",
+  "explanation": "Ist etwas zu klein, fragt man nach einer größeren Größe: „in a bigger size“.",
+  "more": "Kleidergrößen sind in Großbritannien anders als in Deutschland: Eine deutsche 38 entspricht oft einer britischen 10."
+ },
+ {
+  "id": "de-englisch-alltag-033",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Freundin schlägt vor: „Let's meet at six.“ Du kannst nicht. Welche Antwort ist höflich und klar?",
+  "options": [
+   "Yes, I'll be there at six.",
+   "Sorry, I can't make it at six. How about seven?",
+   "Sorry, six is perfect for me.",
+   "How about six? I can make it."
+  ],
+  "answer": "B",
+  "hint": "Du lehnst die Uhrzeit ab und machst einen Gegenvorschlag.",
+  "explanation": "„I can't make it“ heißt „Ich schaffe es nicht“, und „How about …?“ leitet einen Vorschlag ein.",
+  "more": "Nach „How about“ folgt die ing-Form, wenn ein Verb kommt: „How about going tomorrow?“"
+ },
+ {
+  "id": "de-englisch-alltag-034",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Am Telefon fragt jemand nach deinem Bruder, der gerade nicht da ist. Was sagst du?",
+  "options": [
+   "I'm afraid he's here. Goodbye.",
+   "He's out. Why you call him?",
+   "Yes, speaking. How can I help?",
+   "I'm afraid he's out. Can I take a message?"
+  ],
+  "answer": "D",
+  "hint": "Dein Bruder ist nicht erreichbar, du bietest etwas an.",
+  "explanation": "„I'm afraid“ macht die schlechte Nachricht höflich, und „take a message“ heißt „etwas ausrichten“.",
+  "more": "„Hold on, please“ oder „Hang on a second“ bedeutet am Telefon: einen Moment dranbleiben."
+ },
+ {
+  "id": "de-englisch-alltag-035",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du beschreibst den Weg: Die Post liegt zwischen der Bank und dem Kino. Was sagst du?",
+  "options": [
+   "The post office is opposite the bank and the cinema.",
+   "The post office is behind of the bank to the cinema.",
+   "The post office is between the bank and the cinema.",
+   "The post office is on the bank and the cinema."
+  ],
+  "answer": "C",
+  "hint": "Gesucht ist die Präposition für „zwischen“.",
+  "explanation": "„Between“ steht für „zwischen“ zwei Dingen.",
+  "more": "„Opposite“ bedeutet „gegenüber“, und „next to“ heißt „direkt neben“, beide brauchst du bei Wegbeschreibungen oft."
+ },
+ {
+  "id": "de-englisch-alltag-036",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du hast verschlafen und kommst zu spät zum Unterricht. Was sagst du zum Lehrer?",
+  "options": [
+   "Thanks for being late. I overslept.",
+   "I'm sorry I'm early. I overslept.",
+   "I'm sorry I'm late. I overslept.",
+   "You're late. Sit down, please."
+  ],
+  "answer": "C",
+  "hint": "Entschuldige dich und nenne den Grund.",
+  "explanation": "„I'm sorry I'm late“ ist die Entschuldigung, „overslept“ der Grund.",
+  "more": "In vielen britischen Schulen musst du dich bei Verspätung erst im Sekretariat, dem „school office“, melden."
+ },
+ {
+  "id": "de-englisch-alltag-037",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was sagst du, wenn du deinem Austauschpartner etwas zu essen anbieten willst?",
+  "options": [
+   "Would you like some cake?",
+   "Do you like a some cake?",
+   "Would you like any cake to me?",
+   "You would some cake like?"
+  ],
+  "answer": "A",
+  "hint": "Beim Anbieten steht in der Frage ausnahmsweise nicht „any“.",
+  "explanation": "Bei Angeboten nimmt man „Would you like some …?“, weil man ein Ja erwartet.",
+  "more": "Lehnst du ab, sag freundlich: „No, thanks, I'm full.“ Willst du mehr, sag: „Yes, please, it's delicious!“"
+ },
+ {
+  "id": "de-englisch-alltag-038",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Beim Arzt: „How long have you had this cough?“ Welche Antwort ist richtig?",
+  "options": [
+   "I've had it since three days.",
+   "I have it from three days.",
+   "I had it since three days ago next.",
+   "I've had it for three days."
+  ],
+  "answer": "D",
+  "hint": "Bei einem Zeitraum steht ein anderes Wort als bei einem Zeitpunkt.",
+  "explanation": "Für einen Zeitraum nutzt man „for“, für einen Zeitpunkt „since“.",
+  "more": "„Since“ passt also zu „since Monday“, „for“ zu „for a week“. Das deutsche „seit“ deckt beides ab."
+ },
+ {
+  "id": "de-englisch-alltag-039",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Freund sagt: „I failed my maths test.“ Wie reagierst du mitfühlend?",
+  "options": [
+   "Lucky you!",
+   "Congratulations on your test!",
+   "Oh no, I'm sorry to hear that.",
+   "Oh great, well done!"
+  ],
+  "answer": "C",
+  "hint": "Dein Freund braucht Mitgefühl.",
+  "explanation": "„I'm sorry to hear that“ zeigt Mitgefühl bei schlechten Nachrichten.",
+  "more": "Mathe heißt in Großbritannien „maths“ mit s, in den USA dagegen „math“."
+ },
+ {
+  "id": "de-englisch-alltag-040",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Freund sagt: „I passed my driving theory test!“ Was passt?",
+  "options": [
+   "Well done! That's great news.",
+   "Oh dear, that's terrible.",
+   "What a shame! I'm sorry.",
+   "Never mind. Try again."
+  ],
+  "answer": "A",
+  "hint": "Die Nachricht ist gut, also freu dich mit.",
+  "explanation": "„Well done!“ lobt jemanden für eine gute Leistung.",
+  "more": "Ganz begeistert klingt ein britisches „Brilliant!“. Und „Never mind“ heißt „Macht nichts“."
+ },
+ {
+  "id": "de-englisch-alltag-041",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ergänze: „I ___ my homework yet. Can I do it after dinner?“",
+  "options": [
+   "didn't finished",
+   "wasn't finish",
+   "haven't finished",
+   "don't finished"
+  ],
+  "answer": "C",
+  "hint": "Das Signalwort „yet“ steht im Satz.",
+  "explanation": "Bei „yet“ im verneinten Satz steht im britischen Englisch das present perfect.",
+  "more": "Das Gegenstück ist „already“: „I've already finished it.“ Klingt gleich viel besser für die Eltern."
+ },
+ {
+  "id": "de-englisch-alltag-042",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ergänze die Frage: „You're from Berlin, ___?“",
+  "options": [
+   "are you",
+   "aren't you",
+   "don't you",
+   "isn't it"
+  ],
+  "answer": "B",
+  "hint": "Der Hauptsatz ist bejaht, das Anhängsel also verneint.",
+  "explanation": "Bei „You are …“ lautet das verneinte Frageanhängsel „aren't you“.",
+  "more": "Question tags sind so etwas wie das deutsche „oder?“ und „nicht wahr?“, Briten lieben sie."
+ },
+ {
+  "id": "de-englisch-alltag-043",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Im Hotel: Du hast online ein Zimmer gebucht. Was sagst du an der Rezeption?",
+  "options": [
+   "Hello, I'd like to leave. Thanks for the stay.",
+   "Hello, can you reserve my name to the Weber?",
+   "Hello, I've got a reservation in the name of Weber.",
+   "Hello, I'm the reservation of Mr Weber's name."
+  ],
+  "answer": "C",
+  "hint": "Du kommst gerade an und nennst deine Buchung.",
+  "explanation": "Beim Einchecken nennt man die Reservierung mit „in the name of …“.",
+  "more": "An der Rezeption hörst du oft „Could you fill in this form, please?“, also ein Formular zum Ausfüllen."
+ },
+ {
+  "id": "de-englisch-alltag-044",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du hältst den Plan deiner Freunde für keine gute Idee. Wie sagst du das höflich?",
+  "options": [
+   "I completely agree with you.",
+   "That's the best idea ever!",
+   "You're stupid and it's a bad plan.",
+   "I'm not sure that's a good idea."
+  ],
+  "answer": "D",
+  "hint": "Du widersprichst freundlich, ohne jemanden zu verletzen.",
+  "explanation": "„I'm not sure …“ ist eine höfliche, abgeschwächte Form des Widerspruchs.",
+  "more": "Briten sagen selten direkt Nein: „That's an interesting idea“ kann durchaus heißen, dass sie sie nicht mögen."
+ },
+ {
+  "id": "de-englisch-alltag-045",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du fragst deinen Gastvater nach seiner Meinung zu deinem Plan. Was passt?",
+  "options": [
+   "What do you think about it?",
+   "How do you think about it?",
+   "How are you thinking it?",
+   "What do you mean about me?"
+  ],
+  "answer": "A",
+  "hint": "Im Deutschen sagst du „Wie findest du das?“, aber das Fragewort ändert sich.",
+  "explanation": "Nach der Meinung fragt man mit „What do you think …?“, nicht mit „how“.",
+  "more": "Noch lockerer ist „What do you reckon?“, das hörst du in Großbritannien sehr häufig."
+ },
+ {
+  "id": "de-englisch-alltag-046",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du musst am Wochenende im Haushalt helfen. Ergänze: „Sorry, I can't come. I ___ help my parents.“",
+  "options": [
+   "have to",
+   "am able not",
+   "don't have to",
+   "mustn't"
+  ],
+  "answer": "A",
+  "hint": "Du bist verpflichtet, etwas zu tun.",
+  "explanation": "„Have to“ drückt aus, dass man etwas tun muss, oft weil andere es verlangen.",
+  "more": "Vorsicht, „mustn't“ heißt „darf nicht“, während „don't have to“ nur „muss nicht“ bedeutet."
+ },
+ {
+  "id": "de-englisch-alltag-047",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Am Bahnschalter möchtest du hin- und zurückfahren. Was sagst du?",
+  "options": [
+   "A ticket from a return, please.",
+   "A single ticket to York, please.",
+   "A return ticket to York, please.",
+   "A return of York's ticket, please."
+  ],
+  "answer": "C",
+  "hint": "Du willst wieder zurückkommen.",
+  "explanation": "„Return“ ist im britischen Englisch die Hin- und Rückfahrkarte, „single“ nur die Hinfahrt.",
+  "more": "Amerikaner sagen dazu „round trip“ und „one-way“. Fragst du in London nach dem „Tube“, meinst du die U-Bahn."
+ },
+ {
+  "id": "de-englisch-alltag-048",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Dein Gastbruder fragt: „What did you do at the weekend?“ Welche Antwort passt?",
+  "options": [
+   "I'm playing football now.",
+   "I played football with my friends.",
+   "I'll play football next weekend.",
+   "I have played football tomorrow."
+  ],
+  "answer": "B",
+  "hint": "Das Wochenende ist vorbei.",
+  "explanation": "Die Frage steht im simple past, also antwortest du auch im simple past.",
+  "more": "Britisch heißt es „at the weekend“, amerikanisch „on the weekend“. Beides verstehen alle."
+ },
+ {
+  "id": "de-englisch-alltag-049",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du hast dein Handy im Bus vergessen. Was sagst du im Fundbüro?",
+  "options": [
+   "I find my phone yesterday on the bus.",
+   "I've lost my phone. I left it on the bus.",
+   "I'm going to lose my phone on the bus.",
+   "I've bought my phone. I sold it on the bus."
+  ],
+  "answer": "B",
+  "hint": "Du beschreibst ein Problem und sagst, wo es passiert ist.",
+  "explanation": "„I've lost“ beschreibt den aktuellen Zustand, und „left it“ das vergangene Ereignis.",
+  "more": "Das Fundbüro heißt „lost property office“, in den USA dagegen „lost and found“."
+ },
+ {
+  "id": "de-englisch-alltag-050",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du möchtest deine Freundin überreden, einen Film zu schauen. Welcher Vorschlag ist richtig?",
+  "options": [
+   "Why we don't watch a film tonight?",
+   "Why don't we watch a film tonight?",
+   "Why aren't we watch a film tonight?",
+   "Why don't we to watch a film tonight?"
+  ],
+  "answer": "B",
+  "hint": "Bei dieser Vorschlagsformel ist die Wortstellung wie in einer normalen Frage.",
+  "explanation": "„Why don't we + Grundform“ ist ein freundlicher Vorschlag.",
+  "more": "Andere Vorschlagsformeln sind „Shall we …?“ und „Let's …“, wobei „shall“ sehr britisch klingt."
+ },
+ {
+  "id": "de-englisch-alltag-051",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ein Austauschschüler fragt: „How long have you been learning English?“ Was passt?",
+  "options": [
+   "I learned it five years ago tomorrow.",
+   "I've been learning it since five years.",
+   "I'm learning it since five years.",
+   "I've been learning it for five years."
+  ],
+  "answer": "D",
+  "hint": "Bei einem Zeitraum brauchst du das richtige Wort für „seit“.",
+  "explanation": "Das present perfect progressive mit „for“ beschreibt einen Zeitraum, der bis jetzt andauert.",
+  "more": "„I'm learning since …“ ist ein typischer Germanismus, weil Deutsch dort einfach das Präsens benutzt."
+ },
+ {
+  "id": "de-englisch-alltag-052",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du meldest dich beim Arzt an. Was sagst du am Telefon?",
+  "options": [
+   "I'd like to do a termination with the doctor, please.",
+   "I'd like to make an appointment with the doctor, please.",
+   "I'd like to make a date with the doctor, please.",
+   "I'd like to make a meeting of the doctor, please."
+  ],
+  "answer": "B",
+  "hint": "Ein Arzttermin ist kein Rendezvous.",
+  "explanation": "Ein Termin beim Arzt heißt „appointment“, „a date“ wäre eine Verabredung, oft romantisch.",
+  "more": "Der Hausarzt heißt in Großbritannien „GP“ (general practitioner), und das Gesundheitssystem ist der NHS."
+ },
+ {
+  "id": "de-englisch-alltag-053",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Die Ärztin sagt: „Take this medicine twice a day.“ Was bedeutet das?",
+  "options": [
+   "Du sollst zwei Tage kein Medikament nehmen.",
+   "Du sollst das Medikament alle zwei Tage nehmen.",
+   "Du sollst das Medikament zweimal täglich nehmen.",
+   "Du sollst das Medikament nur heute nehmen."
+  ],
+  "answer": "C",
+  "hint": "„Twice“ ist eine Häufigkeitsangabe.",
+  "explanation": "„Twice a day“ bedeutet zweimal am Tag.",
+  "more": "Die Reihe geht so: once, twice, three times. Ab drei zählst du also ganz normal mit „times“ weiter."
+ },
+ {
+  "id": "de-englisch-alltag-054",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Gastvater fragt: „Would you mind closing the door?“ Du machst das gern. Was sagst du?",
+  "options": [
+   "No, I won't close it.",
+   "Not at all.",
+   "Yes, I mind very much.",
+   "Yes, I would."
+  ],
+  "answer": "B",
+  "hint": "„Mind“ bedeutet „etwas dagegen haben“.",
+  "explanation": "Auf „Would you mind …?“ heißt „Not at all“: Ich habe nichts dagegen, also tue ich es gern.",
+  "more": "Antwortest du mit „Yes“, sagst du streng genommen, dass es dich stört. Das sorgt gern für Verwirrung."
+ },
+ {
+  "id": "de-englisch-alltag-055",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „If you ___ the 8 o'clock bus, you'll be late for school.“",
+  "options": [
+   "miss",
+   "would miss",
+   "missing",
+   "will miss"
+  ],
+  "answer": "A",
+  "hint": "Im if-Teil steht bei Typ I keine Zukunftsform.",
+  "explanation": "Im if-Satz des conditional I steht das simple present.",
+  "more": "Der Merksatz lautet: „If“ und „will“ mögen sich nicht, jedenfalls nicht im selben Satzteil."
+ },
+ {
+  "id": "de-englisch-alltag-056",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du hast die Fahrkarte deines Freundes verloren. Was ist die beste Entschuldigung?",
+  "options": [
+   "Never mind, you can buy a new one.",
+   "It's not my problem, buy a new one.",
+   "It was your fault, I'm really angry.",
+   "I'm really sorry, it was my fault. I'll buy you a new one."
+  ],
+  "answer": "D",
+  "hint": "Gib den Fehler zu und biete eine Lösung an.",
+  "explanation": "Eine gute Entschuldigung gibt den Fehler zu („my fault“) und bietet Wiedergutmachung an.",
+  "more": "Sagt dir jemand danach „Don't worry about it“, dann ist die Sache verziehen."
+ },
+ {
+  "id": "de-englisch-alltag-057",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Am Flughafen hörst du: „Flight BA 902 is now boarding at gate 14.“ Was sollst du tun?",
+  "options": [
+   "Den Flug umbuchen, denn er ist gestrichen.",
+   "Zum Gate 14 gehen, denn das Einsteigen beginnt.",
+   "Das Gepäck am Band 14 abholen.",
+   "Zum Check-in gehen, denn der Flug ist verspätet."
+  ],
+  "answer": "B",
+  "hint": "„Boarding“ bedeutet, dass man ins Flugzeug einsteigt.",
+  "explanation": "„Now boarding“ heißt, dass die Passagiere jetzt einsteigen können, und zwar am genannten Gate.",
+  "more": "Eine Verspätung wird mit „delayed“ angesagt, ein gestrichener Flug mit „cancelled“."
+ },
+ {
+  "id": "de-englisch-alltag-058",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "An der Passkontrolle wirst du gefragt: „What's the purpose of your visit?“ Was antwortest du?",
+  "options": [
+   "My visit is two kilos heavy.",
+   "I'm here on a school exchange.",
+   "I'm staying at gate number nine.",
+   "I've got nothing to declare, thanks."
+  ],
+  "answer": "B",
+  "hint": "Der Beamte möchte den Grund deiner Reise wissen.",
+  "explanation": "„Purpose“ heißt „Zweck“, also nennst du den Grund der Reise.",
+  "more": "„Nothing to declare“ ist die Zollformel, wenn du nichts anmelden musst. Beim Zoll hört man sie täglich."
+ },
+ {
+  "id": "de-englisch-alltag-059",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Eine Freundin sagt: „I don't like horror films.“ Dir geht es genauso. Was sagst du?",
+  "options": [
+   "Neither I like.",
+   "I don't too.",
+   "Neither do I.",
+   "So do I."
+  ],
+  "answer": "C",
+  "hint": "Bei einem verneinten Satz brauchst du eine besondere Kurzantwort.",
+  "explanation": "Auf eine verneinte Aussage stimmt man mit „Neither do I“ zu, also „Ich auch nicht“.",
+  "more": "Bei bejahten Sätzen heißt es „So do I“. Locker geht auch „Me neither“ oder „Me too“."
+ },
+ {
+  "id": "de-englisch-alltag-060",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du möchtest deine Meinung in einer Diskussion einleiten. Was passt?",
+  "options": [
+   "After my opinion, school should start later.",
+   "I mean of opinion, school should start later.",
+   "In my opinion, school should start later.",
+   "To my meaning, school should start later."
+  ],
+  "answer": "C",
+  "hint": "Das deutsche „meiner Meinung nach“ hat hier eine andere Präposition.",
+  "explanation": "Die feste Wendung heißt „in my opinion“, „after my opinion“ ist eine falsche Übersetzung.",
+  "more": "Auch gut klingen „As far as I'm concerned“ und „If you ask me“, das wirkt gleich sicherer."
+ },
+ {
+  "id": "de-englisch-alltag-061",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „I ___ this film last week. It was great!“",
+  "options": [
+   "have saw",
+   "have seen",
+   "saw",
+   "see"
+  ],
+  "answer": "C",
+  "hint": "Eine abgeschlossene Zeitangabe steht im Satz.",
+  "explanation": "„Last week“ verlangt das simple past, also „saw“.",
+  "more": "Ohne Zeitangabe wäre es anders: „I've seen this film“ heißt einfach, dass du ihn kennst."
+ },
+ {
+  "id": "de-englisch-alltag-062",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „We ___ in this town since 2020.“",
+  "options": [
+   "lived",
+   "have lived",
+   "live",
+   "are living"
+  ],
+  "answer": "B",
+  "hint": "„Since“ verbindet die Vergangenheit mit der Gegenwart.",
+  "explanation": "Bei „since“ steht das present perfect, weil die Handlung bis heute andauert.",
+  "more": "Im Deutschen heißt es „Wir wohnen seit 2020 hier“, darum rutscht vielen das falsche Präsens heraus."
+ },
+ {
+  "id": "de-englisch-alltag-063",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze das Frageanhängsel: „You haven't seen my keys, ___?“",
+  "options": [
+   "haven't you",
+   "do you",
+   "did you",
+   "have you"
+  ],
+  "answer": "D",
+  "hint": "Der Hauptsatz ist verneint, das Anhängsel also bejaht.",
+  "explanation": "Nach einem verneinten Satz im present perfect folgt das bejahte Anhängsel „have you“.",
+  "more": "Mit der Stimme machst du den Unterschied: Geht sie am Ende hoch, ist es eine echte Frage, sonst eher eine Feststellung."
+ },
+ {
+  "id": "de-englisch-alltag-064",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Gastbruder fragt, ob du Hilfe beim Tragen brauchst. Du schaffst es allein. Was sagst du freundlich?",
+  "options": [
+   "Yes, please. I can't lift it.",
+   "That's kind of you, but I can manage.",
+   "That's kind of you, please carry it all.",
+   "No, you're not kind. Go away."
+  ],
+  "answer": "B",
+  "hint": "Du lehnst das Angebot freundlich ab.",
+  "explanation": "„I can manage“ bedeutet „Ich schaffe das schon“ und klingt mit dem Dank davor höflich.",
+  "more": "Ein höfliches Nein auf Angebote ist oft „No, thanks, but thanks for asking“. So ist niemand gekränkt."
+ },
+ {
+  "id": "de-englisch-alltag-065",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du suchst den Weg zum Museum. Der Passant sagt: „Take the second turning on the right.“ Was tust du?",
+  "options": [
+   "Du biegst an der zweiten Abzweigung rechts ab.",
+   "Du biegst sofort links ab.",
+   "Du gehst zurück zur ersten Kreuzung.",
+   "Du fährst zwei Stationen mit dem Bus."
+  ],
+  "answer": "A",
+  "hint": "„Turning“ ist hier eine Abzweigung.",
+  "explanation": "„The second turning on the right“ ist die zweite Abzweigung auf der rechten Seite.",
+  "more": "Kreisverkehre heißen „roundabouts“, und in Großbritannien fährt man dort im Uhrzeigersinn."
+ },
+ {
+  "id": "de-englisch-alltag-066",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Am Telefon sagt jemand: „Hold on a moment, please.“ Was sollst du tun?",
+  "options": [
+   "Am Apparat bleiben und kurz warten.",
+   "Eine Nachricht hinterlassen.",
+   "Lauter sprechen.",
+   "Sofort auflegen und später anrufen."
+  ],
+  "answer": "A",
+  "hint": "„Hold on“ wird am Telefon für eine kurze Pause verwendet.",
+  "explanation": "„Hold on“ bedeutet „Bleiben Sie dran“.",
+  "more": "„Hang up“ heißt dagegen „auflegen“. Klingt ähnlich, hat aber die gegenteilige Wirkung."
+ },
+ {
+  "id": "de-englisch-alltag-067",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du hast eine Reklamation: Das neue T-Shirt hat ein Loch. Was sagst du im Laden?",
+  "options": [
+   "Excuse me, you've got a hole. Can I give you a refund?",
+   "Excuse me, I bought this yesterday and it's got a hole in it. Can I get a refund?",
+   "Excuse me, I love this hole. Could I pay more for it?",
+   "Excuse me, I'd like to buy another hole for this T-shirt."
+  ],
+  "answer": "B",
+  "hint": "Du beschreibst den Mangel und willst dein Geld zurück.",
+  "explanation": "Du nennst das Problem und fragst nach einem „refund“, also dem Geld zurück.",
+  "more": "Bewahr den Kassenbon auf! Er heißt „receipt“, und das p spricht man dabei überhaupt nicht aus."
+ },
+ {
+  "id": "de-englisch-alltag-068",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Austauschpartner lädt dich zum Abendessen ein. Du bist Vegetarier. Was sagst du?",
+  "options": [
+   "Thanks, but I should tell you I only eat meat.",
+   "Thanks, please make a lot of chicken for me.",
+   "Thanks, but I should tell you that I don't eat meat.",
+   "Thanks, I don't eat. I never have dinner on Earth."
+  ],
+  "answer": "C",
+  "hint": "Sag rechtzeitig, was du nicht isst.",
+  "explanation": "Mit „I should tell you that …“ weist du höflich auf deine Essgewohnheit hin.",
+  "more": "Allergien erklärst du so: „I'm allergic to nuts.“ Das ist wichtiger als jede Höflichkeit."
+ },
+ {
+  "id": "de-englisch-alltag-069",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Eine Lehrerin sagt: „You should revise for the test.“ Was meint sie?",
+  "options": [
+   "Sie sagt, die Klassenarbeit fällt aus.",
+   "Sie rät dir, für die Klassenarbeit zu wiederholen.",
+   "Sie verbietet dir, für die Klassenarbeit zu lernen.",
+   "Sie fragt, ob du die Klassenarbeit korrigieren kannst."
+  ],
+  "answer": "B",
+  "hint": "„Should“ drückt einen Rat aus, und „revise“ gehört zum Lernen.",
+  "explanation": "„Should“ gibt einen Rat, und „revise“ heißt im britischen Englisch „den Stoff wiederholen“.",
+  "more": "„Revise“ ist ein falscher Freund, denn mit dem deutschen „Revision“ hat es meist nichts zu tun."
+ },
+ {
+  "id": "de-englisch-alltag-070",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Freund will mit dem Rad fahren, aber der Reifen ist platt. Was rätst du?",
+  "options": [
+   "You'd better take the bus.",
+   "You better took the bus.",
+   "You'd better taking the bus.",
+   "You'd better to take the bus."
+  ],
+  "answer": "A",
+  "hint": "Nach dieser Wendung folgt die Grundform des Verbs.",
+  "explanation": "„You'd better“ (= you had better) steht mit der Grundform ohne „to“.",
+  "more": "„You'd better“ klingt ziemlich dringend, fast wie eine Warnung. Sanfter ist „Maybe you should …“."
+ },
+ {
+  "id": "de-englisch-alltag-071",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Am Hoteltresen fragst du nach dem Frühstück. Was ist richtig?",
+  "options": [
+   "What time is breakfast served?",
+   "When is breakfast serving yesterday?",
+   "What time does breakfast serve you?",
+   "How long do you serve the morning?"
+  ],
+  "answer": "A",
+  "hint": "Das Frühstück wird serviert, du brauchst also das Passiv.",
+  "explanation": "Das Frühstück wird serviert, deshalb steht hier das Passiv „is served“.",
+  "more": "Ein „full English breakfast“ bringt Eier, Speck, Würstchen und Bohnen auf den Teller, satter wird man kaum."
+ },
+ {
+  "id": "de-englisch-alltag-072",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Freund sagt: „I'm so tired.“ Du bietest spontan Hilfe an. Was passt?",
+  "options": [
+   "I'm carrying your bag last night.",
+   "I've carried your bag tomorrow.",
+   "I'll carry your bag for you.",
+   "I carried your bag next week."
+  ],
+  "answer": "C",
+  "hint": "Ein spontanes Angebot braucht eine bestimmte Zukunftsform.",
+  "explanation": "Spontane Angebote drückt man mit „I'll“ aus.",
+  "more": "Auch nett: „Shall I carry your bag?“ Das klingt sehr britisch und angenehm höflich."
+ },
+ {
+  "id": "de-englisch-alltag-073",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Eine neue Mitschülerin an der britischen Gastschule fragt: „What year are you in?“ Was meint sie?",
+  "options": [
+   "Welche Note du dieses Jahr hast.",
+   "In welchem Jahr du geboren bist.",
+   "In welcher Klassenstufe du bist.",
+   "Wie lange du schon in Großbritannien bist."
+  ],
+  "answer": "C",
+  "hint": "In britischen Schulen werden Klassenstufen anders genannt.",
+  "explanation": "„Year“ bezeichnet in Großbritannien die Klassenstufe, zum Beispiel „Year 9“.",
+  "more": "Britische Schüler tragen meist Uniform, und das Schuljahr zählt man von Year 1 bis Year 13."
+ },
+ {
+  "id": "de-englisch-alltag-074",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du hast den Zug verpasst. Was sagst du deinem Gastvater am Telefon?",
+  "options": [
+   "I'm missing my train tomorrow, so I was late.",
+   "I've just caught my train, so I'll be an hour early.",
+   "I've just missed my train, so I'll be about an hour late.",
+   "I just miss the train and be late since an hour."
+  ],
+  "answer": "C",
+  "hint": "Das Ereignis ist gerade erst passiert, die Folge liegt in der Zukunft.",
+  "explanation": "„I've just missed“ steht für etwas gerade Geschehenes, „I'll be late“ für die Folge.",
+  "more": "Eine Bahnverspätung sagt die Durchsage höflich mit „We apologise for the delay“ an, und das sehr oft."
+ },
+ {
+  "id": "de-englisch-alltag-075",
+  "subject": "englisch_alltag",
+  "difficulty": "medium",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Freund fragt: „Do you fancy going for a pizza?“ Was bedeutet das?",
+  "options": [
+   "Er fragt, ob du Pizza backen kannst.",
+   "Er sagt, dass er schon gegessen hat.",
+   "Er findet Pizza zu teuer.",
+   "Er fragt, ob du Lust auf eine Pizza hast."
+  ],
+  "answer": "D",
+  "hint": "„Fancy“ gehört zum britischen Alltagsenglisch und drückt Lust aus.",
+  "explanation": "„Do you fancy …?“ heißt „Hast du Lust auf …?“ und ist typisch britisch.",
+  "more": "Nach „fancy“ kommt die ing-Form. Und „I fancy him“ bedeutet: Ich finde ihn richtig süß."
+ },
+ {
+  "id": "de-englisch-alltag-076",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Gastvater sagt: „You'll be back by ten, won't you?“ Was erwartet er?",
+  "options": [
+   "Dass du erst nach zehn zurückkommst.",
+   "Dass du um zehn das Haus verlässt.",
+   "Dass du genau zehn Minuten wegbleibst.",
+   "Dass du spätestens um zehn zurück bist."
+  ],
+  "answer": "D",
+  "hint": "Das kleine „by“ legt eine Grenze fest.",
+  "explanation": "„By ten“ heißt „bis spätestens zehn“, und das Anhängsel erwartet deine Zustimmung.",
+  "more": "„Until“ meint dagegen die Dauer: „I'll stay until ten“ heißt, du bleibst bis zehn und gehst dann."
+ },
+ {
+  "id": "de-englisch-alltag-077",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „I wish I could help, but I've got too ___ homework tonight.“",
+  "options": [
+   "many",
+   "little",
+   "few",
+   "much"
+  ],
+  "answer": "D",
+  "hint": "„Homework“ ist im Englischen nicht zählbar.",
+  "explanation": "Bei unzählbaren Nomen wie „homework“ steht „too much“, und der Satz meint eine große Menge.",
+  "more": "Es heißt also nie „homeworks“. Dasselbe gilt für „information“ und „advice“, beide sind im Englischen unzählbar."
+ },
+ {
+  "id": "de-englisch-alltag-078",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Gastbruder sagt: „Let's go to the party, shall ___?“ Ergänze.",
+  "options": [
+   "you",
+   "they",
+   "us",
+   "we"
+  ],
+  "answer": "D",
+  "hint": "Nach „Let's“ gibt es ein festes Anhängsel.",
+  "explanation": "Das Frageanhängsel zu „Let's …“ heißt immer „shall we?“.",
+  "more": "„Let's“ ist kurz für „let us“. Ein Satz wie „Let's dance, shall we?“ klingt schön altmodisch-britisch."
+ },
+ {
+  "id": "de-englisch-alltag-079",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „Nobody called me, ___?“",
+  "options": [
+   "didn't nobody",
+   "did he",
+   "didn't they",
+   "did they"
+  ],
+  "answer": "D",
+  "hint": "„Nobody“ macht den Satz inhaltlich verneint und zählt grammatisch als Mehrzahl-Pronomen im Tag.",
+  "explanation": "„Nobody“ ist verneinend, deshalb folgt ein bejahtes Anhängsel, und zwar mit „they“.",
+  "more": "Dasselbe gilt für „everybody“: „Everybody's here, aren't they?“ Das Englische nimmt dort gern „they“."
+ },
+ {
+  "id": "de-englisch-alltag-080",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Freund sagt: „I've lost my wallet, and there's nothing I can do.“ Du willst ihn aufmuntern. Welche Antwort passt am besten?",
+  "options": [
+   "Don't worry, it'll turn off.",
+   "Don't worry, it'll turn up.",
+   "Don't worry, it'll turn over.",
+   "Don't worry, it'll turn down."
+  ],
+  "answer": "B",
+  "hint": "Gesucht ist ein phrasal verb für „wieder auftauchen“.",
+  "explanation": "„Turn up“ bedeutet hier „wieder auftauchen“, die anderen Partikeln ergeben einen anderen Sinn.",
+  "more": "„Turn up“ kann auch „erscheinen“ heißen oder „lauter machen“: „Turn up the music!“"
+ },
+ {
+  "id": "de-englisch-alltag-081",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du lehnst eine Einladung ab, ohne jemanden zu kränken. Was ist am höflichsten?",
+  "options": [
+   "No. I don't want to come to your party.",
+   "Your party sounds boring, so I won't come.",
+   "I can't be bothered to come to your party.",
+   "That sounds lovely, but I'm afraid I've already got plans."
+  ],
+  "answer": "D",
+  "hint": "Lob erst die Einladung, dann folgt die Absage mit Grund.",
+  "explanation": "Ein freundlicher Auftakt und „I'm afraid“ machen die Absage höflich.",
+  "more": "„I can't be bothered“ heißt „Ich habe keine Lust“. Unter Freunden okay, bei Einladungen eher ein Fettnäpfchen."
+ },
+ {
+  "id": "de-englisch-alltag-082",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Gastvater sagt nach einer Diskussion: „Fair enough.“ Was meint er?",
+  "options": [
+   "Er ist völlig dagegen.",
+   "Er akzeptiert dein Argument.",
+   "Er verlangt mehr Geld.",
+   "Er findet das Wetter schön."
+  ],
+  "answer": "B",
+  "hint": "Das ist keine Aussage über Gerechtigkeit im engeren Sinn.",
+  "explanation": "„Fair enough“ heißt etwa „Einverstanden, das verstehe ich“.",
+  "more": "Ähnlich praktisch ist „Point taken“: Damit zeigst du, dass du das Argument verstanden hast."
+ },
+ {
+  "id": "de-englisch-alltag-083",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du bist nur teilweise einverstanden. Welcher Satz drückt das am besten aus?",
+  "options": [
+   "I see your point, but I don't completely agree.",
+   "You're absolutely right about everything.",
+   "I totally disagree with every word.",
+   "I couldn't agree more."
+  ],
+  "answer": "A",
+  "hint": "Gesucht ist eine Haltung zwischen voller Zustimmung und voller Ablehnung.",
+  "explanation": "„I see your point, but …“ gesteht einen Punkt zu und widerspricht dann teilweise.",
+  "more": "Vorsicht: „I couldn't agree more“ klingt negativ, bedeutet aber volle Zustimmung, also: Ich bin ganz deiner Meinung."
+ },
+ {
+  "id": "de-englisch-alltag-084",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Der Satz „I couldn't agree more“ bedeutet …",
+  "options": [
+   "Ich kann überhaupt nicht zustimmen.",
+   "Ich konnte gestern nicht zustimmen.",
+   "Ich stimme voll und ganz zu.",
+   "Ich stimme nur ein wenig zu."
+  ],
+  "answer": "C",
+  "hint": "Denk darüber nach, ob eine Steigerung noch möglich wäre.",
+  "explanation": "Wer nicht noch mehr zustimmen kann, stimmt bereits vollständig zu.",
+  "more": "Das Gegenstück heißt „I couldn't disagree more“. Mit der gleichen Bauweise klingt das gleich sehr deutlich."
+ },
+ {
+  "id": "de-englisch-alltag-085",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „If I ___ you, I'd apologise to her.“",
+  "options": [
+   "will be",
+   "be being",
+   "were",
+   "am"
+  ],
+  "answer": "C",
+  "hint": "Die Wendung ist ein Rat im if-Satz Typ II.",
+  "explanation": "„If I were you, I'd …“ ist die feste Formel für einen Ratschlag.",
+  "more": "Auch „If I was you“ hört man im Alltag, in Klassenarbeiten bist du mit „were“ aber auf der sicheren Seite."
+ },
+ {
+  "id": "de-englisch-alltag-086",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „Unless you hurry, you ___ the bus.“",
+  "options": [
+   "won't miss",
+   "wouldn't miss",
+   "don't miss",
+   "will miss"
+  ],
+  "answer": "D",
+  "hint": "„Unless“ bedeutet so viel wie „if not“.",
+  "explanation": "„Unless you hurry“ bedeutet „wenn du dich nicht beeilst“, die Folge ist also, dass du den Bus verpasst.",
+  "more": "Im if-Satz und im unless-Satz steht das simple present, nie „will“. Klingt streng, aber es macht vieles leichter."
+ },
+ {
+  "id": "de-englisch-alltag-087",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "An der Hotelrezeption: Das Zimmer ist zu laut. Welche Beschwerde ist höflich und klar?",
+  "options": [
+   "I'm sorry to bother you, but my room is very quiet. I love it!",
+   "Why are you noisy? You must leave my room.",
+   "I'm sorry to bother you, but my room is very noisy. Could I change rooms?",
+   "This hotel is rubbish! Give me another room now!"
+  ],
+  "answer": "C",
+  "hint": "Eine gute Beschwerde ist höflich und nennt das Problem und den Wunsch.",
+  "explanation": "„I'm sorry to bother you“ macht die Beschwerde höflich, danach folgen Problem und Bitte.",
+  "more": "Briten beschweren sich oft so höflich, dass man es kaum merkt: „Sorry, it's a bit noisy“ kann heißen: Es ist furchtbar."
+ },
+ {
+  "id": "de-englisch-alltag-088",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du fragst höflich und indirekt nach dem Weg. Welcher Satz hat die richtige Wortstellung?",
+  "options": [
+   "Could you tell me the museum where is?",
+   "Could you tell me where is the museum?",
+   "Could you tell me where does the museum is?",
+   "Could you tell me where the museum is?"
+  ],
+  "answer": "D",
+  "hint": "In indirekten Fragen steht das Verb nicht vor dem Subjekt.",
+  "explanation": "In der indirekten Frage bleibt die normale Wortstellung Subjekt vor Verb: „where the museum is“.",
+  "more": "Indirekte Fragen klingen immer höflicher: „Do you know what time the bank opens?“ ist so ein Fall."
+ },
+ {
+  "id": "de-englisch-alltag-089",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „Do you know what time ___?“",
+  "options": [
+   "the train does leave it",
+   "leaves the train",
+   "the train leaves",
+   "does the train leave"
+  ],
+  "answer": "C",
+  "hint": "Eine indirekte Frage braucht keine Umschreibung mit „do“.",
+  "explanation": "In indirekten Fragen fällt „do/does“ weg, das Verb erhält aber sein -s.",
+  "more": "Im britischen Bahnhof sagt der Ansager „The train now standing at platform 3“, ein Klassiker im Reisealltag."
+ },
+ {
+  "id": "de-englisch-alltag-090",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Die Lehrerin sagt: „You needn't hand in your essay today.“ Was bedeutet das?",
+  "options": [
+   "Du musst den Aufsatz heute nicht abgeben.",
+   "Du musst den Aufsatz heute unbedingt abgeben.",
+   "Du hast den Aufsatz schon abgegeben.",
+   "Du darfst den Aufsatz heute nicht abgeben."
+  ],
+  "answer": "A",
+  "hint": "„Needn't“ nimmt eine Pflicht weg.",
+  "explanation": "„Needn't“ heißt „muss nicht“, es verbietet also nichts.",
+  "more": "Der Stolperstein: „mustn't“ heißt „darf nicht“. Ein deutsches „muss nicht“ ist auf Englisch „needn't“ oder „don't have to“."
+ },
+ {
+  "id": "de-englisch-alltag-091",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Auf dem Schild steht: „You mustn't use your phone in the library.“ Was bedeutet das?",
+  "options": [
+   "Handys sollten dort benutzt werden.",
+   "Handys müssen dort benutzt werden.",
+   "Handys müssen dort nicht benutzt werden.",
+   "Handys dürfen dort nicht benutzt werden."
+  ],
+  "answer": "D",
+  "hint": "Das Modalverb hier ist ein falscher Freund.",
+  "explanation": "„Mustn't“ drückt ein Verbot aus, also „darf nicht“.",
+  "more": "Viele britische Bibliotheken nennen die stillen Bereiche „quiet zone“, dort wird streng auf die Ruhe geachtet."
+ },
+ {
+  "id": "de-englisch-alltag-092",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du hast dich im Zug in einen fremden Platz gesetzt. Jemand sagt: „Excuse me, I think you're in my seat.“ Was sagst du?",
+  "options": [
+   "Oh, I'm staying. Find another one.",
+   "Oh, I do apologise. Let me move.",
+   "Oh, you're welcome. Have a seat on me.",
+   "Oh, I do apologise. I'd like your ticket."
+  ],
+  "answer": "B",
+  "hint": "Du entschuldigst dich und machst den Platz frei.",
+  "explanation": "„I do apologise“ ist eine betont höfliche Entschuldigung, und „Let me move“ löst das Problem.",
+  "more": "Das betonte „do“ verstärkt den Satz: „I do like it“ heißt so viel wie „Ich mag es wirklich“."
+ },
+ {
+  "id": "de-englisch-alltag-093",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Freund sagt: „I'm thinking of giving up football.“ Du willst ihn umstimmen. Was passt?",
+  "options": [
+   "Great, quit it today and never play.",
+   "Yes, you should definitely give it up.",
+   "Are you sure? You'd regret it, I think.",
+   "Good idea, I hated watching you anyway."
+  ],
+  "answer": "C",
+  "hint": "Du versuchst, ihm die Entscheidung auszureden.",
+  "explanation": "Mit „Are you sure?“ und dem Hinweis auf spätere Reue versuchst du ihn umzustimmen.",
+  "more": "„Give up“ heißt „aufgeben“, und „Give it a go“ ermuntert dich, etwas einfach mal zu probieren."
+ },
+ {
+  "id": "de-englisch-alltag-094",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Der Gastgeber fragt: „Would you like another helping?“ Du bist satt. Was sagst du höflich?",
+  "options": [
+   "Yes, please. I couldn't eat another bite.",
+   "No, thank you. It was delicious, but I couldn't eat another bite.",
+   "No, thank you. It was awful, and I'm still hungry.",
+   "Yes, it was delicious. Give me the bill."
+  ],
+  "answer": "B",
+  "hint": "Du lehnst ab und lobst das Essen.",
+  "explanation": "„I couldn't eat another bite“ heißt „Ich bekomme keinen Bissen mehr herunter“, und das Lob macht es höflich.",
+  "more": "In England sagt man auch „I'm stuffed“. Unter Freunden ist das völlig okay, beim Geschäftsessen eher nicht."
+ },
+ {
+  "id": "de-englisch-alltag-095",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Gastbruder sagt: „It's on me.“ Ihr seid gerade im Café. Was bedeutet das?",
+  "options": [
+   "Er will, dass du für ihn zahlst.",
+   "Er hat Kaffee auf seinem Hemd.",
+   "Er bezahlt für dich mit.",
+   "Er findet das Café zu teuer."
+  ],
+  "answer": "C",
+  "hint": "Das ist eine Wendung rund ums Bezahlen.",
+  "explanation": "„It's on me“ bedeutet „Ich lade dich ein“.",
+  "more": "Teilen geht so: „Let's split the bill.“ Und bei einer Pub-Runde sagt man „It's my round“."
+ },
+ {
+  "id": "de-englisch-alltag-096",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Freund sagt: „I'm broke.“ Was bedeutet das?",
+  "options": [
+   "Er hat kein Geld mehr.",
+   "Er hat sich etwas gebrochen.",
+   "Er hat sein Handy zerbrochen.",
+   "Er hat gerade viel Geld gewonnen."
+  ],
+  "answer": "A",
+  "hint": "Das Wort ist hier umgangssprachlich und hat nichts mit Knochen zu tun.",
+  "explanation": "„To be broke“ heißt umgangssprachlich, pleite zu sein.",
+  "more": "Ein gebrochener Arm wäre dagegen „I've broken my arm“. Ein einziger Buchstabe, und der Sinn ändert sich komplett."
+ },
+ {
+  "id": "de-englisch-alltag-097",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Gastvater fragt: „Have you finished your essay?“ Du arbeitest noch daran. Welche Antwort passt?",
+  "options": [
+   "Not yet. I've been working on it all afternoon.",
+   "Already. I've never started it.",
+   "Not yet. I finished it two hours ago.",
+   "Yes. I've been working on it all afternoon, and it's still unfinished."
+  ],
+  "answer": "A",
+  "hint": "Zeige, dass die Arbeit noch andauert.",
+  "explanation": "„Not yet“ passt, und das present perfect progressive zeigt die bis jetzt andauernde Arbeit.",
+  "more": "Fertig bist du dann mit „I've just finished it“. Das „just“ bedeutet hier „gerade eben“."
+ },
+ {
+  "id": "de-englisch-alltag-098",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Ergänze: „By the time we get to the cinema, the film ___.“ Es ist schon sehr spät.",
+  "options": [
+   "will have started",
+   "is start",
+   "has started tomorrow",
+   "started next"
+  ],
+  "answer": "A",
+  "hint": "Etwas wird vor einem künftigen Zeitpunkt abgeschlossen sein.",
+  "explanation": "Das future perfect „will have started“ beschreibt, was bis zu einem künftigen Zeitpunkt passiert sein wird.",
+  "more": "Diese Zeitform ist selten, aber nützlich: „I'll have finished by six“ klingt souverän im Gespräch."
+ },
+ {
+  "id": "de-englisch-alltag-099",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Dein Mitschüler sagt: „You're pulling my leg!“ Was meint er?",
+  "options": [
+   "Du tust ihm am Bein weh.",
+   "Du bist zu spät gekommen.",
+   "Du hilfst ihm beim Aufstehen.",
+   "Du nimmst ihn auf den Arm."
+  ],
+  "answer": "D",
+  "hint": "Das ist eine Redewendung, nicht wörtlich gemeint.",
+  "explanation": "„To pull someone's leg“ heißt, jemanden zu veralbern.",
+  "more": "Passend dazu: „Are you having me on?“ ist die britische Frage danach, ob dich jemand gerade veräppelt."
+ },
+ {
+  "id": "de-englisch-alltag-100",
+  "subject": "englisch_alltag",
+  "difficulty": "hard",
+  "grade": 9,
+  "type": "choice",
+  "stem": "Du willst dich in einem Austausch-Gespräch vorsichtig äußern. Welcher Satz drückt deine Unsicherheit aus?",
+  "options": [
+   "It's raining now, and we've got umbrellas.",
+   "It might rain later, so maybe we should take umbrellas.",
+   "It never rains here, so nobody takes umbrellas.",
+   "It will definitely rain, so we must take umbrellas."
+  ],
+  "answer": "B",
+  "hint": "Achte auf ein Modalverb, das nur eine Möglichkeit ausdrückt.",
+  "explanation": "„Might“ und „maybe“ zeigen, dass etwas nur möglich ist und nicht sicher.",
+  "more": "In Großbritannien nützt dir der Satz „Bring a brolly“ viel: „Brolly“ ist das Alltagswort für den Regenschirm."
+ }
+]
