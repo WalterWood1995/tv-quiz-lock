@@ -1,4 +1,5 @@
 """电视答题屏保的测试：不连路由器、不碰电视。运行：.venv\\Scripts\\python -m unittest discover tests"""
+import http.client
 import configparser
 import json
 import random
@@ -13,7 +14,7 @@ from pathlib import Path
 from unittest import mock
 
 from homecontrol import daemon, quiz
-from homecontrol.quizserver import start_quiz_server
+from homecontrol.quizserver import QuizHandler, start_quiz_server
 
 
 class MathGeneratorTest(unittest.TestCase):
@@ -342,6 +343,68 @@ class WatcherQuizTest(unittest.TestCase):
         before = self.watcher.last_heartbeat
         call("/api/heartbeat", {})
         self.assertGreater(self.watcher.last_heartbeat, before)
+
+
+class GestureServerTests(unittest.TestCase):
+    def setUp(self):
+        host = mock.Mock(quiz_lang="de")
+        host.quiz_state.return_value = {}
+        self.server = start_quiz_server(host, 0)
+        self.base = f"http://127.0.0.1:{self.server.server_address[1]}"
+        self.addCleanup(self.server.shutdown)
+        QuizHandler.last_heartbeat = 0
+        QuizHandler.gesture = (None, 0)
+
+    def get(self, path):
+        with urllib.request.urlopen(self.base + path) as r:
+            return r.read()
+
+    def post(self, path, body):
+        req = urllib.request.Request(self.base + path, json.dumps(body).encode(), method="POST")
+        with urllib.request.urlopen(req) as r:
+            return json.loads(r.read())
+
+    def test_camera_only_active_while_quiz_page_beats(self):
+        self.assertFalse(json.loads(self.get("/api/gesture"))["active"])
+        self.post("/api/heartbeat", {})
+        self.assertTrue(json.loads(self.get("/api/gesture"))["active"])
+
+    def test_gesture_reaches_tv_and_expires(self):
+        self.post("/api/gesture", {"fingers": 3})
+        self.assertEqual(json.loads(self.get("/api/gesture"))["fingers"], 3)
+        QuizHandler.gesture = (3, time.time() - 5)
+        self.assertIsNone(json.loads(self.get("/api/gesture"))["fingers"])
+
+    def test_hand_files_served_and_no_escape(self):
+        self.assertIn(b"getUserMedia", self.get("/hand/"))
+        self.assertGreater(len(self.get("/hand/hand_landmarker.task")), 1000000)
+        for bad in ("/hand/../quiz.html", "/hand/..%2fquiz.html", "/hand/../../config.local.ini"):
+            conn = http.client.HTTPConnection("127.0.0.1", self.server.server_address[1])
+            conn.request("GET", bad)
+            self.assertEqual(conn.getresponse().status, 404, bad)
+
+    @unittest.skipUnless(shutil.which("node"), "需要 node")
+    def test_count_fingers(self):
+        js = Path(quiz.__file__).resolve().parent.parent / "assets" / "hand" / "fingers.js"
+        # 手掌朝上：手腕在原点，每根手指 关节 y=1..4（x 分开）；弯曲时指尖缩回
+        script = """
+const count = require(process.argv[1]);
+function hand(open) {
+  const p = Array(21).fill({x: 0, y: 0});
+  const xs = {1: -2, 5: -1, 9: 0, 13: 1, 17: 2};
+  [1, 5, 9, 13, 17].forEach((b, i) => {
+    const on = open[i], x = xs[b];
+    if (b === 1) { p[1] = {x: -0.8, y: 0.5}; p[2] = {x: -1.2, y: 0.8}; p[3] = {x: -1.5, y: 1};
+      p[4] = on ? {x: -2.2, y: 1.2} : {x: -0.3, y: 1.2}; return; }
+    p[b] = {x, y: 2}; p[b + 1] = {x, y: 3};
+    p[b + 2] = on ? {x, y: 4} : {x, y: 2.8}; p[b + 3] = on ? {x, y: 5} : {x, y: 2.2};
+  });
+  return p;
+}
+console.log([[0,0,0,0,0],[0,1,0,0,0],[0,1,1,0,0],[0,1,1,1,0],[0,1,1,1,1],[1,1,1,1,1]].map(o => count(hand(o))).join());
+"""
+        r = subprocess.run(["node", "-e", script, str(js)], capture_output=True, text=True)
+        self.assertEqual(r.stdout.strip(), "0,1,2,3,4,5", r.stderr)
 
 
 if __name__ == "__main__":

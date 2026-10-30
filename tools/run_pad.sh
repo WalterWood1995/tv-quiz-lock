@@ -14,6 +14,8 @@ pull() {
 }
 
 pull
+# 手势页要在平板 Chrome 里常开（见 assets/hand）
+(sleep 20; am start -a android.intent.action.VIEW -d http://127.0.0.1:8767/hand/ -n com.android.chrome/com.google.android.apps.chrome.Main >/dev/null 2>&1) &
 while true; do
   python run_watcher.pyw &
   pid=$!

@@ -92,6 +92,7 @@
   .confetti { position: fixed; top: -30px; width: 18px; height: 28px; border-radius: 4px; pointer-events: none;
     animation: fall linear forwards; }
   @keyframes fall { to { transform: translateY(1150px) rotate(720deg); opacity: .8; } }
+  .gbar { position: absolute; left: 0; bottom: 0; height: 8px; width: 0; background: #ffd166; border-radius: 4px; }
 </style>
 </head>
 <body>
@@ -439,6 +440,44 @@
     });
   }
 
+  // 手势：平板摄像头数手指，1–4 选答案，答完张开手掌下一题；保持住才算，换题后要先放下手
+  var HOLD_MS = 1500;
+  var bar = document.createElement("div");
+  bar.className = "gbar";
+  var held = { n: 0, since: 0, armed: false, live: false };
+
+  function gestureTarget(n) {
+    if (!answered && question && n >= 1 && n <= 4) return $("options").children[n - 1];
+    if (answered && n === 5) return $("next");
+    return null;
+  }
+
+  function onGesture(n) {
+    if (!n) { held.n = 0; held.armed = true; }
+    var target = held.armed ? gestureTarget(n) : null;
+    if (!target) { held.n = 0; if (bar.parentNode) bar.parentNode.removeChild(bar); return; }
+    var now = new Date().getTime();
+    if (n !== held.n) { held.n = n; held.since = now; }
+    target.style.position = "relative";
+    target.appendChild(bar);
+    bar.style.width = Math.min(100, (now - held.since) / HOLD_MS * 100) + "%";
+    if (now - held.since >= HOLD_MS) {
+      held.n = 0;
+      held.armed = false;
+      bar.parentNode.removeChild(bar);
+      target.click();
+    }
+  }
+
+  function pollGesture() {
+    if (document.visibilityState !== "visible") return;
+    api("GET", "/api/gesture").then(function (g) {
+      var live = g.fingers !== null;
+      if (live !== held.live) { held.live = live; $("hint").textContent = T.hint + (live ? " · ✋ 1–4" : ""); }
+      onGesture(g.fingers);
+    }).catch(function () {});
+  }
+
   // 背景星星
   for (var i = 0; i < 40; i++) {
     var s = document.createElement("div");
@@ -463,6 +502,7 @@
     $("status").textContent = T.waiting;
   }).then(loadQuestion);
   setInterval(heartbeat, 4000);
+  setInterval(pollGesture, 250);
 </script>
 </body>
 </html>

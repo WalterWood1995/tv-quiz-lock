@@ -1,0 +1,64 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Hand</title>
+<style>body{margin:0;background:#000;color:#555;font:16px sans-serif;text-align:center;padding-top:40vh}</style>
+<div id="s">...</div>
+<video id="v" playsinline muted style="display:none"></video>
+<script src="fingers.js"></script>
+<script type="module">
+// 平板上常开的页面：答题页在前台时才开摄像头，画面只在本机识别，只把手指数发给服务
+import { FilesetResolver, HandLandmarker } from "./vision_bundle.mjs";
+const s = document.getElementById("s"), v = document.getElementById("v");
+let detector = null, stream = null, last = -1;
+
+function post(fingers) {
+  return fetch("/api/gesture", { method: "POST", body: JSON.stringify({ fingers }) }).catch(() => {});
+}
+async function start() {
+  if (!detector) {
+    const files = await FilesetResolver.forVisionTasks("wasm");
+    detector = await HandLandmarker.createFromOptions(files, {
+      baseOptions: { modelAssetPath: "hand_landmarker.task" }, runningMode: "VIDEO", numHands: 1 });
+  }
+  stream = await navigator.mediaDevices.getUserMedia({ video: { width: 320, height: 240, facingMode: "user" }, audio: false });
+  v.srcObject = stream;
+  await v.play();
+  s.textContent = "camera on";
+  loop();
+}
+function stop() {
+  if (stream) stream.getTracks().forEach(t => t.stop());
+  stream = null;
+  v.srcObject = null;
+  s.textContent = "camera off";
+}
+async function loop() {
+  if (!stream) return;
+  if (v.currentTime !== last) {
+    last = v.currentTime;
+    const r = detector.detectForVideo(v, performance.now());
+    await post(r.landmarks.length ? countFingers(r.landmarks[0]) : 0);
+  }
+  setTimeout(loop, 80);
+}
+let busy = false;
+async function tick() {
+  if (busy) return;
+  busy = true;
+  try {
+    const g = await (await fetch("/api/gesture")).json();
+    if (g.active && !stream) await start();
+    else if (!g.active && stream) stop();
+    else if (!stream) s.textContent = "camera off";
+  } catch (e) { s.textContent = String(e); }
+  busy = false;
+}
+// 屏幕一灭页面就停，所以要常亮；页面是黑的
+async function keepAwake() {
+  try { await navigator.wakeLock.request("screen"); } catch (e) {}
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") keepAwake(); });
+keepAwake();
+setInterval(tick, 2000);
+tick();
+</script>
