@@ -103,7 +103,7 @@ class GermanBankTest(unittest.TestCase):
         self.assertEqual(len({q.id for q in bank}), len(bank))
         for q in bank:
             self.assertEqual(len(set(q.options)), 4, q.stem)
-            self.assertIn(q.grade, (1, 2, 3, 4))
+            self.assertIn(q.grade, (8, 9) if q.subject in ("franzoesisch", "englisch_alltag") else (1, 2, 3, 4))
 
     def test_bank_passes_checker(self):
         from tools.check_bank import check_bank
@@ -159,7 +159,12 @@ class GermanBankTest(unittest.TestCase):
         cfg.read_dict({"quiz": {"language": "de"}})
         rules = quiz.Rules.from_config(cfg)
         self.assertEqual((rules.language, rules.grade), ("de", 4))
-        self.assertEqual(rules.subjects, ["mathe", "deutsch", "sachunterricht", "englisch"])
+        self.assertEqual(rules.subjects, ["mathe", "deutsch", "sachunterricht", "englisch", "franzoesisch", "englisch_alltag"])
+
+    def test_language_subjects_ignore_primary_grade_limit(self):
+        rules = quiz.Rules(language="de", grade=4, subjects=["franzoesisch", "englisch_alltag"])
+        engine = quiz.QuizEngine(rules, rng=random.Random(1))
+        self.assertEqual(len(engine.static), 200)
 
 
 class RulesTest(unittest.TestCase):
