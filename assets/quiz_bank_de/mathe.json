@@ -1996,5 +1996,185 @@
   "hint": "Denk an Faltlinien durch die Seitenmitten und durch die Ecken.",
   "explanation": "2 Achsen durch die Seitenmitten und 2 durch die Ecken: 4.",
   "more": "Ein Rechteck, das kein Quadrat ist, hat nur 2 Symmetrieachsen, ein gleichseitiges Dreieck 3 und ein Kreis sogar unendlich viele."
+ },
+ {
+  "id": "de-mathe-112",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welche Zahl kommt direkt vor 100?",
+  "options": [
+   "90",
+   "101",
+   "99",
+   "98"
+  ],
+  "answer": "C",
+  "hint": "Zähle rückwärts von 100 ab.",
+  "explanation": "Eine Zahl vor 100 ist 99.",
+  "more": "Die Zahl 100 ist die kleinste dreistellige Zahl. Vor ihr steht die größte zweistellige Zahl: die 99!"
+ },
+ {
+  "id": "de-mathe-113",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Ecken haben ein Dreieck und ein Viereck zusammen?",
+  "options": [
+   "6",
+   "7",
+   "8",
+   "12"
+  ],
+  "answer": "B",
+  "hint": "Zähle erst die Ecken von jeder Form einzeln.",
+  "explanation": "Ein Dreieck hat 3 Ecken und ein Viereck 4 Ecken: 3 + 4 = 7.",
+  "more": "Ein Fünfeck hat 5 Ecken, ein Sechseck 6. Bienenwaben bestehen aus lauter Sechsecken!"
+ },
+ {
+  "id": "de-mathe-114",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Es ist 14:00 Uhr. Wie sagt man das noch?",
+  "options": [
+   "4 Uhr nachmittags",
+   "2 Uhr morgens",
+   "2 Uhr nachmittags",
+   "1 Uhr nachmittags"
+  ],
+  "answer": "C",
+  "hint": "Ziehe 12 von der Zahl ab.",
+  "explanation": "14 − 12 = 2, also ist es 2 Uhr am Nachmittag.",
+  "more": "Der Tag hat 24 Stunden, die Uhr zeigt aber nur 12. Darum geht der kleine Zeiger zweimal am Tag rund!"
+ },
+ {
+  "id": "de-mathe-115",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Zentimeter sind 4 m 50 cm?",
+  "options": [
+   "45",
+   "4.050",
+   "540",
+   "450"
+  ],
+  "answer": "D",
+  "hint": "1 m hat 100 cm.",
+  "explanation": "4 m sind 400 cm, dazu kommen 50 cm: 450 cm.",
+  "more": "Das Wort „Zenti“ kommt vom lateinischen centum und heißt hundert. Ein Meter hat also hundert Zentimeter!"
+ },
+ {
+  "id": "de-mathe-116",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Ein Heft kostet 1,80 €. Wie viel kosten 5 Hefte?",
+  "options": [
+   "8,00 €",
+   "9,00 €",
+   "9,80 €",
+   "10,00 €"
+  ],
+  "answer": "B",
+  "hint": "Rechne 5 mal 1,80 €.",
+  "explanation": "5 · 1,80 € = 9,00 €.",
+  "more": "Im Geschäft kannst du schnell schätzen: 1,80 € ist fast 2 €, also kosten 5 Hefte knapp unter 10 €."
+ },
+ {
+  "id": "de-mathe-117",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Viertel ergeben zusammen eine Hälfte?",
+  "options": [
+   "1",
+   "3",
+   "2",
+   "4"
+  ],
+  "answer": "C",
+  "hint": "Vier Viertel sind ein Ganzes.",
+  "explanation": "4 Viertel sind ein Ganzes, also sind 2 Viertel die Hälfte.",
+  "more": "Auch eine halbe Stunde besteht aus zwei Vierteln: Zweimal eine Viertelstunde sind 30 Minuten!"
+ },
+ {
+  "id": "de-mathe-118",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Runde 4.678 auf Hunderter.",
+  "options": [
+   "4.600",
+   "4.680",
+   "5.000",
+   "4.700"
+  ],
+  "answer": "D",
+  "hint": "Schau auf die Zehnerstelle: 5 und mehr rundet auf.",
+  "explanation": "Die Zehnerstelle ist 7, also wird aufgerundet: 4.678 ≈ 4.700.",
+  "more": "Runden hilft beim Schätzen. Zeitungen schreiben zum Beispiel „rund 4.700 Zuschauer“ statt der genauen Zahl."
+ },
+ {
+  "id": "de-mathe-119",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Schwimmbad öffnet um 9:15 Uhr und schließt um 18:00 Uhr. Wie lange ist es geöffnet?",
+  "options": [
+   "8 Stunden 45 Minuten",
+   "9 Stunden 15 Minuten",
+   "8 Stunden 15 Minuten",
+   "9 Stunden 45 Minuten"
+  ],
+  "answer": "A",
+  "hint": "Rechne erst bis 10:00 Uhr, dann bis 18:00 Uhr.",
+  "explanation": "Von 9:15 bis 10:00 Uhr sind es 45 Minuten, von 10:00 bis 18:00 Uhr 8 Stunden. Zusammen: 8 Stunden 45 Minuten.",
+  "more": "Das Rechnen in Etappen heißt Ergänzen. Mit einem Zwischenschritt über die volle Stunde geht Zeitrechnen viel leichter!"
+ },
+ {
+  "id": "de-mathe-120",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Zug hat 8 Wagen mit je 72 Sitzplätzen. Wie viele Sitzplätze sind das insgesamt?",
+  "options": [
+   "576",
+   "566",
+   "560",
+   "586"
+  ],
+  "answer": "A",
+  "hint": "Zerlege 72 in 70 und 2.",
+  "explanation": "8 · 70 = 560 und 8 · 2 = 16, zusammen 576.",
+  "more": "Der ICE 4 ist über 350 Meter lang und hat mehr als 800 Sitzplätze. Das sind fast so viele wie in einem Kinosaal!"
+ },
+ {
+  "id": "de-mathe-121",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl fehlt? 1.000 – 2.500 – 4.000 – ___ – 7.000",
+  "options": [
+   "5.000",
+   "5.500",
+   "6.000",
+   "5.200"
+  ],
+  "answer": "B",
+  "hint": "Finde heraus, um wie viel die Zahlen immer größer werden.",
+  "explanation": "Es geht immer um 1.500 weiter: 4.000 + 1.500 = 5.500 und 5.500 + 1.500 = 7.000.",
+  "more": "Zahlenfolgen findest du überall, zum Beispiel bei Hausnummern oder beim Zählen in Schritten. Such immer zuerst den Abstand!"
  }
 ]

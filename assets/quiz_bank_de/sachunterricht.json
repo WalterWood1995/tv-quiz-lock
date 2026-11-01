@@ -2878,5 +2878,185 @@
   "hint": "Dann ist man volljährig.",
   "explanation": "Bei der Bundestagswahl darf man ab 18 Jahren wählen.",
   "more": "Bei der Europawahl dürfen in Deutschland schon 16-Jährige mitwählen."
+ },
+ {
+  "id": "de-sachunterricht-161",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Mit welchem Sinnesorgan siehst du?",
+  "options": [
+   "mit den Ohren",
+   "mit den Augen",
+   "mit der Nase",
+   "mit der Zunge"
+  ],
+  "answer": "B",
+  "hint": "Denk daran, was du beim Blinzeln zumachst.",
+  "explanation": "Mit den Augen sehen wir Farben, Formen und Bewegungen.",
+  "more": "Deine Augen schützen sich selbst: Die Wimpern halten Staub fern, und beim Blinzeln wird das Auge feucht gehalten."
+ },
+ {
+  "id": "de-sachunterricht-162",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Tier hat einen langen Rüssel?",
+  "options": [
+   "Elefant",
+   "Giraffe",
+   "Löwe",
+   "Zebra"
+  ],
+  "answer": "A",
+  "hint": "Dieses Tier ist das größte Landtier der Welt.",
+  "explanation": "Der Elefant hat einen Rüssel, mit dem er greift, riecht und trinkt.",
+  "more": "Mit dem Rüssel saugt ein Elefant Wasser auf und spritzt es sich dann in den Mund oder über den Rücken, wie bei einer Dusche!"
+ },
+ {
+  "id": "de-sachunterricht-163",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Tage hat ein normales Jahr?",
+  "options": [
+   "300",
+   "360",
+   "366",
+   "365"
+  ],
+  "answer": "D",
+  "hint": "Ein Jahr hat zwölf Monate mit unterschiedlich vielen Tagen.",
+  "explanation": "Ein normales Jahr hat 365 Tage.",
+  "more": "Alle vier Jahre gibt es ein Schaltjahr mit 366 Tagen, weil dann der 29. Februar dazukommt."
+ },
+ {
+  "id": "de-sachunterricht-164",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Tier fängt seine Beute in einem selbst gebauten Netz?",
+  "options": [
+   "Biene",
+   "Ameise",
+   "Spinne",
+   "Käfer"
+  ],
+  "answer": "C",
+  "hint": "Dieses Tier hat acht Beine.",
+  "explanation": "Die Spinne baut ein Netz aus Spinnfäden, in dem sich Fliegen verfangen.",
+  "more": "Spinnenseide ist dünn, aber erstaunlich reißfest. Die Spinne selbst bleibt in ihrem Netz nicht kleben."
+ },
+ {
+  "id": "de-sachunterricht-165",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Gerät zeigt, aus welcher Richtung der Wind weht?",
+  "options": [
+   "Windfahne",
+   "Thermometer",
+   "Regenmesser",
+   "Lineal"
+  ],
+  "answer": "A",
+  "hint": "Es dreht sich auf Dächern und Kirchtürmen im Wind.",
+  "explanation": "Die Windfahne dreht sich in den Wind und zeigt so, woher er kommt.",
+  "more": "Oft sitzt auf einem Kirchturm ein Wetterhahn. Sein Schwanz dreht sich vom Wind weg, sein Schnabel zeigt, woher der Wind weht."
+ },
+ {
+  "id": "de-sachunterricht-166",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Rohstoff ist der Hauptbestandteil von Glas?",
+  "options": [
+   "Holz",
+   "Sand",
+   "Erdöl",
+   "Kork"
+  ],
+  "answer": "B",
+  "hint": "Man findet ihn am Strand und in der Wüste.",
+  "explanation": "Glas wird hauptsächlich aus Quarzsand hergestellt, der bei sehr großer Hitze schmilzt.",
+  "more": "Glas kann man immer wieder einschmelzen und neu verwenden. Darum gehören Flaschen und Gläser in den Altglascontainer!"
+ },
+ {
+  "id": "de-sachunterricht-167",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Knochen schützt dein Gehirn?",
+  "options": [
+   "die Rippen",
+   "die Wirbelsäule",
+   "der Schädel",
+   "das Becken"
+  ],
+  "answer": "C",
+  "hint": "Er sitzt im Kopf und ist ziemlich hart.",
+  "explanation": "Der Schädel ist wie ein Helm aus Knochen und schützt das Gehirn.",
+  "more": "Die Rippen schützen dafür Herz und Lunge. Beim Radfahren schützt zusätzlich ein Helm deinen Kopf."
+ },
+ {
+  "id": "de-sachunterricht-168",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie nennt man Tiere, die sowohl Pflanzen als auch Fleisch fressen?",
+  "options": [
+   "Allesfresser",
+   "Pflanzenfresser",
+   "Fleischfresser",
+   "Aasfresser"
+  ],
+  "answer": "A",
+  "hint": "Das Wort sagt schon, dass sie fast alles essen.",
+  "explanation": "Allesfresser wie Wildschwein, Braunbär und Mensch fressen Pflanzliches und Tierisches.",
+  "more": "Wildschweine wühlen mit der Schnauze im Waldboden nach Wurzeln, Eicheln und Würmern. So finden sie genug Futter."
+ },
+ {
+  "id": "de-sachunterricht-169",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Landeshauptstadt von Sachsen?",
+  "options": [
+   "Leipzig",
+   "Chemnitz",
+   "Erfurt",
+   "Dresden"
+  ],
+  "answer": "D",
+  "hint": "Die Stadt liegt an der Elbe.",
+  "explanation": "Dresden ist die Landeshauptstadt von Sachsen.",
+  "more": "Die größte Stadt Sachsens ist aber Leipzig. Erfurt ist die Landeshauptstadt von Thüringen."
+ },
+ {
+  "id": "de-sachunterricht-170",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt der Teil der Blüte, aus dem später die Frucht wird?",
+  "options": [
+   "Staubblatt",
+   "Kelchblatt",
+   "Fruchtknoten",
+   "Blütenblatt"
+  ],
+  "answer": "C",
+  "hint": "In ihm sitzen die Samenanlagen.",
+  "explanation": "Aus dem Fruchtknoten entsteht nach der Bestäubung die Frucht mit den Samen.",
+  "more": "Bienen tragen Pollen von Blüte zu Blüte. Ohne diese Bestäubung gäbe es viele Früchte wie Äpfel und Kirschen nicht!"
  }
 ]

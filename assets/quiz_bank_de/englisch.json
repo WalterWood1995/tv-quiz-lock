@@ -2338,5 +2338,185 @@
   "hint": "„afraid“ beschreibt ein Gefühl, das man bei Gefahr hat.",
   "explanation": "be afraid of = Angst haben vor.",
   "more": "Ein Angsthase heißt scaredy-cat – also eine ängstliche Katze! Und Spinnenangst? „I'm afraid of spiders.“"
+ },
+ {
+  "id": "de-englisch-131",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Hase“ oder „Kaninchen“ auf Englisch?",
+  "options": [
+   "duck",
+   "frog",
+   "rabbit",
+   "sheep"
+  ],
+  "answer": "C",
+  "hint": "Das Tier hat lange Ohren und hoppelt.",
+  "explanation": "Rabbit heißt Kaninchen.",
+  "more": "Rabbits sind in Großbritannien sehr beliebt. In der Geschichte von Peter Rabbit trägt ein Kaninchen sogar eine blaue Jacke!"
+ },
+ {
+  "id": "de-englisch-132",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „breakfast“?",
+  "options": [
+   "Mittagessen",
+   "Abendessen",
+   "Süßigkeit",
+   "Frühstück"
+  ],
+  "answer": "D",
+  "hint": "Man isst es am Morgen.",
+  "explanation": "Breakfast ist die erste Mahlzeit des Tages: das Frühstück.",
+  "more": "Das Wort kommt von „das Fasten brechen“. Das Mittagessen heißt lunch, das Abendessen dinner oder supper."
+ },
+ {
+  "id": "de-englisch-133",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Friday“?",
+  "options": [
+   "Donnerstag",
+   "Freitag",
+   "Samstag",
+   "Dienstag"
+  ],
+  "answer": "B",
+  "hint": "Danach folgt das Wochenende.",
+  "explanation": "Friday heißt Freitag.",
+  "more": "Am Freitag fängt das Wochenende an: weekend. Das Wort Saturday für Samstag kommt vom römischen Gott Saturn."
+ },
+ {
+  "id": "de-englisch-134",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist „twenty“?",
+  "options": [
+   "12",
+   "22",
+   "20",
+   "2"
+  ],
+  "answer": "C",
+  "hint": "Achte auf das Ende „-ty“.",
+  "explanation": "Twenty ist die Zahl 20.",
+  "more": "Die Endung -ty steht für Zehnerzahlen wie thirty (30) und forty (40). Mit -teen sind es Zahlen von 13 bis 19."
+ },
+ {
+  "id": "de-englisch-135",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Schmetterling“ auf Englisch?",
+  "options": [
+   "butterfly",
+   "bee",
+   "bird",
+   "beetle"
+  ],
+  "answer": "A",
+  "hint": "Das englische Wort enthält zwei bekannte Wörter.",
+  "explanation": "Butterfly ist der Schmetterling.",
+  "more": "Wörtlich übersetzt heißt butterfly „Butterfliege“. Warum, weiß man nicht genau, aber das Wort gibt es schon sehr lange!"
+ },
+ {
+  "id": "de-englisch-136",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet „yesterday“?",
+  "options": [
+   "heute",
+   "morgen",
+   "übermorgen",
+   "gestern"
+  ],
+  "answer": "D",
+  "hint": "Es beschreibt einen Tag, der schon vorbei ist.",
+  "explanation": "Yesterday heißt gestern.",
+  "more": "Heute heißt today, morgen heißt tomorrow. Ein berühmtes Lied der Beatles heißt „Yesterday“!"
+ },
+ {
+  "id": "de-englisch-137",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Frage passt zur Antwort „My name is Anna.“?",
+  "options": [
+   "Where are you from?",
+   "What's your name?",
+   "How are you?",
+   "Who is she?"
+  ],
+  "answer": "B",
+  "hint": "Die Antwort nennt einen Namen.",
+  "explanation": "Auf „My name is Anna.“ antwortet man auf die Frage „What's your name?“.",
+  "more": "What's ist die Kurzform von „What is“. Kurzformen mit Apostroph klingen im Englischen ganz natürlich."
+ },
+ {
+  "id": "de-englisch-138",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „There ___ two cats in the garden.“",
+  "options": [
+   "is",
+   "am",
+   "are",
+   "be"
+  ],
+  "answer": "C",
+  "hint": "Es geht um mehr als eine Katze.",
+  "explanation": "Bei zwei Katzen (Mehrzahl) sagt man „There are“.",
+  "more": "Bei einer Katze heißt es „There is a cat in the garden.“ Mit there is und there are sagst du, was irgendwo vorhanden ist."
+ },
+ {
+  "id": "de-englisch-139",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort ist das Gegenteil von „always“?",
+  "options": [
+   "often",
+   "sometimes",
+   "usually",
+   "never"
+  ],
+  "answer": "D",
+  "hint": "Das Gegenteil von immer ist ...",
+  "explanation": "Always heißt immer, never heißt nie.",
+  "more": "Zwischen always und never gibt es noch usually, often und sometimes. Sie sagen dir, wie oft etwas passiert."
+ },
+ {
+  "id": "de-englisch-140",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt „Süßigkeiten“ im britischen Englisch?",
+  "options": [
+   "sweets",
+   "sweaters",
+   "sugar",
+   "salt"
+  ],
+  "answer": "A",
+  "hint": "Das sind kleine Leckereien aus Zucker, zum Beispiel Bonbons.",
+  "explanation": "In Großbritannien nennt man Süßigkeiten sweets.",
+  "more": "In den USA sagt man dazu candy. Kartoffelchips heißen in Großbritannien crisps, in Amerika chips."
  }
 ]

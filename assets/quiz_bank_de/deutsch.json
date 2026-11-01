@@ -2878,5 +2878,185 @@
   "hint": "Suche den Wortstamm „kraft“ – auch mit ä.",
   "explanation": "kräftig kommt von Kraft.",
   "more": "Mit -ig werden aus Nomen Adjektive: Kraft – kräftig, Saft – saftig, Sonne – sonnig. Manchmal kommt dabei ein Umlaut dazu."
+ },
+ {
+  "id": "de-deutsch-161",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort spricht man am Anfang wie „schp“?",
+  "options": [
+   "Spiegel",
+   "Sonne",
+   "Salz",
+   "Sand"
+  ],
+  "answer": "A",
+  "hint": "Sprich die Wörter laut und hör genau auf den ersten Laut.",
+  "explanation": "Bei „Spiegel“ spricht man „Sp“ wie „schp“, aber man schreibt es mit S und P.",
+  "more": "Das gilt auch für „Stein“: Man spricht „scht“, schreibt aber „St“. Am Wortanfang schreiben wir also nie „Schp“ oder „Scht“."
+ },
+ {
+  "id": "de-deutsch-162",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort passt zum Wortfeld „gehen“?",
+  "options": [
+   "backen",
+   "schlendern",
+   "lesen",
+   "singen"
+  ],
+  "answer": "B",
+  "hint": "Such ein Wort, das beschreibt, wie man sich zu Fuß bewegt.",
+  "explanation": "Schlendern ist eine besondere Art zu gehen, nämlich langsam und gemütlich.",
+  "more": "Es gibt viele Wörter fürs Gehen: laufen, rennen, marschieren, schleichen, hüpfen. Mit ihnen werden deine Geschichten viel bunter!"
+ },
+ {
+  "id": "de-deutsch-163",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welcher Oberbegriff passt zu Rose, Tulpe und Nelke?",
+  "options": [
+   "Bäume",
+   "Früchte",
+   "Blumen",
+   "Gemüse"
+  ],
+  "answer": "C",
+  "hint": "Was haben alle drei gemeinsam?",
+  "explanation": "Rose, Tulpe und Nelke sind alles Blumen.",
+  "more": "Mit Oberbegriffen sortierst du Wörter: Zu „Blumen“ gehören auch Tulpe und Veilchen, zu „Tiere“ zum Beispiel Hund und Katze."
+ },
+ {
+  "id": "de-deutsch-164",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "tz oder z? „der Sa_“ (ein Satz im Heft)",
+  "options": [
+   "z",
+   "zz",
+   "ts",
+   "tz"
+  ],
+  "answer": "D",
+  "hint": "Sprich den Selbstlaut vor dem Laut: Ist er kurz oder lang?",
+  "explanation": "Nach einem kurzen Selbstlaut schreibt man „tz“: der Satz.",
+  "more": "Nach langem Selbstlaut oder nach l, n, r steht nur „z“: Herz, Kerze, Salz, Tanz. Nach kurzem Selbstlaut kommt „tz“, wie bei Katze."
+ },
+ {
+  "id": "de-deutsch-165",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie heißt die Mehrzahl von „das Glas“?",
+  "options": [
+   "die Gläser",
+   "die Glase",
+   "die Glas",
+   "die Glässer"
+  ],
+  "answer": "A",
+  "hint": "Bei vielen Wörtern kommt in der Mehrzahl ein Umlaut dazu.",
+  "explanation": "Aus „Glas“ wird in der Mehrzahl „Gläser“ mit ä und der Endung -er.",
+  "more": "Mit -er und Umlaut bilden viele Wörter die Mehrzahl: Haus – Häuser, Buch – Bücher, Dach – Dächer."
+ },
+ {
+  "id": "de-deutsch-166",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Vorsilbe macht aus „glücklich“ das Gegenteil?",
+  "options": [
+   "ver-",
+   "be-",
+   "ge-",
+   "un-"
+  ],
+  "answer": "D",
+  "hint": "Mit welcher kleinen Silbe sagt man „nicht“?",
+  "explanation": "Mit „un-“ wird aus „glücklich“ das Gegenteil: unglücklich.",
+  "more": "Auch bei anderen Wörtern klappt das: ungesund, unfreundlich, unmöglich. Aber Vorsicht: Nicht jedes „un-“ ist ein Gegenteil, denk an „Uhr“!"
+ },
+ {
+  "id": "de-deutsch-167",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie nennt man Wörter, die fast dasselbe bedeuten, wie „Auto“ und „Wagen“?",
+  "options": [
+   "Gegenwörter",
+   "Synonyme",
+   "Reimwörter",
+   "Mehrzahlwörter"
+  ],
+  "answer": "B",
+  "hint": "Das Fremdwort kommt aus dem Griechischen und heißt „gleichbedeutend“.",
+  "explanation": "Wörter mit fast gleicher Bedeutung nennt man Synonyme.",
+  "more": "Mit Synonymen vermeidest du Wiederholungen in Aufsätzen. Statt dreimal „schön“ schreibst du auch hübsch, prächtig oder herrlich!"
+ },
+ {
+  "id": "de-deutsch-168",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Satz ist richtig geschrieben?",
+  "options": [
+   "Beim lesen vergesse ich die Zeit.",
+   "beim Lesen vergesse ich die Zeit.",
+   "Beim Lesen vergesse ich die Zeit.",
+   "Beim Lesen Vergesse ich die Zeit."
+  ],
+  "answer": "C",
+  "hint": "Ein Verb kann zum Nomen werden, wenn ein Begleiter davor steht.",
+  "explanation": "Nach „beim“ wird „Lesen“ zum Nomen und großgeschrieben, der Satz beginnt mit einem großen B.",
+  "more": "Ein Hinweis auf solche Nomen sind Wörter wie beim, zum, das oder ein: beim Spielen, zum Schwimmen, das Lachen."
+ },
+ {
+  "id": "de-deutsch-169",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie lautet die Grundform (Infinitiv) von „er trug“?",
+  "options": [
+   "trugen",
+   "tragte",
+   "trügen",
+   "tragen"
+  ],
+  "answer": "D",
+  "hint": "Frag dich: Was tut er? Er ... ein Paket.",
+  "explanation": "Die Grundform von „er trug“ ist „tragen“.",
+  "more": "„Tragen“ ist ein starkes Verb: Es ändert den Selbstlaut im Wortstamm. Du kennst das von: ich trage, er trug, wir haben getragen."
+ },
+ {
+  "id": "de-deutsch-170",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "In welchem Satz steht das Adjektiv im Komparativ (erste Steigerungsstufe)?",
+  "options": [
+   "Der Turm ist höher als das Haus.",
+   "Der Turm ist sehr hoch.",
+   "Der Turm ist am höchsten.",
+   "Der Turm steht am Fluss."
+  ],
+  "answer": "A",
+  "hint": "Suche das Wort mit der Endung -er, das zwei Dinge vergleicht.",
+  "explanation": "„höher“ ist die erste Steigerungsstufe und vergleicht zwei Dinge. Nach dem Komparativ steht oft „als“.",
+  "more": "Die drei Stufen heißen Positiv, Komparativ und Superlativ: hoch – höher – am höchsten. Manche Wörter ändern sich ganz, zum Beispiel gut – besser – am besten."
  }
 ]
