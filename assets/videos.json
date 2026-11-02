@@ -1,5 +1,87 @@
 [
  {
+  "id": "0DQ0FUI4B7o",
+  "title": "🪸 Warum sind Korallenriffe so wichtig für uns? | Spickzettel | planet schule | ARD",
+  "channel": "planet schule",
+  "seconds": 261,
+  "quiz": [
+   {
+    "stem": "Was sind Korallen?",
+    "options": [
+     "Steine",
+     "Pflanzen",
+     "Kleine Tiere",
+     "Muscheln"
+    ],
+    "answer": 2,
+    "explanation": "Korallenpolypen sind kleine Tiere. Sie scheiden Kalk aus und bauen so die Riffe."
+   },
+   {
+    "stem": "Für wie viele bekannte Meerestiere sind Riffe überlebenswichtig?",
+    "options": [
+     "Für alle",
+     "Für ein Viertel",
+     "Für die Hälfte",
+     "Für fast keine"
+    ],
+    "answer": 1,
+    "explanation": "Für ein Viertel: Sie finden dort Schutz und Nahrung."
+   },
+   {
+    "stem": "Wie schützen Riffe die Küste?",
+    "options": [
+     "Sie machen das Wasser wärmer",
+     "Sie fangen Fische",
+     "Sie ziehen Touristen an",
+     "Sie bremsen heftige Wellen"
+    ],
+    "answer": 3,
+    "explanation": "Riffe liegen wie eine natürliche Barriere vor der Küste und halten auch Sand zurück."
+   }
+  ]
+ },
+ {
+  "id": "Tybg5ousHXA",
+  "title": "🗣 Woher kommen diese Redewendungen? | Erklär’s mir | planet schule | ARD",
+  "channel": "planet schule",
+  "seconds": 169,
+  "quiz": [
+   {
+    "stem": "Was meint man mit „Tomaten auf den Augen haben“?",
+    "options": [
+     "Man hat Bauchweh",
+     "Man hat etwas nicht gesehen",
+     "Man isst gern Gemüse",
+     "Man ist müde"
+    ],
+    "answer": 1,
+    "explanation": "Man übersieht etwas, das direkt vor der Nase liegt."
+   },
+   {
+    "stem": "Woher kommt wahrscheinlich „Schwein gehabt“?",
+    "options": [
+     "Von einem Märchen",
+     "Von einem Bauernhof-Spiel",
+     "Von der Schule",
+     "Verlierer bekamen früher ein Ferkel als Trostpreis"
+    ],
+    "answer": 3,
+    "explanation": "Bei Wettkämpfen im Mittelalter bekamen Verlierer ein Ferkel. Sie hatten also noch Glück."
+   },
+   {
+    "stem": "Was ist ein Sprichwort?",
+    "options": [
+     "Ein vollständiger Satz mit einem Tipp fürs Leben",
+     "Ein einzelnes Wort",
+     "Ein Gedicht",
+     "Ein Satzteil ohne Bedeutung"
+    ],
+    "answer": 0,
+    "explanation": "Zum Beispiel: Übung macht den Meister."
+   }
+  ]
+ },
+ {
   "id": "hrQSseedNWk",
   "title": "Wie wird ein Fußballtor hergestellt? | Die Maus | WDR",
   "channel": "Die Maus",
@@ -48,21 +130,9 @@
   "seconds": 424
  },
  {
-  "id": "0DQ0FUI4B7o",
-  "title": "🪸 Warum sind Korallenriffe so wichtig für uns? | Spickzettel | planet schule | ARD",
-  "channel": "planet schule",
-  "seconds": 261
- },
- {
   "id": "LG7P_zYfh8Q",
   "title": "§ Was sind meine Kinderrechte? | Erklär’s mir | planet schule | ARD",
   "channel": "planet schule",
   "seconds": 247
- },
- {
-  "id": "Tybg5ousHXA",
-  "title": "🗣 Woher kommen diese Redewendungen? | Erklär’s mir | planet schule | ARD",
-  "channel": "planet schule",
-  "seconds": 169
  }
 ]

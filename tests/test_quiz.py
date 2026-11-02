@@ -349,6 +349,7 @@ class VideoTests(unittest.TestCase):
     def setUp(self):
         import homecontrol.daemon as d
         self.d = d
+        self.real_videos = d.VIDEOS
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         p = mock.patch.object(d, "STATE", Path(tmp.name) / "usage.json")
@@ -398,6 +399,23 @@ class VideoTests(unittest.TestCase):
         self.w.check_video()
         self.w._set_tv_internet.assert_called_with(True)
         self.assertEqual(self.w.video_until, 0)
+
+    def test_finished_video_stays_on_page_for_quiz(self):
+        self.w.video_start("a")
+        self.w.video_stop(stay=True)
+        self.w.tv.power_state.return_value = "on"
+        self.w.check_video()
+        self.w._set_tv_internet.assert_called_with(True)
+        self.w.tv.close_app.assert_not_called()
+        self.assertEqual(self.w.video_until, 0)
+
+    def test_video_quizzes_are_well_formed(self):
+        videos = json.loads(Path(self.real_videos).read_text(encoding="utf-8"))
+        quizzes = [q for v in videos for q in v.get("quiz", [])]
+        self.assertGreaterEqual(len(quizzes), 6)
+        for q in quizzes:
+            self.assertEqual(len(set(q["options"])), 4)
+            self.assertIn(q["answer"], range(4))
 
     def test_failed_block_retries(self):
         self.w.video_start("a")

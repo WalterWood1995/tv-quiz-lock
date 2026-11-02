@@ -72,6 +72,7 @@ class Watcher:
         self.gesture_on = cfg.getboolean("quiz", "gesture", fallback=False)  # 实测开摄像头后平板掉线，默认关
         self.video_until = 0  # 正在放视频时的截止时间；放视频不看答题页心跳，由电视前台和这个时间兜底
         self.video_started = 0
+        self.video_stay = False
 
     def _tv(self):
         """Find the TV's current IP via the router (it may change while the TV sleeps)."""
@@ -272,7 +273,9 @@ class Watcher:
         log(f"开始放视频 {video_id}，{video['seconds']} 秒")
         return {"ok": True}
 
-    def video_stop(self):
+    def video_stop(self, stay=False):
+        """stay：视频放完要在页面上闯关，只断网，不重开答题页。"""
+        self.video_stay = stay
         if self.video_until:
             self.video_until = 1  # 交给 enforce_loop 收尾
 
@@ -292,6 +295,10 @@ class Watcher:
         self.video_until = 0
         self.last_heartbeat = 0
         log("视频结束")
+        if self.video_stay:
+            self.video_stay = False
+            self.last_heartbeat = time.time()  # 页面还在，不用重开
+            return
         try:
             if tv and app and tv.power_state() == "on":
                 if tv.app_visible(app):

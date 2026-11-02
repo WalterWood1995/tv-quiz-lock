@@ -102,7 +102,7 @@ class QuizHandler(BaseHTTPRequestHandler):
             elif path == "/api/video/start":
                 self._json(self.host.video_start(str(body.get("id", ""))))
             elif path == "/api/video/stop":
-                self.host.video_stop()
+                self.host.video_stop(bool(body.get("stay")))
                 self._json({"ok": True})
             elif path == "/api/hand_status":
                 QuizHandler.hand_status = str(body.get("text", ""))[:300]

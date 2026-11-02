@@ -96,6 +96,7 @@
   #vplay iframe { pointer-events: none; }
   #vlist, #vplay { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 50; background: #05070f; display: none; }
   #vlist { overflow: auto; padding: 40px; box-sizing: border-box; }
+  .vq { font-size: 40px; color: #e8f4ff; margin: 0 0 24px; }
   #vlist button { display: block; width: 100%; margin: 0 0 12px; text-align: left; }
 </style>
 </head>
@@ -519,7 +520,7 @@
       $("vlist").style.display = "block";
       var back = videoRow("← Zurück", closeVideos);
       r.videos.forEach(function (v) {
-        videoRow(v.title + " (" + Math.ceil(v.seconds / 60) + " min)", function () { playVideo(v); });
+        videoRow((v.quiz ? "⭐ " : "") + v.title + " (" + Math.ceil(v.seconds / 60) + " min)", function () { playVideo(v); });
       });
       back.focus();
     }).catch(offline);
@@ -527,6 +528,49 @@
 
   function endVideo() {
     api("POST", "/api/video/stop").then(function () { location.reload(); }, function () { location.reload(); });
+  }
+
+  // 看完闯关：只给星星，不加时间，免得反复刷同一个视频
+  function finishVideo(v) {
+    if (!v.quiz) { endVideo(); return; }
+    playing = false;
+    api("POST", "/api/video/stop", { stay: true }).catch(function () {});
+    $("vplay").style.display = "none";
+    $("vlist").style.display = "block";
+    videoQuestion(v, 0, 0);
+  }
+
+  function videoQuestion(v, i, stars) {
+    var box = $("vlist");
+    box.innerHTML = "";
+    if (i >= v.quiz.length) {
+      var done = document.createElement("div");
+      done.className = "vq";
+      done.textContent = new Array(stars + 1).join("★") + new Array(v.quiz.length - stars + 1).join("☆") + "  " + stars + " / " + v.quiz.length;
+      box.appendChild(done);
+      if (stars === v.quiz.length) confetti();
+      videoRow("Weiter →", endVideo).focus();
+      return;
+    }
+    var q = v.quiz[i], title = document.createElement("div");
+    title.className = "vq";
+    title.textContent = (i + 1) + " / " + v.quiz.length + "  " + q.stem;
+    box.appendChild(title);
+    var buttons = q.options.map(function (text, c) {
+      return videoRow(LETTERS[c] + "  " + text, function () {
+        if (buttons.answered) return;
+        buttons.answered = true;
+        var right = c === q.answer;
+        buttons[q.answer].classList.add("good");
+        if (!right) buttons[c].classList.add("bad");
+        var note = document.createElement("div");
+        note.className = "vq";
+        note.textContent = q.explanation;
+        box.appendChild(note);
+        videoRow("Weiter →", function () { videoQuestion(v, i + 1, stars + (right ? 1 : 0)); }).focus();
+      });
+    });
+    buttons[0].focus();
   }
 
   function loadPlayer(v, tries) {
@@ -541,7 +585,7 @@
         playerVars: { autoplay: 1, playsinline: 1, rel: 0, controls: 0, disablekb: 1 },
         events: {
           onReady: function (e) { e.target.playVideo(); },
-          onStateChange: function (e) { if (e.data === 0) endVideo(); },
+          onStateChange: function (e) { if (e.data === 0) finishVideo(v); },
           onError: endVideo
         } });
     };
