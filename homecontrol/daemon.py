@@ -351,6 +351,7 @@ class Watcher:
             if "error" in result:
                 return result
             delta = result["delta"]
+            log(f"答题 {qid} 选 {choice}，{'对' if result['correct'] else '错'}（正确 {result['answer']}）")
             if delta > 0:
                 state["quiz"]["earned"] += delta
             elif delta < 0:

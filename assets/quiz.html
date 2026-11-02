@@ -383,16 +383,17 @@
       buttons[r.answer].classList.add("good");
       if (!r.correct) buttons[choice].classList.add("bad");
       lastResult = r;
+      nextAllowed = new Date().getTime() + (r.correct ? 800 : 2500);  // 确定键松开时焦点已到「下一题」，不能让它连带跳过去
       sinceVideo += 1;
       if (r.correct) {
         // 答对：不打扰，只有彩纸和一行字；想听讲解可以按「讲一讲」
         streak += 1;
         confetti();
-        feedback(pickOne(T.cheer) + " " + r.message, "good");
+        feedback("✓ " + pickOne(T.cheer) + " " + r.message, "good");
         if (r.explanation || r.more) $("explain").style.display = "";
       } else {
         streak = 0;
-        feedback(r.message, "bad");
+        feedback("✗ " + r.message, "bad");
         mood("sad");
         explain(r, pickOne(T.comfort));
       }
@@ -432,6 +433,7 @@
 
   document.addEventListener("keydown", function (e) {
     var k = e.keyCode;
+    if (e.repeat && (k === 13 || (k >= 49 && k <= 52))) { e.preventDefault(); return; }  // 按久了不算连按
     if (playing) { endVideo(); e.preventDefault(); return; }  // 放视频时遥控器任意键都退出
     if (k === 10009 && videoOpen) { closeVideos(); e.preventDefault(); return; }
     if (k === 37) move(-1, 0);
@@ -505,6 +507,7 @@
   var playing = false;
   var VIDEO_EVERY = 5;  // 每答这么多题插一个带闯关题的视频
   var sinceVideo = 0;
+  var nextAllowed = 0;
   var starting = false;  // 开网要几秒，这期间多按确定不重复开始
 
   function videoRow(label, fn) {
@@ -634,6 +637,7 @@
 
   // 今天没看过、额度也够的闯关视频，没有就接着出普通题
   function nextStep() {
+    if (new Date().getTime() < nextAllowed) return;
     if (sinceVideo < VIDEO_EVERY) { loadQuestion(); return; }
     sinceVideo = 0;
     api("GET", "/api/videos").then(function (r) {
