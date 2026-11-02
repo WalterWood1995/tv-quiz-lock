@@ -497,6 +497,7 @@
   // 科普视频：只列家长批准的；后台负责开网、到点断网，并把答题页重新打开
   var videoOpen = false;
   var playing = false;
+  var starting = false;  // 开网要几秒，这期间多按确定不重复开始
 
   function videoRow(label, fn) {
     var b = document.createElement("button");
@@ -593,7 +594,10 @@
   }
 
   function playVideo(v) {
+    if (playing || starting) return;
+    starting = true;
     api("POST", "/api/video/start", { id: v.id }).then(function (r) {
+      starting = false;
       if (r.error) { closeVideos(); feedback(r.error, "bad"); return; }
       $("vlist").style.display = "none";
       $("vplay").style.display = "block";
@@ -602,7 +606,7 @@
       setInterval(function () { window.focus(); }, 500);
       stopAudio();
       setTimeout(function () { loadPlayer(v, 5); }, 3000);
-    }).catch(offline);
+    }).catch(function () { starting = false; offline(); });
   }
 
   $("videos").onclick = openVideos;

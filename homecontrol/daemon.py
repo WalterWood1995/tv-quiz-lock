@@ -73,6 +73,7 @@ class Watcher:
         self.video_until = 0  # 正在放视频时的截止时间；放视频不看答题页心跳，由电视前台和这个时间兜底
         self.video_started = 0
         self.video_stay = False
+        self.video_id = None
 
     def _tv(self):
         """Find the TV's current IP via the router (it may change while the TV sleeps)."""
@@ -258,15 +259,19 @@ class Watcher:
         if video is None:
             return {"error": "unknown video"}
         with self.lock:
+            # 路由器开网要几秒，孩子多按几次确定，不能重复扣额度
+            if self.video_until and self.video_id == video_id:
+                return {"ok": True}
             state = load_state()
             if video["seconds"] > self._videos_left(state):
                 return {"error": "no video time left"}
             state["video_seconds"] = state.get("video_seconds", 0) + video["seconds"]
             save_state(state)
             locked = state["tv_locked"]
-        now = time.time()
-        self.video_started = now
-        self.video_until = now + video["seconds"] + VIDEO_MARGIN
+            now = time.time()
+            self.video_id = video_id
+            self.video_started = now
+            self.video_until = now + video["seconds"] + VIDEO_MARGIN
         if locked and not self._set_tv_internet(False):
             self.video_until = 0
             return {"error": "router"}

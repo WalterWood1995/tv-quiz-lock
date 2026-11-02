@@ -377,6 +377,11 @@ class VideoTests(unittest.TestCase):
         self.assertTrue(self.w.video_start("a")["ok"])
         self.w._set_tv_internet.assert_called_once_with(False)
 
+    def test_repeat_start_charges_once(self):
+        self.w.video_start("a")
+        self.w.video_start("a")
+        self.assertEqual(self.d.load_state()["video_seconds"], 600)
+
     def test_daily_video_limit(self):
         self.w.video_start("a")
         self.assertIn("error", self.w.video_start("b"))
