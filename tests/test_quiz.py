@@ -463,6 +463,8 @@ function hand(open) {
   });
   return p;
 }
+const pointing = hand([0,1,0,0,0]);
+if (count.readGesture(pointing) !== 12 || count.readGesture(hand([1,1,1,1,1])) !== 5 || count.readGesture(hand([0,1,1,0,0])) !== 0) process.exit(3);
 console.log([[0,0,0,0,0],[0,1,0,0,0],[0,1,1,0,0],[0,1,1,1,0],[0,1,1,1,1],[1,1,1,1,1]].map(o => count(hand(o))).join());
 """
         r = subprocess.run(["node", "-e", script, str(js)], capture_output=True, text=True)

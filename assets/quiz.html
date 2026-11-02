@@ -450,31 +450,36 @@
     });
   }
 
-  // 手势：平板摄像头数手指，1–4 选答案，答完张开手掌下一题；保持住才算，换题后要先放下手
-  var HOLD_MS = 1500;
+  // 手势：平板摄像头看手。食指指方向移动焦点，张开手掌保持住就是「确定」；放下手才能再次确定
+  var HOLD_MS = 1500, MOVE_MS = 400, REPEAT_MS = 1200;
   var bar = document.createElement("div");
   bar.className = "gbar";
-  var held = { n: 0, since: 0, armed: false, live: false };
+  var held = { n: 0, since: 0, moved: 0, armed: true, live: false };
+  var DIRS = { 11: [0, -1], 12: [0, 1], 13: [-1, 0], 14: [1, 0] };
 
-  function gestureTarget(n) {
-    if (!answered && question && n >= 1 && n <= 4) return $("options").children[n - 1];
-    if (answered && n === 5) return $("next");
-    return null;
-  }
+  function clearBar() { if (bar.parentNode) bar.parentNode.removeChild(bar); }
 
   function onGesture(n) {
-    if (!n) { held.n = 0; held.armed = true; }
-    var target = held.armed ? gestureTarget(n) : null;
-    if (!target) { held.n = 0; if (bar.parentNode) bar.parentNode.removeChild(bar); return; }
     var now = new Date().getTime();
-    if (n !== held.n) { held.n = n; held.since = now; }
+    if (n !== held.n) { held.n = n || 0; held.since = now; held.moved = 0; clearBar(); }
+    if (!n) { held.armed = true; return; }
+    if (DIRS[n]) {
+      held.armed = true;
+      // 指稳一小会儿才动，一直指着就隔一段时间再走一格
+      if (now - held.since >= MOVE_MS && now - held.moved >= REPEAT_MS) {
+        held.moved = now;
+        move(DIRS[n][0], DIRS[n][1]);
+      }
+      return;
+    }
+    var target = document.activeElement;
+    if (n !== 5 || !held.armed || !target || !target.click || target === document.body) return;
     target.style.position = "relative";
     target.appendChild(bar);
     bar.style.width = Math.min(100, (now - held.since) / HOLD_MS * 100) + "%";
     if (now - held.since >= HOLD_MS) {
-      held.n = 0;
       held.armed = false;
-      bar.parentNode.removeChild(bar);
+      clearBar();
       target.click();
     }
   }
@@ -483,7 +488,7 @@
     if (document.visibilityState !== "visible" || videoOpen) return;
     api("GET", "/api/gesture").then(function (g) {
       var live = g.fingers !== null;
-      if (live !== held.live) { held.live = live; $("hint").textContent = T.hint + (live ? " · ✋ 1–4" : ""); }
+      if (live !== held.live) { held.live = live; $("hint").textContent = T.hint + (live ? " · ☝ ← ↑ ↓ → · ✋ OK" : ""); }
       onGesture(g.fingers);
     }).catch(function () {});
   }
