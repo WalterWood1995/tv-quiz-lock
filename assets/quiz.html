@@ -609,7 +609,13 @@
       new YT.Player("vplayer", { videoId: v.id, width: "100%", height: "100%",
         playerVars: { autoplay: 1, playsinline: 1, rel: 0, controls: 0, disablekb: 1 },
         events: {
-          onReady: function (e) { e.target.playVideo(); },
+          onReady: function (e) {
+            e.target.playVideo();
+            // 还是没播起来就静音再试（静音通常允许自动播放）
+            setTimeout(function () {
+              if (e.target.getPlayerState() !== 1) { e.target.mute(); e.target.playVideo(); }
+            }, 6000);
+          },
           onStateChange: function (e) { if (e.data === 0) finishVideo(v); },
           onError: endVideo
         } });
@@ -635,6 +641,20 @@
 
   $("videos").onclick = openVideos;
 
+  // 电视不让没按过键的页面自动播放（实测只显示封面），所以先让孩子按一下确定
+  function videoIntro(v) {
+    var box = $("vlist");
+    videoOpen = true;
+    box.innerHTML = "";
+    box.style.display = "block";
+    var title = document.createElement("div");
+    title.className = "vq";
+    title.textContent = "🎬 Video-Frage: " + v.title.split(" | ")[0];
+    box.appendChild(title);
+    videoRow("▶ Start", function () { playVideo(v); }).focus();
+    videoRow("Überspringen →", function () { closeVideos(); loadQuestion(); });
+  }
+
   // 今天没看过、额度也够的闯关视频，没有就接着出普通题
   function nextStep() {
     if (new Date().getTime() < nextAllowed) return;
@@ -642,7 +662,7 @@
     sinceVideo = 0;
     api("GET", "/api/videos").then(function (r) {
       var fresh = r.videos.filter(function (v) { return v.quiz && r.seen.indexOf(v.id) < 0; });
-      if (fresh.length) playVideo(pickOne(fresh));
+      if (fresh.length) videoIntro(pickOne(fresh));
       else loadQuestion();
     }).catch(loadQuestion);
   }
