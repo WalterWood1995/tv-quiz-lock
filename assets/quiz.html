@@ -274,6 +274,7 @@
   var streak = 0;
   var audio = null;
   var lastResult = null;
+  var shownAt = 0;
 
   function $(id) { return document.getElementById(id); }
   function pickOne(list) { return list[Math.floor(Math.random() * list.length)]; }
@@ -399,6 +400,7 @@
       if (q.error === "") return;
       if (q.error) { feedback(q.error, "bad"); return; }
       question = q;
+      shownAt = new Date().getTime();
       $("meta").textContent = q.subject + " · " + q.difficultyLabel;
       $("stem").textContent = q.stem;
       var box = $("options");
@@ -436,7 +438,7 @@
   }
 
   function answer(choice) {
-    if (!question || answered) return;
+    if (!question || answered || new Date().getTime() - shownAt < 600) return;
     answered = true;
     api("POST", "/api/answer", { id: question.id, choice: choice }).then(function (r) {
       if (r.error) { answered = false; feedback(r.error, "bad"); return; }
@@ -492,6 +494,11 @@
     });
     if (best) best.focus();
   }
+
+  // 确定键松开时，浏览器会再「点」一下当时的焦点；换题后焦点已在 A，会替孩子选 A
+  ["keyup", "keypress"].forEach(function (type) {
+    document.addEventListener(type, function (e) { if (e.keyCode === 13) e.preventDefault(); });
+  });
 
   document.addEventListener("keydown", function (e) {
     var k = e.keyCode;

@@ -77,7 +77,7 @@ class Question:
     def public(self, lang="zh"):
         """发给电视的版本：不含答案。"""
         texts = LANGUAGES[lang]
-        return {"id": self.id, "subject": texts["subjects"].get(self.subject, self.subject),
+        return {"id": self.id, "subject": texts["subjects"].get(self.subject, texts["subjects"].get(texts["math"], self.subject)),
                 "difficulty": self.difficulty, "difficultyLabel": texts["difficulties"][self.difficulty],
                 "stem": self.stem, "options": self.options, "hint": self.hint}
 
