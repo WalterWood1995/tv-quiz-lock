@@ -97,6 +97,11 @@
   #vlist, #vplay { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 50; background: #05070f; display: none; }
   #vlist { overflow: auto; padding: 40px; box-sizing: border-box; }
   .vq { font-size: 40px; color: #e8f4ff; margin: 0 0 24px; }
+  .vgrid { display: flex; flex-wrap: wrap; }
+  .vgrid button.vcard { position: relative; width: 31%; margin: 0 1% 24px; padding: 8px; text-align: center; font-size: 22px; }
+  .vcard img { display: block; width: 100%; border-radius: 8px; }
+  .vcard span { display: block; height: 58px; overflow: hidden; margin-top: 6px; }
+  .vcard b { position: absolute; left: 14px; top: 14px; font-size: 40px; }
   #vlist button { display: block; width: 100%; margin: 0 0 12px; text-align: left; }
 </style>
 </head>
@@ -520,8 +525,21 @@
       $("vlist").innerHTML = "";
       $("vlist").style.display = "block";
       var back = videoRow("← Zurück", closeVideos);
+      var grid = document.createElement("div");
+      grid.className = "vgrid";
+      $("vlist").appendChild(grid);
       r.videos.forEach(function (v) {
-        videoRow((v.quiz ? "⭐ " : "") + v.title + " (" + Math.ceil(v.seconds / 60) + " min)", function () { playVideo(v); });
+        var b = document.createElement("button");
+        b.className = "nav opt vcard";
+        var img = document.createElement("img");
+        img.src = "/api/thumb/" + v.id;
+        b.appendChild(img);
+        var label = document.createElement("span");
+        label.textContent = v.title.split(" | ")[0] + " · " + Math.ceil(v.seconds / 60) + " min";
+        b.appendChild(label);
+        if (v.quiz) { var star = document.createElement("b"); star.textContent = "⭐"; b.appendChild(star); }
+        b.onclick = function () { playVideo(v); };
+        grid.appendChild(b);
       });
       back.focus();
     }).catch(offline);

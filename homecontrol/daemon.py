@@ -3,6 +3,7 @@ with the quiz screensaver if [quiz] is enabled, otherwise with the reminder vide
 import json
 import threading
 import time
+import urllib.request
 from datetime import date, datetime
 from pathlib import Path
 
@@ -277,6 +278,18 @@ class Watcher:
             return {"error": "router"}
         log(f"开始放视频 {video_id}，{video['seconds']} 秒")
         return {"ok": True}
+
+    def video_thumb(self, video_id):
+        """视频缩略图：电视断网时也要能显示，所以由平板下载并缓存。只取列表里的视频。"""
+        if not any(v["id"] == video_id for v in json.loads(VIDEOS.read_text(encoding="utf-8"))):
+            return None
+        path = STATE.parent / "thumbs" / f"{video_id}.jpg"
+        if not path.exists():
+            with urllib.request.urlopen(f"https://i.ytimg.com/vi/{video_id}/mqdefault.jpg", timeout=10) as r:
+                data = r.read()
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(data)
+        return path.read_bytes()
 
     def video_stop(self, stay=False):
         """stay：视频放完要在页面上闯关，只断网，不重开答题页。"""

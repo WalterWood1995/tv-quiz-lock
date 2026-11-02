@@ -62,6 +62,16 @@ class QuizHandler(BaseHTTPRequestHandler):
                 self._send(200, speak(text, self.host.quiz_lang), "audio/mpeg")
             except Exception as e:  # 没网或没装 edge-tts：页面不出声，照常答题
                 self._json({"error": str(e)}, 503)
+        elif path.startswith("/api/thumb/"):
+            try:
+                image = self.host.video_thumb(path[len("/api/thumb/"):])
+            except OSError as e:
+                self._json({"error": str(e)}, 503)
+                return
+            if image is None:
+                self._json({"error": "not found"}, 404)
+            else:
+                self._send(200, image, "image/jpeg")
         elif path == "/api/videos":
             self._json(self.host.quiz_videos())
         elif path == "/api/gesture":

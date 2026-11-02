@@ -382,6 +382,15 @@ class VideoTests(unittest.TestCase):
         self.w.video_start("a")
         self.assertEqual(self.d.load_state()["video_seconds"], 600)
 
+    def test_thumb_only_for_listed_video_and_cached(self):
+        self.assertIsNone(self.w.video_thumb("../evil"))
+        reply = mock.MagicMock()
+        reply.__enter__.return_value.read.return_value = b"jpg"
+        with mock.patch("urllib.request.urlopen", return_value=reply) as get:
+            self.assertEqual(self.w.video_thumb("a"), b"jpg")
+            self.assertEqual(self.w.video_thumb("a"), b"jpg")
+        get.assert_called_once()
+
     def test_daily_video_limit(self):
         self.w.video_start("a")
         self.assertIn("error", self.w.video_start("b"))
