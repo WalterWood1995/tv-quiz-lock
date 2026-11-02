@@ -9,6 +9,7 @@
 // 平板上常开的页面：答题页在前台时才开摄像头，画面只在本机识别，只把手指数发给服务
 import { FilesetResolver, HandLandmarker } from "./vision_bundle.mjs";
 const s = document.getElementById("s"), v = document.getElementById("v");
+const tiny = Object.assign(document.createElement("canvas"), { width: 8, height: 8 }).getContext("2d", { willReadFrequently: true });
 let detector = null, stream = null, last = -1;
 
 function say(text) {
@@ -23,10 +24,11 @@ async function start() {
     say("loading model");
     const files = await FilesetResolver.forVisionTasks("wasm");
     detector = await HandLandmarker.createFromOptions(files, {
-      baseOptions: { modelAssetPath: "hand_landmarker.task" }, runningMode: "VIDEO", numHands: 1 });
+      baseOptions: { modelAssetPath: "hand_landmarker.task" }, runningMode: "VIDEO", numHands: 1,
+      minHandDetectionConfidence: 0.3, minHandPresenceConfidence: 0.3, minTrackingConfidence: 0.3 });
   }
   say("asking camera");
-  stream = await navigator.mediaDevices.getUserMedia({ video: { width: 320, height: 240, facingMode: "user" }, audio: false });
+  stream = await navigator.mediaDevices.getUserMedia({ video: { width: 640, height: 480, facingMode: "user" }, audio: false });
   v.srcObject = stream;
   await v.play();
   say("camera on");
@@ -42,7 +44,12 @@ async function loop() {
   if (!stream) return;
   if (v.currentTime !== last) {
     last = v.currentTime;
-    say("frame " + Math.round(last));
+    // 只报亮度和分辨率：不看画面也能判断摄像头是否被挡、是否太暗
+    tiny.drawImage(v, 0, 0, 8, 8);
+    const px = tiny.getImageData(0, 0, 8, 8).data;
+    let sum = 0;
+    for (let i = 0; i < px.length; i += 4) sum += px[i] + px[i + 1] + px[i + 2];
+    say(`frame ${Math.round(last)} ${v.videoWidth}x${v.videoHeight} bright ${Math.round(sum / 192)}`);
     const r = detector.detectForVideo(v, performance.now());
     await post(r.landmarks.length ? countFingers(r.landmarks[0]) : 0);
   }
