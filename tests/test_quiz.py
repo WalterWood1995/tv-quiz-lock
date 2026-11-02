@@ -391,6 +391,10 @@ class VideoTests(unittest.TestCase):
             self.assertEqual(self.w.video_thumb("a"), b"jpg")
         get.assert_called_once()
 
+    def test_seen_videos_reported(self):
+        self.w.video_start("a")
+        self.assertEqual(self.w.quiz_videos()["seen"], ["a"])
+
     def test_daily_video_limit(self):
         self.w.video_start("a")
         self.assertIn("error", self.w.video_start("b"))

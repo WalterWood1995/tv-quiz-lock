@@ -251,9 +251,10 @@ class Watcher:
 
     def quiz_videos(self):
         with self.lock:
-            left = self._videos_left(load_state())
+            state = load_state()
+            left, seen = self._videos_left(state), state.get("videos_seen", [])
         videos = json.loads(VIDEOS.read_text(encoding="utf-8"))
-        return {"secondsLeft": left, "videos": [v for v in videos if v["seconds"] <= left]}
+        return {"secondsLeft": left, "seen": seen, "videos": [v for v in videos if v["seconds"] <= left]}
 
     def video_start(self, video_id):
         video = next((v for v in json.loads(VIDEOS.read_text(encoding="utf-8")) if v["id"] == video_id), None)
@@ -267,6 +268,7 @@ class Watcher:
             if video["seconds"] > self._videos_left(state):
                 return {"error": "no video time left"}
             state["video_seconds"] = state.get("video_seconds", 0) + video["seconds"]
+            state["videos_seen"] = state.get("videos_seen", []) + [video_id]
             save_state(state)
             locked = state["tv_locked"]
             now = time.time()

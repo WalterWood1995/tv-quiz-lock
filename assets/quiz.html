@@ -383,6 +383,7 @@
       buttons[r.answer].classList.add("good");
       if (!r.correct) buttons[choice].classList.add("bad");
       lastResult = r;
+      sinceVideo += 1;
       if (r.correct) {
         // 答对：不打扰，只有彩纸和一行字；想听讲解可以按「讲一讲」
         streak += 1;
@@ -443,7 +444,7 @@
     e.preventDefault();
   });
 
-  $("next").onclick = loadQuestion;
+  $("next").onclick = nextStep;
   $("tip").onclick = showTip;
   $("read").onclick = readQuestion;
   $("explain").onclick = function () { if (lastResult) { mood("happy"); explain(lastResult); } };
@@ -502,6 +503,8 @@
   // 科普视频：只列家长批准的；后台负责开网、到点断网，并把答题页重新打开
   var videoOpen = false;
   var playing = false;
+  var VIDEO_EVERY = 5;  // 每答这么多题插一个带闯关题的视频
+  var sinceVideo = 0;
   var starting = false;  // 开网要几秒，这期间多按确定不重复开始
 
   function videoRow(label, fn) {
@@ -628,6 +631,17 @@
   }
 
   $("videos").onclick = openVideos;
+
+  // 今天没看过、额度也够的闯关视频，没有就接着出普通题
+  function nextStep() {
+    if (sinceVideo < VIDEO_EVERY) { loadQuestion(); return; }
+    sinceVideo = 0;
+    api("GET", "/api/videos").then(function (r) {
+      var fresh = r.videos.filter(function (v) { return v.quiz && r.seen.indexOf(v.id) < 0; });
+      if (fresh.length) playVideo(pickOne(fresh));
+      else loadQuestion();
+    }).catch(loadQuestion);
+  }
 
   // 背景星星
   for (var i = 0; i < 40; i++) {
