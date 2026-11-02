@@ -93,6 +93,7 @@
     animation: fall linear forwards; }
   @keyframes fall { to { transform: translateY(1150px) rotate(720deg); opacity: .8; } }
   .gbar { position: absolute; left: 0; bottom: 0; height: 8px; width: 0; background: #ffd166; border-radius: 4px; }
+  #vplay iframe { pointer-events: none; }
   #vlist, #vplay { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 50; background: #05070f; display: none; }
   #vlist { overflow: auto; padding: 40px; box-sizing: border-box; }
   #vlist button { display: block; width: 100%; margin: 0 0 12px; text-align: left; }
@@ -421,6 +422,8 @@
 
   document.addEventListener("keydown", function (e) {
     var k = e.keyCode;
+    if (playing) { endVideo(); e.preventDefault(); return; }  // 放视频时遥控器任意键都退出
+    if (k === 10009 && videoOpen) { closeVideos(); e.preventDefault(); return; }
     if (k === 37) move(-1, 0);
     else if (k === 39) move(1, 0);
     else if (k === 38) move(0, -1);
@@ -484,6 +487,7 @@
 
   // 科普视频：只列家长批准的；后台负责开网、到点断网，并把答题页重新打开
   var videoOpen = false;
+  var playing = false;
 
   function videoRow(label, fn) {
     var b = document.createElement("button");
@@ -526,7 +530,7 @@
     };
     window.onYouTubeIframeAPIReady = function () {
       new YT.Player("vplayer", { videoId: v.id, width: "100%", height: "100%",
-        playerVars: { autoplay: 1, playsinline: 1, rel: 0 },
+        playerVars: { autoplay: 1, playsinline: 1, rel: 0, controls: 0, disablekb: 1 },
         events: {
           onReady: function (e) { e.target.playVideo(); },
           onStateChange: function (e) { if (e.data === 0) endVideo(); },
@@ -541,6 +545,9 @@
       if (r.error) { closeVideos(); feedback(r.error, "bad"); return; }
       $("vlist").style.display = "none";
       $("vplay").style.display = "block";
+      playing = true;
+      // 焦点进了 YouTube 的 iframe，遥控器按键就到不了这个页面，所以一直抢回来
+      setInterval(function () { window.focus(); }, 500);
       stopAudio();
       setTimeout(function () { loadPlayer(v, 5); }, 3000);
     }).catch(offline);
