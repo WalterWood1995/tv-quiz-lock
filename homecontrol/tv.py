@@ -39,6 +39,11 @@ class SamsungTV:
         with urllib.request.urlopen(req, timeout=6) as r:
             r.read()
 
+    def close_app(self, app_id):
+        req = urllib.request.Request(f"http://{self.ip}:8001/api/v2/applications/{app_id}", method="DELETE")
+        with urllib.request.urlopen(req, timeout=6) as r:
+            r.read()
+
     def wake(self):
         """Wake-on-LAN. Needs 'Power On with Mobile' enabled on the TV."""
         if not self.mac:

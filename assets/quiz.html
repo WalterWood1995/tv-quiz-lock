@@ -93,6 +93,9 @@
     animation: fall linear forwards; }
   @keyframes fall { to { transform: translateY(1150px) rotate(720deg); opacity: .8; } }
   .gbar { position: absolute; left: 0; bottom: 0; height: 8px; width: 0; background: #ffd166; border-radius: 4px; }
+  #vlist, #vplay { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 50; background: #05070f; display: none; }
+  #vlist { overflow: auto; padding: 40px; box-sizing: border-box; }
+  #vlist button { display: block; width: 100%; margin: 0 0 12px; text-align: left; }
 </style>
 </head>
 <body>
@@ -163,6 +166,7 @@
       <button class="nav act" id="read"></button>
       <button class="nav act" id="explain"></button>
       <button class="nav act" id="next"></button>
+      <button class="nav act" id="videos">🎬 Videos</button>
       <div id="unlocked"></div>
     </div>
 
@@ -470,13 +474,79 @@
   }
 
   function pollGesture() {
-    if (document.visibilityState !== "visible") return;
+    if (document.visibilityState !== "visible" || videoOpen) return;
     api("GET", "/api/gesture").then(function (g) {
       var live = g.fingers !== null;
       if (live !== held.live) { held.live = live; $("hint").textContent = T.hint + (live ? " · ✋ 1–4" : ""); }
       onGesture(g.fingers);
     }).catch(function () {});
   }
+
+  // 科普视频：只列家长批准的；后台负责开网、到点断网，并把答题页重新打开
+  var videoOpen = false;
+
+  function videoRow(label, fn) {
+    var b = document.createElement("button");
+    b.className = "nav opt";
+    b.textContent = label;
+    b.onclick = fn;
+    $("vlist").appendChild(b);
+    return b;
+  }
+
+  function closeVideos() {
+    videoOpen = false;
+    $("vlist").style.display = "none";
+    $("next").focus();
+  }
+
+  function openVideos() {
+    api("GET", "/api/videos").then(function (r) {
+      videoOpen = true;
+      $("vlist").innerHTML = "";
+      $("vlist").style.display = "block";
+      var back = videoRow("← Zurück", closeVideos);
+      r.videos.forEach(function (v) {
+        videoRow(v.title + " (" + Math.ceil(v.seconds / 60) + " min)", function () { playVideo(v); });
+      });
+      back.focus();
+    }).catch(offline);
+  }
+
+  function endVideo() {
+    api("POST", "/api/video/stop").then(function () { location.reload(); }, function () { location.reload(); });
+  }
+
+  function loadPlayer(v, tries) {
+    var s = document.createElement("script");
+    s.src = "https://www.youtube.com/iframe_api";
+    s.onerror = function () {  // 路由器开网要几秒
+      if (tries > 0) setTimeout(function () { loadPlayer(v, tries - 1); }, 3000);
+      else endVideo();
+    };
+    window.onYouTubeIframeAPIReady = function () {
+      new YT.Player("vplayer", { videoId: v.id, width: "100%", height: "100%",
+        playerVars: { autoplay: 1, playsinline: 1, rel: 0 },
+        events: {
+          onReady: function (e) { e.target.playVideo(); },
+          onStateChange: function (e) { if (e.data === 0) endVideo(); },
+          onError: endVideo
+        } });
+    };
+    document.head.appendChild(s);
+  }
+
+  function playVideo(v) {
+    api("POST", "/api/video/start", { id: v.id }).then(function (r) {
+      if (r.error) { closeVideos(); feedback(r.error, "bad"); return; }
+      $("vlist").style.display = "none";
+      $("vplay").style.display = "block";
+      stopAudio();
+      setTimeout(function () { loadPlayer(v, 5); }, 3000);
+    }).catch(offline);
+  }
+
+  $("videos").onclick = openVideos;
 
   // 背景星星
   for (var i = 0; i < 40; i++) {
@@ -504,5 +574,7 @@
   setInterval(heartbeat, 4000);
   setInterval(pollGesture, 250);
 </script>
+<div id="vlist"></div>
+<div id="vplay"><div id="vplayer"></div></div>
 </body>
 </html>

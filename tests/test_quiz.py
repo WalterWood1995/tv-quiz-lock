@@ -345,6 +345,68 @@ class WatcherQuizTest(unittest.TestCase):
         self.assertGreater(self.watcher.last_heartbeat, before)
 
 
+class VideoTests(unittest.TestCase):
+    def setUp(self):
+        import homecontrol.daemon as d
+        self.d = d
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        p = mock.patch.object(d, "STATE", Path(tmp.name) / "usage.json")
+        p.start()
+        self.addCleanup(p.stop)
+        videos = Path(tmp.name) / "v.json"
+        videos.write_text(json.dumps([{"id": "a", "title": "A", "seconds": 600}, {"id": "b", "title": "B", "seconds": 1500}]), encoding="utf-8")
+        p = mock.patch.object(d, "VIDEOS", videos)
+        p.start()
+        self.addCleanup(p.stop)
+        cfg = configparser.ConfigParser(interpolation=None)
+        cfg.read_string("[fritzbox]\naddress=x\nuser=u\npassword=p\n[devices]\ntv=00\n[limits]\ntrack=tv\n[quiz]\nenabled=true\ntv_app=X.Y\ndaily_video_minutes=30\n")
+        self.w = d.Watcher(cfg, mock.Mock())
+        self.w.tv = mock.Mock()
+        self.w._tv = lambda: self.w.tv
+        self.w._set_tv_internet = mock.Mock(return_value=True)
+        self.w.locked = True
+        s = d.load_state()
+        s["tv_locked"] = True
+        d.save_state(s)
+
+    def test_only_listed_video_opens_network(self):
+        self.assertIn("error", self.w.video_start("evil"))
+        self.w._set_tv_internet.assert_not_called()
+        self.assertTrue(self.w.video_start("a")["ok"])
+        self.w._set_tv_internet.assert_called_once_with(False)
+
+    def test_daily_video_limit(self):
+        self.w.video_start("a")
+        self.assertIn("error", self.w.video_start("b"))
+        self.assertEqual([v["id"] for v in self.w.quiz_videos()["videos"]], ["a"])
+
+    def test_expiry_blocks_and_reopens_quiz(self):
+        self.w.video_start("a")
+        self.w.tv.power_state.return_value = "on"
+        self.w.tv.app_visible.return_value = True
+        self.w.video_until = 1
+        self.w.check_video()
+        self.w._set_tv_internet.assert_called_with(True)
+        self.assertEqual(self.w.video_until, 0)
+        self.w.tv.launch_app.assert_called_once()
+
+    def test_leaving_app_ends_video(self):
+        self.w.video_start("a")
+        self.w.video_started = 0
+        self.w.tv.app_visible.return_value = False
+        self.w.check_video()
+        self.w._set_tv_internet.assert_called_with(True)
+        self.assertEqual(self.w.video_until, 0)
+
+    def test_failed_block_retries(self):
+        self.w.video_start("a")
+        self.w.video_until = 1
+        self.w._set_tv_internet.return_value = False
+        self.w.check_video()
+        self.assertEqual(self.w.video_until, 1)
+
+
 class GestureServerTests(unittest.TestCase):
     def setUp(self):
         host = mock.Mock(quiz_lang="de")

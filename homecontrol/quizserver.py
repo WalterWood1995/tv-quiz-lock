@@ -61,6 +61,8 @@ class QuizHandler(BaseHTTPRequestHandler):
                 self._send(200, speak(text, self.host.quiz_lang), "audio/mpeg")
             except Exception as e:  # 没网或没装 edge-tts：页面不出声，照常答题
                 self._json({"error": str(e)}, 503)
+        elif path == "/api/videos":
+            self._json(self.host.quiz_videos())
         elif path == "/api/gesture":
             fingers, at = QuizHandler.gesture
             self._json({"fingers": fingers if time.time() - at < GESTURE_SECONDS else None,
@@ -95,6 +97,11 @@ class QuizHandler(BaseHTTPRequestHandler):
                 self.host.heartbeat()
                 QuizHandler.last_heartbeat = time.time()
                 self._json(self.host.quiz_state())
+            elif path == "/api/video/start":
+                self._json(self.host.video_start(str(body.get("id", ""))))
+            elif path == "/api/video/stop":
+                self.host.video_stop()
+                self._json({"ok": True})
             elif path == "/api/gesture":
                 QuizHandler.gesture = (int(body["fingers"]), time.time())
                 self._json({"ok": True})

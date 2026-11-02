@@ -18,6 +18,9 @@ PORT = 8765
 QUIZ_PORT = 8767
 HEARTBEAT_TIMEOUT = 12  # 答题页超过这么多秒没心跳，就认为被切走了
 RELAUNCH_GAP = 15       # 两次重新打开答题页之间至少间隔
+VIDEOS = Path(__file__).resolve().parent.parent / "assets" / "videos.json"  # 家长批准的视频，只放这些
+VIDEO_MARGIN = 30       # 缓冲、广告的余量（秒），到点就断网
+VIDEO_GRACE = 15        # 开播后这么久内不查电视前台（应用可能还在切换）
 
 
 def log(msg):
@@ -65,6 +68,9 @@ class Watcher:
         self.locked = False  # 路由器上电视当前是否被断网（跨天时用来解除昨天的锁）
         self.last_heartbeat = 0
         self.last_launch = 0
+        self.video_limit = cfg.getint("quiz", "daily_video_minutes", fallback=30)
+        self.video_until = 0  # 正在放视频时的截止时间；放视频不看答题页心跳，由电视前台和这个时间兜底
+        self.video_started = 0
 
     def _tv(self):
         """Find the TV's current IP via the router (it may change while the TV sleeps)."""
@@ -182,6 +188,7 @@ class Watcher:
         if should_lock and not state["tv_locked"]:
             state["tv_locked"] = True
             self.locked = True
+            self.video_until = 0  # 看视频时余额用完：断网，回答题页
             self.last_heartbeat = 0  # 立刻打开答题页
             log("时间用完：电视断外网，开始显示答题屏保")
             return "block"
@@ -211,6 +218,9 @@ class Watcher:
         browser = self.cfg.get("quiz", "tv_app", fallback="").strip() or None
         while True:
             time.sleep(5)
+            if self.video_until:
+                self.check_video()
+                continue
             if not self.locked:
                 continue
             now = time.time()
@@ -229,6 +239,67 @@ class Watcher:
                 log(f"答题页不在前台，已在电视上启动 {browser}")
             except Exception as e:
                 log(f"调出答题页失败: {e}")
+
+    # ---- 科普视频 ----
+
+    def _videos_left(self, state):
+        return self.video_limit * 60 - state.get("video_seconds", 0)
+
+    def quiz_videos(self):
+        with self.lock:
+            left = self._videos_left(load_state())
+        videos = json.loads(VIDEOS.read_text(encoding="utf-8"))
+        return {"secondsLeft": left, "videos": [v for v in videos if v["seconds"] <= left]}
+
+    def video_start(self, video_id):
+        video = next((v for v in json.loads(VIDEOS.read_text(encoding="utf-8")) if v["id"] == video_id), None)
+        if video is None:
+            return {"error": "unknown video"}
+        with self.lock:
+            state = load_state()
+            if video["seconds"] > self._videos_left(state):
+                return {"error": "no video time left"}
+            state["video_seconds"] = state.get("video_seconds", 0) + video["seconds"]
+            save_state(state)
+            locked = state["tv_locked"]
+        now = time.time()
+        self.video_started = now
+        self.video_until = now + video["seconds"] + VIDEO_MARGIN
+        if locked and not self._set_tv_internet(False):
+            self.video_until = 0
+            return {"error": "router"}
+        log(f"开始放视频 {video_id}，{video['seconds']} 秒")
+        return {"ok": True}
+
+    def video_stop(self):
+        if self.video_until:
+            self.video_until = 1  # 交给 enforce_loop 收尾
+
+    def check_video(self):
+        """到时间或电视离开答题应用就结束：先断网，再把答题页重新打开。"""
+        now = time.time()
+        app = self.cfg.get("quiz", "tv_app", fallback="").strip()
+        tv = self.tv or self._tv()
+        expired = now >= self.video_until
+        if not expired and now - self.video_started > VIDEO_GRACE and tv and app and tv.app_visible(app) is False:
+            log("电视离开了答题应用，结束视频")
+            expired = True
+        if not expired:
+            return
+        if self.locked and not self._set_tv_internet(True):
+            return  # 断网没成功，5 秒后再试，不放过
+        self.video_until = 0
+        self.last_heartbeat = 0
+        log("视频结束")
+        try:
+            if tv and app and tv.power_state() == "on":
+                if tv.app_visible(app):
+                    tv.close_app(app)  # 视频页的脚本可能已停，重开才回到答题页
+                    time.sleep(2)
+                    tv.launch_app(app)
+                    self.last_launch = time.time()
+        except Exception as e:
+            log(f"视频结束后重开答题页失败: {e}")
 
     def _public_state(self, state):
         return {"locked": state["tv_locked"], "remaining": self.remaining(state), "used": self.used(state),
@@ -279,6 +350,8 @@ class Watcher:
         if self.quiz_on:
             # 重启后接着锁：今天的账本里电视已经是锁定状态，就继续守着答题页
             self.locked = load_state()["tv_locked"]
+            if self.locked:
+                self.apply_router("block")  # 上次可能在放视频时退出，网还开着
             self.start_quiz()
         while True:
             self.cycle()
