@@ -66,7 +66,7 @@ class QuizHandler(BaseHTTPRequestHandler):
         elif path == "/api/gesture":
             fingers, at = QuizHandler.gesture
             self._json({"fingers": fingers if time.time() - at < GESTURE_SECONDS else None,
-                        "active": time.time() - QuizHandler.last_heartbeat < ACTIVE_SECONDS})
+                        "active": self.host.gesture_on and time.time() - QuizHandler.last_heartbeat < ACTIVE_SECONDS})
         elif path == "/hand" or path.startswith("/hand/"):
             self._hand_file(path)
         else:

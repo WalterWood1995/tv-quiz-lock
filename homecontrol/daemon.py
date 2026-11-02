@@ -69,6 +69,7 @@ class Watcher:
         self.last_heartbeat = 0
         self.last_launch = 0
         self.video_limit = cfg.getint("quiz", "daily_video_minutes", fallback=30)
+        self.gesture_on = cfg.getboolean("quiz", "gesture", fallback=False)  # 实测开摄像头后平板掉线，默认关
         self.video_until = 0  # 正在放视频时的截止时间；放视频不看答题页心跳，由电视前台和这个时间兜底
         self.video_started = 0
 
