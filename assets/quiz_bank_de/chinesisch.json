@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "de-chinesisch-001",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“山”字的拼音是什么？",
+  "options": [
+   "shāng",
+   "sān",
+   "sēn",
+   "shān"
+  ],
+  "answer": "D",
+  "hint": "注意是翘舌音，声调是第一声。",
+  "explanation": "“山”读 shān。",
+  "more": "“山”字的样子就像三座山峰连在一起。"
+ },
+ {
+  "id": "de-chinesisch-002",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“水”字的拼音是什么？",
+  "options": [
+   "suǐ",
+   "shuā",
+   "shuǐ",
+   "shuí"
+  ],
+  "answer": "C",
+  "hint": "注意是翘舌音，声调是第三声。",
+  "explanation": "“水”读 shuǐ。",
+  "more": "“水”是我们每天都离不开的东西。"
+ },
+ {
+  "id": "de-chinesisch-003",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“大”的反义词是什么？",
+  "options": [
+   "多",
+   "小",
+   "高",
+   "长"
+  ],
+  "answer": "B",
+  "hint": "想想大象和蚂蚁比，蚂蚁怎么样。",
+  "explanation": "大的反义词是小。",
+  "more": "反义词就是意思相反的词。"
+ },
+ {
+  "id": "de-chinesisch-004",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“上”的反义词是什么？",
+  "options": [
+   "下",
+   "前",
+   "中",
+   "左"
+  ],
+  "answer": "A",
+  "hint": "抬头看天，低头看地，地在哪个方向？",
+  "explanation": "上的反义词是下。",
+  "more": "左和右、前和后，也是反义词。"
+ },
+ {
+  "id": "de-chinesisch-005",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“多”的反义词是什么？",
+  "options": [
+   "少",
+   "大",
+   "高",
+   "好"
+  ],
+  "answer": "A",
+  "hint": "碗里只有一点点饭，就是饭很怎么样？",
+  "explanation": "多的反义词是少。",
+  "more": "“少”和“小”读音不同，意思也不同。"
+ },
+ {
+  "id": "de-chinesisch-006",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“黑”的反义词是什么？",
+  "options": [
+   "灰",
+   "白",
+   "蓝",
+   "红"
+  ],
+  "answer": "B",
+  "hint": "想想雪是什么颜色。",
+  "explanation": "黑的反义词是白。",
+  "more": "有个词叫“黑白分明”。"
+ },
+ {
+  "id": "de-chinesisch-007",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“早”的反义词是什么？",
+  "options": [
+   "新",
+   "近",
+   "快",
+   "晚"
+  ],
+  "answer": "D",
+  "hint": "太阳落山以后是什么时候？",
+  "explanation": "早的反义词是晚。",
+  "more": "早上见面说早上好，晚上说晚上好。"
+ },
+ {
+  "id": "de-chinesisch-008",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）书，括号里填哪个量词？",
+  "options": [
+   "条",
+   "只",
+   "本",
+   "朵"
+  ],
+  "answer": "C",
+  "hint": "词典和杂志也常用这个量词。",
+  "explanation": "书用“本”来数，一本书。",
+  "more": "报纸不用这个量词，要说一份报纸。"
+ },
+ {
+  "id": "de-chinesisch-009",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）小狗，括号里填哪个量词？",
+  "options": [
+   "本",
+   "张",
+   "只",
+   "朵"
+  ],
+  "answer": "C",
+  "hint": "小猫、小鸟也常用这个量词。",
+  "explanation": "我们常说一只小狗。",
+  "more": "小猫、小鸟也常用这个量词。"
+ },
+ {
+  "id": "de-chinesisch-010",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）花，括号里填哪个量词？",
+  "options": [
+   "朵",
+   "头",
+   "把",
+   "本"
+  ],
+  "answer": "A",
+  "hint": "云也可以用这个量词。",
+  "explanation": "一朵花，也可以说一朵白云。",
+  "more": "很多花扎在一起，叫一束花。"
+ },
+ {
+  "id": "de-chinesisch-011",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）鱼，括号里填哪个量词？",
+  "options": [
+   "朵",
+   "条",
+   "张",
+   "本"
+  ],
+  "answer": "B",
+  "hint": "长长的东西常用这个量词，比如河。",
+  "explanation": "我们说一条鱼。",
+  "more": "一条河、一条路，用的也是这个量词。"
+ },
+ {
+  "id": "de-chinesisch-012",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）牛，括号里填哪个量词？",
+  "options": [
+   "本",
+   "朵",
+   "把",
+   "头"
+  ],
+  "answer": "D",
+  "hint": "猪和大象也常用这个量词。",
+  "explanation": "我们说一头牛。",
+  "more": "牛的量词和身体上的一个部位是同一个字。"
+ },
+ {
+  "id": "de-chinesisch-013",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）纸，括号里填哪个量词？",
+  "options": [
+   "朵",
+   "匹",
+   "张",
+   "头"
+  ],
+  "answer": "C",
+  "hint": "桌子和床也可以用这个量词。",
+  "explanation": "我们说一张纸。",
+  "more": "一张桌子、一张床，也用这个量词。"
+ },
+ {
+  "id": "de-chinesisch-014",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一年有几个季节？",
+  "options": [
+   "两个",
+   "四个",
+   "三个",
+   "五个"
+  ],
+  "answer": "B",
+  "hint": "想想春天之后还有哪些季节。",
+  "explanation": "一年有春夏秋冬四个季节。",
+  "more": "德国和中国大部分地方都能感受到四季变化。"
+ },
+ {
+  "id": "de-chinesisch-015",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一个星期有几天？",
+  "options": [
+   "五天",
+   "六天",
+   "十天",
+   "七天"
+  ],
+  "answer": "D",
+  "hint": "从星期一数到星期日。",
+  "explanation": "一个星期有七天。",
+  "more": "星期日也可以叫星期天。"
+ },
+ {
+  "id": "de-chinesisch-016",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "中国的首都是哪座城市？",
+  "options": [
+   "北京",
+   "上海",
+   "南京",
+   "广州"
+  ],
+  "answer": "A",
+  "hint": "天安门和故宫就在这座城市。",
+  "explanation": "中国的首都是北京。",
+  "more": "上海是中国很大的经济城市，但不是首都。"
+ },
+ {
+  "id": "de-chinesisch-017",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "中国国旗的底色是什么颜色？",
+  "options": [
+   "绿色",
+   "黄色",
+   "蓝色",
+   "红色"
+  ],
+  "answer": "D",
+  "hint": "上面的五颗星是黄色的，底色是另一种颜色。",
+  "explanation": "中国国旗是红底黄星，叫五星红旗。",
+  "more": "国旗上一共有五颗星。"
+ },
+ {
+  "id": "de-chinesisch-018",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "中秋节常吃什么？",
+  "options": [
+   "月饼",
+   "粽子",
+   "春卷",
+   "汤圆"
+  ],
+  "answer": "A",
+  "hint": "这种食物圆圆的，像秋天的满月。",
+  "explanation": "中秋节吃月饼。",
+  "more": "中秋节一家人还常常一起赏月。"
+ },
+ {
+  "id": "de-chinesisch-019",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "端午节常吃什么？",
+  "options": [
+   "汤圆",
+   "月饼",
+   "粽子",
+   "年糕"
+  ],
+  "answer": "C",
+  "hint": "这种食物用叶子包着糯米。",
+  "explanation": "端午节吃粽子。",
+  "more": "端午节有些地方还会赛龙舟。"
+ },
+ {
+  "id": "de-chinesisch-020",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“妈”字的左边是哪个偏旁？",
+  "options": [
+   "口",
+   "女",
+   "子",
+   "木"
+  ],
+  "answer": "B",
+  "hint": "“姐”和“妹”的左边也是它。",
+  "explanation": "“妈”是女字旁。",
+  "more": "右边的“马”提示读音。"
+ },
+ {
+  "id": "de-chinesisch-021",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪一组都是水果？",
+  "options": [
+   "苹果、香蕉",
+   "桌子、椅子",
+   "白菜、土豆",
+   "铅笔、橡皮"
+  ],
+  "answer": "A",
+  "hint": "想想饭后可以吃的甜甜的东西。",
+  "explanation": "苹果和香蕉都是水果。",
+  "more": "白菜和土豆是蔬菜。"
+ },
+ {
+  "id": "de-chinesisch-022",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“五”后面的数字用汉字怎么写？",
+  "options": [
+   "七",
+   "八",
+   "十",
+   "六"
+  ],
+  "answer": "D",
+  "hint": "按顺序数：四、五……",
+  "explanation": "五的后面是六。",
+  "more": "汉字数字从一数到十，要记牢。"
+ },
+ {
+  "id": "de-chinesisch-023",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "爸爸的爸爸，我们叫什么？",
+  "options": [
+   "叔叔",
+   "外公",
+   "爷爷",
+   "舅舅"
+  ],
+  "answer": "C",
+  "hint": "妈妈的爸爸不是这个称呼。",
+  "explanation": "爸爸的爸爸叫爷爷。",
+  "more": "爷爷的太太叫奶奶。"
+ },
+ {
+  "id": "de-chinesisch-024",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "妈妈的妈妈，我们常叫什么？",
+  "options": [
+   "姑姑",
+   "外婆",
+   "阿姨",
+   "奶奶"
+  ],
+  "answer": "B",
+  "hint": "这个称呼和“外公”是一对。",
+  "explanation": "妈妈的妈妈叫外婆，北方也叫姥姥。",
+  "more": "称呼在不同地方可能不一样。"
+ },
+ {
+  "id": "de-chinesisch-025",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“天”字的拼音是什么？",
+  "options": [
+   "tiān",
+   "tān",
+   "diān",
+   "qiān"
+  ],
+  "answer": "A",
+  "hint": "韵母是 ian，声调是第一声。",
+  "explanation": "“天”读 tiān。",
+  "more": "“今天、明天、天空”都有这个字。"
+ },
+ {
+  "id": "de-chinesisch-026",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“月”字的拼音是什么？",
+  "options": [
+   "yuě",
+   "yuè",
+   "xuè",
+   "yè"
+  ],
+  "answer": "B",
+  "hint": "声调是第四声。",
+  "explanation": "“月”读 yuè。",
+  "more": "“月”可以指月亮，也可以指一个月。"
+ },
+ {
+  "id": "de-chinesisch-027",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "我每天（ ）学校上学。括号里填哪个字最合适？",
+  "options": [
+   "看",
+   "喝",
+   "吃",
+   "去"
+  ],
+  "answer": "D",
+  "hint": "想想你早上要怎样到达学校。",
+  "explanation": "我每天去学校上学。",
+  "more": "造句时要选意思合适的动词。"
+ },
+ {
+  "id": "de-chinesisch-028",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“白日依山尽”的下一句是什么？",
+  "options": [
+   "更上一层楼",
+   "欲穷千里目",
+   "黄河入海流",
+   "疑是地上霜"
+  ],
+  "answer": "C",
+  "hint": "诗里写的是一条著名的大河。",
+  "explanation": "这首诗是王之涣的《登鹳雀楼》。",
+  "more": "前两句写看到的景色。"
+ },
+ {
+  "id": "de-chinesisch-029",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“床前明月光”的下一句是什么？",
+  "options": [
+   "疑是地上霜",
+   "举头望明月",
+   "黄河入海流",
+   "低头思故乡"
+  ],
+  "answer": "A",
+  "hint": "诗人觉得月光白白的，好像秋天地上的什么？",
+  "explanation": "这首诗是李白的《静夜思》。",
+  "more": "全诗写的是想念家乡。"
+ },
+ {
+  "id": "de-chinesisch-030",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“春眠不觉晓”的下一句是什么？",
+  "options": [
+   "花落知多少",
+   "夜来风雨声",
+   "处处闻啼鸟",
+   "低头思故乡"
+  ],
+  "answer": "C",
+  "hint": "春天早上醒来，听到了什么声音？",
+  "explanation": "这首诗是孟浩然的《春晓》。",
+  "more": "“晓”就是天亮的意思。"
+ },
+ {
+  "id": "de-chinesisch-031",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "太阳从哪个方向升起？",
+  "options": [
+   "西方",
+   "南方",
+   "北方",
+   "东方"
+  ],
+  "answer": "D",
+  "hint": "太阳落下的方向是西方，想想它的反面。",
+  "explanation": "太阳从东方升起。",
+  "more": "有句话叫“日出东方”。"
+ },
+ {
+  "id": "de-chinesisch-032",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "万里长城在哪个国家？",
+  "options": [
+   "法国",
+   "中国",
+   "德国",
+   "日本"
+  ],
+  "answer": "B",
+  "hint": "秦始皇时期曾大规模修建过它。",
+  "explanation": "万里长城在中国。",
+  "more": "长城是古代用来防御敌人的工程。"
+ },
+ {
+  "id": "de-chinesisch-033",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "别人帮助了你，你应该说什么？",
+  "options": [
+   "谢谢",
+   "再见",
+   "对不起",
+   "没关系"
+  ],
+  "answer": "A",
+  "hint": "这是一句表达感激的话。",
+  "explanation": "别人帮助我们，要说谢谢。",
+  "more": "别人说谢谢时，可以回答“不客气”。"
+ },
+ {
+  "id": "de-chinesisch-034",
+  "subject": "chinesisch",
+  "difficulty": "easy",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“人”字一共有几画？",
+  "options": [
+   "四画",
+   "两画",
+   "一画",
+   "三画"
+  ],
+  "answer": "B",
+  "hint": "一撇加一捺。",
+  "explanation": "“人”字由一撇一捺组成，共两画。",
+  "more": "“大”字比“人”多一横，共三画。"
+ },
+ {
+  "id": "de-chinesisch-035",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“快乐”的近义词是哪个？",
+  "options": [
+   "难过",
+   "生气",
+   "害怕",
+   "高兴"
+  ],
+  "answer": "D",
+  "hint": "过生日时的心情就是这样。",
+  "explanation": "快乐和高兴意思相近。",
+  "more": "近义词就是意思差不多的词。"
+ },
+ {
+  "id": "de-chinesisch-036",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“美丽”的近义词是哪个？",
+  "options": [
+   "漂亮",
+   "干净",
+   "丑陋",
+   "勇敢"
+  ],
+  "answer": "A",
+  "hint": "可以用来夸花儿很好看。",
+  "explanation": "美丽和漂亮意思相近。",
+  "more": "“丑陋”是美丽的反义词。"
+ },
+ {
+  "id": "de-chinesisch-037",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“勇敢”的反义词是哪个？",
+  "options": [
+   "诚实",
+   "认真",
+   "胆小",
+   "聪明"
+  ],
+  "answer": "C",
+  "hint": "遇到一点事就害怕的人是什么样？",
+  "explanation": "勇敢的反义词是胆小。",
+  "more": "勇敢不是不害怕，而是害怕了还能面对。"
+ },
+ {
+  "id": "de-chinesisch-038",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“干净”的反义词是哪个？",
+  "options": [
+   "漂亮",
+   "肮脏",
+   "整齐",
+   "明亮"
+  ],
+  "answer": "B",
+  "hint": "想想衣服沾满泥巴时的样子。",
+  "explanation": "干净的反义词是肮脏。",
+  "more": "勤洗手，才能保持干净。"
+ },
+ {
+  "id": "de-chinesisch-039",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“认真”的反义词是哪个？",
+  "options": [
+   "安静",
+   "仔细",
+   "努力",
+   "马虎"
+  ],
+  "answer": "D",
+  "hint": "做作业总出小错的态度。",
+  "explanation": "认真的反义词是马虎。",
+  "more": "“马虎”这个词里有两种动物的名字。"
+ },
+ {
+  "id": "de-chinesisch-040",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪个词写对了？",
+  "options": [
+   "再贝",
+   "在见",
+   "再见",
+   "载见"
+  ],
+  "answer": "C",
+  "hint": "这是分别时说的话。",
+  "explanation": "正确写法是“再见”。",
+  "more": "“再”有又一次的意思，所以是再次相见。"
+ },
+ {
+  "id": "de-chinesisch-041",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "小鸟快乐（ ）唱歌。括号里填哪个字？",
+  "options": [
+   "地",
+   "了",
+   "得",
+   "的"
+  ],
+  "answer": "A",
+  "hint": "后面是动作“唱歌”，前面是形容动作的词。",
+  "explanation": "动词前面用“地”：快乐地唱歌。",
+  "more": "的、地、得读音相近，用法不同。"
+ },
+ {
+  "id": "de-chinesisch-042",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "他跑（ ）很快。括号里填哪个字？",
+  "options": [
+   "着",
+   "得",
+   "地",
+   "的"
+  ],
+  "answer": "B",
+  "hint": "动作后面说明动作怎么样。",
+  "explanation": "动词后面用“得”：跑得很快。",
+  "more": "“写得很好”也是这样用。"
+ },
+ {
+  "id": "de-chinesisch-043",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "红红（ ）苹果。括号里填哪个字？",
+  "options": [
+   "地",
+   "的",
+   "得",
+   "着"
+  ],
+  "answer": "B",
+  "hint": "这里连接形容词和后面的“苹果”。",
+  "explanation": "名词前面用“的”：红红的苹果。",
+  "more": "“蓝蓝的天”也是这样用。"
+ },
+ {
+  "id": "de-chinesisch-044",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）桥，括号里填哪个量词？",
+  "options": [
+   "座",
+   "朵",
+   "头",
+   "本"
+  ],
+  "answer": "A",
+  "hint": "山和大楼也可以用这个量词。",
+  "explanation": "我们说一座桥。",
+  "more": "一座山、一座城市，用的也是它。"
+ },
+ {
+  "id": "de-chinesisch-045",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）马，括号里填哪个量词？",
+  "options": [
+   "本",
+   "朵",
+   "匹",
+   "张"
+  ],
+  "answer": "C",
+  "hint": "布也可以用这个量词。",
+  "explanation": "我们说一匹马。",
+  "more": "这个量词很有特点，主要用在马和布上。"
+ },
+ {
+  "id": "de-chinesisch-046",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）衣服，括号里填哪个量词？",
+  "options": [
+   "头",
+   "朵",
+   "匹",
+   "件"
+  ],
+  "answer": "D",
+  "hint": "礼物和事情也可以用这个量词。",
+  "explanation": "我们说一件衣服。",
+  "more": "一件事、一件礼物，也用这个量词。"
+ },
+ {
+  "id": "de-chinesisch-047",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "一（ ）雨伞，括号里填哪个量词？",
+  "options": [
+   "朵",
+   "把",
+   "头",
+   "匹"
+  ],
+  "answer": "B",
+  "hint": "有手柄的东西常用这个量词。",
+  "explanation": "我们说一把雨伞。",
+  "more": "一把椅子、一把刀，也用这个量词。"
+ },
+ {
+  "id": "de-chinesisch-048",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“长大”的“长”读什么？",
+  "options": [
+   "cháng",
+   "zhāng",
+   "zhǎng",
+   "chāng"
+  ],
+  "answer": "C",
+  "hint": "这里是生长的意思，不是长短的意思。",
+  "explanation": "长大的长读 zhǎng。",
+  "more": "长短的长读 cháng，这叫多音字。"
+ },
+ {
+  "id": "de-chinesisch-049",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“音乐”的“乐”读什么？",
+  "options": [
+   "yuè",
+   "lè",
+   "luò",
+   "yào"
+  ],
+  "answer": "A",
+  "hint": "这里不读快乐的“乐”。",
+  "explanation": "音乐的乐读 yuè。",
+  "more": "快乐的乐读 lè。"
+ },
+ {
+  "id": "de-chinesisch-050",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“爱好”的“好”读什么？",
+  "options": [
+   "hǎo",
+   "háo",
+   "huò",
+   "hào"
+  ],
+  "answer": "D",
+  "hint": "这里是喜欢的意思，读第四声。",
+  "explanation": "爱好的好读 hào。",
+  "more": "好人的好读 hǎo。"
+ },
+ {
+  "id": "de-chinesisch-051",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“河、湖、海”三个字有什么相同的偏旁？",
+  "options": [
+   "三点水",
+   "草字头",
+   "提手旁",
+   "言字旁"
+  ],
+  "answer": "A",
+  "hint": "这些地方都有很多水。",
+  "explanation": "这三个字都是三点水旁。",
+  "more": "带这个偏旁的字，常常和水有关。"
+ },
+ {
+  "id": "de-chinesisch-052",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“打、拍、推”三个字有什么相同的偏旁？",
+  "options": [
+   "木字旁",
+   "提手旁",
+   "口字旁",
+   "三点水"
+  ],
+  "answer": "B",
+  "hint": "这些动作都要用手。",
+  "explanation": "这三个字都是提手旁。",
+  "more": "带这个偏旁的字，常常和手的动作有关。"
+ },
+ {
+  "id": "de-chinesisch-053",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“草、花、茶”三个字有什么相同的偏旁？",
+  "options": [
+   "提手旁",
+   "竹字头",
+   "草字头",
+   "三点水"
+  ],
+  "answer": "C",
+  "hint": "这些字大多和植物有关。",
+  "explanation": "这三个字都是草字头。",
+  "more": "“苹果”的“苹”也是这个偏旁。"
+ },
+ {
+  "id": "de-chinesisch-054",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "今天（ ）下雨了，（ ）我们没有去公园。括号里填哪一组？",
+  "options": [
+   "一边……一边",
+   "又……又",
+   "虽然……但是",
+   "因为……所以"
+  ],
+  "answer": "D",
+  "hint": "前半句说原因，后半句说结果。",
+  "explanation": "下雨是原因，没去公园是结果，用“因为……所以”。",
+  "more": "“一边……一边”表示两件事同时做。"
+ },
+ {
+  "id": "de-chinesisch-055",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪个句子的顺序是对的？",
+  "options": [
+   "我一个吃了苹果。",
+   "我吃了一个苹果。",
+   "苹果一个吃了我。",
+   "一个我苹果吃了。"
+  ],
+  "answer": "B",
+  "hint": "谁在做什么，要按这个顺序说。",
+  "explanation": "正确的说法是：我吃了一个苹果。",
+  "more": "中文句子常用“谁，做什么”的顺序。"
+ },
+ {
+  "id": "de-chinesisch-056",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "中国最长的河流是哪一条？",
+  "options": [
+   "黄河",
+   "淮河",
+   "珠江",
+   "长江"
+  ],
+  "answer": "D",
+  "hint": "它的名字里就带着“长”的意思。",
+  "explanation": "中国最长的河是长江。",
+  "more": "黄河是中国第二长河。"
+ },
+ {
+  "id": "de-chinesisch-057",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪一项不是中国古代四大发明？",
+  "options": [
+   "造纸术",
+   "指南针",
+   "电灯",
+   "火药"
+  ],
+  "answer": "C",
+  "hint": "四大发明都出现在很久以前，那时还没有电。",
+  "explanation": "四大发明是造纸术、印刷术、火药和指南针。",
+  "more": "电灯是近代才发明的。"
+ },
+ {
+  "id": "de-chinesisch-058",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "著名的兵马俑在中国哪座城市？",
+  "options": [
+   "西安",
+   "北京",
+   "上海",
+   "杭州"
+  ],
+  "answer": "A",
+  "hint": "这座城市在中国西北部，是著名的古都。",
+  "explanation": "兵马俑在陕西省西安市。",
+  "more": "兵马俑是秦始皇陵的一部分。"
+ },
+ {
+  "id": "de-chinesisch-059",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "中秋节在农历哪一天？",
+  "options": [
+   "九月初九",
+   "五月初五",
+   "正月十五",
+   "八月十五"
+  ],
+  "answer": "D",
+  "hint": "这一天正好是秋季的中间。",
+  "explanation": "中秋节是农历八月十五。",
+  "more": "正月十五是元宵节，五月初五是端午节。"
+ },
+ {
+  "id": "de-chinesisch-060",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "元宵节的传统活动是什么？",
+  "options": [
+   "扫墓",
+   "登高",
+   "赏花灯",
+   "赛龙舟"
+  ],
+  "answer": "C",
+  "hint": "这个节日晚上到处亮闪闪的。",
+  "explanation": "元宵节有赏花灯、吃元宵的习俗。",
+  "more": "赛龙舟是端午节的活动。"
+ },
+ {
+  "id": "de-chinesisch-061",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "传说端午节赛龙舟、吃粽子，是为了纪念谁？",
+  "options": [
+   "杜甫",
+   "屈原",
+   "孔子",
+   "李白"
+  ],
+  "answer": "B",
+  "hint": "他是战国时期楚国的大诗人。",
+  "explanation": "民间传说端午节是为了纪念屈原。",
+  "more": "他写过著名的《离骚》。"
+ },
+ {
+  "id": "de-chinesisch-062",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "《静夜思》的作者是谁？",
+  "options": [
+   "李白",
+   "白居易",
+   "孟浩然",
+   "杜甫"
+  ],
+  "answer": "A",
+  "hint": "人们称这位唐代诗人为“诗仙”。",
+  "explanation": "《静夜思》是李白写的。",
+  "more": "杜甫被称为“诗圣”。"
+ },
+ {
+  "id": "de-chinesisch-063",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "《春晓》的作者是谁？",
+  "options": [
+   "李白",
+   "王之涣",
+   "孟浩然",
+   "骆宾王"
+  ],
+  "answer": "C",
+  "hint": "这位唐代诗人常写田园风光，还写过《过故人庄》。",
+  "explanation": "《春晓》是孟浩然写的。",
+  "more": "他很喜欢写田园和山水。"
+ },
+ {
+  "id": "de-chinesisch-064",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "《咏鹅》的作者是谁？",
+  "options": [
+   "李白",
+   "王之涣",
+   "杜甫",
+   "骆宾王"
+  ],
+  "answer": "D",
+  "hint": "传说他七岁时就写了这首诗。",
+  "explanation": "《咏鹅》是骆宾王写的。",
+  "more": "他是唐代诗人。"
+ },
+ {
+  "id": "de-chinesisch-065",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“鹅鹅鹅”的下一句是什么？",
+  "options": [
+   "曲项向天歌",
+   "红掌拨清波",
+   "白毛浮绿水",
+   "处处闻啼鸟"
+  ],
+  "answer": "A",
+  "hint": "这一句写鹅弯着脖子叫。",
+  "explanation": "下一句是“曲项向天歌”。",
+  "more": "“曲项”就是弯着脖子。"
+ },
+ {
+  "id": "de-chinesisch-066",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“离离原上草”的下一句是什么？",
+  "options": [
+   "野火烧不尽",
+   "一岁一枯荣",
+   "举头望明月",
+   "春风吹又生"
+  ],
+  "answer": "B",
+  "hint": "这一句写草每年枯了又绿。",
+  "explanation": "这句诗出自白居易的《赋得古原草送别》。",
+  "more": "“荣”在这里是草木茂盛的意思。"
+ },
+ {
+  "id": "de-chinesisch-067",
+  "subject": "chinesisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“锄禾日当午”的下一句是什么？",
+  "options": [
+   "粒粒皆辛苦",
+   "汗滴禾下土",
+   "谁知盘中餐",
+   "春风吹又生"
+  ],
+  "answer": "B",
+  "hint": "这一句写农民劳动很辛苦。",
+  "explanation": "这句诗出自李绅的《悯农》。",
+  "more": "这首诗提醒我们要珍惜粮食。"
+ },
+ {
+  "id": "de-chinesisch-068",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "成语“画蛇添足”是什么意思？",
+  "options": [
+   "蛇长出了脚",
+   "做多余的事，反而弄坏了",
+   "画画得很好",
+   "做事非常认真"
+  ],
+  "answer": "B",
+  "hint": "蛇本来有脚吗？",
+  "explanation": "画蛇添足比喻做多余的事。",
+  "more": "故事里有人给蛇画了脚，结果输了比赛。"
+ },
+ {
+  "id": "de-chinesisch-069",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "成语“守株待兔”是什么意思？",
+  "options": [
+   "耐心种好树木",
+   "认真保护小动物",
+   "跑得像兔子一样快",
+   "不主动努力，只想碰运气"
+  ],
+  "answer": "D",
+  "hint": "那个农夫不再种地，每天都在树下等。",
+  "explanation": "守株待兔比喻不努力，只想碰运气。",
+  "more": "“株”就是树桩。"
+ },
+ {
+  "id": "de-chinesisch-070",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "成语“亡羊补牢”是什么意思？",
+  "options": [
+   "出了问题及时补救，还不算晚",
+   "要多养几只羊",
+   "羊跑了就不用管了",
+   "羊圈不用修理"
+  ],
+  "answer": "A",
+  "hint": "羊丢了以后，修好羊圈还有用吗？",
+  "explanation": "亡羊补牢比喻出了问题及时改正。",
+  "more": "这里的“亡”是丢失的意思，“牢”是羊圈。"
+ },
+ {
+  "id": "de-chinesisch-071",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "成语“井底之蛙”比喻什么样的人？",
+  "options": [
+   "声音很大的人",
+   "很会游泳的人",
+   "见识很少的人",
+   "很勇敢的人"
+  ],
+  "answer": "C",
+  "hint": "青蛙在井底只能看到多大的天？",
+  "explanation": "井底之蛙比喻见识少的人。",
+  "more": "我们要多读书，多看看外面的世界。"
+ },
+ {
+  "id": "de-chinesisch-072",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "成语“拔苗助长”是什么意思？",
+  "options": [
+   "帮助别人干活",
+   "认真种好庄稼",
+   "小苗长得很快",
+   "太着急，反而把事情弄坏"
+  ],
+  "answer": "D",
+  "hint": "把小苗往上拔，它们后来怎么样了？",
+  "explanation": "拔苗助长比喻太急反而坏事。",
+  "more": "学习也不能太着急，要一步一步来。"
+ },
+ {
+  "id": "de-chinesisch-073",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "成语“对牛弹琴”常用来比喻什么？",
+  "options": [
+   "牛很喜欢音乐",
+   "琴弹得非常好",
+   "对不懂的人讲道理，白费力气",
+   "要多照顾动物"
+  ],
+  "answer": "C",
+  "hint": "牛能听懂优美的琴声吗？",
+  "explanation": "对牛弹琴比喻对不懂的人讲道理。",
+  "more": "这个成语常带一点批评的意思。"
+ },
+ {
+  "id": "de-chinesisch-074",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "补全成语：一心一（ ）",
+  "options": [
+   "意",
+   "义",
+   "亿",
+   "忆"
+  ],
+  "answer": "A",
+  "hint": "这个字和“心思、想法”有关。",
+  "explanation": "正确的成语是一心一意。",
+  "more": "它的意思是专心、没有别的念头。"
+ },
+ {
+  "id": "de-chinesisch-075",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "补全成语：五颜六（ ）",
+  "options": [
+   "花",
+   "色",
+   "彩",
+   "光"
+  ],
+  "answer": "B",
+  "hint": "“颜”和这个字组成一个词，说的是红黄蓝绿。",
+  "explanation": "正确的成语是五颜六色。",
+  "more": "它形容颜色很多。"
+ },
+ {
+  "id": "de-chinesisch-076",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "补全成语：自（ ）自语",
+  "options": [
+   "讲",
+   "说",
+   "言",
+   "话"
+  ],
+  "answer": "C",
+  "hint": "这个字也是偏旁“讠”的来源。",
+  "explanation": "正确的成语是自言自语。",
+  "more": "意思是自己跟自己说话。"
+ },
+ {
+  "id": "de-chinesisch-077",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "补全成语：半途而（ ）",
+  "options": [
+   "废",
+   "飞",
+   "非",
+   "肥"
+  ],
+  "answer": "A",
+  "hint": "这个字有放弃、不再继续的意思。",
+  "explanation": "正确的成语是半途而废。",
+  "more": "意思是事情做到一半就不做了。"
+ },
+ {
+  "id": "de-chinesisch-078",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪个成语形容人非常多？",
+  "options": [
+   "一心一意",
+   "山清水秀",
+   "鸟语花香",
+   "人山人海"
+  ],
+  "answer": "D",
+  "hint": "想象一下春节时最热闹的庙会。",
+  "explanation": "人山人海形容人非常多。",
+  "more": "节日时的景点常常人很多。"
+ },
+ {
+  "id": "de-chinesisch-079",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪个成语最适合形容春天的景色？",
+  "options": [
+   "冰天雪地",
+   "鸟语花香",
+   "汗流浃背",
+   "人山人海"
+  ],
+  "answer": "B",
+  "hint": "春天能听到什么、闻到什么？",
+  "explanation": "鸟语花香形容春天的美好景色。",
+  "more": "冰天雪地形容的是冬天。"
+ },
+ {
+  "id": "de-chinesisch-080",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“三人行，必有我师焉”出自哪部书？",
+  "options": [
+   "《三字经》",
+   "《唐诗三百首》",
+   "《西游记》",
+   "《论语》"
+  ],
+  "answer": "D",
+  "hint": "这部书记录了孔子和学生的言行。",
+  "explanation": "这句话出自《论语》。",
+  "more": "它告诉我们，要向身边的人学习。"
+ },
+ {
+  "id": "de-chinesisch-081",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“学而时习之，不亦说乎”是谁说的？",
+  "options": [
+   "孔子",
+   "庄子",
+   "孟子",
+   "李白"
+  ],
+  "answer": "A",
+  "hint": "原文开头是“子曰”，这里的“子”指这位老师。",
+  "explanation": "这句话是孔子说的，记录在《论语》里。",
+  "more": "句中的“说”读 yuè，同“悦”，是高兴的意思。"
+ },
+ {
+  "id": "de-chinesisch-082",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“温故而知新”是什么意思？",
+  "options": [
+   "只学新课，不看旧课",
+   "旧东西要全部扔掉",
+   "复习学过的知识，能有新的收获",
+   "天气变暖了，要换新衣服"
+  ],
+  "answer": "C",
+  "hint": "“故”指的是以前学过的东西。",
+  "explanation": "温故而知新就是复习旧知识，获得新体会。",
+  "more": "这也是《论语》里的话。"
+ },
+ {
+  "id": "de-chinesisch-083",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“少壮不努力”的下一句是什么？",
+  "options": [
+   "一岁一枯荣",
+   "老大徒伤悲",
+   "粒粒皆辛苦",
+   "更上一层楼"
+  ],
+  "answer": "B",
+  "hint": "这一句说老了只能白白伤心。",
+  "explanation": "这句诗出自汉乐府《长歌行》。",
+  "more": "它提醒我们年轻时要努力。"
+ },
+ {
+  "id": "de-chinesisch-084",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“欲穷千里目”的下一句是什么？",
+  "options": [
+   "更上一层楼",
+   "汗滴禾下土",
+   "黄河入海流",
+   "疑是地上霜"
+  ],
+  "answer": "A",
+  "hint": "想看得更远，应该怎么做？",
+  "explanation": "这句诗出自王之涣的《登鹳雀楼》。",
+  "more": "它也比喻要不断进步。"
+ },
+ {
+  "id": "de-chinesisch-085",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“谁知盘中餐”的下一句是什么？",
+  "options": [
+   "一岁一枯荣",
+   "粒粒皆辛苦",
+   "汗滴禾下土",
+   "锄禾日当午"
+  ],
+  "answer": "B",
+  "hint": "诗人说每一粒米都来得不容易。",
+  "explanation": "这句诗出自李绅的《悯农》。",
+  "more": "所以吃饭时不要浪费粮食。"
+ },
+ {
+  "id": "de-chinesisch-086",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“两个黄鹂鸣翠柳”的下一句是什么？",
+  "options": [
+   "窗含西岭千秋雪",
+   "门泊东吴万里船",
+   "飞流直下三千尺",
+   "一行白鹭上青天"
+  ],
+  "answer": "D",
+  "hint": "这一句写的是飞上天空的一排鸟。",
+  "explanation": "这句诗出自杜甫的《绝句》。",
+  "more": "短短两句诗里有黄、翠、白、青四种颜色。"
+ },
+ {
+  "id": "de-chinesisch-087",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“飞流直下三千尺”的下一句是什么？",
+  "options": [
+   "日照香炉生紫烟",
+   "一行白鹭上青天",
+   "疑是银河落九天",
+   "遥看瀑布挂前川"
+  ],
+  "answer": "C",
+  "hint": "诗人把瀑布想象成了天上的什么？",
+  "explanation": "这句诗出自李白的《望庐山瀑布》。",
+  "more": "“三千尺”是夸张的说法。"
+ },
+ {
+  "id": "de-chinesisch-088",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "《三字经》的开头是哪一句？",
+  "options": [
+   "床前明月光",
+   "人之初，性本善",
+   "学而时习之",
+   "春眠不觉晓"
+  ],
+  "answer": "B",
+  "hint": "这部书每句都是三个字。",
+  "explanation": "《三字经》开头是“人之初，性本善”。",
+  "more": "古代孩子常用它来启蒙识字。"
+ },
+ {
+  "id": "de-chinesisch-089",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "孙悟空是哪部古典小说里的人物？",
+  "options": [
+   "《西游记》",
+   "《三国演义》",
+   "《红楼梦》",
+   "《水浒传》"
+  ],
+  "answer": "A",
+  "hint": "他保护唐僧去西天取经。",
+  "explanation": "孙悟空出自《西游记》。",
+  "more": "书里还有猪八戒和沙和尚。"
+ },
+ {
+  "id": "de-chinesisch-090",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "诸葛亮是哪部古典小说里的重要人物？",
+  "options": [
+   "《红楼梦》",
+   "《西游记》",
+   "《三国演义》",
+   "《水浒传》"
+  ],
+  "answer": "C",
+  "hint": "他帮助刘备，非常有智慧。",
+  "explanation": "诸葛亮是《三国演义》里的人物。",
+  "more": "“草船借箭”就是书中的故事。"
+ },
+ {
+  "id": "de-chinesisch-091",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪一部不是中国古典四大名著？",
+  "options": [
+   "《水浒传》",
+   "《西游记》",
+   "《红楼梦》",
+   "《格林童话》"
+  ],
+  "answer": "D",
+  "hint": "有一部书来自德国。",
+  "explanation": "《格林童话》是德国的童话集。",
+  "more": "四大名著还包括《三国演义》。"
+ },
+ {
+  "id": "de-chinesisch-092",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "世界最高的山峰是哪一座？",
+  "options": [
+   "泰山",
+   "华山",
+   "珠穆朗玛峰",
+   "黄山"
+  ],
+  "answer": "C",
+  "hint": "它在中国和尼泊尔的边界上。",
+  "explanation": "世界最高峰是珠穆朗玛峰。",
+  "more": "它的高度约为八千八百多米。"
+ },
+ {
+  "id": "de-chinesisch-093",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "中国人口最多的民族是哪个？",
+  "options": [
+   "蒙古族",
+   "汉族",
+   "藏族",
+   "回族"
+  ],
+  "answer": "B",
+  "hint": "我们学的语言常被称为这个民族的语言。",
+  "explanation": "中国人口最多的民族是汉族。",
+  "more": "中国的语言文字也叫汉语、汉字。"
+ },
+ {
+  "id": "de-chinesisch-094",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "中国一共有多少个民族？",
+  "options": [
+   "六十个",
+   "五十五个",
+   "五十个",
+   "五十六个"
+  ],
+  "answer": "D",
+  "hint": "除了汉族，还有五十五个少数民族。",
+  "explanation": "中国一共有五十六个民族。",
+  "more": "不同的民族有不同的服装和节日。"
+ },
+ {
+  "id": "de-chinesisch-095",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "十二生肖中排在第一位的是什么？",
+  "options": [
+   "鼠",
+   "虎",
+   "龙",
+   "牛"
+  ],
+  "answer": "A",
+  "hint": "这种动物很小，传说它跳到了牛的前面。",
+  "explanation": "十二生肖的第一位是鼠。",
+  "more": "第二位是牛，第三位是虎。"
+ },
+ {
+  "id": "de-chinesisch-096",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪个句子用了比喻？",
+  "options": [
+   "小明喜欢画画。",
+   "弯弯的月亮像小船。",
+   "他长得有点像他爸爸。",
+   "今天好像要下雨。"
+  ],
+  "answer": "B",
+  "hint": "比喻是把一种东西说成另一种不同的东西。",
+  "explanation": "把月亮比作小船，这是比喻。",
+  "more": "“好像要下雨”只是猜测，不是比喻。"
+ },
+ {
+  "id": "de-chinesisch-097",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“你今天去公园吗”这句话后面应该用什么标点？",
+  "options": [
+   "？",
+   "！",
+   "，",
+   "。"
+  ],
+  "answer": "A",
+  "hint": "这句话在向别人提问。",
+  "explanation": "问句后面用问号。",
+  "more": "“吗”字常常出现在问句的末尾。"
+ },
+ {
+  "id": "de-chinesisch-098",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪个句子是正确的？",
+  "options": [
+   "我们要养成爱读书。",
+   "我们要爱读书的好习惯养成。",
+   "我们要养成爱读书的好习惯。",
+   "我们养成要读书爱。"
+  ],
+  "answer": "C",
+  "hint": "“养成”后面要有它的对象，顺序也要通顺。",
+  "explanation": "养成的是习惯，所以这一句才完整。",
+  "more": "读句子时多读两遍，常能发现错误。"
+ },
+ {
+  "id": "de-chinesisch-099",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "“重新”的“重”读什么？",
+  "options": [
+   "zhòng",
+   "chōng",
+   "zhōng",
+   "chóng"
+  ],
+  "answer": "D",
+  "hint": "这里是再一次的意思。",
+  "explanation": "重新的重读 chóng。",
+  "more": "重量的重读 zhòng。"
+ },
+ {
+  "id": "de-chinesisch-100",
+  "subject": "chinesisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "下面哪个搭配是正确的？",
+  "options": [
+   "戴鞋子",
+   "穿帽子",
+   "戴帽子",
+   "穿眼镜"
+  ],
+  "answer": "C",
+  "hint": "想想头上的东西要用哪个动词。",
+  "explanation": "帽子用“戴”，衣服和鞋子用“穿”。",
+  "more": "眼镜和手表也用“戴”。"
+ }
+]

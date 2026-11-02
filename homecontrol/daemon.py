@@ -22,6 +22,7 @@ RELAUNCH_GAP = 15       # 两次重新打开答题页之间至少间隔
 VIDEOS = Path(__file__).resolve().parent.parent / "assets" / "videos.json"  # 家长批准的视频，只放这些
 VIDEO_MARGIN = 30       # 缓冲、广告的余量（秒），到点就断网
 VIDEO_GRACE = 15        # 开播后这么久内不查电视前台（应用可能还在切换）
+VIDEO_AWAY_CHECKS = 3   # 每 5 秒查一次，连续这么多次不在前台才算离开
 
 
 def log(msg):
@@ -75,6 +76,7 @@ class Watcher:
         self.video_started = 0
         self.video_stay = False
         self.video_id = None
+        self.video_away = 0
 
     def _tv(self):
         """Find the TV's current IP via the router (it may change while the TV sleeps)."""
@@ -273,6 +275,7 @@ class Watcher:
             locked = state["tv_locked"]
             now = time.time()
             self.video_id = video_id
+            self.video_away = 0
             self.video_started = now
             self.video_until = now + video["seconds"] + VIDEO_MARGIN
         if locked and not self._set_tv_internet(False):
@@ -305,9 +308,12 @@ class Watcher:
         app = self.cfg.get("quiz", "tv_app", fallback="").strip()
         tv = self.tv or self._tv()
         expired = now >= self.video_until
-        if not expired and now - self.video_started > VIDEO_GRACE and tv and app and tv.app_visible(app) is False:
-            log("电视离开了答题应用，结束视频")
-            expired = True
+        if not expired and now - self.video_started > VIDEO_GRACE and tv and app:
+            # 实测电视偶尔短暂报告不在前台，连续几次才算离开
+            self.video_away = self.video_away + 1 if tv.app_visible(app) is False else 0
+            if self.video_away >= VIDEO_AWAY_CHECKS:
+                log("电视离开了答题应用，结束视频")
+                expired = True
         if not expired:
             return
         if self.locked and not self._set_tv_internet(True):

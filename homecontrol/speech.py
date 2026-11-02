@@ -18,6 +18,8 @@ def speak(text, lang="de", voice=None):
     text = " ".join(text.split())[:MAX_CHARS]
     if not text:
         raise ValueError("empty text")
+    if lang == "de" and any("一" <= c <= "鿿" for c in text):
+        lang = "zh"  # 中文题用中文语音
     voice = voice or VOICES.get(lang, VOICES["de"])
     path = CACHE / (hashlib.sha1(f"{voice}|{text}".encode()).hexdigest() + ".mp3")
     if path.exists():

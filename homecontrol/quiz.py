@@ -40,7 +40,7 @@ LANGUAGES = {
     },
     "de": {
         "subjects": {"mathe": "Mathe", "deutsch": "Deutsch", "sachunterricht": "Sachunterricht", "englisch": "Englisch",
-                     "franzoesisch": "Französisch", "englisch_alltag": "Englisch Alltag"},
+                     "franzoesisch": "Französisch", "englisch_alltag": "Englisch Alltag", "chinesisch": "中文"},
         # 外语口语按德国 8–9 年级进度，不受小学年级 grade 限制
         "subject_grades": {"franzoesisch": 9, "englisch_alltag": 9},
         "difficulties": {"easy": "Leicht", "medium": "Mittel", "hard": "Schwer"},
@@ -441,8 +441,8 @@ class Rules:
             lang = "zh"
         known = LANGUAGES[lang]["subjects"]
         return cls(
-            reward={k: q.getint(f"reward_{k}", d.reward[k]) for k in d.reward},
-            penalty_easy=q.getint("penalty_easy", d.penalty_easy),
+            reward={k: q.getfloat(f"reward_{k}", d.reward[k]) for k in d.reward},
+            penalty_easy=q.getfloat("penalty_easy", d.penalty_easy),
             daily_earn_cap=q.getint("daily_earn_cap", d.daily_earn_cap),
             min_balance=q.getint("min_balance", d.min_balance),
             min_answer_seconds=q.getint("min_answer_seconds", d.min_answer_seconds),
@@ -459,13 +459,14 @@ def evaluate(rules, question, correct, elapsed, earned_today, remaining):
     if correct:
         if elapsed < rules.min_answer_seconds:
             return 0, msg["too_fast"]
-        room = max(0, rules.daily_earn_cap - earned_today)
-        delta = min(rules.reward[question.difficulty], room)
-        return (delta, msg["correct_plus"].format(d=delta)) if delta else (0, msg["correct_capped"])
+        delta = rules.reward[question.difficulty]
+        if rules.daily_earn_cap > 0:  # 0 = 不设上限
+            delta = min(delta, max(0, rules.daily_earn_cap - earned_today))
+        return (delta, msg["correct_plus"].format(d=f"{delta:g}")) if delta else (0, msg["correct_capped"])
     if question.difficulty != "easy":
         return 0, msg["wrong_free"]
     deduct = min(rules.penalty_easy, max(0, remaining - rules.min_balance))
-    return (-deduct, msg["wrong_minus"].format(d=deduct)) if deduct else (0, msg["wrong"])
+    return (-deduct, msg["wrong_minus"].format(d=f"{deduct:g}")) if deduct else (0, msg["wrong"])
 
 
 class QuizEngine:

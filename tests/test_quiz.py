@@ -160,12 +160,12 @@ class GermanBankTest(unittest.TestCase):
         cfg.read_dict({"quiz": {"language": "de"}})
         rules = quiz.Rules.from_config(cfg)
         self.assertEqual((rules.language, rules.grade), ("de", 4))
-        self.assertEqual(rules.subjects, ["mathe", "deutsch", "sachunterricht", "englisch", "franzoesisch", "englisch_alltag"])
+        self.assertEqual(rules.subjects, ["mathe", "deutsch", "sachunterricht", "englisch", "franzoesisch", "englisch_alltag", "chinesisch"])
 
     def test_language_subjects_ignore_primary_grade_limit(self):
-        rules = quiz.Rules(language="de", grade=4, subjects=["franzoesisch", "englisch_alltag"])
+        rules = quiz.Rules(language="de", grade=4, subjects=["franzoesisch", "englisch_alltag", "chinesisch"])
         engine = quiz.QuizEngine(rules, rng=random.Random(1))
-        self.assertEqual(len(engine.static), 200)
+        self.assertEqual(len(engine.static), 300)
 
 
 class RulesTest(unittest.TestCase):
@@ -345,6 +345,16 @@ class WatcherQuizTest(unittest.TestCase):
         self.assertGreater(self.watcher.last_heartbeat, before)
 
 
+class ScoringTests(unittest.TestCase):
+    def test_fractional_reward_without_cap(self):
+        rules = quiz.Rules(language="de", reward={"easy": 0.5, "medium": 1, "hard": 2}, daily_earn_cap=0, penalty_easy=0.5)
+        q = mock.Mock(difficulty="easy")
+        delta, message = quiz.evaluate(rules, q, True, 10, 9999, 0)
+        self.assertEqual(delta, 0.5)
+        self.assertIn("0.5", message)
+        self.assertEqual(quiz.evaluate(rules, q, False, 10, 0, 5)[0], -0.5)
+
+
 class VideoTests(unittest.TestCase):
     def setUp(self):
         import homecontrol.daemon as d
@@ -414,6 +424,9 @@ class VideoTests(unittest.TestCase):
         self.w.video_start("a")
         self.w.video_started = 0
         self.w.tv.app_visible.return_value = False
+        self.w.check_video()
+        self.w.check_video()
+        self.assertTrue(self.w.video_until)  # 一两次不算离开
         self.w.check_video()
         self.w._set_tv_internet.assert_called_with(True)
         self.assertEqual(self.w.video_until, 0)
