@@ -23,6 +23,7 @@ class QuizHandler(BaseHTTPRequestHandler):
     host = None
     last_heartbeat = 0
     gesture = (None, 0)  # (手指数, 时间)，所有请求共用
+    hand_status = ""  # 平板手势页报告的状态；看不到平板屏幕时靠它排查
 
     def log_message(self, *args):
         pass
@@ -66,6 +67,7 @@ class QuizHandler(BaseHTTPRequestHandler):
         elif path == "/api/gesture":
             fingers, at = QuizHandler.gesture
             self._json({"fingers": fingers if time.time() - at < GESTURE_SECONDS else None,
+                        "status": QuizHandler.hand_status,
                         "active": self.host.gesture_on and time.time() - QuizHandler.last_heartbeat < ACTIVE_SECONDS})
         elif path == "/hand" or path.startswith("/hand/"):
             self._hand_file(path)
@@ -101,6 +103,9 @@ class QuizHandler(BaseHTTPRequestHandler):
                 self._json(self.host.video_start(str(body.get("id", ""))))
             elif path == "/api/video/stop":
                 self.host.video_stop()
+                self._json({"ok": True})
+            elif path == "/api/hand_status":
+                QuizHandler.hand_status = str(body.get("text", ""))[:300]
                 self._json({"ok": True})
             elif path == "/api/gesture":
                 QuizHandler.gesture = (int(body["fingers"]), time.time())
