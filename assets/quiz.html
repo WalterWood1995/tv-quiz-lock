@@ -414,7 +414,10 @@
       var along = dx ? (bx - ax) * dx : (by - ay) * dy;
       var across = dx ? Math.abs(by - ay) : Math.abs(bx - ax);
       if (along <= 4) return;
-      var score = along + across * 2;
+      // 同一行/列的优先，否则远处的 A→B 会输给下面离得近的按钮
+      var sameLine = dx ? (b.top < a.bottom && b.bottom > a.top) : (b.left < a.right && b.right > a.left);
+      if (dx && !sameLine) return;
+      var score = along + across * 2 + (sameLine ? 0 : 100000);
       if (score < bestScore) { bestScore = score; best = el; }
     });
     if (best) best.focus();
