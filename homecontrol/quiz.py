@@ -544,6 +544,7 @@ class Rules:
     grade: int = 7
     subjects: list = field(default_factory=lambda: ["math", "english", "chinese"])
     language: str = "zh"
+    harder: bool = False  # 加难：每档往上挪一档（简单→中等，中等/困难→困难），题库只出本年级和上一年级的题
 
     @classmethod
     def from_config(cls, cfg):
@@ -564,6 +565,7 @@ class Rules:
             subjects=[s.strip() for s in q.get("subjects", ",".join(known)).split(",") if s.strip() in known]
                      or list(known),
             language=lang,
+            harder=q.getboolean("harder", False),
         )
 
 
@@ -648,7 +650,8 @@ class QuizEngine:
         except (ValueError, KeyError, OSError):
             return False
         limits = self.lang.get("subject_grades", {})
-        self.static = [q for q in bank if q.grade <= limits.get(q.subject, self.rules.grade)]
+        self.static = [q for q in bank if q.grade <= limits.get(q.subject, self.rules.grade)
+                       and (not self.rules.harder or q.grade >= limits.get(q.subject, self.rules.grade) - 1)]
         self.bank_signature = signature
         return True
 
@@ -658,6 +661,8 @@ class QuizEngine:
     def next_question(self, difficulty):
         if difficulty not in DIFFICULTIES:
             difficulty = "medium"
+        if self.rules.harder:
+            difficulty = "hard" if difficulty != "easy" else "medium"
         self.reload_bank()
         math = self.lang["math"]
         # 这一档在题库里有题的科目才出；数学总能现出
