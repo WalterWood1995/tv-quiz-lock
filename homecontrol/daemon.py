@@ -69,6 +69,7 @@ class Watcher:
         self.quiz_lang = self.rules.language
         self.locked = False  # 路由器上电视当前是否被断网（跨天时用来解除昨天的锁）
         self.last_heartbeat = 0
+        self.quiz_seen = 0  # 只认答题页自己的心跳，enforce_loop 改 last_heartbeat 不影响它
         self.last_launch = 0
         self.video_limit = cfg.getint("quiz", "daily_video_minutes", fallback=30)
         self.gesture_on = cfg.getboolean("quiz", "gesture", fallback=False)  # 实测开摄像头后平板掉线，默认关
@@ -135,7 +136,9 @@ class Watcher:
         for name in self.track:
             if name == self.tv_name:
                 tv = self._tv()
-                if tv and tv.power_state() == "on":
+                # 答题页（含看视频、闯关）开着的时间不算看电视；没锁时孩子也会来答题赚时间
+                quizzing = time.time() - self.quiz_seen < HEARTBEAT_TIMEOUT
+                if tv and not quizzing and tv.power_state() == "on":
                     out[name] = ("inc", 1)
                 continue
             mac = self.cfg.get("devices", name, fallback=name)
@@ -372,7 +375,7 @@ class Watcher:
         return result
 
     def heartbeat(self):
-        self.last_heartbeat = time.time()
+        self.last_heartbeat = self.quiz_seen = time.time()
 
     def start_quiz(self):
         start_quiz_server(self, self.quiz_port)

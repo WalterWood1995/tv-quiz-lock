@@ -405,6 +405,15 @@ class VideoTests(unittest.TestCase):
         self.w.video_start("a")
         self.assertEqual(self.w.quiz_videos()["seen"], ["a"])
 
+    def test_quiz_page_time_is_not_tv_time(self):
+        self.w.web = mock.Mock()
+        self.w.web.online_minutes_today.return_value = {}
+        self.w.tv.power_state.return_value = "on"
+        self.w.heartbeat()
+        self.assertNotIn(self.w.tv_name, self.w.measure())
+        self.w.quiz_seen = 0
+        self.assertEqual(self.w.measure()[self.w.tv_name], ("inc", 1))
+
     def test_daily_video_limit(self):
         self.w.video_start("a")
         self.assertIn("error", self.w.video_start("b"))
