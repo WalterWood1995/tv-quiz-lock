@@ -65,7 +65,8 @@ class Watcher:
         self.quiz_on = bool(self.tv_name) and cfg.getboolean("quiz", "enabled", fallback=False)
         self.quiz_port = cfg.getint("quiz", "port", fallback=QUIZ_PORT)
         self.rules = Rules.from_config(cfg)
-        self.engine = QuizEngine(self.rules, cfg.get("quiz", "bank_dir", fallback="").strip() or None)
+        self.engine = QuizEngine(self.rules, cfg.get("quiz", "bank_dir", fallback="").strip() or None,
+                                 stats_path=STATE.with_name("question_stats.json"))
         self.quiz_lang = self.rules.language
         self.locked = False  # 路由器上电视当前是否被断网（跨天时用来解除昨天的锁）
         self.last_heartbeat = 0

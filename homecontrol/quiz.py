@@ -39,6 +39,8 @@ LANGUAGES = {
             "expired": "题目已过期，请换一题",
             "cooldown": "先看看讲解，{s} 秒后再继续",
             "streak": " 连续答错 3 题了，先看讲解，1 分钟后再继续。",
+            "repeat_reward": "（这题第 {n} 次出现，奖励只有 1/{k}）",
+            "repeat_penalty": "（这题第 {n} 次出现，答错扣一半分值）",
         },
     },
     "de": {
@@ -61,6 +63,8 @@ LANGUAGES = {
             "expired": "Diese Frage ist abgelaufen, bitte nimm eine neue.",
             "cooldown": "Lies zuerst die Erklärung, in {s} Sekunden geht es weiter.",
             "streak": " Drei Fehler hintereinander – lies die Erklärung, in 1 Minute geht es weiter.",
+            "repeat_reward": " (Diese Aufgabe kommt zum {n}. Mal – nur 1/{k} der Belohnung.)",
+            "repeat_penalty": " (Diese Aufgabe kommt zum {n}. Mal – Fehler kostet die Hälfte des Werts.)",
         },
     },
 }
@@ -563,16 +567,29 @@ class Rules:
         )
 
 
-def evaluate(rules, question, correct, elapsed, earned_today, remaining):
-    """返回 (分钟变化, 提示语)。正数为奖励，负数为扣除。只有简单题答错才扣。"""
+def evaluate(rules, question, correct, elapsed, earned_today, remaining, occurrence=1):
+    """返回 (分钟变化, 提示语)。正数为奖励，负数为扣除。
+
+    第 1、2 次出现：正常规则（只有简单题答错才扣）。第 n≥3 次：答对奖励 ÷ 2^(n-2)，
+    答错一律扣该题满分值的 50%（与手机版一致）。"""
     msg = LANGUAGES[rules.language]["msg"]
+    full = rules.reward[question.difficulty]
+    if occurrence >= 3 and not correct:
+        deduct = min(full / 2, max(0, remaining - rules.min_balance))
+        note = msg["repeat_penalty"].format(n=occurrence)
+        return (-deduct, msg["wrong_minus"].format(d=f"{deduct:g}") + note) if deduct else (0, msg["wrong"] + note)
     if correct:
         if elapsed < rules.min_answer_seconds:
             return 0, msg["too_fast"]
-        delta = rules.reward[question.difficulty]
+        delta = full
+        note = ""
+        if occurrence >= 3:
+            k = 2 ** (occurrence - 2)
+            delta = full / k
+            note = msg["repeat_reward"].format(n=occurrence, k=k)
         if rules.daily_earn_cap > 0:  # 0 = 不设上限
             delta = min(delta, max(0, rules.daily_earn_cap - earned_today))
-        return (delta, msg["correct_plus"].format(d=f"{delta:g}")) if delta else (0, msg["correct_capped"])
+        return (delta, msg["correct_plus"].format(d=f"{delta:g}") + note) if delta else (0, msg["correct_capped"])
     if question.difficulty != "easy":
         return 0, msg["wrong_free"]
     deduct = min(rules.penalty_easy, max(0, remaining - rules.min_balance))
@@ -585,7 +602,7 @@ class QuizEngine:
     COOLDOWN = 60
     WRONG_LIMIT = 3
 
-    def __init__(self, rules, bank_dir=None, rng=None):
+    def __init__(self, rules, bank_dir=None, rng=None, stats_path=None):
         self.rules = rules
         self.lang = LANGUAGES[rules.language]
         self.rng = rng or random.Random()
@@ -599,6 +616,25 @@ class QuizEngine:
         self.pending = {}  # id -> (Question, 出题时间)
         self.wrong_streak = 0
         self.cooldown_until = 0
+        # 每题记录 [作答次数, 答对次数, 连续答对]；答对 5 次或连续答对 3 次就退休不再出
+        self.stats_path = Path(stats_path) if stats_path else None
+        self.stats = {}
+        if self.stats_path and self.stats_path.exists():
+            try:
+                self.stats = json.loads(self.stats_path.read_text(encoding="utf-8"))
+            except (ValueError, OSError):
+                self.stats = {}
+
+    def retired(self, qid):
+        s = self.stats.get(qid)
+        return bool(s) and (s[1] >= 5 or s[2] >= 3)
+
+    def _save_stats(self):
+        if not self.stats_path:
+            return
+        tmp = self.stats_path.with_suffix(".tmp")
+        tmp.write_text(json.dumps(self.stats), encoding="utf-8")
+        tmp.replace(self.stats_path)
 
     def reload_bank(self):
         """题库文件有变化（增删改）就重新读；返回是否重新读了。文件写到一半读不了时先用旧题库。"""
@@ -631,14 +667,14 @@ class QuizEngine:
         q = None
         # 题库里也有数学题（看钟、钱、图形）时，数学有三成机会出题库里的
         if subject != math or (subject in have and self.rng.random() < 0.3):
-            pool = [s for s in self.static if s.subject == subject and s.difficulty == difficulty
-                    and s.id not in self.recent] or [s for s in self.static if s.subject == subject
-                                                   and s.difficulty == difficulty]
+            alive = [s for s in self.static if s.subject == subject and s.difficulty == difficulty
+                     and not self.retired(s.id)]
+            pool = [s for s in alive if s.id not in self.recent] or alive
             q = self.rng.choice(pool) if pool else None
         if q is None:
             q = self.math.generate(difficulty, self.rules.grade)
             for _ in range(10):
-                if q.id not in self.recent:
+                if q.id not in self.recent and not self.retired(q.id):
                     break
                 q = self.math.generate(difficulty, self.rules.grade)
         self.recent.add(q.id)
@@ -653,7 +689,12 @@ class QuizEngine:
             return {"error": self.lang["msg"]["cooldown"].format(s=self.cooling_down())}
         q, issued = self.pending.pop(qid)
         correct = choice == q.answer
-        delta, message = evaluate(self.rules, q, correct, time.time() - issued, earned_today, remaining)
+        s = self.stats.setdefault(q.id, [0, 0, 0])
+        delta, message = evaluate(self.rules, q, correct, time.time() - issued, earned_today, remaining, s[0] + 1)
+        s[0] += 1
+        s[1] += correct
+        s[2] = s[2] + 1 if correct else 0
+        self._save_stats()
         self.wrong_streak = 0 if correct else self.wrong_streak + 1
         if self.wrong_streak >= self.WRONG_LIMIT:
             self.wrong_streak = 0

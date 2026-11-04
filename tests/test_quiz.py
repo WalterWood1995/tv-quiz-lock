@@ -536,3 +536,30 @@ console.log([[0,0,0,0,0],[0,1,0,0,0],[0,1,1,0,0],[0,1,1,1,0],[0,1,1,1,1],[1,1,1,
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RepeatRuleTest(unittest.TestCase):
+    def test_repeat_rewards_penalties_and_retire(self):
+        import tempfile
+        from homecontrol.quiz import QuizEngine, Rules
+        with tempfile.TemporaryDirectory() as d:
+            e = QuizEngine(Rules(), stats_path=Path(d) / "s.json")
+            e.rules.min_answer_seconds = 0
+            q = e.next_question("hard")
+            full = e.rules.reward["hard"]
+
+            def ask(correct):
+                e.pending[q.id] = (q, 0)
+                choice = q.answer if correct else (q.answer + 1) % len(q.options)
+                return e.answer(q.id, choice, 0, 100)
+            self.assertEqual(ask(True)["delta"], full)
+            self.assertEqual(ask(False)["delta"], 0)       # 第 2 次：难题答错不扣
+            self.assertEqual(ask(False)["delta"], -full / 2)  # 第 3 次答错扣一半
+            r = ask(True)
+            self.assertEqual(r["delta"], full / 4)         # 第 4 次答对 1/4
+            self.assertIn("1/4", r["message"])
+            ask(True)
+            self.assertFalse(e.retired(q.id))
+            ask(True)                                     # 连续答对 3 次
+            self.assertTrue(e.retired(q.id))
+            self.assertTrue(QuizEngine(Rules(), stats_path=Path(d) / "s.json").retired(q.id))
