@@ -1,0 +1,812 @@
+[
+ {
+  "id": "de8-mathe-001",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Term ist gleich (x + 3)²?",
+  "options": [
+   "x² + 6x + 9",
+   "x² + 9",
+   "x² + 3x + 9",
+   "x² + 6x + 6"
+  ],
+  "answer": "A",
+  "hint": "Denk an die 1. binomische Formel (a + b)² = a² + 2ab + b².",
+  "explanation": "(x + 3)² = x² + 2·3·x + 9 = x² + 6x + 9.",
+  "more": "Der häufigste Fehler ist, das Mischglied 2ab zu vergessen."
+ },
+ {
+  "id": "de8-mathe-002",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Löse die Gleichung 3x − 7 = 2x + 5.",
+  "options": [
+   "x = 2",
+   "x = 12",
+   "x = −12",
+   "x = −2"
+  ],
+  "answer": "B",
+  "hint": "Bringe alle x auf eine Seite und alle Zahlen auf die andere.",
+  "explanation": "3x − 2x = 5 + 7, also x = 12.",
+  "more": "Mit einer Probe (Einsetzen) kann man jede Lösung schnell kontrollieren."
+ },
+ {
+  "id": "de8-mathe-003",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viel sind 20 % von 85 €?",
+  "options": [
+   "68 €",
+   "1700 €",
+   "17 €",
+   "4,25 €"
+  ],
+  "answer": "C",
+  "hint": "20 % ist ein Fünftel.",
+  "explanation": "85 € : 5 = 17 €.",
+  "more": "68 € wäre der Preis nach 20 % Rabatt."
+ },
+ {
+  "id": "de8-mathe-004",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie groß ist der Median der Daten 3, 8, 1, 9, 4, 7?",
+  "options": [
+   "4",
+   "6",
+   "5,33",
+   "5,5"
+  ],
+  "answer": "D",
+  "hint": "Erst der Größe nach ordnen!",
+  "explanation": "Geordnet: 1, 3, 4, 7, 8, 9. Mitte zwischen 4 und 7: 5,5.",
+  "more": "Bei einer geraden Anzahl von Werten ist der Median der Mittelwert der beiden mittleren Werte."
+ },
+ {
+  "id": "de8-mathe-005",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In einem Dreieck ist α = 48° und β = 67°. Wie groß ist γ?",
+  "options": [
+   "65°",
+   "75°",
+   "55°",
+   "245°"
+  ],
+  "answer": "A",
+  "hint": "Die Innenwinkelsumme im Dreieck ist fest.",
+  "explanation": "γ = 180° − 48° − 67° = 65°.",
+  "more": "Im Viereck beträgt die Innenwinkelsumme 360°."
+ },
+ {
+  "id": "de8-mathe-006",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Kreis hat den Radius r = 5 cm. Wie groß ist seine Fläche?",
+  "options": [
+   "10π cm²",
+   "25π cm²",
+   "5π cm²",
+   "50π cm²"
+  ],
+  "answer": "B",
+  "hint": "A = π · r².",
+  "explanation": "A = π · 5² = 25π cm² ≈ 78,5 cm².",
+  "more": "10π cm wäre der Umfang des Kreises (u = 2πr)."
+ },
+ {
+  "id": "de8-mathe-007",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Steigung hat die Gerade durch P(1|2) und Q(3|8)?",
+  "options": [
+   "1/3",
+   "2",
+   "3",
+   "6"
+  ],
+  "answer": "C",
+  "hint": "Steigung = Δy : Δx.",
+  "explanation": "m = (8 − 2) : (3 − 1) = 6 : 2 = 3.",
+  "more": "Vertauscht man Δx und Δy, erhält man den typischen Fehler 1/3."
+ },
+ {
+  "id": "de8-mathe-008",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Berechne √144 + √25.",
+  "options": [
+   "13",
+   "7",
+   "19",
+   "17"
+  ],
+  "answer": "D",
+  "hint": "Ziehe jede Wurzel einzeln.",
+  "explanation": "√144 = 12 und √25 = 5, zusammen 17.",
+  "more": "Achtung: √144 + √25 ist nicht √169 = 13."
+ },
+ {
+  "id": "de8-mathe-009",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Münze wird zweimal geworfen. Wie groß ist die Wahrscheinlichkeit für zweimal Kopf?",
+  "options": [
+   "1/4",
+   "1/2",
+   "1/3",
+   "3/4"
+  ],
+  "answer": "A",
+  "hint": "Pfadregel: Wahrscheinlichkeiten entlang eines Pfades multiplizieren.",
+  "explanation": "1/2 · 1/2 = 1/4.",
+  "more": "Es gibt vier gleich wahrscheinliche Ergebnisse: KK, KZ, ZK, ZZ."
+ },
+ {
+  "id": "de8-mathe-010",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Term ist gleich (2a − 3b)²?",
+  "options": [
+   "4a² − 9b²",
+   "4a² − 12ab + 9b²",
+   "4a² − 6ab + 9b²",
+   "4a² + 12ab + 9b²"
+  ],
+  "answer": "B",
+  "hint": "2. binomische Formel – und das Mischglied genau ausrechnen.",
+  "explanation": "(2a)² − 2·2a·3b + (3b)² = 4a² − 12ab + 9b².",
+  "more": "4a² − 9b² entsteht bei (2a − 3b)(2a + 3b)."
+ },
+ {
+  "id": "de8-mathe-011",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie lautet x² − 49 als Produkt?",
+  "options": [
+   "(x − 7)²",
+   "(x + 7)²",
+   "(x − 7)(x + 7)",
+   "(x − 49)(x + 1)"
+  ],
+  "answer": "C",
+  "hint": "3. binomische Formel rückwärts.",
+  "explanation": "x² − 7² = (x − 7)(x + 7).",
+  "more": "Eine Summe a² + b² lässt sich dagegen nicht so zerlegen."
+ },
+ {
+  "id": "de8-mathe-012",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Berechne geschickt 99 · 101.",
+  "options": [
+   "9899",
+   "10099",
+   "9990",
+   "9999"
+  ],
+  "answer": "D",
+  "hint": "Schreibe 99 = 100 − 1 und 101 = 100 + 1.",
+  "explanation": "(100 − 1)(100 + 1) = 10000 − 1 = 9999.",
+  "more": "So rechnet man auch 49 · 51 = 2500 − 1 = 2499 im Kopf."
+ },
+ {
+  "id": "de8-mathe-013",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Löse das Gleichungssystem: x + y = 10 und x − y = 4.",
+  "options": [
+   "x = 7, y = 3",
+   "x = 3, y = 7",
+   "x = 6, y = 4",
+   "x = 8, y = 2"
+  ],
+  "answer": "A",
+  "hint": "Addiere die beiden Gleichungen.",
+  "explanation": "2x = 14, also x = 7 und y = 3.",
+  "more": "Das ist das Additionsverfahren; man kann auch einsetzen oder gleichsetzen."
+ },
+ {
+  "id": "de8-mathe-014",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Löse die Ungleichung −2x + 5 > 11.",
+  "options": [
+   "x > −3",
+   "x < −3",
+   "x < 3",
+   "x > 3"
+  ],
+  "answer": "B",
+  "hint": "Was passiert mit dem Zeichen, wenn man durch eine negative Zahl teilt?",
+  "explanation": "−2x > 6, Division durch −2 dreht das Zeichen: x < −3.",
+  "more": "Bei Multiplikation oder Division mit einer negativen Zahl kehrt sich das Ungleichheitszeichen um."
+ },
+ {
+  "id": "de8-mathe-015",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Gerade ist parallel zu y = 2x + 1 und geht durch P(2|1)?",
+  "options": [
+   "y = −0,5x + 2",
+   "y = 2x + 3",
+   "y = 2x − 3",
+   "y = 2x − 1"
+  ],
+  "answer": "C",
+  "hint": "Parallele Geraden haben dieselbe Steigung.",
+  "explanation": "m = 2; 1 = 2·2 + b ergibt b = −3.",
+  "more": "y = −0,5x + 2 geht zwar durch P, steht aber senkrecht auf y = 2x + 1."
+ },
+ {
+  "id": "de8-mathe-016",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Löse die Bruchgleichung 6/(x − 1) = 3.",
+  "options": [
+   "x = 2",
+   "x = 1",
+   "x = 7",
+   "x = 3"
+  ],
+  "answer": "D",
+  "hint": "Multipliziere mit dem Nenner (x − 1).",
+  "explanation": "6 = 3(x − 1) ⇒ x − 1 = 2 ⇒ x = 3.",
+  "more": "x = 1 gehört nicht zur Definitionsmenge, weil der Nenner dort 0 wird."
+ },
+ {
+  "id": "de8-mathe-017",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "2000 € werden 2 Jahre lang mit 3 % Zinseszins angelegt. Wie hoch ist das Guthaben danach?",
+  "options": [
+   "2121,80 €",
+   "2120,00 €",
+   "2060,00 €",
+   "2180,00 €"
+  ],
+  "answer": "A",
+  "hint": "Jedes Jahr wird das Guthaben mit 1,03 multipliziert.",
+  "explanation": "2000 · 1,03² = 2000 · 1,0609 = 2121,80 €.",
+  "more": "Ohne Zinseszins wären es nur 2120 €; der Unterschied wächst mit der Zeit stark."
+ },
+ {
+  "id": "de8-mathe-018",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Preis wird um 20 % erhöht und danach um 20 % gesenkt. Wie verhält sich der neue Preis zum alten?",
+  "options": [
+   "gleich teuer",
+   "4 % billiger",
+   "4 % teurer",
+   "2 % billiger"
+  ],
+  "answer": "B",
+  "hint": "Rechne mit einem Beispielpreis von 100 €.",
+  "explanation": "100 · 1,2 · 0,8 = 96, also 4 % billiger.",
+  "more": "Die zweite Änderung bezieht sich auf einen anderen Grundwert als die erste."
+ },
+ {
+  "id": "de8-mathe-019",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In einer Urne liegen 3 rote und 2 blaue Kugeln. Man zieht zwei ohne Zurücklegen. Wie groß ist P(beide rot)?",
+  "options": [
+   "9/25",
+   "1/5",
+   "3/10",
+   "2/5"
+  ],
+  "answer": "C",
+  "hint": "Beim zweiten Zug ist eine Kugel weniger in der Urne.",
+  "explanation": "3/5 · 2/4 = 6/20 = 3/10.",
+  "more": "9/25 wäre richtig beim Ziehen mit Zurücklegen."
+ },
+ {
+  "id": "de8-mathe-020",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Würfel wird zweimal geworfen. Wie groß ist die Wahrscheinlichkeit für mindestens eine Sechs?",
+  "options": [
+   "1/3",
+   "10/36",
+   "1/36",
+   "11/36"
+  ],
+  "answer": "D",
+  "hint": "Nutze das Gegenereignis „keine Sechs“.",
+  "explanation": "1 − (5/6)² = 1 − 25/36 = 11/36.",
+  "more": "1/6 + 1/6 = 1/3 zählt den Fall „zwei Sechsen“ doppelt."
+ },
+ {
+  "id": "de8-mathe-021",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "C liegt auf dem Kreis mit Durchmesser AB (C ≠ A, B). Im Dreieck ABC ist α = 35°. Wie groß ist β?",
+  "options": [
+   "55°",
+   "35°",
+   "90°",
+   "145°"
+  ],
+  "answer": "A",
+  "hint": "Satz des Thales: Welcher Winkel ist bekannt?",
+  "explanation": "γ = 90° (Thales), also β = 180° − 90° − 35° = 55°.",
+  "more": "Umgekehrt gilt: Ist γ = 90°, liegt C auf dem Thaleskreis über AB."
+ },
+ {
+  "id": "de8-mathe-022",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In einem gleichschenkligen Dreieck sind die Basiswinkel je 70°. Wie groß ist der Winkel an der Spitze?",
+  "options": [
+   "110°",
+   "40°",
+   "70°",
+   "20°"
+  ],
+  "answer": "B",
+  "hint": "Es gibt zwei gleich große Basiswinkel.",
+  "explanation": "180° − 2 · 70° = 40°.",
+  "more": "Sind alle drei Winkel 60°, ist das Dreieck gleichseitig."
+ },
+ {
+  "id": "de8-mathe-023",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Angaben legen ein Dreieck NICHT eindeutig fest?",
+  "options": [
+   "a = 5, b = 7, γ = 40°",
+   "a = 5, b = 7, c = 9",
+   "a = 5, b = 7, α = 40°",
+   "c = 6, α = 40°, β = 60°"
+  ],
+  "answer": "C",
+  "hint": "Kongruenzsätze: SSS, SWS, WSW, SsW – worauf kommt es bei SsW an?",
+  "explanation": "α liegt der kürzeren Seite a gegenüber; dazu gibt es zwei verschiedene Dreiecke.",
+  "more": "SsW ist nur eindeutig, wenn der Winkel der längeren der beiden Seiten gegenüberliegt."
+ },
+ {
+  "id": "de8-mathe-024",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Trapez hat die parallelen Seiten a = 8 cm und c = 4 cm sowie die Höhe h = 5 cm. Wie groß ist die Fläche?",
+  "options": [
+   "60 cm²",
+   "20 cm²",
+   "40 cm²",
+   "30 cm²"
+  ],
+  "answer": "D",
+  "hint": "A = (a + c) : 2 · h.",
+  "explanation": "(8 + 4) : 2 · 5 = 6 · 5 = 30 cm².",
+  "more": "Das Trapez hat dieselbe Fläche wie ein Rechteck mit der Mittellinie als Breite."
+ },
+ {
+  "id": "de8-mathe-025",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Gegeben sind die Daten 2, 4, 4, 5, 7, 8, 9, 10, 12. Welche Aussage stimmt?",
+  "options": [
+   "Spannweite 10, Median 7",
+   "Spannweite 10, Median 6,78",
+   "Spannweite 12, Median 7",
+   "Spannweite 8, Median 7"
+  ],
+  "answer": "A",
+  "hint": "Spannweite = Maximum − Minimum.",
+  "explanation": "12 − 2 = 10; der 5. von 9 Werten ist 7.",
+  "more": "6,78 ist das arithmetische Mittel, nicht der Median."
+ },
+ {
+  "id": "de8-mathe-026",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Vereinfache 3(x − 2) − 2(x − 5).",
+  "options": [
+   "x − 16",
+   "x + 4",
+   "x − 4",
+   "5x − 16"
+  ],
+  "answer": "B",
+  "hint": "Achte auf das Minus vor der zweiten Klammer.",
+  "explanation": "3x − 6 − 2x + 10 = x + 4.",
+  "more": "Ein Minus vor der Klammer ändert alle Vorzeichen in der Klammer."
+ },
+ {
+  "id": "de8-mathe-027",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Nach 15 % Rabatt kostet eine Jacke 68 €. Wie viel kostete sie vorher?",
+  "options": [
+   "78,20 €",
+   "83 €",
+   "80 €",
+   "85 €"
+  ],
+  "answer": "C",
+  "hint": "68 € entsprechen 85 % des alten Preises.",
+  "explanation": "68 € : 0,85 = 80 €.",
+  "more": "68 · 1,15 = 78,20 € ist falsch, weil sich die 15 % auf den alten Preis beziehen."
+ },
+ {
+  "id": "de8-mathe-028",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Ausdruck ist gleich √50?",
+  "options": [
+   "25√2",
+   "2√5",
+   "10√5",
+   "5√2"
+  ],
+  "answer": "D",
+  "hint": "Zerlege 50 in eine Quadratzahl mal einen Rest.",
+  "explanation": "√50 = √(25 · 2) = 5√2.",
+  "more": "Teilweises Wurzelziehen: √(a²·b) = a√b für a ≥ 0."
+ },
+ {
+  "id": "de8-mathe-029",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Bei einem Glücksrad gewinnt man mit Wahrscheinlichkeit 1/4. Man dreht zweimal. Wie groß ist P(genau ein Gewinn)?",
+  "options": [
+   "3/8",
+   "1/4",
+   "3/16",
+   "1/2"
+  ],
+  "answer": "A",
+  "hint": "Zwei Pfade führen zu „genau ein Gewinn“.",
+  "explanation": "2 · 1/4 · 3/4 = 6/16 = 3/8.",
+  "more": "Summenregel: Wahrscheinlichkeiten passender Pfade werden addiert."
+ },
+ {
+  "id": "de8-mathe-030",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Vereinfache (x + 2)² − (x − 2)².",
+  "options": [
+   "0",
+   "8x",
+   "8",
+   "4x"
+  ],
+  "answer": "B",
+  "hint": "Beide Quadrate ausmultiplizieren – oder die 3. binomische Formel nutzen.",
+  "explanation": "(x² + 4x + 4) − (x² − 4x + 4) = 8x.",
+  "more": "Allgemein gilt (a + b)² − (a − b)² = 4ab."
+ },
+ {
+  "id": "de8-mathe-031",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Für zwei Zahlen gilt a + b = 7 und a · b = 10. Wie groß ist a² + b²?",
+  "options": [
+   "49",
+   "39",
+   "29",
+   "59"
+  ],
+  "answer": "C",
+  "hint": "Quadriere a + b und vergleiche mit a² + b².",
+  "explanation": "(a + b)² = a² + 2ab + b², also a² + b² = 49 − 20 = 29.",
+  "more": "Die Zahlen sind 2 und 5: 4 + 25 = 29."
+ },
+ {
+  "id": "de8-mathe-032",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele Lösungen hat das System 2x + 3y = 12 und 4x + 6y = 20?",
+  "options": [
+   "genau eine Lösung",
+   "unendlich viele Lösungen",
+   "genau zwei Lösungen",
+   "keine Lösung"
+  ],
+  "answer": "D",
+  "hint": "Verdopple die erste Gleichung und vergleiche.",
+  "explanation": "Verdoppelt: 4x + 6y = 24, aber gefordert ist 20 – Widerspruch.",
+  "more": "Geometrisch sind das zwei parallele, verschiedene Geraden."
+ },
+ {
+  "id": "de8-mathe-033",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Bestimme die Lösungsmenge von 2/(x − 3) = (x − 1)/(x − 3).",
+  "options": [
+   "L = { }",
+   "L = {3}",
+   "L = {1}",
+   "L = {−3}"
+  ],
+  "answer": "A",
+  "hint": "Prüfe die Definitionsmenge, bevor du die Lösung hinschreibst.",
+  "explanation": "Aus 2 = x − 1 folgt x = 3, aber 3 ist nicht erlaubt (Nenner 0). L = { }.",
+  "more": "Bei Bruchgleichungen muss man jede Lösung mit der Definitionsmenge abgleichen."
+ },
+ {
+  "id": "de8-mathe-034",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Punkt schneiden sich die Geraden y = 2x − 1 und y = −x + 5?",
+  "options": [
+   "(3|5)",
+   "(2|3)",
+   "(3|2)",
+   "(1|1)"
+  ],
+  "answer": "B",
+  "hint": "Gleichsetzen: 2x − 1 = −x + 5.",
+  "explanation": "3x = 6, x = 2, y = 3.",
+  "more": "(3|5) und (1|1) liegen nur auf der ersten Geraden."
+ },
+ {
+  "id": "de8-mathe-035",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Gerade geht durch A(−2|5) und B(4|−1)?",
+  "options": [
+   "y = x + 7",
+   "y = −x + 7",
+   "y = −x + 3",
+   "y = −2x + 1"
+  ],
+  "answer": "C",
+  "hint": "Erst die Steigung, dann b mit einem Punkt bestimmen.",
+  "explanation": "m = (−1 − 5) : (4 + 2) = −1; 5 = 2 + b ⇒ b = 3.",
+  "more": "Mache am Ende immer die Probe mit dem zweiten Punkt."
+ },
+ {
+  "id": "de8-mathe-036",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Guthaben wird mit 5 % pro Jahr verzinst (Zinseszins). Nach wie vielen vollen Jahren hat es sich erstmals mindestens verdoppelt?",
+  "options": [
+   "nach 20 Jahren",
+   "nach 14 Jahren",
+   "nach 10 Jahren",
+   "nach 15 Jahren"
+  ],
+  "answer": "D",
+  "hint": "Probiere 1,05ⁿ für einige n aus.",
+  "explanation": "1,05¹⁴ ≈ 1,98 < 2, aber 1,05¹⁵ ≈ 2,08 ≥ 2.",
+  "more": "Faustregel: Verdopplungszeit ≈ 72 : Zinssatz (hier ≈ 14,4 Jahre)."
+ },
+ {
+  "id": "de8-mathe-037",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Drei Münzen werden geworfen. Wie groß ist die Wahrscheinlichkeit für mindestens zweimal Kopf?",
+  "options": [
+   "1/2",
+   "3/8",
+   "1/4",
+   "3/4"
+  ],
+  "answer": "A",
+  "hint": "Zähle die Fälle „genau 2“ und „genau 3“ Kopf.",
+  "explanation": "3/8 + 1/8 = 4/8 = 1/2.",
+  "more": "3/8 ist nur „genau zweimal Kopf“."
+ },
+ {
+  "id": "de8-mathe-038",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit, dass die Augensumme 7 oder 11 ist?",
+  "options": [
+   "1/6",
+   "2/9",
+   "1/18",
+   "7/36"
+  ],
+  "answer": "B",
+  "hint": "Zähle die Paare für 7 und für 11 getrennt.",
+  "explanation": "7: 6 Paare, 11: 2 Paare; 8/36 = 2/9.",
+  "more": "Die Summe 7 ist bei zwei Würfeln die wahrscheinlichste Augensumme."
+ },
+ {
+  "id": "de8-mathe-039",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "AB ist Durchmesser eines Kreises mit Mittelpunkt M, C liegt auf dem Kreis. Es gilt ∠AMC = 100°. Wie groß ist ∠BAC?",
+  "options": [
+   "50°",
+   "80°",
+   "40°",
+   "100°"
+  ],
+  "answer": "C",
+  "hint": "Das Dreieck AMC hat zwei gleich lange Seiten.",
+  "explanation": "MA = MC (Radien), also ∠MAC = (180° − 100°) : 2 = 40°.",
+  "more": "Der Winkel bei C im Dreieck ABC ist nach Thales 90°, also ∠ABC = 50°."
+ },
+ {
+  "id": "de8-mathe-040",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Im Dreieck ABC ist α = 50°. Der Außenwinkel bei C beträgt 120°. Wie groß ist β?",
+  "options": [
+   "60°",
+   "10°",
+   "130°",
+   "70°"
+  ],
+  "answer": "D",
+  "hint": "Ein Außenwinkel ist so groß wie die Summe der beiden nicht anliegenden Innenwinkel.",
+  "explanation": "120° = α + β ⇒ β = 70°.",
+  "more": "Der Innenwinkel γ ist hier 180° − 120° = 60°."
+ },
+ {
+  "id": "de8-mathe-041",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie groß ist die Fläche des Kreisrings zwischen zwei Kreisen mit gleichem Mittelpunkt und den Radien 5 cm und 3 cm?",
+  "options": [
+   "16π cm²",
+   "4π cm²",
+   "2π cm²",
+   "34π cm²"
+  ],
+  "answer": "A",
+  "hint": "Große Kreisfläche minus kleine Kreisfläche.",
+  "explanation": "π · 5² − π · 3² = 25π − 9π = 16π cm².",
+  "more": "π · (5 − 3)² = 4π ist ein typischer Fehler."
+ },
+ {
+  "id": "de8-mathe-042",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Berechne (√3 + 1)(√3 − 1).",
+  "options": [
+   "4",
+   "2",
+   "1",
+   "√2"
+  ],
+  "answer": "B",
+  "hint": "3. binomische Formel.",
+  "explanation": "(√3)² − 1² = 3 − 1 = 2.",
+  "more": "So kann man Wurzeln aus Nennern entfernen („Nenner rational machen“)."
+ },
+ {
+  "id": "de8-mathe-043",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Löse die Ungleichung 3(x − 1) ≤ 5x + 7.",
+  "options": [
+   "x ≤ −5",
+   "x ≥ 5",
+   "x ≥ −5",
+   "x ≤ 5"
+  ],
+  "answer": "C",
+  "hint": "Bringe die x auf die rechte Seite, dann bleibt der Faktor positiv.",
+  "explanation": "3x − 3 ≤ 5x + 7 ⇒ −10 ≤ 2x ⇒ x ≥ −5.",
+  "more": "Probe mit x = 0: −3 ≤ 7 stimmt, also muss 0 zur Lösung gehören."
+ },
+ {
+  "id": "de8-mathe-044",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Wert steigt um 25 %. Um wie viel Prozent muss er danach sinken, um wieder den Ausgangswert zu erreichen?",
+  "options": [
+   "25 %",
+   "75 %",
+   "80 %",
+   "20 %"
+  ],
+  "answer": "D",
+  "hint": "Rechne mit 100 → 125 → 100.",
+  "explanation": "Von 125 muss man 25 abziehen: 25 : 125 = 20 %.",
+  "more": "Prozentuale Änderungen hin und zurück sind nicht symmetrisch."
+ },
+ {
+  "id": "de8-mathe-045",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Für welches k hat das System x + 2y = 5 und 3x + ky = 1 keine Lösung?",
+  "options": [
+   "k = 6",
+   "k = −6",
+   "k = 2",
+   "k = 3"
+  ],
+  "answer": "A",
+  "hint": "Wann sind die beiden Geraden parallel?",
+  "explanation": "Für k = 6 ist die zweite Gleichung linke Seite das 3-Fache der ersten, aber 1 ≠ 15.",
+  "more": "Bei k = 6 und rechter Seite 15 gäbe es unendlich viele Lösungen."
+ }
+]

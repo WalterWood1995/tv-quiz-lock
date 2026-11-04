@@ -1,0 +1,452 @@
+[
+ {
+  "id": "de8-gemeinschaftskunde-001",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Artikel des Grundgesetzes steht: „Die Würde des Menschen ist unantastbar.“?",
+  "options": [
+   "Artikel 3",
+   "Artikel 1",
+   "Artikel 5",
+   "Artikel 20"
+  ],
+  "answer": "B",
+  "hint": "Ganz am Anfang.",
+  "explanation": "Artikel 1 Abs. 1 GG stellt die Menschenwürde an die Spitze.",
+  "more": "Die Grundrechte stehen in den Artikeln 1 bis 19."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-002",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ab welchem Alter darf man bei der Bundestagswahl wählen?",
+  "options": [
+   "18",
+   "16",
+   "14",
+   "21"
+  ],
+  "answer": "A",
+  "hint": "Volljährigkeit.",
+  "explanation": "Das aktive Wahlrecht zum Bundestag beginnt mit 18 Jahren.",
+  "more": "Bei Kommunalwahlen in Baden-Württemberg darf man schon ab 16 wählen."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-003",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was ist die Landeshauptstadt von Baden-Württemberg?",
+  "options": [
+   "Karlsruhe",
+   "Freiburg",
+   "Mannheim",
+   "Stuttgart"
+  ],
+  "answer": "D",
+  "hint": "Dort sitzt der Landtag.",
+  "explanation": "Stuttgart ist Landeshauptstadt und Sitz von Landtag und Landesregierung.",
+  "more": "Baden-Württemberg wurde 1952 gegründet."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-004",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Jahr trat das Grundgesetz in Kraft?",
+  "options": [
+   "1945",
+   "1990",
+   "1949",
+   "1871"
+  ],
+  "answer": "C",
+  "hint": "Vier Jahre nach Kriegsende.",
+  "explanation": "Das Grundgesetz trat am 23. Mai 1949 in Kraft.",
+  "more": "Der 23. Mai gilt deshalb als Verfassungstag."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-005",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ab welchem Alter ist man in Deutschland strafmündig?",
+  "options": [
+   "12",
+   "14",
+   "16",
+   "18"
+  ],
+  "answer": "B",
+  "hint": "Ab diesem Alter gilt man als Jugendlicher.",
+  "explanation": "Nach § 19 StGB ist schuldunfähig, wer noch nicht 14 Jahre alt ist.",
+  "more": "Für Jugendliche gilt das Jugendgerichtsgesetz, das Erziehung in den Vordergrund stellt."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-006",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Aus wie vielen Bundesländern besteht Deutschland?",
+  "options": [
+   "16",
+   "12",
+   "11",
+   "18"
+  ],
+  "answer": "A",
+  "hint": "Seit der Wiedervereinigung 1990.",
+  "explanation": "Deutschland hat seit 1990 16 Bundesländer.",
+  "more": "Drei davon sind Stadtstaaten: Berlin, Hamburg und Bremen."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-007",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer wählt den Bundeskanzler?",
+  "options": [
+   "das Volk direkt",
+   "der Bundesrat",
+   "der Bundespräsident",
+   "der Bundestag"
+  ],
+  "answer": "D",
+  "hint": "Der Bundespräsident schlägt vor, gewählt wird woanders.",
+  "explanation": "Der Bundestag wählt den Bundeskanzler auf Vorschlag des Bundespräsidenten (Art. 63 GG).",
+  "more": "Die Bürger wählen den Kanzler also nur indirekt über den Bundestag."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-008",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wen vertritt der Bundesrat?",
+  "options": [
+   "die Gemeinden",
+   "die Parteien",
+   "die Bundesländer",
+   "die Europäische Union"
+  ],
+  "answer": "C",
+  "hint": "Seine Mitglieder kommen aus den Landesregierungen.",
+  "explanation": "Über den Bundesrat wirken die Länder an der Gesetzgebung des Bundes mit.",
+  "more": "Je nach Einwohnerzahl hat ein Land 3 bis 6 Stimmen."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-009",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer wählt den Bundespräsidenten?",
+  "options": [
+   "das Volk direkt",
+   "die Bundesversammlung",
+   "der Bundesrat allein",
+   "die Bundesregierung"
+  ],
+  "answer": "B",
+  "hint": "Ein Gremium, das nur zu diesem Zweck zusammentritt.",
+  "explanation": "Die Bundesversammlung aus Bundestagsabgeordneten und Ländervertretern wählt den Bundespräsidenten.",
+  "more": "Seine Amtszeit beträgt fünf Jahre, eine Wiederwahl ist einmal möglich."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-010",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie lange dauert eine Wahlperiode des Bundestages?",
+  "options": [
+   "4 Jahre",
+   "5 Jahre",
+   "6 Jahre",
+   "3 Jahre"
+  ],
+  "answer": "A",
+  "hint": "Kürzer als die des Bundespräsidenten.",
+  "explanation": "Der Bundestag wird nach Art. 39 GG auf vier Jahre gewählt.",
+  "more": "Eine vorzeitige Auflösung ist nur in Ausnahmefällen möglich."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-011",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ab welchem Alter darf man in Baden-Württemberg bei Kommunalwahlen wählen?",
+  "options": [
+   "14",
+   "18",
+   "17",
+   "16"
+  ],
+  "answer": "D",
+  "hint": "Früher als bei der Bundestagswahl.",
+  "explanation": "In Baden-Württemberg gilt bei Kommunalwahlen das Wahlalter 16.",
+  "more": "Bei der Landtagswahl gilt in Baden-Württemberg seit 2022 ebenfalls Wahlalter 16."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-012",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ab welchem Alter dürfen Jugendliche laut Jugendschutzgesetz ohne Begleitung Bier oder Wein kaufen?",
+  "options": [
+   "14",
+   "18",
+   "16",
+   "12"
+  ],
+  "answer": "C",
+  "hint": "Für Schnaps gilt eine höhere Grenze.",
+  "explanation": "Bier, Wein und Sekt dürfen an Jugendliche ab 16 abgegeben werden.",
+  "more": "Branntwein und branntweinhaltige Getränke erst ab 18."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-013",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Artikel des Grundgesetzes ist die Meinungs- und Pressefreiheit geregelt?",
+  "options": [
+   "Artikel 1",
+   "Artikel 5",
+   "Artikel 8",
+   "Artikel 12"
+  ],
+  "answer": "B",
+  "hint": "Er steht kurz nach der Religionsfreiheit (Art. 4).",
+  "explanation": "Art. 5 GG schützt Meinungs-, Presse-, Rundfunk- und Kunstfreiheit.",
+  "more": "Eine Zensur findet laut Art. 5 nicht statt."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-014",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Begriff ist KEIN Wahlgrundsatz nach Art. 38 GG?",
+  "options": [
+   "öffentlich",
+   "geheim",
+   "allgemein",
+   "unmittelbar"
+  ],
+  "answer": "A",
+  "hint": "Niemand soll sehen, wen du wählst.",
+  "explanation": "Die Grundsätze lauten: allgemein, unmittelbar, frei, gleich und geheim.",
+  "more": "Die geheime Wahl schützt vor Druck und Einschüchterung."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-015",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Stimme ist bei der Bundestagswahl für die Sitzverteilung der Parteien entscheidend?",
+  "options": [
+   "die Erststimme",
+   "beide gleich stark",
+   "keine – der Bundesrat entscheidet",
+   "die Zweitstimme"
+  ],
+  "answer": "D",
+  "hint": "Sie wird für eine Landesliste abgegeben.",
+  "explanation": "Die Zweitstimme bestimmt, wie viele Sitze eine Partei im Bundestag erhält.",
+  "more": "Mit der Erststimme wählt man einen Wahlkreiskandidaten."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-016",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Mehrheit ist für eine Änderung des Grundgesetzes nötig?",
+  "options": [
+   "einfache Mehrheit im Bundestag",
+   "Zustimmung des Bundespräsidenten allein",
+   "Zwei Drittel in Bundestag und Bundesrat",
+   "Volksabstimmung"
+  ],
+  "answer": "C",
+  "hint": "Eine besonders hohe Hürde in zwei Organen.",
+  "explanation": "Nach Art. 79 Abs. 2 GG braucht es Zweidrittelmehrheiten in Bundestag und Bundesrat.",
+  "more": "Dadurch soll die Verfassung vor schnellen Änderungen geschützt werden."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-017",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viel Prozent der Zweitstimmen braucht eine Partei in der Regel, um in den Bundestag einzuziehen?",
+  "options": [
+   "3 Prozent",
+   "5 Prozent",
+   "10 Prozent",
+   "1 Prozent"
+  ],
+  "answer": "B",
+  "hint": "Man spricht von einer „Hürde“.",
+  "explanation": "Die Fünfprozenthürde soll eine Zersplitterung des Parlaments verhindern.",
+  "more": "Für Parteien nationaler Minderheiten wie den SSW gilt sie nicht."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-018",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ab welchem Alter darf ein Kind in Deutschland allein über seine Religion entscheiden?",
+  "options": [
+   "14",
+   "12",
+   "16",
+   "18"
+  ],
+  "answer": "A",
+  "hint": "Gleiches Alter wie die Strafmündigkeit.",
+  "explanation": "Nach dem Gesetz über religiöse Kindererziehung ist man mit 14 religionsmündig.",
+  "more": "Ab 12 darf ein Kind nicht mehr gegen seinen Willen in ein anderes Bekenntnis umerzogen werden."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-019",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Jahr verabschiedeten die Vereinten Nationen die Kinderrechtskonvention?",
+  "options": [
+   "1949",
+   "1975",
+   "2001",
+   "1989"
+  ],
+  "answer": "D",
+  "hint": "Im Jahr des Mauerfalls.",
+  "explanation": "Die UN-Kinderrechtskonvention wurde am 20. November 1989 verabschiedet.",
+  "more": "Der 20. November ist deshalb der Internationale Tag der Kinderrechte."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-020",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Für wie viele Jahre wird ein Bürgermeister in Baden-Württemberg gewählt?",
+  "options": [
+   "4 Jahre",
+   "5 Jahre",
+   "8 Jahre",
+   "6 Jahre"
+  ],
+  "answer": "C",
+  "hint": "Länger als der Gemeinderat.",
+  "explanation": "Bürgermeister werden in BW direkt vom Volk für acht Jahre gewählt.",
+  "more": "Er ist zugleich Vorsitzender des Gemeinderats."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-021",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Für wie viele Jahre wird ein Gemeinderat in Baden-Württemberg gewählt?",
+  "options": [
+   "4 Jahre",
+   "5 Jahre",
+   "6 Jahre",
+   "8 Jahre"
+  ],
+  "answer": "B",
+  "hint": "Ein Jahr länger als der Bundestag.",
+  "explanation": "Die Gemeinderäte in Baden-Württemberg werden für fünf Jahre gewählt.",
+  "more": "Beim Wählen kann man kumulieren und panaschieren."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-022",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie nennt das Jugendgerichtsgesetz Personen von 18 bis unter 21 Jahren?",
+  "options": [
+   "Heranwachsende",
+   "Jugendliche",
+   "Kinder",
+   "Volljährige Minderjährige"
+  ],
+  "answer": "A",
+  "hint": "Sie sind schon erwachsen, aber noch nicht ganz.",
+  "explanation": "Heranwachsende sind 18 bis unter 21; Jugendliche 14 bis unter 18.",
+  "more": "Bei Heranwachsenden kann das Gericht noch Jugendstrafrecht anwenden."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-023",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Artikel des Grundgesetzes nennt Deutschland einen „demokratischen und sozialen Bundesstaat“?",
+  "options": [
+   "Artikel 1",
+   "Artikel 38",
+   "Artikel 79",
+   "Artikel 20"
+  ],
+  "answer": "D",
+  "hint": "Dort steht auch: „Alle Staatsgewalt geht vom Volke aus.“",
+  "explanation": "Art. 20 GG enthält die Staatsstrukturprinzipien: Demokratie, Sozialstaat, Bundesstaat, Rechtsstaat.",
+  "more": "Art. 20 Abs. 4 gibt sogar ein Widerstandsrecht gegen die Beseitigung dieser Ordnung."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-024",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie nennt man die Regelung in Art. 79 Abs. 3 GG, die Art. 1 und 20 vor Änderungen schützt?",
+  "options": [
+   "Notstandsgesetz",
+   "Fünfprozentklausel",
+   "Ewigkeitsklausel",
+   "Föderalismusreform"
+  ],
+  "answer": "C",
+  "hint": "Sie gilt „für immer“.",
+  "explanation": "Die Ewigkeitsklausel verbietet Änderungen an Menschenwürde, Demokratie und Bundesstaatlichkeit.",
+  "more": "Damit reagierten die Väter und Mütter des Grundgesetzes auf die Erfahrungen der NS-Zeit."
+ },
+ {
+  "id": "de8-gemeinschaftskunde-025",
+  "subject": "gemeinschaftskunde",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ab welchem Alter ist man nach BGB beschränkt geschäftsfähig?",
+  "options": [
+   "6",
+   "7",
+   "10",
+   "14"
+  ],
+  "answer": "B",
+  "hint": "Ab dann gilt der „Taschengeldparagraf“.",
+  "explanation": "Mit 7 Jahren beginnt die beschränkte Geschäftsfähigkeit (§ 106 BGB).",
+  "more": "Nach § 110 BGB sind Käufe mit eigenem Taschengeld wirksam."
+ }
+]

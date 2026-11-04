@@ -1,0 +1,632 @@
+[
+ {
+  "id": "de8-franzoesisch-001",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Hier, nous ___ au cinéma.",
+  "options": [
+   "sommes allés",
+   "avons allés",
+   "sommes allé",
+   "avons allé"
+  ],
+  "answer": "A",
+  "hint": "'aller' bildet das passé composé nicht mit avoir.",
+  "explanation": "aller → être; das participe richtet sich nach dem Subjekt (nous → allés).",
+  "more": "Mit être: Verben der Bewegung wie venir, partir, arriver, rester."
+ },
+ {
+  "id": "de8-franzoesisch-002",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? J'___ mangé une pizza.",
+  "options": [
+   "suis",
+   "ai",
+   "as",
+   "a"
+  ],
+  "answer": "B",
+  "hint": "manger bildet das passé composé mit avoir.",
+  "explanation": "j'ai, tu as, il a … + participe passé.",
+  "more": "Die meisten Verben bilden das passé composé mit avoir."
+ },
+ {
+  "id": "de8-franzoesisch-003",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Les filles sont ___ hier soir.",
+  "options": [
+   "sorti",
+   "sortis",
+   "sorties",
+   "sortie"
+  ],
+  "answer": "C",
+  "hint": "Wer ist ausgegangen – und wie viele?",
+  "explanation": "Mit être wird das participe angeglichen: weiblich Plural → -ies.",
+  "more": "Bei gemischten Gruppen steht die männliche Form: ils sont sortis."
+ },
+ {
+  "id": "de8-franzoesisch-004",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Les photos ? Je les ai ___.",
+  "options": [
+   "pris",
+   "prise",
+   "prendre",
+   "prises"
+  ],
+  "answer": "D",
+  "hint": "Das Objekt steht vor dem Verb.",
+  "explanation": "Mit avoir wird angeglichen, wenn das direkte Objekt vorher steht (les = les photos, f. Pl.).",
+  "more": "Ohne vorangestelltes Objekt: J'ai pris les photos."
+ },
+ {
+  "id": "de8-franzoesisch-005",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Quand j'étais petit, je ___ souvent au foot.",
+  "options": [
+   "jouais",
+   "joue",
+   "jouerai",
+   "jouerais"
+  ],
+  "answer": "A",
+  "hint": "Gewohnheit in der Vergangenheit.",
+  "explanation": "Gewohnheiten und Zustände in der Vergangenheit stehen im imparfait.",
+  "more": "Signalwörter: souvent, toujours, d'habitude, quand j'étais petit."
+ },
+ {
+  "id": "de8-franzoesisch-006",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Je regardais la télé quand mon père ___.",
+  "options": [
+   "a arrivé",
+   "est arrivé",
+   "arrivera",
+   "arrive"
+  ],
+  "answer": "B",
+  "hint": "Eine neue Handlung setzt plötzlich ein.",
+  "explanation": "Hintergrund im imparfait, einsetzende Handlung im passé composé (arriver → être).",
+  "more": "Merkhilfe: imparfait = Kulisse, passé composé = Ereignis."
+ },
+ {
+  "id": "de8-franzoesisch-007",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Demain, il ___ beau.",
+  "options": [
+   "faira",
+   "fairait",
+   "fera",
+   "a fait"
+  ],
+  "answer": "C",
+  "hint": "Futur simple von faire ist unregelmäßig.",
+  "explanation": "faire im futur simple: je ferai, il fera …",
+  "more": "Weitere unregelmäßige Stämme: ir- (aller), ser- (être), aur- (avoir)."
+ },
+ {
+  "id": "de8-franzoesisch-008",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? L'année prochaine, nous ___ en France.",
+  "options": [
+   "allerons",
+   "irerons",
+   "sommes allés",
+   "irons"
+  ],
+  "answer": "D",
+  "hint": "aller hat einen besonderen Futurstamm.",
+  "explanation": "aller im futur simple: j'irai, nous irons …",
+  "more": "Endungen des futur simple: -ai, -as, -a, -ons, -ez, -ont."
+ },
+ {
+  "id": "de8-franzoesisch-009",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Quand je ___ grand, je serai pilote.",
+  "options": [
+   "serai",
+   "suis",
+   "sera",
+   "serais"
+  ],
+  "answer": "A",
+  "hint": "Anders als im Deutschen!",
+  "explanation": "Nach 'quand' mit Zukunftsbezug steht im Französischen das futur simple.",
+  "more": "Deutsch: Wenn ich groß bin … – Französisch: Quand je serai grand …"
+ },
+ {
+  "id": "de8-franzoesisch-010",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Pronomen passt? Tu vois Marie ? – Oui, je ___ vois.",
+  "options": [
+   "lui",
+   "la",
+   "le",
+   "leur"
+  ],
+  "answer": "B",
+  "hint": "voir + direktes Objekt, Marie ist weiblich.",
+  "explanation": "Direktes Objektpronomen weiblich Singular: la.",
+  "more": "Vor Vokal wird la zu l': je l'aime."
+ },
+ {
+  "id": "de8-franzoesisch-011",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Pronomen passt? Tu téléphones à tes parents ? – Oui, je ___ téléphone.",
+  "options": [
+   "les",
+   "lui",
+   "leur",
+   "leurs"
+  ],
+  "answer": "C",
+  "hint": "téléphoner à quelqu'un, Plural.",
+  "explanation": "Indirektes Objekt (à + Person) im Plural: leur (ohne -s).",
+  "more": "leurs mit -s ist ein Possessivbegleiter: leurs parents."
+ },
+ {
+  "id": "de8-franzoesisch-012",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Pronomen passt? Tu vas à Paris ? – Oui, j'___ vais.",
+  "options": [
+   "en",
+   "l'",
+   "lui",
+   "y"
+  ],
+  "answer": "D",
+  "hint": "Es ersetzt einen Ort mit 'à'.",
+  "explanation": "y ersetzt Ortsangaben mit à, en, dans …",
+  "more": "en ersetzt Angaben mit de: Tu viens de Paris ? – Oui, j'en viens."
+ },
+ {
+  "id": "de8-franzoesisch-013",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Pronomen passt? Tu veux du gâteau ? – Oui, j'___ veux bien.",
+  "options": [
+   "en",
+   "y",
+   "l'",
+   "lui"
+  ],
+  "answer": "A",
+  "hint": "'du' ist ein Teilungsartikel.",
+  "explanation": "en ersetzt Ergänzungen mit du/de la/des oder Mengenangaben.",
+  "more": "Mit Menge: J'en veux deux morceaux."
+ },
+ {
+  "id": "de8-franzoesisch-014",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Pronomen passt? Tu as parlé à Paul ? – Oui, je ___ ai parlé.",
+  "options": [
+   "l'",
+   "lui",
+   "le",
+   "y"
+  ],
+  "answer": "B",
+  "hint": "parler à quelqu'un.",
+  "explanation": "Indirektes Objekt (à + Person) im Singular: lui – für Männer und Frauen.",
+  "more": "Beim indirekten Objekt gibt es keine Angleichung des participe."
+ },
+ {
+  "id": "de8-franzoesisch-015",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Paris est ___ grande que Lyon.",
+  "options": [
+   "plus de",
+   "la plus",
+   "plus",
+   "très"
+  ],
+  "answer": "C",
+  "hint": "Vergleich mit 'que'.",
+  "explanation": "Komparativ: plus/moins/aussi + Adjektiv + que.",
+  "more": "Paris hat über zwei Millionen Einwohner, Lyon etwa eine halbe Million."
+ },
+ {
+  "id": "de8-franzoesisch-016",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Ce gâteau est ___ que l'autre.",
+  "options": [
+   "plus bon",
+   "mieux",
+   "plus meilleur",
+   "meilleur"
+  ],
+  "answer": "D",
+  "hint": "bon hat eine unregelmäßige Steigerung.",
+  "explanation": "bon → meilleur → le meilleur.",
+  "more": "mieux ist der Komparativ des Adverbs bien."
+ },
+ {
+  "id": "de8-franzoesisch-017",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? C'est la ville ___ belle de France.",
+  "options": [
+   "la plus",
+   "le plus",
+   "plus la",
+   "très"
+  ],
+  "answer": "A",
+  "hint": "Superlativ, ville ist weiblich.",
+  "explanation": "Superlativ: le/la/les plus + Adjektiv; der Artikel richtet sich nach dem Nomen.",
+  "more": "Nach dem Superlativ steht 'de': le plus grand de la classe."
+ },
+ {
+  "id": "de8-franzoesisch-018",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Artikel passt? J'adore ___ pain français.",
+  "options": [
+   "du",
+   "le",
+   "de la",
+   "des"
+  ],
+  "answer": "B",
+  "hint": "Nach 'adorer' spricht man allgemein über etwas.",
+  "explanation": "Nach Verben der Vorliebe (aimer, adorer, détester) steht der bestimmte Artikel.",
+  "more": "Aber: Je mange du pain – hier steht der Teilungsartikel."
+ },
+ {
+  "id": "de8-franzoesisch-019",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form passt? Je ne bois pas ___ café.",
+  "options": [
+   "du",
+   "des",
+   "de",
+   "de la"
+  ],
+  "answer": "C",
+  "hint": "Nach der Verneinung wird der Teilungsartikel verkürzt.",
+  "explanation": "Nach ne … pas wird du/de la/des zu de (d').",
+  "more": "Ausnahme mit être: Ce n'est pas du café."
+ },
+ {
+  "id": "de8-franzoesisch-020",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form passt? J'achète un kilo ___ pommes.",
+  "options": [
+   "des",
+   "du",
+   "les",
+   "de"
+  ],
+  "answer": "D",
+  "hint": "Nach Mengenangaben steht eine kurze Form.",
+  "explanation": "Nach Mengenangaben (un kilo, beaucoup, un peu) steht nur de.",
+  "more": "Ebenso: une bouteille d'eau, beaucoup de temps."
+ },
+ {
+  "id": "de8-franzoesisch-021",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie sagt man: „Ich sehe niemanden.“?",
+  "options": [
+   "Je ne vois personne.",
+   "Je ne vois rien.",
+   "Je ne vois plus.",
+   "Je vois personne pas."
+  ],
+  "answer": "A",
+  "hint": "niemand = personne.",
+  "explanation": "ne … personne = niemand; ne … rien = nichts.",
+  "more": "Personne n'est venu. – Niemand ist gekommen."
+ },
+ {
+  "id": "de8-franzoesisch-022",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie sagt man: „Ich habe nichts gegessen.“?",
+  "options": [
+   "Je n'ai mangé rien.",
+   "Je n'ai rien mangé.",
+   "Je n'ai pas rien mangé.",
+   "Je ne mange rien."
+  ],
+  "answer": "B",
+  "hint": "rien steht im passé composé vor dem participe.",
+  "explanation": "Im passé composé umschließen ne … rien das Hilfsverb.",
+  "more": "Bei personne ist es anders: Je n'ai vu personne."
+ },
+ {
+  "id": "de8-franzoesisch-023",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie sagt man: „Er geht nie ins Kino.“?",
+  "options": [
+   "Il ne va plus au cinéma.",
+   "Il va jamais pas au cinéma.",
+   "Il ne va jamais au cinéma.",
+   "Il ne jamais va au cinéma."
+  ],
+  "answer": "C",
+  "hint": "nie = jamais.",
+  "explanation": "ne … jamais umschließt das konjugierte Verb.",
+  "more": "ne … plus heißt nicht mehr."
+ },
+ {
+  "id": "de8-franzoesisch-024",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Frage ist korrekt?",
+  "options": [
+   "Où tu habites-tu ?",
+   "Où habite tu ?",
+   "Où est-ce que habites-tu ?",
+   "Où habites-tu ?"
+  ],
+  "answer": "D",
+  "hint": "Inversion mit Bindestrich.",
+  "explanation": "Inversionsfrage: Fragewort + Verb-Subjektpronomen.",
+  "more": "Alternative: Où est-ce que tu habites ?"
+ },
+ {
+  "id": "de8-franzoesisch-025",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Fragewort passt? ___ coûte ce pull ? – 30 euros.",
+  "options": [
+   "Combien",
+   "Comment",
+   "Pourquoi",
+   "Quand"
+  ],
+  "answer": "A",
+  "hint": "Es geht um den Preis.",
+  "explanation": "combien = wie viel.",
+  "more": "comment = wie, pourquoi = warum, quand = wann."
+ },
+ {
+  "id": "de8-franzoesisch-026",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was bedeutet „la boulangerie“?",
+  "options": [
+   "die Metzgerei",
+   "die Bäckerei",
+   "die Buchhandlung",
+   "die Apotheke"
+  ],
+  "answer": "B",
+  "hint": "Dort kauft man Baguette.",
+  "explanation": "la boulangerie = Bäckerei.",
+  "more": "Metzgerei = la boucherie, Apotheke = la pharmacie."
+ },
+ {
+  "id": "de8-franzoesisch-027",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was bedeutet „le petit-déjeuner“?",
+  "options": [
+   "das Mittagessen",
+   "das Abendessen",
+   "das Frühstück",
+   "der Nachtisch"
+  ],
+  "answer": "C",
+  "hint": "Die erste Mahlzeit des Tages.",
+  "explanation": "le petit-déjeuner = Frühstück.",
+  "more": "le déjeuner = Mittagessen, le dîner = Abendessen."
+ },
+ {
+  "id": "de8-franzoesisch-028",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was bedeutet „Je me lève.“?",
+  "options": [
+   "Ich lege mich hin.",
+   "Ich wasche mich.",
+   "Ich lerne.",
+   "Ich stehe auf."
+  ],
+  "answer": "D",
+  "hint": "se lever ist ein reflexives Verb.",
+  "explanation": "se lever = aufstehen.",
+  "more": "se coucher = ins Bett gehen, se laver = sich waschen."
+ },
+ {
+  "id": "de8-franzoesisch-029",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Fluss fließt durch Paris?",
+  "options": [
+   "la Seine",
+   "la Loire",
+   "le Rhône",
+   "la Garonne"
+  ],
+  "answer": "A",
+  "hint": "Am Ufer stehen die Bouquinistes.",
+  "explanation": "Die Seine fließt durch Paris.",
+  "more": "Die Loire ist der längste Fluss Frankreichs."
+ },
+ {
+  "id": "de8-franzoesisch-030",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Land ist Französisch Amtssprache?",
+  "options": [
+   "Portugal",
+   "Senegal",
+   "Brasilien",
+   "Argentinien"
+  ],
+  "answer": "B",
+  "hint": "Westafrika.",
+  "explanation": "Im Senegal ist Französisch Amtssprache.",
+  "more": "Weltweit gibt es über 300 Millionen Französischsprechende."
+ },
+ {
+  "id": "de8-franzoesisch-031",
+  "subject": "franzoesisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was feiert man in Frankreich am 14. Juli?",
+  "options": [
+   "Weihnachten",
+   "den Tag der Arbeit",
+   "den Nationalfeiertag",
+   "das Kriegsende 1945"
+  ],
+  "answer": "C",
+  "hint": "Denk an 1789.",
+  "explanation": "Der 14 juillet erinnert an den Sturm auf die Bastille 1789.",
+  "more": "In Paris gibt es eine große Parade auf den Champs-Élysées."
+ },
+ {
+  "id": "de8-franzoesisch-032",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welcher kanadischen Provinz spricht die Mehrheit Französisch?",
+  "options": [
+   "Ontario",
+   "Alberta",
+   "British Columbia",
+   "Québec"
+  ],
+  "answer": "D",
+  "hint": "Hauptstadt dieser Provinz trägt denselben Namen.",
+  "explanation": "In Québec ist Französisch die einzige Amtssprache der Provinz.",
+  "more": "Montréal ist eine der größten französischsprachigen Städte der Welt."
+ },
+ {
+  "id": "de8-franzoesisch-033",
+  "subject": "franzoesisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Elle ___ levée tôt.",
+  "options": [
+   "s'est",
+   "s'a",
+   "se est",
+   "a se"
+  ],
+  "answer": "A",
+  "hint": "Reflexive Verben bilden das passé composé mit être.",
+  "explanation": "Reflexive Verben: Pronomen + être + participe (elle s'est levée).",
+  "more": "Je me suis levé(e), tu t'es levé(e) …"
+ },
+ {
+  "id": "de8-franzoesisch-034",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Ils sont ___ en train.",
+  "options": [
+   "venu",
+   "venus",
+   "venues",
+   "venis"
+  ],
+  "answer": "B",
+  "hint": "venir bildet das passé composé mit être.",
+  "explanation": "Das participe von venir ist venu; mit être Angleichung: ils → venus.",
+  "more": "Ebenso: revenir, devenir."
+ },
+ {
+  "id": "de8-franzoesisch-035",
+  "subject": "franzoesisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Fragewort passt? ___ se passe ?",
+  "options": [
+   "Qu'est-ce que",
+   "Qui est-ce que",
+   "Qu'est-ce qui",
+   "Quoi"
+  ],
+  "answer": "C",
+  "hint": "Das Fragewort ist hier Subjekt und fragt nach einer Sache.",
+  "explanation": "Qu'est-ce qui fragt nach einer Sache als Subjekt; qu'est-ce que nach dem Objekt.",
+  "more": "Qu'est-ce que tu fais ? – Was machst du?"
+ }
+]

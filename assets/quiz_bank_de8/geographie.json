@@ -1,0 +1,542 @@
+[
+ {
+  "id": "de8-geographie-001",
+  "subject": "geographie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Stadt ist die Landeshauptstadt von Baden-Württemberg?",
+  "options": [
+   "Karlsruhe",
+   "Stuttgart",
+   "Mannheim",
+   "Freiburg"
+  ],
+  "answer": "B",
+  "hint": "Hier hat der Landtag seinen Sitz.",
+  "explanation": "Stuttgart ist die Landeshauptstadt.",
+  "more": "In Karlsruhe sitzt das Bundesverfassungsgericht."
+ },
+ {
+  "id": "de8-geographie-002",
+  "subject": "geographie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Stadt ist die Hauptstadt Spaniens?",
+  "options": [
+   "Madrid",
+   "Barcelona",
+   "Sevilla",
+   "Valencia"
+  ],
+  "answer": "A",
+  "hint": "Sie liegt etwa in der Mitte des Landes.",
+  "explanation": "Madrid ist die Hauptstadt Spaniens.",
+  "more": "Barcelona ist die Hauptstadt der Region Katalonien."
+ },
+ {
+  "id": "de8-geographie-003",
+  "subject": "geographie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher ist der höchste Berg der Alpen?",
+  "options": [
+   "Zugspitze",
+   "Matterhorn",
+   "Großglockner",
+   "Mont Blanc"
+  ],
+  "answer": "D",
+  "hint": "Er liegt an der Grenze von Frankreich und Italien.",
+  "explanation": "Der Mont Blanc ist rund 4800 m hoch.",
+  "more": "Die Zugspitze ist der höchste Berg Deutschlands."
+ },
+ {
+  "id": "de8-geographie-004",
+  "subject": "geographie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welchen Breitengrad hat der Äquator?",
+  "options": [
+   "90°",
+   "180°",
+   "0°",
+   "23,5°"
+  ],
+  "answer": "C",
+  "hint": "Von hier zählt man nach Norden und Süden.",
+  "explanation": "Der Äquator ist der Breitenkreis 0°.",
+  "more": "Die Pole liegen bei 90° N und 90° S."
+ },
+ {
+  "id": "de8-geographie-005",
+  "subject": "geographie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo liegen die tropischen Regenwälder?",
+  "options": [
+   "In der Nähe der Pole",
+   "In der Nähe des Äquators",
+   "Nur in Europa",
+   "In den Wüsten der Subtropen"
+  ],
+  "answer": "B",
+  "hint": "Dort ist es ganzjährig warm und feucht.",
+  "explanation": "Tropische Regenwälder liegen beiderseits des Äquators.",
+  "more": "Das größte Regenwaldgebiet liegt im Amazonasbecken."
+ },
+ {
+  "id": "de8-geographie-006",
+  "subject": "geographie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "An welche drei Staaten grenzt der Bodensee?",
+  "options": [
+   "Deutschland, Österreich, Schweiz",
+   "Deutschland, Frankreich, Schweiz",
+   "Deutschland, Österreich, Italien",
+   "Österreich, Schweiz, Liechtenstein"
+  ],
+  "answer": "A",
+  "hint": "Das „Schwäbische Meer“ im Süden von BW.",
+  "explanation": "Am Bodensee liegen Deutschland, Österreich und die Schweiz.",
+  "more": "Der Rhein fließt durch den Bodensee."
+ },
+ {
+  "id": "de8-geographie-007",
+  "subject": "geographie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Stadt ist die Hauptstadt Polens?",
+  "options": [
+   "Krakau",
+   "Danzig",
+   "Breslau",
+   "Warschau"
+  ],
+  "answer": "D",
+  "hint": "Sie liegt an der Weichsel.",
+  "explanation": "Warschau ist die Hauptstadt Polens.",
+  "more": "Krakau war früher lange Zeit Hauptstadt."
+ },
+ {
+  "id": "de8-geographie-008",
+  "subject": "geographie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie heißt die Gesteinsschmelze, wenn sie an der Erdoberfläche austritt?",
+  "options": [
+   "Magma",
+   "Basalt",
+   "Lava",
+   "Asche"
+  ],
+  "answer": "C",
+  "hint": "Unter der Erde hat sie einen anderen Namen.",
+  "explanation": "Im Erdinneren heißt sie Magma, an der Oberfläche Lava.",
+  "more": "Erstarrte Lava kann zu Basalt werden."
+ },
+ {
+  "id": "de8-geographie-009",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Durch welchen Ort verläuft der Nullmeridian?",
+  "options": [
+   "Paris",
+   "Greenwich bei London",
+   "Berlin",
+   "Rom"
+  ],
+  "answer": "B",
+  "hint": "Dort steht eine berühmte Sternwarte.",
+  "explanation": "Der Nullmeridian (0° Länge) wurde 1884 durch Greenwich festgelegt.",
+  "more": "Von dort zählt man bis 180° nach Osten und Westen."
+ },
+ {
+  "id": "de8-geographie-010",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo entspringt die Donau?",
+  "options": [
+   "Im Schwarzwald",
+   "In den Alpen",
+   "Im Odenwald",
+   "Im Bayerischen Wald"
+  ],
+  "answer": "A",
+  "hint": "Bei Donaueschingen fließen Brigach und Breg zusammen.",
+  "explanation": "Die Donau entsteht aus Brigach und Breg im Schwarzwald.",
+  "more": "Sie mündet ins Schwarze Meer."
+ },
+ {
+  "id": "de8-geographie-011",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Mit welcher Skala gibt man häufig die Stärke (Magnitude) eines Erdbebens an?",
+  "options": [
+   "Beaufortskala",
+   "Celsiusskala",
+   "Mohs-Skala",
+   "Richterskala"
+  ],
+  "answer": "D",
+  "hint": "Benannt nach einem amerikanischen Seismologen.",
+  "explanation": "Die Richterskala beschreibt die Magnitude, also die freigesetzte Energie.",
+  "more": "Fachleute nutzen heute meist die Momenten-Magnituden-Skala; die Beaufortskala misst die Windstärke, die Mohs-Skala die Härte."
+ },
+ {
+  "id": "de8-geographie-012",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welcher Klimazone liegt die Sahara?",
+  "options": [
+   "In den inneren Tropen",
+   "In der gemäßigten Zone",
+   "In den Subtropen",
+   "In der kalten Zone"
+  ],
+  "answer": "C",
+  "hint": "Dort sinkt trockene Luft ab.",
+  "explanation": "Die Sahara liegt im Bereich der subtropischen Hochdruckgebiete.",
+  "more": "Die Sahara ist die größte heiße Wüste der Erde."
+ },
+ {
+  "id": "de8-geographie-013",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Vegetation ist typisch für die Taiga?",
+  "options": [
+   "Tropischer Regenwald",
+   "Borealer Nadelwald",
+   "Savanne",
+   "Hartlaubwald"
+  ],
+  "answer": "B",
+  "hint": "Sie liegt in Nordeuropa, Sibirien und Kanada.",
+  "explanation": "Die Taiga ist ein Nadelwaldgürtel der kaltgemäßigten Zone.",
+  "more": "Typische Bäume sind Fichte, Kiefer und Lärche."
+ },
+ {
+  "id": "de8-geographie-014",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Warum gibt es auf Island viele Vulkane?",
+  "options": [
+   "Dort driften zwei Platten auseinander.",
+   "Dort taucht eine Ozeanplatte im Pazifik ab.",
+   "Dort stoßen zwei Kontinente frontal zusammen.",
+   "Island liegt mitten auf einer Platte ohne Grenze."
+  ],
+  "answer": "A",
+  "hint": "Island liegt auf dem Mittelatlantischen Rücken.",
+  "explanation": "Die Nordamerikanische und die Eurasische Platte driften auseinander; Magma steigt auf.",
+  "more": "Dort entsteht ständig neue Erdkruste."
+ },
+ {
+  "id": "de8-geographie-015",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie ist der Himalaya entstanden?",
+  "options": [
+   "Durch einen einzigen Riesenvulkan",
+   "Durch Ablagerungen eines Flusses",
+   "Durch das Auseinanderdriften zweier Platten",
+   "Durch Kollision der Indischen mit der Eurasischen Platte"
+  ],
+  "answer": "D",
+  "hint": "Indien bewegt sich nach Norden.",
+  "explanation": "Beim Zusammenstoß wurden Gesteine zu einem Faltengebirge aufgefaltet.",
+  "more": "Der Himalaya hebt sich noch heute."
+ },
+ {
+  "id": "de8-geographie-016",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Wetter bringt ein Hochdruckgebiet meist?",
+  "options": [
+   "Dauerregen",
+   "Stürme und Gewitter",
+   "Trockenes, wolkenarmes Wetter",
+   "Dichte Wolken und Schnee"
+  ],
+  "answer": "C",
+  "hint": "Im Hoch sinkt Luft ab.",
+  "explanation": "Absinkende Luft erwärmt sich, Wolken lösen sich auf.",
+  "more": "Im Winter kann ein Hoch aber auch Nebel bringen."
+ },
+ {
+  "id": "de8-geographie-017",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was versteht man unter Klima im Unterschied zum Wetter?",
+  "options": [
+   "Das Wetter eines einzelnen Tages",
+   "Den langjährigen Durchschnitt des Wetters an einem Ort",
+   "Einen Begriff nur für die Tropen",
+   "Die Temperatur einer einzigen Woche"
+  ],
+  "answer": "B",
+  "hint": "Denk an Zeiträume von Jahrzehnten.",
+  "explanation": "Klima wird meist über 30 Jahre ermittelt, Wetter ist der momentane Zustand.",
+  "more": "Klimadiagramme zeigen Monatsmittel von Temperatur und Niederschlag."
+ },
+ {
+  "id": "de8-geographie-018",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was ist der Föhn?",
+  "options": [
+   "Ein warmer, trockener Fallwind im Lee eines Gebirges",
+   "Ein kalter Wind vom Meer",
+   "Ein tropischer Wirbelsturm",
+   "Ein feuchter Aufwind vor dem Gebirge"
+  ],
+  "answer": "A",
+  "hint": "Er weht vom Gebirge herab.",
+  "explanation": "Absteigende Luft erwärmt sich stark, daher ist der Wind warm und trocken.",
+  "more": "Föhn ist im Alpenvorland bei Südwind bekannt."
+ },
+ {
+  "id": "de8-geographie-019",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Um wie viele Längengrade dreht sich die Erde in einer Stunde weiter?",
+  "options": [
+   "1°",
+   "24°",
+   "30°",
+   "15°"
+  ],
+  "answer": "D",
+  "hint": "360° in 24 Stunden.",
+  "explanation": "360° : 24 h = 15° pro Stunde.",
+  "more": "Darauf beruhen die Zeitzonen."
+ },
+ {
+  "id": "de8-geographie-020",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Gebirge bildet die Grenze zwischen Spanien und Frankreich?",
+  "options": [
+   "Apenninen",
+   "Karpaten",
+   "Pyrenäen",
+   "Alpen"
+  ],
+  "answer": "C",
+  "hint": "Andorra liegt darin.",
+  "explanation": "Die Pyrenäen trennen die Iberische Halbinsel vom übrigen Europa.",
+  "more": "Die Apenninen durchziehen Italien."
+ },
+ {
+  "id": "de8-geographie-021",
+  "subject": "geographie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welches Meer mündet der Rhein?",
+  "options": [
+   "In die Ostsee",
+   "In die Nordsee",
+   "Ins Mittelmeer",
+   "Ins Schwarze Meer"
+  ],
+  "answer": "B",
+  "hint": "Er mündet in den Niederlanden.",
+  "explanation": "Der Rhein mündet in einem Delta in den Niederlanden in die Nordsee.",
+  "more": "Bei Rotterdam liegt einer der größten Häfen Europas."
+ },
+ {
+  "id": "de8-geographie-022",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ort B liegt 45° östlich von Ort A. Wie groß ist der Unterschied der Ortszeit (Sonnenzeit)?",
+  "options": [
+   "3 Stunden, in B ist es später",
+   "3 Stunden, in B ist es früher",
+   "45 Minuten, in B ist es später",
+   "4,5 Stunden, in B ist es später"
+  ],
+  "answer": "A",
+  "hint": "15° entsprechen einer Stunde.",
+  "explanation": "45° : 15° = 3 h; im Osten steht die Sonne früher im Süden, die Uhr ist voraus.",
+  "more": "Amtliche Zeitzonen folgen oft Ländergrenzen."
+ },
+ {
+  "id": "de8-geographie-023",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wohin wehen die Passatwinde?",
+  "options": [
+   "Vom Äquator zu den Polen",
+   "Von den Polen zu den Subtropen",
+   "Von West nach Ost über Europa",
+   "Von den subtropischen Hochdruckgebieten zum Äquator"
+  ],
+  "answer": "D",
+  "hint": "Luft strömt vom Hoch zum Tief.",
+  "explanation": "Passate wehen zur äquatorialen Tiefdruckrinne und werden dabei abgelenkt.",
+  "more": "Auf der Nordhalbkugel heißen sie Nordost-Passat."
+ },
+ {
+  "id": "de8-geographie-024",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was kennzeichnet ein kontinentales Klima im Vergleich zum maritimen?",
+  "options": [
+   "Milde Winter und kühle Sommer",
+   "Ganzjährig hohe Niederschläge",
+   "Große Temperaturunterschiede zwischen Sommer und Winter",
+   "Gleichbleibende Temperatur das ganze Jahr"
+  ],
+  "answer": "C",
+  "hint": "Meere speichern Wärme.",
+  "explanation": "Fern vom Meer fehlt der ausgleichende Einfluss: heiße Sommer, kalte Winter.",
+  "more": "Moskau ist ein typisches Beispiel."
+ },
+ {
+  "id": "de8-geographie-025",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Tal liegt bei 20 °C. Die Temperatur sinkt um 0,6 °C je 100 m. Wie warm ist es auf einem 2000 m höheren Gipfel?",
+  "options": [
+   "12 °C",
+   "8 °C",
+   "14 °C",
+   "0 °C"
+  ],
+  "answer": "B",
+  "hint": "Rechne die Abnahme für 2000 m aus.",
+  "explanation": "2000 m · 0,6 °C/100 m = 12 °C Abnahme; 20 °C − 12 °C = 8 °C.",
+  "more": "Darum liegen auf hohen Bergen oft Schnee und Eis."
+ },
+ {
+  "id": "de8-geographie-026",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie ist der Oberrheingraben entstanden?",
+  "options": [
+   "Ein Krustenstück sank zwischen Schwarzwald und Vogesen ab.",
+   "Der Rhein hat ihn allein ausgegraben.",
+   "Ein Gletscher schob ihn aus.",
+   "Ein Meteorit schlug dort ein."
+  ],
+  "answer": "A",
+  "hint": "Es ist ein Grabenbruch.",
+  "explanation": "Durch Dehnung der Erdkruste sank ein Streifen ab, die Ränder blieben als Gebirge stehen.",
+  "more": "Der Graben ist eine der wärmsten Regionen Deutschlands."
+ },
+ {
+  "id": "de8-geographie-027",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Erscheinung ist typisch für den Karst der Schwäbischen Alb?",
+  "options": [
+   "Aktive Vulkane",
+   "Gletscher",
+   "Sanddünen",
+   "Dolinen und versickernde Flüsse"
+  ],
+  "answer": "D",
+  "hint": "Kalkstein wird von Wasser gelöst.",
+  "explanation": "Regenwasser löst Kalk; es entstehen Höhlen, Dolinen und Trockentäler.",
+  "more": "Bei Immendingen versickert ein Teil der Donau."
+ },
+ {
+  "id": "de8-geographie-028",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Warum gibt es rund um den Pazifik besonders viele Vulkane und Erdbeben?",
+  "options": [
+   "Dort ist das Wasser besonders warm.",
+   "Der Pazifik liegt mitten auf einer Platte.",
+   "Dort tauchen an Plattengrenzen Platten ab (Subduktion).",
+   "Dort ist die Erdkruste am dicksten."
+  ],
+  "answer": "C",
+  "hint": "Man spricht vom Pazifischen Feuerring.",
+  "explanation": "An Subduktionszonen steigt Magma auf und Spannungen lösen Beben aus.",
+  "more": "Japan und die Anden liegen am Feuerring."
+ },
+ {
+  "id": "de8-geographie-029",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was gilt am 21. Juni nördlich des nördlichen Polarkreises?",
+  "options": [
+   "Die Sonne geht nicht auf.",
+   "Die Sonne geht nicht unter.",
+   "Tag und Nacht sind genau gleich lang.",
+   "Die Sonne steht mittags im Zenit."
+  ],
+  "answer": "B",
+  "hint": "Die Nordhalbkugel ist zur Sonne geneigt.",
+  "explanation": "Zur Sommersonnenwende herrscht nördlich des Polarkreises Polartag.",
+  "more": "Am 21. Dezember herrscht dort Polarnacht."
+ },
+ {
+  "id": "de8-geographie-030",
+  "subject": "geographie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Stadt ist die Hauptstadt Australiens?",
+  "options": [
+   "Canberra",
+   "Sydney",
+   "Melbourne",
+   "Perth"
+  ],
+  "answer": "A",
+  "hint": "Nicht die größte Stadt des Landes.",
+  "explanation": "Canberra wurde als Kompromiss zwischen Sydney und Melbourne zur Hauptstadt.",
+  "more": "Sydney ist die größte Stadt Australiens."
+ }
+]

@@ -1,0 +1,722 @@
+[
+ {
+  "id": "de8-deutsch-001",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Stilmittel liegt vor: „Der Wind flüstert in den Bäumen.“?",
+  "options": [
+   "Alliteration",
+   "Personifikation",
+   "Anapher",
+   "Ironie"
+  ],
+  "answer": "B",
+  "hint": "Kann Wind wirklich flüstern?",
+  "explanation": "Dem Wind wird eine menschliche Tätigkeit zugeschrieben – das ist eine Personifikation.",
+  "more": "Personifikationen machen Naturerscheinungen lebendig und sind in Balladen sehr häufig."
+ },
+ {
+  "id": "de8-deutsch-002",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Stilmittel liegt vor: „Milch macht müde Männer munter.“?",
+  "options": [
+   "Alliteration",
+   "Anapher",
+   "Personifikation",
+   "Vergleich"
+  ],
+  "answer": "A",
+  "hint": "Achte auf die Anfangsbuchstaben.",
+  "explanation": "Mehrere Wörter beginnen mit demselben Laut „M“ – eine Alliteration.",
+  "more": "Alliterationen findet man oft in Werbesprüchen und Redewendungen wie „Kind und Kegel“."
+ },
+ {
+  "id": "de8-deutsch-003",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Wort gehört in die Lücke: „Ich hoffe, ___ du morgen kommst.“?",
+  "options": [
+   "das",
+   "daß",
+   "was",
+   "dass"
+  ],
+  "answer": "D",
+  "hint": "Lässt sich das Wort durch „dieses“ oder „welches“ ersetzen?",
+  "explanation": "„dass“ ist hier eine Konjunktion, die einen Nebensatz einleitet; „daß“ ist alte Schreibung.",
+  "more": "Seit der Rechtschreibreform 1996 schreibt man die Konjunktion mit „ss“."
+ },
+ {
+  "id": "de8-deutsch-004",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer schrieb die Ballade „Erlkönig“?",
+  "options": [
+   "Friedrich Schiller",
+   "Theodor Fontane",
+   "Johann Wolfgang von Goethe",
+   "Erich Kästner"
+  ],
+  "answer": "C",
+  "hint": "Der Dichter schrieb auch den „Faust“.",
+  "explanation": "Goethe verfasste den „Erlkönig“ 1782.",
+  "more": "Franz Schubert vertonte den „Erlkönig“ als berühmtes Kunstlied."
+ },
+ {
+  "id": "de8-deutsch-005",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Stilmittel liegt vor: „Er ist stark wie ein Bär.“?",
+  "options": [
+   "Metapher",
+   "Vergleich",
+   "Personifikation",
+   "Anapher"
+  ],
+  "answer": "B",
+  "hint": "Achte auf das kleine Wort „wie“.",
+  "explanation": "Durch „wie“ werden zwei Dinge ausdrücklich verglichen – ein Vergleich.",
+  "more": "Eine Metapher wäre es ohne Vergleichswort, z. B. „Er ist ein Bär.“"
+ },
+ {
+  "id": "de8-deutsch-006",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer schrieb die Ballade „Die Bürgschaft“?",
+  "options": [
+   "Friedrich Schiller",
+   "Johann Wolfgang von Goethe",
+   "Theodor Fontane",
+   "Heinrich Heine"
+  ],
+  "answer": "A",
+  "hint": "Er schrieb auch „Wilhelm Tell“.",
+  "explanation": "„Die Bürgschaft“ stammt von Friedrich Schiller (1798).",
+  "more": "1797 gilt als „Balladenjahr“, in dem Goethe und Schiller viele Balladen schrieben."
+ },
+ {
+  "id": "de8-deutsch-007",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Schreibung ist richtig?",
+  "options": [
+   "Rythmus",
+   "Rhytmus",
+   "Rytmus",
+   "Rhythmus"
+  ],
+  "answer": "D",
+  "hint": "Das Wort hat zwei „h“.",
+  "explanation": "Richtig ist „Rhythmus“ – mit „h“ nach dem R und nach dem t.",
+  "more": "Das Wort kommt aus dem Griechischen (rhythmós), daher die ungewöhnliche Schreibung."
+ },
+ {
+  "id": "de8-deutsch-008",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie nennt man ein Gedicht, das eine spannende, oft dramatische Handlung erzählt?",
+  "options": [
+   "Novelle",
+   "Fabel",
+   "Ballade",
+   "Glosse"
+  ],
+  "answer": "C",
+  "hint": "Denke an „Erlkönig“ oder „John Maynard“.",
+  "explanation": "Eine Ballade ist ein erzählendes Gedicht mit Handlung und oft wörtlicher Rede.",
+  "more": "Goethe nannte die Ballade das „Ur-Ei“ der Dichtung, weil sie Lyrik, Epik und Dramatik verbindet."
+ },
+ {
+  "id": "de8-deutsch-009",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer schrieb „Emil und die Detektive“?",
+  "options": [
+   "Michael Ende",
+   "Erich Kästner",
+   "Otfried Preußler",
+   "Cornelia Funke"
+  ],
+  "answer": "B",
+  "hint": "Er schrieb auch „Das doppelte Lottchen“.",
+  "explanation": "„Emil und die Detektive“ erschien 1929 von Erich Kästner.",
+  "more": "Kästner sah 1933 in Berlin selbst zu, wie die Nationalsozialisten seine Bücher verbrannten."
+ },
+ {
+  "id": "de8-deutsch-010",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was ist das Subjekt in „Morgen schreibt die Klasse eine Arbeit.“?",
+  "options": [
+   "die Klasse",
+   "Morgen",
+   "eine Arbeit",
+   "schreibt"
+  ],
+  "answer": "A",
+  "hint": "Frage: Wer oder was schreibt?",
+  "explanation": "Auf die Frage „Wer schreibt?“ antwortet „die Klasse“ – das Subjekt.",
+  "more": "Das Subjekt steht immer im Nominativ und bestimmt die Personalform des Verbs."
+ },
+ {
+  "id": "de8-deutsch-011",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Satzglied ist „dem Schüler“ in „Der Lehrer gibt dem Schüler das Buch.“?",
+  "options": [
+   "Akkusativobjekt",
+   "Subjekt",
+   "Genitivobjekt",
+   "Dativobjekt"
+  ],
+  "answer": "D",
+  "hint": "Frage: Wem gibt der Lehrer das Buch?",
+  "explanation": "„dem Schüler“ antwortet auf „Wem?“ – also Dativobjekt.",
+  "more": "„das Buch“ ist in diesem Satz das Akkusativobjekt (Wen oder was?)."
+ },
+ {
+  "id": "de8-deutsch-012",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie lautet der Konjunktiv I von „er hat“?",
+  "options": [
+   "er hätte",
+   "er hatte",
+   "er habe",
+   "er würde haben"
+  ],
+  "answer": "C",
+  "hint": "Konjunktiv I wird vom Präsensstamm gebildet.",
+  "explanation": "Konjunktiv I: er habe. „er hätte“ ist Konjunktiv II.",
+  "more": "Der Konjunktiv I wird vor allem in der indirekten Rede verwendet, z. B. in Zeitungsberichten."
+ },
+ {
+  "id": "de8-deutsch-013",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Sie sagt: „Ich komme morgen.“ Welche indirekte Rede ist korrekt?",
+  "options": [
+   "Sie sagt, ich komme morgen.",
+   "Sie sagt, sie komme morgen.",
+   "Sie sagt, sie kam morgen.",
+   "Sie sagt, sie sei morgen gekommen."
+  ],
+  "answer": "B",
+  "hint": "Pronomen anpassen und Konjunktiv I verwenden.",
+  "explanation": "Das Pronomen wird zu „sie“, das Verb steht im Konjunktiv I: „komme“.",
+  "more": "Die Zeitangabe bleibt hier gleich, weil die Aussage in der Gegenwart wiedergegeben wird."
+ },
+ {
+  "id": "de8-deutsch-014",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie lautet „Der Hund beißt den Briefträger.“ im Vorgangspassiv Präsens?",
+  "options": [
+   "Der Briefträger wird vom Hund gebissen.",
+   "Der Briefträger wurde vom Hund gebissen.",
+   "Der Hund wird den Briefträger beißen.",
+   "Der Briefträger beißt den Hund."
+  ],
+  "answer": "A",
+  "hint": "Passiv Präsens: „werden“ im Präsens + Partizip II.",
+  "explanation": "Das Akkusativobjekt wird zum Subjekt; Präsens: „wird … gebissen“.",
+  "more": "„wurde gebissen“ wäre Präteritum, „wird beißen“ ist Futur I Aktiv."
+ },
+ {
+  "id": "de8-deutsch-015",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Satz ist richtig mit Kommas gesetzt?",
+  "options": [
+   "Ich glaube dass, er recht hat.",
+   "Ich glaube dass er, recht hat.",
+   "Ich, glaube dass er recht hat.",
+   "Ich glaube, dass er recht hat."
+  ],
+  "answer": "D",
+  "hint": "Das Komma steht vor der Konjunktion.",
+  "explanation": "Der dass-Satz ist ein Nebensatz und wird durch ein Komma vor „dass“ abgetrennt.",
+  "more": "Haupt- und Nebensatz werden im Deutschen immer durch Komma getrennt."
+ },
+ {
+  "id": "de8-deutsch-016",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Art von Adverbialsatz ist „Weil es regnete, blieben wir zu Hause.“?",
+  "options": [
+   "Temporalsatz",
+   "Konditionalsatz",
+   "Kausalsatz",
+   "Konzessivsatz"
+  ],
+  "answer": "C",
+  "hint": "Der Nebensatz nennt einen Grund.",
+  "explanation": "„weil“ leitet einen Kausalsatz (Begründung) ein.",
+  "more": "Weitere kausale Konjunktionen sind „da“ und „zumal“."
+ },
+ {
+  "id": "de8-deutsch-017",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Art von Adverbialsatz ist „Obwohl er müde war, lernte er weiter.“?",
+  "options": [
+   "Kausalsatz",
+   "Konzessivsatz",
+   "Finalsatz",
+   "Konsekutivsatz"
+  ],
+  "answer": "B",
+  "hint": "Es geht um einen Gegengrund, der nicht wirkt.",
+  "explanation": "„obwohl“ leitet einen Konzessivsatz (Einräumung) ein.",
+  "more": "Auch „obgleich“ und „wenngleich“ leiten Konzessivsätze ein."
+ },
+ {
+  "id": "de8-deutsch-018",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Aufgabe hat John Maynard in Fontanes Ballade auf dem Schiff?",
+  "options": [
+   "Steuermann",
+   "Kapitän",
+   "Heizer",
+   "Schiffskoch"
+  ],
+  "answer": "A",
+  "hint": "Er hält das Schiff auf Kurs, bis es das Ufer erreicht.",
+  "explanation": "John Maynard ist der Steuermann der „Schwalbe“ und steuert sie trotz Feuer ans Ufer.",
+  "more": "Die Ballade spielt auf dem Eriesee in Nordamerika."
+ },
+ {
+  "id": "de8-deutsch-019",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Auf welchem See spielt Fontanes Ballade „John Maynard“?",
+  "options": [
+   "Bodensee",
+   "Michigansee",
+   "Genfer See",
+   "Eriesee"
+  ],
+  "answer": "D",
+  "hint": "Das Schiff fährt nach Buffalo.",
+  "explanation": "Die „Schwalbe“ fährt über den Eriesee von Detroit nach Buffalo.",
+  "more": "Der Eriesee ist einer der fünf Großen Seen an der Grenze zwischen USA und Kanada."
+ },
+ {
+  "id": "de8-deutsch-020",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie endet Goethes Ballade „Erlkönig“?",
+  "options": [
+   "Der Vater stirbt.",
+   "Das Kind wird gesund.",
+   "Das Kind ist tot.",
+   "Der Erlkönig flieht."
+  ],
+  "answer": "C",
+  "hint": "Die letzte Zeile ist sehr düster.",
+  "explanation": "Als der Vater den Hof erreicht, liegt das Kind tot in seinen Armen.",
+  "more": "Ob der Erlkönig real ist oder Fieberfantasie, lässt die Ballade offen."
+ },
+ {
+  "id": "de8-deutsch-021",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wen will Möros in Schillers „Die Bürgschaft“ töten?",
+  "options": [
+   "seinen Freund",
+   "den Tyrannen Dionys",
+   "den König Kreon",
+   "einen Räuber"
+  ],
+  "answer": "B",
+  "hint": "Er schleicht mit einem Dolch zu einem Herrscher.",
+  "explanation": "Möros will den Tyrannen Dionys töten und wird gefasst.",
+  "more": "Am Ende ist Dionys von der Freundestreue so gerührt, dass er in den Bund aufgenommen werden will."
+ },
+ {
+  "id": "de8-deutsch-022",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Merkmal ist typisch für eine Kurzgeschichte?",
+  "options": [
+   "unvermittelter Anfang, offener Schluss",
+   "Gliederung in fünf Akte",
+   "gereimte Strophen",
+   "Moral als Lehrsatz am Ende"
+  ],
+  "answer": "A",
+  "hint": "Man wird direkt ins Geschehen geworfen.",
+  "explanation": "Kurzgeschichten beginnen meist ohne Einleitung und enden offen.",
+  "more": "Die deutsche Kurzgeschichte wurde nach 1945 stark von der amerikanischen „short story“ beeinflusst."
+ },
+ {
+  "id": "de8-deutsch-023",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Für welche Textsorte gilt Goethes Satz von der „unerhörten Begebenheit“?",
+  "options": [
+   "Kurzgeschichte",
+   "Fabel",
+   "Ballade",
+   "Novelle"
+  ],
+  "answer": "D",
+  "hint": "Eine mittellange Erzählung um ein besonderes Ereignis.",
+  "explanation": "Goethe beschrieb die Novelle als „eine sich ereignete unerhörte Begebenheit“.",
+  "more": "Bekannte Novellen sind „Der Schimmelreiter“ von Storm und „Kleider machen Leute“ von Keller."
+ },
+ {
+  "id": "de8-deutsch-024",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie lautet der Konjunktiv II von „er geht“?",
+  "options": [
+   "er gehe",
+   "er ging",
+   "er ginge",
+   "er gänge"
+  ],
+  "answer": "C",
+  "hint": "Konjunktiv II wird vom Präteritumstamm gebildet.",
+  "explanation": "Präteritum „ging“ → Konjunktiv II „ginge“.",
+  "more": "Oft ersetzt man ihn durch „würde gehen“, besonders in der gesprochenen Sprache."
+ },
+ {
+  "id": "de8-deutsch-025",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Satzglied ist „seit drei Tagen“ in „Es regnet seit drei Tagen.“?",
+  "options": [
+   "Adverbial des Ortes",
+   "Adverbial der Zeit",
+   "Präpositionalobjekt",
+   "Akkusativobjekt"
+  ],
+  "answer": "B",
+  "hint": "Frage: Seit wann regnet es?",
+  "explanation": "Die Frage „Seit wann?“ zeigt eine adverbiale Bestimmung der Zeit (Temporaladverbial).",
+  "more": "Weitere Adverbiale: des Ortes (wo?), des Grundes (warum?), der Art und Weise (wie?)."
+ },
+ {
+  "id": "de8-deutsch-026",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Gegenstand wird in Goethes „Der Zauberlehrling“ verzaubert?",
+  "options": [
+   "ein Besen",
+   "ein Spiegel",
+   "ein Ring",
+   "ein Kessel"
+  ],
+  "answer": "A",
+  "hint": "Er soll Wasser holen.",
+  "explanation": "Der Lehrling lässt einen Besen Wasser schleppen und kann ihn nicht mehr stoppen.",
+  "more": "Erst der zurückkehrende Hexenmeister beendet den Zauber."
+ },
+ {
+  "id": "de8-deutsch-027",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Stilmittel liegt vor: „Er hat ein Herz aus Stein.“?",
+  "options": [
+   "Vergleich",
+   "Alliteration",
+   "Anapher",
+   "Metapher"
+  ],
+  "answer": "D",
+  "hint": "Es fehlt ein Vergleichswort wie „wie“.",
+  "explanation": "Das Bild „Herz aus Stein“ steht übertragen für Gefühllosigkeit – eine Metapher.",
+  "more": "Metaphern übertragen ein Wort aus seinem Bedeutungsbereich in einen anderen."
+ },
+ {
+  "id": "de8-deutsch-028",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welcher Zeitform schreibt man eine Inhaltsangabe?",
+  "options": [
+   "Präteritum",
+   "Perfekt",
+   "Präsens",
+   "Futur I"
+  ],
+  "answer": "C",
+  "hint": "Dieselbe Zeit wie bei „Er geht“.",
+  "explanation": "Inhaltsangaben stehen im Präsens; Vorzeitiges im Perfekt.",
+  "more": "Eine Inhaltsangabe enthält keine wörtliche Rede und keine eigene Wertung."
+ },
+ {
+  "id": "de8-deutsch-029",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Warum heißt es in der indirekten Rede „Sie sagten, sie hätten keine Zeit“ und nicht „sie haben“?",
+  "options": [
+   "Die Aussage ist gelogen",
+   "Konjunktiv I und Indikativ sind gleich",
+   "Es handelt sich um Vergangenheit",
+   "„haben“ ist ein unregelmäßiges Verb"
+  ],
+  "answer": "B",
+  "hint": "Vergleiche „sie haben“ (Indikativ) mit dem Konjunktiv I.",
+  "explanation": "Der Konjunktiv I „sie haben“ ist nicht vom Indikativ unterscheidbar, daher Ersatz durch Konjunktiv II.",
+  "more": "Ist auch der Konjunktiv II nicht eindeutig, nimmt man die würde-Form."
+ },
+ {
+  "id": "de8-deutsch-030",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Satz MUSS nach amtlicher Regelung ein Komma ergänzt werden?",
+  "options": [
+   "Er ging ohne sich zu verabschieden.",
+   "Ich versuche zu schlafen.",
+   "Er beginnt zu lesen.",
+   "Sie will morgen kommen."
+  ],
+  "answer": "A",
+  "hint": "Achte auf Wörter wie „um“, „ohne“, „statt“.",
+  "explanation": "Infinitivgruppen mit „ohne … zu“ müssen durch Komma abgetrennt werden: „Er ging, ohne …“.",
+  "more": "Pflicht ist das Komma auch bei „um … zu“, „statt … zu“, „anstatt … zu“, „außer … zu“ und „als … zu“."
+ },
+ {
+  "id": "de8-deutsch-031",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Wörter gehören in die Lücken: „Ich weiß, ___ das Problem, ___ dich beschäftigt, lösbar ist.“?",
+  "options": [
+   "das – dass",
+   "dass – dass",
+   "das – das",
+   "dass – das"
+  ],
+  "answer": "D",
+  "hint": "Erste Lücke: Konjunktion; zweite: bezieht sich auf „Problem“.",
+  "explanation": "Zuerst die Konjunktion „dass“, dann das Relativpronomen „das“ (ersetzbar durch „welches“).",
+  "more": "Test: Lässt sich „welches“ einsetzen, schreibt man „das“."
+ },
+ {
+  "id": "de8-deutsch-032",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was ist „meines Onkels“ in „Das Haus meines Onkels steht am See.“?",
+  "options": [
+   "Genitivobjekt",
+   "Adverbial des Ortes",
+   "Genitivattribut",
+   "Subjekt"
+  ],
+  "answer": "C",
+  "hint": "Gehört es zum Verb oder zu einem Nomen?",
+  "explanation": "„meines Onkels“ bestimmt das Nomen „Haus“ näher – ein Attribut im Genitiv.",
+  "more": "Attribute sind keine eigenen Satzglieder, sondern Teil eines Satzglieds."
+ },
+ {
+  "id": "de8-deutsch-033",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Funktion hat „Arzt“ in „Mein Bruder wird Arzt.“?",
+  "options": [
+   "Akkusativobjekt",
+   "Prädikativ (Prädikatsnomen)",
+   "Subjekt",
+   "Adverbial"
+  ],
+  "answer": "B",
+  "hint": "Nach „sein“, „werden“, „bleiben“ steht oft ein Nominativ.",
+  "explanation": "„Arzt“ steht im Nominativ und bildet mit „wird“ das Prädikat – ein Prädikativ.",
+  "more": "Prädikative können auch Adjektive sein: „Er wird krank.“"
+ },
+ {
+  "id": "de8-deutsch-034",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form liegt in „Das Fenster ist geöffnet.“ vor?",
+  "options": [
+   "Zustandspassiv",
+   "Vorgangspassiv",
+   "Perfekt Aktiv",
+   "Plusquamperfekt Aktiv"
+  ],
+  "answer": "A",
+  "hint": "Es beschreibt das Ergebnis, nicht den Vorgang.",
+  "explanation": "„sein“ + Partizip II beschreibt hier einen Zustand – Zustandspassiv.",
+  "more": "Das Vorgangspassiv wäre „Das Fenster wird geöffnet.“"
+ },
+ {
+  "id": "de8-deutsch-035",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Art von Adverbialsatz ist „Er war so müde, dass er sofort einschlief.“?",
+  "options": [
+   "Finalsatz",
+   "Kausalsatz",
+   "Konzessivsatz",
+   "Konsekutivsatz"
+  ],
+  "answer": "D",
+  "hint": "Der Nebensatz nennt eine Folge.",
+  "explanation": "„so …, dass“ leitet einen Konsekutivsatz (Folge) ein.",
+  "more": "Ein Finalsatz nennt dagegen einen Zweck, z. B. mit „damit“."
+ },
+ {
+  "id": "de8-deutsch-036",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele verschiedene Stimmen (Sprecher) gibt es in Goethes „Erlkönig“, den Erzähler mitgezählt?",
+  "options": [
+   "zwei",
+   "drei",
+   "vier",
+   "fünf"
+  ],
+  "answer": "C",
+  "hint": "Erzähler, Vater, Sohn … und wer noch?",
+  "explanation": "Es sprechen Erzähler, Vater, Sohn und Erlkönig – also vier Stimmen.",
+  "more": "Diese Mischung aus Erzählung und Dialog zeigt den dramatischen Anteil der Ballade."
+ },
+ {
+  "id": "de8-deutsch-037",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was tut Ritter Delorges am Ende von Schillers „Der Handschuh“?",
+  "options": [
+   "Er heiratet das Fräulein Kunigunde.",
+   "Er wirft dem Fräulein den Handschuh ins Gesicht.",
+   "Er tötet den Löwen.",
+   "Er bleibt im Zwinger zurück."
+  ],
+  "answer": "B",
+  "hint": "Er holt den Handschuh – aber bedankt er sich?",
+  "explanation": "Delorges holt den Handschuh, wirft ihn Kunigunde ins Gesicht und verlässt sie.",
+  "more": "Die Ballade kritisiert, dass Kunigunde sein Leben leichtfertig aufs Spiel setzt."
+ },
+ {
+  "id": "de8-deutsch-038",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Schreibung ist nach heutiger Rechtschreibung richtig?",
+  "options": [
+   "im Allgemeinen",
+   "im allgemeinen",
+   "Im allgemeinen",
+   "im allgemeinem"
+  ],
+  "answer": "A",
+  "hint": "Nominalisierte Adjektive nach Artikel werden großgeschrieben.",
+  "explanation": "„im Allgemeinen“ wird seit der Reform großgeschrieben („im“ = in dem).",
+  "more": "Ebenso: „im Großen und Ganzen“, „im Voraus“."
+ },
+ {
+  "id": "de8-deutsch-039",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Schreibung ist richtig: „Heute ist ___ passiert.“?",
+  "options": [
+   "nichts besonderes",
+   "Nichts Besonderes",
+   "nichts Besonderem",
+   "nichts Besonderes"
+  ],
+  "answer": "D",
+  "hint": "Nach „nichts“, „etwas“, „viel“ werden Adjektive nominalisiert.",
+  "explanation": "Nach „nichts“ wird das Adjektiv nominalisiert und großgeschrieben: „nichts Besonderes“.",
+  "more": "Ebenso: „etwas Neues“, „viel Gutes“, „wenig Interessantes“."
+ },
+ {
+  "id": "de8-deutsch-040",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie heißt eine Erörterung, die Pro- und Kontra-Argumente gegeneinander abwägt?",
+  "options": [
+   "lineare Erörterung",
+   "Inhaltsangabe",
+   "dialektische Erörterung",
+   "Schilderung"
+  ],
+  "answer": "C",
+  "hint": "„Dialektik“ heißt: These und Gegenthese.",
+  "explanation": "Die dialektische (antithetische) Erörterung stellt Pro und Kontra gegenüber.",
+  "more": "Die lineare (steigernde) Erörterung betrachtet nur eine Seite."
+ }
+]

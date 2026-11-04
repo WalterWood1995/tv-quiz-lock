@@ -1,0 +1,542 @@
+[
+ {
+  "id": "de8-chemie-001",
+  "subject": "chemie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches chemische Symbol hat Natrium?",
+  "options": [
+   "N",
+   "Na",
+   "So",
+   "Nt"
+  ],
+  "answer": "B",
+  "hint": "Es kommt vom lateinischen Namen Natrium.",
+  "explanation": "Natrium hat das Symbol Na; N steht für Stickstoff.",
+  "more": "Natrium ist ein sehr reaktives, weiches Metall."
+ },
+ {
+  "id": "de8-chemie-002",
+  "subject": "chemie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher der folgenden Stoffe ist ein Gemisch?",
+  "options": [
+   "Salzwasser",
+   "Destilliertes Wasser",
+   "Eisen",
+   "Kohlenstoffdioxid"
+  ],
+  "answer": "A",
+  "hint": "Welcher Stoff besteht aus mehreren Reinstoffen?",
+  "explanation": "Salzwasser besteht aus Wasser und gelöstem Salz.",
+  "more": "Reinstoffe haben feste Kenneigenschaften wie die Siedetemperatur."
+ },
+ {
+  "id": "de8-chemie-003",
+  "subject": "chemie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie gewinnt man Kochsalz am einfachsten aus Salzwasser zurück?",
+  "options": [
+   "Filtrieren",
+   "Sieben",
+   "Mit einem Magneten",
+   "Eindampfen"
+  ],
+  "answer": "D",
+  "hint": "Gelöstes Salz geht durch jeden Filter.",
+  "explanation": "Beim Eindampfen verdunstet das Wasser, das Salz bleibt zurück.",
+  "more": "In Salzgärten nutzt man dafür die Sonnenwärme."
+ },
+ {
+  "id": "de8-chemie-004",
+  "subject": "chemie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Gas ist der Hauptbestandteil der Luft?",
+  "options": [
+   "Sauerstoff",
+   "Kohlenstoffdioxid",
+   "Stickstoff",
+   "Argon"
+  ],
+  "answer": "C",
+  "hint": "Es macht rund vier Fünftel aus.",
+  "explanation": "Luft besteht zu etwa 78 % aus Stickstoff und 21 % aus Sauerstoff.",
+  "more": "Kohlenstoffdioxid ist nur mit rund 0,04 % enthalten."
+ },
+ {
+  "id": "de8-chemie-005",
+  "subject": "chemie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was ist das Schmelzen von Eis?",
+  "options": [
+   "Eine chemische Reaktion",
+   "Ein physikalischer Vorgang",
+   "Eine Verbrennung",
+   "Eine Oxidation"
+  ],
+  "answer": "B",
+  "hint": "Entsteht ein neuer Stoff?",
+  "explanation": "Beim Schmelzen ändert sich nur der Aggregatzustand, es bleibt Wasser.",
+  "more": "Aggregatzustandsänderungen sind umkehrbar."
+ },
+ {
+  "id": "de8-chemie-006",
+  "subject": "chemie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was braucht ein Feuer außer einem brennbaren Stoff und der Zündtemperatur?",
+  "options": [
+   "Sauerstoff",
+   "Stickstoff",
+   "Wasser",
+   "Kohlenstoffdioxid"
+  ],
+  "answer": "A",
+  "hint": "Denk an das Verbrennungsdreieck.",
+  "explanation": "Brennstoff, Sauerstoff und Zündtemperatur müssen zusammenkommen.",
+  "more": "Feuerlöscher entziehen oft den Sauerstoff oder kühlen."
+ },
+ {
+  "id": "de8-chemie-007",
+  "subject": "chemie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Formel hat Wasser?",
+  "options": [
+   "HO₂",
+   "H₂O₂",
+   "OH",
+   "H₂O"
+  ],
+  "answer": "D",
+  "hint": "Zwei Atome einer Sorte, eines der anderen.",
+  "explanation": "Ein Wassermolekül besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom.",
+  "more": "H₂O₂ ist Wasserstoffperoxid, ein Bleichmittel."
+ },
+ {
+  "id": "de8-chemie-008",
+  "subject": "chemie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches chemische Symbol hat Eisen?",
+  "options": [
+   "E",
+   "Ei",
+   "Fe",
+   "Ir"
+  ],
+  "answer": "C",
+  "hint": "Lateinisch heißt Eisen ferrum.",
+  "explanation": "Fe kommt von ferrum.",
+  "more": "Ir ist das Symbol für Iridium."
+ },
+ {
+  "id": "de8-chemie-009",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Woran erkennt man eine chemische Reaktion?",
+  "options": [
+   "Der Stoff ändert nur seinen Aggregatzustand.",
+   "Es entstehen neue Stoffe mit neuen Eigenschaften.",
+   "Der Stoff wird nur zerkleinert.",
+   "Ein Stoff löst sich in Wasser."
+  ],
+  "answer": "B",
+  "hint": "Was unterscheidet sie vom physikalischen Vorgang?",
+  "explanation": "Bei chemischen Reaktionen werden Stoffe umgewandelt, oft mit Energieumsatz.",
+  "more": "Typische Anzeichen sind Farbänderung, Gasbildung oder Leuchten."
+ },
+ {
+  "id": "de8-chemie-010",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was besagt Daltons Atommodell?",
+  "options": [
+   "Jedes Element hat eigene, untereinander gleiche Atome.",
+   "Atome bestehen aus Kern und Hülle.",
+   "Elektronen kreisen auf Bahnen um den Kern.",
+   "Atome lassen sich chemisch beliebig teilen."
+  ],
+  "answer": "A",
+  "hint": "Dalton kannte noch keine Teilchen im Atom.",
+  "explanation": "Dalton stellte sich Atome als unteilbare Kugeln vor, je Element in Masse und Größe gleich.",
+  "more": "Sein Modell entstand Anfang des 19. Jahrhunderts."
+ },
+ {
+  "id": "de8-chemie-011",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was zeigte Rutherfords Streuversuch mit Goldfolie?",
+  "options": [
+   "Atome sind massive, unteilbare Kugeln.",
+   "Elektronen sitzen im Atomkern.",
+   "Gold besteht aus Molekülen.",
+   "Das Atom ist fast leer und hat einen winzigen positiven Kern."
+  ],
+  "answer": "D",
+  "hint": "Die meisten Teilchen flogen ungehindert hindurch.",
+  "explanation": "Wenige stark abgelenkte Teilchen zeigten einen kleinen, positiv geladenen Kern.",
+  "more": "Daraus entstand das Kern-Hülle-Modell."
+ },
+ {
+  "id": "de8-chemie-012",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Aussage über Elektronen ist richtig?",
+  "options": [
+   "Sie sind positiv geladen und im Kern.",
+   "Sie sind ungeladen und im Kern.",
+   "Sie sind negativ geladen und befinden sich in der Hülle.",
+   "Sie sind negativ geladen und im Kern."
+  ],
+  "answer": "C",
+  "hint": "Der Kern ist positiv.",
+  "explanation": "Elektronen sind negativ und bilden die Atomhülle.",
+  "more": "Im Kern befinden sich Protonen (positiv) und Neutronen (neutral)."
+ },
+ {
+  "id": "de8-chemie-013",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher der folgenden Stoffe ist eine Verbindung?",
+  "options": [
+   "Sauerstoff",
+   "Wasser",
+   "Kupfer",
+   "Schwefel"
+  ],
+  "answer": "B",
+  "hint": "Eine Verbindung besteht aus mehreren Elementen.",
+  "explanation": "Wasser lässt sich in Wasserstoff und Sauerstoff zerlegen.",
+  "more": "Elemente lassen sich chemisch nicht weiter zerlegen."
+ },
+ {
+  "id": "de8-chemie-014",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie löscht man einen Fettbrand in der Pfanne richtig?",
+  "options": [
+   "Deckel auflegen und Herd ausschalten",
+   "Mit Wasser übergießen",
+   "Kräftig hineinpusten",
+   "Mehl darüberstreuen"
+  ],
+  "answer": "A",
+  "hint": "Was entzieht dem Feuer den Sauerstoff?",
+  "explanation": "Der Deckel erstickt das Feuer; Wasser verdampft schlagartig und verursacht eine Stichflamme.",
+  "more": "Mehl kann als Staubwolke selbst explosionsartig verbrennen."
+ },
+ {
+  "id": "de8-chemie-015",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Stoff entsteht, wenn Magnesium an der Luft verbrennt?",
+  "options": [
+   "Magnesiumcarbonat",
+   "Magnesiumchlorid",
+   "Reines Magnesiumpulver",
+   "Magnesiumoxid"
+  ],
+  "answer": "D",
+  "hint": "Magnesium reagiert mit einem Bestandteil der Luft.",
+  "explanation": "Magnesium + Sauerstoff → Magnesiumoxid, ein weißes Pulver.",
+  "more": "Dabei entsteht ein sehr helles Licht."
+ },
+ {
+  "id": "de8-chemie-016",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Nach welcher Eigenschaft werden Stoffe bei der Destillation getrennt?",
+  "options": [
+   "Nach unterschiedlicher Farbe",
+   "Nach unterschiedlicher Teilchengröße",
+   "Nach unterschiedlichen Siedetemperaturen",
+   "Nach unterschiedlichem Magnetismus"
+  ],
+  "answer": "C",
+  "hint": "Was passiert beim Erhitzen?",
+  "explanation": "Der Stoff mit niedrigerer Siedetemperatur verdampft zuerst und wird kondensiert.",
+  "more": "So gewinnt man z. B. Alkohol aus Wein."
+ },
+ {
+  "id": "de8-chemie-017",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wozu verwendet man die Chromatografie?",
+  "options": [
+   "Um Sand von Wasser zu trennen",
+   "Um Farbstoffgemische aufzutrennen",
+   "Um Eisen aus Gemischen zu holen",
+   "Um Wasser zu entsalzen"
+  ],
+  "answer": "B",
+  "hint": "Denk an Filzstiftfarbe auf Filterpapier.",
+  "explanation": "Farbstoffe wandern unterschiedlich weit mit dem Laufmittel.",
+  "more": "Schwarze Filzstiftfarbe besteht oft aus mehreren Farbstoffen."
+ },
+ {
+  "id": "de8-chemie-018",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Gas weist man nach, wenn Kalkwasser trüb wird?",
+  "options": [
+   "Kohlenstoffdioxid",
+   "Sauerstoff",
+   "Wasserstoff",
+   "Stickstoff"
+  ],
+  "answer": "A",
+  "hint": "Das Gas entsteht beim Ausatmen.",
+  "explanation": "Kohlenstoffdioxid bildet mit Kalkwasser unlöslichen Kalk (Trübung).",
+  "more": "Ausgeatmete Luft enthält deutlich mehr CO₂ als eingeatmete."
+ },
+ {
+  "id": "de8-chemie-019",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein glimmender Holzspan flammt in einem Gas hell auf. Welches Gas ist es?",
+  "options": [
+   "Kohlenstoffdioxid",
+   "Stickstoff",
+   "Helium",
+   "Sauerstoff"
+  ],
+  "answer": "D",
+  "hint": "Welches Gas fördert die Verbrennung?",
+  "explanation": "Die Glimmspanprobe weist Sauerstoff nach.",
+  "more": "In reinem Sauerstoff verbrennen Stoffe heftiger als in Luft."
+ },
+ {
+  "id": "de8-chemie-020",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Gas weist man mit der Knallgasprobe nach?",
+  "options": [
+   "Sauerstoff",
+   "Kohlenstoffdioxid",
+   "Wasserstoff",
+   "Stickstoff"
+  ],
+  "answer": "C",
+  "hint": "Es ist das leichteste Gas.",
+  "explanation": "Wasserstoff verbrennt mit Sauerstoff mit einem Pfeifen oder Knall zu Wasser.",
+  "more": "Ein leises „Plopp“ zeigt reinen Wasserstoff an."
+ },
+ {
+  "id": "de8-chemie-021",
+  "subject": "chemie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Gemisch ist eine Emulsion (Flüssigkeit fein in Flüssigkeit verteilt)?",
+  "options": [
+   "Rauch",
+   "Milch",
+   "Nebel",
+   "Granit"
+  ],
+  "answer": "B",
+  "hint": "Fett-Tröpfchen in Wasser.",
+  "explanation": "Milch enthält fein verteilte Fetttröpfchen in Wasser.",
+  "more": "Nebel ist flüssig in gasförmig, Rauch fest in gasförmig."
+ },
+ {
+  "id": "de8-chemie-022",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Nach welchem Merkmal sind die Elemente im Periodensystem angeordnet?",
+  "options": [
+   "Nach steigender Ordnungszahl (Protonenzahl)",
+   "Nach dem Alphabet",
+   "Nach dem Jahr ihrer Entdeckung",
+   "Nach ihrer Dichte"
+  ],
+  "answer": "A",
+  "hint": "Jedes Element hat eine eigene Nummer.",
+  "explanation": "Die Ordnungszahl gibt die Zahl der Protonen im Kern an.",
+  "more": "Elemente einer Hauptgruppe haben ähnliche Eigenschaften."
+ },
+ {
+  "id": "de8-chemie-023",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches der folgenden Elemente ist ein Edelgas?",
+  "options": [
+   "Stickstoff",
+   "Chlor",
+   "Wasserstoff",
+   "Argon"
+  ],
+  "answer": "D",
+  "hint": "Edelgase reagieren kaum.",
+  "explanation": "Argon gehört zur VIII. Hauptgruppe, den Edelgasen.",
+  "more": "Argon wird als Schutzgas beim Schweißen verwendet."
+ },
+ {
+  "id": "de8-chemie-024",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Kerzenwachs verbrennt in einem fest verschlossenen Gefäß. Was gilt für die Gesamtmasse des Gefäßes mit Inhalt?",
+  "options": [
+   "Sie nimmt ab.",
+   "Sie nimmt zu.",
+   "Sie bleibt gleich.",
+   "Sie sinkt auf null."
+  ],
+  "answer": "C",
+  "hint": "Im geschlossenen System geht nichts verloren.",
+  "explanation": "Nach dem Gesetz von der Erhaltung der Masse ändert sich die Gesamtmasse nicht.",
+  "more": "Offen wirkt Wachs leichter, weil gasförmige Produkte entweichen."
+ },
+ {
+  "id": "de8-chemie-025",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eisenwolle wird an der Luft auf einer Waage verbrannt. Wie ändert sich die Masse des festen Stoffs?",
+  "options": [
+   "Sie nimmt ab.",
+   "Sie nimmt zu.",
+   "Sie bleibt gleich.",
+   "Sie halbiert sich."
+  ],
+  "answer": "B",
+  "hint": "Woher könnte zusätzliche Masse kommen?",
+  "explanation": "Eisen verbindet sich mit Sauerstoff aus der Luft zu Eisenoxid.",
+  "more": "Das Ergebnis widerlegte die alte Phlogistontheorie."
+ },
+ {
+  "id": "de8-chemie-026",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Reaktionsgleichung beschreibt die vollständige Verbrennung von Kohlenstoff?",
+  "options": [
+   "C + O₂ → CO₂",
+   "C + O → CO₂",
+   "C₂ + O₂ → 2 CO",
+   "CO₂ → C + O₂"
+  ],
+  "answer": "A",
+  "hint": "Sauerstoff kommt als Molekül vor.",
+  "explanation": "Ein Kohlenstoffatom reagiert mit einem Sauerstoffmolekül zu Kohlenstoffdioxid.",
+  "more": "Bei Sauerstoffmangel entsteht giftiges Kohlenstoffmonooxid."
+ },
+ {
+  "id": "de8-chemie-027",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele Atome enthält ein Molekül der Formel H₂SO₄?",
+  "options": [
+   "3",
+   "6",
+   "8",
+   "7"
+  ],
+  "answer": "D",
+  "hint": "Zähle alle Atome zusammen.",
+  "explanation": "2 H + 1 S + 4 O = 7 Atome.",
+  "more": "H₂SO₄ ist Schwefelsäure."
+ },
+ {
+  "id": "de8-chemie-028",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was bedeutet es, dass eine Verbrennung exotherm ist?",
+  "options": [
+   "Die Reaktion benötigt ständig Energiezufuhr.",
+   "Es wird keine Energie umgesetzt.",
+   "Bei der Reaktion wird Energie an die Umgebung abgegeben.",
+   "Die Reaktion verläuft nur bei Kälte."
+  ],
+  "answer": "C",
+  "hint": "„exo“ heißt „nach außen“.",
+  "explanation": "Exotherme Reaktionen geben Energie ab, z. B. als Wärme und Licht.",
+  "more": "Endotherme Reaktionen nehmen dauerhaft Energie auf."
+ },
+ {
+  "id": "de8-chemie-029",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Warum entzündet sich Holz bei Raumtemperatur nicht von selbst, obwohl Sauerstoff da ist?",
+  "options": [
+   "Holz enthält keinen Kohlenstoff.",
+   "Die Zündtemperatur ist nicht erreicht.",
+   "Luft enthält zu viel Sauerstoff.",
+   "Holz ist ein Element."
+  ],
+  "answer": "B",
+  "hint": "Eine Reaktion muss oft erst angestoßen werden.",
+  "explanation": "Erst Aktivierungsenergie bringt das Holz auf Zündtemperatur.",
+  "more": "Ein Streichholz liefert diese Aktivierungsenergie."
+ },
+ {
+  "id": "de8-chemie-030",
+  "subject": "chemie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele Protonen hat ein Kohlenstoffatom?",
+  "options": [
+   "6",
+   "12",
+   "4",
+   "8"
+  ],
+  "answer": "A",
+  "hint": "Schau auf die Ordnungszahl.",
+  "explanation": "Kohlenstoff hat die Ordnungszahl 6, also 6 Protonen.",
+  "more": "Das häufigste Kohlenstoffatom hat zusätzlich 6 Neutronen."
+ }
+]

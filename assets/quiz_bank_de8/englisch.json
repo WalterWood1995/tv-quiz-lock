@@ -1,0 +1,812 @@
+[
+ {
+  "id": "de8-englisch-001",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? I ___ my homework yesterday.",
+  "options": [
+   "did",
+   "have done",
+   "do",
+   "doing"
+  ],
+  "answer": "A",
+  "hint": "Achte auf das Zeitsignal am Ende.",
+  "explanation": "Mit 'yesterday' (abgeschlossene Vergangenheit) steht das simple past.",
+  "more": "Weitere Signalwörter für das simple past: ago, last week, in 2020."
+ },
+ {
+  "id": "de8-englisch-002",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? She ___ in Stuttgart since 2019.",
+  "options": [
+   "lives",
+   "has lived",
+   "lived",
+   "is living"
+  ],
+  "answer": "B",
+  "hint": "'since' verbindet Vergangenheit und Gegenwart.",
+  "explanation": "Mit since/for und Bezug bis heute steht das present perfect.",
+  "more": "'since' + Zeitpunkt, 'for' + Zeitraum: since 2019, for five years."
+ },
+ {
+  "id": "de8-englisch-003",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? When I arrived at the cinema, the film ___ already ___.",
+  "options": [
+   "has … started",
+   "is … starting",
+   "had … started",
+   "did … start"
+  ],
+  "answer": "C",
+  "hint": "Was passierte zuerst?",
+  "explanation": "Die frühere von zwei vergangenen Handlungen steht im past perfect (had + past participle).",
+  "more": "Das past perfect heißt auf Deutsch Plusquamperfekt: 'hatte angefangen'."
+ },
+ {
+  "id": "de8-englisch-004",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? If it ___ tomorrow, we will stay at home.",
+  "options": [
+   "will rain",
+   "rained",
+   "would rain",
+   "rains"
+  ],
+  "answer": "D",
+  "hint": "Im if-Satz steht hier kein 'will'.",
+  "explanation": "Conditional I: if + simple present, Hauptsatz mit will.",
+  "more": "Statt 'if' kann auch 'unless' (= if not) stehen."
+ },
+ {
+  "id": "de8-englisch-005",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? If I ___ more time, I would help you.",
+  "options": [
+   "had",
+   "have",
+   "will have",
+   "would have"
+  ],
+  "answer": "A",
+  "hint": "Im Hauptsatz steht 'would'.",
+  "explanation": "Conditional II: if + simple past, Hauptsatz mit would + Infinitiv.",
+  "more": "Typ II beschreibt unwahrscheinliche oder unwirkliche Situationen in der Gegenwart."
+ },
+ {
+  "id": "de8-englisch-006",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? If you had told me, I ___ you.",
+  "options": [
+   "will help",
+   "would have helped",
+   "had helped",
+   "would helped"
+  ],
+  "answer": "B",
+  "hint": "Es geht um eine verpasste Chance in der Vergangenheit.",
+  "explanation": "Conditional III: if + past perfect, Hauptsatz mit would have + past participle.",
+  "more": "Typ III drückt aus, dass etwas nicht passiert ist – man kann es nicht mehr ändern."
+ },
+ {
+  "id": "de8-englisch-007",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? The new bridge ___ next year.",
+  "options": [
+   "will build",
+   "is building",
+   "will be built",
+   "will have build"
+  ],
+  "answer": "C",
+  "hint": "Die Brücke baut sich nicht selbst.",
+  "explanation": "Passiv Futur: will be + past participle.",
+  "more": "Wer etwas tut, wird im Passiv mit 'by' angeschlossen."
+ },
+ {
+  "id": "de8-englisch-008",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? The Harry Potter books ___ by J. K. Rowling.",
+  "options": [
+   "wrote",
+   "have written",
+   "were wrote",
+   "were written"
+  ],
+  "answer": "D",
+  "hint": "'by' zeigt den Urheber an.",
+  "explanation": "Passiv simple past: was/were + past participle (write – wrote – written).",
+  "more": "J. K. Rowling veröffentlichte den ersten Band 1997."
+ },
+ {
+  "id": "de8-englisch-009",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Indirekte Rede: Tom said, \"I saw the film yesterday.\" → Tom said that he ___ the film the day before.",
+  "options": [
+   "had seen",
+   "has seen",
+   "sees",
+   "will see"
+  ],
+  "answer": "A",
+  "hint": "Bei der Rückverschiebung geht die Zeit einen Schritt zurück.",
+  "explanation": "Simple past wird in der indirekten Rede (nach 'said') meist zum past perfect.",
+  "more": "Auch Zeitangaben ändern sich: yesterday → the day before, tomorrow → the next day."
+ },
+ {
+  "id": "de8-englisch-010",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Indirekte Frage: She asked me, \"Where do you live?\" → She asked me where ___.",
+  "options": [
+   "did I live",
+   "I lived",
+   "do I live",
+   "lived I"
+  ],
+  "answer": "B",
+  "hint": "In indirekten Fragen gibt es keine Umschreibung mit 'do'.",
+  "explanation": "Indirekte Fragen haben Aussagesatz-Wortstellung (Subjekt vor Verb) und Rückverschiebung.",
+  "more": "Ja/Nein-Fragen werden mit if/whether eingeleitet: She asked if I was hungry."
+ },
+ {
+  "id": "de8-englisch-011",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Relativpronomen passt? The girl ___ bike was stolen called the police.",
+  "options": [
+   "who",
+   "which",
+   "whose",
+   "who's"
+  ],
+  "answer": "C",
+  "hint": "Wessen Fahrrad?",
+  "explanation": "'whose' drückt Besitz aus (deutsch: dessen/deren).",
+  "more": "'who's' ist die Kurzform von 'who is' oder 'who has'."
+ },
+ {
+  "id": "de8-englisch-012",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Relativpronomen passt? My brother, ___ lives in London, is a doctor.",
+  "options": [
+   "that",
+   "which",
+   "whose",
+   "who"
+  ],
+  "answer": "D",
+  "hint": "Beachte die Kommas.",
+  "explanation": "Im non-defining relative clause (mit Kommas) steht für Personen 'who', nicht 'that'.",
+  "more": "Non-defining relative clauses geben Zusatzinformationen, die man weglassen könnte."
+ },
+ {
+  "id": "de8-englisch-013",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Satz kann man das Relativpronomen weglassen?",
+  "options": [
+   "The book that I bought is great.",
+   "The man who lives next door is nice.",
+   "My car, which is red, is old.",
+   "The girl whose dog barks is Amy."
+  ],
+  "answer": "A",
+  "hint": "Ist das Pronomen Subjekt oder Objekt?",
+  "explanation": "Weglassen (contact clause) geht nur, wenn das Relativpronomen Objekt eines notwendigen Relativsatzes ist.",
+  "more": "Ohne Pronomen: The book I bought is great."
+ },
+ {
+  "id": "de8-englisch-014",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? I enjoy ___ football.",
+  "options": [
+   "to play",
+   "playing",
+   "play",
+   "played"
+  ],
+  "answer": "B",
+  "hint": "Nach 'enjoy' folgt eine -ing-Form.",
+  "explanation": "Nach enjoy steht das Gerundium.",
+  "more": "Ebenso mit Gerundium: finish, avoid, mind, suggest."
+ },
+ {
+  "id": "de8-englisch-015",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? We decided ___ to Scotland.",
+  "options": [
+   "going",
+   "go",
+   "to go",
+   "gone"
+  ],
+  "answer": "C",
+  "hint": "Nach 'decide' folgt kein Gerundium.",
+  "explanation": "Nach decide steht to + Infinitiv.",
+  "more": "Ebenso: want, hope, plan, promise + to-Infinitiv."
+ },
+ {
+  "id": "de8-englisch-016",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? I'm looking forward to ___ you.",
+  "options": [
+   "see",
+   "to see",
+   "saw",
+   "seeing"
+  ],
+  "answer": "D",
+  "hint": "Hier ist 'to' eine Präposition.",
+  "explanation": "In 'look forward to' ist 'to' eine Präposition, darauf folgt das Gerundium.",
+  "more": "Ebenso: be used to doing, get used to doing."
+ },
+ {
+  "id": "de8-englisch-017",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? He stopped ___ because it was bad for his health.",
+  "options": [
+   "smoking",
+   "to smoke",
+   "smoke",
+   "smoked"
+  ],
+  "answer": "A",
+  "hint": "Er hat mit etwas aufgehört.",
+  "explanation": "stop + -ing = mit etwas aufhören; stop + to-Infinitiv = anhalten, um etwas zu tun.",
+  "more": "Bedeutungsunterschied auch bei remember/forget + -ing bzw. + to."
+ },
+ {
+  "id": "de8-englisch-018",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Yesterday I ___ get up early.",
+  "options": [
+   "must",
+   "had to",
+   "have to",
+   "musted"
+  ],
+  "answer": "B",
+  "hint": "'must' hat keine Vergangenheitsform.",
+  "explanation": "Ersatzform von must in der Vergangenheit: had to.",
+  "more": "Ersatzformen: can → be able to, may → be allowed to."
+ },
+ {
+  "id": "de8-englisch-019",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? I ___ swim when I was five.",
+  "options": [
+   "can",
+   "am able",
+   "could",
+   "have could"
+  ],
+  "answer": "C",
+  "hint": "Der Satz spielt in der Vergangenheit.",
+  "explanation": "Die Vergangenheit von can ist could (oder was able to).",
+  "more": "Für eine einmalige Leistung in der Vergangenheit nimmt man meist 'was able to'."
+ },
+ {
+  "id": "de8-englisch-020",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? She sings very ___.",
+  "options": [
+   "beautiful",
+   "beauty",
+   "more beautiful",
+   "beautifully"
+  ],
+  "answer": "D",
+  "hint": "Wie singt sie? Gesucht ist ein Adverb.",
+  "explanation": "Adverbien beschreiben Verben; Bildung oft mit -ly.",
+  "more": "Unregelmäßig: good → well, fast → fast, hard → hard."
+ },
+ {
+  "id": "de8-englisch-021",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? This soup tastes ___.",
+  "options": [
+   "good",
+   "well",
+   "goodly",
+   "greatly"
+  ],
+  "answer": "A",
+  "hint": "Nach 'taste' beschreibt man die Suppe selbst.",
+  "explanation": "Nach Sinnesverben (taste, smell, look, sound, feel) steht ein Adjektiv.",
+  "more": "Ebenso: You look tired. It sounds great."
+ },
+ {
+  "id": "de8-englisch-022",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? He always drives very ___.",
+  "options": [
+   "careful",
+   "carefully",
+   "care",
+   "carefuly"
+  ],
+  "answer": "B",
+  "hint": "Wie fährt er?",
+  "explanation": "Adverb von careful: carefully (mit doppeltem l).",
+  "more": "Adjektive auf -ful bekommen -ly: useful → usefully."
+ },
+ {
+  "id": "de8-englisch-023",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches phrasal verb passt? Could you ___ the music? It's too loud.",
+  "options": [
+   "turn up",
+   "turn over",
+   "turn down",
+   "turn into"
+  ],
+  "answer": "C",
+  "hint": "Die Musik soll leiser werden.",
+  "explanation": "turn down = leiser stellen; turn up = lauter stellen.",
+  "more": "turn on/off = ein-/ausschalten."
+ },
+ {
+  "id": "de8-englisch-024",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches phrasal verb passt? I'm ___ my keys. Have you seen them?",
+  "options": [
+   "looking after",
+   "looking at",
+   "looking up",
+   "looking for"
+  ],
+  "answer": "D",
+  "hint": "Die Schlüssel sind weg.",
+  "explanation": "look for = suchen.",
+  "more": "look after = aufpassen auf; look up = nachschlagen."
+ },
+ {
+  "id": "de8-englisch-025",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches phrasal verb passt? Our plane ___ at 6 a.m. and landed in London an hour later.",
+  "options": [
+   "took off",
+   "took up",
+   "took over",
+   "took after"
+  ],
+  "answer": "A",
+  "hint": "Das Gegenteil von 'landed'.",
+  "explanation": "take off = abheben (Flugzeug) oder ausziehen (Kleidung).",
+  "more": "take after sb = jemandem ähneln (z. B. den Eltern)."
+ },
+ {
+  "id": "de8-englisch-026",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was bedeutet 'to become' auf Deutsch?",
+  "options": [
+   "bekommen",
+   "werden",
+   "bequem sein",
+   "beginnen"
+  ],
+  "answer": "B",
+  "hint": "Vorsicht, false friend!",
+  "explanation": "'become' heißt werden; 'bekommen' heißt to get oder to receive.",
+  "more": "become – became – become."
+ },
+ {
+  "id": "de8-englisch-027",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie heißt 'Handy' im britischen Englisch?",
+  "options": [
+   "handy",
+   "phone box",
+   "mobile phone",
+   "remote control"
+  ],
+  "answer": "C",
+  "hint": "'handy' gibt es, aber es bedeutet etwas anderes.",
+  "explanation": "Handy = mobile (phone) (BE) bzw. cell phone (AE).",
+  "more": "Das englische Adjektiv 'handy' heißt praktisch, nützlich."
+ },
+ {
+  "id": "de8-englisch-028",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was bedeutet 'actually' auf Deutsch?",
+  "options": [
+   "aktuell",
+   "zurzeit",
+   "sofort",
+   "eigentlich, tatsächlich"
+  ],
+  "answer": "D",
+  "hint": "False friend!",
+  "explanation": "actually = eigentlich/tatsächlich; 'aktuell' heißt current oder up to date.",
+  "more": "'zurzeit' heißt currently oder at the moment."
+ },
+ {
+  "id": "de8-englisch-029",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was bedeutet 'sensible' auf Deutsch?",
+  "options": [
+   "vernünftig",
+   "sensibel",
+   "empfindlich",
+   "sinnlos"
+  ],
+  "answer": "A",
+  "hint": "False friend!",
+  "explanation": "sensible = vernünftig; 'sensibel' heißt sensitive.",
+  "more": "Ähnlich: 'eventually' heißt schließlich, nicht eventuell."
+ },
+ {
+  "id": "de8-englisch-030",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was bedeutet 'chef' auf Deutsch?",
+  "options": [
+   "Chef, Vorgesetzter",
+   "Koch, Köchin",
+   "Schiff",
+   "Kellner"
+  ],
+  "answer": "B",
+  "hint": "Denk an ein Restaurant.",
+  "explanation": "chef = Koch; der Chef heißt boss.",
+  "more": "Kellner = waiter/waitress."
+ },
+ {
+  "id": "de8-englisch-031",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Verb passt? to ___ a photo",
+  "options": [
+   "make",
+   "do",
+   "take",
+   "write"
+  ],
+  "answer": "C",
+  "hint": "Nicht wörtlich aus dem Deutschen übersetzen.",
+  "explanation": "Kollokation: to take a photo (ein Foto machen).",
+  "more": "Ebenso: take a break, take a shower."
+ },
+ {
+  "id": "de8-englisch-032",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Verb passt? to ___ your homework",
+  "options": [
+   "make",
+   "take",
+   "write",
+   "do"
+  ],
+  "answer": "D",
+  "hint": "Für Aufgaben und Pflichten nimmt man ein bestimmtes Verb.",
+  "explanation": "Kollokation: do your homework; 'do' bei Tätigkeiten, 'make' beim Herstellen.",
+  "more": "make a mistake, make a cake – aber do the dishes."
+ },
+ {
+  "id": "de8-englisch-033",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "What is the capital of Scotland?",
+  "options": [
+   "Edinburgh",
+   "Glasgow",
+   "Cardiff",
+   "Dublin"
+  ],
+  "answer": "A",
+  "hint": "Dort steht ein berühmtes Castle auf einem Felsen.",
+  "explanation": "Edinburgh ist die Hauptstadt; Glasgow ist die größte Stadt Schottlands.",
+  "more": "Cardiff ist Hauptstadt von Wales, Dublin von Irland."
+ },
+ {
+  "id": "de8-englisch-034",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Which river flows through London?",
+  "options": [
+   "the Severn",
+   "the Thames",
+   "the Hudson",
+   "the Mersey"
+  ],
+  "answer": "B",
+  "hint": "Die Tower Bridge überspannt ihn.",
+  "explanation": "Die Themse (Thames) fließt durch London.",
+  "more": "Der Severn ist der längste Fluss Großbritanniens."
+ },
+ {
+  "id": "de8-englisch-035",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In which city is the Statue of Liberty?",
+  "options": [
+   "Washington, D.C.",
+   "Boston",
+   "New York",
+   "Chicago"
+  ],
+  "answer": "C",
+  "hint": "Sie begrüßte Einwanderer per Schiff.",
+  "explanation": "Die Freiheitsstatue steht auf Liberty Island im Hafen von New York.",
+  "more": "Sie war ein Geschenk Frankreichs (1886)."
+ },
+ {
+  "id": "de8-englisch-036",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "What is the capital of Wales?",
+  "options": [
+   "Swansea",
+   "Belfast",
+   "Edinburgh",
+   "Cardiff"
+  ],
+  "answer": "D",
+  "hint": "Sie liegt im Süden des Landes.",
+  "explanation": "Cardiff ist die Hauptstadt von Wales.",
+  "more": "Belfast ist die Hauptstadt Nordirlands."
+ },
+ {
+  "id": "de8-englisch-037",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "How many states does the USA have?",
+  "options": [
+   "50",
+   "48",
+   "51",
+   "52"
+  ],
+  "answer": "A",
+  "hint": "Zähl die Sterne auf der Flagge.",
+  "explanation": "Die USA haben 50 Bundesstaaten.",
+  "more": "Die 13 Streifen stehen für die 13 Gründungskolonien."
+ },
+ {
+  "id": "de8-englisch-038",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "On which date do Americans celebrate Independence Day?",
+  "options": [
+   "14 July",
+   "4 July",
+   "4 June",
+   "1 July"
+  ],
+  "answer": "B",
+  "hint": "Im Sommer, 1776.",
+  "explanation": "Am 4. Juli 1776 wurde die Unabhängigkeitserklärung verabschiedet.",
+  "more": "14. Juli ist Frankreichs Nationalfeiertag, 1. Juli Canada Day."
+ },
+ {
+  "id": "de8-englisch-039",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Which countries form the United Kingdom?",
+  "options": [
+   "England, Scotland, Wales, Ireland",
+   "England, Scotland, Wales",
+   "England, Scotland, Wales, N. Ireland",
+   "England, Wales, Ireland, Isle of Man"
+  ],
+  "answer": "C",
+  "hint": "Great Britain ist nicht dasselbe wie das UK.",
+  "explanation": "Das UK besteht aus England, Schottland, Wales und Nordirland.",
+  "more": "Great Britain (die Insel) umfasst nur England, Schottland und Wales."
+ },
+ {
+  "id": "de8-englisch-040",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Listen! The baby ___.",
+  "options": [
+   "cries",
+   "cried",
+   "has cried",
+   "is crying"
+  ],
+  "answer": "D",
+  "hint": "'Listen!' – es passiert gerade jetzt.",
+  "explanation": "Für Handlungen im Moment des Sprechens steht das present progressive.",
+  "more": "Signalwörter: now, at the moment, Look!, Listen!"
+ },
+ {
+  "id": "de8-englisch-041",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? I ___ this word. What does it mean?",
+  "options": [
+   "don't know",
+   "am not knowing",
+   "not know",
+   "doesn't know"
+  ],
+  "answer": "A",
+  "hint": "'know' ist ein Zustandsverb.",
+  "explanation": "Zustandsverben (know, like, want, believe) stehen normalerweise nicht in der -ing-Form.",
+  "more": "Weitere stative verbs: understand, need, belong."
+ },
+ {
+  "id": "de8-englisch-042",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? How long ___ for the bus? – For twenty minutes.",
+  "options": [
+   "are you waiting",
+   "have you been waiting",
+   "do you wait",
+   "you are waiting"
+  ],
+  "answer": "B",
+  "hint": "Das Warten begann früher und dauert noch an.",
+  "explanation": "Present perfect progressive: Handlung begann in der Vergangenheit und dauert bis jetzt.",
+  "more": "Im Deutschen steht hier das Präsens: Wie lange wartest du schon?"
+ },
+ {
+  "id": "de8-englisch-043",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? By the time we got to the station, the train ___.",
+  "options": [
+   "has left",
+   "leaves",
+   "had left",
+   "is leaving"
+  ],
+  "answer": "C",
+  "hint": "Der Zug war schon weg, bevor wir ankamen.",
+  "explanation": "Vorvergangenheit: past perfect (had + past participle).",
+  "more": "'by the time' ist ein typisches Signal für das past perfect."
+ },
+ {
+  "id": "de8-englisch-044",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? If she ___ harder, she would have passed the test.",
+  "options": [
+   "studied",
+   "would study",
+   "has studied",
+   "had studied"
+  ],
+  "answer": "D",
+  "hint": "Im Hauptsatz steht 'would have'.",
+  "explanation": "Conditional III: if + past perfect.",
+  "more": "Im if-Satz steht nie 'would'."
+ },
+ {
+  "id": "de8-englisch-045",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Form ist richtig? Oh no, my bike ___! I can't find it anywhere.",
+  "options": [
+   "has been stolen",
+   "has stolen",
+   "is stealing",
+   "was stole"
+  ],
+  "answer": "A",
+  "hint": "Das Fahrrad hat nichts selbst getan.",
+  "explanation": "Passiv im present perfect: has/have been + past participle.",
+  "more": "steal – stole – stolen."
+ }
+]

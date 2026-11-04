@@ -1,0 +1,722 @@
+[
+ {
+  "id": "de8-wettbewerb-001",
+  "subject": "wettbewerb",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Auf welche Ziffer endet 2²⁰?",
+  "options": [
+   "6",
+   "2",
+   "4",
+   "8"
+  ],
+  "answer": "A",
+  "hint": "Die Endziffern von 2ⁿ wiederholen sich: 2, 4, 8, 6, …",
+  "explanation": "Periode 4; 20 ist durch 4 teilbar, also Endziffer 6 (2²⁰ = 1048576).",
+  "more": "Endziffern von Potenzen sind immer periodisch."
+ },
+ {
+  "id": "de8-wettbewerb-002",
+  "subject": "wettbewerb",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele zweistellige Zahlen haben die Quersumme 5?",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "10"
+  ],
+  "answer": "B",
+  "hint": "Die Zehnerziffer darf nicht 0 sein.",
+  "explanation": "14, 23, 32, 41, 50 – also 5 Zahlen.",
+  "more": "Zweistellige Zahlen mit Quersumme s ≤ 9 gibt es genau s Stück."
+ },
+ {
+  "id": "de8-wettbewerb-003",
+  "subject": "wettbewerb",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Anna ist älter als Ben, Ben ist älter als Clara, und Dora ist jünger als Clara. Wer ist am jüngsten?",
+  "options": [
+   "Clara",
+   "Ben",
+   "Dora",
+   "Anna"
+  ],
+  "answer": "C",
+  "hint": "Ordne die vier wie auf einer Linie.",
+  "explanation": "Anna > Ben > Clara > Dora, also ist Dora die Jüngste.",
+  "more": "Solche Anordnungen nennt man transitiv: aus a > b und b > c folgt a > c."
+ },
+ {
+  "id": "de8-wettbewerb-004",
+  "subject": "wettbewerb",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche ist die kleinste positive Zahl, die durch 2, 3, 4, 5 und 6 teilbar ist?",
+  "options": [
+   "120",
+   "30",
+   "720",
+   "60"
+  ],
+  "answer": "D",
+  "hint": "Gesucht ist das kgV.",
+  "explanation": "kgV = 2² · 3 · 5 = 60.",
+  "more": "Das Produkt 2·3·4·5·6 = 720 ist zwar teilbar, aber viel zu groß."
+ },
+ {
+  "id": "de8-wettbewerb-005",
+  "subject": "wettbewerb",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie groß ist der kleinere Winkel zwischen den Uhrzeigern um genau 4:00 Uhr?",
+  "options": [
+   "120°",
+   "90°",
+   "150°",
+   "100°"
+  ],
+  "answer": "A",
+  "hint": "Zwischen zwei benachbarten Zahlen liegen 30°.",
+  "explanation": "4 · 30° = 120°.",
+  "more": "Ein Stundenschritt sind 360° : 12 = 30°."
+ },
+ {
+  "id": "de8-wettbewerb-006",
+  "subject": "wettbewerb",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele Diagonalen hat ein Sechseck?",
+  "options": [
+   "6",
+   "9",
+   "12",
+   "15"
+  ],
+  "answer": "B",
+  "hint": "Von jeder Ecke gehen Diagonalen zu allen nicht benachbarten Ecken.",
+  "explanation": "6 · 3 : 2 = 9.",
+  "more": "Ein n-Eck hat n(n − 3) : 2 Diagonalen."
+ },
+ {
+  "id": "de8-wettbewerb-007",
+  "subject": "wettbewerb",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Sechs Personen begrüßen sich, jede gibt jeder anderen genau einmal die Hand. Wie viele Händedrücke sind das?",
+  "options": [
+   "30",
+   "36",
+   "15",
+   "12"
+  ],
+  "answer": "C",
+  "hint": "Jeder Händedruck gehört zu zwei Personen.",
+  "explanation": "6 · 5 : 2 = 15.",
+  "more": "Bei n Personen sind es n(n − 1) : 2 Händedrücke."
+ },
+ {
+  "id": "de8-wettbewerb-008",
+  "subject": "wettbewerb",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie groß ist 1 + 2 + 3 + … + 50?",
+  "options": [
+   "1250",
+   "2550",
+   "1300",
+   "1275"
+  ],
+  "answer": "D",
+  "hint": "Fasse die erste und letzte Zahl zusammen, dann die zweite und vorletzte …",
+  "explanation": "25 Paare mit Summe 51: 25 · 51 = 1275.",
+  "more": "Der junge Gauß soll so die Summe bis 100 (= 5050) berechnet haben."
+ },
+ {
+  "id": "de8-wettbewerb-009",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welchen Rest lässt 7¹⁰⁰ bei Division durch 5?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answer": "A",
+  "hint": "Betrachte nur die Endziffern der Potenzen von 7.",
+  "explanation": "Endziffern 7, 9, 3, 1 wiederholen sich; 100 ist durch 4 teilbar, Endziffer 1, Rest 1.",
+  "more": "Der Rest bei Division durch 5 hängt nur von der Endziffer ab."
+ },
+ {
+  "id": "de8-wettbewerb-010",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele positive Teiler hat 72?",
+  "options": [
+   "10",
+   "12",
+   "8",
+   "9"
+  ],
+  "answer": "B",
+  "hint": "Zerlege 72 in Primfaktoren.",
+  "explanation": "72 = 2³ · 3², also (3 + 1)(2 + 1) = 12 Teiler.",
+  "more": "Nur Quadratzahlen haben eine ungerade Anzahl von Teilern."
+ },
+ {
+  "id": "de8-wettbewerb-011",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele der Zahlen 1, 2, …, 100 sind weder durch 2 noch durch 3 teilbar?",
+  "options": [
+   "34",
+   "50",
+   "33",
+   "17"
+  ],
+  "answer": "C",
+  "hint": "Nutze Ein- und Ausschluss: durch 2, durch 3, durch 6.",
+  "explanation": "100 − 50 − 33 + 16 = 33.",
+  "more": "Solche Zahlen haben bei Division durch 6 den Rest 1 oder 5."
+ },
+ {
+  "id": "de8-wettbewerb-012",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Mit wie vielen Nullen endet 25! = 1 · 2 · 3 · … · 25?",
+  "options": [
+   "5",
+   "2",
+   "7",
+   "6"
+  ],
+  "answer": "D",
+  "hint": "Jede Null braucht einen Faktor 2 und einen Faktor 5.",
+  "explanation": "Faktoren 5: 5, 10, 15, 20 je einer, 25 zwei, zusammen 6.",
+  "more": "Faktoren 2 gibt es immer mehr als genug."
+ },
+ {
+  "id": "de8-wettbewerb-013",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "p und p + 2 sollen beide Primzahlen kleiner als 100 sein. Wie groß ist p höchstens?",
+  "options": [
+   "71",
+   "97",
+   "89",
+   "59"
+  ],
+  "answer": "A",
+  "hint": "Prüfe die großen Primzahlen unter 100 von oben.",
+  "explanation": "97 + 2 = 99 und 89 + 2 = 91 = 7·13 sind nicht prim, 73 schon: p = 71.",
+  "more": "Solche Paare heißen Primzahlzwillinge; ob es unendlich viele gibt, ist ungelöst."
+ },
+ {
+  "id": "de8-wettbewerb-014",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ritter sagen immer die Wahrheit, Lügner lügen immer. A sagt: „B ist ein Lügner.“ B sagt: „A und ich sind gleich.“ Was sind A und B?",
+  "options": [
+   "A Lügner, B Ritter",
+   "A Ritter, B Lügner",
+   "beide Ritter",
+   "beide Lügner"
+  ],
+  "answer": "B",
+  "hint": "Nimm an, A ist ein Lügner, und prüfe B.",
+  "explanation": "Wäre A Lügner, wäre B Ritter – dann wäre die Aussage von B falsch. Also A Ritter, B Lügner (B lügt tatsächlich).",
+  "more": "Solche Rätsel löst man systematisch durch Fallunterscheidung."
+ },
+ {
+  "id": "de8-wettbewerb-015",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele dreistellige Zahlen haben drei verschiedene Ziffern?",
+  "options": [
+   "720",
+   "729",
+   "648",
+   "504"
+  ],
+  "answer": "C",
+  "hint": "Die erste Ziffer darf nicht 0 sein.",
+  "explanation": "9 · 9 · 8 = 648.",
+  "more": "720 = 10 · 9 · 8 würde auch Zahlen mit führender 0 zählen."
+ },
+ {
+  "id": "de8-wettbewerb-016",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Vier Kinder A, B, C, D setzen sich auf vier Stühle in einer Reihe. A und B wollen nebeneinander sitzen. Wie viele Sitzordnungen gibt es?",
+  "options": [
+   "6",
+   "24",
+   "8",
+   "12"
+  ],
+  "answer": "D",
+  "hint": "Betrachte A und B als einen Block.",
+  "explanation": "3 Blöcke: 3! = 6, mal 2 (AB oder BA) = 12.",
+  "more": "Ohne Bedingung gäbe es 4! = 24 Sitzordnungen."
+ },
+ {
+  "id": "de8-wettbewerb-017",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Rechteck hat den Umfang 30 cm und ganzzahlige Seitenlängen (in cm). Wie groß kann seine Fläche höchstens sein?",
+  "options": [
+   "56 cm²",
+   "56,25 cm²",
+   "54 cm²",
+   "50 cm²"
+  ],
+  "answer": "A",
+  "hint": "Die Seiten sollten möglichst gleich lang sein.",
+  "explanation": "a + b = 15; am besten 7 · 8 = 56 cm².",
+  "more": "56,25 cm² hätte das Quadrat mit Seite 7,5 cm – nicht ganzzahlig."
+ },
+ {
+  "id": "de8-wettbewerb-018",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Die Zahl n lässt bei Division durch 3 den Rest 2, durch 4 den Rest 3 und durch 5 den Rest 4. Wie groß ist n mindestens?",
+  "options": [
+   "119",
+   "59",
+   "29",
+   "39"
+  ],
+  "answer": "B",
+  "hint": "Was passiert mit n + 1?",
+  "explanation": "n + 1 ist durch 3, 4 und 5 teilbar, also n + 1 = 60, n = 59.",
+  "more": "Der Trick „Rest immer eins weniger als der Teiler“ taucht oft auf."
+ },
+ {
+  "id": "de8-wettbewerb-019",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele Quadrate (aller Größen) findet man in einem 4×4-Gitter aus Einheitsquadraten?",
+  "options": [
+   "16",
+   "20",
+   "30",
+   "25"
+  ],
+  "answer": "C",
+  "hint": "Zähle 1×1, 2×2, 3×3 und 4×4 getrennt.",
+  "explanation": "16 + 9 + 4 + 1 = 30.",
+  "more": "Bei einem 8×8-Schachbrett sind es 204 Quadrate."
+ },
+ {
+  "id": "de8-wettbewerb-020",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele zweistellige Zahlen haben das Ziffernprodukt 12?",
+  "options": [
+   "3",
+   "5",
+   "6",
+   "4"
+  ],
+  "answer": "D",
+  "hint": "Zerlege 12 in zwei Ziffern.",
+  "explanation": "26, 62, 34, 43 – also 4 Zahlen.",
+  "more": "1 · 12 geht nicht, weil 12 keine Ziffer ist."
+ },
+ {
+  "id": "de8-wettbewerb-021",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Fünf Freunde sind im Durchschnitt 20 Jahre alt. Kommt Tim dazu, steigt der Durchschnitt auf 21 Jahre. Wie alt ist Tim?",
+  "options": [
+   "26",
+   "21",
+   "25",
+   "27"
+  ],
+  "answer": "A",
+  "hint": "Rechne mit der Summe aller Alter.",
+  "explanation": "6 · 21 − 5 · 20 = 126 − 100 = 26.",
+  "more": "Tim muss 1 Jahr für jeden der 6 plus die 20 selbst mitbringen."
+ },
+ {
+  "id": "de8-wettbewerb-022",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "An der Tafel stehen 1, 2, 3, 4, 5, 6. Man wischt immer zwei Zahlen weg und schreibt ihre Differenz (größer minus kleiner) hin, bis eine Zahl übrig ist. Welche ist unmöglich?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "5"
+  ],
+  "answer": "B",
+  "hint": "Achte darauf, ob die Summe gerade oder ungerade ist.",
+  "explanation": "a + b und a − b haben dieselbe Parität; die Summe 21 bleibt ungerade, also ist das Ende ungerade.",
+  "more": "Eine solche unveränderliche Eigenschaft heißt Invariante."
+ },
+ {
+  "id": "de8-wettbewerb-023",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie groß ist der kleinere Winkel zwischen den Uhrzeigern um 2:30 Uhr?",
+  "options": [
+   "90°",
+   "120°",
+   "105°",
+   "135°"
+  ],
+  "answer": "C",
+  "hint": "Der Stundenzeiger steht nicht genau auf der 2.",
+  "explanation": "Stundenzeiger bei 75°, Minutenzeiger bei 180°: 105°.",
+  "more": "Der Stundenzeiger dreht sich 0,5° pro Minute."
+ },
+ {
+  "id": "de8-wettbewerb-024",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Käfer läuft im Gitter von (0|0) nach (3|3), jeweils einen Schritt nach rechts oder nach oben. Wie viele Wege gibt es?",
+  "options": [
+   "6",
+   "9",
+   "27",
+   "20"
+  ],
+  "answer": "D",
+  "hint": "Jeder Weg besteht aus 3 R- und 3 O-Schritten.",
+  "explanation": "Man wählt die 3 Plätze für R aus 6: 20 Wege.",
+  "more": "Diese Zahlen findet man im Pascalschen Dreieck."
+ },
+ {
+  "id": "de8-wettbewerb-025",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Drei aufeinanderfolgende ungerade Zahlen haben die Summe 111. Wie groß ist die größte?",
+  "options": [
+   "39",
+   "37",
+   "41",
+   "35"
+  ],
+  "answer": "A",
+  "hint": "Die mittlere Zahl ist der Durchschnitt.",
+  "explanation": "Mitte 111 : 3 = 37, größte 39.",
+  "more": "35 + 37 + 39 = 111."
+ },
+ {
+  "id": "de8-wettbewerb-026",
+  "subject": "wettbewerb",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In einem Jahr ohne Schalttag ist der 1. Januar ein Montag. Welcher Wochentag ist der 31. Dezember?",
+  "options": [
+   "Dienstag",
+   "Montag",
+   "Sonntag",
+   "Mittwoch"
+  ],
+  "answer": "B",
+  "hint": "365 = 52 · 7 + 1.",
+  "explanation": "Der 31.12. liegt 364 = 52 · 7 Tage nach dem 1.1., also ist er wieder ein Montag.",
+  "more": "Darum beginnt das nächste Jahr dann an einem Dienstag."
+ },
+ {
+  "id": "de8-wettbewerb-027",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Auf welche Ziffer endet 3²⁰²⁶?",
+  "options": [
+   "3",
+   "7",
+   "9",
+   "1"
+  ],
+  "answer": "C",
+  "hint": "Die Endziffern von 3ⁿ haben die Periode 4.",
+  "explanation": "3, 9, 7, 1, …; 2026 = 4 · 506 + 2, also Endziffer 9.",
+  "more": "Genauso ist 7²⁰²⁶ auf 9 endend (7, 9, 3, 1)."
+ },
+ {
+  "id": "de8-wettbewerb-028",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele der Zahlen 1 bis 1000 sind durch 3, durch 5 oder durch 7 teilbar?",
+  "options": [
+   "600",
+   "476",
+   "524",
+   "543"
+  ],
+  "answer": "D",
+  "hint": "Ein- und Ausschluss mit 15, 21, 35 und 105.",
+  "explanation": "333 + 200 + 142 − 66 − 47 − 28 + 9 = 543.",
+  "more": "Einfaches Addieren (675) zählt viele Zahlen mehrfach."
+ },
+ {
+  "id": "de8-wettbewerb-029",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Für wie viele n von 1 bis 100 ist n² + n durch 6 teilbar?",
+  "options": [
+   "66",
+   "67",
+   "33",
+   "50"
+  ],
+  "answer": "A",
+  "hint": "n² + n = n(n + 1) ist immer gerade.",
+  "explanation": "Teilbar durch 3, wenn n oder n + 1 Vielfaches von 3 ist: n mod 3 = 0 oder 2, das sind 33 + 33 = 66.",
+  "more": "Das Produkt zweier aufeinanderfolgender Zahlen ist stets gerade."
+ },
+ {
+  "id": "de8-wettbewerb-030",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche ist die kleinste positive ganze Zahl mit genau 10 Teilern?",
+  "options": [
+   "80",
+   "48",
+   "512",
+   "36"
+  ],
+  "answer": "B",
+  "hint": "10 = 10 · 1 = 5 · 2: Welche Exponenten passen?",
+  "explanation": "Form p⁹ oder p⁴·q; am kleinsten 2⁴ · 3 = 48.",
+  "more": "80 = 2⁴ · 5 hat auch 10 Teiler, ist aber größer; 36 hat nur 9."
+ },
+ {
+  "id": "de8-wettbewerb-031",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele sechsstellige Zahlen, in denen jede der Ziffern 1 bis 6 genau einmal vorkommt, sind durch 11 teilbar?",
+  "options": [
+   "36",
+   "72",
+   "0",
+   "120"
+  ],
+  "answer": "C",
+  "hint": "Elferregel: alternierende Quersumme.",
+  "explanation": "Ziffernsummen auf geraden/ungeraden Plätzen: S₁ + S₂ = 21 ungerade, also S₁ − S₂ ungerade und zwischen −9 und 9, nie 0 oder ±11.",
+  "more": "Eine Zahl ist durch 11 teilbar, wenn ihre alternierende Quersumme es ist."
+ },
+ {
+  "id": "de8-wettbewerb-032",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Sechs Personen (Ritter oder Lügner) sitzen im Kreis. Jede sagt: „Mein rechter Nachbar ist ein Lügner.“ Wie viele Lügner sitzen am Tisch?",
+  "options": [
+   "2",
+   "4",
+   "6",
+   "3"
+  ],
+  "answer": "D",
+  "hint": "Was folgt für den Nachbarn eines Ritters, was für den eines Lügners?",
+  "explanation": "Ritter und Lügner müssen sich abwechseln, also genau 3 Lügner.",
+  "more": "Bei 5 Personen wäre die Situation unmöglich."
+ },
+ {
+  "id": "de8-wettbewerb-033",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele Rechtecke (Quadrate mitgezählt) kann man in einem 3×3-Gitter aus Einheitsquadraten entlang der Gitterlinien finden?",
+  "options": [
+   "36",
+   "9",
+   "14",
+   "18"
+  ],
+  "answer": "A",
+  "hint": "Ein Rechteck ist durch 2 waagrechte und 2 senkrechte Linien festgelegt.",
+  "explanation": "Je 4 Linien: (4 über 2) · (4 über 2) = 6 · 6 = 36.",
+  "more": "14 ist die Anzahl der Quadrate allein."
+ },
+ {
+  "id": "de8-wettbewerb-034",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie groß ist die Quersumme von 10²⁵ − 25?",
+  "options": [
+   "225",
+   "219",
+   "207",
+   "216"
+  ],
+  "answer": "B",
+  "hint": "Schreibe die Zahl aus: viele Neunen und ein Ende.",
+  "explanation": "10²⁵ − 25 = 99…975 mit 23 Neunen: 23 · 9 + 7 + 5 = 219.",
+  "more": "Ähnlich: 10ⁿ − 1 besteht aus n Neunen."
+ },
+ {
+  "id": "de8-wettbewerb-035",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Man schreibt alle Zahlen von 1 bis 2026 hintereinander. Wie viele Ziffern schreibt man insgesamt?",
+  "options": [
+   "6993",
+   "8104",
+   "6997",
+   "7000"
+  ],
+  "answer": "C",
+  "hint": "Zähle ein-, zwei-, drei- und vierstellige Zahlen getrennt.",
+  "explanation": "9 + 90·2 + 900·3 + 1027·4 = 9 + 180 + 2700 + 4108 = 6997.",
+  "more": "Vierstellig sind die Zahlen 1000 bis 2026, das sind 1027 Stück."
+ },
+ {
+  "id": "de8-wettbewerb-036",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Auf wie viele Arten kann man genau 10 € mit 1-€-, 2-€-Münzen und 5-€-Scheinen bezahlen (nur die Anzahlen zählen)?",
+  "options": [
+   "8",
+   "12",
+   "6",
+   "10"
+  ],
+  "answer": "D",
+  "hint": "Unterscheide nach der Zahl der 5-€-Scheine.",
+  "explanation": "0 Scheine: 6 Arten, 1 Schein: 3 Arten, 2 Scheine: 1 Art – zusammen 10.",
+  "more": "Ohne 5-€-Scheine gäbe es 6 Möglichkeiten (0 bis 5 Zweier)."
+ },
+ {
+  "id": "de8-wettbewerb-037",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie groß ist ggT(2¹⁰ − 1, 2¹⁵ − 1)?",
+  "options": [
+   "31",
+   "1",
+   "7",
+   "3"
+  ],
+  "answer": "A",
+  "hint": "Beide Zahlen sind durch 2⁵ − 1 teilbar.",
+  "explanation": "1023 = 3 · 11 · 31 und 32767 = 7 · 31 · 151, also ggT = 31.",
+  "more": "Allgemein gilt ggT(2ᵃ − 1, 2ᵇ − 1) = 2^ggT(a,b) − 1."
+ },
+ {
+  "id": "de8-wettbewerb-038",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche der folgenden Zahlen ist ein Teiler von 2²⁰²⁶ + 2²⁰²⁷ + 2²⁰²⁸?",
+  "options": [
+   "3",
+   "7",
+   "5",
+   "13"
+  ],
+  "answer": "B",
+  "hint": "Klammere 2²⁰²⁶ aus.",
+  "explanation": "2²⁰²⁶ · (1 + 2 + 4) = 2²⁰²⁶ · 7.",
+  "more": "Eine Zweierpotenz hat außer 2 keine Primteiler."
+ },
+ {
+  "id": "de8-wettbewerb-039",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele verschiedene (nicht kongruente) Dreiecke mit ganzzahligen Seitenlängen haben den Umfang 12?",
+  "options": [
+   "2",
+   "4",
+   "3",
+   "5"
+  ],
+  "answer": "C",
+  "hint": "Dreiecksungleichung: Die längste Seite muss kleiner als 6 sein.",
+  "explanation": "Möglich sind (2, 5, 5), (3, 4, 5) und (4, 4, 4).",
+  "more": "(3, 4, 5) ist das bekannteste rechtwinklige Dreieck."
+ },
+ {
+  "id": "de8-wettbewerb-040",
+  "subject": "wettbewerb",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Von einem 8×8-Schachbrett entfernt man zwei gegenüberliegende Eckfelder. Wie viele 2×1-Dominosteine passen höchstens überschneidungsfrei darauf?",
+  "options": [
+   "31",
+   "32",
+   "29",
+   "30"
+  ],
+  "answer": "D",
+  "hint": "Jeder Dominostein bedeckt ein weißes und ein schwarzes Feld.",
+  "explanation": "Beide Ecken haben dieselbe Farbe: 30 Felder der einen, 32 der anderen Farbe – höchstens 30 Steine, und 30 gehen.",
+  "more": "Das ist ein klassisches Färbungsargument."
+ }
+]

@@ -100,7 +100,8 @@ class GermanBankTest(unittest.TestCase):
     def test_bank_files_are_valid(self):
         bank = quiz.load_bank(quiz.DE_BANK_DIR)
         self.assertGreater(len(bank), 120)
-        self.assertEqual({q.subject for q in bank}, set(quiz.LANGUAGES["de"]["subjects"]))
+        senior = quiz.load_bank(quiz.DE8_BANK_DIR)
+        self.assertEqual({q.subject for q in bank + senior}, set(quiz.LANGUAGES["de"]["subjects"]))
         self.assertEqual(len({q.id for q in bank}), len(bank))
         for q in bank:
             self.assertEqual(len(set(q.options)), 4, q.stem)
@@ -160,10 +161,14 @@ class GermanBankTest(unittest.TestCase):
         cfg.read_dict({"quiz": {"language": "de"}})
         rules = quiz.Rules.from_config(cfg)
         self.assertEqual((rules.language, rules.grade), ("de", 4))
-        self.assertEqual(rules.subjects, ["mathe", "deutsch", "sachunterricht", "englisch", "franzoesisch", "englisch_alltag", "chinesisch"])
+        self.assertEqual(rules.subjects, ["mathe", "deutsch", "sachunterricht", "englisch", "franzoesisch", "englisch_alltag", "chinesisch",
+                                          "physik", "chemie", "biologie", "geographie", "geschichte",
+                                          "gemeinschaftskunde", "wettbewerb"])
 
     def test_language_subjects_ignore_primary_grade_limit(self):
-        rules = quiz.Rules(language="de", grade=4, subjects=["franzoesisch", "englisch_alltag", "chinesisch"])
+        rules = quiz.Rules(language="de", grade=4, subjects=["franzoesisch", "englisch_alltag", "chinesisch",
+                                          "physik", "chemie", "biologie", "geographie", "geschichte",
+                                          "gemeinschaftskunde", "wettbewerb"])
         engine = quiz.QuizEngine(rules, rng=random.Random(1))
         self.assertEqual(len(engine.static), 300)
 

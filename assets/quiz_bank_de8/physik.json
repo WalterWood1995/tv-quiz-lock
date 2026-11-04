@@ -1,0 +1,632 @@
+[
+ {
+  "id": "de8-physik-001",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Lichtstrahl trifft unter einem Einfallswinkel von 30° auf einen ebenen Spiegel. Wie groß ist der Reflexionswinkel?",
+  "options": [
+   "60°",
+   "30°",
+   "90°",
+   "15°"
+  ],
+  "answer": "B",
+  "hint": "Denk an das Reflexionsgesetz.",
+  "explanation": "Einfallswinkel = Reflexionswinkel, beide zum Lot gemessen.",
+  "more": "Das Lot steht senkrecht auf der Spiegelfläche."
+ },
+ {
+  "id": "de8-physik-002",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welcher Einheit wird eine Kraft angegeben?",
+  "options": [
+   "Newton (N)",
+   "Joule (J)",
+   "Watt (W)",
+   "Pascal (Pa)"
+  ],
+  "answer": "A",
+  "hint": "Benannt nach einem englischen Physiker.",
+  "explanation": "Kräfte misst man in Newton, z. B. mit einem Federkraftmesser.",
+  "more": "Joule ist die Einheit der Energie, Watt die der Leistung."
+ },
+ {
+  "id": "de8-physik-003",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem der folgenden Medien kann sich Schall NICHT ausbreiten?",
+  "options": [
+   "In Wasser",
+   "In Stahl",
+   "In Luft",
+   "Im Vakuum"
+  ],
+  "answer": "D",
+  "hint": "Schall braucht Teilchen, die schwingen.",
+  "explanation": "Schall ist eine Schwingung von Teilchen; im Vakuum fehlen sie.",
+  "more": "Deshalb ist es im Weltall still."
+ },
+ {
+  "id": "de8-physik-004",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was passiert, wenn man zwei Nordpole von Magneten einander nähert?",
+  "options": [
+   "Sie ziehen sich an.",
+   "Sie beeinflussen sich nicht.",
+   "Sie stoßen sich ab.",
+   "Sie werden zu Südpolen."
+  ],
+  "answer": "C",
+  "hint": "Gleich und ungleich – welche Regel gilt?",
+  "explanation": "Gleichnamige Pole stoßen sich ab, ungleichnamige ziehen sich an.",
+  "more": "Die Erde wirkt selbst wie ein großer Magnet."
+ },
+ {
+  "id": "de8-physik-005",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welcher Einheit wird der elektrische Widerstand angegeben?",
+  "options": [
+   "Volt (V)",
+   "Ohm (Ω)",
+   "Ampere (A)",
+   "Watt (W)"
+  ],
+  "answer": "B",
+  "hint": "Das Zeichen ist ein griechischer Buchstabe.",
+  "explanation": "Der Widerstand R wird in Ohm gemessen; 1 Ω = 1 V/A.",
+  "more": "Volt ist die Einheit der Spannung, Ampere die der Stromstärke."
+ },
+ {
+  "id": "de8-physik-006",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Astronaut fliegt von der Erde zum Mond. Welche Größe bleibt dabei gleich?",
+  "options": [
+   "Seine Masse",
+   "Seine Gewichtskraft",
+   "Der Ortsfaktor",
+   "Die Anzeige eines Kraftmessers"
+  ],
+  "answer": "A",
+  "hint": "Was ist ortsunabhängig?",
+  "explanation": "Die Masse ist überall gleich, die Gewichtskraft hängt vom Ortsfaktor ab.",
+  "more": "Auf dem Mond ist die Gewichtskraft nur etwa ein Sechstel so groß."
+ },
+ {
+  "id": "de8-physik-007",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie groß ist ungefähr die Lichtgeschwindigkeit im Vakuum?",
+  "options": [
+   "300 000 km/h",
+   "340 m/s",
+   "3000 km/s",
+   "300 000 km/s"
+  ],
+  "answer": "D",
+  "hint": "Licht braucht von der Sonne etwa 8 Minuten zu uns.",
+  "explanation": "Die Lichtgeschwindigkeit beträgt rund 300 000 km pro Sekunde.",
+  "more": "340 m/s ist ungefähr die Schallgeschwindigkeit in Luft."
+ },
+ {
+  "id": "de8-physik-008",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Stoff wird von einem Magneten angezogen?",
+  "options": [
+   "Kupfer",
+   "Aluminium",
+   "Eisen",
+   "Glas"
+  ],
+  "answer": "C",
+  "hint": "Denk an Büroklammern und Nägel.",
+  "explanation": "Eisen, Nickel und Cobalt sind ferromagnetisch.",
+  "more": "Kupfer und Aluminium sind Metalle, werden aber nicht angezogen."
+ },
+ {
+  "id": "de8-physik-009",
+  "subject": "physik",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Woran erkennt man eine Sammellinse?",
+  "options": [
+   "Sie ist am Rand dicker als in der Mitte.",
+   "Sie ist in der Mitte dicker als am Rand.",
+   "Sie ist überall gleich dick.",
+   "Sie ist immer aus Kunststoff."
+  ],
+  "answer": "B",
+  "hint": "Denk an eine Lupe.",
+  "explanation": "Sammellinsen (konvex) sind in der Mitte dicker und bündeln Licht.",
+  "more": "Zerstreuungslinsen sind in der Mitte dünner."
+ },
+ {
+  "id": "de8-physik-010",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Auto fährt 90 km in 1,5 Stunden. Wie groß ist seine Durchschnittsgeschwindigkeit?",
+  "options": [
+   "60 km/h",
+   "135 km/h",
+   "45 km/h",
+   "90 km/h"
+  ],
+  "answer": "A",
+  "hint": "v = s : t",
+  "explanation": "v = 90 km : 1,5 h = 60 km/h.",
+  "more": "Die Momentangeschwindigkeit kann davon stark abweichen."
+ },
+ {
+  "id": "de8-physik-011",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viel sind 72 km/h in m/s?",
+  "options": [
+   "25 m/s",
+   "259 m/s",
+   "7,2 m/s",
+   "20 m/s"
+  ],
+  "answer": "D",
+  "hint": "1 m/s = 3,6 km/h.",
+  "explanation": "72 : 3,6 = 20, also 20 m/s.",
+  "more": "Umgekehrt multipliziert man m/s mit 3,6, um km/h zu erhalten."
+ },
+ {
+  "id": "de8-physik-012",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Gewichtskraft wirkt auf der Erde auf einen Körper mit 5 kg Masse? (Ortsfaktor g ≈ 10 N/kg)",
+  "options": [
+   "5 N",
+   "0,5 N",
+   "50 N",
+   "500 N"
+  ],
+  "answer": "C",
+  "hint": "F = m · g",
+  "explanation": "F = 5 kg · 10 N/kg = 50 N.",
+  "more": "Genauer ist g ≈ 9,81 N/kg in Mitteleuropa."
+ },
+ {
+  "id": "de8-physik-013",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Metallstück hat ein Volumen von 200 cm³ und eine Masse von 540 g. Welche Dichte hat es?",
+  "options": [
+   "0,37 g/cm³",
+   "2,7 g/cm³",
+   "27 g/cm³",
+   "1,08 g/cm³"
+  ],
+  "answer": "B",
+  "hint": "ρ = m : V",
+  "explanation": "ρ = 540 g : 200 cm³ = 2,7 g/cm³.",
+  "more": "2,7 g/cm³ ist die Dichte von Aluminium."
+ },
+ {
+  "id": "de8-physik-014",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "An einem Widerstand von 4 Ω liegt eine Spannung von 12 V. Wie groß ist die Stromstärke?",
+  "options": [
+   "3 A",
+   "48 A",
+   "0,33 A",
+   "16 A"
+  ],
+  "answer": "A",
+  "hint": "Stelle U = R · I nach I um.",
+  "explanation": "I = U : R = 12 V : 4 Ω = 3 A.",
+  "more": "Dieser Zusammenhang heißt ohmsches Gesetz."
+ },
+ {
+  "id": "de8-physik-015",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Zwei Widerstände von 10 Ω und 20 Ω werden in Reihe geschaltet. Wie groß ist der Gesamtwiderstand?",
+  "options": [
+   "6,7 Ω",
+   "200 Ω",
+   "15 Ω",
+   "30 Ω"
+  ],
+  "answer": "D",
+  "hint": "In Reihe addieren sich die Widerstände.",
+  "explanation": "R = 10 Ω + 20 Ω = 30 Ω.",
+  "more": "In der Reihenschaltung fließt überall derselbe Strom."
+ },
+ {
+  "id": "de8-physik-016",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Zwei gleiche Widerstände von je 10 Ω werden parallel geschaltet. Wie groß ist der Gesamtwiderstand?",
+  "options": [
+   "20 Ω",
+   "10 Ω",
+   "5 Ω",
+   "100 Ω"
+  ],
+  "answer": "C",
+  "hint": "Parallel gibt es mehrere Wege für den Strom.",
+  "explanation": "1/R = 1/10 Ω + 1/10 Ω = 1/5 Ω, also R = 5 Ω.",
+  "more": "Der Gesamtwiderstand einer Parallelschaltung ist kleiner als jeder Einzelwiderstand."
+ },
+ {
+  "id": "de8-physik-017",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Kraft von 600 N wirkt senkrecht auf eine Fläche von 0,02 m². Wie groß ist der Druck?",
+  "options": [
+   "12 Pa",
+   "30 000 Pa",
+   "1200 Pa",
+   "3000 Pa"
+  ],
+  "answer": "B",
+  "hint": "p = F : A",
+  "explanation": "p = 600 N : 0,02 m² = 30 000 N/m² = 30 000 Pa.",
+  "more": "1 bar entspricht 100 000 Pa."
+ },
+ {
+  "id": "de8-physik-018",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "An einem zweiseitigen Hebel hängt 30 cm vom Drehpunkt eine Last von 20 N. Welche Kraft hält ihn 10 cm vom Drehpunkt auf der anderen Seite im Gleichgewicht?",
+  "options": [
+   "60 N",
+   "6,7 N",
+   "20 N",
+   "30 N"
+  ],
+  "answer": "A",
+  "hint": "Kraft · Kraftarm = Last · Lastarm",
+  "explanation": "F · 10 cm = 20 N · 30 cm, also F = 60 N.",
+  "more": "Mit einem längeren Kraftarm spart man Kraft."
+ },
+ {
+  "id": "de8-physik-019",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein 50 kg schwerer Sack wird 3 m hochgehoben (g ≈ 10 N/kg). Wie groß ist die Hubarbeit?",
+  "options": [
+   "150 J",
+   "15 000 J",
+   "53 J",
+   "1500 J"
+  ],
+  "answer": "D",
+  "hint": "W = F · s mit F = m · g",
+  "explanation": "F = 500 N, W = 500 N · 3 m = 1500 J.",
+  "more": "1 J = 1 N · m."
+ },
+ {
+  "id": "de8-physik-020",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Motor verrichtet in 4 s eine Arbeit von 1200 J. Wie groß ist seine Leistung?",
+  "options": [
+   "4800 W",
+   "1200 W",
+   "300 W",
+   "30 W"
+  ],
+  "answer": "C",
+  "hint": "P = W : t",
+  "explanation": "P = 1200 J : 4 s = 300 W.",
+  "more": "1 W = 1 J/s."
+ },
+ {
+  "id": "de8-physik-021",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Lichtstrahl geht schräg von Luft in Wasser über. Wie wird er gebrochen?",
+  "options": [
+   "Vom Lot weg",
+   "Zum Lot hin",
+   "Gar nicht",
+   "Er wird vollständig reflektiert."
+  ],
+  "answer": "B",
+  "hint": "Wasser ist optisch dichter als Luft.",
+  "explanation": "Beim Übergang ins optisch dichtere Medium wird Licht zum Lot hin gebrochen.",
+  "more": "Deshalb wirkt ein Stab im Wasser geknickt."
+ },
+ {
+  "id": "de8-physik-022",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo treffen sich achsenparallele Lichtstrahlen, nachdem sie durch eine Sammellinse gegangen sind?",
+  "options": [
+   "Im Brennpunkt",
+   "Im Mittelpunkt der Linse",
+   "In der doppelten Brennweite",
+   "Sie treffen sich nie."
+  ],
+  "answer": "A",
+  "hint": "Mit einer Lupe kann man so Papier entzünden.",
+  "explanation": "Achsenparallele Strahlen werden zu Brennpunktstrahlen.",
+  "more": "Der Abstand Linse–Brennpunkt heißt Brennweite."
+ },
+ {
+  "id": "de8-physik-023",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Eine Gitarrensaite schwingt mit höherer Frequenz als vorher. Was hört man?",
+  "options": [
+   "Einen tieferen Ton",
+   "Einen lauteren Ton",
+   "Einen leiseren Ton",
+   "Einen höheren Ton"
+  ],
+  "answer": "D",
+  "hint": "Frequenz und Amplitude bedeuten Verschiedenes.",
+  "explanation": "Die Frequenz bestimmt die Tonhöhe, die Amplitude die Lautstärke.",
+  "more": "Menschen hören etwa 20 Hz bis 20 000 Hz."
+ },
+ {
+  "id": "de8-physik-024",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Warum sind Steckdosen im Haushalt parallel geschaltet?",
+  "options": [
+   "Dann fließt durch alle Geräte derselbe Strom.",
+   "So sinkt der Stromverbrauch auf null.",
+   "Jedes Gerät erhält die volle Spannung von 230 V.",
+   "Dann teilen sich die Geräte die 230 V auf."
+  ],
+  "answer": "C",
+  "hint": "Was passiert in einer Reihenschaltung mit der Spannung?",
+  "explanation": "In der Parallelschaltung liegt an jedem Zweig dieselbe Spannung.",
+  "more": "Außerdem funktionieren die anderen Geräte weiter, wenn eines ausgeschaltet wird."
+ },
+ {
+  "id": "de8-physik-025",
+  "subject": "physik",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Gerät mit 2 kW Leistung läuft 3 Stunden. Wie viel elektrische Energie wird umgesetzt?",
+  "options": [
+   "1,5 kWh",
+   "6 kWh",
+   "5 kWh",
+   "6000 kWh"
+  ],
+  "answer": "B",
+  "hint": "E = P · t",
+  "explanation": "E = 2 kW · 3 h = 6 kWh.",
+  "more": "Die Kilowattstunde ist die Einheit auf der Stromrechnung."
+ },
+ {
+  "id": "de8-physik-026",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Gegenstand steht weiter als die doppelte Brennweite vor einer Sammellinse. Wie ist sein Bild?",
+  "options": [
+   "Reell, umgekehrt, verkleinert",
+   "Reell, umgekehrt, vergrößert",
+   "Virtuell, aufrecht, vergrößert",
+   "Reell, aufrecht, verkleinert"
+  ],
+  "answer": "A",
+  "hint": "So funktioniert eine Fotokamera.",
+  "explanation": "Für g > 2f entsteht ein reelles, umgekehrtes, verkleinertes Bild zwischen f und 2f.",
+  "more": "Zwischen f und 2f entsteht dagegen ein vergrößertes Bild (Projektor)."
+ },
+ {
+  "id": "de8-physik-027",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Du rufst vor einer Felswand; das Echo kommt nach 1,5 s zurück (Schall: 340 m/s). Wie weit ist die Wand entfernt?",
+  "options": [
+   "510 m",
+   "227 m",
+   "170 m",
+   "255 m"
+  ],
+  "answer": "D",
+  "hint": "Der Schall läuft hin und zurück.",
+  "explanation": "s = 340 m/s · 1,5 s = 510 m für Hin- und Rückweg, also 255 m.",
+  "more": "Nach diesem Prinzip arbeitet auch das Echolot."
+ },
+ {
+  "id": "de8-physik-028",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Zwischen Blitz und Donner vergehen 6 s (Schall: 340 m/s). Wie weit ist das Gewitter etwa entfernt?",
+  "options": [
+   "Etwa 6 km",
+   "Etwa 1 km",
+   "Etwa 2 km",
+   "Etwa 0,5 km"
+  ],
+  "answer": "C",
+  "hint": "Das Licht kommt praktisch sofort an.",
+  "explanation": "s = 340 m/s · 6 s = 2040 m ≈ 2 km.",
+  "more": "Faustregel: Sekunden durch 3 ergibt ungefähr die Entfernung in km."
+ },
+ {
+  "id": "de8-physik-029",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Durch eine Lampe fließt bei 230 V ein Strom von 0,5 A. Wie groß ist ihr Widerstand?",
+  "options": [
+   "115 Ω",
+   "460 Ω",
+   "230 Ω",
+   "0,002 Ω"
+  ],
+  "answer": "B",
+  "hint": "R = U : I",
+  "explanation": "R = 230 V : 0,5 A = 460 Ω.",
+  "more": "Der Widerstand einer Glühlampe ist im kalten Zustand deutlich kleiner."
+ },
+ {
+  "id": "de8-physik-030",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Widerstände von 6 Ω und 12 Ω liegen in Reihe an 9 V. Wie groß ist die Stromstärke?",
+  "options": [
+   "0,5 A",
+   "1,5 A",
+   "2,25 A",
+   "0,75 A"
+  ],
+  "answer": "A",
+  "hint": "Erst den Gesamtwiderstand bestimmen.",
+  "explanation": "R = 18 Ω, I = 9 V : 18 Ω = 0,5 A.",
+  "more": "In der Reihenschaltung ist die Stromstärke überall gleich."
+ },
+ {
+  "id": "de8-physik-031",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Widerstände von 2 Ω und 4 Ω liegen in Reihe an 12 V. Welche Spannung liegt am 4-Ω-Widerstand?",
+  "options": [
+   "4 V",
+   "6 V",
+   "12 V",
+   "8 V"
+  ],
+  "answer": "D",
+  "hint": "Berechne zuerst den Strom.",
+  "explanation": "I = 12 V : 6 Ω = 2 A, U = 4 Ω · 2 A = 8 V.",
+  "more": "Die Teilspannungen verhalten sich wie die Widerstände."
+ },
+ {
+  "id": "de8-physik-032",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Je 10 m Wassertiefe steigt der Druck um etwa 1 bar. Wie groß ist der Gesamtdruck in 20 m Tiefe, wenn der Luftdruck 1 bar beträgt?",
+  "options": [
+   "Etwa 2 bar",
+   "Etwa 20 bar",
+   "Etwa 3 bar",
+   "Etwa 0,2 bar"
+  ],
+  "answer": "C",
+  "hint": "Luftdruck und Wasserdruck addieren sich.",
+  "explanation": "1 bar Luftdruck + 2 bar Wasserdruck = 3 bar.",
+  "more": "Taucher müssen deshalb langsam auftauchen."
+ },
+ {
+  "id": "de8-physik-033",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Elektromotor nimmt 500 J elektrische Energie auf und gibt 400 J mechanische Energie ab. Wie groß ist sein Wirkungsgrad?",
+  "options": [
+   "125 %",
+   "80 %",
+   "20 %",
+   "40 %"
+  ],
+  "answer": "B",
+  "hint": "Nutzen geteilt durch Aufwand.",
+  "explanation": "η = 400 J : 500 J = 0,8 = 80 %.",
+  "more": "Der Rest wird vor allem in Wärme umgewandelt."
+ },
+ {
+  "id": "de8-physik-034",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Holzklotz hat die Dichte 0,9 g/cm³. Was geschieht, wenn man ihn in Wasser (1,0 g/cm³) legt?",
+  "options": [
+   "Er schwimmt, etwa 90 % sind eingetaucht.",
+   "Er sinkt auf den Grund.",
+   "Er schwebt genau mitten im Wasser.",
+   "Er schwimmt, etwa 10 % sind eingetaucht."
+  ],
+  "answer": "A",
+  "hint": "Vergleiche die Dichten.",
+  "explanation": "Ist ρ kleiner als die des Wassers, schwimmt der Körper; eingetaucht ist der Anteil 0,9 : 1,0.",
+  "more": "So ist es auch bei Eisbergen: Der größte Teil liegt unter Wasser."
+ },
+ {
+  "id": "de8-physik-035",
+  "subject": "physik",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie kann man die Magnetwirkung einer stromdurchflossenen Spule verstärken?",
+  "options": [
+   "Die Stromstärke verringern",
+   "Die Windungszahl verringern",
+   "Den Strom ganz abschalten",
+   "Einen Eisenkern in die Spule stecken"
+  ],
+  "answer": "D",
+  "hint": "Welches Material ist ferromagnetisch?",
+  "explanation": "Ein Eisenkern, mehr Windungen und mehr Strom verstärken den Elektromagneten.",
+  "more": "Elektromagnete nutzt man z. B. in Klingeln und Schrottkränen."
+ }
+]

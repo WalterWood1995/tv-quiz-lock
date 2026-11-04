@@ -1,0 +1,632 @@
+[
+ {
+  "id": "de8-biologie-001",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchen Zellbestandteilen findet die Fotosynthese statt?",
+  "options": [
+   "In den Mitochondrien",
+   "In den Chloroplasten",
+   "Im Zellkern",
+   "In der Vakuole"
+  ],
+  "answer": "B",
+  "hint": "Sie enthalten den grünen Farbstoff.",
+  "explanation": "Chloroplasten enthalten Chlorophyll und nutzen Lichtenergie.",
+  "more": "Nur Pflanzen und Algen besitzen Chloroplasten."
+ },
+ {
+  "id": "de8-biologie-002",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Zellbestandteile nennt man die „Kraftwerke der Zelle“?",
+  "options": [
+   "Mitochondrien",
+   "Chloroplasten",
+   "Ribosomen",
+   "Zellwand"
+  ],
+  "answer": "A",
+  "hint": "Hier läuft die Zellatmung ab.",
+  "explanation": "In den Mitochondrien wird bei der Zellatmung Energie aus Traubenzucker freigesetzt.",
+  "more": "Muskelzellen haben besonders viele Mitochondrien."
+ },
+ {
+  "id": "de8-biologie-003",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welchen Bestandteil besitzt eine Pflanzenzelle, eine Tierzelle aber nicht?",
+  "options": [
+   "Zellkern",
+   "Zellmembran",
+   "Mitochondrien",
+   "Zellwand"
+  ],
+  "answer": "D",
+  "hint": "Er gibt der Pflanzenzelle Festigkeit.",
+  "explanation": "Pflanzenzellen haben eine Zellwand aus Cellulose, Tierzellen nicht.",
+  "more": "Auch Chloroplasten und eine große Vakuole fehlen Tierzellen."
+ },
+ {
+  "id": "de8-biologie-004",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo ist die Erbinformation in einer Tier- oder Pflanzenzelle hauptsächlich gespeichert?",
+  "options": [
+   "In der Zellmembran",
+   "In der Vakuole",
+   "Im Zellkern",
+   "In der Zellwand"
+  ],
+  "answer": "C",
+  "hint": "Er steuert die Zelle.",
+  "explanation": "Der Zellkern enthält die DNA in den Chromosomen.",
+  "more": "Rote Blutkörperchen des Menschen haben keinen Zellkern."
+ },
+ {
+  "id": "de8-biologie-005",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Gegen welche Krankheitserreger wirken Antibiotika?",
+  "options": [
+   "Viren",
+   "Bakterien",
+   "Pollen",
+   "Prionen"
+  ],
+  "answer": "B",
+  "hint": "Gegen Erkältungsviren helfen sie nicht.",
+  "explanation": "Antibiotika greifen Strukturen oder Stoffwechsel von Bakterien an.",
+  "more": "Falscher Einsatz fördert resistente Bakterien."
+ },
+ {
+  "id": "de8-biologie-006",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer steht als Produzent am Anfang einer Nahrungskette?",
+  "options": [
+   "Grüne Pflanzen",
+   "Pflanzenfresser",
+   "Fleischfresser",
+   "Pilze"
+  ],
+  "answer": "A",
+  "hint": "Wer kann selbst Nährstoffe herstellen?",
+  "explanation": "Grüne Pflanzen bauen durch Fotosynthese energiereiche Stoffe auf.",
+  "more": "Pilze gehören zu den Destruenten."
+ },
+ {
+  "id": "de8-biologie-007",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo liegen im Auge die lichtempfindlichen Sinneszellen?",
+  "options": [
+   "In der Hornhaut",
+   "In der Iris",
+   "In der Linse",
+   "In der Netzhaut"
+  ],
+  "answer": "D",
+  "hint": "Sie kleidet das Auge innen aus.",
+  "explanation": "Stäbchen und Zapfen in der Netzhaut wandeln Licht in Nervensignale um.",
+  "more": "Am blinden Fleck gibt es keine Sinneszellen."
+ },
+ {
+  "id": "de8-biologie-008",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Ausgangsstoffe braucht eine Pflanze für die Fotosynthese (neben Licht)?",
+  "options": [
+   "Sauerstoff und Wasser",
+   "Traubenzucker und Sauerstoff",
+   "Kohlenstoffdioxid und Wasser",
+   "Stickstoff und Sauerstoff"
+  ],
+  "answer": "C",
+  "hint": "Ein Gas aus der Luft, ein Stoff aus dem Boden.",
+  "explanation": "CO₂ wird über die Blätter, Wasser über die Wurzeln aufgenommen.",
+  "more": "Sauerstoff entsteht als Produkt."
+ },
+ {
+  "id": "de8-biologie-009",
+  "subject": "biologie",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo können sich Viren vermehren?",
+  "options": [
+   "Überall auf Oberflächen",
+   "Nur in lebenden Wirtszellen",
+   "Nur in Wasser",
+   "Durch eigene Zellteilung"
+  ],
+  "answer": "B",
+  "hint": "Viren haben keinen eigenen Stoffwechsel.",
+  "explanation": "Viren nutzen die Zellmaschinerie eines Wirts zur Vermehrung.",
+  "more": "Viren sind viel kleiner als Bakterien."
+ },
+ {
+  "id": "de8-biologie-010",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Ein Mikroskop hat ein Okular 10× und ein Objektiv 40×. Wie stark ist die Gesamtvergrößerung?",
+  "options": [
+   "400-fach",
+   "50-fach",
+   "40-fach",
+   "4000-fach"
+  ],
+  "answer": "A",
+  "hint": "Die Vergrößerungen werden multipliziert.",
+  "explanation": "10 · 40 = 400.",
+  "more": "Man beginnt beim Mikroskopieren immer mit dem kleinsten Objektiv."
+ },
+ {
+  "id": "de8-biologie-011",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Stoffe entstehen bei der Zellatmung?",
+  "options": [
+   "Traubenzucker und Sauerstoff",
+   "Sauerstoff und Wasser",
+   "Stärke und Sauerstoff",
+   "Kohlenstoffdioxid und Wasser"
+  ],
+  "answer": "D",
+  "hint": "Sie ist in etwa die Umkehrung der Fotosynthese.",
+  "explanation": "Traubenzucker + Sauerstoff → Kohlenstoffdioxid + Wasser, dabei wird Energie frei.",
+  "more": "Auch Pflanzen betreiben Zellatmung, Tag und Nacht."
+ },
+ {
+  "id": "de8-biologie-012",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Organe sind für den Drehsinn zuständig?",
+  "options": [
+   "Das Trommelfell",
+   "Die Ohrmuscheln",
+   "Die Bogengänge im Innenohr",
+   "Die Gehörknöchelchen"
+  ],
+  "answer": "C",
+  "hint": "Sie sind mit Flüssigkeit gefüllt.",
+  "explanation": "In den Bogengängen bewegt sich Flüssigkeit und reizt Sinneszellen.",
+  "more": "Drehschwindel entsteht, wenn die Flüssigkeit nachläuft."
+ },
+ {
+  "id": "de8-biologie-013",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie reagiert die Pupille, wenn helles Licht ins Auge fällt?",
+  "options": [
+   "Sie wird größer.",
+   "Sie wird kleiner.",
+   "Sie bleibt unverändert.",
+   "Sie schließt sich ganz."
+  ],
+  "answer": "B",
+  "hint": "Das Auge schützt die Netzhaut.",
+  "explanation": "Die Iris verengt die Pupille, damit weniger Licht einfällt.",
+  "more": "Dieser Pupillenreflex läuft unwillkürlich ab."
+ },
+ {
+  "id": "de8-biologie-014",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was geschieht bei einer aktiven Impfung?",
+  "options": [
+   "Der Körper bildet selbst Antikörper und Gedächtniszellen.",
+   "Man erhält fertige Antikörper eines anderen Menschen.",
+   "Man bekommt vorbeugend Antibiotika gespritzt.",
+   "Die weißen Blutkörperchen werden entfernt."
+  ],
+  "answer": "A",
+  "hint": "Das Immunsystem lernt selbst.",
+  "explanation": "Abgeschwächte Erreger oder Erregerbestandteile regen die eigene Abwehr an.",
+  "more": "Bei der passiven Impfung bekommt man fertige Antikörper."
+ },
+ {
+  "id": "de8-biologie-015",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Zellen bilden Antikörper?",
+  "options": [
+   "Rote Blutkörperchen",
+   "Blutplättchen",
+   "Nervenzellen",
+   "B-Lymphozyten (Plasmazellen)"
+  ],
+  "answer": "D",
+  "hint": "Sie gehören zu den weißen Blutkörperchen.",
+  "explanation": "Aktivierte B-Lymphozyten werden zu Plasmazellen und bilden Antikörper.",
+  "more": "Antikörper verklumpen Erreger, Fresszellen beseitigen sie."
+ },
+ {
+  "id": "de8-biologie-016",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo wird beim Mann das Hormon Testosteron hauptsächlich gebildet?",
+  "options": [
+   "In der Schilddrüse",
+   "In der Bauchspeicheldrüse",
+   "In den Hoden",
+   "Im Magen"
+  ],
+  "answer": "C",
+  "hint": "Es ist ein Geschlechtshormon.",
+  "explanation": "Testosteron aus den Hoden steuert männliche Merkmale in der Pubertät.",
+  "more": "Bei der Frau bilden die Eierstöcke Östrogene."
+ },
+ {
+  "id": "de8-biologie-017",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wann findet bei einem regelmäßigen 28-Tage-Zyklus der Eisprung etwa statt?",
+  "options": [
+   "Am 1. Tag des Zyklus",
+   "Etwa in der Mitte, um den 14. Tag",
+   "Am 28. Tag des Zyklus",
+   "Während der Menstruation"
+  ],
+  "answer": "B",
+  "hint": "Der Zyklus beginnt mit der Menstruation.",
+  "explanation": "Der Eisprung erfolgt ungefähr in der Zyklusmitte.",
+  "more": "Zyklen sind gerade in der Pubertät oft unregelmäßig."
+ },
+ {
+  "id": "de8-biologie-018",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Rolle haben Bakterien und Pilze im Waldboden?",
+  "options": [
+   "Sie zersetzen tote Reste zu Mineralstoffen.",
+   "Sie betreiben Fotosynthese wie Bäume.",
+   "Sie sind die Endkonsumenten.",
+   "Sie fressen lebende Rehe."
+  ],
+  "answer": "A",
+  "hint": "Was passiert mit dem Laub im Herbst?",
+  "explanation": "Als Destruenten bauen sie organisches Material ab; Mineralstoffe werden wieder verfügbar.",
+  "more": "So entsteht ein Stoffkreislauf."
+ },
+ {
+  "id": "de8-biologie-019",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viel der Energie einer Nahrungsstufe gelangt nach der Faustregel zur nächsten Stufe?",
+  "options": [
+   "Etwa 90 %",
+   "Etwa 50 %",
+   "100 %",
+   "Etwa 10 %"
+  ],
+  "answer": "D",
+  "hint": "Viel Energie wird für Atmung und Wärme verbraucht.",
+  "explanation": "Nach der 10-%-Regel geht der größte Teil als Wärme verloren.",
+  "more": "Darum sind Nahrungsketten selten länger als vier bis fünf Glieder."
+ },
+ {
+  "id": "de8-biologie-020",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Forscher begründete die Evolutionstheorie durch natürliche Selektion?",
+  "options": [
+   "Gregor Mendel",
+   "Robert Koch",
+   "Charles Darwin",
+   "Isaac Newton"
+  ],
+  "answer": "C",
+  "hint": "Er reiste mit der Beagle.",
+  "explanation": "Darwin veröffentlichte 1859 „Über die Entstehung der Arten“.",
+  "more": "Mendel gilt als Begründer der Vererbungslehre."
+ },
+ {
+  "id": "de8-biologie-021",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was gilt für die beiden Tochterzellen nach einer Mitose?",
+  "options": [
+   "Sie haben nur die halbe Chromosomenzahl.",
+   "Sie haben dieselbe Erbinformation wie die Mutterzelle.",
+   "Sie haben gar keine Chromosomen.",
+   "Sie sind immer Keimzellen."
+  ],
+  "answer": "B",
+  "hint": "Mitose dient dem Wachstum.",
+  "explanation": "Bei der Mitose entstehen erbgleiche Tochterzellen.",
+  "more": "Die Meiose halbiert dagegen den Chromosomensatz für Keimzellen."
+ },
+ {
+  "id": "de8-biologie-022",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie viele Chromosomen hat eine normale Körperzelle des Menschen?",
+  "options": [
+   "46",
+   "23",
+   "48",
+   "92"
+  ],
+  "answer": "A",
+  "hint": "Es sind 23 Paare.",
+  "explanation": "Körperzellen enthalten 46 Chromosomen, Keimzellen 23.",
+  "more": "Schimpansen haben 48 Chromosomen."
+ },
+ {
+  "id": "de8-biologie-023",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie gelangen Hormone von der Hormondrüse zu ihren Zielorganen?",
+  "options": [
+   "Über die Nervenbahnen",
+   "Über die Luftröhre",
+   "Über den Verdauungstrakt",
+   "Über das Blut"
+  ],
+  "answer": "D",
+  "hint": "Hormone sind Botenstoffe ohne eigene Leitung.",
+  "explanation": "Hormondrüsen geben Hormone ins Blut ab, das sie im ganzen Körper verteilt.",
+  "more": "Nur Zellen mit passenden Rezeptoren reagieren."
+ },
+ {
+  "id": "de8-biologie-024",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Zellbestandteil regelt, welche Stoffe in die Zelle hinein- und hinausgelangen?",
+  "options": [
+   "Die Zellwand",
+   "Die Vakuole",
+   "Die Zellmembran",
+   "Der Chloroplast"
+  ],
+  "answer": "C",
+  "hint": "Sie umgibt jede Zelle.",
+  "explanation": "Die Zellmembran ist selektiv durchlässig.",
+  "more": "Die Zellwand ist dagegen für die meisten gelösten Stoffe frei durchlässig."
+ },
+ {
+  "id": "de8-biologie-025",
+  "subject": "biologie",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Produkte entstehen bei der Fotosynthese?",
+  "options": [
+   "Kohlenstoffdioxid und Wasser",
+   "Traubenzucker und Sauerstoff",
+   "Stärke und Kohlenstoffdioxid",
+   "Wasser und Stickstoff"
+  ],
+  "answer": "B",
+  "hint": "Ein Produkt atmen wir ein.",
+  "explanation": "Aus CO₂ und Wasser entstehen mit Lichtenergie Traubenzucker und Sauerstoff.",
+  "more": "Traubenzucker wird oft als Stärke gespeichert."
+ },
+ {
+  "id": "de8-biologie-026",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Paar ist ein Beispiel für homologe Organe?",
+  "options": [
+   "Fledermausflügel und Arm des Menschen",
+   "Insektenflügel und Vogelflügel",
+   "Grabbein von Maulwurf und Maulwurfsgrille",
+   "Schmetterlingsflügel und Fledermausflügel"
+  ],
+  "answer": "A",
+  "hint": "Homolog heißt: gleicher Grundbauplan.",
+  "explanation": "Fledermausflügel und Menschenarm haben denselben Knochenbauplan der Wirbeltiere.",
+  "more": "Ähnliche Form ohne gemeinsamen Bauplan nennt man analog."
+ },
+ {
+  "id": "de8-biologie-027",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Reinerbig rot blühende werden mit reinerbig weiß blühenden Pflanzen gekreuzt; Rot ist dominant. Wie sieht die F1 aus?",
+  "options": [
+   "3 rot : 1 weiß",
+   "1 rot : 1 weiß",
+   "Einheitlich weiß",
+   "Einheitlich rot"
+  ],
+  "answer": "D",
+  "hint": "Denk an Mendels erste Regel.",
+  "explanation": "Alle F1-Pflanzen sind mischerbig (Rw) und zeigen das dominante Rot.",
+  "more": "Diese Regel heißt Uniformitätsregel."
+ },
+ {
+  "id": "de8-biologie-028",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Mischerbige rote Pflanzen (Rw, Rot dominant) werden untereinander gekreuzt. Welches Verhältnis zeigt die F2?",
+  "options": [
+   "1 rot : 1 weiß",
+   "Einheitlich rot",
+   "3 rot : 1 weiß",
+   "1 rot : 3 weiß"
+  ],
+  "answer": "C",
+  "hint": "Zeichne ein Kreuzungsschema.",
+  "explanation": "RR, Rw, Rw sind rot, ww ist weiß: 3 : 1.",
+  "more": "Das ist Mendels Spaltungsregel."
+ },
+ {
+  "id": "de8-biologie-029",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Warum helfen Antibiotika nicht gegen eine Grippe?",
+  "options": [
+   "Grippe-Erreger sind Bakterien, die zu groß sind.",
+   "Grippe-Erreger sind Viren ohne eigenen Stoffwechsel.",
+   "Antibiotika wirken nur gegen Pilze.",
+   "Grippeviren leben nur außerhalb des Körpers."
+  ],
+  "answer": "B",
+  "hint": "Was sind die Erreger der Grippe?",
+  "explanation": "Antibiotika hemmen bakterielle Strukturen, die Viren nicht besitzen.",
+  "more": "Gegen Grippe gibt es jährlich angepasste Impfstoffe."
+ },
+ {
+  "id": "de8-biologie-030",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Bei Kurzsichtigkeit entsteht das Bild ferner Gegenstände wo – und wie korrigiert man es?",
+  "options": [
+   "Vor der Netzhaut; mit einer Zerstreuungslinse",
+   "Hinter der Netzhaut; mit einer Sammellinse",
+   "Vor der Netzhaut; mit einer Sammellinse",
+   "Hinter der Netzhaut; mit einer Zerstreuungslinse"
+  ],
+  "answer": "A",
+  "hint": "Der Augapfel ist meist zu lang.",
+  "explanation": "Das Bild liegt vor der Netzhaut; eine Zerstreuungslinse verschiebt es nach hinten.",
+  "more": "Weitsichtige brauchen Sammellinsen."
+ },
+ {
+  "id": "de8-biologie-031",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Gleichung fasst die Fotosynthese korrekt zusammen?",
+  "options": [
+   "C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O",
+   "6 CO₂ + 6 O₂ → C₆H₁₂O₆ + 6 H₂O",
+   "6 O₂ + 6 H₂O → C₆H₁₂O₆ + 6 CO₂",
+   "6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂"
+  ],
+  "answer": "D",
+  "hint": "Ausgangsstoffe sind CO₂ und Wasser.",
+  "explanation": "Mit Lichtenergie entstehen Traubenzucker und Sauerstoff.",
+  "more": "Die umgekehrte Gleichung beschreibt die Zellatmung."
+ },
+ {
+  "id": "de8-biologie-032",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Aufgabe haben Gedächtniszellen im Immunsystem?",
+  "options": [
+   "Sie fressen Bakterien sofort auf.",
+   "Sie transportieren Sauerstoff.",
+   "Sie ermöglichen bei erneuter Infektion eine schnelle Abwehr.",
+   "Sie sorgen für die Blutgerinnung."
+  ],
+  "answer": "C",
+  "hint": "Warum bekommt man manche Krankheiten nur einmal?",
+  "explanation": "Gedächtniszellen erkennen den Erreger wieder und starten rasch die Antikörperbildung.",
+  "more": "Darauf beruht die Wirkung von Impfungen."
+ },
+ {
+  "id": "de8-biologie-033",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In Industriegebieten mit rußgeschwärzten Bäumen wurde die dunkle Form des Birkenspanners häufiger. Warum?",
+  "options": [
+   "Der Ruß hat die Falter dunkel gefärbt.",
+   "Dunkle Falter waren getarnt und wurden seltener gefressen.",
+   "Die Falter haben sich bewusst angepasst.",
+   "Helle Falter wanderten alle aus."
+  ],
+  "answer": "B",
+  "hint": "Denk an natürliche Selektion durch Fressfeinde.",
+  "explanation": "Vögel fanden helle Falter auf dunkler Rinde leichter; dunkle überlebten und vermehrten sich.",
+  "more": "Mit saubererer Luft wurde die helle Form wieder häufiger."
+ },
+ {
+  "id": "de8-biologie-034",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In einem Gebiet verschwinden plötzlich alle Füchse. Was passiert kurzfristig am wahrscheinlichsten mit der Zahl der Feldhasen?",
+  "options": [
+   "Sie nimmt zu.",
+   "Sie nimmt ab.",
+   "Sie bleibt genau gleich.",
+   "Die Hasen sterben sofort aus."
+  ],
+  "answer": "A",
+  "hint": "Füchse sind Fressfeinde der Hasen.",
+  "explanation": "Ohne Fressfeind überleben mehr Hasen und die Population wächst.",
+  "more": "Später begrenzen Nahrungsmangel und Krankheiten das Wachstum."
+ },
+ {
+  "id": "de8-biologie-035",
+  "subject": "biologie",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was geschieht im Auge, wenn man von einem fernen auf einen nahen Gegenstand blickt?",
+  "options": [
+   "Die Linse wird flacher.",
+   "Die Netzhaut bewegt sich nach vorn.",
+   "Die Pupille wird größer und scharf gestellt.",
+   "Die Linse wölbt sich stärker."
+  ],
+  "answer": "D",
+  "hint": "Nahe Gegenstände brauchen stärkere Brechung.",
+  "explanation": "Der Ziliarmuskel spannt sich an, die Linse wölbt sich und bricht stärker.",
+  "more": "Diese Anpassung heißt Akkommodation."
+ }
+]

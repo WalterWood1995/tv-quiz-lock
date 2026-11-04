@@ -1,0 +1,632 @@
+[
+ {
+  "id": "de8-geschichte-001",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Jahr veröffentlichte Martin Luther seine 95 Thesen?",
+  "options": [
+   "1492",
+   "1517",
+   "1555",
+   "1618"
+  ],
+  "answer": "B",
+  "hint": "Das Jahr gilt als Beginn der Reformation.",
+  "explanation": "Am 31. Oktober 1517 veröffentlichte Luther die 95 Thesen gegen den Ablasshandel.",
+  "more": "Der 31. Oktober wird daher als Reformationstag gefeiert."
+ },
+ {
+  "id": "de8-geschichte-002",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "An welchem Tag wurde die Bastille in Paris gestürmt?",
+  "options": [
+   "14. Juli 1789",
+   "4. Juli 1776",
+   "18. Januar 1871",
+   "9. November 1918"
+  ],
+  "answer": "A",
+  "hint": "Heute ist es der französische Nationalfeiertag.",
+  "explanation": "Der Sturm auf die Bastille am 14. Juli 1789 gilt als Beginn der Französischen Revolution.",
+  "more": "Die Bastille war ein Gefängnis und Symbol der königlichen Willkür."
+ },
+ {
+  "id": "de8-geschichte-003",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher französische König wurde „Sonnenkönig“ genannt?",
+  "options": [
+   "Ludwig XVI.",
+   "Napoleon I.",
+   "Karl der Große",
+   "Ludwig XIV."
+  ],
+  "answer": "D",
+  "hint": "Er ließ Versailles ausbauen.",
+  "explanation": "Ludwig XIV. gilt als Musterbeispiel des absolutistischen Herrschers.",
+  "more": "Er regierte 72 Jahre lang (1643–1715) – länger als jeder andere französische König."
+ },
+ {
+  "id": "de8-geschichte-004",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Jahr wurde die Unabhängigkeitserklärung der USA verkündet?",
+  "options": [
+   "1789",
+   "1648",
+   "1776",
+   "1815"
+  ],
+  "answer": "C",
+  "hint": "Gefeiert am 4. Juli.",
+  "explanation": "Am 4. Juli 1776 erklärten die 13 Kolonien ihre Unabhängigkeit von Großbritannien.",
+  "more": "Hauptautor war Thomas Jefferson."
+ },
+ {
+  "id": "de8-geschichte-005",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo wurde 1871 der deutsche Kaiser proklamiert?",
+  "options": [
+   "Paulskirche in Frankfurt",
+   "Spiegelsaal von Versailles",
+   "Reichstag in Berlin",
+   "Schloss Sanssouci"
+  ],
+  "answer": "B",
+  "hint": "Es war ein Schloss in Frankreich.",
+  "explanation": "Am 18. Januar 1871 wurde Wilhelm I. im Spiegelsaal von Versailles proklamiert.",
+  "more": "Der Ort war eine Demütigung für das besiegte Frankreich."
+ },
+ {
+  "id": "de8-geschichte-006",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer erfand um 1450 den Buchdruck mit beweglichen Metalllettern?",
+  "options": [
+   "Johannes Gutenberg",
+   "Martin Luther",
+   "Leonardo da Vinci",
+   "Christoph Kolumbus"
+  ],
+  "answer": "A",
+  "hint": "Er lebte in Mainz.",
+  "explanation": "Johannes Gutenberg entwickelte in Mainz den Buchdruck mit beweglichen Lettern.",
+  "more": "Sein berühmtestes Werk ist die Gutenberg-Bibel."
+ },
+ {
+  "id": "de8-geschichte-007",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer wurde 1871 erster Kaiser des Deutschen Reiches?",
+  "options": [
+   "Wilhelm II.",
+   "Friedrich II.",
+   "Otto von Bismarck",
+   "Wilhelm I."
+  ],
+  "answer": "D",
+  "hint": "Er war zuvor König von Preußen.",
+  "explanation": "Der preußische König Wilhelm I. wurde 1871 Deutscher Kaiser.",
+  "more": "Bismarck war sein Reichskanzler, nicht Kaiser."
+ },
+ {
+  "id": "de8-geschichte-008",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer verbesserte im 18. Jahrhundert die Dampfmaschine entscheidend?",
+  "options": [
+   "Thomas Edison",
+   "Carl Benz",
+   "James Watt",
+   "Isaac Newton"
+  ],
+  "answer": "C",
+  "hint": "Nach ihm ist die Einheit der Leistung benannt.",
+  "explanation": "James Watt machte die Dampfmaschine effizient und damit industriell nutzbar.",
+  "more": "Die Einheit „Watt“ erinnert an ihn."
+ },
+ {
+  "id": "de8-geschichte-009",
+  "subject": "geschichte",
+  "difficulty": "easy",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer war der erste Präsident der USA?",
+  "options": [
+   "Thomas Jefferson",
+   "George Washington",
+   "Abraham Lincoln",
+   "Benjamin Franklin"
+  ],
+  "answer": "B",
+  "hint": "Die Hauptstadt trägt seinen Namen.",
+  "explanation": "George Washington war ab 1789 erster Präsident der USA.",
+  "more": "Zuvor war er Oberbefehlshaber im Unabhängigkeitskrieg."
+ },
+ {
+  "id": "de8-geschichte-010",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo tagte 1848/49 die erste deutsche Nationalversammlung?",
+  "options": [
+   "Paulskirche in Frankfurt",
+   "Reichstag in Berlin",
+   "Schloss in Stuttgart",
+   "Dom zu Aachen"
+  ],
+  "answer": "A",
+  "hint": "Es war eine Kirche in einer Stadt am Main.",
+  "explanation": "Die Nationalversammlung tagte ab Mai 1848 in der Frankfurter Paulskirche.",
+  "more": "Sie arbeitete eine Verfassung mit Grundrechten aus, die aber nicht in Kraft trat."
+ },
+ {
+  "id": "de8-geschichte-011",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer war der erste Reichskanzler des Deutschen Kaiserreichs?",
+  "options": [
+   "Wilhelm I.",
+   "Friedrich Ebert",
+   "Klemens von Metternich",
+   "Otto von Bismarck"
+  ],
+  "answer": "D",
+  "hint": "Man nannte ihn den „Eisernen Kanzler“.",
+  "explanation": "Otto von Bismarck war von 1871 bis 1890 Reichskanzler.",
+  "more": "Er wurde 1890 von Kaiser Wilhelm II. entlassen."
+ },
+ {
+  "id": "de8-geschichte-012",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Jahr krönte sich Napoleon zum Kaiser der Franzosen?",
+  "options": [
+   "1789",
+   "1799",
+   "1804",
+   "1815"
+  ],
+  "answer": "C",
+  "hint": "Gut zehn Jahre nach dem Sturz des Königs.",
+  "explanation": "Am 2. Dezember 1804 krönte sich Napoleon in Notre-Dame selbst zum Kaiser.",
+  "more": "1799 hatte er bereits durch einen Staatsstreich die Macht als Erster Konsul übernommen."
+ },
+ {
+  "id": "de8-geschichte-013",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welcher Stadt musste Luther 1521 vor Kaiser Karl V. erscheinen?",
+  "options": [
+   "Wittenberg",
+   "Worms",
+   "Augsburg",
+   "Speyer"
+  ],
+  "answer": "B",
+  "hint": "Eine Stadt am Rhein mit berühmtem Reichstag.",
+  "explanation": "Auf dem Reichstag zu Worms 1521 weigerte sich Luther zu widerrufen.",
+  "more": "Danach wurde mit dem Wormser Edikt die Reichsacht über ihn verhängt."
+ },
+ {
+  "id": "de8-geschichte-014",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was legte der Augsburger Religionsfrieden von 1555 fest?",
+  "options": [
+   "Der Landesherr bestimmt die Konfession.",
+   "Jeder wählt seine Religion frei.",
+   "Nur der katholische Glaube ist erlaubt.",
+   "Die Kirche wird vom Staat getrennt."
+  ],
+  "answer": "A",
+  "hint": "„Wessen Gebiet, dessen Religion.“",
+  "explanation": "Nach dem Grundsatz „cuius regio, eius religio“ bestimmte der Landesherr die Konfession.",
+  "more": "Die Untertanen durften bei anderer Konfession auswandern."
+ },
+ {
+  "id": "de8-geschichte-015",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo übersetzte Luther das Neue Testament ins Deutsche?",
+  "options": [
+   "in Rom",
+   "in Worms",
+   "auf der Burg Hohenzollern",
+   "auf der Wartburg"
+  ],
+  "answer": "D",
+  "hint": "Eine Burg bei Eisenach.",
+  "explanation": "Versteckt auf der Wartburg übersetzte Luther 1521/22 das Neue Testament.",
+  "more": "Seine Bibelübersetzung prägte die deutsche Schriftsprache stark."
+ },
+ {
+  "id": "de8-geschichte-016",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Philosoph der Aufklärung forderte die Gewaltenteilung in Legislative, Exekutive und Judikative?",
+  "options": [
+   "Voltaire",
+   "Rousseau",
+   "Montesquieu",
+   "Kant"
+  ],
+  "answer": "C",
+  "hint": "Ein französischer Adliger, Werk „Vom Geist der Gesetze“.",
+  "explanation": "Montesquieu entwickelte in „Vom Geist der Gesetze“ (1748) die Gewaltenteilung.",
+  "more": "Die Gewaltenteilung ist heute auch im Grundgesetz verankert."
+ },
+ {
+  "id": "de8-geschichte-017",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer definierte Aufklärung als „Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit“?",
+  "options": [
+   "Martin Luther",
+   "Immanuel Kant",
+   "Montesquieu",
+   "Friedrich II."
+  ],
+  "answer": "B",
+  "hint": "Ein Philosoph aus Königsberg.",
+  "explanation": "Immanuel Kant schrieb dies 1784 in „Beantwortung der Frage: Was ist Aufklärung?“.",
+  "more": "Sein Wahlspruch der Aufklärung: „Sapere aude!“ – Habe Mut, dich deines eigenen Verstandes zu bedienen."
+ },
+ {
+  "id": "de8-geschichte-018",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer gehörte im vorrevolutionären Frankreich zum Dritten Stand?",
+  "options": [
+   "Bürger und Bauern",
+   "Adel",
+   "Geistlichkeit",
+   "König und Hofstaat"
+  ],
+  "answer": "A",
+  "hint": "Der Stand, der die meisten Steuern zahlte.",
+  "explanation": "Der Dritte Stand umfasste alle außer Klerus und Adel – also Bürger und Bauern.",
+  "more": "Er stellte rund 98 Prozent der Bevölkerung."
+ },
+ {
+  "id": "de8-geschichte-019",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Jahr wurde in Frankreich die Erklärung der Menschen- und Bürgerrechte verkündet?",
+  "options": [
+   "1776",
+   "1793",
+   "1804",
+   "1789"
+  ],
+  "answer": "D",
+  "hint": "Im selben Jahr wie der Sturm auf die Bastille.",
+  "explanation": "Die Nationalversammlung verkündete die Erklärung im August 1789.",
+  "more": "Ihr erster Artikel: Die Menschen sind frei und gleich an Rechten geboren."
+ },
+ {
+  "id": "de8-geschichte-020",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wo wurde Napoleon 1813 in der „Völkerschlacht“ besiegt?",
+  "options": [
+   "bei Waterloo",
+   "bei Austerlitz",
+   "bei Leipzig",
+   "bei Sedan"
+  ],
+  "answer": "C",
+  "hint": "Eine Stadt in Sachsen.",
+  "explanation": "In der Völkerschlacht bei Leipzig im Oktober 1813 unterlag Napoleon den Verbündeten.",
+  "more": "Das Völkerschlachtdenkmal wurde 1913 zum 100. Jahrestag eingeweiht."
+ },
+ {
+  "id": "de8-geschichte-021",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer leitete den Wiener Kongress 1814/15 maßgeblich?",
+  "options": [
+   "Otto von Bismarck",
+   "Klemens von Metternich",
+   "Napoleon",
+   "Friedrich Wilhelm IV."
+  ],
+  "answer": "B",
+  "hint": "Ein österreichischer Staatsmann.",
+  "explanation": "Der österreichische Außenminister Metternich prägte den Wiener Kongress.",
+  "more": "Ziel war die Wiederherstellung der alten Ordnung (Restauration)."
+ },
+ {
+  "id": "de8-geschichte-022",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Zwischen welchen Städten fuhr 1835 die erste deutsche Eisenbahn?",
+  "options": [
+   "Nürnberg und Fürth",
+   "Berlin und Potsdam",
+   "Stuttgart und Ulm",
+   "Leipzig und Dresden"
+  ],
+  "answer": "A",
+  "hint": "Zwei Nachbarstädte in Franken.",
+  "explanation": "Die „Ludwigseisenbahn“ fuhr 1835 von Nürnberg nach Fürth.",
+  "more": "Die Lokomotive hieß „Adler“ und kam aus England."
+ },
+ {
+  "id": "de8-geschichte-023",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Krieg ging der Reichsgründung 1871 unmittelbar voraus?",
+  "options": [
+   "Dreißigjähriger Krieg",
+   "Siebenjähriger Krieg",
+   "Erster Weltkrieg",
+   "Deutsch-Französischer Krieg"
+  ],
+  "answer": "D",
+  "hint": "Die Kaiserproklamation fand im Land des Gegners statt.",
+  "explanation": "Im Deutsch-Französischen Krieg 1870/71 kämpften die deutschen Staaten gemeinsam gegen Frankreich.",
+  "more": "Die Schlacht von Sedan 1870 brachte die Gefangennahme Napoleons III."
+ },
+ {
+  "id": "de8-geschichte-024",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Was schworen die Abgeordneten des Dritten Standes 1789 im Ballhausschwur?",
+  "options": [
+   "dem König ewige Treue",
+   "den Krieg gegen Österreich",
+   "nicht auseinanderzugehen, bis es eine Verfassung gibt",
+   "die Kirche abzuschaffen"
+  ],
+  "answer": "C",
+  "hint": "Es ging um eine neue Grundordnung für Frankreich.",
+  "explanation": "Sie schworen, sich nicht zu trennen, bevor Frankreich eine Verfassung hat.",
+  "more": "Kurz zuvor hatten sie sich zur Nationalversammlung erklärt."
+ },
+ {
+  "id": "de8-geschichte-025",
+  "subject": "geschichte",
+  "difficulty": "medium",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wogegen protestierten Kolonisten 1773 bei der „Boston Tea Party“?",
+  "options": [
+   "gegen die Sklaverei",
+   "gegen britische Steuern",
+   "gegen Frankreich",
+   "gegen den Kaffeepreis"
+  ],
+  "answer": "B",
+  "hint": "„No taxation without representation.“",
+  "explanation": "Sie warfen Tee ins Hafenbecken, aus Protest gegen Steuern ohne Mitsprache im Parlament.",
+  "more": "Das Ereignis verschärfte den Konflikt bis zum Unabhängigkeitskrieg."
+ },
+ {
+  "id": "de8-geschichte-026",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welchen Rang erhielt Baden 1806 unter Napoleons Einfluss?",
+  "options": [
+   "Großherzogtum",
+   "Königreich",
+   "Kurfürstentum",
+   "Herzogtum"
+  ],
+  "answer": "A",
+  "hint": "Württemberg wurde Königreich, Baden einen Rang darunter.",
+  "explanation": "1806 wurde Baden Großherzogtum, Württemberg Königreich.",
+  "more": "Beide traten 1806 dem Rheinbund unter Napoleons Schutz bei."
+ },
+ {
+  "id": "de8-geschichte-027",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer war der erste König von Württemberg?",
+  "options": [
+   "Wilhelm I.",
+   "Eberhard im Bart",
+   "Karl Eugen",
+   "Friedrich I."
+  ],
+  "answer": "D",
+  "hint": "Er war zuvor Herzog und Kurfürst.",
+  "explanation": "Friedrich I. wurde am 1. Januar 1806 König von Württemberg.",
+  "more": "Sein Sohn Wilhelm I. regierte danach von 1816 bis 1864."
+ },
+ {
+  "id": "de8-geschichte-028",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "In welchem Jahr fand das Hambacher Fest statt?",
+  "options": [
+   "1817",
+   "1848",
+   "1832",
+   "1815"
+  ],
+  "answer": "C",
+  "hint": "Zwischen Wiener Kongress und Revolution.",
+  "explanation": "1832 forderten beim Hambacher Fest in der Pfalz Tausende Einheit und Freiheit.",
+  "more": "Dort wehten Fahnen in Schwarz-Rot-Gold."
+ },
+ {
+  "id": "de8-geschichte-029",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welcher Revolutionär führte 1848 den „Heckerzug“ in Baden an?",
+  "options": [
+   "Robert Blum",
+   "Friedrich Hecker",
+   "Karl Marx",
+   "Ludwig Uhland"
+  ],
+  "answer": "B",
+  "hint": "Der Zug ist nach ihm benannt.",
+  "explanation": "Friedrich Hecker rief im April 1848 in Konstanz die Republik aus und zog los.",
+  "more": "Nach der Niederlage wanderte Hecker in die USA aus."
+ },
+ {
+  "id": "de8-geschichte-030",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer erfand 1817 in Mannheim die Laufmaschine, einen Vorläufer des Fahrrads?",
+  "options": [
+   "Karl Drais",
+   "Carl Benz",
+   "Gottlieb Daimler",
+   "Robert Bosch"
+  ],
+  "answer": "A",
+  "hint": "Die Laufmaschine heißt nach ihm auch „Draisine“.",
+  "explanation": "Karl Drais fuhr 1817 in Mannheim mit seiner Laufmaschine.",
+  "more": "Mannheim ist damit auch Geburtsstadt des Automobils von Carl Benz (1886)."
+ },
+ {
+  "id": "de8-geschichte-031",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wer meldete 1886 das Patent für den ersten Motorwagen mit Benzinmotor an?",
+  "options": [
+   "Gottlieb Daimler",
+   "Rudolf Diesel",
+   "Ferdinand Porsche",
+   "Carl Benz"
+  ],
+  "answer": "D",
+  "hint": "Er arbeitete in Mannheim.",
+  "explanation": "Carl Benz erhielt für seinen Motorwagen das Patent DRP 37435 von 1886.",
+  "more": "Seine Frau Bertha Benz unternahm 1888 die erste Fernfahrt nach Pforzheim."
+ },
+ {
+  "id": "de8-geschichte-032",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Wie heißt die bekannteste Forderungsschrift der Bauern im Bauernkrieg 1525?",
+  "options": [
+   "95 Thesen",
+   "Goldene Bulle",
+   "Zwölf Artikel",
+   "Wormser Edikt"
+  ],
+  "answer": "C",
+  "hint": "Sie entstand in Memmingen.",
+  "explanation": "Die „Zwölf Artikel“ forderten u. a. Abschaffung der Leibeigenschaft.",
+  "more": "Der Bauernkrieg wurde 1525 von den Fürsten blutig niedergeschlagen."
+ },
+ {
+  "id": "de8-geschichte-033",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Sozialversicherung führte Bismarck als erste ein (1883)?",
+  "options": [
+   "Rentenversicherung",
+   "Krankenversicherung",
+   "Arbeitslosenversicherung",
+   "Pflegeversicherung"
+  ],
+  "answer": "B",
+  "hint": "Es folgten Unfall- (1884) und Rentenversicherung (1889).",
+  "explanation": "1883 wurde die gesetzliche Krankenversicherung für Arbeiter eingeführt.",
+  "more": "Die Arbeitslosenversicherung kam erst 1927, die Pflegeversicherung 1995."
+ },
+ {
+  "id": "de8-geschichte-034",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welches Residenzschloss ließ Herzog Eberhard Ludwig von Württemberg ab 1704 bauen?",
+  "options": [
+   "Schloss Ludwigsburg",
+   "Schloss Schwetzingen",
+   "Schloss Bruchsal",
+   "Burg Hohenzollern"
+  ],
+  "answer": "A",
+  "hint": "Die Stadt trägt den Namen des Herzogs.",
+  "explanation": "Schloss Ludwigsburg entstand nach dem Vorbild absolutistischer Residenzen wie Versailles.",
+  "more": "Es ist eines der größten Barockschlösser Deutschlands."
+ },
+ {
+  "id": "de8-geschichte-035",
+  "subject": "geschichte",
+  "difficulty": "hard",
+  "grade": 8,
+  "type": "choice",
+  "stem": "Welche Stadt gründete Markgraf Karl Wilhelm von Baden-Durlach 1715?",
+  "options": [
+   "Mannheim",
+   "Freiburg",
+   "Heidelberg",
+   "Karlsruhe"
+  ],
+  "answer": "D",
+  "hint": "Sie ist als „Fächerstadt“ bekannt.",
+  "explanation": "Karlsruhe wurde 1715 gegründet; die Straßen laufen fächerförmig auf das Schloss zu.",
+  "more": "Heute sitzen dort das Bundesverfassungsgericht und der Bundesgerichtshof."
+ }
+]

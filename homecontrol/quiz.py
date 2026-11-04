@@ -6,7 +6,8 @@
 
 两套内容，由 [quiz] language 选择：
 - zh：中国初中（数学、英语、语文/常识），题库读 App 的免费题库；
-- de：德国小学 1–4 年级（Mathe、Deutsch、Sachunterricht、Englisch），题库在 assets/quiz_bank_de。
+- de：德国小学 1–4 年级（Mathe、Deutsch、Sachunterricht、Englisch），题库在 assets/quiz_bank_de；
+  [quiz] grade ≥ 5 时换成巴符州文理中学 8 年级，题库在 assets/quiz_bank_de8，数学用 GymnasiumMathe。
 
 题库文件改了不用重启：每次出题前看一眼文件有没有变，变了就重新读。
 """
@@ -14,11 +15,13 @@ import json
 import random
 import time
 import zlib
+from math import gcd
 from dataclasses import dataclass, field
 from pathlib import Path
 
 DEFAULT_BANK_DIR = Path.home() / "Documents" / "防手机沉迷APP" / "apps" / "child_app" / "assets" / "question_bank"
 DE_BANK_DIR = Path(__file__).resolve().parent.parent / "assets" / "quiz_bank_de"
+DE8_BANK_DIR = DE_BANK_DIR.with_name("quiz_bank_de8")  # 巴符州文理中学 7–8 年级，grade ≥ 5 时用
 
 SUBJECTS = {"math": "数学", "english": "英语", "chinese": "语文/常识"}
 DIFFICULTIES = {"easy": "简单", "medium": "中等", "hard": "困难"}
@@ -40,7 +43,10 @@ LANGUAGES = {
     },
     "de": {
         "subjects": {"mathe": "Mathe", "deutsch": "Deutsch", "sachunterricht": "Sachunterricht", "englisch": "Englisch",
-                     "franzoesisch": "Französisch", "englisch_alltag": "Englisch Alltag", "chinesisch": "中文"},
+                     "franzoesisch": "Französisch", "englisch_alltag": "Englisch Alltag", "chinesisch": "中文",
+                     "physik": "Physik", "chemie": "Chemie", "biologie": "Biologie", "geographie": "Geographie",
+                     "geschichte": "Geschichte", "gemeinschaftskunde": "Gemeinschaftskunde",
+                     "wettbewerb": "Mathe-Wettbewerb"},
         # 外语口语按德国 8–9 年级进度，不受小学年级 grade 限制
         "subject_grades": {"franzoesisch": 9, "englisch_alltag": 9},
         "difficulties": {"easy": "Leicht", "medium": "Mittel", "hard": "Schwer"},
@@ -420,6 +426,110 @@ class GrundschulMathe(MathGenerator):
                        fmt=lambda v: f"{v} €")
 
 
+class GymnasiumMathe(MathGenerator):
+    """巴符州文理中学 7–8 年级数学出题器，德语，全部四选一。"""
+
+    def generate(self, difficulty, grade=8):
+        pool = {
+            "easy": [self._percent, self._evaluate_de],
+            "medium": [self._linear_equation_de, self._binomial, self._probability],
+            "hard": [self._linear_system_de, self._slope_de, self._factor_binomial],
+        }[difficulty]
+        return self.rng.choice(pool)()
+
+    def _pick(self, qid, difficulty, stem, correct, wrong, explanation):
+        """选项是文字（式子、分数）时用：去重后凑够 4 个。"""
+        opts = [correct] + [w for i, w in enumerate(wrong) if w != correct and w not in wrong[:i]][:3]
+        self.rng.shuffle(opts)
+        return Question(qid, "mathe", difficulty, stem, opts, opts.index(correct), explanation)
+
+    def _percent(self):
+        base = self.rng.choice([40, 60, 80, 120, 160, 200, 240, 360, 400, 480])
+        pct = self.rng.choice([5, 10, 15, 20, 25, 30, 40, 75])
+        up = self.rng.random() < 0.5
+        part = base * pct // 100
+        result = base + part if up else base - part
+        return self._q(f"gen-de8-pz-{base}-{pct}-{up}", "easy",
+                       f"Ein Preis von {base} € wird um {pct} % {'erhöht' if up else 'gesenkt'}. Neuer Preis?", result,
+                       [part, base - part if up else base + part, base + pct],
+                       f"{pct} % von {base} € sind {part} €, also {base} € {'+' if up else '−'} {part} € = {result} €.",
+                       fmt=lambda v: f"{v} €")
+
+    def _evaluate_de(self):
+        a, b, c = self._nonzero(-6, 6), self._nonzero(-6, 6), self._int(2, 3)
+        result = a * b - a ** c
+        return self._q(f"gen-de8-ev-{a}-{b}-{c}", "easy",
+                       f"Berechne ab − a{SUPERSCRIPT[c]} für a = {a} und b = {b}.", result,
+                       [a * b + a ** c, -result, a * b - abs(a) ** c],
+                       f"ab = {a * b}; a{SUPERSCRIPT[c]} = {self._p(a)}{SUPERSCRIPT[c]} = {a ** c}; "
+                       f"{a * b} − {self._p(a ** c)} = {result}.")
+
+    def _linear_equation_de(self):
+        x, a, b = self._int(-10, 10), self._nonzero(-9, 9), self._int(-20, 20)
+        d = self._nonzero(-5, 5)
+        while d == a:
+            d = self._nonzero(-5, 5)
+        e = (a - d) * x + b  # ax + b = dx + e
+        left = self._coef(a, "x") + self._term(b, "")
+        right = self._coef(d, "x") + self._term(e, "")
+        return self._q(f"gen-de8-le-{a}-{b}-{d}-{e}", "medium", f"Löse: {left} = {right}. x = ?", x,
+                       [-x, x + 1, e - b],
+                       f"x-Terme nach links, Zahlen nach rechts: {a - d}x = {e - b}, also x = {x}.")
+
+    def _binomial(self):
+        a, b = self._int(2, 9), self._int(1, 9)
+        s = self.rng.choice(["+", "−"])
+        sq = f"{a * a}x²"
+        correct = f"{sq} {s} {2 * a * b}x + {b * b}"
+        return self._pick(f"gen-de8-bin-{a}-{b}-{s}", "medium", f"Multipliziere aus: ({a}x {s} {b})²", correct,
+                          [f"{sq} + {b * b}", f"{sq} {s} {a * b}x + {b * b}", f"{sq} {s} {2 * a * b}x − {b * b}",
+                           f"{a}x² {s} {2 * a * b}x + {b * b}"],
+                          f"Binomische Formel: ({a}x)² {s} 2·{a}x·{b} + {b}² = {correct}.")
+
+    def _probability(self):
+        red, blue = self._int(2, 6), self._int(2, 6)
+        n = red + blue
+
+        def frac(p, q):
+            g = gcd(p, q)
+            return f"{p // g}/{q // g}"
+        correct = frac(red * (red - 1), n * (n - 1))
+        return self._pick(f"gen-de8-wk-{red}-{blue}", "medium",
+                          f"In einer Urne liegen {red} rote und {blue} blaue Kugeln. Du ziehst zwei ohne Zurücklegen. "
+                          f"Wie wahrscheinlich sind beide rot?", correct,
+                          [frac(red * red, n * n), frac(red, n), frac(red * (red - 1), n * n), frac(red - 1, n - 1),
+                           frac(2 * red, n * n), frac(red * blue, n * (n - 1))],
+                          f"Pfadregel: {red}/{n} · {red - 1}/{n - 1} = {correct}.")
+
+    def _linear_system_de(self):
+        q = self._linear_system()
+        q.id, q.subject = q.id.replace("gen-math", "gen-de8"), "mathe"
+        q.stem = q.stem.replace("解方程组：", "Löse das Gleichungssystem: ").replace("，", "; ")
+        q.options = [o.replace("，", "; ") for o in q.options]
+        q.explanation = (q.explanation.replace("用加减消元法消去 x，得 ", "Additionsverfahren: x eliminieren ergibt ")
+                         .replace("；代回得 ", "; einsetzen ergibt ").replace("。", "."))
+        return q
+
+    def _slope_de(self):
+        k, b = self._nonzero(-5, 5), self._int(-8, 8)
+        x1 = self._int(-5, 5)
+        x2 = x1
+        while x2 == x1:
+            x2 = self._int(-5, 5)
+        y1, y2 = k * x1 + b, k * x2 + b
+        return self._q(f"gen-de8-sl-{x1}-{y1}-{x2}-{y2}", "hard",
+                       f"Die Gerade y = mx + b geht durch ({x1}|{y1}) und ({x2}|{y2}). Wie groß ist b?", b,
+                       [-b, k, b + k],
+                       f"m = ({y2} − {self._p(y1)}) : ({x2} − {self._p(x1)}) = {k}; ({x1}|{y1}) einsetzen ergibt b = {b}.")
+
+    def _factor_binomial(self):
+        a, b = self._int(2, 9), self._int(1, 9)
+        correct = f"({a}x + {b})({a}x − {b})"
+        return self._pick(f"gen-de8-fb-{a}-{b}", "hard", f"Faktorisiere: {a * a}x² − {b * b}", correct,
+                          [f"({a}x − {b})²", f"({a}x + {b})²", f"({a * a}x + {b})({a * a}x − {b})"],
+                          f"3. binomische Formel: p² − q² = (p + q)(p − q) mit p = {a}x und q = {b}.")
+
+
 @dataclass
 class Rules:
     reward: dict = field(default_factory=lambda: {"easy": 2, "medium": 4, "hard": 8})
@@ -479,11 +589,12 @@ class QuizEngine:
         self.rules = rules
         self.lang = LANGUAGES[rules.language]
         self.rng = rng or random.Random()
-        self.bank_dir = Path(bank_dir) if bank_dir else self.lang["bank"]
+        senior = rules.language == "de" and rules.grade >= 5
+        self.bank_dir = Path(bank_dir) if bank_dir else DE8_BANK_DIR if senior else self.lang["bank"]
         self.bank_signature = None
         self.static = []
         self.reload_bank()
-        self.math = (GrundschulMathe if rules.language == "de" else MathGenerator)(self.rng)
+        self.math = (GymnasiumMathe if senior else GrundschulMathe if rules.language == "de" else MathGenerator)(self.rng)
         self.recent = set()
         self.pending = {}  # id -> (Question, 出题时间)
         self.wrong_streak = 0
