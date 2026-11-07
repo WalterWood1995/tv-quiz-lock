@@ -343,6 +343,8 @@ class Watcher:
         return {"locked": state["tv_locked"], "remaining": self.remaining(state), "used": self.used(state),
                 "limit": self.limit, "earnedToday": state["quiz"]["earned"],
                 "rewards": self.rules.reward, "penaltyEasy": self.rules.penalty_easy,
+                "penalties": {"easy": self.rules.penalty_easy, "medium": self.rules.penalty_medium,
+                              "hard": self.rules.penalty_hard},
                 "cooldown": self.engine.cooling_down(), "lang": self.quiz_lang}
 
     def quiz_state(self):
@@ -351,7 +353,15 @@ class Watcher:
 
     def quiz_question(self, difficulty):
         with self.lock:
-            return self.engine.next_question(difficulty).public(self.quiz_lang)
+            q = self.engine.next_question(difficulty)
+            return q if isinstance(q, dict) else q.public(self.quiz_lang)
+
+    def quiz_skip(self, qid):
+        with self.lock:
+            result = self.engine.skip(qid)
+            if "error" not in result:
+                log(f"答题 {qid} 跳过，看讲解 {result['wait']} 秒")
+            return result
 
     def quiz_answer(self, qid, choice):
         action = None

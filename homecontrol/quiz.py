@@ -40,6 +40,8 @@ LANGUAGES = {
             "cooldown": "先看看讲解，{s} 秒后再继续",
             "streak": " 连续答错 3 题了，先看讲解，1 分钟后再继续。",
             "repeat_reward": "（这题第 {n} 次出现，奖励只有 1/{k}）",
+            "skipped": "跳过了，这题不加也不扣。先看完讲解，{s} 秒后才能继续。",
+            "must_read": "先看完讲解，还有 {s} 秒",
             "repeat_penalty": "（这题第 {n} 次出现，答错扣一半分值）",
         },
     },
@@ -48,7 +50,8 @@ LANGUAGES = {
                      "franzoesisch": "Französisch", "englisch_alltag": "Englisch Alltag", "chinesisch": "中文",
                      "physik": "Physik", "chemie": "Chemie", "biologie": "Biologie", "geographie": "Geographie",
                      "geschichte": "Geschichte", "gemeinschaftskunde": "Gemeinschaftskunde",
-                     "wettbewerb": "Mathe-Wettbewerb"},
+                     "wettbewerb": "Mathe-Wettbewerb",
+                     "lesen": "Lesen", "lesen_englisch": "Reading", "lesen_chinesisch": "中文阅读"},
         # 外语口语按德国 8–9 年级进度，不受小学年级 grade 限制
         "subject_grades": {"franzoesisch": 9, "englisch_alltag": 9},
         "difficulties": {"easy": "Leicht", "medium": "Mittel", "hard": "Schwer"},
@@ -64,6 +67,8 @@ LANGUAGES = {
             "cooldown": "Lies zuerst die Erklärung, in {s} Sekunden geht es weiter.",
             "streak": " Drei Fehler hintereinander – lies die Erklärung, in 1 Minute geht es weiter.",
             "repeat_reward": " (Diese Aufgabe kommt zum {n}. Mal – nur 1/{k} der Belohnung.)",
+            "skipped": "Übersprungen – kein Plus, kein Minus. Lies die Erklärung, in {s} Sekunden geht es weiter.",
+            "must_read": "Lies zuerst die Erklärung, noch {s} Sekunden.",
             "repeat_penalty": " (Diese Aufgabe kommt zum {n}. Mal – Fehler kostet die Hälfte des Werts.)",
         },
     },
@@ -83,13 +88,17 @@ class Question:
     grade: int = 7
     hint: str = ""
     more: str = ""  # 讲解后再引申的相关知识点
+    passage: str = ""  # 阅读理解：同一组 3 道题共用的短文
+    title: str = ""
+    group: str = ""
 
     def public(self, lang="zh"):
         """发给电视的版本：不含答案。"""
         texts = LANGUAGES[lang]
         return {"id": self.id, "subject": texts["subjects"].get(self.subject, texts["subjects"].get(texts["math"], self.subject)),
                 "difficulty": self.difficulty, "difficultyLabel": texts["difficulties"][self.difficulty],
-                "stem": self.stem, "options": self.options, "hint": self.hint}
+                "stem": self.stem, "options": self.options, "hint": self.hint,
+                "passage": self.passage, "title": self.title, "group": self.group}
 
 
 def bank_files(bank_dir):
@@ -106,7 +115,8 @@ def load_bank(bank_dir, subjects=None):
                 continue
             questions.append(Question(q["id"], q["subject"], q["difficulty"], q["stem"], q["options"],
                                       ord(q["answer"]) - ord("A"), q.get("explanation", ""), q.get("grade", 7),
-                                      q.get("hint", ""), q.get("more", "")))
+                                      q.get("hint", ""), q.get("more", ""), q.get("passage", ""),
+                                      q.get("title", ""), q.get("group", "")))
     return questions
 
 
@@ -538,6 +548,10 @@ class GymnasiumMathe(MathGenerator):
 class Rules:
     reward: dict = field(default_factory=lambda: {"easy": 2, "medium": 4, "hard": 8})
     penalty_easy: int = 2
+    penalty_medium: float = 0
+    penalty_hard: float = 0
+    reward_reading: float = 2  # 阅读理解每小题
+    penalty_reading: float = 1
     daily_earn_cap: int = 60
     min_balance: int = -30
     min_answer_seconds: int = 3
@@ -558,6 +572,10 @@ class Rules:
         return cls(
             reward={k: q.getfloat(f"reward_{k}", d.reward[k]) for k in d.reward},
             penalty_easy=q.getfloat("penalty_easy", d.penalty_easy),
+            penalty_medium=q.getfloat("penalty_medium", d.penalty_medium),
+            penalty_hard=q.getfloat("penalty_hard", d.penalty_hard),
+            reward_reading=q.getfloat("reward_reading", d.reward_reading),
+            penalty_reading=q.getfloat("penalty_reading", d.penalty_reading),
             daily_earn_cap=q.getint("daily_earn_cap", d.daily_earn_cap),
             min_balance=q.getint("min_balance", d.min_balance),
             min_answer_seconds=q.getint("min_answer_seconds", d.min_answer_seconds),
@@ -569,19 +587,35 @@ class Rules:
         )
 
 
+def points(rules, question):
+    """(答对奖励, 答错扣分)。阅读理解按小题另算。"""
+    if question.passage:
+        return rules.reward_reading, rules.penalty_reading
+    return rules.reward[question.difficulty], {"easy": rules.penalty_easy, "medium": rules.penalty_medium,
+                                               "hard": rules.penalty_hard}[question.difficulty]
+
+
+def min_seconds(rules, question):
+    """阅读理解第 1 小题要先读完短文（按很快的速度估：每秒 24 个字母或 8 个汉字）。"""
+    if question.passage and question.id.endswith("-1"):
+        cjk = any("\u4e00" <= c <= "\u9fff" for c in question.passage[:50])
+        return max(rules.min_answer_seconds, len(question.passage) // (8 if cjk else 24))
+    return rules.min_answer_seconds
+
+
 def evaluate(rules, question, correct, elapsed, earned_today, remaining, occurrence=1):
     """返回 (分钟变化, 提示语)。正数为奖励，负数为扣除。
 
     第 1、2 次出现：正常规则（只有简单题答错才扣）。第 n≥3 次：答对奖励 ÷ 2^(n-2)，
     答错一律扣该题满分值的 50%（与手机版一致）。"""
     msg = LANGUAGES[rules.language]["msg"]
-    full = rules.reward[question.difficulty]
+    full, penalty = points(rules, question)
     if occurrence >= 3 and not correct:
         deduct = min(full / 2, max(0, remaining - rules.min_balance))
         note = msg["repeat_penalty"].format(n=occurrence)
         return (-deduct, msg["wrong_minus"].format(d=f"{deduct:g}") + note) if deduct else (0, msg["wrong"] + note)
     if correct:
-        if elapsed < rules.min_answer_seconds:
+        if elapsed < min_seconds(rules, question):
             return 0, msg["too_fast"]
         delta = full
         note = ""
@@ -592,9 +626,9 @@ def evaluate(rules, question, correct, elapsed, earned_today, remaining, occurre
         if rules.daily_earn_cap > 0:  # 0 = 不设上限
             delta = min(delta, max(0, rules.daily_earn_cap - earned_today))
         return (delta, msg["correct_plus"].format(d=f"{delta:g}") + note) if delta else (0, msg["correct_capped"])
-    if question.difficulty != "easy":
+    if not penalty:
         return 0, msg["wrong_free"]
-    deduct = min(rules.penalty_easy, max(0, remaining - rules.min_balance))
+    deduct = min(penalty, max(0, remaining - rules.min_balance))
     return (-deduct, msg["wrong_minus"].format(d=f"{deduct:g}")) if deduct else (0, msg["wrong"])
 
 
@@ -618,6 +652,8 @@ class QuizEngine:
         self.pending = {}  # id -> (Question, 出题时间)
         self.wrong_streak = 0
         self.cooldown_until = 0
+        self.read_until = 0  # 跳过后必须看讲解到这个时间
+        self.queue = []  # 阅读理解同组剩下的小题
         # 每题记录 [作答次数, 答对次数, 连续答对]；答对 5 次或连续答对 3 次就退休不再出
         self.stats_path = Path(stats_path) if stats_path else None
         self.stats = {}
@@ -658,7 +694,42 @@ class QuizEngine:
     def cooling_down(self):
         return max(0, int(self.cooldown_until - time.time()))
 
+    def reading_wait(self):
+        return max(0, int(self.read_until - time.time() + 0.99))
+
+    def skip(self, qid):
+        """不会/超纲：不加不扣，但要先看完讲解才能出下一题。"""
+        if qid not in self.pending:
+            return {"error": self.lang["msg"]["expired"]}
+        q, _ = self.pending.pop(qid)
+        wait = min(60, max(12, len(q.explanation + q.more) // 8))
+        self.read_until = time.time() + wait
+        return {"correct": False, "skipped": True, "answer": q.answer, "explanation": q.explanation, "more": q.more,
+                "delta": 0, "wait": wait, "message": self.lang["msg"]["skipped"].format(s=wait)}
+
+    def _issue(self, q):
+        self.recent.add(q.id)
+        self.pending[q.id] = (q, time.time())
+        return q
+
+    def _reading(self, subject):
+        """挑一组没做过的阅读理解，第 1 小题先出，其余排队。"""
+        groups = {}
+        for s in self.static:
+            if s.subject == subject and s.group and not self.retired(s.id):
+                groups.setdefault(s.group, []).append(s)
+        fresh = [g for g, qs in groups.items() if not any(x.id in self.recent for x in qs)] or list(groups)
+        if not fresh:
+            return None
+        qs = sorted(groups[self.rng.choice(fresh)], key=lambda x: x.id)
+        self.queue = qs[1:]
+        return qs[0]
+
     def next_question(self, difficulty):
+        if self.reading_wait():
+            return {"error": self.lang["msg"]["must_read"].format(s=self.reading_wait())}
+        if self.queue:
+            return self._issue(self.queue.pop(0))
         if difficulty not in DIFFICULTIES:
             difficulty = "medium"
         if self.rules.harder:
@@ -667,13 +738,18 @@ class QuizEngine:
         math = self.lang["math"]
         # 这一档在题库里有题的科目才出；数学总能现出
         have = {s.subject for s in self.static if s.difficulty == difficulty}
-        subjects = [s for s in self.rules.subjects if s == math or s in have] or [math]
+        reading = {s.subject for s in self.static if s.group}  # 阅读理解不分档，哪一档都可能出
+        subjects = [s for s in self.rules.subjects if s == math or s in have or s in reading] or [math]
         subject = self.rng.choice(subjects)
         q = None
+        if subject in reading:
+            q = self._reading(subject)
+            if q:
+                return self._issue(q)
         # 题库里也有数学题（看钟、钱、图形）时，数学有三成机会出题库里的
         if subject != math or (subject in have and self.rng.random() < 0.3):
             alive = [s for s in self.static if s.subject == subject and s.difficulty == difficulty
-                     and not self.retired(s.id)]
+                     and not s.group and not self.retired(s.id)]
             pool = [s for s in alive if s.id not in self.recent] or alive
             q = self.rng.choice(pool) if pool else None
         if q is None:
@@ -682,9 +758,7 @@ class QuizEngine:
                 if q.id not in self.recent and not self.retired(q.id):
                     break
                 q = self.math.generate(difficulty, self.rules.grade)
-        self.recent.add(q.id)
-        self.pending[q.id] = (q, time.time())
-        return q
+        return self._issue(q)
 
     def answer(self, qid, choice, earned_today, remaining):
         """判题。返回 dict；delta 是对时间余额的分钟变化，由调用方记账。"""

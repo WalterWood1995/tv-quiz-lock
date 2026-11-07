@@ -1,0 +1,572 @@
+[
+ {
+  "id": "de-lesen-01-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-01",
+  "title": "Der Igel im Laubhaufen",
+  "passage": "Im Oktober harkte Lena mit ihrem Opa das Laub im Garten zusammen. Am Ende lag ein großer Haufen neben dem Komposthaufen. Als Lena ihn am nächsten Morgen in die Tonne bringen wollte, hörte sie ein leises Schnaufen.\nVorsichtig hob sie ein paar Blätter an. Darunter lag ein kleiner Igel und rollte sich sofort zu einer stacheligen Kugel zusammen. „Lass ihn liegen“, sagte Opa. „Igel suchen sich im Herbst einen geschützten Platz für ihren Winterschlaf. Ein Laubhaufen ist für sie wie ein warmes Bett.“\nLena dachte nach. „Aber er ist so klein. Hat er genug gegessen?“ Opa nickte langsam. „Ein Igel muss vor dem Winter etwa 500 Gramm wiegen. Wir können ihn wiegen, aber nur mit Handschuhen.“\nDer Igel wog 620 Gramm. Lena atmete erleichtert aus. Gemeinsam legten sie ihn zurück und deckten ihn mit frischem Laub zu. Die Tonne blieb an diesem Tag leer. Neben den Haufen steckte Lena ein Schild: „Bitte nicht stören – hier schläft jemand!“",
+  "stem": "Wie viel wog der Igel?",
+  "options": [
+   "500 Gramm",
+   "620 Gramm",
+   "260 Gramm",
+   "1000 Gramm"
+  ],
+  "answer": "B",
+  "explanation": "Im Text steht: „Der Igel wog 620 Gramm.“"
+ },
+ {
+  "id": "de-lesen-01-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-01",
+  "title": "Der Igel im Laubhaufen",
+  "passage": "Im Oktober harkte Lena mit ihrem Opa das Laub im Garten zusammen. Am Ende lag ein großer Haufen neben dem Komposthaufen. Als Lena ihn am nächsten Morgen in die Tonne bringen wollte, hörte sie ein leises Schnaufen.\nVorsichtig hob sie ein paar Blätter an. Darunter lag ein kleiner Igel und rollte sich sofort zu einer stacheligen Kugel zusammen. „Lass ihn liegen“, sagte Opa. „Igel suchen sich im Herbst einen geschützten Platz für ihren Winterschlaf. Ein Laubhaufen ist für sie wie ein warmes Bett.“\nLena dachte nach. „Aber er ist so klein. Hat er genug gegessen?“ Opa nickte langsam. „Ein Igel muss vor dem Winter etwa 500 Gramm wiegen. Wir können ihn wiegen, aber nur mit Handschuhen.“\nDer Igel wog 620 Gramm. Lena atmete erleichtert aus. Gemeinsam legten sie ihn zurück und deckten ihn mit frischem Laub zu. Die Tonne blieb an diesem Tag leer. Neben den Haufen steckte Lena ein Schild: „Bitte nicht stören – hier schläft jemand!“",
+  "stem": "Warum ließen Lena und Opa den Laubhaufen liegen?",
+  "options": [
+   "Weil die Tonne schon voll war.",
+   "Weil es zu regnen begann.",
+   "Weil der Igel darin seinen Winterschlaf halten wollte.",
+   "Weil Opa keine Lust mehr hatte."
+  ],
+  "answer": "C",
+  "explanation": "Opa erklärt, dass Igel im Herbst einen geschützten Platz für den Winterschlaf suchen und der Laubhaufen wie ein warmes Bett ist."
+ },
+ {
+  "id": "de-lesen-01-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-01",
+  "title": "Der Igel im Laubhaufen",
+  "passage": "Im Oktober harkte Lena mit ihrem Opa das Laub im Garten zusammen. Am Ende lag ein großer Haufen neben dem Komposthaufen. Als Lena ihn am nächsten Morgen in die Tonne bringen wollte, hörte sie ein leises Schnaufen.\nVorsichtig hob sie ein paar Blätter an. Darunter lag ein kleiner Igel und rollte sich sofort zu einer stacheligen Kugel zusammen. „Lass ihn liegen“, sagte Opa. „Igel suchen sich im Herbst einen geschützten Platz für ihren Winterschlaf. Ein Laubhaufen ist für sie wie ein warmes Bett.“\nLena dachte nach. „Aber er ist so klein. Hat er genug gegessen?“ Opa nickte langsam. „Ein Igel muss vor dem Winter etwa 500 Gramm wiegen. Wir können ihn wiegen, aber nur mit Handschuhen.“\nDer Igel wog 620 Gramm. Lena atmete erleichtert aus. Gemeinsam legten sie ihn zurück und deckten ihn mit frischem Laub zu. Die Tonne blieb an diesem Tag leer. Neben den Haufen steckte Lena ein Schild: „Bitte nicht stören – hier schläft jemand!“",
+  "stem": "Was erfährt man über Lena?",
+  "options": [
+   "Sie hat Angst vor Igeln.",
+   "Sie mag keine Gartenarbeit.",
+   "Sie will den Igel als Haustier behalten.",
+   "Sie sorgt sich um das Tier und will es schützen."
+  ],
+  "answer": "D",
+  "explanation": "Lena fragt, ob der Igel genug gegessen hat, und stellt ein Schild auf, damit niemand ihn stört."
+ },
+ {
+  "id": "de-lesen-02-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-02",
+  "title": "Die Karte im Dachboden",
+  "passage": "An einem Regentag stöberten die Zwillinge Max und Mia auf dem Dachboden ihrer Oma. In einer alten Holzkiste fanden sie eine gefaltete Karte. Darauf war ihr Dorf gezeichnet, und neben der alten Linde stand ein rotes Kreuz.\n„Ein Schatz!“, rief Max. Mia war skeptischer, aber neugierig war sie auch. Sobald der Regen aufhörte, nahmen sie eine Schaufel und liefen zur Linde. Sie zählten zwölf Schritte nach Norden, so wie es auf der Karte stand, und begannen zu graben.\nNach einer Weile stieß die Schaufel auf etwas Hartes. Es war eine rostige Blechdose. Darin lagen ein paar Murmeln, ein Foto von zwei Kindern und ein Zettel: „Wer das findet, soll es wieder vergraben und etwas Eigenes dazulegen.“\nAm Abend zeigten sie Oma das Foto. Sie lachte. „Das sind ich und mein Bruder! Die Dose haben wir vor fünfzig Jahren vergraben.“ Am nächsten Tag legten Max und Mia einen Brief und ein Bild von sich dazu und vergruben die Dose wieder.",
+  "stem": "Wo fanden die Zwillinge die Karte?",
+  "options": [
+   "In einer Holzkiste auf dem Dachboden",
+   "Unter der alten Linde",
+   "In Omas Küche",
+   "In einer Blechdose"
+  ],
+  "answer": "A",
+  "explanation": "Im Text steht, dass sie die Karte in einer alten Holzkiste auf dem Dachboden fanden."
+ },
+ {
+  "id": "de-lesen-02-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-02",
+  "title": "Die Karte im Dachboden",
+  "passage": "An einem Regentag stöberten die Zwillinge Max und Mia auf dem Dachboden ihrer Oma. In einer alten Holzkiste fanden sie eine gefaltete Karte. Darauf war ihr Dorf gezeichnet, und neben der alten Linde stand ein rotes Kreuz.\n„Ein Schatz!“, rief Max. Mia war skeptischer, aber neugierig war sie auch. Sobald der Regen aufhörte, nahmen sie eine Schaufel und liefen zur Linde. Sie zählten zwölf Schritte nach Norden, so wie es auf der Karte stand, und begannen zu graben.\nNach einer Weile stieß die Schaufel auf etwas Hartes. Es war eine rostige Blechdose. Darin lagen ein paar Murmeln, ein Foto von zwei Kindern und ein Zettel: „Wer das findet, soll es wieder vergraben und etwas Eigenes dazulegen.“\nAm Abend zeigten sie Oma das Foto. Sie lachte. „Das sind ich und mein Bruder! Die Dose haben wir vor fünfzig Jahren vergraben.“ Am nächsten Tag legten Max und Mia einen Brief und ein Bild von sich dazu und vergruben die Dose wieder.",
+  "stem": "Was taten die Kinder, bevor sie zu graben begannen?",
+  "options": [
+   "Sie zeigten Oma die Karte.",
+   "Sie zählten zwölf Schritte nach Norden.",
+   "Sie schrieben einen Brief.",
+   "Sie öffneten die Blechdose."
+  ],
+  "answer": "B",
+  "explanation": "Sie liefen zur Linde und „zählten zwölf Schritte nach Norden … und begannen zu graben.“"
+ },
+ {
+  "id": "de-lesen-02-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-02",
+  "title": "Die Karte im Dachboden",
+  "passage": "An einem Regentag stöberten die Zwillinge Max und Mia auf dem Dachboden ihrer Oma. In einer alten Holzkiste fanden sie eine gefaltete Karte. Darauf war ihr Dorf gezeichnet, und neben der alten Linde stand ein rotes Kreuz.\n„Ein Schatz!“, rief Max. Mia war skeptischer, aber neugierig war sie auch. Sobald der Regen aufhörte, nahmen sie eine Schaufel und liefen zur Linde. Sie zählten zwölf Schritte nach Norden, so wie es auf der Karte stand, und begannen zu graben.\nNach einer Weile stieß die Schaufel auf etwas Hartes. Es war eine rostige Blechdose. Darin lagen ein paar Murmeln, ein Foto von zwei Kindern und ein Zettel: „Wer das findet, soll es wieder vergraben und etwas Eigenes dazulegen.“\nAm Abend zeigten sie Oma das Foto. Sie lachte. „Das sind ich und mein Bruder! Die Dose haben wir vor fünfzig Jahren vergraben.“ Am nächsten Tag legten Max und Mia einen Brief und ein Bild von sich dazu und vergruben die Dose wieder.",
+  "stem": "Wer hatte die Dose ursprünglich vergraben?",
+  "options": [
+   "Ein fremder Pirat",
+   "Max und Mia",
+   "Oma und ihr Bruder",
+   "Der Bürgermeister"
+  ],
+  "answer": "C",
+  "explanation": "Oma erkennt das Foto und sagt: „Das sind ich und mein Bruder! Die Dose haben wir vor fünfzig Jahren vergraben.“"
+ },
+ {
+  "id": "de-lesen-03-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-03",
+  "title": "Einkaufen auf dem Wochenmarkt",
+  "passage": "Jeden Samstag geht Jonas mit seinem Vater auf den Wochenmarkt. Heute darf Jonas zum ersten Mal allein einkaufen. Der Vater wartet am Brunnen. Jonas hat eine Liste und zehn Euro in der Tasche.\nAuf der Liste stehen: ein Kilo Äpfel, ein Brot und sechs Eier. Zuerst geht er zum Obststand. Die Äpfel kosten drei Euro. Dann kauft er beim Bäcker ein Bauernbrot für vier Euro. Jetzt hat er nur noch drei Euro übrig.\nAm Eierstand erschrickt Jonas. Sechs Eier kosten 3,50 Euro. Das Geld reicht nicht! Er überlegt kurz. Dann fragt er die Verkäuferin, ob er auch vier Eier kaufen kann. „Natürlich“, sagt sie. „Vier Eier kosten 2,40 Euro.“\nStolz kommt Jonas zum Brunnen zurück und erzählt alles. Der Vater lacht. „Gut gelöst! Zu Hause haben wir sowieso noch zwei Eier.“",
+  "stem": "Wie viel Geld hatte Jonas am Anfang?",
+  "options": [
+   "Drei Euro",
+   "Vier Euro",
+   "Zehn Euro",
+   "Zwanzig Euro"
+  ],
+  "answer": "C",
+  "explanation": "Im Text steht: „Jonas hat eine Liste und zehn Euro in der Tasche.“"
+ },
+ {
+  "id": "de-lesen-03-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-03",
+  "title": "Einkaufen auf dem Wochenmarkt",
+  "passage": "Jeden Samstag geht Jonas mit seinem Vater auf den Wochenmarkt. Heute darf Jonas zum ersten Mal allein einkaufen. Der Vater wartet am Brunnen. Jonas hat eine Liste und zehn Euro in der Tasche.\nAuf der Liste stehen: ein Kilo Äpfel, ein Brot und sechs Eier. Zuerst geht er zum Obststand. Die Äpfel kosten drei Euro. Dann kauft er beim Bäcker ein Bauernbrot für vier Euro. Jetzt hat er nur noch drei Euro übrig.\nAm Eierstand erschrickt Jonas. Sechs Eier kosten 3,50 Euro. Das Geld reicht nicht! Er überlegt kurz. Dann fragt er die Verkäuferin, ob er auch vier Eier kaufen kann. „Natürlich“, sagt sie. „Vier Eier kosten 2,40 Euro.“\nStolz kommt Jonas zum Brunnen zurück und erzählt alles. Der Vater lacht. „Gut gelöst! Zu Hause haben wir sowieso noch zwei Eier.“",
+  "stem": "Warum kaufte Jonas nur vier Eier?",
+  "options": [
+   "Weil es keine sechs Eier mehr gab.",
+   "Weil sein Geld für sechs Eier nicht reichte.",
+   "Weil der Vater es so wollte.",
+   "Weil vier Eier auf der Liste standen."
+  ],
+  "answer": "B",
+  "explanation": "Jonas hatte nur noch drei Euro, aber sechs Eier kosteten 3,50 Euro: „Das Geld reicht nicht!“"
+ },
+ {
+  "id": "de-lesen-03-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-03",
+  "title": "Einkaufen auf dem Wochenmarkt",
+  "passage": "Jeden Samstag geht Jonas mit seinem Vater auf den Wochenmarkt. Heute darf Jonas zum ersten Mal allein einkaufen. Der Vater wartet am Brunnen. Jonas hat eine Liste und zehn Euro in der Tasche.\nAuf der Liste stehen: ein Kilo Äpfel, ein Brot und sechs Eier. Zuerst geht er zum Obststand. Die Äpfel kosten drei Euro. Dann kauft er beim Bäcker ein Bauernbrot für vier Euro. Jetzt hat er nur noch drei Euro übrig.\nAm Eierstand erschrickt Jonas. Sechs Eier kosten 3,50 Euro. Das Geld reicht nicht! Er überlegt kurz. Dann fragt er die Verkäuferin, ob er auch vier Eier kaufen kann. „Natürlich“, sagt sie. „Vier Eier kosten 2,40 Euro.“\nStolz kommt Jonas zum Brunnen zurück und erzählt alles. Der Vater lacht. „Gut gelöst! Zu Hause haben wir sowieso noch zwei Eier.“",
+  "stem": "Was passt am besten zu Jonas in dieser Geschichte?",
+  "options": [
+   "Er gibt schnell auf.",
+   "Er ist unhöflich zur Verkäuferin.",
+   "Er vergisst seine Liste.",
+   "Er findet selbst eine gute Lösung für ein Problem."
+  ],
+  "answer": "D",
+  "explanation": "Jonas überlegt und fragt nach vier Eiern; der Vater lobt: „Gut gelöst!“"
+ },
+ {
+  "id": "de-lesen-04-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-04",
+  "title": "Warum Blätter im Herbst bunt werden",
+  "passage": "Im Sommer sind die Blätter der meisten Bäume grün. Das liegt an einem Farbstoff namens Blattgrün. Mit seiner Hilfe stellt der Baum aus Sonnenlicht, Wasser und Luft seine Nahrung her.\nIm Herbst werden die Tage kürzer und kälter. Jetzt bereitet sich der Baum auf den Winter vor. Er holt das wertvolle Blattgrün aus den Blättern zurück und speichert es in Ästen und Stamm. Dann werden andere Farbstoffe sichtbar, die schon die ganze Zeit im Blatt waren: Gelb und Orange. Manche Bäume, wie der Ahorn, bilden zusätzlich einen roten Farbstoff.\nAm Ende wächst zwischen Blatt und Zweig eine dünne Trennschicht aus Kork. Das Blatt bekommt kein Wasser mehr, wird braun und fällt ab. So verliert der Baum im Winter kein Wasser über die Blätter. Denn wenn der Boden gefroren ist, kann er kaum neues Wasser aufnehmen.",
+  "stem": "Wie heißt der Farbstoff, der Blätter im Sommer grün macht?",
+  "options": [
+   "Blattgrün",
+   "Blattgelb",
+   "Kork",
+   "Ahornrot"
+  ],
+  "answer": "A",
+  "explanation": "Im Text steht, dass die Blätter grün sind wegen „einem Farbstoff namens Blattgrün“."
+ },
+ {
+  "id": "de-lesen-04-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-04",
+  "title": "Warum Blätter im Herbst bunt werden",
+  "passage": "Im Sommer sind die Blätter der meisten Bäume grün. Das liegt an einem Farbstoff namens Blattgrün. Mit seiner Hilfe stellt der Baum aus Sonnenlicht, Wasser und Luft seine Nahrung her.\nIm Herbst werden die Tage kürzer und kälter. Jetzt bereitet sich der Baum auf den Winter vor. Er holt das wertvolle Blattgrün aus den Blättern zurück und speichert es in Ästen und Stamm. Dann werden andere Farbstoffe sichtbar, die schon die ganze Zeit im Blatt waren: Gelb und Orange. Manche Bäume, wie der Ahorn, bilden zusätzlich einen roten Farbstoff.\nAm Ende wächst zwischen Blatt und Zweig eine dünne Trennschicht aus Kork. Das Blatt bekommt kein Wasser mehr, wird braun und fällt ab. So verliert der Baum im Winter kein Wasser über die Blätter. Denn wenn der Boden gefroren ist, kann er kaum neues Wasser aufnehmen.",
+  "stem": "Was passiert, nachdem die Korkschicht zwischen Blatt und Zweig gewachsen ist?",
+  "options": [
+   "Das Blatt wird wieder grün.",
+   "Das Blatt bekommt kein Wasser mehr, wird braun und fällt ab.",
+   "Der Baum bildet neue Knospen.",
+   "Das Blatt färbt sich rot."
+  ],
+  "answer": "B",
+  "explanation": "Nach der Trennschicht aus Kork „bekommt das Blatt kein Wasser mehr, wird braun und fällt ab“."
+ },
+ {
+  "id": "de-lesen-04-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-04",
+  "title": "Warum Blätter im Herbst bunt werden",
+  "passage": "Im Sommer sind die Blätter der meisten Bäume grün. Das liegt an einem Farbstoff namens Blattgrün. Mit seiner Hilfe stellt der Baum aus Sonnenlicht, Wasser und Luft seine Nahrung her.\nIm Herbst werden die Tage kürzer und kälter. Jetzt bereitet sich der Baum auf den Winter vor. Er holt das wertvolle Blattgrün aus den Blättern zurück und speichert es in Ästen und Stamm. Dann werden andere Farbstoffe sichtbar, die schon die ganze Zeit im Blatt waren: Gelb und Orange. Manche Bäume, wie der Ahorn, bilden zusätzlich einen roten Farbstoff.\nAm Ende wächst zwischen Blatt und Zweig eine dünne Trennschicht aus Kork. Das Blatt bekommt kein Wasser mehr, wird braun und fällt ab. So verliert der Baum im Winter kein Wasser über die Blätter. Denn wenn der Boden gefroren ist, kann er kaum neues Wasser aufnehmen.",
+  "stem": "Worum geht es in dem Text hauptsächlich?",
+  "options": [
+   "Wie man Blätter sammelt",
+   "Welche Bäume am schönsten sind",
+   "Wie sich Bäume im Herbst auf den Winter vorbereiten",
+   "Warum der Boden im Winter gefriert"
+  ],
+  "answer": "C",
+  "explanation": "Der Text erklärt Schritt für Schritt, wie der Baum Blattgrün zurückholt und seine Blätter abwirft, um den Winter zu überstehen."
+ },
+ {
+  "id": "de-lesen-05-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-05",
+  "title": "Die Römer am Limes",
+  "passage": "Vor fast 2000 Jahren herrschten die Römer über ein riesiges Reich. Auch ein Teil des heutigen Baden-Württembergs gehörte dazu. Um ihr Gebiet zu schützen, bauten die Römer eine lange Grenze: den Limes.\nDer Limes war kein hoher Steinwall wie eine Burgmauer. An vielen Stellen bestand er aus einem Holzzaun, einem Graben und einem Erdwall. Alle paar hundert Meter stand ein Wachturm. Von dort beobachteten Soldaten das Land. Kam jemand, konnten sie mit Rauch, Feuer oder Hornsignalen Hilfe aus dem nächsten Kastell holen. Ein Kastell war ein Lager, in dem viele Soldaten wohnten.\nDer Limes sollte nicht jeden Menschen fernhalten. Händler durften durch bewachte Tore gehen, mussten aber Zoll bezahlen.\nHeute sind vom Limes nur noch Reste zu sehen. Einige Wachtürme wurden nachgebaut. Seit 2005 gehört der Limes zum Welterbe der UNESCO.",
+  "stem": "Was war ein Kastell?",
+  "options": [
+   "Ein Wachturm aus Holz",
+   "Ein Tor für Händler",
+   "Ein Lager, in dem viele Soldaten wohnten",
+   "Ein Graben vor dem Zaun"
+  ],
+  "answer": "C",
+  "explanation": "Im Text steht: „Ein Kastell war ein Lager, in dem viele Soldaten wohnten.“"
+ },
+ {
+  "id": "de-lesen-05-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-05",
+  "title": "Die Römer am Limes",
+  "passage": "Vor fast 2000 Jahren herrschten die Römer über ein riesiges Reich. Auch ein Teil des heutigen Baden-Württembergs gehörte dazu. Um ihr Gebiet zu schützen, bauten die Römer eine lange Grenze: den Limes.\nDer Limes war kein hoher Steinwall wie eine Burgmauer. An vielen Stellen bestand er aus einem Holzzaun, einem Graben und einem Erdwall. Alle paar hundert Meter stand ein Wachturm. Von dort beobachteten Soldaten das Land. Kam jemand, konnten sie mit Rauch, Feuer oder Hornsignalen Hilfe aus dem nächsten Kastell holen. Ein Kastell war ein Lager, in dem viele Soldaten wohnten.\nDer Limes sollte nicht jeden Menschen fernhalten. Händler durften durch bewachte Tore gehen, mussten aber Zoll bezahlen.\nHeute sind vom Limes nur noch Reste zu sehen. Einige Wachtürme wurden nachgebaut. Seit 2005 gehört der Limes zum Welterbe der UNESCO.",
+  "stem": "Warum bauten die Römer den Limes?",
+  "options": [
+   "Um ihr Gebiet zu schützen",
+   "Um Händler reich zu machen",
+   "Um Tiere einzusperren",
+   "Um eine Straße zu bauen"
+  ],
+  "answer": "A",
+  "explanation": "Im Text steht: „Um ihr Gebiet zu schützen, bauten die Römer eine lange Grenze: den Limes.“"
+ },
+ {
+  "id": "de-lesen-05-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-05",
+  "title": "Die Römer am Limes",
+  "passage": "Vor fast 2000 Jahren herrschten die Römer über ein riesiges Reich. Auch ein Teil des heutigen Baden-Württembergs gehörte dazu. Um ihr Gebiet zu schützen, bauten die Römer eine lange Grenze: den Limes.\nDer Limes war kein hoher Steinwall wie eine Burgmauer. An vielen Stellen bestand er aus einem Holzzaun, einem Graben und einem Erdwall. Alle paar hundert Meter stand ein Wachturm. Von dort beobachteten Soldaten das Land. Kam jemand, konnten sie mit Rauch, Feuer oder Hornsignalen Hilfe aus dem nächsten Kastell holen. Ein Kastell war ein Lager, in dem viele Soldaten wohnten.\nDer Limes sollte nicht jeden Menschen fernhalten. Händler durften durch bewachte Tore gehen, mussten aber Zoll bezahlen.\nHeute sind vom Limes nur noch Reste zu sehen. Einige Wachtürme wurden nachgebaut. Seit 2005 gehört der Limes zum Welterbe der UNESCO.",
+  "stem": "Was kann man aus dem Text über den Limes schließen?",
+  "options": [
+   "Niemand durfte ihn überqueren.",
+   "Er bestand überall aus dicken Steinmauern.",
+   "Er wurde erst 2005 gebaut.",
+   "Er diente auch dazu, den Handel zu kontrollieren."
+  ],
+  "answer": "D",
+  "explanation": "Händler durften durch bewachte Tore gehen, mussten aber Zoll bezahlen – der Limes kontrollierte also auch den Handel."
+ },
+ {
+  "id": "de-lesen-06-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-06",
+  "title": "Das Rennen am Sportfest",
+  "passage": "Beim Sportfest der Grundschule war der Staffellauf der Höhepunkt. Die Klasse 4b hatte lange geübt. Emil sollte als letzter Läufer ins Ziel rennen, denn er war der Schnellste.\nDer Lauf begann gut. Hannah übergab den Stab an Yusuf, Yusuf an Clara. Die 4b lag vorn. Doch als Clara den Stab an Emil weitergeben wollte, fiel er auf den Boden. Emil hob ihn schnell auf, aber zwei Mannschaften waren schon vorbei.\nEmil rannte, so schnell er konnte. Eine Mannschaft überholte er noch, die andere nicht. Die 4b wurde Zweite.\nClara stand mit Tränen in den Augen am Rand. „Es ist meine Schuld“, flüsterte sie. Emil ging zu ihr und gab ihr die Hand. „Wir sind ein Team“, sagte er. „Ohne deinen schnellen Lauf wären wir gar nicht so weit vorn gewesen.“ Da musste Clara lächeln. Bei der Siegerehrung hielten alle vier die Urkunde gemeinsam hoch.",
+  "stem": "Welchen Platz erreichte die Klasse 4b?",
+  "options": [
+   "Den ersten Platz",
+   "Den zweiten Platz",
+   "Den dritten Platz",
+   "Den letzten Platz"
+  ],
+  "answer": "B",
+  "explanation": "Im Text steht: „Die 4b wurde Zweite.“"
+ },
+ {
+  "id": "de-lesen-06-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-06",
+  "title": "Das Rennen am Sportfest",
+  "passage": "Beim Sportfest der Grundschule war der Staffellauf der Höhepunkt. Die Klasse 4b hatte lange geübt. Emil sollte als letzter Läufer ins Ziel rennen, denn er war der Schnellste.\nDer Lauf begann gut. Hannah übergab den Stab an Yusuf, Yusuf an Clara. Die 4b lag vorn. Doch als Clara den Stab an Emil weitergeben wollte, fiel er auf den Boden. Emil hob ihn schnell auf, aber zwei Mannschaften waren schon vorbei.\nEmil rannte, so schnell er konnte. Eine Mannschaft überholte er noch, die andere nicht. Die 4b wurde Zweite.\nClara stand mit Tränen in den Augen am Rand. „Es ist meine Schuld“, flüsterte sie. Emil ging zu ihr und gab ihr die Hand. „Wir sind ein Team“, sagte er. „Ohne deinen schnellen Lauf wären wir gar nicht so weit vorn gewesen.“ Da musste Clara lächeln. Bei der Siegerehrung hielten alle vier die Urkunde gemeinsam hoch.",
+  "stem": "Warum fiel die 4b im Rennen zurück?",
+  "options": [
+   "Emil stolperte.",
+   "Hannah lief zu langsam.",
+   "Der Stab fiel bei der Übergabe von Clara an Emil herunter.",
+   "Yusuf verlor seinen Schuh."
+  ],
+  "answer": "C",
+  "explanation": "Als Clara den Stab an Emil weitergeben wollte, „fiel er auf den Boden“, und zwei Mannschaften zogen vorbei."
+ },
+ {
+  "id": "de-lesen-06-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-06",
+  "title": "Das Rennen am Sportfest",
+  "passage": "Beim Sportfest der Grundschule war der Staffellauf der Höhepunkt. Die Klasse 4b hatte lange geübt. Emil sollte als letzter Läufer ins Ziel rennen, denn er war der Schnellste.\nDer Lauf begann gut. Hannah übergab den Stab an Yusuf, Yusuf an Clara. Die 4b lag vorn. Doch als Clara den Stab an Emil weitergeben wollte, fiel er auf den Boden. Emil hob ihn schnell auf, aber zwei Mannschaften waren schon vorbei.\nEmil rannte, so schnell er konnte. Eine Mannschaft überholte er noch, die andere nicht. Die 4b wurde Zweite.\nClara stand mit Tränen in den Augen am Rand. „Es ist meine Schuld“, flüsterte sie. Emil ging zu ihr und gab ihr die Hand. „Wir sind ein Team“, sagte er. „Ohne deinen schnellen Lauf wären wir gar nicht so weit vorn gewesen.“ Da musste Clara lächeln. Bei der Siegerehrung hielten alle vier die Urkunde gemeinsam hoch.",
+  "stem": "Was zeigt Emils Verhalten am Ende?",
+  "options": [
+   "Er ist wütend auf Clara.",
+   "Er will lieber allein laufen.",
+   "Er interessiert sich nicht für das Ergebnis.",
+   "Er ist ein fairer Teamkamerad, der Clara tröstet."
+  ],
+  "answer": "D",
+  "explanation": "Emil gibt Clara die Hand und sagt: „Wir sind ein Team.“"
+ },
+ {
+  "id": "de-lesen-07-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-07",
+  "title": "Fleißige Honigbienen",
+  "passage": "Honigbienen leben in großen Gruppen, die man Bienenvolk nennt. Im Sommer gehören zu einem Volk bis zu 50 000 Bienen. Es gibt eine Königin, einige hundert männliche Drohnen und sehr viele Arbeiterinnen.\nDie Arbeiterinnen haben je nach Alter unterschiedliche Aufgaben. Junge Bienen putzen die Waben und füttern die Larven. Später bauen sie Waben aus Wachs und bewachen den Eingang. Erst in den letzten Wochen ihres Lebens fliegen sie hinaus und sammeln Nektar und Blütenstaub.\nHat eine Biene viele Blüten gefunden, fliegt sie zurück in den Stock und tanzt. Mit diesem Tanz zeigt sie den anderen, in welcher Richtung und wie weit entfernt die Blüten liegen.\nBeim Sammeln tragen Bienen Blütenstaub von Blüte zu Blüte. So helfen sie den Pflanzen, Früchte und Samen zu bilden. Ohne Bienen gäbe es viel weniger Äpfel, Kirschen und Erdbeeren.",
+  "stem": "Was machen junge Arbeiterinnen?",
+  "options": [
+   "Sie sammeln Nektar.",
+   "Sie putzen die Waben und füttern die Larven.",
+   "Sie legen Eier.",
+   "Sie tanzen im Stock."
+  ],
+  "answer": "B",
+  "explanation": "Im Text steht: „Junge Bienen putzen die Waben und füttern die Larven.“"
+ },
+ {
+  "id": "de-lesen-07-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-07",
+  "title": "Fleißige Honigbienen",
+  "passage": "Honigbienen leben in großen Gruppen, die man Bienenvolk nennt. Im Sommer gehören zu einem Volk bis zu 50 000 Bienen. Es gibt eine Königin, einige hundert männliche Drohnen und sehr viele Arbeiterinnen.\nDie Arbeiterinnen haben je nach Alter unterschiedliche Aufgaben. Junge Bienen putzen die Waben und füttern die Larven. Später bauen sie Waben aus Wachs und bewachen den Eingang. Erst in den letzten Wochen ihres Lebens fliegen sie hinaus und sammeln Nektar und Blütenstaub.\nHat eine Biene viele Blüten gefunden, fliegt sie zurück in den Stock und tanzt. Mit diesem Tanz zeigt sie den anderen, in welcher Richtung und wie weit entfernt die Blüten liegen.\nBeim Sammeln tragen Bienen Blütenstaub von Blüte zu Blüte. So helfen sie den Pflanzen, Früchte und Samen zu bilden. Ohne Bienen gäbe es viel weniger Äpfel, Kirschen und Erdbeeren.",
+  "stem": "Warum tanzt eine Biene im Stock?",
+  "options": [
+   "Um die Königin zu begrüßen",
+   "Um sich aufzuwärmen",
+   "Um den anderen zu zeigen, wo die Blüten sind",
+   "Um Feinde zu vertreiben"
+  ],
+  "answer": "C",
+  "explanation": "Mit dem Tanz „zeigt sie den anderen, in welcher Richtung und wie weit entfernt die Blüten liegen“."
+ },
+ {
+  "id": "de-lesen-07-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-07",
+  "title": "Fleißige Honigbienen",
+  "passage": "Honigbienen leben in großen Gruppen, die man Bienenvolk nennt. Im Sommer gehören zu einem Volk bis zu 50 000 Bienen. Es gibt eine Königin, einige hundert männliche Drohnen und sehr viele Arbeiterinnen.\nDie Arbeiterinnen haben je nach Alter unterschiedliche Aufgaben. Junge Bienen putzen die Waben und füttern die Larven. Später bauen sie Waben aus Wachs und bewachen den Eingang. Erst in den letzten Wochen ihres Lebens fliegen sie hinaus und sammeln Nektar und Blütenstaub.\nHat eine Biene viele Blüten gefunden, fliegt sie zurück in den Stock und tanzt. Mit diesem Tanz zeigt sie den anderen, in welcher Richtung und wie weit entfernt die Blüten liegen.\nBeim Sammeln tragen Bienen Blütenstaub von Blüte zu Blüte. So helfen sie den Pflanzen, Früchte und Samen zu bilden. Ohne Bienen gäbe es viel weniger Äpfel, Kirschen und Erdbeeren.",
+  "stem": "Welche Aussage passt am besten zum letzten Absatz?",
+  "options": [
+   "Bienen sind auch für unser Obst wichtig.",
+   "Bienen fressen gern Erdbeeren.",
+   "Bienen schaden den Pflanzen.",
+   "Bienen leben nur im Winter."
+  ],
+  "answer": "A",
+  "explanation": "Der Text sagt: „Ohne Bienen gäbe es viel weniger Äpfel, Kirschen und Erdbeeren.“"
+ },
+ {
+  "id": "de-lesen-08-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-08",
+  "title": "Wenn ein Gewitter kommt",
+  "passage": "An heißen Sommertagen steigt warme, feuchte Luft schnell nach oben. Dort kühlt sie ab, und es bilden sich riesige, hohe Wolken. Sie sehen oft aus wie dunkle Türme. In diesen Wolken wirbeln Wassertropfen und Eiskörner wild durcheinander. Dabei lädt sich die Wolke elektrisch auf.\nIrgendwann entlädt sich die Spannung als Blitz. Ein Blitz ist sehr heiß und erhitzt die Luft blitzschnell. Die Luft dehnt sich mit einem lauten Knall aus – das ist der Donner.\nWeil Licht viel schneller ist als Schall, sieht man den Blitz zuerst. Zählt man die Sekunden bis zum Donner und teilt sie durch drei, weiß man ungefähr, wie viele Kilometer das Gewitter entfernt ist.\nBei Gewitter sollte man ins Haus oder ins Auto gehen. Draußen sind einzelne Bäume und offene Felder gefährlich. Auch aus dem Wasser sollte man sofort herauskommen.",
+  "stem": "Wie entsteht der Donner?",
+  "options": [
+   "Wolken stoßen zusammen.",
+   "Eiskörner fallen auf den Boden.",
+   "Die vom Blitz erhitzte Luft dehnt sich mit einem Knall aus.",
+   "Der Wind bläst sehr stark."
+  ],
+  "answer": "C",
+  "explanation": "Der Blitz erhitzt die Luft, und sie „dehnt sich mit einem lauten Knall aus – das ist der Donner“."
+ },
+ {
+  "id": "de-lesen-08-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-08",
+  "title": "Wenn ein Gewitter kommt",
+  "passage": "An heißen Sommertagen steigt warme, feuchte Luft schnell nach oben. Dort kühlt sie ab, und es bilden sich riesige, hohe Wolken. Sie sehen oft aus wie dunkle Türme. In diesen Wolken wirbeln Wassertropfen und Eiskörner wild durcheinander. Dabei lädt sich die Wolke elektrisch auf.\nIrgendwann entlädt sich die Spannung als Blitz. Ein Blitz ist sehr heiß und erhitzt die Luft blitzschnell. Die Luft dehnt sich mit einem lauten Knall aus – das ist der Donner.\nWeil Licht viel schneller ist als Schall, sieht man den Blitz zuerst. Zählt man die Sekunden bis zum Donner und teilt sie durch drei, weiß man ungefähr, wie viele Kilometer das Gewitter entfernt ist.\nBei Gewitter sollte man ins Haus oder ins Auto gehen. Draußen sind einzelne Bäume und offene Felder gefährlich. Auch aus dem Wasser sollte man sofort herauskommen.",
+  "stem": "Warum sieht man den Blitz, bevor man den Donner hört?",
+  "options": [
+   "Weil Licht schneller ist als Schall",
+   "Weil der Donner später entsteht",
+   "Weil die Augen besser sind als die Ohren",
+   "Weil der Blitz näher ist"
+  ],
+  "answer": "A",
+  "explanation": "Im Text steht: „Weil Licht viel schneller ist als Schall, sieht man den Blitz zuerst.“"
+ },
+ {
+  "id": "de-lesen-08-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-08",
+  "title": "Wenn ein Gewitter kommt",
+  "passage": "An heißen Sommertagen steigt warme, feuchte Luft schnell nach oben. Dort kühlt sie ab, und es bilden sich riesige, hohe Wolken. Sie sehen oft aus wie dunkle Türme. In diesen Wolken wirbeln Wassertropfen und Eiskörner wild durcheinander. Dabei lädt sich die Wolke elektrisch auf.\nIrgendwann entlädt sich die Spannung als Blitz. Ein Blitz ist sehr heiß und erhitzt die Luft blitzschnell. Die Luft dehnt sich mit einem lauten Knall aus – das ist der Donner.\nWeil Licht viel schneller ist als Schall, sieht man den Blitz zuerst. Zählt man die Sekunden bis zum Donner und teilt sie durch drei, weiß man ungefähr, wie viele Kilometer das Gewitter entfernt ist.\nBei Gewitter sollte man ins Haus oder ins Auto gehen. Draußen sind einzelne Bäume und offene Felder gefährlich. Auch aus dem Wasser sollte man sofort herauskommen.",
+  "stem": "Du zählst 9 Sekunden zwischen Blitz und Donner. Wie weit ist das Gewitter ungefähr weg?",
+  "options": [
+   "9 Kilometer",
+   "1 Kilometer",
+   "27 Kilometer",
+   "3 Kilometer"
+  ],
+  "answer": "D",
+  "explanation": "Man teilt die Sekunden durch drei: 9 : 3 = 3, also etwa 3 Kilometer."
+ },
+ {
+  "id": "de-lesen-09-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-09",
+  "title": "Das Licht in der Höhle",
+  "passage": "In den Herbstferien wanderte Paul mit seiner Tante auf der Schwäbischen Alb. Auf dem Weg entdeckten sie eine kleine Höhle im Felsen. Ein Schild sagte: „Höhle frei zugänglich – Taschenlampe mitnehmen!“\nPaul knipste seine Stirnlampe an, und sie gingen hinein. Es war kühl und feucht. Von der Decke hingen spitze Tropfsteine. „Die sind über viele tausend Jahre gewachsen“, erklärte die Tante. „Also bitte nicht anfassen.“\nPlötzlich flackerte Pauls Lampe und ging aus. Es war stockdunkel. Paul bekam einen Schreck, doch die Tante blieb ruhig. Sie holte eine zweite Lampe aus ihrem Rucksack. „Deshalb nehme ich immer eine Ersatzlampe mit“, sagte sie.\nIm Licht entdeckten sie an der Wand eine kleine Fledermaus, die kopfüber schlief. Leise gingen sie zurück zum Ausgang. Draußen schien die Sonne. Paul beschloss, beim nächsten Ausflug auch eine zweite Lampe einzupacken.",
+  "stem": "Was hing von der Decke der Höhle?",
+  "options": [
+   "Wurzeln",
+   "Spitze Tropfsteine",
+   "Spinnennetze",
+   "Lampen"
+  ],
+  "answer": "B",
+  "explanation": "Im Text steht: „Von der Decke hingen spitze Tropfsteine.“"
+ },
+ {
+  "id": "de-lesen-09-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-09",
+  "title": "Das Licht in der Höhle",
+  "passage": "In den Herbstferien wanderte Paul mit seiner Tante auf der Schwäbischen Alb. Auf dem Weg entdeckten sie eine kleine Höhle im Felsen. Ein Schild sagte: „Höhle frei zugänglich – Taschenlampe mitnehmen!“\nPaul knipste seine Stirnlampe an, und sie gingen hinein. Es war kühl und feucht. Von der Decke hingen spitze Tropfsteine. „Die sind über viele tausend Jahre gewachsen“, erklärte die Tante. „Also bitte nicht anfassen.“\nPlötzlich flackerte Pauls Lampe und ging aus. Es war stockdunkel. Paul bekam einen Schreck, doch die Tante blieb ruhig. Sie holte eine zweite Lampe aus ihrem Rucksack. „Deshalb nehme ich immer eine Ersatzlampe mit“, sagte sie.\nIm Licht entdeckten sie an der Wand eine kleine Fledermaus, die kopfüber schlief. Leise gingen sie zurück zum Ausgang. Draußen schien die Sonne. Paul beschloss, beim nächsten Ausflug auch eine zweite Lampe einzupacken.",
+  "stem": "Was geschah direkt, nachdem Pauls Lampe ausgegangen war?",
+  "options": [
+   "Sie liefen schnell hinaus.",
+   "Paul rief um Hilfe.",
+   "Die Tante holte eine Ersatzlampe aus dem Rucksack.",
+   "Eine Fledermaus flog davon."
+  ],
+  "answer": "C",
+  "explanation": "Nach dem Schreck „holte sie eine zweite Lampe aus ihrem Rucksack“."
+ },
+ {
+  "id": "de-lesen-09-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-09",
+  "title": "Das Licht in der Höhle",
+  "passage": "In den Herbstferien wanderte Paul mit seiner Tante auf der Schwäbischen Alb. Auf dem Weg entdeckten sie eine kleine Höhle im Felsen. Ein Schild sagte: „Höhle frei zugänglich – Taschenlampe mitnehmen!“\nPaul knipste seine Stirnlampe an, und sie gingen hinein. Es war kühl und feucht. Von der Decke hingen spitze Tropfsteine. „Die sind über viele tausend Jahre gewachsen“, erklärte die Tante. „Also bitte nicht anfassen.“\nPlötzlich flackerte Pauls Lampe und ging aus. Es war stockdunkel. Paul bekam einen Schreck, doch die Tante blieb ruhig. Sie holte eine zweite Lampe aus ihrem Rucksack. „Deshalb nehme ich immer eine Ersatzlampe mit“, sagte sie.\nIm Licht entdeckten sie an der Wand eine kleine Fledermaus, die kopfüber schlief. Leise gingen sie zurück zum Ausgang. Draußen schien die Sonne. Paul beschloss, beim nächsten Ausflug auch eine zweite Lampe einzupacken.",
+  "stem": "Was hat Paul aus dem Erlebnis gelernt?",
+  "options": [
+   "Höhlen sind immer gefährlich.",
+   "Man sollte für Notfälle vorbereitet sein.",
+   "Fledermäuse sind gefährlich.",
+   "Man sollte Tropfsteine sammeln."
+  ],
+  "answer": "B",
+  "explanation": "Paul beschloss, beim nächsten Ausflug auch eine zweite Lampe einzupacken – also vorbereitet zu sein."
+ },
+ {
+  "id": "de-lesen-10-1",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-10",
+  "title": "Johannes Gutenberg und der Buchdruck",
+  "passage": "Vor ungefähr 600 Jahren waren Bücher sehr selten und teuer. Jedes Buch musste mit der Hand abgeschrieben werden. Oft arbeitete ein Mönch viele Monate an einem einzigen Buch.\nIn Mainz lebte damals Johannes Gutenberg. Er hatte eine kluge Idee. Er goss einzelne Buchstaben aus Metall. Diese Buchstaben, die Lettern, konnte man zu Wörtern und Zeilen zusammensetzen. Dann strich man Farbe darauf und presste mit einer Druckerpresse Papier dagegen. Danach konnte man die Lettern wieder auseinandernehmen und für eine neue Seite benutzen.\nUm das Jahr 1455 druckte Gutenberg eine berühmte Bibel. Mit seiner Methode konnte man in kurzer Zeit viele gleiche Bücher herstellen.\nBücher wurden nun billiger, und viel mehr Menschen konnten lesen lernen. Wissen und Neuigkeiten verbreiteten sich schneller als je zuvor. Deshalb gilt Gutenbergs Erfindung als eine der wichtigsten der Geschichte.",
+  "stem": "In welcher Stadt lebte Johannes Gutenberg?",
+  "options": [
+   "In Stuttgart",
+   "In Köln",
+   "In Mainz",
+   "In Berlin"
+  ],
+  "answer": "C",
+  "explanation": "Im Text steht: „In Mainz lebte damals Johannes Gutenberg.“"
+ },
+ {
+  "id": "de-lesen-10-2",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-10",
+  "title": "Johannes Gutenberg und der Buchdruck",
+  "passage": "Vor ungefähr 600 Jahren waren Bücher sehr selten und teuer. Jedes Buch musste mit der Hand abgeschrieben werden. Oft arbeitete ein Mönch viele Monate an einem einzigen Buch.\nIn Mainz lebte damals Johannes Gutenberg. Er hatte eine kluge Idee. Er goss einzelne Buchstaben aus Metall. Diese Buchstaben, die Lettern, konnte man zu Wörtern und Zeilen zusammensetzen. Dann strich man Farbe darauf und presste mit einer Druckerpresse Papier dagegen. Danach konnte man die Lettern wieder auseinandernehmen und für eine neue Seite benutzen.\nUm das Jahr 1455 druckte Gutenberg eine berühmte Bibel. Mit seiner Methode konnte man in kurzer Zeit viele gleiche Bücher herstellen.\nBücher wurden nun billiger, und viel mehr Menschen konnten lesen lernen. Wissen und Neuigkeiten verbreiteten sich schneller als je zuvor. Deshalb gilt Gutenbergs Erfindung als eine der wichtigsten der Geschichte.",
+  "stem": "Was geschah, nachdem man die Lettern zu Zeilen zusammengesetzt hatte?",
+  "options": [
+   "Man goss sie aus Metall.",
+   "Man strich Farbe darauf und presste Papier dagegen.",
+   "Man schrieb die Seite mit der Hand ab.",
+   "Man warf die Lettern weg."
+  ],
+  "answer": "B",
+  "explanation": "Nach dem Zusammensetzen „strich man Farbe darauf und presste mit einer Druckerpresse Papier dagegen“."
+ },
+ {
+  "id": "de-lesen-10-3",
+  "type": "choice",
+  "subject": "lesen",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesen-10",
+  "title": "Johannes Gutenberg und der Buchdruck",
+  "passage": "Vor ungefähr 600 Jahren waren Bücher sehr selten und teuer. Jedes Buch musste mit der Hand abgeschrieben werden. Oft arbeitete ein Mönch viele Monate an einem einzigen Buch.\nIn Mainz lebte damals Johannes Gutenberg. Er hatte eine kluge Idee. Er goss einzelne Buchstaben aus Metall. Diese Buchstaben, die Lettern, konnte man zu Wörtern und Zeilen zusammensetzen. Dann strich man Farbe darauf und presste mit einer Druckerpresse Papier dagegen. Danach konnte man die Lettern wieder auseinandernehmen und für eine neue Seite benutzen.\nUm das Jahr 1455 druckte Gutenberg eine berühmte Bibel. Mit seiner Methode konnte man in kurzer Zeit viele gleiche Bücher herstellen.\nBücher wurden nun billiger, und viel mehr Menschen konnten lesen lernen. Wissen und Neuigkeiten verbreiteten sich schneller als je zuvor. Deshalb gilt Gutenbergs Erfindung als eine der wichtigsten der Geschichte.",
+  "stem": "Warum ist Gutenbergs Erfindung so wichtig?",
+  "options": [
+   "Weil Mönche nun mehr schreiben mussten",
+   "Weil Bücher teurer wurden",
+   "Weil er die Bibel erfunden hat",
+   "Weil Bücher billiger wurden und sich Wissen schneller verbreitete"
+  ],
+  "answer": "D",
+  "explanation": "Der letzte Absatz sagt, Bücher wurden billiger, mehr Menschen lernten lesen und Wissen verbreitete sich schneller."
+ }
+]

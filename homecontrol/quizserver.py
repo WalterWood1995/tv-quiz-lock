@@ -103,6 +103,8 @@ class QuizHandler(BaseHTTPRequestHandler):
         try:
             if path == "/api/question":
                 self._json(self.host.quiz_question(body.get("difficulty", "medium")))
+            elif path == "/api/skip":
+                self._json(self.host.quiz_skip(str(body.get("id", ""))))
             elif path == "/api/answer":
                 self._json(self.host.quiz_answer(str(body.get("id", "")), int(body.get("choice", -1))))
             elif path == "/api/heartbeat":

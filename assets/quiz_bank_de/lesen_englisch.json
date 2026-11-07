@@ -1,0 +1,572 @@
+[
+ {
+  "id": "de-lesenen-01-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-01",
+  "title": "A Cat Called Pepper",
+  "passage": "Sam has a black cat. Her name is Pepper. Pepper is three years old. She has green eyes and a white spot on her nose.\nEvery morning, Pepper sits by the kitchen door. She waits for her breakfast. Sam gives her fish and fresh water. Then Pepper goes into the garden.\nOne day, Pepper did not come home for dinner. Sam was very worried. He looked in the garden, under the car and in the garage. He called her name again and again. But there was no cat.\nThen Sam heard a small sound. \"Meow!\" It came from the old tree next to the house. Pepper was high up in the tree, and she was scared. Sam's dad got a ladder and carefully brought her down.\nThat night, Pepper slept on Sam's bed. She was very happy to be home, and so was Sam.",
+  "stem": "What colour are Pepper's eyes?",
+  "options": [
+   "Blue",
+   "Brown",
+   "Green",
+   "Yellow"
+  ],
+  "answer": "C",
+  "explanation": "The text says: \"She has green eyes and a white spot on her nose.\""
+ },
+ {
+  "id": "de-lesenen-01-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-01",
+  "title": "A Cat Called Pepper",
+  "passage": "Sam has a black cat. Her name is Pepper. Pepper is three years old. She has green eyes and a white spot on her nose.\nEvery morning, Pepper sits by the kitchen door. She waits for her breakfast. Sam gives her fish and fresh water. Then Pepper goes into the garden.\nOne day, Pepper did not come home for dinner. Sam was very worried. He looked in the garden, under the car and in the garage. He called her name again and again. But there was no cat.\nThen Sam heard a small sound. \"Meow!\" It came from the old tree next to the house. Pepper was high up in the tree, and she was scared. Sam's dad got a ladder and carefully brought her down.\nThat night, Pepper slept on Sam's bed. She was very happy to be home, and so was Sam.",
+  "stem": "Why was Sam worried?",
+  "options": [
+   "Pepper did not eat her breakfast.",
+   "Pepper did not come home for dinner.",
+   "Pepper was ill.",
+   "Pepper broke a cup."
+  ],
+  "answer": "B",
+  "explanation": "The text says Pepper \"did not come home for dinner. Sam was very worried.\""
+ },
+ {
+  "id": "de-lesenen-01-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-01",
+  "title": "A Cat Called Pepper",
+  "passage": "Sam has a black cat. Her name is Pepper. Pepper is three years old. She has green eyes and a white spot on her nose.\nEvery morning, Pepper sits by the kitchen door. She waits for her breakfast. Sam gives her fish and fresh water. Then Pepper goes into the garden.\nOne day, Pepper did not come home for dinner. Sam was very worried. He looked in the garden, under the car and in the garage. He called her name again and again. But there was no cat.\nThen Sam heard a small sound. \"Meow!\" It came from the old tree next to the house. Pepper was high up in the tree, and she was scared. Sam's dad got a ladder and carefully brought her down.\nThat night, Pepper slept on Sam's bed. She was very happy to be home, and so was Sam.",
+  "stem": "Why couldn't Pepper come home?",
+  "options": [
+   "She was lost in the town.",
+   "She was asleep in the garage.",
+   "She was stuck high up in a tree.",
+   "She was at a friend's house."
+  ],
+  "answer": "C",
+  "explanation": "Pepper was \"high up in the tree, and she was scared\", and Sam's dad needed a ladder to bring her down."
+ },
+ {
+  "id": "de-lesenen-02-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-02",
+  "title": "The Lost Kite",
+  "passage": "It was a windy Saturday. Mia and her brother Ben went to the hill near their house with a big red kite.\nBen held the kite, and Mia ran with the string. The kite went up, up, up into the sky. \"Look how high it is!\" shouted Mia.\nSuddenly, a very strong wind came. The string broke! The red kite flew away over the trees. Mia and Ben ran after it. They ran across a field and over a small bridge.\nAt last, they saw the kite. It was in a farmer's garden, next to some chickens. An old farmer came out and smiled. \"Is this your kite?\" he asked. \"Yes!\" said Ben. \"Thank you!\"\nThe farmer gave them the kite and two red apples. Mia and Ben walked home slowly. They were tired but happy. \"Next time we need a stronger string,\" said Mia.",
+  "stem": "What colour was the kite?",
+  "options": [
+   "Red",
+   "Blue",
+   "Yellow",
+   "Green"
+  ],
+  "answer": "A",
+  "explanation": "The text says they had \"a big red kite\"."
+ },
+ {
+  "id": "de-lesenen-02-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-02",
+  "title": "The Lost Kite",
+  "passage": "It was a windy Saturday. Mia and her brother Ben went to the hill near their house with a big red kite.\nBen held the kite, and Mia ran with the string. The kite went up, up, up into the sky. \"Look how high it is!\" shouted Mia.\nSuddenly, a very strong wind came. The string broke! The red kite flew away over the trees. Mia and Ben ran after it. They ran across a field and over a small bridge.\nAt last, they saw the kite. It was in a farmer's garden, next to some chickens. An old farmer came out and smiled. \"Is this your kite?\" he asked. \"Yes!\" said Ben. \"Thank you!\"\nThe farmer gave them the kite and two red apples. Mia and Ben walked home slowly. They were tired but happy. \"Next time we need a stronger string,\" said Mia.",
+  "stem": "What happened right after the string broke?",
+  "options": [
+   "The farmer gave them apples.",
+   "The kite flew away over the trees.",
+   "Mia shouted \"Look how high it is!\"",
+   "They walked home slowly."
+  ],
+  "answer": "B",
+  "explanation": "The text says: \"The string broke! The red kite flew away over the trees.\""
+ },
+ {
+  "id": "de-lesenen-02-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-02",
+  "title": "The Lost Kite",
+  "passage": "It was a windy Saturday. Mia and her brother Ben went to the hill near their house with a big red kite.\nBen held the kite, and Mia ran with the string. The kite went up, up, up into the sky. \"Look how high it is!\" shouted Mia.\nSuddenly, a very strong wind came. The string broke! The red kite flew away over the trees. Mia and Ben ran after it. They ran across a field and over a small bridge.\nAt last, they saw the kite. It was in a farmer's garden, next to some chickens. An old farmer came out and smiled. \"Is this your kite?\" he asked. \"Yes!\" said Ben. \"Thank you!\"\nThe farmer gave them the kite and two red apples. Mia and Ben walked home slowly. They were tired but happy. \"Next time we need a stronger string,\" said Mia.",
+  "stem": "What does Mia learn at the end?",
+  "options": [
+   "Kites are boring.",
+   "Farmers do not like children.",
+   "They need a stronger string next time.",
+   "They should not go to the hill."
+  ],
+  "answer": "C",
+  "explanation": "Mia says: \"Next time we need a stronger string.\""
+ },
+ {
+  "id": "de-lesenen-03-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-03",
+  "title": "Penguins",
+  "passage": "Penguins are birds, but they cannot fly. Their wings are small and flat, like flippers. Penguins use them to swim. They are very good swimmers and can swim fast under the water.\nMost penguins live in the south of the world. Some live in very cold places, like Antarctica. There is a lot of ice and snow there. Penguins have thick feathers and a layer of fat. This keeps them warm.\nPenguins eat fish, squid and small sea animals called krill. They catch their food in the sea.\nEmperor penguins are the biggest penguins. They can be over one metre tall. In winter, the father penguin keeps the egg warm on his feet for about two months. He does not eat in this time! The mother goes to the sea to find food. When she comes back, she helps to feed the baby.",
+  "stem": "What do penguins use their wings for?",
+  "options": [
+   "To fly",
+   "To swim",
+   "To dig",
+   "To sleep"
+  ],
+  "answer": "B",
+  "explanation": "The text says: \"Penguins use them to swim.\""
+ },
+ {
+  "id": "de-lesenen-03-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-03",
+  "title": "Penguins",
+  "passage": "Penguins are birds, but they cannot fly. Their wings are small and flat, like flippers. Penguins use them to swim. They are very good swimmers and can swim fast under the water.\nMost penguins live in the south of the world. Some live in very cold places, like Antarctica. There is a lot of ice and snow there. Penguins have thick feathers and a layer of fat. This keeps them warm.\nPenguins eat fish, squid and small sea animals called krill. They catch their food in the sea.\nEmperor penguins are the biggest penguins. They can be over one metre tall. In winter, the father penguin keeps the egg warm on his feet for about two months. He does not eat in this time! The mother goes to the sea to find food. When she comes back, she helps to feed the baby.",
+  "stem": "Why don't penguins get cold?",
+  "options": [
+   "They live in houses.",
+   "They sleep all day.",
+   "They eat hot food.",
+   "They have thick feathers and a layer of fat."
+  ],
+  "answer": "D",
+  "explanation": "The text says: \"Penguins have thick feathers and a layer of fat. This keeps them warm.\""
+ },
+ {
+  "id": "de-lesenen-03-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-03",
+  "title": "Penguins",
+  "passage": "Penguins are birds, but they cannot fly. Their wings are small and flat, like flippers. Penguins use them to swim. They are very good swimmers and can swim fast under the water.\nMost penguins live in the south of the world. Some live in very cold places, like Antarctica. There is a lot of ice and snow there. Penguins have thick feathers and a layer of fat. This keeps them warm.\nPenguins eat fish, squid and small sea animals called krill. They catch their food in the sea.\nEmperor penguins are the biggest penguins. They can be over one metre tall. In winter, the father penguin keeps the egg warm on his feet for about two months. He does not eat in this time! The mother goes to the sea to find food. When she comes back, she helps to feed the baby.",
+  "stem": "What is this text mostly about?",
+  "options": [
+   "How penguins live",
+   "How to draw a penguin",
+   "Why fish live in the sea",
+   "A trip to a zoo"
+  ],
+  "answer": "A",
+  "explanation": "The whole text gives facts about penguins: their bodies, homes, food and babies."
+ },
+ {
+  "id": "de-lesenen-04-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-04",
+  "title": "Lily's First Day",
+  "passage": "Lily and her family moved to a new town in the summer. On Monday, she started at a new school. She did not know anyone, and she felt nervous.\nHer new teacher, Mr Brown, was friendly. \"Welcome, Lily!\" he said. \"You can sit next to Emma.\" Emma had long brown hair and a big smile. She showed Lily where to put her bag and coat.\nIn the first lesson, the class painted pictures. Lily painted her old house. Emma painted her dog. At break time, Emma asked, \"Do you want to play with us?\" Lily said yes. They played football with three other girls.\nAfter school, Lily's mum asked, \"How was your day?\" Lily smiled. \"It was great! I have a new friend. Her name is Emma, and she has a dog called Max.\"\nLily was not nervous anymore. She was excited about Tuesday.",
+  "stem": "Who is Lily's new teacher?",
+  "options": [
+   "Mr Brown",
+   "Mr Smith",
+   "Emma",
+   "Max"
+  ],
+  "answer": "A",
+  "explanation": "The text says: \"Her new teacher, Mr Brown, was friendly.\""
+ },
+ {
+  "id": "de-lesenen-04-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-04",
+  "title": "Lily's First Day",
+  "passage": "Lily and her family moved to a new town in the summer. On Monday, she started at a new school. She did not know anyone, and she felt nervous.\nHer new teacher, Mr Brown, was friendly. \"Welcome, Lily!\" he said. \"You can sit next to Emma.\" Emma had long brown hair and a big smile. She showed Lily where to put her bag and coat.\nIn the first lesson, the class painted pictures. Lily painted her old house. Emma painted her dog. At break time, Emma asked, \"Do you want to play with us?\" Lily said yes. They played football with three other girls.\nAfter school, Lily's mum asked, \"How was your day?\" Lily smiled. \"It was great! I have a new friend. Her name is Emma, and she has a dog called Max.\"\nLily was not nervous anymore. She was excited about Tuesday.",
+  "stem": "Why did Lily feel nervous on Monday?",
+  "options": [
+   "She lost her bag.",
+   "She did not like painting.",
+   "She did not know anyone at the new school.",
+   "She was late for school."
+  ],
+  "answer": "C",
+  "explanation": "The text says: \"She did not know anyone, and she felt nervous.\""
+ },
+ {
+  "id": "de-lesenen-04-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-04",
+  "title": "Lily's First Day",
+  "passage": "Lily and her family moved to a new town in the summer. On Monday, she started at a new school. She did not know anyone, and she felt nervous.\nHer new teacher, Mr Brown, was friendly. \"Welcome, Lily!\" he said. \"You can sit next to Emma.\" Emma had long brown hair and a big smile. She showed Lily where to put her bag and coat.\nIn the first lesson, the class painted pictures. Lily painted her old house. Emma painted her dog. At break time, Emma asked, \"Do you want to play with us?\" Lily said yes. They played football with three other girls.\nAfter school, Lily's mum asked, \"How was your day?\" Lily smiled. \"It was great! I have a new friend. Her name is Emma, and she has a dog called Max.\"\nLily was not nervous anymore. She was excited about Tuesday.",
+  "stem": "How did Lily feel at the end of the day?",
+  "options": [
+   "Sad",
+   "Angry",
+   "Bored",
+   "Happy and excited"
+  ],
+  "answer": "D",
+  "explanation": "Lily smiled, said \"It was great!\" and \"was excited about Tuesday\"."
+ },
+ {
+  "id": "de-lesenen-05-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-05",
+  "title": "The Water Cycle",
+  "passage": "Water is always moving. It goes round and round on our planet. We call this the water cycle.\nFirst, the sun warms the water in seas, lakes and rivers. Some of the water turns into a gas called water vapour. It goes up into the air. We cannot see it.\nHigh in the sky, the air is cold. The water vapour gets cold and turns into very small drops of water. Many small drops come together and make clouds.\nWhen the drops get bigger and heavier, they fall down. This is rain. When it is very cold, they fall as snow.\nThe rain goes into rivers, lakes and the ground. Rivers take the water back to the sea. Then the sun warms the water again, and the cycle starts again.\nThe water you drink today was maybe once in a dinosaur's lake!",
+  "stem": "What makes clouds?",
+  "options": [
+   "Smoke from fires",
+   "Many small drops of water",
+   "Snow from mountains",
+   "Wind from the sea"
+  ],
+  "answer": "B",
+  "explanation": "The text says: \"Many small drops come together and make clouds.\""
+ },
+ {
+  "id": "de-lesenen-05-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-05",
+  "title": "The Water Cycle",
+  "passage": "Water is always moving. It goes round and round on our planet. We call this the water cycle.\nFirst, the sun warms the water in seas, lakes and rivers. Some of the water turns into a gas called water vapour. It goes up into the air. We cannot see it.\nHigh in the sky, the air is cold. The water vapour gets cold and turns into very small drops of water. Many small drops come together and make clouds.\nWhen the drops get bigger and heavier, they fall down. This is rain. When it is very cold, they fall as snow.\nThe rain goes into rivers, lakes and the ground. Rivers take the water back to the sea. Then the sun warms the water again, and the cycle starts again.\nThe water you drink today was maybe once in a dinosaur's lake!",
+  "stem": "What happens after the water vapour goes up and gets cold?",
+  "options": [
+   "It turns into small drops of water.",
+   "It turns into fish.",
+   "It goes into the ground.",
+   "It gets hot again."
+  ],
+  "answer": "A",
+  "explanation": "The text says: \"The water vapour gets cold and turns into very small drops of water.\""
+ },
+ {
+  "id": "de-lesenen-05-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-05",
+  "title": "The Water Cycle",
+  "passage": "Water is always moving. It goes round and round on our planet. We call this the water cycle.\nFirst, the sun warms the water in seas, lakes and rivers. Some of the water turns into a gas called water vapour. It goes up into the air. We cannot see it.\nHigh in the sky, the air is cold. The water vapour gets cold and turns into very small drops of water. Many small drops come together and make clouds.\nWhen the drops get bigger and heavier, they fall down. This is rain. When it is very cold, they fall as snow.\nThe rain goes into rivers, lakes and the ground. Rivers take the water back to the sea. Then the sun warms the water again, and the cycle starts again.\nThe water you drink today was maybe once in a dinosaur's lake!",
+  "stem": "Why does the text say the water was maybe once in a dinosaur's lake?",
+  "options": [
+   "Because dinosaurs drank all the water",
+   "Because water is new every day",
+   "Because water goes round and round for a very long time",
+   "Because dinosaurs made the rain"
+  ],
+  "answer": "C",
+  "explanation": "The water cycle never stops (\"It goes round and round\"), so the same water has been on Earth for a very long time."
+ },
+ {
+  "id": "de-lesenen-06-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-06",
+  "title": "The Picnic",
+  "passage": "On Sunday, the Green family went on a picnic. Mum made sandwiches. Dad packed apples, bananas and a big bottle of orange juice. Tom, who is nine, took a ball and a blanket.\nThey walked to the park by the lake. It was sunny and warm. They put the blanket under a big tree. Tom and Dad played football. Mum read a book.\nAt one o'clock, they were hungry. But when Mum opened the bag, there were no sandwiches! \"Oh no! They are still on the kitchen table,\" she said.\nTom had an idea. \"There is a café near the lake. Let's buy some food there.\" Dad liked the idea. They bought three big pizzas and ate them on the blanket.\nThen a duck came and looked at them. Tom laughed and said, \"I think the duck wants pizza too!\" It was a funny day.",
+  "stem": "What did Tom take to the picnic?",
+  "options": [
+   "Sandwiches and juice",
+   "A ball and a blanket",
+   "A book",
+   "Apples and bananas"
+  ],
+  "answer": "B",
+  "explanation": "The text says: \"Tom, who is nine, took a ball and a blanket.\""
+ },
+ {
+  "id": "de-lesenen-06-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-06",
+  "title": "The Picnic",
+  "passage": "On Sunday, the Green family went on a picnic. Mum made sandwiches. Dad packed apples, bananas and a big bottle of orange juice. Tom, who is nine, took a ball and a blanket.\nThey walked to the park by the lake. It was sunny and warm. They put the blanket under a big tree. Tom and Dad played football. Mum read a book.\nAt one o'clock, they were hungry. But when Mum opened the bag, there were no sandwiches! \"Oh no! They are still on the kitchen table,\" she said.\nTom had an idea. \"There is a café near the lake. Let's buy some food there.\" Dad liked the idea. They bought three big pizzas and ate them on the blanket.\nThen a duck came and looked at them. Tom laughed and said, \"I think the duck wants pizza too!\" It was a funny day.",
+  "stem": "Why did the family buy pizza?",
+  "options": [
+   "Because they did not like sandwiches",
+   "Because the duck ate their food",
+   "Because Mum forgot the sandwiches at home",
+   "Because it was Tom's birthday"
+  ],
+  "answer": "C",
+  "explanation": "Mum said the sandwiches \"are still on the kitchen table\", so they bought food at the café."
+ },
+ {
+  "id": "de-lesenen-06-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-06",
+  "title": "The Picnic",
+  "passage": "On Sunday, the Green family went on a picnic. Mum made sandwiches. Dad packed apples, bananas and a big bottle of orange juice. Tom, who is nine, took a ball and a blanket.\nThey walked to the park by the lake. It was sunny and warm. They put the blanket under a big tree. Tom and Dad played football. Mum read a book.\nAt one o'clock, they were hungry. But when Mum opened the bag, there were no sandwiches! \"Oh no! They are still on the kitchen table,\" she said.\nTom had an idea. \"There is a café near the lake. Let's buy some food there.\" Dad liked the idea. They bought three big pizzas and ate them on the blanket.\nThen a duck came and looked at them. Tom laughed and said, \"I think the duck wants pizza too!\" It was a funny day.",
+  "stem": "What kind of person is Tom in this story?",
+  "options": [
+   "He is lazy.",
+   "He is angry with his mum.",
+   "He is afraid of ducks.",
+   "He is helpful and has good ideas."
+  ],
+  "answer": "D",
+  "explanation": "When the sandwiches were missing, \"Tom had an idea\" to buy food at the café."
+ },
+ {
+  "id": "de-lesenen-07-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-07",
+  "title": "The Great Wall of China",
+  "passage": "The Great Wall of China is one of the most famous buildings in the world. It is in the north of China. It is very, very long – more than 20,000 kilometres with all its parts!\nPeople started to build walls in China more than 2,000 years ago. Later, many emperors made the walls longer and stronger. The wall we often see in photos is about 500 years old. It is made of stone and bricks.\nWhy did they build it? The emperors wanted to keep enemies out. Soldiers lived in towers on the wall. When they saw enemies, they made fire and smoke. Other soldiers saw the smoke and came to help.\nBuilding the wall was very hard work. Many thousands of people worked on it.\nToday, millions of tourists visit the Great Wall every year. They walk on it and take photos of the beautiful mountains.",
+  "stem": "What is the wall in the photos made of?",
+  "options": [
+   "Wood and grass",
+   "Stone and bricks",
+   "Metal",
+   "Ice"
+  ],
+  "answer": "B",
+  "explanation": "The text says: \"It is made of stone and bricks.\""
+ },
+ {
+  "id": "de-lesenen-07-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-07",
+  "title": "The Great Wall of China",
+  "passage": "The Great Wall of China is one of the most famous buildings in the world. It is in the north of China. It is very, very long – more than 20,000 kilometres with all its parts!\nPeople started to build walls in China more than 2,000 years ago. Later, many emperors made the walls longer and stronger. The wall we often see in photos is about 500 years old. It is made of stone and bricks.\nWhy did they build it? The emperors wanted to keep enemies out. Soldiers lived in towers on the wall. When they saw enemies, they made fire and smoke. Other soldiers saw the smoke and came to help.\nBuilding the wall was very hard work. Many thousands of people worked on it.\nToday, millions of tourists visit the Great Wall every year. They walk on it and take photos of the beautiful mountains.",
+  "stem": "Why did the emperors build the wall?",
+  "options": [
+   "To keep enemies out",
+   "To make a road for tourists",
+   "To stop the rain",
+   "To keep animals in"
+  ],
+  "answer": "A",
+  "explanation": "The text says: \"The emperors wanted to keep enemies out.\""
+ },
+ {
+  "id": "de-lesenen-07-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-07",
+  "title": "The Great Wall of China",
+  "passage": "The Great Wall of China is one of the most famous buildings in the world. It is in the north of China. It is very, very long – more than 20,000 kilometres with all its parts!\nPeople started to build walls in China more than 2,000 years ago. Later, many emperors made the walls longer and stronger. The wall we often see in photos is about 500 years old. It is made of stone and bricks.\nWhy did they build it? The emperors wanted to keep enemies out. Soldiers lived in towers on the wall. When they saw enemies, they made fire and smoke. Other soldiers saw the smoke and came to help.\nBuilding the wall was very hard work. Many thousands of people worked on it.\nToday, millions of tourists visit the Great Wall every year. They walk on it and take photos of the beautiful mountains.",
+  "stem": "What did soldiers do when they saw enemies?",
+  "options": [
+   "They went to sleep.",
+   "They ran away to the mountains.",
+   "They took photos.",
+   "They made fire and smoke so other soldiers came to help."
+  ],
+  "answer": "D",
+  "explanation": "The text says: \"they made fire and smoke. Other soldiers saw the smoke and came to help.\""
+ },
+ {
+  "id": "de-lesenen-08-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-08",
+  "title": "The Treasure Map",
+  "passage": "Leo and his best friend Nora found an old map in Leo's grandpa's shed. On the map was a big X next to a drawing of a well.\n\"Maybe there is treasure!\" said Nora. Leo's grandpa had an old well in his garden. The children took a small shovel and went to the well.\nThey looked at the map again. \"Ten steps to the big rock,\" read Leo. They walked ten steps and found the rock. Under the rock, the ground was soft. They started to dig.\nAfter a few minutes, they found a metal box. Inside was a toy car, a shiny coin and a letter. The letter said: \"I hid this box when I was ten years old. – Jack.\"\nThey ran to Grandpa. He laughed. \"Jack is my name! I made that map sixty years ago.\" Grandpa was very happy to see his old toy car again.",
+  "stem": "Where did the children find the map?",
+  "options": [
+   "In the well",
+   "In Grandpa's shed",
+   "Under a big rock",
+   "In a metal box"
+  ],
+  "answer": "B",
+  "explanation": "The text says they \"found an old map in Leo's grandpa's shed\"."
+ },
+ {
+  "id": "de-lesenen-08-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-08",
+  "title": "The Treasure Map",
+  "passage": "Leo and his best friend Nora found an old map in Leo's grandpa's shed. On the map was a big X next to a drawing of a well.\n\"Maybe there is treasure!\" said Nora. Leo's grandpa had an old well in his garden. The children took a small shovel and went to the well.\nThey looked at the map again. \"Ten steps to the big rock,\" read Leo. They walked ten steps and found the rock. Under the rock, the ground was soft. They started to dig.\nAfter a few minutes, they found a metal box. Inside was a toy car, a shiny coin and a letter. The letter said: \"I hid this box when I was ten years old. – Jack.\"\nThey ran to Grandpa. He laughed. \"Jack is my name! I made that map sixty years ago.\" Grandpa was very happy to see his old toy car again.",
+  "stem": "What did the children do after they found the rock?",
+  "options": [
+   "They read the letter.",
+   "They ran to Grandpa.",
+   "They started to dig.",
+   "They went home."
+  ],
+  "answer": "C",
+  "explanation": "The text says: \"Under the rock, the ground was soft. They started to dig.\""
+ },
+ {
+  "id": "de-lesenen-08-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-08",
+  "title": "The Treasure Map",
+  "passage": "Leo and his best friend Nora found an old map in Leo's grandpa's shed. On the map was a big X next to a drawing of a well.\n\"Maybe there is treasure!\" said Nora. Leo's grandpa had an old well in his garden. The children took a small shovel and went to the well.\nThey looked at the map again. \"Ten steps to the big rock,\" read Leo. They walked ten steps and found the rock. Under the rock, the ground was soft. They started to dig.\nAfter a few minutes, they found a metal box. Inside was a toy car, a shiny coin and a letter. The letter said: \"I hid this box when I was ten years old. – Jack.\"\nThey ran to Grandpa. He laughed. \"Jack is my name! I made that map sixty years ago.\" Grandpa was very happy to see his old toy car again.",
+  "stem": "Who made the map?",
+  "options": [
+   "Nora",
+   "Leo",
+   "A pirate",
+   "Leo's grandpa"
+  ],
+  "answer": "D",
+  "explanation": "Grandpa says: \"Jack is my name! I made that map sixty years ago.\""
+ },
+ {
+  "id": "de-lesenen-09-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-09",
+  "title": "Busy Squirrels",
+  "passage": "Squirrels are small animals with big, bushy tails. In Germany, many squirrels are red or brown. You can see them in parks, gardens and forests.\nSquirrels live in trees. They build nests from small sticks, leaves and moss. A squirrel's nest is called a drey.\nIn autumn, squirrels are very busy. They collect nuts, seeds and acorns. They hide this food in many different places. They dig small holes in the ground and put the nuts in them. In winter, when there is not much food, they come back and look for the nuts.\nBut squirrels do not find all their nuts. They forget some of them. In spring, some of these nuts grow into new trees. So squirrels help to plant forests!\nA squirrel's tail is very useful. It helps the squirrel to jump from tree to tree. In cold weather, the squirrel uses its tail like a blanket.",
+  "stem": "What is a squirrel's nest called?",
+  "options": [
+   "A den",
+   "A hive",
+   "A drey",
+   "A burrow"
+  ],
+  "answer": "C",
+  "explanation": "The text says: \"A squirrel's nest is called a drey.\""
+ },
+ {
+  "id": "de-lesenen-09-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-09",
+  "title": "Busy Squirrels",
+  "passage": "Squirrels are small animals with big, bushy tails. In Germany, many squirrels are red or brown. You can see them in parks, gardens and forests.\nSquirrels live in trees. They build nests from small sticks, leaves and moss. A squirrel's nest is called a drey.\nIn autumn, squirrels are very busy. They collect nuts, seeds and acorns. They hide this food in many different places. They dig small holes in the ground and put the nuts in them. In winter, when there is not much food, they come back and look for the nuts.\nBut squirrels do not find all their nuts. They forget some of them. In spring, some of these nuts grow into new trees. So squirrels help to plant forests!\nA squirrel's tail is very useful. It helps the squirrel to jump from tree to tree. In cold weather, the squirrel uses its tail like a blanket.",
+  "stem": "Why do squirrels hide nuts in autumn?",
+  "options": [
+   "So they have food in winter",
+   "So birds cannot sing",
+   "Because nuts are heavy",
+   "To play a game with friends"
+  ],
+  "answer": "A",
+  "explanation": "The text says: \"In winter, when there is not much food, they come back and look for the nuts.\""
+ },
+ {
+  "id": "de-lesenen-09-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-09",
+  "title": "Busy Squirrels",
+  "passage": "Squirrels are small animals with big, bushy tails. In Germany, many squirrels are red or brown. You can see them in parks, gardens and forests.\nSquirrels live in trees. They build nests from small sticks, leaves and moss. A squirrel's nest is called a drey.\nIn autumn, squirrels are very busy. They collect nuts, seeds and acorns. They hide this food in many different places. They dig small holes in the ground and put the nuts in them. In winter, when there is not much food, they come back and look for the nuts.\nBut squirrels do not find all their nuts. They forget some of them. In spring, some of these nuts grow into new trees. So squirrels help to plant forests!\nA squirrel's tail is very useful. It helps the squirrel to jump from tree to tree. In cold weather, the squirrel uses its tail like a blanket.",
+  "stem": "How do squirrels help forests?",
+  "options": [
+   "They clean the trees.",
+   "They eat bad insects.",
+   "They build big nests.",
+   "Some nuts they forget grow into new trees."
+  ],
+  "answer": "D",
+  "explanation": "The text says: \"They forget some of them. In spring, some of these nuts grow into new trees.\""
+ },
+ {
+  "id": "de-lesenen-10-1",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-10",
+  "title": "The Snow Day",
+  "passage": "When Anna woke up on Tuesday, everything was white. It snowed all night! On the radio, a man said, \"All schools are closed today because of the snow.\"\n\"Hooray!\" shouted Anna. She put on her warm coat, her hat, her scarf and her boots. Then she ran outside with her little brother Finn.\nFirst, they built a big snowman. It had a carrot nose and two black stones for eyes. Anna gave it her old red scarf. Next, they had a snowball fight with their neighbours. Finn was very good at it!\nAfter two hours, their hands and feet were very cold. They went inside. Mum made hot chocolate for everyone.\nIn the afternoon, they went sledging on the hill behind the church. Anna went down the hill ten times.\nIn the evening, Anna was very tired. \"Can it snow again tomorrow?\" she asked.",
+  "stem": "What did Anna give the snowman?",
+  "options": [
+   "Her hat",
+   "Her old red scarf",
+   "Her boots",
+   "A carrot hat"
+  ],
+  "answer": "B",
+  "explanation": "The text says: \"Anna gave it her old red scarf.\""
+ },
+ {
+  "id": "de-lesenen-10-2",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-10",
+  "title": "The Snow Day",
+  "passage": "When Anna woke up on Tuesday, everything was white. It snowed all night! On the radio, a man said, \"All schools are closed today because of the snow.\"\n\"Hooray!\" shouted Anna. She put on her warm coat, her hat, her scarf and her boots. Then she ran outside with her little brother Finn.\nFirst, they built a big snowman. It had a carrot nose and two black stones for eyes. Anna gave it her old red scarf. Next, they had a snowball fight with their neighbours. Finn was very good at it!\nAfter two hours, their hands and feet were very cold. They went inside. Mum made hot chocolate for everyone.\nIn the afternoon, they went sledging on the hill behind the church. Anna went down the hill ten times.\nIn the evening, Anna was very tired. \"Can it snow again tomorrow?\" she asked.",
+  "stem": "Why did Anna and Finn go inside?",
+  "options": [
+   "Because it started to rain",
+   "Because school started",
+   "Because their hands and feet were very cold",
+   "Because the snowman fell down"
+  ],
+  "answer": "C",
+  "explanation": "The text says: \"After two hours, their hands and feet were very cold. They went inside.\""
+ },
+ {
+  "id": "de-lesenen-10-3",
+  "type": "choice",
+  "subject": "lesen_englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "group": "de-lesenen-10",
+  "title": "The Snow Day",
+  "passage": "When Anna woke up on Tuesday, everything was white. It snowed all night! On the radio, a man said, \"All schools are closed today because of the snow.\"\n\"Hooray!\" shouted Anna. She put on her warm coat, her hat, her scarf and her boots. Then she ran outside with her little brother Finn.\nFirst, they built a big snowman. It had a carrot nose and two black stones for eyes. Anna gave it her old red scarf. Next, they had a snowball fight with their neighbours. Finn was very good at it!\nAfter two hours, their hands and feet were very cold. They went inside. Mum made hot chocolate for everyone.\nIn the afternoon, they went sledging on the hill behind the church. Anna went down the hill ten times.\nIn the evening, Anna was very tired. \"Can it snow again tomorrow?\" she asked.",
+  "stem": "What can we say about Anna's day?",
+  "options": [
+   "She had a lot of fun in the snow.",
+   "She was bored at home.",
+   "She did not like the snow.",
+   "She was ill all day."
+  ],
+  "answer": "A",
+  "explanation": "Anna played all day and asks at the end: \"Can it snow again tomorrow?\""
+ }
+]

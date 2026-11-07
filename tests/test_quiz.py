@@ -163,7 +163,8 @@ class GermanBankTest(unittest.TestCase):
         self.assertEqual((rules.language, rules.grade), ("de", 4))
         self.assertEqual(rules.subjects, ["mathe", "deutsch", "sachunterricht", "englisch", "franzoesisch", "englisch_alltag", "chinesisch",
                                           "physik", "chemie", "biologie", "geographie", "geschichte",
-                                          "gemeinschaftskunde", "wettbewerb"])
+                                          "gemeinschaftskunde", "wettbewerb", "lesen", "lesen_englisch",
+                                          "lesen_chinesisch"])
 
     def test_language_subjects_ignore_primary_grade_limit(self):
         rules = quiz.Rules(language="de", grade=4, subjects=["franzoesisch", "englisch_alltag", "chinesisch",
@@ -353,7 +354,7 @@ class WatcherQuizTest(unittest.TestCase):
 class ScoringTests(unittest.TestCase):
     def test_fractional_reward_without_cap(self):
         rules = quiz.Rules(language="de", reward={"easy": 0.5, "medium": 1, "hard": 2}, daily_earn_cap=0, penalty_easy=0.5)
-        q = mock.Mock(difficulty="easy")
+        q = mock.Mock(difficulty="easy", passage="", id="x")
         delta, message = quiz.evaluate(rules, q, True, 10, 9999, 0)
         self.assertEqual(delta, 0.5)
         self.assertIn("0.5", message)
@@ -563,3 +564,28 @@ class RepeatRuleTest(unittest.TestCase):
             ask(True)                                     # 连续答对 3 次
             self.assertTrue(e.retired(q.id))
             self.assertTrue(QuizEngine(Rules(), stats_path=Path(d) / "s.json").retired(q.id))
+
+
+class ReadingSkipPenaltyTest(unittest.TestCase):
+    def test_medium_hard_penalties_reading_and_skip(self):
+        from homecontrol.quiz import QuizEngine, Rules, Question, evaluate
+        rules = Rules(language="de", grade=4, daily_earn_cap=0, reward={"easy": 1, "medium": 2, "hard": 4},
+                      penalty_medium=1, penalty_hard=2, subjects=["lesen"])
+        mid = Question("m", "mathe", "medium", "s", ["a", "b"], 0)
+        hard = Question("h", "mathe", "hard", "s", ["a", "b"], 0)
+        self.assertEqual(evaluate(rules, mid, False, 10, 0, 50)[0], -1)
+        self.assertEqual(evaluate(rules, hard, False, 10, 0, 50)[0], -2)
+        self.assertEqual(evaluate(rules, hard, True, 10, 0, 50)[0], 4)
+        e = QuizEngine(rules)
+        q1 = e.next_question("easy")
+        self.assertTrue(q1.passage and q1.id.endswith("-1"))
+        self.assertEqual(evaluate(rules, q1, False, 999, 0, 50)[0], -1)
+        q2 = e.next_question("hard")
+        self.assertEqual((q2.group, q2.passage), (q1.group, q1.passage))
+        self.assertTrue(q2.id.endswith("-2"))
+        self.assertEqual(evaluate(rules, q2, True, 10, 0, 50)[0], 2)
+        r = e.skip(q2.id)
+        self.assertTrue(r["skipped"] and r["wait"] >= 12 and r["delta"] == 0)
+        self.assertIn("error", e.next_question("medium"))
+        e.read_until = 0
+        self.assertTrue(e.next_question("medium").id.endswith("-3"))

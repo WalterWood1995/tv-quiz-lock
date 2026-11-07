@@ -87,6 +87,13 @@
   #feedback { font-size: 40px; min-height: 52px; font-weight: bold; }
   #feedback.good { color: var(--good); } #feedback.bad { color: var(--bad); }
   #explain { display: none; }
+  /* 阅读理解：先整屏读短文，读完再答题；上下键滚动 */
+  #passage { display: none; font-size: 32px; line-height: 1.55; white-space: pre-line; max-height: 640px; overflow: auto;
+    margin-top: 8px; }
+  #card.reading #passage { display: block; }
+  #card.reading #stem { display: none; }
+  #done, #reread { display: none; }
+  #skip { font-size: 26px; padding: 12px 24px; opacity: .85; }
   #hint { margin-top: auto; font-size: 22px; color: var(--muted); }
 
   /* 答对的彩纸 */
@@ -214,6 +221,7 @@
 
     <div id="card">
       <div id="meta"></div>
+      <div id="passage"></div>
       <div id="stem"></div>
     </div>
 
@@ -221,6 +229,9 @@
     <div id="feedback"></div>
 
     <div id="actions">
+      <button class="nav act" id="done"></button>
+      <button class="nav act" id="reread"></button>
+      <button class="nav act" id="skip"></button>
       <button class="nav act" id="tip"></button>
       <button class="nav act" id="read"></button>
       <button class="nav act" id="explain"></button>
@@ -248,7 +259,9 @@
       offline: "连不上电脑，请稍后再试", waiting: "连接不上电脑，请稍等…",
       noTip: "仔细读题，一步一步想。你可以的！", tipIntro: "小提示：",
       cheer: ["太棒了！", "你真聪明！", "完全正确！", "厉害！"], comfort: ["没关系，我们一起看看。", "差一点点！听我讲讲。"],
-      streak: "连对 "
+      streak: "连对 ",
+      done: "读完了，开始答题 ➜", reread: "📖 再看文章", skip: "⏭ 不会，跳过", readFirst: "先把文章读完，再按「读完了」。",
+      skipWait: "看完讲解再继续，还有 "
     },
     de: {
       title: "Quiz-Pause", robot: "Robo", connecting: "Verbinde …", next: "Weiter ➜", tip: "💡 Tipp", read: "🔊 Vorlesen", explain: "🤖 Erklär mal", more: "Übrigens: ",
@@ -262,7 +275,9 @@
       noTip: "Lies die Frage ganz genau und denk Schritt für Schritt. Du schaffst das!", tipIntro: "Mein Tipp: ",
       cheer: ["Super gemacht!", "Klasse!", "Genau richtig!", "Du bist ein Profi!"],
       comfort: ["Nicht schlimm, schauen wir es uns zusammen an.", "Knapp daneben! Ich erkläre es dir."],
-      streak: "Serie "
+      streak: "Serie ",
+      done: "Fertig gelesen ➜", reread: "📖 Text nochmal", skip: "⏭ Weiß nicht – überspringen",
+      readFirst: "Lies zuerst den Text und drücke dann „Fertig gelesen“.", skipWait: "Erst die Erklärung lesen, noch "
     }
   };
   var LANG = "__LANG__";
@@ -275,6 +290,7 @@
   var audio = null;
   var lastResult = null;
   var shownAt = 0;
+  var passageGroup = null;
 
   function $(id) { return document.getElementById(id); }
   function pickOne(list) { return list[Math.floor(Math.random() * list.length)]; }
@@ -373,7 +389,8 @@
       b.className = "nav diff" + (d[0] === difficulty ? " sel" : "");
       b.dataset.diff = d[0];
       var reward = state ? state.rewards[d[0]] : "?";
-      var wrong = d[0] === "easy" ? T.wrongMinus + (state ? state.penaltyEasy : "?") : T.wrongFree;
+      var pen = state ? (state.penalties ? state.penalties[d[0]] : (d[0] === "easy" ? state.penaltyEasy : 0)) : "?";
+      var wrong = pen ? T.wrongMinus + pen : T.wrongFree;
       b.innerHTML = d[1] + " +" + reward + " " + T.minutes + "<small>" + wrong + "</small>";
       b.onclick = function () { difficulty = d[0]; renderDiffs(); loadQuestion(); };
       box.appendChild(b);
@@ -401,8 +418,13 @@
       if (q.error) { feedback(q.error, "bad"); return; }
       question = q;
       shownAt = new Date().getTime();
-      $("meta").textContent = q.subject + " · " + q.difficultyLabel;
+      $("meta").textContent = q.subject + (q.passage ? " · " + q.title : " · " + q.difficultyLabel);
       $("stem").textContent = q.stem;
+      $("passage").textContent = q.passage || "";
+      $("reread").style.display = q.passage ? "inline-block" : "none";
+      $("skip").style.display = "";
+      var newText = q.passage && q.group !== passageGroup;
+      passageGroup = q.passage ? q.group : null;
       var box = $("options");
       box.innerHTML = "";
       q.options.forEach(function (text, i) {
@@ -414,8 +436,47 @@
         b.onclick = function () { answer(i); };
         box.appendChild(b);
       });
-      box.firstChild.focus();
+      if (newText) showText(true); else { showText(false); box.firstChild.focus(); }
     });
+  }
+
+  // 阅读理解：整屏显示短文（隐藏题目和选项），读完按「读完了」
+  function showText(on) {
+    $("card").classList.toggle("reading", on);
+    $("options").style.display = on ? "none" : "";
+    $("done").style.display = on ? "inline-block" : "none";
+    if (on) { $("passage").scrollTop = 0; $("done").focus(); }
+  }
+
+  function textDone() {
+    showText(false);
+    if (answered) $("next").focus(); else if ($("options").firstChild) $("options").firstChild.focus();
+  }
+
+  // 不会/超纲：不加不扣，显示正确答案并讲解，倒计时结束才能下一题
+  function skipQuestion() {
+    if (!question || answered) return;
+    answered = true;
+    api("POST", "/api/skip", { id: question.id }).then(function (r) {
+      if (r.error) { answered = false; feedback(r.error, "bad"); return; }
+      showText(false);
+      $("options").children[r.answer].classList.add("good");
+      lastResult = r;
+      $("skip").style.display = "none";
+      $("explain").style.display = "";
+      var until = new Date().getTime() + r.wait * 1000;
+      nextAllowed = until;
+      mood(null);
+      explain(r, r.message);
+      var tick = function () {
+        var left = Math.ceil((until - new Date().getTime()) / 1000);
+        if (lastResult !== r) return;
+        if (left > 0) { feedback(T.skipWait + left + " s", "bad"); setTimeout(tick, 1000); }
+        else feedback("");
+      };
+      tick();
+      $("next").focus();
+    }).catch(function () { answered = false; offline(); });
   }
 
   function readQuestion() {
@@ -442,6 +503,7 @@
     answered = true;
     api("POST", "/api/answer", { id: question.id, choice: choice }).then(function (r) {
       if (r.error) { answered = false; feedback(r.error, "bad"); return; }
+      $("skip").style.display = "none";
       var buttons = $("options").children;
       buttons[r.answer].classList.add("good");
       if (!r.correct) buttons[choice].classList.add("bad");
@@ -505,6 +567,9 @@
     if (e.repeat && (k === 13 || (k >= 49 && k <= 52))) { e.preventDefault(); return; }  // 按久了不算连按
     if (playing) { endVideo(); e.preventDefault(); return; }  // 放视频时遥控器任意键都退出
     if (k === 10009 && videoOpen) { closeVideos(); e.preventDefault(); return; }
+    var reading = $("card").classList.contains("reading");
+    if (reading && (k === 38 || k === 40)) { $("passage").scrollTop += k === 40 ? 160 : -160; e.preventDefault(); return; }
+    if (reading && k >= 49 && k <= 52) { e.preventDefault(); return; }
     if (k === 37) move(-1, 0);
     else if (k === 39) move(1, 0);
     else if (k === 38) move(0, -1);
@@ -516,6 +581,9 @@
   });
 
   $("next").onclick = nextStep;
+  $("done").onclick = textDone;
+  $("reread").onclick = function () { showText(true); };
+  $("skip").onclick = skipQuestion;
   $("tip").onclick = showTip;
   $("read").onclick = readQuestion;
   $("explain").onclick = function () { if (lastResult) { mood("happy"); explain(lastResult); } };
@@ -753,6 +821,9 @@
   $("tip").textContent = T.tip;
   $("read").textContent = T.read;
   $("explain").textContent = T.explain;
+  $("done").textContent = T.done;
+  $("reread").textContent = T.reread;
+  $("skip").textContent = T.skip;
   $("unlocked").textContent = T.unlocked;
   $("hint").textContent = T.hint;
 
