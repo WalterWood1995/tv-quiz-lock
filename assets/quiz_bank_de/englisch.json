@@ -3598,5 +3598,185 @@
   "hint": "Drei Wörter sind Mahlzeiten, eines ist eine Person.",
   "explanation": "Teacher ist keine Mahlzeit.",
   "more": "Auch ein snack ist etwas zu essen."
+ },
+ {
+  "id": "de-englisch-201",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Tisch“ auf Englisch?",
+  "options": [
+   "table",
+   "chair",
+   "desk",
+   "tablet"
+  ],
+  "answer": "A",
+  "hint": "Du isst und machst Hausaufgaben daran, wenn du sitzt.",
+  "explanation": "Tisch = table.",
+  "more": "Beim table setting deckst du den Tisch mit Teller, Messer und Gabel: plate, knife and fork!"
+ },
+ {
+  "id": "de-englisch-202",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „summer“?",
+  "options": [
+   "Winter",
+   "Sommer",
+   "Frühling",
+   "Herbst"
+  ],
+  "answer": "B",
+  "hint": "Es ist die warmste Jahreszeit mit den großen Ferien.",
+  "explanation": "summer = Sommer.",
+  "more": "Die Sommerferien heißen auf Englisch summer holidays. Ice cream schmeckt dann besonders gut!"
+ },
+ {
+  "id": "de-englisch-203",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist „fourteen“?",
+  "options": [
+   "40",
+   "4",
+   "14",
+   "41"
+  ],
+  "answer": "C",
+  "hint": "Die Zahl endet auf -teen und liegt zwischen 13 und 15.",
+  "explanation": "fourteen = 14. Die Endung -teen heißt, dass die Zahl zwischen 13 und 19 liegt.",
+  "more": "Bei forty = 40 fehlt das -teen und das „u“. So kannst du die beiden Zahlen gut auseinanderhalten!"
+ },
+ {
+  "id": "de-englisch-204",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Mund“ auf Englisch?",
+  "options": [
+   "nose",
+   "ear",
+   "month",
+   "mouth"
+  ],
+  "answer": "D",
+  "hint": "Damit sprichst du und isst deine Pausenbrote.",
+  "explanation": "Mund = mouth. Nicht verwechseln mit month, das bedeutet Monat.",
+  "more": "Die Wörter mouth und month klingen ähnlich, bedeuten aber etwas ganz anderes. Pass beim Aussprechen auf das „th“ auf!"
+ },
+ {
+  "id": "de-englisch-205",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Excuse me“?",
+  "options": [
+   "Entschuldigung (um jemanden anzusprechen)",
+   "Vielen Dank",
+   "Gern geschehen",
+   "Gute Nacht"
+  ],
+  "answer": "A",
+  "hint": "Damit machst du höflich auf dich aufmerksam.",
+  "explanation": "„Excuse me“ sagt man, um jemanden höflich anzusprechen oder um sich durchzudrängeln.",
+  "more": "Wenn du etwas falsch gemacht hast, sagst du „Sorry“. Beide Wörter sind in Großbritannien sehr beliebt!"
+ },
+ {
+  "id": "de-englisch-206",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie sagst du „Ich habe keine Geschwister.“?",
+  "options": [
+   "I have not brother and sister.",
+   "I have no brothers or sisters.",
+   "I am no brothers or sisters.",
+   "I has no brothers or sisters."
+  ],
+  "answer": "B",
+  "hint": "Auf Englisch sagt man wörtlich: Ich habe keine Brüder oder Schwestern.",
+  "explanation": "„I have no brothers or sisters.“ ist richtig. Nach „I“ steht have und die Mehrzahl heißt brothers or sisters.",
+  "more": "Das englische Wort für Geschwister ist siblings. Das ist ein ziemlich schwieriges Wort!"
+ },
+ {
+  "id": "de-englisch-207",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „sheep“ (Schaf)?",
+  "options": [
+   "sheeps",
+   "sheepes",
+   "sheep",
+   "sheeps'"
+  ],
+  "answer": "C",
+  "hint": "Dieses Tier ändert sich in der Mehrzahl nicht.",
+  "explanation": "Bei sheep sind Einzahl und Mehrzahl gleich: one sheep, two sheep.",
+  "more": "Auch fish bleibt gleich: one fish, two fish. Solche Wörter muss man sich einfach merken!"
+ },
+ {
+  "id": "de-englisch-208",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „Tomorrow we ___ visit Grandma.“",
+  "options": [
+   "did",
+   "was",
+   "has",
+   "will"
+  ],
+  "answer": "D",
+  "hint": "Es geht um etwas, das in der Zukunft passiert.",
+  "explanation": "Mit „will“ + Verb sprichst du über die Zukunft: We will visit Grandma.",
+  "more": "„Will not“ kürzt man zu „won't“. Das klingt ein bisschen wie „woont“ und kommt in vielen englischen Liedern vor!"
+ },
+ {
+  "id": "de-englisch-209",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „This is the ___ day of my life!“",
+  "options": [
+   "best",
+   "goodest",
+   "better",
+   "most good"
+  ],
+  "answer": "A",
+  "hint": "Hier brauchst du die höchste Stufe von „good“.",
+  "explanation": "Die Steigerung von good heißt better – the best. Nach „the“ steht deshalb best.",
+  "more": "Auch bad ist unregelmäßig: bad – worse – the worst. Diese Sonderfälle muss man auswendig lernen!"
+ },
+ {
+  "id": "de-englisch-210",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Frage passt zur Antwort „It's two pounds.“?",
+  "options": [
+   "How many is it?",
+   "How much is it?",
+   "How old is it?",
+   "How long is it?"
+  ],
+  "answer": "B",
+  "hint": "Du willst wissen, was etwas kostet.",
+  "explanation": "Mit „How much …?“ fragt man nach dem Preis. Die Antwort nennt eine Menge Geld.",
+  "more": "In Großbritannien zahlt man mit Pfund und Pence statt mit Euro und Cent. Ein pound hat 100 pence!"
  }
 ]

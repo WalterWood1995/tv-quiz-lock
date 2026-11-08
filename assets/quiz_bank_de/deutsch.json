@@ -3058,5 +3058,185 @@
   "hint": "Suche das Wort mit der Endung -er, das zwei Dinge vergleicht.",
   "explanation": "„höher“ ist die erste Steigerungsstufe und vergleicht zwei Dinge. Nach dem Komparativ steht oft „als“.",
   "more": "Die drei Stufen heißen Positiv, Komparativ und Superlativ: hoch – höher – am höchsten. Manche Wörter ändern sich ganz, zum Beispiel gut – besser – am besten."
+ },
+ {
+  "id": "de-deutsch-171",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort ist richtig geschrieben?",
+  "options": [
+   "Fogel",
+   "Vogel",
+   "Vokel",
+   "Fokel"
+  ],
+  "answer": "B",
+  "hint": "Denk an das Tier, das fliegen und singen kann.",
+  "explanation": "Das Wort schreibt man „Vogel“ mit V am Anfang, auch wenn man ein F hört.",
+  "more": "Auch bei „Vater“ und „viel“ hörst du ein F, schreibst aber V. Solche Wörter merkst du dir am besten gut!"
+ },
+ {
+  "id": "de-deutsch-172",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Welches Wort hat einen Umlaut?",
+  "options": [
+   "Bein",
+   "Baum",
+   "Bär",
+   "Bus"
+  ],
+  "answer": "C",
+  "hint": "Suche die Buchstaben mit zwei Pünktchen.",
+  "explanation": "Umlaute sind ä, ö und ü. Nur „Bär“ hat einen davon.",
+  "more": "Bei der Mehrzahl bekommen viele Wörter einen Umlaut: ein Baum, zwei Bäume. Die Pünktchen verändern den Klang!"
+ },
+ {
+  "id": "de-deutsch-173",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Mit welchem Fragewort fragst du nach einer Person?",
+  "options": [
+   "Wer",
+   "Wo",
+   "Wann",
+   "Wie"
+  ],
+  "answer": "A",
+  "hint": "Du willst wissen, wer etwas tut, nicht wo oder wann.",
+  "explanation": "Mit „Wer?“ fragt man nach Personen, zum Beispiel: Wer hat Hunger?",
+  "more": "Mit „Wo?“ fragst du nach dem Ort und mit „Wann?“ nach der Zeit. Mit den W-Fragen kannst du jede Geschichte ausfragen!"
+ },
+ {
+  "id": "de-deutsch-174",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „Dach“?",
+  "options": [
+   "Dachs",
+   "Dachen",
+   "Dache",
+   "Dächer"
+  ],
+  "answer": "D",
+  "hint": "Bei diesem Wort bekommt der Selbstlaut zwei Pünktchen.",
+  "explanation": "Die Mehrzahl heißt „die Dächer“, aus a wird ä und es kommt -er dazu.",
+  "more": "Vorsicht: „Dachs“ ist ein ganz anderes Wort. Das ist ein Tier, das in einem Bau unter der Erde wohnt!"
+ },
+ {
+  "id": "de-deutsch-175",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Nachsilbe macht aus dem Verb „wohnen“ ein Nomen?",
+  "options": [
+   "-lich",
+   "-ung",
+   "-ig",
+   "-bar"
+  ],
+  "answer": "B",
+  "hint": "Das neue Wort nennt den Ort, an dem man lebt.",
+  "explanation": "Aus „wohnen“ wird mit -ung das Nomen „die Wohnung“. Nomen schreibt man groß.",
+  "more": "Mit -ung kannst du aus vielen Verben Nomen bilden: üben – die Übung, richten – die Richtung. Probier es aus!"
+ },
+ {
+  "id": "de-deutsch-176",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Satz ist ein Aufforderungssatz?",
+  "options": [
+   "Wann räumst du dein Zimmer auf?",
+   "Das Zimmer ist ordentlich.",
+   "Räum bitte dein Zimmer auf.",
+   "Wie schön das Zimmer ist!"
+  ],
+  "answer": "C",
+  "hint": "Hier wird jemand zu etwas aufgefordert, etwas zu tun.",
+  "explanation": "Ein Aufforderungssatz sagt jemandem, was er tun soll. Meist steht am Ende ein Punkt oder ein Ausrufezeichen.",
+  "more": "Mit „bitte“ klingt eine Aufforderung gleich netter. Höflichkeit öffnet manche Türen!"
+ },
+ {
+  "id": "de-deutsch-177",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort ist richtig geschrieben?",
+  "options": [
+   "Zahl",
+   "Zal",
+   "Zaahl",
+   "Zahll"
+  ],
+  "answer": "A",
+  "hint": "Das h wird nicht gesprochen, aber es dehnt den Vokal.",
+  "explanation": "Man schreibt „Zahl“ mit Dehnungs-h. Der Selbstlaut a klingt dadurch lang.",
+  "more": "Auch bei „Uhr“, „Bahn“ und „Wahl“ steht ein stummes h. Ein Dehnungs-h hörst du nicht, du musst es dir merken!"
+ },
+ {
+  "id": "de-deutsch-178",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „Ich mag Fußball, ___ mein Bruder mag lieber Tennis.“",
+  "options": [
+   "weil",
+   "deshalb",
+   "dass",
+   "aber"
+  ],
+  "answer": "D",
+  "hint": "Die zwei Hälften des Satzes sind gegensätzlich.",
+  "explanation": "„aber“ verbindet zwei Satzteile, die einen Gegensatz ausdrücken.",
+  "more": "Solche Verbindungswörter heißen Konjunktionen. Mit ihnen werden aus kurzen Sätzen lange, spannende Sätze!"
+ },
+ {
+  "id": "de-deutsch-179",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "In welchem Fall steht „des Hundes“? „Das ist der Napf des Hundes.“",
+  "options": [
+   "Nominativ (1. Fall)",
+   "Genitiv (2. Fall)",
+   "Dativ (3. Fall)",
+   "Akkusativ (4. Fall)"
+  ],
+  "answer": "B",
+  "hint": "Frage: Wessen Napf ist es?",
+  "explanation": "Mit „Wessen?“ fragt man nach dem Genitiv. Der Napf gehört des Hundes, also steht „des Hundes“ im Genitiv.",
+  "more": "Den Genitiv erkennst du oft an der Endung -es oder -s beim Nomen. Er zeigt an, wem etwas gehört!"
+ },
+ {
+  "id": "de-deutsch-180",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was bedeutet die Redewendung „Das ist ein Katzensprung“?",
+  "options": [
+   "Die Katze springt sehr hoch.",
+   "Das ist sehr gefährlich.",
+   "Der Weg ist ganz kurz.",
+   "Der Weg ist sehr weit."
+  ],
+  "answer": "C",
+  "hint": "Eine Katze springt immer nur ein kleines Stück.",
+  "explanation": "Ein Katzensprung ist eine kleine Entfernung, die man schnell zurücklegt.",
+  "more": "Redewendungen darf man nicht wörtlich nehmen. „Tomaten auf den Augen haben“ heißt zum Beispiel, etwas nicht zu sehen!"
  }
 ]
