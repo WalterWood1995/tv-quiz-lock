@@ -21,14 +21,48 @@
     ["1", "2", "3", "4"].forEach(function (k) { tizen.tvinputdevice.registerKey(k); });
   } catch (e) { /* 在电脑浏览器里预览时没有 tizen 对象 */ }
 
-  // 电脑上的答题页可达就跳过去；电脑没开时每 5 秒重试一次
+  // 服务地址可能变（平板重启后 DHCP 换了 IP）：先试上次成功的，不行就扫同一网段
+  var m = QUIZ.match(/^http:\/\/(\d+\.\d+\.\d+\.)(\d+)(:\d+)\/quiz$/);
+  var saved = null;
+  try { saved = localStorage.getItem("quizUrl"); } catch (e) {}
+
+  function probe(url) {
+    return new Promise(function (ok, fail) {
+      var done = setTimeout(fail, 1500);
+      fetch(url.replace(/\/quiz$/, "/api/state"), { cache: "no-store" }).then(function (r) {
+        clearTimeout(done);
+        if (r.ok) ok(url); else fail();
+      }, fail);
+    });
+  }
+
+  function go(url) {
+    try { localStorage.setItem("quizUrl", url); } catch (e) {}
+    location.replace(url);
+  }
+
+  function scan(host, found) {
+    if (host > 254) { found(null); return; }
+    var batch = [], stop = false;
+    for (var h = host; h < host + 40 && h <= 254; h++) {
+      batch.push(probe("http://" + m[1] + h + m[3] + "/quiz").then(function (u) {
+        if (!stop) { stop = true; found(u); }
+      }, function () {}));
+    }
+    Promise.all(batch).then(function () { if (!stop) scan(host + 40, found); });
+  }
+
   function tryOpen() {
-    fetch(QUIZ.replace(/\/quiz$/, "/api/state"), { cache: "no-store" })
-      .then(function (r) { if (!r.ok) throw new Error(r.status); location.replace(QUIZ); })
-      .catch(function (e) {
-        document.getElementById("detail").textContent = "Computer nicht erreichbar (" + QUIZ + "), neuer Versuch in 5 Sekunden";
+    probe(saved || QUIZ).then(go, function () {
+      return probe(QUIZ).then(go);
+    }).catch(function () {
+      document.getElementById("detail").textContent = "Suche Quiz-Server …";
+      scan(2, function (u) {
+        if (u) { go(u); return; }
+        document.getElementById("detail").textContent = "Quiz-Server nicht gefunden, neuer Versuch in 5 Sekunden";
         setTimeout(tryOpen, 5000);
       });
+    });
   }
   tryOpen();
 </script>
