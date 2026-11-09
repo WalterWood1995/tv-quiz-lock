@@ -3058,5 +3058,185 @@
   "hint": "In ihm sitzen die Samenanlagen.",
   "explanation": "Aus dem Fruchtknoten entsteht nach der Bestäubung die Frucht mit den Samen.",
   "more": "Bienen tragen Pollen von Blüte zu Blüte. Ohne diese Bestäubung gäbe es viele Früchte wie Äpfel und Kirschen nicht!"
+ },
+ {
+  "id": "de-sachunterricht-171",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Finger hat eine Hand?",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "10"
+  ],
+  "answer": "B",
+  "hint": "Zähle an deiner eigenen Hand nach.",
+  "explanation": "Eine Hand hat 5 Finger, der Daumen ist auch einer davon.",
+  "more": "Mit beiden Händen hast du 10 Finger. Darum zählen schon kleine Kinder oft zuerst an den Fingern!"
+ },
+ {
+  "id": "de-sachunterricht-172",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Tier lebt im Meer?",
+  "options": [
+   "die Kuh",
+   "das Reh",
+   "der Fuchs",
+   "der Wal"
+  ],
+  "answer": "D",
+  "hint": "Dieses Tier ist ein riesiger Säuger, der im Wasser schwimmt.",
+  "explanation": "Der Wal lebt im Meer. Kuh, Reh und Fuchs leben an Land.",
+  "more": "Wale atmen Luft und müssen zum Atmen immer wieder auftauchen. Sie sind keine Fische, sondern Säugetiere!"
+ },
+ {
+  "id": "de-sachunterricht-173",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Gegenstand schwimmt auf Wasser?",
+  "options": [
+   "ein Korken",
+   "ein Stein",
+   "ein Eisennagel",
+   "eine Münze"
+  ],
+  "answer": "A",
+  "hint": "Probier im Kopf aus, was in der Badewanne untergehen würde.",
+  "explanation": "Ein Korken ist leicht und hat viel Luft in sich, deshalb schwimmt er. Stein, Nagel und Münze sinken.",
+  "more": "Große Schiffe aus Eisen schwimmen trotzdem, weil sie innen sehr viel Luft enthalten. Das nennt man Auftrieb!"
+ },
+ {
+  "id": "de-sachunterricht-174",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Tier ist ein Pflanzenfresser?",
+  "options": [
+   "der Fuchs",
+   "der Wolf",
+   "die Kuh",
+   "der Löwe"
+  ],
+  "answer": "C",
+  "hint": "Dieses Tier frisst Gras und Heu.",
+  "explanation": "Kühe fressen nur Pflanzen wie Gras und Heu. Fuchs, Wolf und Löwe fressen Fleisch.",
+  "more": "Kühe haben mehrere Mägen und käuen ihr Futter wieder. Pro Tag trinken sie oft über 100 Liter Wasser!"
+ },
+ {
+  "id": "de-sachunterricht-175",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Bis zu welchem Alter müssen Kinder in Deutschland mit dem Fahrrad auf dem Gehweg fahren?",
+  "options": [
+   "bis 6 Jahre",
+   "bis 8 Jahre",
+   "bis 12 Jahre",
+   "bis 14 Jahre"
+  ],
+  "answer": "B",
+  "hint": "Die Regel gilt für jüngere Schulkinder, nicht für ältere.",
+  "explanation": "Kinder bis 8 Jahre müssen auf dem Gehweg fahren. Von 8 bis 10 Jahren dürfen sie es, danach fahren alle auf der Straße oder dem Radweg.",
+  "more": "Fahrradfahrer auf dem Gehweg müssen besonders auf Fußgänger Rücksicht nehmen. Langsam fahren schützt alle!"
+ },
+ {
+  "id": "de-sachunterricht-176",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt die Landeshauptstadt von Niedersachsen?",
+  "options": [
+   "Bremen",
+   "Hamburg",
+   "Kiel",
+   "Hannover"
+  ],
+  "answer": "D",
+  "hint": "Es ist keine Hafenstadt, sondern eine große Messestadt.",
+  "explanation": "Hannover ist die Landeshauptstadt von Niedersachsen. Bremen und Hamburg sind eigene Stadtstaaten, Kiel gehört zu Schleswig-Holstein.",
+  "more": "In Hannover findet jedes Jahr eine große Messe statt, wo Firmen aus aller Welt ihre neuesten Erfindungen zeigen!"
+ },
+ {
+  "id": "de-sachunterricht-177",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welcher Fluss fließt durch Berlin?",
+  "options": [
+   "die Elbe",
+   "der Rhein",
+   "die Spree",
+   "die Donau"
+  ],
+  "answer": "C",
+  "hint": "Der Fluss entspringt im Osten Deutschlands und fließt durch die Hauptstadt.",
+  "explanation": "Durch Berlin fließt die Spree. Elbe, Rhein und Donau fließen nicht durch die Hauptstadt.",
+  "more": "In Berlin kannst du auf der Spree sogar Boot fahren. Mitten in der Stadt gibt es viele Brücken und Ausflugsschiffe!"
+ },
+ {
+  "id": "de-sachunterricht-178",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Energiequelle ist erneuerbar, wird also nicht verbraucht?",
+  "options": [
+   "der Wind",
+   "die Kohle",
+   "das Erdöl",
+   "das Erdgas"
+  ],
+  "answer": "A",
+  "hint": "Diese Energiequelle weht immer wieder von allein.",
+  "explanation": "Wind entsteht immer wieder neu und lässt sich mit Windrädern nutzen. Kohle, Erdöl und Erdgas sind irgendwann aufgebraucht.",
+  "more": "Auch Sonne und Wasser liefern erneuerbare Energie. Windräder, Solardächer und Wasserkraftwerke sind gut fürs Klima!"
+ },
+ {
+  "id": "de-sachunterricht-179",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Womit denkst du?",
+  "options": [
+   "mit dem Magen",
+   "mit dem Gehirn",
+   "mit der Lunge",
+   "mit dem Herz"
+  ],
+  "answer": "B",
+  "hint": "Das Organ sitzt gut geschützt im Kopf.",
+  "explanation": "Das Gehirn steuert unser Denken und den ganzen Körper. Es liegt geschützt im Schädel.",
+  "more": "Dein Gehirn arbeitet auch, wenn du schläfst. Dabei sortiert es, was du am Tag erlebt hast!"
+ },
+ {
+  "id": "de-sachunterricht-180",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wer erfand um 1450 in Europa den Buchdruck mit beweglichen Buchstaben?",
+  "options": [
+   "Albert Einstein",
+   "Karl der Große",
+   "Martin Luther",
+   "Johannes Gutenberg"
+  ],
+  "answer": "D",
+  "hint": "Er stammte aus Mainz, und die erste gedruckte Bibel trägt seinen Namen.",
+  "explanation": "Johannes Gutenberg aus Mainz erfand um 1450 den Buchdruck mit beweglichen Metallbuchstaben. Dadurch wurden Bücher viel billiger.",
+  "more": "Vorher mussten Mönche Bücher mühsam von Hand abschreiben. Mit dem Buchdruck konnten viele Menschen lesen lernen!"
  }
 ]

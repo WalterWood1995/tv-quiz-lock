@@ -2176,5 +2176,185 @@
   "hint": "Finde heraus, um wie viel die Zahlen immer größer werden.",
   "explanation": "Es geht immer um 1.500 weiter: 4.000 + 1.500 = 5.500 und 5.500 + 1.500 = 7.000.",
   "more": "Zahlenfolgen findest du überall, zum Beispiel bei Hausnummern oder beim Zählen in Schritten. Such immer zuerst den Abstand!"
+ },
+ {
+  "id": "de-mathe-122",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Lena liest ein Buch mit 96 Seiten. Sie hat schon 38 Seiten gelesen. Wie viele Seiten fehlen noch?",
+  "options": [
+   "68",
+   "48",
+   "58",
+   "62"
+  ],
+  "answer": "C",
+  "hint": "Du musst herausfinden, wie viel von den 96 Seiten übrig bleibt.",
+  "explanation": "96 – 38 = 58. Es fehlen also noch 58 Seiten.",
+  "more": "Bei Aufgaben mit „noch“ oder „fehlen“ rechnest du oft minus. Mit einer Probe plus rechnen prüfst du dein Ergebnis: 58 + 38 = 96!"
+ },
+ {
+  "id": "de-mathe-123",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Beine haben ein Hund und ein Vogel zusammen?",
+  "options": [
+   "6",
+   "8",
+   "5",
+   "4"
+  ],
+  "answer": "A",
+  "hint": "Überlege erst, wie viele Beine jedes Tier hat, und rechne dann zusammen.",
+  "explanation": "Ein Hund hat 4 Beine und ein Vogel hat 2 Beine. 4 + 2 = 6.",
+  "more": "Käfer und andere Insekten haben sogar sechs Beine, Spinnen haben acht. Beine zählen ist eine tolle Rechenübung!"
+ },
+ {
+  "id": "de-mathe-124",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "In der Klasse 3a sind 24 Kinder. An jedem Tisch sitzen 4 Kinder. Wie viele Tische gibt es?",
+  "options": [
+   "4",
+   "8",
+   "20",
+   "6"
+  ],
+  "answer": "D",
+  "hint": "Du musst 24 in gleich große Gruppen aufteilen.",
+  "explanation": "24 : 4 = 6, denn 6 · 4 = 24. Es gibt also 6 Tische.",
+  "more": "Teilen ist die Umkehrung des Malnehmens. Wenn du das Einmaleins gut kennst, kannst du auch jede Teilaufgabe schnell lösen!"
+ },
+ {
+  "id": "de-mathe-125",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Der Schulweg von Mia dauert 12 Minuten. Sie geht ihn jeden Tag hin und zurück, 5 Tage lang. Wie viele Minuten ist sie insgesamt unterwegs?",
+  "options": [
+   "60 Minuten",
+   "120 Minuten",
+   "24 Minuten",
+   "100 Minuten"
+  ],
+  "answer": "B",
+  "hint": "Rechne erst den Weg für einen Tag, dann für alle Tage.",
+  "explanation": "Pro Tag sind es 12 + 12 = 24 Minuten, an 5 Tagen also 5 · 24 = 120 Minuten.",
+  "more": "120 Minuten sind genau 2 Stunden. Wer zu Fuß zur Schule geht, ist morgens schon fit und wach!"
+ },
+ {
+  "id": "de-mathe-126",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Ecken hat ein Sechseck?",
+  "options": [
+   "6",
+   "5",
+   "8",
+   "7"
+  ],
+  "answer": "A",
+  "hint": "Der Name des Vielecks verrät dir die Anzahl.",
+  "explanation": "Ein Sechseck hat 6 Ecken und 6 Seiten.",
+  "more": "Bienen bauen ihre Waben aus lauter Sechsecken. So passt viel Honig auf wenig Platz!"
+ },
+ {
+  "id": "de-mathe-127",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Quadrat hat eine Seitenlänge von 7 cm. Wie groß ist sein Umfang?",
+  "options": [
+   "14 cm",
+   "49 cm",
+   "28 cm",
+   "21 cm"
+  ],
+  "answer": "C",
+  "hint": "Der Umfang ist der Weg einmal rund um das Quadrat herum.",
+  "explanation": "Ein Quadrat hat 4 gleich lange Seiten: 4 · 7 cm = 28 cm.",
+  "more": "Die 49 aus der Aufgabe wäre der Flächeninhalt in cm². Umfang misst die Länge, Fläche misst die Größe innen!"
+ },
+ {
+  "id": "de-mathe-128",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Zehner stecken insgesamt in der Zahl 3.450?",
+  "options": [
+   "34",
+   "3.450",
+   "35",
+   "345"
+  ],
+  "answer": "D",
+  "hint": "Teile die Zahl durch 10, so oft passt ein Zehner hinein.",
+  "explanation": "3.450 : 10 = 345. In 3.450 stecken also 345 Zehner.",
+  "more": "Auch 34 Hunderter stecken in 3.450, und zwar mit 50 Rest. Zahlen lassen sich auf viele Arten zerlegen!"
+ },
+ {
+  "id": "de-mathe-129",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Konzert beginnt um 19:45 Uhr und endet um 22:10 Uhr. Wie lange dauert es?",
+  "options": [
+   "2 Std. 35 Min.",
+   "2 Std. 25 Min.",
+   "3 Std. 25 Min.",
+   "2 Std. 15 Min."
+  ],
+  "answer": "B",
+  "hint": "Gehe in Schritten bis zur vollen Stunde und dann weiter.",
+  "explanation": "Von 19:45 bis 20:00 sind es 15 Minuten, bis 22:00 Uhr noch 2 Stunden und bis 22:10 Uhr noch 10 Minuten: 15 + 10 = 25 Minuten.",
+  "more": "Beim Zeitspannen-Rechnen hilft der Weg über die volle Stunde. So vermeidest du Fehler beim Überschreiten der 60 Minuten!"
+ },
+ {
+  "id": "de-mathe-130",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Eine Familie kauft 3 Eintrittskarten zu je 6,50 € und bezahlt mit einem 50-€-Schein. Wie viel Rückgeld bekommt sie?",
+  "options": [
+   "30,50 €",
+   "19,50 €",
+   "31,50 €",
+   "29,50 €"
+  ],
+  "answer": "A",
+  "hint": "Rechne zuerst aus, was die Karten zusammen kosten.",
+  "explanation": "3 · 6,50 € = 19,50 €. Dann: 50 € – 19,50 € = 30,50 €.",
+  "more": "Beim Rückgeld zählst du vom Preis zum gegebenen Geld hoch. Das macht auch jede Kassiererin im Kopf!"
+ },
+ {
+  "id": "de-mathe-131",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was ist ein Fünftel von 45?",
+  "options": [
+   "5",
+   "40",
+   "9",
+   "15"
+  ],
+  "answer": "C",
+  "hint": "Teile 45 in 5 gleich große Teile.",
+  "explanation": "Ein Fünftel bedeutet durch 5 teilen: 45 : 5 = 9.",
+  "more": "Bei einem Bruch zeigt die untere Zahl, in wie viele gleiche Teile ein Ganzes zerlegt wird. Fünf gleiche Teile ergeben das Ganze wieder!"
  }
 ]
