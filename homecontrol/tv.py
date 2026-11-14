@@ -82,6 +82,15 @@ class SamsungTV:
     def stop(self):
         self._soap("Stop", {"InstanceID": 0})
 
+    def casting(self):
+        """有人用 DLNA 往电视投放（电脑「投放到设备」、手机投屏等）正在播放或暂停时为 True。"""
+        try:
+            body = self._soap("GetTransportInfo", {"InstanceID": 0}).decode("utf-8", "replace")
+        except Exception:
+            return False
+        m = re.search(r"<CurrentTransportState>([^<]+)<", body)
+        return bool(m) and m.group(1) in ("PLAYING", "PAUSED_PLAYBACK", "TRANSITIONING")
+
     def play(self, url, title="家长的提醒", mime="video/mp4"):
         """Take over the screen with a video at `url`."""
         didl = ('<DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" '

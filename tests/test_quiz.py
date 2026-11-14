@@ -418,7 +418,10 @@ class VideoTests(unittest.TestCase):
         self.w.heartbeat()
         self.assertNotIn(self.w.tv_name, self.w.measure())
         self.w.quiz_seen = 0
+        self.w.tv.casting.return_value = False
         self.assertEqual(self.w.measure()[self.w.tv_name], ("inc", 1))
+        self.w.tv.casting.return_value = True  # 家长投屏不算看电视
+        self.assertNotIn(self.w.tv_name, self.w.measure())
 
     def test_daily_video_limit(self):
         self.w.video_start("a")
