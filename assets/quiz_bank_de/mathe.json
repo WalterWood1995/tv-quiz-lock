@@ -2356,5 +2356,185 @@
   "hint": "Teile 45 in 5 gleich große Teile.",
   "explanation": "Ein Fünftel bedeutet durch 5 teilen: 45 : 5 = 9.",
   "more": "Bei einem Bruch zeigt die untere Zahl, in wie viele gleiche Teile ein Ganzes zerlegt wird. Fünf gleiche Teile ergeben das Ganze wieder!"
+ },
+ {
+  "id": "de-mathe-132",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Tage hat ein Schaltjahr?",
+  "options": [
+   "365",
+   "366",
+   "364",
+   "367"
+  ],
+  "answer": "B",
+  "hint": "Ein normales Jahr hat 365 Tage. Im Schaltjahr kommt etwas dazu.",
+  "explanation": "Im Schaltjahr hat der Februar 29 statt 28 Tage. Also hat das Jahr 365 + 1 = 366 Tage.",
+  "more": "Ein Schaltjahr gibt es alle vier Jahre, zum Beispiel 2024 und 2028. Der Extra-Tag ist der 29. Februar!"
+ },
+ {
+  "id": "de-mathe-133",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Tim hat 3 Zehn-Cent-Münzen und 2 Fünf-Cent-Münzen. Wie viel Geld ist das?",
+  "options": [
+   "35 ct",
+   "32 ct",
+   "40 ct",
+   "50 ct"
+  ],
+  "answer": "C",
+  "hint": "Rechne erst die Zehner, dann die Fünfer, und zähle beides zusammen.",
+  "explanation": "3 · 10 ct = 30 ct und 2 · 5 ct = 10 ct. Zusammen sind das 30 ct + 10 ct = 40 ct.",
+  "more": "Im Euroraum gibt es acht Münzen: von 1 Cent bis 2 Euro. Mit den Münzen kannst du jeden Betrag bezahlen!"
+ },
+ {
+  "id": "de-mathe-134",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist das Doppelte von 25?",
+  "options": [
+   "30",
+   "45",
+   "52",
+   "50"
+  ],
+  "answer": "D",
+  "hint": "Doppelt heißt: die Zahl zweimal nehmen.",
+  "explanation": "Das Doppelte von 25 ist 25 + 25 = 50.",
+  "more": "Das Gegenteil vom Verdoppeln ist das Halbieren. Die Hälfte von 50 ist wieder 25!"
+ },
+ {
+  "id": "de-mathe-135",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Minuten sind eine halbe Stunde und eine Viertelstunde zusammen?",
+  "options": [
+   "35 Minuten",
+   "50 Minuten",
+   "40 Minuten",
+   "45 Minuten"
+  ],
+  "answer": "D",
+  "hint": "Eine halbe Stunde hat 30 Minuten, eine Viertelstunde 15 Minuten.",
+  "explanation": "30 Minuten + 15 Minuten = 45 Minuten. Das ist eine Dreiviertelstunde.",
+  "more": "Auf der Uhr nennt man 45 Minuten nach der vollen Stunde auch „Viertel vor“ der nächsten Stunde. Praktisch zum Zeitablesen!"
+ },
+ {
+  "id": "de-mathe-136",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Kanten hat ein Quader?",
+  "options": [
+   "12",
+   "8",
+   "6",
+   "10"
+  ],
+  "answer": "A",
+  "hint": "Zähle die Kanten oben, unten und die senkrechten dazwischen.",
+  "explanation": "Ein Quader hat 4 Kanten oben, 4 unten und 4 senkrechte Kanten. Das sind 12 Kanten.",
+  "more": "Ein Schuhkarton ist ein Quader. Probiere es aus: Du kannst alle 12 Kanten mit dem Finger nachfahren!"
+ },
+ {
+  "id": "de-mathe-137",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl kommt als Nächstes? 2, 5, 8, 11, …",
+  "options": [
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "answer": "B",
+  "hint": "Schau, um wie viel die Zahlen immer größer werden.",
+  "explanation": "Die Zahlen wachsen immer um 3: 2, 5, 8, 11, und dann 11 + 3 = 14.",
+  "more": "Solche Zahlenfolgen sind Muster. Wenn man die Regel kennt, kann man sie beliebig lange weiterschreiben!"
+ },
+ {
+  "id": "de-mathe-138",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Eine Packung enthält 6 Eier. Die Familie braucht 30 Eier. Wie viele Packungen muss sie kaufen?",
+  "options": [
+   "6",
+   "4",
+   "5",
+   "24"
+  ],
+  "answer": "C",
+  "hint": "Wie oft passt die 6 in die 30?",
+  "explanation": "Du rechnest 30 : 6 = 5. Die Familie braucht also 5 Packungen.",
+  "more": "Teilen ist die Umkehrung vom Malnehmen. Weil 5 · 6 = 30 ist, weißt du sofort, dass 30 : 6 = 5 ist!"
+ },
+ {
+  "id": "de-mathe-139",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Fahrrad kostet 240 €. Papa zahlt die Hälfte, Oma zahlt ein Viertel des Preises. Wie viel muss Mia selbst bezahlen?",
+  "options": [
+   "120 €",
+   "80 €",
+   "90 €",
+   "60 €"
+  ],
+  "answer": "D",
+  "hint": "Berechne zuerst, wie viel Papa und Oma zusammen zahlen.",
+  "explanation": "Papa zahlt 120 €, Oma 60 €. Zusammen sind das 180 €, und 240 € – 180 € = 60 €. Ein Viertel bleibt für Mia.",
+  "more": "Brüche helfen beim Verteilen: Die Hälfte und ein Viertel sind zusammen drei Viertel. Ein Viertel bleibt übrig!"
+ },
+ {
+  "id": "de-mathe-140",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Zahl hat 5 Tausender, 2 Hunderter und 8 Einer?",
+  "options": [
+   "5.208",
+   "5.280",
+   "5.028",
+   "2.508"
+  ],
+  "answer": "A",
+  "hint": "Schreibe für jede Stelle eine Ziffer. Was steht an der Zehnerstelle?",
+  "explanation": "Es gibt keine Zehner, deshalb steht dort eine 0. Die Zahl heißt 5.208.",
+  "more": "Die Null ist ein wichtiger Platzhalter. Ohne sie wären 5.208 und 528 dieselbe Zahl, und das wäre ein riesiger Unterschied!"
+ },
+ {
+  "id": "de-mathe-141",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie viele Zentimeter sind 2,5 Meter?",
+  "options": [
+   "25 cm",
+   "2.500 cm",
+   "250 cm",
+   "205 cm"
+  ],
+  "answer": "C",
+  "hint": "Ein Meter hat 100 Zentimeter.",
+  "explanation": "2 m sind 200 cm und 0,5 m sind 50 cm. Zusammen sind das 250 cm.",
+  "more": "Die Vorsilbe „Zenti“ bedeutet „hundertstel“. Darum ist ein Zentimeter ein Hundertstel Meter!"
  }
 ]

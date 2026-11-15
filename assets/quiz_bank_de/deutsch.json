@@ -3238,5 +3238,185 @@
   "hint": "Eine Katze springt immer nur ein kleines Stück.",
   "explanation": "Ein Katzensprung ist eine kleine Entfernung, die man schnell zurücklegt.",
   "more": "Redewendungen darf man nicht wörtlich nehmen. „Tomaten auf den Augen haben“ heißt zum Beispiel, etwas nicht zu sehen!"
+ },
+ {
+  "id": "de-deutsch-181",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „Fuß“?",
+  "options": [
+   "Fuße",
+   "Füßer",
+   "Füße",
+   "Füsse"
+  ],
+  "answer": "C",
+  "hint": "Sprich: Ein Fuß, zwei …",
+  "explanation": "Die Mehrzahl von „der Fuß“ ist „die Füße“. Das u wird zu ü, und man hängt -e an.",
+  "more": "Manche Wörter ändern sich in der Mehrzahl ganz unregelmäßig. „Ein Mann, viele Männer“ gehört auch dazu!"
+ },
+ {
+  "id": "de-deutsch-182",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „nass“?",
+  "options": [
+   "kalt",
+   "trocken",
+   "dunkel",
+   "leise"
+  ],
+  "answer": "B",
+  "hint": "Denke an ein Handtuch nach dem Abtrocknen.",
+  "explanation": "Das Gegenteil von nass ist trocken. Etwas Nasses enthält viel Wasser, etwas Trockenes nicht.",
+  "more": "Gegensatzpaare wie nass und trocken heißen Antonyme. Mit ihnen kann man Dinge genau beschreiben!"
+ },
+ {
+  "id": "de-deutsch-183",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Wort schreibt man mit „V“ am Anfang?",
+  "options": [
+   "Wasser",
+   "Hase",
+   "Sonne",
+   "Vogel"
+  ],
+  "answer": "D",
+  "hint": "Das Wort beginnt wie „F“, wird aber mit V geschrieben. Es fliegt am Himmel.",
+  "explanation": "„Vogel“ spricht man mit F am Anfang, schreibt es aber mit V. Man muss sich solche Wörter merken.",
+  "more": "Bei „Vater“ und „Vogel“ klingt das V wie ein F. Bei „Vase“ und „Vulkan“ klingt es dagegen wie ein W!"
+ },
+ {
+  "id": "de-deutsch-184",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie heißt die Verkleinerungsform von „Haus“?",
+  "options": [
+   "Häuschen",
+   "Hausen",
+   "Hauschen",
+   "Häusung"
+  ],
+  "answer": "A",
+  "hint": "Man hängt -chen an, und aus „au“ wird ein Umlaut.",
+  "explanation": "Mit der Endung -chen macht man Wörter klein. Dabei wird aus „au“ ein „äu“: das Häuschen.",
+  "more": "Verkleinerungen mit -chen oder -lein sind immer sächlich: das Häuschen, das Hündchen, das Bäumlein!"
+ },
+ {
+  "id": "de-deutsch-185",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie schreibt man richtig? „der Hun_“ (ein Tier, das bellt)",
+  "options": [
+   "Hunt",
+   "Hundt",
+   "Hund",
+   "Hunnt"
+  ],
+  "answer": "C",
+  "hint": "Mach aus dem Wort eine Mehrzahl, dann hörst du den letzten Buchstaben deutlich.",
+  "explanation": "Bei der Verlängerung hört man das d: die Hunde. Darum schreibt man „Hund“ mit d am Ende.",
+  "more": "Diese Verlängerungsprobe hilft auch bei „Wald“ (Wälder), „Rad“ (Räder) und „Kind“ (Kinder)!"
+ },
+ {
+  "id": "de-deutsch-186",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie lautet die Mehrzahl von „die Hand“?",
+  "options": [
+   "Hende",
+   "Händer",
+   "Hänte",
+   "Hände"
+  ],
+  "answer": "D",
+  "hint": "Das Wort Hand ist mit „a“ geschrieben. Welcher Umlaut gehört dazu?",
+  "explanation": "Aus „Hand“ wird „Hände“. Die Mehrzahl wird mit ä geschrieben, weil das Wort von „a“ kommt.",
+  "more": "Auch bei „Apfel – Äpfel“ und „Wald – Wälder“ zeigt dir das Grundwort, ob man ä oder e schreibt!"
+ },
+ {
+  "id": "de-deutsch-187",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort ist ein Verhältniswort (Präposition)?",
+  "options": [
+   "laufen",
+   "unter",
+   "schnell",
+   "Tisch"
+  ],
+  "answer": "B",
+  "hint": "Es sagt, wo etwas ist, zum Beispiel: Die Katze sitzt … dem Tisch.",
+  "explanation": "„unter“ sagt, wo etwas ist. Es ist ein Verhältniswort, so wie auch „auf“, „in“ oder „neben“.",
+  "more": "Verhältniswörter beantworten oft die Frage „Wo?“. Nach „unter“ kann der Dativ oder der Akkusativ stehen!"
+ },
+ {
+  "id": "de-deutsch-188",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "In welchem Fall steht „dem Kind“? „Ich gebe dem Kind einen Apfel.“",
+  "options": [
+   "Dativ",
+   "Nominativ",
+   "Genitiv",
+   "Akkusativ"
+  ],
+  "answer": "A",
+  "hint": "Frage: Wem gebe ich den Apfel?",
+  "explanation": "Auf die Frage „Wem?“ antwortet der Dativ. Der Dativ ist der 3. Fall.",
+  "more": "Die vier Fälle kannst du mit Fragen finden: Wer? Wessen? Wem? Wen? Das hilft beim Üben!"
+ },
+ {
+  "id": "de-deutsch-189",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort schreibt man mit Dehnungs-h?",
+  "options": [
+   "Mond",
+   "Hand",
+   "Wald",
+   "Zahn"
+  ],
+  "answer": "D",
+  "hint": "Bei diesem Wort wird der Selbstlaut lang gesprochen, obwohl danach nur ein Mitlaut kommt.",
+  "explanation": "„Zahn“ hat ein stummes h hinter dem langen a, das die Dehnung zeigt. Bei „Hand“ und „Wald“ spricht man das a kurz.",
+  "more": "Das Dehnungs-h steht oft vor l, m, n und r: Bahn, Uhr, Sahne, Kohle. Hör genau hin!"
+ },
+ {
+  "id": "de-deutsch-190",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Teil ist der Nebensatz? „Ich esse einen Apfel, weil ich Hunger habe.“",
+  "options": [
+   "weil ich Hunger habe",
+   "Ich esse einen Apfel",
+   "Ich esse",
+   "einen Apfel"
+  ],
+  "answer": "A",
+  "hint": "Im Nebensatz steht das gebeugte Verb ganz am Ende, und er beginnt mit einem Bindewort.",
+  "explanation": "„weil ich Hunger habe“ ist ein Nebensatz. Er beginnt mit „weil“ und das Verb „habe“ steht am Satzende.",
+  "more": "Zwischen Hauptsatz und Nebensatz steht immer ein Komma. Das gilt auch bei „dass“, „obwohl“ und „wenn“!"
  }
 ]
