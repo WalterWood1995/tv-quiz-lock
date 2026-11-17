@@ -72,6 +72,9 @@ class Watcher:
         self.last_heartbeat = 0
         self.quiz_seen = 0  # 只认答题页自己的心跳，enforce_loop 改 last_heartbeat 不影响它
         self.cast_logged = False
+        self.pause_until = 0  # 家长面板暂停刷题：到这个时间前不调答题页、不计电视时间
+        self.parent_ips = {ip.strip() for ip in cfg.get("quiz", "parent_ips", fallback=(
+            "127.0.0.1, 192.168.178.113, 192.168.178.44, 192.168.178.46")).split(",") if ip.strip()}
         self.last_launch = 0
         self.video_limit = cfg.getint("quiz", "daily_video_minutes", fallback=30)
         self.gesture_on = cfg.getboolean("quiz", "gesture", fallback=False)  # 实测开摄像头后平板掉线，默认关
@@ -141,6 +144,8 @@ class Watcher:
                 # 答题页（含看视频、闯关）开着的时间不算看电视；没锁时孩子也会来答题赚时间
                 quizzing = time.time() - self.quiz_seen < HEARTBEAT_TIMEOUT
                 # 家长投屏的时间也不算
+                if self.paused():
+                    continue
                 if tv and not quizzing and tv.power_state() == "on" and not (tv.casting() and not self.video_until):
                     out[name] = ("inc", 1)
                 continue
@@ -233,7 +238,7 @@ class Watcher:
             if self.video_until:
                 self.check_video()
                 continue
-            if not self.locked:
+            if not self.locked or self.paused():
                 continue
             now = time.time()
             if now - self.last_heartbeat < HEARTBEAT_TIMEOUT or now - self.last_launch < RELAUNCH_GAP:
@@ -358,6 +363,25 @@ class Watcher:
     def quiz_state(self):
         with self.lock:
             return self._public_state(load_state())
+
+    # ---- 家长面板 ----
+
+    def paused(self):
+        return time.time() < self.pause_until
+
+    def parent_state(self):
+        state = self.quiz_state()
+        state["pausedFor"] = max(0, int((self.pause_until - time.time()) / 60 + 0.99))
+        return state
+
+    def parent_pause(self, minutes):
+        """minutes > 0：暂停刷题这么多分钟（投屏、家长自己用电视）；0：马上恢复。"""
+        minutes = max(0, min(int(minutes), 24 * 60))
+        self.pause_until = time.time() + minutes * 60 if minutes else 0
+        log(f"家长面板：暂停刷题 {minutes} 分钟" if minutes else "家长面板：恢复刷题")
+        if not minutes:
+            self.last_heartbeat = 0  # 锁着就马上调回答题页
+        return self.parent_state()
 
     def quiz_question(self, difficulty):
         with self.lock:

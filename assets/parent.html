@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>电视家长面板</title>
+<style>
+  :root { --bg: #f4f5fb; --card: #fff; --text: #1d2150; --muted: #6b6f8f; --accent: #5b4cf0; --good: #1f9d5c; --warn: #d9822b; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #14162b; --card: #1f2240; --text: #eef0ff; --muted: #9aa0c8; } }
+  body { margin: 0; font-family: system-ui, "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); }
+  main { max-width: 520px; margin: 40px auto; padding: 0 16px; }
+  h1 { font-size: 24px; margin: 0 0 16px; }
+  .card { background: var(--card); border-radius: 16px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  #mode { font-size: 22px; font-weight: bold; }
+  .paused { color: var(--warn); } .active { color: var(--good); }
+  .muted { color: var(--muted); font-size: 15px; margin-top: 6px; line-height: 1.5; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  button { font: inherit; font-size: 17px; padding: 12px 18px; border-radius: 12px; border: 0; cursor: pointer;
+    background: var(--accent); color: #fff; flex: 1 1 120px; }
+  button.secondary { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+  #err { color: #d33; margin-top: 8px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>📺 电视家长面板</h1>
+  <div class="card">
+    <div id="mode">读取中…</div>
+    <div class="muted" id="detail"></div>
+  </div>
+  <div class="card">
+    <div><b>暂停刷题</b>（投屏、家长自己用电视时）</div>
+    <div class="muted">暂停期间不会跳出答题页，也不扣孩子的看电视时间。时间到了自动恢复。</div>
+    <div class="row">
+      <button data-min="30">30 分钟</button>
+      <button data-min="60">1 小时</button>
+      <button data-min="120">2 小时</button>
+      <button data-min="240">4 小时</button>
+    </div>
+    <div class="row"><button class="secondary" data-min="0">马上恢复刷题</button></div>
+    <div id="err"></div>
+  </div>
+</main>
+<script>
+  function render(s) {
+    var mode = document.getElementById("mode");
+    if (s.error) { document.getElementById("err").textContent = s.error; return; }
+    document.getElementById("err").textContent = "";
+    if (s.pausedFor > 0) {
+      mode.className = "paused";
+      mode.textContent = "⏸ 刷题已暂停，还剩 " + s.pausedFor + " 分钟";
+    } else {
+      mode.className = "active";
+      mode.textContent = s.locked ? "🔒 刷题中：电视已锁，要答题赚时间" : "▶ 正常：孩子还有时间可以看";
+    }
+    document.getElementById("detail").textContent =
+      "孩子今天余额 " + s.remaining + " 分钟 · 已看 " + s.used + " 分钟 · 答题赚了 " + s.earnedToday + " 分钟";
+  }
+  function load() {
+    fetch("/api/parent", { cache: "no-store" }).then(function (r) { return r.json(); }).then(render)
+      .catch(function () { document.getElementById("mode").textContent = "连不上 Air Agent（192.168.178.173）"; });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("button"), function (b) {
+    b.onclick = function () {
+      fetch("/api/parent/pause", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ minutes: +b.dataset.min }) }).then(function (r) { return r.json(); }).then(render);
+    };
+  });
+  load();
+  setInterval(load, 20000);
+</script>
+</body>
+</html>

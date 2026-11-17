@@ -592,3 +592,18 @@ class ReadingSkipPenaltyTest(unittest.TestCase):
         self.assertIn("error", e.next_question("medium"))
         e.read_until = 0
         self.assertTrue(e.next_question("medium").id.endswith("-3"))
+
+
+class ParentPauseTest(VideoTests):
+    def test_pause_stops_counting_and_resume(self):
+        self.w.web = mock.Mock()
+        self.w.web.online_minutes_today.return_value = {}
+        self.w.tv.power_state.return_value = "on"
+        self.w.tv.casting.return_value = False
+        self.w.quiz_seen = 0
+        self.assertIn(self.w.tv_name, self.w.measure())
+        s = self.w.parent_pause(30)
+        self.assertTrue(self.w.paused() and 29 <= s["pausedFor"] <= 30)
+        self.assertNotIn(self.w.tv_name, self.w.measure())
+        self.w.parent_pause(0)
+        self.assertFalse(self.w.paused())

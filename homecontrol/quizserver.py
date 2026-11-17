@@ -12,6 +12,7 @@ from urllib.parse import parse_qs, urlsplit
 from .speech import speak
 
 PAGE = Path(__file__).resolve().parent.parent / "assets" / "quiz.html"
+PARENT_PAGE = PAGE.with_name("parent.html")
 HAND_DIR = PAGE.parent / "hand"
 HAND_TYPES = {".html": "text/html; charset=utf-8", ".js": "text/javascript", ".mjs": "text/javascript",
               ".wasm": "application/wasm", ".task": "application/octet-stream"}
@@ -39,6 +40,13 @@ class QuizHandler(BaseHTTPRequestHandler):
     def _json(self, obj, code=200):
         self._send(code, json.dumps(obj, ensure_ascii=False).encode("utf-8"), "application/json; charset=utf-8")
 
+    def _parent(self):
+        """家长面板只给家长的电脑用（[quiz] parent_ips），电视和孩子的设备打不开。"""
+        if self.client_address[0] in self.host.parent_ips:
+            return True
+        self._json({"error": "只有家长的电脑能打开家长面板"}, 403)
+        return False
+
     def _body(self):
         n = int(self.headers.get("Content-Length") or 0)
         if not n:
@@ -56,6 +64,13 @@ class QuizHandler(BaseHTTPRequestHandler):
             self._send(200, page, "text/html; charset=utf-8")
         elif path == "/api/state":
             self._json(self.host.quiz_state())
+        elif path in ("/parent", "/api/parent"):
+            if not self._parent():
+                return
+            if path == "/parent":
+                self._send(200, PARENT_PAGE.read_bytes(), "text/html; charset=utf-8")
+            else:
+                self._json(self.host.parent_state())
         elif path == "/api/tts":
             text = parse_qs(urlsplit(self.path).query).get("text", [""])[0]
             try:
@@ -103,6 +118,9 @@ class QuizHandler(BaseHTTPRequestHandler):
         try:
             if path == "/api/question":
                 self._json(self.host.quiz_question(body.get("difficulty", "medium")))
+            elif path == "/api/parent/pause":
+                if self._parent():
+                    self._json(self.host.parent_pause(int(body.get("minutes", 0))))
             elif path == "/api/skip":
                 self._json(self.host.quiz_skip(str(body.get("id", ""))))
             elif path == "/api/answer":
