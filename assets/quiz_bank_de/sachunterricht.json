@@ -3238,5 +3238,185 @@
   "hint": "Er stammte aus Mainz, und die erste gedruckte Bibel trägt seinen Namen.",
   "explanation": "Johannes Gutenberg aus Mainz erfand um 1450 den Buchdruck mit beweglichen Metallbuchstaben. Dadurch wurden Bücher viel billiger.",
   "more": "Vorher mussten Mönche Bücher mühsam von Hand abschreiben. Mit dem Buchdruck konnten viele Menschen lesen lernen!"
+ },
+ {
+  "id": "de-sachunterricht-181",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Tier hält im Winter einen Winterschlaf?",
+  "options": [
+   "Hase",
+   "Igel",
+   "Reh",
+   "Spatz"
+  ],
+  "answer": "B",
+  "hint": "Das Tier hat Stacheln und rollt sich zu einer Kugel zusammen.",
+  "explanation": "Der Igel findet im Winter kaum Futter. Er schläft in einem Laubhaufen, bis es wieder warm wird.",
+  "more": "Beim Winterschlaf schlägt das Herz des Igels nur noch ganz langsam. So spart er Kraft, bis zum Frühling!"
+ },
+ {
+  "id": "de-sachunterricht-182",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Welches Tier hat acht Beine?",
+  "options": [
+   "Biene",
+   "Ameise",
+   "Fliege",
+   "Spinne"
+  ],
+  "answer": "D",
+  "hint": "Insekten haben sechs Beine. Dieses Tier ist kein Insekt.",
+  "explanation": "Spinnen haben acht Beine, Insekten wie Bienen, Ameisen und Fliegen nur sechs.",
+  "more": "Spinnen sind keine Insekten, sondern Spinnentiere. Ihr Körper hat nur zwei Teile, bei Insekten sind es drei!"
+ },
+ {
+  "id": "de-sachunterricht-183",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Tier gehört zu den Lurchen (Amphibien)?",
+  "options": [
+   "Eidechse",
+   "Forelle",
+   "Frosch",
+   "Maus"
+  ],
+  "answer": "C",
+  "hint": "Dieses Tier lebt als Kaulquappe im Wasser und später an Land.",
+  "explanation": "Frösche legen ihre Eier im Wasser ab. Als erwachsene Tiere leben sie auch an Land. Das ist typisch für Lurche.",
+  "more": "Lurche können durch ihre feuchte Haut atmen. Deshalb brauchen sie immer feuchte Orte zum Leben!"
+ },
+ {
+  "id": "de-sachunterricht-184",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "In welcher Himmelsrichtung geht die Sonne auf?",
+  "options": [
+   "Osten",
+   "Westen",
+   "Norden",
+   "Süden"
+  ],
+  "answer": "A",
+  "hint": "Die Sonne geht dort auf, wo der Tag beginnt, und abends geht sie auf der anderen Seite unter.",
+  "explanation": "Die Sonne geht im Osten auf und im Westen unter. Mittags steht sie bei uns im Süden.",
+  "more": "Eigentlich dreht sich die Erde, nicht die Sonne. Weil wir uns mitdrehen, sieht es so aus, als wandere die Sonne!"
+ },
+ {
+  "id": "de-sachunterricht-185",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Bei wie viel Grad Celsius kocht Wasser (auf Meereshöhe)?",
+  "options": [
+   "50 °C",
+   "100 °C",
+   "90 °C",
+   "0 °C"
+  ],
+  "answer": "B",
+  "hint": "Das Wasser sprudelt dabei und wird zu Dampf.",
+  "explanation": "Wasser kocht bei 100 °C. Bei 0 °C gefriert es zu Eis.",
+  "more": "Auf hohen Bergen kocht Wasser schon bei weniger als 100 °C. Dort braucht das Nudelkochen darum länger!"
+ },
+ {
+  "id": "de-sachunterricht-186",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Organ pumpt das Blut durch deinen Körper?",
+  "options": [
+   "Herz",
+   "Lunge",
+   "Magen",
+   "Gehirn"
+  ],
+  "answer": "A",
+  "hint": "Du kannst es fühlen, wenn du die Hand auf deine Brust legst.",
+  "explanation": "Das Herz ist ein starker Muskel. Es pumpt das Blut durch alle Adern im Körper.",
+  "more": "Dein Herz schlägt ein Leben lang, am Tag über 100.000 Mal. Es ist ungefähr so groß wie deine Faust!"
+ },
+ {
+  "id": "de-sachunterricht-187",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Bundesland ist der Fläche nach das größte in Deutschland?",
+  "options": [
+   "Niedersachsen",
+   "Nordrhein-Westfalen",
+   "Brandenburg",
+   "Bayern"
+  ],
+  "answer": "D",
+  "hint": "Zu diesem Land im Süden gehören die Alpen.",
+  "explanation": "Bayern ist mit über 70.000 Quadratkilometern das flächengrößte Bundesland. Niedersachsen ist das zweitgrößte.",
+  "more": "Nach der Zahl der Einwohner ist dagegen Nordrhein-Westfalen das größte Bundesland. Hier leben die meisten Menschen!"
+ },
+ {
+  "id": "de-sachunterricht-188",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt der höchste Berg Deutschlands?",
+  "options": [
+   "Brocken",
+   "Feldberg",
+   "Zugspitze",
+   "Watzmann"
+  ],
+  "answer": "C",
+  "hint": "Er liegt in den Alpen an der Grenze zu Österreich.",
+  "explanation": "Die Zugspitze ist mit 2.962 Metern der höchste Berg Deutschlands. Sie liegt in Bayern in den Alpen.",
+  "more": "Auf die Zugspitze fährt eine Seilbahn. Oben liegt sogar im Sommer manchmal noch Schnee!"
+ },
+ {
+  "id": "de-sachunterricht-189",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie nennt man glühend heißes, flüssiges Gestein, das aus einem Vulkan fließt?",
+  "options": [
+   "Lava",
+   "Asche",
+   "Magnet",
+   "Granit"
+  ],
+  "answer": "A",
+  "hint": "Im Inneren der Erde ist es so heiß, dass Gestein schmilzt.",
+  "explanation": "Wenn ein Vulkan ausbricht, fließt flüssiges Gestein heraus. Man nennt es Lava.",
+  "more": "Wenn Lava abkühlt, wird sie wieder fest. So entstehen neue Gesteine und manchmal sogar ganze neue Inseln!"
+ },
+ {
+  "id": "de-sachunterricht-190",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie nennt man den Wechsel von Ebbe und Flut an der Nordsee?",
+  "options": [
+   "Strömung",
+   "Brandung",
+   "Dünung",
+   "Gezeiten"
+  ],
+  "answer": "D",
+  "hint": "Das Wasser steigt und sinkt zweimal am Tag, durch die Anziehung des Mondes.",
+  "explanation": "Ebbe und Flut heißen zusammen Gezeiten. Sie entstehen vor allem durch die Anziehungskraft des Mondes.",
+  "more": "Bei Ebbe kann man im Wattenmeer wandern. Aber Vorsicht: Die Flut kommt schnell zurück!"
  }
 ]

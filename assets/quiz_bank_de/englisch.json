@@ -3778,5 +3778,185 @@
   "hint": "Du willst wissen, was etwas kostet.",
   "explanation": "Mit „How much …?“ fragt man nach dem Preis. Die Antwort nennt eine Menge Geld.",
   "more": "In Großbritannien zahlt man mit Pfund und Pence statt mit Euro und Cent. Ein pound hat 100 pence!"
+ },
+ {
+  "id": "de-englisch-211",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Ente“ auf Englisch?",
+  "options": [
+   "dog",
+   "deer",
+   "dove",
+   "duck"
+  ],
+  "answer": "D",
+  "hint": "Dieses Tier schwimmt auf dem Teich und macht „Quak“.",
+  "explanation": "„Ente“ heißt auf Englisch „duck“. „dog“ ist der Hund, „deer“ das Reh und „dove“ die Taube.",
+  "more": "Das englische Wort „duck“ ist auch ein Verb. Es bedeutet „sich ducken“, wenn etwas auf dich zufliegt!"
+ },
+ {
+  "id": "de-englisch-212",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „green“?",
+  "options": [
+   "grün",
+   "blau",
+   "gelb",
+   "grau"
+  ],
+  "answer": "A",
+  "hint": "Denke an Gras und Blätter.",
+  "explanation": "„green“ ist das englische Wort für grün. Gras und Frösche sind green.",
+  "more": "In Großbritannien sind die Briefkästen aber rot, und zwar „pillar box red“. Die Farbe erkennt man weithin!"
+ },
+ {
+  "id": "de-englisch-213",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Thank you“?",
+  "options": [
+   "Bitte",
+   "Danke",
+   "Hallo",
+   "Tschüss"
+  ],
+  "answer": "B",
+  "hint": "Man sagt es, wenn man ein Geschenk bekommt.",
+  "explanation": "„Thank you“ heißt „Danke“. Mit „You're welcome“ antwortet man darauf.",
+  "more": "Die Briten sagen sehr oft „thank you“ und „sorry“. Das gilt dort als besonders höflich!"
+ },
+ {
+  "id": "de-englisch-214",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Garten“ auf Englisch?",
+  "options": [
+   "gate",
+   "grass",
+   "garden",
+   "green"
+  ],
+  "answer": "C",
+  "hint": "Das Wort ist unserem deutschen Wort sehr ähnlich.",
+  "explanation": "„Garten“ heißt auf Englisch „garden“. Das Wort sieht dem deutschen sehr ähnlich.",
+  "more": "Viele Engländer sind stolz auf ihre Gärten. Sie pflanzen dort gern Rosen und trinken Tee im Freien!"
+ },
+ {
+  "id": "de-englisch-215",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „Where is the toilet?“",
+  "options": [
+   "Wer ist das?",
+   "Wann ist die Pause?",
+   "Wo ist die Toilette?",
+   "Was ist das?"
+  ],
+  "answer": "C",
+  "hint": "Das erste Wort fragt nach einem Ort.",
+  "explanation": "„Where“ fragt nach dem Ort. Der ganze Satz heißt „Wo ist die Toilette?“",
+  "more": "In Großbritannien sagt man oft auch „loo“ oder „bathroom“. Man kann „toilet“ aber überall verstehen!"
+ },
+ {
+  "id": "de-englisch-216",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Es ist kalt.“ auf Englisch?",
+  "options": [
+   "It's cold.",
+   "It's cool.",
+   "It's hot.",
+   "It's cloud."
+  ],
+  "answer": "A",
+  "hint": "Das Gegenteil von „hot“.",
+  "explanation": "„cold“ heißt kalt und „hot“ heißt heiß. Darum sagt man „It's cold.“",
+  "more": "Beim Wetter sagt man im Englischen immer „It's …“. Zum Beispiel „It's sunny.“ oder „It's windy.“"
+ },
+ {
+  "id": "de-englisch-217",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „clean“?",
+  "options": [
+   "tidy",
+   "dirty",
+   "cold",
+   "empty"
+  ],
+  "answer": "B",
+  "hint": "Denke an Schuhe nach einem Spaziergang im Matsch.",
+  "explanation": "„clean“ heißt sauber, das Gegenteil ist „dirty“ (schmutzig).",
+  "more": "Auch „tidy“ ist ein nützliches Wort. Es bedeutet aufgeräumt, und das Gegenteil davon ist „messy“!"
+ },
+ {
+  "id": "de-englisch-218",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „My friends ___ playing football.“",
+  "options": [
+   "is",
+   "am",
+   "are",
+   "be"
+  ],
+  "answer": "C",
+  "hint": "„My friends“ sind mehrere Personen.",
+  "explanation": "Bei mehreren Personen benutzt man „are“. Das Wort „playing“ zeigt, dass es gerade passiert.",
+  "more": "Aus „are“ und einer -ing-Form bildet man die Gegenwart für Dinge, die gerade geschehen. Zum Beispiel „I am reading.“"
+ },
+ {
+  "id": "de-englisch-219",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Frage passt zur Antwort „I'm nine years old.“?",
+  "options": [
+   "How are you?",
+   "Who are you?",
+   "What is your name?",
+   "How old are you?"
+  ],
+  "answer": "D",
+  "hint": "Es geht um das Alter.",
+  "explanation": "Mit „How old …?“ fragt man nach dem Alter. Die Antwort nennt eine Zahl.",
+  "more": "Im Englischen sagt man „I am nine“ und nicht „I have nine years“. So sagt man das Alter immer!"
+ },
+ {
+  "id": "de-englisch-220",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „leaf“ (Blatt)?",
+  "options": [
+   "leafs",
+   "leaves",
+   "leafes",
+   "leavs"
+  ],
+  "answer": "B",
+  "hint": "Das f am Ende wird zu „v“, genau wie bei „knife“.",
+  "explanation": "Bei „leaf“ wird in der Mehrzahl aus f ein v: „leaves“. Man schreibt dann -es.",
+  "more": "Auch „wolf – wolves“ und „life – lives“ folgen dieser Regel. Das sind lauter Kandidaten fürs Vokabelheft!"
  }
 ]
