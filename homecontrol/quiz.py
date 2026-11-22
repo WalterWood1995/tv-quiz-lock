@@ -40,9 +40,10 @@ LANGUAGES = {
             "cooldown": "先看看讲解，{s} 秒后再继续",
             "streak": " 连续答错 3 题了，先看讲解，1 分钟后再继续。",
             "repeat_reward": "（这题第 {n} 次出现，奖励只有 1/{k}）",
-            "skipped": "跳过了，这题不加也不扣。先看完讲解，{s} 秒后才能继续。",
+            "skipped": "跳过了，-{d} 分钟。先看完讲解，{s} 秒后才能继续。",
             "must_read": "先看完讲解，还有 {s} 秒",
             "repeat_penalty": "（这题第 {n} 次出现，答错扣一半分值）",
+            "repeat_seen": "（这题第 {n} 次出现）",
         },
     },
     "de": {
@@ -67,9 +68,10 @@ LANGUAGES = {
             "cooldown": "Lies zuerst die Erklärung, in {s} Sekunden geht es weiter.",
             "streak": " Drei Fehler hintereinander – lies die Erklärung, in 1 Minute geht es weiter.",
             "repeat_reward": " (Diese Aufgabe kommt zum {n}. Mal – nur 1/{k} der Belohnung.)",
-            "skipped": "Übersprungen – kein Plus, kein Minus. Lies die Erklärung, in {s} Sekunden geht es weiter.",
+            "skipped": "Übersprungen, −{d} Minuten. Lies die Erklärung, in {s} Sekunden geht es weiter.",
             "must_read": "Lies zuerst die Erklärung, noch {s} Sekunden.",
             "repeat_penalty": " (Diese Aufgabe kommt zum {n}. Mal – Fehler kostet die Hälfte des Werts.)",
+            "repeat_seen": " (Diese Aufgabe kommt zum {n}. Mal.)",
         },
     },
 }
@@ -587,12 +589,16 @@ class Rules:
         )
 
 
+PENALTY_FACTOR = {"easy": 2, "medium": 1, "hard": 0.5}  # 与手机 AnswerPolicy.penaltySeconds 一致
+
+
 def points(rules, question):
-    """(答对奖励, 答错扣分)。阅读理解按小题另算。"""
+    """(答对奖励, 答错扣分)。与手机新规则一致：简单题扣双倍分值，普通题扣等值，难题扣一半。
+    阅读理解每小题按普通题算。"""
     if question.passage:
-        return rules.reward_reading, rules.penalty_reading
-    return rules.reward[question.difficulty], {"easy": rules.penalty_easy, "medium": rules.penalty_medium,
-                                               "hard": rules.penalty_hard}[question.difficulty]
+        return rules.reward_reading, rules.reward_reading
+    full = rules.reward[question.difficulty]
+    return full, full * PENALTY_FACTOR[question.difficulty]
 
 
 def min_seconds(rules, question):
@@ -606,14 +612,10 @@ def min_seconds(rules, question):
 def evaluate(rules, question, correct, elapsed, earned_today, remaining, occurrence=1):
     """返回 (分钟变化, 提示语)。正数为奖励，负数为扣除。
 
-    第 1、2 次出现：正常规则（只有简单题答错才扣）。第 n≥3 次：答对奖励 ÷ 2^(n-2)，
-    答错一律扣该题满分值的 50%（与手机版一致）。"""
+    第 1、2 次出现：正常规则（只有简单题答错才扣）。第 n≥3 次：答对奖励 ÷ 2^(n-2)。
+    答错按难度扣（见 points），与手机版一致。"""
     msg = LANGUAGES[rules.language]["msg"]
     full, penalty = points(rules, question)
-    if occurrence >= 3 and not correct:
-        deduct = min(full / 2, max(0, remaining - rules.min_balance))
-        note = msg["repeat_penalty"].format(n=occurrence)
-        return (-deduct, msg["wrong_minus"].format(d=f"{deduct:g}") + note) if deduct else (0, msg["wrong"] + note)
     if correct:
         if elapsed < min_seconds(rules, question):
             return 0, msg["too_fast"]
@@ -629,7 +631,8 @@ def evaluate(rules, question, correct, elapsed, earned_today, remaining, occurre
     if not penalty:
         return 0, msg["wrong_free"]
     deduct = min(penalty, max(0, remaining - rules.min_balance))
-    return (-deduct, msg["wrong_minus"].format(d=f"{deduct:g}")) if deduct else (0, msg["wrong"])
+    note = msg["repeat_seen"].format(n=occurrence) if occurrence >= 3 else ""
+    return (-deduct, msg["wrong_minus"].format(d=f"{deduct:g}") + note) if deduct else (0, msg["wrong"] + note)
 
 
 class QuizEngine:
@@ -697,15 +700,17 @@ class QuizEngine:
     def reading_wait(self):
         return max(0, int(self.read_until - time.time() + 0.99))
 
-    def skip(self, qid):
-        """不会/超纲：不加不扣，但要先看完讲解才能出下一题。"""
+    def skip(self, qid, remaining=None):
+        """不会/超纲：扣一道简单题的分值（与手机一致），并且要先看完讲解才能出下一题。"""
         if qid not in self.pending:
             return {"error": self.lang["msg"]["expired"]}
         q, _ = self.pending.pop(qid)
         wait = min(60, max(12, len(q.explanation + q.more) // 8))
         self.read_until = time.time() + wait
+        cost = self.rules.reward["easy"]
+        delta = -min(cost, max(0, remaining - self.rules.min_balance)) if remaining is not None else 0
         return {"correct": False, "skipped": True, "answer": q.answer, "explanation": q.explanation, "more": q.more,
-                "delta": 0, "wait": wait, "message": self.lang["msg"]["skipped"].format(s=wait)}
+                "delta": delta, "wait": wait, "message": self.lang["msg"]["skipped"].format(s=wait, d=f"{-delta:g}")}
 
     def _issue(self, q):
         self.recent.add(q.id)

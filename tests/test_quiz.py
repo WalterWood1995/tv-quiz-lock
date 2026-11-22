@@ -188,8 +188,8 @@ class RulesTest(unittest.TestCase):
         self.assertEqual(quiz.evaluate(self.rules, self.easy, True, 1, 0, 0)[0], 0)
 
     def test_only_easy_wrong_is_penalized_down_to_floor(self):
-        self.assertEqual(quiz.evaluate(self.rules, self.hard, False, 10, 0, 0)[0], 0)
-        self.assertEqual(quiz.evaluate(self.rules, self.easy, False, 10, 0, 0)[0], -2)
+        self.assertEqual(quiz.evaluate(self.rules, self.hard, False, 10, 0, 0)[0], -4)  # 难题扣一半
+        self.assertEqual(quiz.evaluate(self.rules, self.easy, False, 10, 0, 0)[0], -4)  # 简单题扣双倍
         self.assertEqual(quiz.evaluate(self.rules, self.easy, False, 10, 0, -29)[0], -1)
         self.assertEqual(quiz.evaluate(self.rules, self.easy, False, 10, 0, -30)[0], 0)
 
@@ -358,7 +358,7 @@ class ScoringTests(unittest.TestCase):
         delta, message = quiz.evaluate(rules, q, True, 10, 9999, 0)
         self.assertEqual(delta, 0.5)
         self.assertIn("0.5", message)
-        self.assertEqual(quiz.evaluate(rules, q, False, 10, 0, 5)[0], -0.5)
+        self.assertEqual(quiz.evaluate(rules, q, False, 10, 0, 5)[0], -1)
 
 
 class VideoTests(unittest.TestCase):
@@ -557,8 +557,10 @@ class RepeatRuleTest(unittest.TestCase):
                 choice = q.answer if correct else (q.answer + 1) % len(q.options)
                 return e.answer(q.id, choice, 0, 100)
             self.assertEqual(ask(True)["delta"], full)
-            self.assertEqual(ask(False)["delta"], 0)       # 第 2 次：难题答错不扣
-            self.assertEqual(ask(False)["delta"], -full / 2)  # 第 3 次答错扣一半
+            self.assertEqual(ask(False)["delta"], -full / 2)  # 难题答错扣一半
+            r = ask(False)
+            self.assertEqual(r["delta"], -full / 2)        # 第 3 次也一样，只提示是第几次
+            self.assertIn("3", r["message"])
             r = ask(True)
             self.assertEqual(r["delta"], full / 4)         # 第 4 次答对 1/4
             self.assertIn("1/4", r["message"])
@@ -576,19 +578,19 @@ class ReadingSkipPenaltyTest(unittest.TestCase):
                       penalty_medium=1, penalty_hard=2, subjects=["lesen"])
         mid = Question("m", "mathe", "medium", "s", ["a", "b"], 0)
         hard = Question("h", "mathe", "hard", "s", ["a", "b"], 0)
-        self.assertEqual(evaluate(rules, mid, False, 10, 0, 50)[0], -1)
+        self.assertEqual(evaluate(rules, mid, False, 10, 0, 50)[0], -2)
         self.assertEqual(evaluate(rules, hard, False, 10, 0, 50)[0], -2)
         self.assertEqual(evaluate(rules, hard, True, 10, 0, 50)[0], 4)
         e = QuizEngine(rules)
         q1 = e.next_question("easy")
         self.assertTrue(q1.passage and q1.id.endswith("-1"))
-        self.assertEqual(evaluate(rules, q1, False, 999, 0, 50)[0], -1)
+        self.assertEqual(evaluate(rules, q1, False, 999, 0, 50)[0], -2)
         q2 = e.next_question("hard")
         self.assertEqual((q2.group, q2.passage), (q1.group, q1.passage))
         self.assertTrue(q2.id.endswith("-2"))
         self.assertEqual(evaluate(rules, q2, True, 10, 0, 50)[0], 2)
-        r = e.skip(q2.id)
-        self.assertTrue(r["skipped"] and r["wait"] >= 12 and r["delta"] == 0)
+        r = e.skip(q2.id, 50)
+        self.assertTrue(r["skipped"] and r["wait"] >= 12 and r["delta"] == -1)  # 扣一道简单题的分值
         self.assertIn("error", e.next_question("medium"))
         e.read_until = 0
         self.assertTrue(e.next_question("medium").id.endswith("-3"))

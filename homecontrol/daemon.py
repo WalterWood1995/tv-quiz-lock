@@ -9,7 +9,7 @@ from pathlib import Path
 
 from .fritzweb import FritzWeb
 from .media import local_ip, start_server
-from .quiz import QuizEngine, Rules
+from .quiz import PENALTY_FACTOR, QuizEngine, Rules
 from .quizserver import start_quiz_server
 from .reminder import VIDEO, build_video
 from .tv import SamsungTV
@@ -355,9 +355,8 @@ class Watcher:
     def _public_state(self, state):
         return {"locked": state["tv_locked"], "remaining": self.remaining(state), "used": self.used(state),
                 "limit": self.limit, "earnedToday": state["quiz"]["earned"],
-                "rewards": self.rules.reward, "penaltyEasy": self.rules.penalty_easy,
-                "penalties": {"easy": self.rules.penalty_easy, "medium": self.rules.penalty_medium,
-                              "hard": self.rules.penalty_hard},
+                "rewards": self.rules.reward, "penaltyEasy": self.rules.reward["easy"] * PENALTY_FACTOR["easy"],
+                "penalties": {d: self.rules.reward[d] * f for d, f in PENALTY_FACTOR.items()},
                 "cooldown": self.engine.cooling_down(), "lang": self.quiz_lang}
 
     def quiz_state(self):
@@ -390,9 +389,14 @@ class Watcher:
 
     def quiz_skip(self, qid):
         with self.lock:
-            result = self.engine.skip(qid)
+            state = load_state()
+            result = self.engine.skip(qid, self.remaining(state))
             if "error" not in result:
-                log(f"答题 {qid} 跳过，看讲解 {result['wait']} 秒")
+                if result["delta"] < 0:
+                    state["quiz"]["penalty"] -= result["delta"]
+                    save_state(state)
+                result["state"] = self._public_state(state)
+                log(f"答题 {qid} 跳过 {result['delta']} 分钟，看讲解 {result['wait']} 秒")
             return result
 
     def quiz_answer(self, qid, choice):
