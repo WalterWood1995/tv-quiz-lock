@@ -370,22 +370,52 @@ class Watcher:
         self.video_until = now + 8 + video["seconds"] + VIDEO_MARGIN
         locked = state["tv_locked"]
 
+        def give_back():
+            """没放成：不算今天的次数，这个视频以后还能出。"""
+            with self.lock:
+                s = load_state()
+                s["forced_videos"] = max(0, s.get("forced_videos", 0) - 1)
+                s["video_seconds"] = max(0, s.get("video_seconds", 0) - video["seconds"])
+                s["videos_seen"] = [x for x in s.get("videos_seen", []) if x != video["id"]]
+                save_state(s)
+            self.video_until = 1
+
         def go():
             if locked and not self._set_tv_internet(False):
                 log("必看视频：开网失败，取消")
-                self.video_until = 1
+                give_back()
                 return
             time.sleep(3 if locked else 0)
             try:
-                how = tv.play_youtube(video["id"])
+                how = self._play_youtube(video["id"])
                 log(f"必看视频 {video['id']}（{video['channel']}，{video['seconds']} 秒）已在电视 YouTube 打开（{how}）："
                     f"{video['title']}")
             except Exception as e:
                 log(f"必看视频打不开：{e}")
-                self.video_until = 1
+                give_back()
         threading.Thread(target=go, daemon=True).start()
         self.forced_info = {"title": video["title"], "channel": video["channel"], "seconds": video["seconds"]}
         return {"video": self.forced_info}
+
+    def _play_youtube(self, video_id):
+        """电视在路由器里可能有两个 IP（直连 / 经放大器），缓存的那个可能已经不通：挨个试。"""
+        tv = self._tv()
+        tried = []
+        candidates = [tv] if tv else []
+        try:
+            for d in self.router.find_all(self.cfg.get("devices", self.tv_name)):
+                if d["ip"] and all(c.ip != d["ip"] for c in candidates):
+                    candidates.append(SamsungTV(d["ip"], self.cfg.get("devices", self.tv_name)))
+        except Exception as e:  # 路由器一时问不到：先用已知的 IP 试
+            log(f"问路由器电视 IP 失败：{e}")
+        for c in candidates:
+            try:
+                how = c.play_youtube(video_id)
+                self.tv = c
+                return f"{how} @ {c.ip}"
+            except Exception as e:
+                tried.append(f"{c.ip}: {e}")
+        raise OSError("；".join(tried) or "找不到电视")
 
     def _check_forced(self, tv, now):
         """必看视频：没看完就离开 YouTube，重新打开同一个视频；看完了才算结束。"""
@@ -402,7 +432,7 @@ class Watcher:
                 left = int(self.video_until - now)
                 log(f"必看视频还没看完（还剩约 {left} 秒），重新打开")
                 try:
-                    tv.play_youtube(self.video_id)
+                    self._play_youtube(self.video_id)
                     self.video_started = now + 5
                 except Exception as e:
                     log(f"重新打开必看视频失败：{e}")
@@ -412,7 +442,7 @@ class Watcher:
         """到时间或电视离开答题应用就结束：先断网，再把答题页重新打开。"""
         now = time.time()
         if self.video_mode == "youtube":
-            tv = self.tv or self._tv()
+            tv = self._tv()  # 每次都问路由器：电视的 IP 可能刚换过
             if not self._check_forced(tv, now):
                 return
             if self.locked and not self._set_tv_internet(True):
@@ -467,7 +497,8 @@ class Watcher:
                 "limit": self.limit, "earnedToday": state["quiz"]["earned"],
                 "rewards": self.rules.reward, "penaltyEasy": self.rules.reward["easy"] * PENALTY_FACTOR["easy"],
                 "penalties": {d: self.rules.reward[d] * f for d, f in PENALTY_FACTOR.items()},
-                "cooldown": self.engine.cooling_down(), "lang": self.quiz_lang}
+                "cooldown": self.engine.cooling_down(), "lang": self.quiz_lang,
+                "forcedVideo": self.video_mode == "youtube"}
 
     def quiz_state(self):
         with self.lock:

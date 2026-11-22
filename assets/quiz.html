@@ -367,6 +367,7 @@
 
   function renderState(s) {
     state = s;
+    if (forced && !s.forcedVideo) { location.reload(); return; }  // 视频放完或没放成：回到出题
     var html = T.balance + " <b>" + s.remaining + "</b> " + T.minutes + "<br>" + T.usedToday + " " + s.used + "/" + s.limit;
     if (s.earnedToday) html += " · " + T.earned + " " + s.earnedToday;
     $("status").innerHTML = html;

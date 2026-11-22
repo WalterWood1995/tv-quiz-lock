@@ -623,6 +623,7 @@ class ForcedVideoTest(VideoTests):
         self.assertEqual(r["video"]["title"], "Pyramiden")
         self.w._set_tv_internet.assert_called_once_with(False)          # 锁着：先开网
         self.w.tv.play_youtube.assert_called_once_with("yt1")
+        self.assertTrue(self.w.quiz_state()["forcedVideo"])
         self.assertEqual(self.w.quiz_question("medium"), {"video": r["video"]})  # 回答题页也还是要先看视频
         self.assertNotIn(self.w.tv_name, self.w.measure())                # 看视频不算看电视
         # 中途离开 YouTube：重新打开同一个视频
