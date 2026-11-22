@@ -64,11 +64,17 @@ class QuizHandler(BaseHTTPRequestHandler):
             self._send(200, page, "text/html; charset=utf-8")
         elif path == "/api/state":
             self._json(self.host.quiz_state())
-        elif path in ("/parent", "/api/parent"):
+        elif path in ("/parent", "/api/parent") or path.startswith("/api/parent/"):
             if not self._parent():
                 return
             if path == "/parent":
                 self._send(200, PARENT_PAGE.read_bytes(), "text/html; charset=utf-8")
+            elif path == "/api/parent/stats":
+                self._json(self.host.parent_stats())
+            elif path == "/api/parent/settings":
+                self._json(self.host.parent_settings())
+            elif path == "/api/parent/version":
+                self._json(self.host.parent_version())
             else:
                 self._json(self.host.parent_state())
         elif path == "/api/tts":
@@ -118,9 +124,19 @@ class QuizHandler(BaseHTTPRequestHandler):
         try:
             if path == "/api/question":
                 self._json(self.host.quiz_question(body.get("difficulty", "medium")))
-            elif path == "/api/parent/pause":
-                if self._parent():
+            elif path.startswith("/api/parent/"):
+                if not self._parent():
+                    return
+                if path == "/api/parent/pause":
                     self._json(self.host.parent_pause(int(body.get("minutes", 0))))
+                elif path == "/api/parent/settings":
+                    self._json(self.host.parent_save_settings(body))
+                elif path == "/api/parent/grant":
+                    self._json(self.host.parent_grant(body.get("minutes", 0)))
+                elif path == "/api/parent/update":
+                    self._json(self.host.parent_update())
+                else:
+                    self._json({"error": "not found"}, 404)
             elif path == "/api/skip":
                 self._json(self.host.quiz_skip(str(body.get("id", ""))))
             elif path == "/api/answer":

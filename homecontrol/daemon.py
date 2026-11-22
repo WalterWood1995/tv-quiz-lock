@@ -1,15 +1,19 @@
 """The watcher: counts today's screen time and, once over the limit, takes over the TV —
 with the quiz screensaver if [quiz] is enabled, otherwise with the reminder video."""
 import json
+import os
+import subprocess
+import sys
 import threading
 import time
 import urllib.request
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from .fritzweb import FritzWeb
 from .media import local_ip, start_server
-from .quiz import PENALTY_FACTOR, QuizEngine, Rules
+from .config import write_config
+from .quiz import LANGUAGES, PENALTY_FACTOR, QuizEngine, Rules
 from .quizserver import start_quiz_server
 from .reminder import VIDEO, build_video
 from .tv import SamsungTV
@@ -382,6 +386,146 @@ class Watcher:
             self.last_heartbeat = 0  # 锁着就马上调回答题页
         return self.parent_state()
 
+    # ---- 答题记录和统计 ----
+
+    def _record(self, q, correct, delta, skipped=False):
+        """每次作答记一行到 data/answers.jsonl，家长面板的统计从这里算。"""
+        if q is None:
+            return
+        row = {"t": int(time.time()), "day": date.today().isoformat(), "id": q.id, "subject": q.subject,
+               "difficulty": q.difficulty, "correct": bool(correct), "skipped": skipped, "delta": delta}
+        try:
+            with open(STATE.with_name("answers.jsonl"), "a", encoding="utf-8") as f:
+                f.write(json.dumps(row, ensure_ascii=False) + "\n")
+        except OSError as e:
+            log(f"答题记录写不进去：{e}")
+
+    def parent_stats(self, days=7):
+        rows = []
+        answers = STATE.with_name("answers.jsonl")
+        if answers.exists():
+            for line in answers.read_text(encoding="utf-8").splitlines():
+                try:
+                    rows.append(json.loads(line))
+                except ValueError:
+                    pass
+        first = (date.today() - timedelta(days=days - 1)).isoformat()
+        rows = [r for r in rows if r["day"] >= first]
+        labels = LANGUAGES[self.quiz_lang]["subjects"]
+
+        def summary(rs):
+            return {"answered": len(rs), "correct": sum(r["correct"] for r in rs),
+                    "skipped": sum(r["skipped"] for r in rs),
+                    "earned": round(sum(r["delta"] for r in rs if r["delta"] > 0), 1),
+                    "lost": round(-sum(r["delta"] for r in rs if r["delta"] < 0), 1)}
+        by_day = {}
+        by_subject = {}
+        for r in rows:
+            by_day.setdefault(r["day"], []).append(r)
+            by_subject.setdefault(r["subject"], []).append(r)
+        recent = []
+        for r in rows[-30:][::-1]:
+            recent.append({"time": time.strftime("%m-%d %H:%M", time.localtime(r["t"])),
+                           "subject": labels.get(r["subject"], r["subject"]), "difficulty": r["difficulty"],
+                           "result": "skip" if r["skipped"] else "ok" if r["correct"] else "wrong",
+                           "delta": r["delta"], "id": r["id"]})
+        today = date.today().isoformat()
+        return {"today": summary(by_day.get(today, [])),
+                "days": [{"day": d, **summary(by_day[d])} for d in sorted(by_day, reverse=True)],
+                "subjects": sorted(({"subject": labels.get(s, s), **summary(rs)} for s, rs in by_subject.items()),
+                                   key=lambda x: -x["answered"]),
+                "recent": recent, "retired": sum(1 for k in self.engine.stats if self.engine.retired(k))}
+
+    # ---- 题库和规则设置 ----
+
+    def parent_settings(self):
+        known = LANGUAGES[self.quiz_lang]["subjects"]
+        return {"grade": self.rules.grade, "harder": self.rules.harder, "dailyMinutes": self.limit,
+                "dailyEarnCap": self.rules.daily_earn_cap, "subjects": self.rules.subjects,
+                "allSubjects": [{"key": k, "label": v} for k, v in known.items()],
+                "rewards": self.rules.reward, "rewardReading": self.rules.reward_reading,
+                "bankSize": len(self.engine.static)}
+
+    def parent_save_settings(self, body):
+        """家长面板改设置：写回 config.local.ini（保留注释），马上换新题库，不用重启。"""
+        known = LANGUAGES[self.quiz_lang]["subjects"]
+        changes = {}
+        if "grade" in body:
+            changes[("quiz", "grade")] = str(max(1, min(13, int(body["grade"]))))
+        if "harder" in body:
+            changes[("quiz", "harder")] = "true" if body["harder"] else "false"
+        if "subjects" in body:
+            subs = [s for s in body["subjects"] if s in known]
+            if not subs:
+                return {"error": "至少要选一个科目"}
+            changes[("quiz", "subjects")] = ", ".join(subs)
+        if "dailyMinutes" in body:
+            changes[("limits", "daily_minutes")] = str(max(0, min(600, int(body["dailyMinutes"]))))
+        if "dailyEarnCap" in body:
+            changes[("quiz", "daily_earn_cap")] = str(max(0, min(600, int(body["dailyEarnCap"]))))
+        with self.lock:
+            write_config(changes)
+            for (sec, key), value in changes.items():
+                self.cfg.set(sec, key, value)
+            self.limit = self.cfg["limits"].getint("daily_minutes", 60)
+            self.rules = Rules.from_config(self.cfg)
+            stats = self.engine.stats
+            self.engine = QuizEngine(self.rules, self.cfg.get("quiz", "bank_dir", fallback="").strip() or None,
+                                     stats_path=STATE.with_name("question_stats.json"))
+            self.engine.stats = stats
+            state = load_state()
+            action = self.lock_transition(state) if self.quiz_on else None
+            save_state(state)
+        self.apply_router(action)
+        log("家长面板改设置：" + "，".join(f"{k}={v}" for (_, k), v in changes.items()))
+        return self.parent_settings()
+
+    def parent_grant(self, minutes):
+        """家长直接加（或减）孩子今天的时间。"""
+        minutes = max(-120, min(240, float(minutes)))
+        with self.lock:
+            state = load_state()
+            state["quiz"]["earned"] += minutes
+            action = self.lock_transition(state) if self.quiz_on else None
+            save_state(state)
+        self.apply_router(action)
+        log(f"家长面板：{'加' if minutes >= 0 else '减'}时 {abs(minutes):g} 分钟")
+        return self.parent_state()
+
+    # ---- 更新程序 ----
+
+    def parent_update(self):
+        """git pull 拉最新代码和题库；有新代码就 2 秒后重启自己（Air Agent 上由 systemd 接着跑）。"""
+        root = STATE.parent.parent
+
+        def git(*args):
+            r = subprocess.run(["git", *args], cwd=root, capture_output=True, text=True, timeout=120,
+                               encoding="utf-8", errors="replace")
+            return r.returncode, (r.stdout + r.stderr).strip()
+        _, before = git("rev-parse", "--short", "HEAD")
+        code, out = git("pull", "--no-rebase", "--no-edit")
+        _, after = git("rev-parse", "--short", "HEAD")
+        _, logline = git("log", "-1", "--format=%cd %s", "--date=format:%Y-%m-%d %H:%M")
+        log(f"家长面板：更新 {before} → {after}")
+        changed = code == 0 and before != after
+        if changed:
+            threading.Timer(2, self._restart).start()
+        return {"ok": code == 0, "before": before, "after": after, "changed": changed, "latest": logline,
+                "output": out[-800:]}
+
+    def parent_version(self):
+        try:
+            r = subprocess.run(["git", "log", "-1", "--format=%h · %cd · %s", "--date=format:%Y-%m-%d %H:%M"],
+                               cwd=STATE.parent.parent, capture_output=True, text=True, timeout=10,
+                               encoding="utf-8", errors="replace")
+            return {"version": r.stdout.strip()}
+        except (OSError, subprocess.SubprocessError) as e:
+            return {"version": f"读不到版本：{e}"}
+
+    def _restart(self):
+        log("更新后重启答题服务")
+        os.execv(sys.executable, [sys.executable] + sys.argv)
+
     def quiz_question(self, difficulty):
         with self.lock:
             q = self.engine.next_question(difficulty)
@@ -390,8 +534,10 @@ class Watcher:
     def quiz_skip(self, qid):
         with self.lock:
             state = load_state()
+            q = self.engine.pending.get(qid, (None,))[0]
             result = self.engine.skip(qid, self.remaining(state))
             if "error" not in result:
+                self._record(q, False, result["delta"], skipped=True)
                 if result["delta"] < 0:
                     state["quiz"]["penalty"] -= result["delta"]
                     save_state(state)
@@ -403,10 +549,12 @@ class Watcher:
         action = None
         with self.lock:
             state = load_state()
+            q = self.engine.pending.get(qid, (None,))[0]
             result = self.engine.answer(qid, choice, state["quiz"]["earned"], self.remaining(state))
             if "error" in result:
                 return result
             delta = result["delta"]
+            self._record(q, result["correct"], delta)
             log(f"答题 {qid} 选 {choice}，{'对' if result['correct'] else '错'}（正确 {result['answer']}）")
             if delta > 0:
                 state["quiz"]["earned"] += delta
