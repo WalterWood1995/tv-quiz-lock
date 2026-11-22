@@ -3418,5 +3418,185 @@
   "hint": "Das Wasser steigt und sinkt zweimal am Tag, durch die Anziehung des Mondes.",
   "explanation": "Ebbe und Flut heißen zusammen Gezeiten. Sie entstehen vor allem durch die Anziehungskraft des Mondes.",
   "more": "Bei Ebbe kann man im Wattenmeer wandern. Aber Vorsicht: Die Flut kommt schnell zurück!"
+ },
+ {
+  "id": "de-sachunterricht-191",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie nennt man Tiere, die nur Fleisch fressen?",
+  "options": [
+   "Pflanzenfresser",
+   "Allesfresser",
+   "Fleischfresser",
+   "Körnerfresser"
+  ],
+  "answer": "C",
+  "hint": "Überlege, was auf dem Speiseplan dieser Tiere steht.",
+  "explanation": "Tiere, die nur Fleisch fressen, heißen Fleischfresser. Löwen und Wölfe gehören dazu.",
+  "more": "Auch ein Fleischfresser ist nicht immer wild: Eine Hauskatze frisst am liebsten Fleisch!"
+ },
+ {
+  "id": "de-sachunterricht-192",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Wie viele Jahreszeiten gibt es?",
+  "options": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": "B",
+  "hint": "Zähle: Frühling, Sommer, Herbst und …",
+  "explanation": "Es gibt vier Jahreszeiten: Frühling, Sommer, Herbst und Winter.",
+  "more": "Auf der anderen Seite der Erde ist es genau umgekehrt: Wenn bei uns Winter ist, ist dort Sommer!"
+ },
+ {
+  "id": "de-sachunterricht-193",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie heißt das Junge von der Kuh?",
+  "options": [
+   "Kalb",
+   "Fohlen",
+   "Lamm",
+   "Ferkel"
+  ],
+  "answer": "A",
+  "hint": "Es ist ein kleines Rind.",
+  "explanation": "Das Junge einer Kuh heißt Kalb.",
+  "more": "Ein Kalb steht schon kurz nach der Geburt auf und trinkt Milch von der Mutter. Das Fohlen vom Pferd kann das auch!"
+ },
+ {
+  "id": "de-sachunterricht-194",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Stadt ist die Hauptstadt von Frankreich?",
+  "options": [
+   "Berlin",
+   "Rom",
+   "Madrid",
+   "Paris"
+  ],
+  "answer": "D",
+  "hint": "Der berühmte Eiffelturm steht dort.",
+  "explanation": "Paris ist die Hauptstadt von Frankreich. Berlin gehört zu Deutschland, Rom zu Italien und Madrid zu Spanien.",
+  "more": "Der Eiffelturm in Paris ist etwa 330 Meter hoch. Im Sommer wird er durch die Wärme sogar ein paar Zentimeter größer!"
+ },
+ {
+  "id": "de-sachunterricht-195",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt die dunkle Öffnung in der Mitte des Auges, durch die das Licht fällt?",
+  "options": [
+   "Netzhaut",
+   "Pupille",
+   "Hornhaut",
+   "Wimper"
+  ],
+  "answer": "B",
+  "hint": "Bei hellem Licht wird sie kleiner, bei Dunkelheit größer.",
+  "explanation": "Durch die Pupille fällt Licht ins Auge. Sie ist ein dunkler Punkt in der Mitte der Iris.",
+  "more": "Katzen haben senkrechte Schlitze statt runder Pupillen. Damit sehen sie auch bei wenig Licht prima!"
+ },
+ {
+  "id": "de-sachunterricht-196",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was misst man mit einem Barometer?",
+  "options": [
+   "die Temperatur",
+   "die Windrichtung",
+   "den Luftdruck",
+   "die Regenmenge"
+  ],
+  "answer": "C",
+  "hint": "Das Gerät zeigt, wie stark die Luft auf uns drückt.",
+  "explanation": "Ein Barometer misst den Luftdruck. Daran erkennt man oft, ob sich das Wetter ändert.",
+  "more": "Hoher Luftdruck bringt meist schönes Wetter, tiefer Luftdruck oft Wolken und Regen. Darum steht das Barometer in der Wetterkunde!"
+ },
+ {
+  "id": "de-sachunterricht-197",
+  "subject": "sachunterricht",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Material ist ein Naturstoff?",
+  "options": [
+   "Plastik",
+   "Styropor",
+   "Nylon",
+   "Wolle"
+  ],
+  "answer": "D",
+  "hint": "Überlege, was von Tieren oder Pflanzen kommt und nicht in einer Fabrik erfunden wurde.",
+  "explanation": "Wolle wird von Schafen gewonnen und ist deshalb ein Naturstoff. Die anderen Stoffe stellt man künstlich her.",
+  "more": "Auch Baumwolle ist ein Naturstoff. Sie wächst als weiche weiße Fasern an einer Pflanze!"
+ },
+ {
+  "id": "de-sachunterricht-198",
+  "subject": "sachunterricht",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Zu welchem Bundesland gehört die Landeshauptstadt Stuttgart?",
+  "options": [
+   "Baden-Württemberg",
+   "Bayern",
+   "Hessen",
+   "Sachsen"
+  ],
+  "answer": "A",
+  "hint": "Das Bundesland liegt im Südwesten Deutschlands.",
+  "explanation": "Stuttgart ist die Landeshauptstadt von Baden-Württemberg. Die Hauptstadt von Bayern ist München.",
+  "more": "In Baden-Württemberg liegt auch der Schwarzwald, ein großes Mittelgebirge mit vielen dunklen Tannen!"
+ },
+ {
+  "id": "de-sachunterricht-199",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Ein fremder Erwachsener will dich mit zu sich nehmen. Was tust du?",
+  "options": [
+   "Mit ihm mitgehen",
+   "Laut „Nein!“ rufen und zu anderen Erwachsenen laufen",
+   "Ihm meine Adresse sagen",
+   "Stumm stehen bleiben"
+  ],
+  "answer": "B",
+  "hint": "Du darfst laut sein und Hilfe holen.",
+  "explanation": "Du gehst nie mit Fremden mit. Rufe laut „Nein!“ und laufe zu anderen Erwachsenen, zum Beispiel in ein Geschäft.",
+  "more": "Frage zu Hause, wen du im Notfall um Hilfe bitten kannst. Eine Vertrauensperson zu haben gibt Sicherheit!"
+ },
+ {
+  "id": "de-sachunterricht-200",
+  "subject": "sachunterricht",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Womit fühlst du, ob etwas warm oder kalt ist?",
+  "options": [
+   "mit den Haaren",
+   "mit den Zähnen",
+   "mit der Haut",
+   "mit den Augenbrauen"
+  ],
+  "answer": "C",
+  "hint": "Dieses Organ umhüllt deinen ganzen Körper.",
+  "explanation": "Die Haut hat viele kleine Fühler, mit denen wir Wärme, Kälte, Druck und Schmerz spüren.",
+  "more": "Deine Haut ist das größte Organ deines Körpers. Bei einem Erwachsenen wiegt sie etwa 3 bis 4 Kilogramm!"
  }
 ]

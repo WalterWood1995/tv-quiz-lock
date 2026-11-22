@@ -3418,5 +3418,185 @@
   "hint": "Im Nebensatz steht das gebeugte Verb ganz am Ende, und er beginnt mit einem Bindewort.",
   "explanation": "„weil ich Hunger habe“ ist ein Nebensatz. Er beginnt mit „weil“ und das Verb „habe“ steht am Satzende.",
   "more": "Zwischen Hauptsatz und Nebensatz steht immer ein Komma. Das gilt auch bei „dass“, „obwohl“ und „wenn“!"
+ },
+ {
+  "id": "de-deutsch-191",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 1,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „dick“?",
+  "options": [
+   "alt",
+   "dünn",
+   "klein",
+   "kurz"
+  ],
+  "answer": "B",
+  "hint": "Denk an einen Stift und einen Baumstamm.",
+  "explanation": "Das Gegenteil von „dick“ ist „dünn“.",
+  "more": "Auch bei Büchern sagt man „dick“ und „dünn“. Ein Wörterbuch ist meistens ziemlich dick!"
+ },
+ {
+  "id": "de-deutsch-192",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Was ist die Mehrzahl von „Stuhl“?",
+  "options": [
+   "Stuhls",
+   "Stuhle",
+   "Stühle",
+   "Stühler"
+  ],
+  "answer": "C",
+  "hint": "Beim Wort „Stuhl“ wird in der Mehrzahl der Selbstlaut zum Umlaut.",
+  "explanation": "Aus dem „u“ wird in der Mehrzahl ein „ü“ und es kommt ein „e“ dazu: Stühle.",
+  "more": "Auch „Buch – Bücher“ und „Hand – Hände“ bekommen in der Mehrzahl Pünktchen. Die zwei Pünktchen nennt man Umlautzeichen!"
+ },
+ {
+  "id": "de-deutsch-193",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie heißt „wir spielen“ im Präteritum?",
+  "options": [
+   "wir spielten",
+   "wir spielen",
+   "wir haben gespielt",
+   "wir spielte"
+  ],
+  "answer": "A",
+  "hint": "Das Präteritum ist die einfache Vergangenheit und endet hier auf „-ten“.",
+  "explanation": "Bei regelmäßigen Verben hängt man im Präteritum „-te“ an den Stamm. Bei „wir“ wird daraus „spielten“.",
+  "more": "Das Präteritum benutzt man oft beim Schreiben von Geschichten und Märchen. „Es war einmal …“ steht auch im Präteritum!"
+ },
+ {
+  "id": "de-deutsch-194",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "ie oder i? „der Sp_gel“ (damit schaut man sich an)",
+  "options": [
+   "i",
+   "ih",
+   "ii",
+   "ie"
+  ],
+  "answer": "D",
+  "hint": "Sprich das Wort langsam: Der Selbstlaut klingt lang.",
+  "explanation": "Der Selbstlaut klingt lang, und die meisten langen i-Laute schreibt man mit „ie“: Spiegel.",
+  "more": "Spiegelschrift kann man nur mit einem Spiegel lesen. Leonardo da Vinci hat so geheime Notizen geschrieben!"
+ },
+ {
+  "id": "de-deutsch-195",
+  "subject": "deutsch",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Wie viele Silben hat das Wort „Elefant“?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "1"
+  ],
+  "answer": "B",
+  "hint": "Klatsche das Wort in Silben: E–le–…",
+  "explanation": "Man spricht „E-le-fant“, das sind drei Silben.",
+  "more": "Elefanten sind die größten Landtiere der Erde. Mit ihrem Rüssel können sie sogar duschen und trinken!"
+ },
+ {
+  "id": "de-deutsch-196",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Wie heißt „er hat gesungen“ im Präteritum?",
+  "options": [
+   "er singte",
+   "er singt",
+   "er sang",
+   "er hat gesang"
+  ],
+  "answer": "C",
+  "hint": "Das Verb „singen“ ändert im Präteritum seinen Selbstlaut.",
+  "explanation": "„singen“ ist ein starkes Verb, es wird zu „er sang“. Eine Form wie „singte“ gibt es nicht.",
+  "more": "Solche Verben nennt man unregelmäßig. „Ich gehe – ich ging“ und „ich trinke – ich trank“ gehören auch dazu!"
+ },
+ {
+  "id": "de-deutsch-197",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welche Wortart ist „und“?",
+  "options": [
+   "Nomen (Namenwort)",
+   "Verb (Tunwort)",
+   "Adjektiv (Wiewort)",
+   "Konjunktion (Bindewort)"
+  ],
+  "answer": "D",
+  "hint": "Das Wort verbindet zwei Wörter oder Sätze miteinander.",
+  "explanation": "„und“ verbindet Wörter oder Sätze, darum ist es ein Bindewort (Konjunktion).",
+  "more": "Auch „aber“, „oder“ und „weil“ sind Bindewörter. Sie helfen, aus kurzen Sätzen lange Sätze zu bauen!"
+ },
+ {
+  "id": "de-deutsch-198",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welches Wort gehört zur Wortfamilie „lesen“?",
+  "options": [
+   "Leser",
+   "Lösung",
+   "Lasse",
+   "Läuse"
+  ],
+  "answer": "A",
+  "hint": "Achte auf den gleichen Wortstamm „les“.",
+  "explanation": "„Leser“ hat den Wortstamm „les“ wie „lesen“. Die anderen Wörter haben einen anderen Stamm.",
+  "more": "Wörter einer Wortfamilie schreibt man mit dem gleichen Stamm. Wenn du „Leser“ schreiben kannst, kannst du auch „Lesung“ richtig schreiben!"
+ },
+ {
+  "id": "de-deutsch-199",
+  "subject": "deutsch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Satzzeichen steht hier an der Lücke? Mama fragt__ „Hast du Hunger?“",
+  "options": [
+   "ein Komma",
+   "ein Semikolon",
+   "ein Doppelpunkt",
+   "ein Punkt"
+  ],
+  "answer": "C",
+  "hint": "Der Begleitsatz steht vor der wörtlichen Rede und kündigt sie an.",
+  "explanation": "Steht der Begleitsatz vor der wörtlichen Rede, setzt man danach einen Doppelpunkt: Mama fragt: „Hast du Hunger?“",
+  "more": "Anführungszeichen unten und oben nennt man auch „Gänsefüßchen“. Sie zeigen, was jemand genau sagt!"
+ },
+ {
+  "id": "de-deutsch-200",
+  "subject": "deutsch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie heißt die Verkleinerungsform von „Katze“?",
+  "options": [
+   "Katzchen",
+   "Kätzchen",
+   "Katzlein",
+   "Kätzchenn"
+  ],
+  "answer": "B",
+  "hint": "Die Endung „-chen“ macht Wörter klein, und der Selbstlaut bekommt Pünktchen.",
+  "explanation": "Mit der Nachsilbe „-chen“ wird aus „Katze“ das Wort „Kätzchen“ und aus „a“ wird „ä“.",
+  "more": "Neben „-chen“ gibt es auch die Endung „-lein“, zum Beispiel bei „Fräulein“ oder „Büchlein“. Die Endung macht immer ein neutrales Wort!"
  }
 ]
