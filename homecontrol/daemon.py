@@ -2,6 +2,7 @@
 with the quiz screensaver if [quiz] is enabled, otherwise with the reminder video."""
 import json
 import os
+import random
 import subprocess
 import sys
 import threading
@@ -16,6 +17,7 @@ from .config import write_config
 from .quiz import LANGUAGES, PENALTY_FACTOR, QuizEngine, Rules
 from .quizserver import start_quiz_server
 from .reminder import VIDEO, build_video
+from . import ytpick
 from .tv import SamsungTV
 
 STATE = Path(__file__).resolve().parent.parent / "data" / "usage.json"
@@ -87,6 +89,18 @@ class Watcher:
         self.video_stay = False
         self.video_id = None
         self.video_away = 0
+        # 必看科普视频：答几道题后随机插一个，在电视自带的 YouTube 应用里放，不能跳过
+        self.video_mode = None  # "youtube" 表示正在放必看视频
+        self.forced_info = None
+        self.video_relaunches = 0
+        self.forced_on = cfg.getboolean("quiz", "forced_videos", fallback=True)
+        self.forced_per_day = cfg.getint("quiz", "forced_videos_per_day", fallback=3)
+        self.forced_every = (cfg.getint("quiz", "forced_video_min_questions", fallback=4),
+                             cfg.getint("quiz", "forced_video_max_questions", fallback=8))
+        self.video_channels = [c.strip() for c in cfg.get("quiz", "video_channels", fallback="").split(",")
+                               if c.strip()] or ytpick.CHANNELS
+        self.since_video = 0
+        self.next_video_after = random.randint(*self.forced_every)
 
     def _tv(self):
         """Find the TV's current IP via the router (it may change while the TV sleeps)."""
@@ -148,7 +162,7 @@ class Watcher:
                 # 答题页（含看视频、闯关）开着的时间不算看电视；没锁时孩子也会来答题赚时间
                 quizzing = time.time() - self.quiz_seen < HEARTBEAT_TIMEOUT
                 # 家长投屏的时间也不算
-                if self.paused():
+                if self.paused() or self.video_mode == "youtube":
                     continue
                 if tv and not quizzing and tv.power_state() == "on" and not (tv.casting() and not self.video_until):
                     out[name] = ("inc", 1)
@@ -210,6 +224,7 @@ class Watcher:
             state["tv_locked"] = True
             self.locked = True
             self.video_until = 0  # 看视频时余额用完：断网，回答题页
+            self.video_mode = None
             self.last_heartbeat = 0  # 立刻打开答题页
             log("时间用完：电视断外网，开始显示答题屏保")
             return "block"
@@ -323,9 +338,100 @@ class Watcher:
         if self.video_until:
             self.video_until = 1  # 交给 enforce_loop 收尾
 
+    # ---- 必看科普视频（电视 YouTube 应用） ----
+
+    def forced_video_due(self, state):
+        return (self.forced_on and not self.paused() and not self.video_until
+                and self.since_video >= self.next_video_after
+                and state.get("forced_videos", 0) < self.forced_per_day)
+
+    def forced_video_start(self, state):
+        """挑一个没看过的科普短视频，开网后在电视 YouTube 里放。返回给答题页的说明，挑不到返回 None。
+        调用方拿着账本锁；路由器和电视的请求放到后台线程里做。"""
+        video = ytpick.pick(set(state.get("videos_seen", [])), max(60, self._videos_left(state)))
+        if video is None:
+            return None
+        tv = self.tv or self._tv()
+        if tv is None:
+            return None
+        state["forced_videos"] = state.get("forced_videos", 0) + 1
+        state["videos_seen"] = state.get("videos_seen", []) + [video["id"]]
+        state["video_seconds"] = state.get("video_seconds", 0) + video["seconds"]
+        save_state(state)
+        self.since_video = 0
+        self.next_video_after = random.randint(*self.forced_every)
+        now = time.time()
+        self.video_mode = "youtube"
+        self.video_id = video["id"]
+        self.video_away = 0
+        self.video_relaunches = 0
+        self.video_stay = False
+        self.video_started = now + 8  # 开网、打开 YouTube 要几秒
+        self.video_until = now + 8 + video["seconds"] + VIDEO_MARGIN
+        locked = state["tv_locked"]
+
+        def go():
+            if locked and not self._set_tv_internet(False):
+                log("必看视频：开网失败，取消")
+                self.video_until = 1
+                return
+            time.sleep(3 if locked else 0)
+            try:
+                how = tv.play_youtube(video["id"])
+                log(f"必看视频 {video['id']}（{video['channel']}，{video['seconds']} 秒）已在电视 YouTube 打开（{how}）："
+                    f"{video['title']}")
+            except Exception as e:
+                log(f"必看视频打不开：{e}")
+                self.video_until = 1
+        threading.Thread(target=go, daemon=True).start()
+        self.forced_info = {"title": video["title"], "channel": video["channel"], "seconds": video["seconds"]}
+        return {"video": self.forced_info}
+
+    def _check_forced(self, tv, now):
+        """必看视频：没看完就离开 YouTube，重新打开同一个视频；看完了才算结束。"""
+        if now >= self.video_until:
+            return True
+        if now > self.video_started + VIDEO_GRACE and tv and tv.power_state() == "on":
+            self.video_away = self.video_away + 1 if tv.youtube_visible() is False else 0
+            if self.video_away >= VIDEO_AWAY_CHECKS:
+                self.video_away = 0
+                if self.video_relaunches >= 5:
+                    log("必看视频：多次离开 YouTube，结束")
+                    return True
+                self.video_relaunches += 1
+                left = int(self.video_until - now)
+                log(f"必看视频还没看完（还剩约 {left} 秒），重新打开")
+                try:
+                    tv.play_youtube(self.video_id)
+                    self.video_started = now + 5
+                except Exception as e:
+                    log(f"重新打开必看视频失败：{e}")
+        return False
+
     def check_video(self):
         """到时间或电视离开答题应用就结束：先断网，再把答题页重新打开。"""
         now = time.time()
+        if self.video_mode == "youtube":
+            tv = self.tv or self._tv()
+            if not self._check_forced(tv, now):
+                return
+            if self.locked and not self._set_tv_internet(True):
+                return
+            self.video_until = 0
+            self.video_mode = None
+            self.last_heartbeat = 0
+            log("必看视频看完了，回答题页")
+            app = self.cfg.get("quiz", "tv_app", fallback="").strip()
+            try:
+                if tv and tv.power_state() == "on":
+                    tv.close_youtube()
+                    time.sleep(2)
+                    if app:
+                        tv.launch_app(app)
+                        self.last_launch = time.time()
+            except Exception as e:
+                log(f"必看视频结束后回答题页失败: {e}")
+            return
         app = self.cfg.get("quiz", "tv_app", fallback="").strip()
         tv = self.tv or self._tv()
         expired = now >= self.video_until
@@ -528,6 +634,13 @@ class Watcher:
 
     def quiz_question(self, difficulty):
         with self.lock:
+            state = load_state()
+            if self.video_mode == "youtube":  # 没看完就回到答题页：还是先看视频
+                return {"video": self.forced_info}
+            if self.forced_video_due(state):
+                forced = self.forced_video_start(state)
+                if forced:
+                    return forced
             q = self.engine.next_question(difficulty)
             return q if isinstance(q, dict) else q.public(self.quiz_lang)
 
@@ -555,6 +668,7 @@ class Watcher:
                 return result
             delta = result["delta"]
             self._record(q, result["correct"], delta)
+            self.since_video += 1
             log(f"答题 {qid} 选 {choice}，{'对' if result['correct'] else '错'}（正确 {result['answer']}）")
             if delta > 0:
                 state["quiz"]["earned"] += delta
@@ -572,8 +686,18 @@ class Watcher:
     def heartbeat(self):
         self.last_heartbeat = self.quiz_seen = time.time()
 
+    def _video_pool_loop(self):
+        while True:
+            try:
+                ytpick.refresh_pool(self.video_channels, log=log)
+            except Exception as e:
+                log(f"刷新科普视频池失败：{e}")
+            time.sleep(3 * 3600)
+
     def start_quiz(self):
         start_quiz_server(self, self.quiz_port)
+        if self.forced_on:
+            threading.Thread(target=self._video_pool_loop, daemon=True).start()
         threading.Thread(target=self.enforce_loop, daemon=True).start()
         log(f"答题屏保已启用，答题页端口 {self.quiz_port}，题库 {len(self.engine.static)} 道选择题 + 数学自动出题")
 

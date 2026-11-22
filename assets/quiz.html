@@ -236,7 +236,6 @@
       <button class="nav act" id="read"></button>
       <button class="nav act" id="explain"></button>
       <button class="nav act" id="next"></button>
-      <button class="nav act" id="videos">🎬 Videos</button>
       <div id="unlocked"></div>
     </div>
 
@@ -416,6 +415,7 @@
     }).then(function (q) {
       if (q.error === "") return;
       if (q.error) { feedback(q.error, "bad"); return; }
+      if (q.video) { forcedVideo(q.video); return; }
       question = q;
       shownAt = new Date().getTime();
       $("meta").textContent = q.subject + (q.passage ? " · " + q.title : " · " + q.difficultyLabel);
@@ -565,6 +565,7 @@
   document.addEventListener("keydown", function (e) {
     var k = e.keyCode;
     if (e.repeat && (k === 13 || (k >= 49 && k <= 52))) { e.preventDefault(); return; }  // 按久了不算连按
+    if (forced) { e.preventDefault(); return; }  // 必看视频的提示页：什么键都不管用
     if (playing) { endVideo(); e.preventDefault(); return; }  // 放视频时遥控器任意键都退出
     if (k === 10009 && videoOpen) { closeVideos(); e.preventDefault(); return; }
     var reading = $("card").classList.contains("reading");
@@ -776,7 +777,6 @@
     }).catch(function () { starting = false; offline(); });
   }
 
-  $("videos").onclick = openVideos;
 
   // 电视不让没按过键的页面自动播放（实测只显示封面），所以先让孩子按一下确定
   function videoIntro(v) {
@@ -795,14 +795,29 @@
   // 今天没看过、额度也够的闯关视频，没有就接着出普通题
   function nextStep() {
     if (new Date().getTime() < nextAllowed) return;
-    if (sinceVideo < VIDEO_EVERY) { loadQuestion(); return; }
-    sinceVideo = 0;
-    api("GET", "/api/videos").then(function (r) {
-      var fresh = r.videos.filter(function (v) { return v.quiz && r.seen.indexOf(v.id) < 0; });
-      if (fresh.length) videoIntro(pickOne(fresh));
-      else loadQuestion();
-    }).catch(loadQuestion);
+    loadQuestion();
   }
+
+  // 必看科普视频：电脑决定什么时候插（答几道题后随机），在电视的 YouTube 里放，看完自动回到这里。不能跳过。
+  var forced = false;
+  function forcedVideo(v) {
+    var box = $("vlist");
+    videoOpen = true;
+    forced = true;
+    stopAudio();
+    box.innerHTML = "";
+    box.style.display = "block";
+    var title = document.createElement("div");
+    title.className = "vq";
+    var m = Math.floor(v.seconds / 60), s = v.seconds % 60;
+    title.textContent = "🎬 Jetzt kommt ein Wissens-Video (" + m + ":" + (s < 10 ? "0" : "") + s + "): " + v.title
+      + " — " + v.channel + ". Schau es bis zum Ende, danach geht es hier weiter.";
+    box.appendChild(title);
+  }
+  // 视频看完，电脑把答题应用调回前台：重新载入，接着出题
+  document.addEventListener("visibilitychange", function () {
+    if (forced && document.visibilityState === "visible") setTimeout(function () { location.reload(); }, 1500);
+  });
 
   // 背景星星
   for (var i = 0; i < 40; i++) {

@@ -6,6 +6,7 @@ import urllib.request
 from xml.sax.saxutils import escape
 
 AVT = "urn:schemas-upnp-org:service:AVTransport:1"
+YOUTUBE_APP = "111299001912"  # 三星电视上 YouTube 应用的 id
 
 
 class SamsungTV:
@@ -43,6 +44,30 @@ class SamsungTV:
         req = urllib.request.Request(f"http://{self.ip}:8001/api/v2/applications/{app_id}", method="DELETE")
         with urllib.request.urlopen(req, timeout=6) as r:
             r.read()
+
+    def play_youtube(self, video_id):
+        """在电视自带的 YouTube 应用里打开一个视频（用电视上登录的账号，推荐会跟着变）。
+        先用 DIAL（不用配对），不行再用遥控 websocket 的深链接。"""
+        try:
+            req = urllib.request.Request(f"http://{self.ip}:8080/ws/apps/YouTube", data=f"v={video_id}".encode(),
+                                         headers={"Content-Type": "text/plain; charset=utf-8"}, method="POST")
+            with urllib.request.urlopen(req, timeout=8) as r:
+                r.read()
+            return "dial"
+        except OSError:
+            from .remote import TVRemote
+            with TVRemote(self.ip, timeout=10) as remote:
+                remote.launch(YOUTUBE_APP, f"v={video_id}")
+            return "websocket"
+
+    def youtube_visible(self):
+        return self.app_visible(YOUTUBE_APP)
+
+    def close_youtube(self):
+        try:
+            self.close_app(YOUTUBE_APP)
+        except OSError:
+            pass
 
     def wake(self):
         """Wake-on-LAN. Needs 'Power On with Mobile' enabled on the TV."""

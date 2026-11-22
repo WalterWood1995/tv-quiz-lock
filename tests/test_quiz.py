@@ -609,3 +609,36 @@ class ParentPauseTest(VideoTests):
         self.assertNotIn(self.w.tv_name, self.w.measure())
         self.w.parent_pause(0)
         self.assertFalse(self.w.paused())
+
+
+class ForcedVideoTest(VideoTests):
+    def test_forced_video_plays_on_youtube_and_cannot_be_skipped(self):
+        import threading as th
+        d = self.d
+        v = {"id": "yt1", "title": "Pyramiden", "channel": "Woozle Goozle", "seconds": 120}
+        self.w.since_video, self.w.next_video_after = 5, 4
+        with mock.patch.object(d.ytpick, "pick", return_value=v), \
+                mock.patch.object(th.Thread, "start", lambda t: t.run()):
+            r = self.w.quiz_question("medium")
+        self.assertEqual(r["video"]["title"], "Pyramiden")
+        self.w._set_tv_internet.assert_called_once_with(False)          # 锁着：先开网
+        self.w.tv.play_youtube.assert_called_once_with("yt1")
+        self.assertEqual(self.w.quiz_question("medium"), {"video": r["video"]})  # 回答题页也还是要先看视频
+        self.assertNotIn(self.w.tv_name, self.w.measure())                # 看视频不算看电视
+        # 中途离开 YouTube：重新打开同一个视频
+        self.w.video_started = 0
+        self.w.tv.power_state.return_value = "on"
+        self.w.tv.youtube_visible.return_value = False
+        for _ in range(d.VIDEO_AWAY_CHECKS):
+            self.w.check_video()
+        self.assertEqual(self.w.tv.play_youtube.call_count, 2)
+        self.assertEqual(self.w.video_mode, "youtube")
+        # 时间到：断网，关 YouTube，回答题应用
+        self.w.video_until = 1
+        with mock.patch.object(d.time, "sleep"):
+            self.w.check_video()
+        self.assertIsNone(self.w.video_mode)
+        self.w._set_tv_internet.assert_called_with(True)
+        self.w.tv.close_youtube.assert_called_once()
+        self.w.tv.launch_app.assert_called_with("X.Y")
+        self.assertEqual(d.load_state()["forced_videos"], 1)
