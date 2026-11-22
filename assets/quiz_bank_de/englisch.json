@@ -3958,5 +3958,185 @@
   "hint": "Das f am Ende wird zu „v“, genau wie bei „knife“.",
   "explanation": "Bei „leaf“ wird in der Mehrzahl aus f ein v: „leaves“. Man schreibt dann -es.",
   "more": "Auch „wolf – wolves“ und „life – lives“ folgen dieser Regel. Das sind lauter Kandidaten fürs Vokabelheft!"
+ },
+ {
+  "id": "de-englisch-221",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „elbow“?",
+  "options": [
+   "Ellenbogen",
+   "Knie",
+   "Schulter",
+   "Daumen"
+  ],
+  "answer": "A",
+  "hint": "Das Körperteil sitzt in der Mitte deines Arms.",
+  "explanation": "„elbow“ heißt auf Deutsch „Ellenbogen“.",
+  "more": "Das englische Wort „elbow“ klingt fast wie „Ellenbogen“. Beide Wörter haben dieselbe alte Wurzel!"
+ },
+ {
+  "id": "de-englisch-222",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Zahnbürste“ auf Englisch?",
+  "options": [
+   "hairbrush",
+   "toothpaste",
+   "toothbrush",
+   "paintbrush"
+  ],
+  "answer": "C",
+  "hint": "Setze „Zahn“ und „Bürste“ auf Englisch zusammen.",
+  "explanation": "„tooth“ ist der Zahn und „brush“ die Bürste: toothbrush.",
+  "more": "Mit „hairbrush“ kämmst du dir die Haare, und „paintbrush“ ist ein Pinsel. „brush“ steckt in allen drei Wörtern!"
+ },
+ {
+  "id": "de-englisch-223",
+  "subject": "englisch",
+  "difficulty": "easy",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „weather“?",
+  "options": [
+   "Wasser",
+   "Winter",
+   "Wind",
+   "Wetter"
+  ],
+  "answer": "D",
+  "hint": "Man schaut daraus aus dem Fenster und sieht Sonne oder Regen.",
+  "explanation": "„weather“ bedeutet „Wetter“. Nicht verwechseln mit „whether“, das heißt „ob“.",
+  "more": "Briten sprechen sehr gern über das Wetter. „Nice weather today, isn't it?“ ist ein beliebter Gesprächsanfang!"
+ },
+ {
+  "id": "de-englisch-224",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „It's snowing.“?",
+  "options": [
+   "Es schneit.",
+   "Es regnet.",
+   "Es ist windig.",
+   "Es ist heiß."
+  ],
+  "answer": "A",
+  "hint": "Die Antwort steckt im Wort „snow“.",
+  "explanation": "„snow“ heißt „Schnee“, und „It's snowing.“ heißt „Es schneit.“.",
+  "more": "Im Englischen hängt man „-ing“ an das Verb. So wird aus „snow“ das „snowing“ für etwas, das gerade passiert!"
+ },
+ {
+  "id": "de-englisch-225",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „Yesterday I ___ a film.“",
+  "options": [
+   "see",
+   "seen",
+   "sees",
+   "saw"
+  ],
+  "answer": "D",
+  "hint": "„Yesterday“ verrät dir, dass es um die Vergangenheit geht.",
+  "explanation": "„yesterday“ zeigt die Vergangenheit an. Die Vergangenheitsform von „see“ ist „saw“.",
+  "more": "„see – saw – seen“ ist eine unregelmäßige Reihe. Solche Reihen lernt man am besten laut im Rhythmus auswendig!"
+ },
+ {
+  "id": "de-englisch-226",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was ist das Gegenteil von „difficult“?",
+  "options": [
+   "empty",
+   "easy",
+   "fast",
+   "dirty"
+  ],
+  "answer": "B",
+  "hint": "Es bedeutet „leicht“ oder „einfach“.",
+  "explanation": "„difficult“ heißt „schwierig“. Das Gegenteil ist „easy“ (leicht).",
+  "more": "Das Wort „easy“ benutzen auch viele Deutsche: „Easy!“ heißt „Ganz locker!“. Es ist ein Lehnwort!"
+ },
+ {
+  "id": "de-englisch-227",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was heißt „Schere“ auf Englisch?",
+  "options": [
+   "glue",
+   "ruler",
+   "scissors",
+   "rubber"
+  ],
+  "answer": "C",
+  "hint": "Das englische Wort für Schere steht immer in der Mehrzahl.",
+  "explanation": "„scissors“ ist das englische Wort für Schere. „glue“ ist Kleber, „ruler“ ein Lineal.",
+  "more": "Auch „trousers“ und „glasses“ stehen immer in der Mehrzahl, weil sie aus zwei Teilen bestehen!"
+ },
+ {
+  "id": "de-englisch-228",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Was heißt „Ich möchte ein Eis, bitte.“?",
+  "options": [
+   "I am an ice cream, please.",
+   "I have ice cream, thank you.",
+   "Ice cream is my name.",
+   "I would like an ice cream, please."
+  ],
+  "answer": "D",
+  "hint": "Mit „would like“ bittest du höflich um etwas.",
+  "explanation": "„I would like …“ ist die höfliche Form für „Ich möchte …“.",
+  "more": "Mit „would like“ klingst du in Läden und Cafés besonders höflich. In England sagt man oft zusätzlich „please“ und „thank you“!"
+ },
+ {
+  "id": "de-englisch-229",
+  "subject": "englisch",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welches Wort passt? „My birthday is on the ___ of May.“ (der 5. Mai)",
+  "options": [
+   "fifth",
+   "five",
+   "fiveth",
+   "fiftieth"
+  ],
+  "answer": "A",
+  "hint": "Bei Datumsangaben braucht man die Ordnungszahl.",
+  "explanation": "Für Daten braucht man Ordnungszahlen wie first, second, third, fourth, fifth.",
+  "more": "Die ersten drei Ordnungszahlen sind besonders: first, second, third. Danach wird meistens „-th“ angehängt!"
+ },
+ {
+  "id": "de-englisch-230",
+  "subject": "englisch",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Was bedeutet „He is wearing a red jumper.“?",
+  "options": [
+   "Er springt über einen roten Zaun.",
+   "Er kauft einen roten Hut.",
+   "Er trägt einen roten Pullover.",
+   "Er hat rote Schuhe."
+  ],
+  "answer": "C",
+  "hint": "Im britischen Englisch ist ein „jumper“ ein Kleidungsstück.",
+  "explanation": "„wear“ heißt „tragen“ und „jumper“ ist im britischen Englisch ein Pullover.",
+  "more": "Die Amerikaner sagen „sweater“ statt „jumper“. Viele Wörter sind in Großbritannien und den USA verschieden!"
  }
 ]

@@ -2536,5 +2536,185 @@
   "hint": "Ein Meter hat 100 Zentimeter.",
   "explanation": "2 m sind 200 cm und 0,5 m sind 50 cm. Zusammen sind das 250 cm.",
   "more": "Die Vorsilbe „Zenti“ bedeutet „hundertstel“. Darum ist ein Zentimeter ein Hundertstel Meter!"
+ },
+ {
+  "id": "de-mathe-142",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Tank fasst 1.250 Liter Heizöl. Es werden 480 Liter entnommen. Wie viel bleibt im Tank?",
+  "options": [
+   "770 l",
+   "870 l",
+   "730 l",
+   "1.730 l"
+  ],
+  "answer": "A",
+  "hint": "Du musst die entnommene Menge von der Gesamtmenge abziehen.",
+  "explanation": "1.250 l minus 480 l sind 770 l.",
+  "more": "Ein Liter Heizöl wiegt etwa 0,85 Kilogramm. Der volle Tank wäre also über eine Tonne schwer!"
+ },
+ {
+  "id": "de-mathe-143",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Mia kauft 3 Brötchen für je 0,45 €. Wie viel muss sie bezahlen?",
+  "options": [
+   "1,25 €",
+   "1,35 €",
+   "1,15 €",
+   "1,45 €"
+  ],
+  "answer": "B",
+  "hint": "Rechne 3 mal 45 Cent und wandle das Ergebnis dann in Euro um.",
+  "explanation": "3 mal 45 ct sind 135 ct. Das sind 1,35 €.",
+  "more": "100 Cent sind ein Euro. Darum schreibt man 135 Cent auch als 1,35 € – das Komma trennt Euro und Cent!"
+ },
+ {
+  "id": "de-mathe-144",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Die Busfahrt zum Ausflug dauert 2 Stunden 30 Minuten. Wie viele Minuten sind das?",
+  "options": [
+   "130 Minuten",
+   "230 Minuten",
+   "250 Minuten",
+   "150 Minuten"
+  ],
+  "answer": "D",
+  "hint": "Eine Stunde hat 60 Minuten – wie viele sind zwei Stunden?",
+  "explanation": "2 Stunden sind 120 Minuten, dazu kommen 30 Minuten. Zusammen sind das 150 Minuten.",
+  "more": "Die Zahl 60 stammt von den alten Babyloniern. Sie rechneten im 60er-System, darum hat die Stunde 60 Minuten!"
+ },
+ {
+  "id": "de-mathe-145",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Welche Zahl ist genau 1 Hunderter kleiner als 4.350?",
+  "options": [
+   "4.250",
+   "4.340",
+   "3.350",
+   "4.450"
+  ],
+  "answer": "A",
+  "hint": "Schau dir nur die Hunderterstelle an und ziehe dort 1 ab.",
+  "explanation": "Bei 4.350 steht an der Hunderterstelle die 3. Wenn man 1 Hunderter wegnimmt, wird daraus 2: 4.250.",
+  "more": "Unser Stellenwertsystem hat zehn Ziffern von 0 bis 9. Mit ihnen kann man jede noch so große Zahl schreiben!"
+ },
+ {
+  "id": "de-mathe-146",
+  "subject": "mathe",
+  "difficulty": "easy",
+  "grade": 2,
+  "type": "choice",
+  "stem": "Eine Woche hat 7 Tage. Wie viele Tage sind 2 Wochen und 3 Tage?",
+  "options": [
+   "13 Tage",
+   "17 Tage",
+   "23 Tage",
+   "15 Tage"
+  ],
+  "answer": "B",
+  "hint": "Rechne erst die zwei Wochen in Tage um.",
+  "explanation": "2 Wochen sind 14 Tage. Mit den 3 Tagen sind das 17 Tage.",
+  "more": "Der Samstag heißt in manchen Gegenden auch Sonnabend. Beide Namen meinen denselben Tag!"
+ },
+ {
+  "id": "de-mathe-147",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Ein Dreieck hat die Seitenlängen 5 cm, 6 cm und 7 cm. Wie groß ist sein Umfang?",
+  "options": [
+   "17 cm",
+   "210 cm",
+   "16 cm",
+   "18 cm"
+  ],
+  "answer": "D",
+  "hint": "Der Umfang ist der Weg einmal rund um die Figur herum.",
+  "explanation": "Man addiert alle drei Seiten: 5 cm + 6 cm + 7 cm = 18 cm.",
+  "more": "Beim Umfang eines Kreises sagt man Mathe-Profis „Pi mal Durchmesser“. Das ist ungefähr das Dreifache des Durchmessers!"
+ },
+ {
+  "id": "de-mathe-148",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Eine Klasse mit 25 Kindern geht ins Museum. Jedes Kind zahlt 4,20 € Eintritt. Wie viel kostet es insgesamt?",
+  "options": [
+   "100 €",
+   "95 €",
+   "105 €",
+   "115 €"
+  ],
+  "answer": "C",
+  "hint": "Rechne 25 mal 4 € und dann 25 mal 20 Cent.",
+  "explanation": "25 mal 4 € sind 100 €, und 25 mal 20 ct sind 5 €. Zusammen sind das 105 €.",
+  "more": "Viele Museen sind für Kinder und Schulklassen besonders günstig oder sogar frei. Das Nachfragen lohnt sich!"
+ },
+ {
+  "id": "de-mathe-149",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie viele Sekunden sind 2 Minuten?",
+  "options": [
+   "120 Sekunden",
+   "200 Sekunden",
+   "60 Sekunden",
+   "220 Sekunden"
+  ],
+  "answer": "A",
+  "hint": "Eine Minute hat 60 Sekunden.",
+  "explanation": "Eine Minute hat 60 Sekunden, also haben 2 Minuten 2 mal 60 = 120 Sekunden.",
+  "more": "Ein Wimpernschlag dauert nur etwa eine Drittelsekunde. In einer Minute blinzeln wir ungefähr 15- bis 20-mal!"
+ },
+ {
+  "id": "de-mathe-150",
+  "subject": "mathe",
+  "difficulty": "hard",
+  "grade": 4,
+  "type": "choice",
+  "stem": "Welcher Bruch ist größer als ein halb?",
+  "options": [
+   "1/3",
+   "3/4",
+   "1/4",
+   "1/5"
+  ],
+  "answer": "B",
+  "hint": "Je größer der Nenner bei gleichem Zähler, desto kleiner ist das Stück.",
+  "explanation": "3/4 sind drei Viertel, und die sind mehr als zwei Viertel – also mehr als ein halb.",
+  "more": "Bei einer Pizza sind drei Viertel schon fast alles. Mit nur einem Viertel hättest du noch ziemlich großen Hunger!"
+ },
+ {
+  "id": "de-mathe-151",
+  "subject": "mathe",
+  "difficulty": "medium",
+  "grade": 3,
+  "type": "choice",
+  "stem": "Wie lang ist ein Auto ungefähr?",
+  "options": [
+   "40 cm",
+   "40 m",
+   "4 km",
+   "4 m"
+  ],
+  "answer": "D",
+  "hint": "Denk daran, wie viele Schritte du für die Länge eines Autos brauchst.",
+  "explanation": "Ein normales Auto ist ungefähr 4 Meter lang. 40 cm wären viel zu kurz und 40 m viel zu lang.",
+  "more": "Ein Blauwal ist mit etwa 30 Metern länger als sieben Autos hintereinander. Er ist das größte Tier der Erde!"
  }
 ]
