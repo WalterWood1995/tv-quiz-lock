@@ -555,6 +555,7 @@ class Rules:
     reward_reading: float = 2  # 阅读理解每小题
     penalty_reading: float = 1
     focus_subject: str = ""  # 重点科目，例如 lesen
+    reading_speed: float = 10  # 读短文的速度：每秒多少个字母（汉字按三分之一算）
     focus_share: float = 0  # 重点科目占全部题目的比例（0.8 = 八成）
     daily_earn_cap: int = 60
     min_balance: int = -30
@@ -581,6 +582,7 @@ class Rules:
             reward_reading=q.getfloat("reward_reading", d.reward_reading),
             penalty_reading=q.getfloat("penalty_reading", d.penalty_reading),
             focus_subject=q.get("focus_subject", d.focus_subject).strip(),
+            reading_speed=max(2.0, q.getfloat("reading_speed", d.reading_speed)),
             focus_share=max(0.0, min(1.0, q.getfloat("focus_share", d.focus_share))),
             daily_earn_cap=q.getint("daily_earn_cap", d.daily_earn_cap),
             min_balance=q.getint("min_balance", d.min_balance),
@@ -606,10 +608,10 @@ def points(rules, question):
 
 
 def min_seconds(rules, question):
-    """阅读理解第 1 小题要先读完短文（按很快的速度估：每秒 24 个字母或 8 个汉字）。"""
+    """阅读理解第 1 小题要先读完短文：按 reading_speed（每秒字母数，默认 10，汉字按三分之一）估。"""
     if question.passage and question.id.endswith("-1"):
         cjk = any("\u4e00" <= c <= "\u9fff" for c in question.passage[:50])
-        return max(rules.min_answer_seconds, len(question.passage) // (8 if cjk else 24))
+        return max(rules.min_answer_seconds, int(len(question.passage) / (rules.reading_speed / 3 if cjk else rules.reading_speed)))
     return rules.min_answer_seconds
 
 
