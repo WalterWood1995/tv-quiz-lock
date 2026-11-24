@@ -554,6 +554,8 @@ class Rules:
     penalty_hard: float = 0
     reward_reading: float = 2  # 阅读理解每小题
     penalty_reading: float = 1
+    focus_subject: str = ""  # 重点科目，例如 lesen
+    focus_share: float = 0  # 重点科目占全部题目的比例（0.8 = 八成）
     daily_earn_cap: int = 60
     min_balance: int = -30
     min_answer_seconds: int = 3
@@ -578,6 +580,8 @@ class Rules:
             penalty_hard=q.getfloat("penalty_hard", d.penalty_hard),
             reward_reading=q.getfloat("reward_reading", d.reward_reading),
             penalty_reading=q.getfloat("penalty_reading", d.penalty_reading),
+            focus_subject=q.get("focus_subject", d.focus_subject).strip(),
+            focus_share=max(0.0, min(1.0, q.getfloat("focus_share", d.focus_share))),
             daily_earn_cap=q.getint("daily_earn_cap", d.daily_earn_cap),
             min_balance=q.getint("min_balance", d.min_balance),
             min_answer_seconds=q.getint("min_answer_seconds", d.min_answer_seconds),
@@ -730,6 +734,22 @@ class QuizEngine:
         self.queue = qs[1:]
         return qs[0]
 
+    def _pick_subject(self, subjects, reading):
+        """重点科目按题目数占 focus_share；阅读一篇有好几道小题，按每篇题数折算抽中概率。"""
+        focus, share = self.rules.focus_subject, self.rules.focus_share
+        others = [s for s in subjects if s != focus]
+        if focus not in subjects or share <= 0 or not others:
+            return self.rng.choice(subjects)
+        size = 1
+        if focus in reading:
+            groups = {}
+            for s in self.static:
+                if s.subject == focus and s.group:
+                    groups[s.group] = groups.get(s.group, 0) + 1
+            size = sum(groups.values()) / len(groups) if groups else 1
+        p = 1.0 if share >= 1 else share / (share + size * (1 - share))
+        return focus if self.rng.random() < p else self.rng.choice(others)
+
     def next_question(self, difficulty):
         if self.reading_wait():
             return {"error": self.lang["msg"]["must_read"].format(s=self.reading_wait())}
@@ -745,7 +765,7 @@ class QuizEngine:
         have = {s.subject for s in self.static if s.difficulty == difficulty}
         reading = {s.subject for s in self.static if s.group}  # 阅读理解不分档，哪一档都可能出
         subjects = [s for s in self.rules.subjects if s == math or s in have or s in reading] or [math]
-        subject = self.rng.choice(subjects)
+        subject = self._pick_subject(subjects, reading)
         q = None
         if subject in reading:
             q = self._reading(subject)

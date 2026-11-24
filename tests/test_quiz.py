@@ -650,3 +650,22 @@ class ForcedVideoTest(VideoTests):
         self.w.tv.close_youtube.assert_called_once()
         self.w.tv.launch_app.assert_called_with("X.Y")
         self.assertEqual(d.load_state()["forced_videos"], 1)
+
+
+class FocusSubjectTest(unittest.TestCase):
+    def test_reading_is_about_eighty_percent_of_questions(self):
+        import random as _r
+        from homecontrol.quiz import QuizEngine, Rules
+        rules = Rules(grade=4, subjects=["mathe", "deutsch", "lesen"], focus_subject="lesen", focus_share=0.8)
+        bank = Path(__file__).resolve().parent.parent / "assets" / "quiz_bank_de"
+        e = QuizEngine(rules, str(bank), rng=_r.Random(1))
+        n = reading = 0
+        for _ in range(600):
+            q = e.next_question("medium")
+            if isinstance(q, dict):
+                continue
+            e.pending.pop(q.id, None)
+            e.read_until = 0
+            n += 1
+            reading += q.subject == "lesen"
+        self.assertTrue(0.7 < reading / n < 0.9, reading / n)
