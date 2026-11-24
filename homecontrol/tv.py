@@ -50,7 +50,8 @@ class SamsungTV:
         先用 DIAL（不用配对），不行再用遥控 websocket 的深链接。"""
         try:
             req = urllib.request.Request(f"http://{self.ip}:8080/ws/apps/YouTube", data=f"v={video_id}".encode(),
-                                         headers={"Content-Type": "text/plain; charset=utf-8"}, method="POST")
+                                         headers={"Content-Type": "text/plain; charset=utf-8",
+                                                  "Origin": "https://www.youtube.com"}, method="POST")  # 没有 Origin 电视回 403
             with urllib.request.urlopen(req, timeout=8) as r:
                 r.read()
             return "dial"
