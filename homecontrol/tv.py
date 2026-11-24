@@ -1,5 +1,6 @@
 """Samsung TV: power state, wake-on-LAN, and full-screen playback via DLNA (UPnP AVTransport)."""
 import json
+import time
 import re
 import socket
 import urllib.request
@@ -54,12 +55,21 @@ class SamsungTV:
                                                   "Origin": "https://www.youtube.com"}, method="POST")  # 没有 Origin 电视回 403
             with urllib.request.urlopen(req, timeout=8) as r:
                 r.read()
-            return "dial"
         except OSError:
             from .remote import TVRemote
             with TVRemote(self.ip, timeout=10) as remote:
                 remote.launch(YOUTUBE_APP, f"v={video_id}")
-            return "websocket"
+        # 新版 YouTube 打开后只停在「等待手机连接」的投屏画面；像手机投屏一样再发一次「播放这个视频」
+        from . import ytlounge
+        last = None
+        for _ in range(6):
+            time.sleep(4)
+            try:
+                ytlounge.play(self.ip, video_id)
+                return "lounge"
+            except (OSError, ValueError, KeyError) as e:
+                last = e
+        raise OSError(f"YouTube 投屏没成功：{last}")
 
     def youtube_visible(self):
         return self.app_visible(YOUTUBE_APP)

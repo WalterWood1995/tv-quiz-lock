@@ -367,8 +367,8 @@ class Watcher:
         self.video_away = 0
         self.video_relaunches = 0
         self.video_stay = False
-        self.video_started = now + 8  # 开网、打开 YouTube 要几秒
-        self.video_until = now + 8 + video["seconds"] + VIDEO_MARGIN
+        self.video_started = now + 20  # 开网、打开 YouTube、投屏开播要十几秒
+        self.video_until = now + 20 + video["seconds"] + VIDEO_MARGIN
         locked = state["tv_locked"]
 
         def give_back():
@@ -434,7 +434,7 @@ class Watcher:
                 log(f"必看视频还没看完（还剩约 {left} 秒），重新打开")
                 try:
                     self._play_youtube(self.video_id)
-                    self.video_started = now + 5
+                    self.video_started = now + 15
                 except Exception as e:
                     log(f"重新打开必看视频失败：{e}")
         return False
