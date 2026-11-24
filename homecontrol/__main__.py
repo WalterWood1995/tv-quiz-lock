@@ -49,17 +49,18 @@ def cmd_status(cfg, router):
         raise SystemExit("config.local.ini 的 [devices] 里还没有设备")
     for name in cfg.options("devices"):
         d = resolve(cfg, router, name)
-        blocked = router.is_blocked(d["ip"]) if d["ip"] else False
+        blocked = router.is_blocked_any(cfg.get("devices", name))
         print(f"{name:<10} {d['name']:<28} {'在线' if d['online'] else '离线'}  "
               f"{'已断网' if blocked else '可上网'}")
 
 
 def cmd_block(cfg, router, target, blocked):
     d = resolve(cfg, router, target)
-    if not d["ip"]:
+    mac = cfg.get("devices", target, fallback=target)
+    ips = router.set_blocked_all(mac, blocked)
+    if not ips:
         raise SystemExit(f"{target} 当前没有 IP 地址，无法设置")
-    router.set_blocked(d["ip"], blocked)
-    print(f"{target} ({d['name']}, {d['ip']}): {'已断网' if router.is_blocked(d['ip']) else '已恢复上网'}")
+    print(f"{target} ({d['name']}, {', '.join(ips)}): {'已断网' if router.is_blocked_any(mac) else '已恢复上网'}")
 
 
 def cmd_live(cfg, router, seconds):

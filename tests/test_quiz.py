@@ -230,6 +230,13 @@ class FakeRouter:
     def set_blocked(self, ip, blocked):
         self.blocked[ip] = blocked
 
+    def find_all(self, mac):
+        return [self.find(mac)]
+
+    def set_blocked_all(self, mac, blocked):
+        self.set_blocked("192.0.2.25", blocked)
+        return ["192.0.2.25"]
+
 
 def make_cfg():
     cfg = configparser.ConfigParser()

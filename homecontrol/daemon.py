@@ -210,7 +210,8 @@ class Watcher:
         if tv is None:
             return False
         try:
-            self.router.set_blocked(tv.ip, blocked)
+            # 电视在路由器里可能同时有直连和经放大器两条记录，两个 IP 都要改
+            self.router.set_blocked_all(self.cfg.get("devices", self.tv_name), blocked)
             return True
         except Exception as e:
             log(f"{'断网' if blocked else '恢复上网'}失败: {e}")
